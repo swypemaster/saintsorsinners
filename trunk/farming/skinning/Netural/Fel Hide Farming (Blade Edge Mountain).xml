@@ -1,0 +1,151 @@
+<!-- Copyright Liquid's Neutral Fel Hide Farming (B.E.M. Forge Camp Wrath) 2010 -->
+<!-- A Flying mount is required to get to this farming location -->
+<!-- There is no mailbox available in this part of B.E.M. -->
+<!-- 75% Knothide Leather Scraps, 20% Knothide Leather, 5% Fel Hide -->
+<!-- It's supposed to have one of the better droprates outside dungeons -->
+<!-- The mobs drop coin, cloth, grays, greens, occasional blue and rare epics -->
+<!-- Also Apexis shards are on the loottables, together with Depleted Crystal Focus -->
+<!-- Further Mark of Sargeras and Fel Armament (both used for Aldor Rep) drop -->
+<!-- Besides the loot there's herbs and ores around for the gatherers -->
+<!-- Nightmare Vine, Mana Thistle, Dreaming Glory, Adamantite and Khorium veins e.g. -->
+<!-- Lootfilter might be advised if you plan to farm here for a longer time unattended -->
+<!-- This is a quiet farm area, in the hours I spend here 1 person for Ogri'la was here -->
+<HBProfile>
+	<!-- General Configurations and settings -->
+	<Name>Liquid's Fel Hide Farming (B.E.M. Forge Camp Wrath)</Name>
+	
+	<!-- When to go for a repair -->
+	<MinDurability>0.4</MinDurability>
+	
+	<!-- When to go to vendor trash -->
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	
+	<!-- What to vendor (make sure what you want protected IS protected! -->
+	<SellGrey>True</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+		
+		<!-- What to keep (since we can't mail here, we save it in our bags) -->
+		<MailWhite>True</MailWhite>
+		<MailGreen>True</MailGreen>
+		<MailBlue>True</MailBlue>
+		<MailPurple>True</MailPurple>
+
+	<!-- The actual profile starts here -->
+	<Subprofile>
+	
+		<!-- The name of this profile -->
+		<Name>Fel Hide Farming - Wrath Hounds</Name>
+		
+		<!-- You can probably go here earlier. The mobs are around level 70 -->
+ 		<MinLevel>70</MinLevel>
+		<MaxLevel>81</MaxLevel>
+		
+		<!-- Once you talked to the vendors you are neutral with Ogri'la and can use them -->			
+		<Vendors>
+			<Vendor Name="Ogri'la Grubgiver" Entry="22266" Type="Food" X="2302.428" Y="7336.383" Z="366.8577" />
+			<Vendor Name="Ogri'la Steelshaper" Entry="22264" Type="Repair" X="2328.732" Y="7252.163" Z="365.6288" />
+			<Vendor Name="Ogri'la Merchant" Entry="22270" Type="Ammo" X="2292.901" Y="7336.018" Z="366.8579" />
+		</Vendors>
+		
+		<!-- There are no mailboxes nearby -->
+		<Mailboxes>
+
+		</Mailboxes>
+			
+	<!-- The new tag for HB 1.9.5.9 around the Hotspots tag -->
+	<GrindArea>
+		<!-- Faction 90 are the demons inhabiting Forge Camp Wrath -->
+		<Factions>90 834 2068</Factions>
+		<RandomizeHotspots>false</RandomizeHotspots>
+		<MaximumHotspotTime>7000</MaximumHotspotTime>
+		<!-- Many hotspots to cover the whole area -->
+		<Hotspots>
+		<Hotspot X="2922.944" Y="7195.993" Z="364.3864" />
+		<Hotspot X="2955.288" Y="7157.63" Z="365.2155" />
+		<Hotspot X="2991.291" Y="7116.902" Z="364.5681" />
+		<Hotspot X="3032.094" Y="7074.667" Z="365.3197" />
+		<Hotspot X="3059.059" Y="7025.153" Z="365.2179" />
+		<Hotspot X="3054.454" Y="6977.166" Z="364.9983" />
+		<Hotspot X="3072.023" Y="6929.6" Z="365.9697" />
+		<Hotspot X="3072.538" Y="6886.768" Z="364.4269" />
+		<Hotspot X="3073.55" Y="6843.013" Z="365.5319" />
+		<Hotspot X="3060.29" Y="6801.213" Z="365.8697" />
+		<Hotspot X="3029.995" Y="6773.377" Z="364.619" />
+		<Hotspot X="2985.021" Y="6768.847" Z="364.8375" />
+		<Hotspot X="2946.391" Y="6768.367" Z="364.206" />
+		<Hotspot X="2918.145" Y="6800.571" Z="363.9414" />
+		<Hotspot X="2908.24" Y="6850.201" Z="364.8174" />
+		<Hotspot X="2873.56" Y="6883.505" Z="364.8201" />
+		<Hotspot X="2823.247" Y="6923.349" Z="364.5276" />
+		<Hotspot X="2778.902" Y="6970.945" Z="364.9584" />
+		<Hotspot X="2749.368" Y="7016.385" Z="364.133" />
+		<Hotspot X="2764.952" Y="7064.713" Z="364.5737" />
+		<Hotspot X="2807.687" Y="7112.48" Z="365.23" />
+		<Hotspot X="2858.374" Y="7140.702" Z="365.7351" />
+		<Hotspot X="2920.032" Y="7134.619" Z="365.1125" />
+		<Hotspot X="2964.082" Y="7100.624" Z="365.3509" />
+		<Hotspot X="3005.772" Y="7062.173" Z="365.945" />
+		<Hotspot X="2979.766" Y="7022.235" Z="365.543" />
+		<Hotspot X="2996.246" Y="6976.978" Z="365.14" />
+		<Hotspot X="3010.567" Y="6926.486" Z="366.042" />
+		<Hotspot X="2965.101" Y="6951.421" Z="364.7645" />
+		<Hotspot X="2938.595" Y="6998.244" Z="365.373" />
+		<Hotspot X="2997.869" Y="6875.583" Z="370.3334" />
+		<Hotspot X="2998.504" Y="6823.666" Z="369.861" />
+		<Hotspot X="2966.219" Y="6798.272" Z="366.9164" />
+		<Hotspot X="2935.135" Y="6860.476" Z="364.8321" />
+		<Hotspot X="2928.318" Y="6897.78" Z="364.1709" />
+		<Hotspot X="2972.478" Y="6923.343" Z="365.5643" />
+		<Hotspot X="2958.383" Y="6943.491" Z="366.24" />
+		<Hotspot X="2920.08" Y="6922.696" Z="365.1188" />
+		<Hotspot X="2904.629" Y="6945.285" Z="364.5428" />
+		<Hotspot X="2883.906" Y="6986.069" Z="364.6658" />
+		<Hotspot X="2842.189" Y="6993.953" Z="364.2368" />
+		<Hotspot X="2850.954" Y="7027.191" Z="364.3775" />
+		<Hotspot X="2811.308" Y="7029.046" Z="369.9962" />
+		<Hotspot X="2877.098" Y="7041.598" Z="364.7814" />
+		<Hotspot X="2944.155" Y="7044.657" Z="367.8679" />
+		<Hotspot X="2973.981" Y="7082.081" Z="363.9598" />
+		<Hotspot X="2939.061" Y="7116.118" Z="365.3849" />
+		<Hotspot X="2887.09" Y="7085.985" Z="365.5189" />		
+		</Hotspots>
+			<!-- There are no stuckpoints known or reported in this profile yet -->		
+			<Blackspots>
+		
+			</Blackspots>
+	</GrindArea>
+	
+		<!-- No avoidmobs at this point -->
+		<AvoidMobs>
+
+		</AvoidMobs>
+
+	</Subprofile>
+
+	<!-- This is what we came here for so protect it -->
+	<ProtectedItems>
+	<!-- Knothide Leather -->
+	<Item>21887</Item>
+	<!-- Knothide Leather Scraps -->
+	<Item>25649</Item>
+	<!-- Fel Hide -->
+	<Item>25707</Item>
+	
+	<!-- This you might want to protect (for use on quests and rep) -->
+	<!-- Apexis Shards -->
+	<Item>32569</Item>
+	<!-- Depleted Crystal Focus -->
+	<Item>32576</Item>
+	<!-- Mark of Sargeras (Aldor Rep) -->
+	<Item>30809</Item>
+	<!-- Fel Armament (Aldor Rep) -->
+	<Item>29740</Item>
+	
+	<!-- This you might want to protect (for use on tailoring and first aid) -->
+	<!-- Netherweave Cloth -->
+	<Item>21877</Item>
+	</ProtectedItems>
+	
+</HBProfile>
+ 

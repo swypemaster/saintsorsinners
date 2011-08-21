@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Professionbuddy ChildrenCount="11">
+  <If Condition="DataStore[62004] &gt;= 1" IgnoreCanRun="True" ChildrenCount="1">
+    <CustomAction Code="Log(&quot;WOOTS&quot;);" />
+  </If>
+  <Settings Type="Boolean" DefaultValue="true" Name="Banker" Summary="Will put the Darkmoon Cards into bank if True." />
+  <If Condition="TreeRoot.Current.Name != &quot;Grind Bot&quot;" IgnoreCanRun="True" ChildrenCount="2">
+    <CustomAction Code="Log(&quot;Changing Botbase to 'Grind Bot'.&quot;);" />
+    <ChangeBotAction BotName="Grind Bot" />
+  </If>
+  <While Condition="MailCount &gt;= 1 || HasNewMail || InbagCount (61979) &gt;= 2 || InbagCount (61980) &gt;= 2 || InbagCount (61978) &gt;= 10 || (InbagCount (61981) + (InbagCount (61978) / 10) &gt;= 10) || InbagCount (52985) &gt;= 5 || InbagCount (52988) &gt;= 5 || InbagCount (52983) &gt;= 5 || InbagCount (52987) &gt;= 5 || InbagCount (52986) &gt;= 5 || InbagCount (52984) &gt;= 5" IgnoreCanRun="True" ChildrenCount="12">
+    <If Condition="InbagCount (61979) &lt; 2 &amp;&amp; InbagCount (61980) &lt; 2 &amp;&amp; InbagCount (61978) &lt; 10 &amp;&amp; (InbagCount (61981) + (InbagCount (61978) / 10) &lt; 10) &amp;&amp; InbagCount (52985) &lt; 5 &amp;&amp; InbagCount (52988) &lt; 5 &amp;&amp; InbagCount (52983) &lt; 5 &amp;&amp; InbagCount (52987) &lt; 5 &amp;&amp; InbagCount (52986) &lt; 5 &amp;&amp; InbagCount (52984) &lt; 5" IgnoreCanRun="True" ChildrenCount="6">
+      <CustomAction Code="Log(&quot;Picking up herbs from mailbox.&quot;);" />
+      <FlyToAction Dismount="True" X="-8814.377" Y="837.9583" Z="99.14077" />
+      <InteractionAction Entry="0" InteractDelay="0" InteractType="GameObject" GameObjectType="Mailbox" SpellFocus="Anvil" />
+      <WaitAction Condition="false" Timeout="2000" />
+      <CustomAction Code="Lua.DoString(string.Format(&quot;RunMacroText(\&quot;{0}\&quot;)&quot;, &quot;/click PostalOpenAllButton&quot;), 0);" />
+      <WaitAction Condition="Me.FreeNormalBagSlots &lt;= 2 || MailCount == 0" Timeout="100000" />
+    </If>
+    <If Condition="InbagCount (52985) &gt;= 5 || InbagCount (52988) &gt;= 5 || InbagCount (52983) &gt;= 5 || InbagCount (52987) &gt;= 5 || InbagCount (52986) &gt;= 5 || InbagCount (52984) &gt;= 5" IgnoreCanRun="True" ChildrenCount="4">
+      <CustomAction Code="Log(&quot;Stacking herbs.&quot;);" />
+      <StackItemsAction />
+      <CustomAction Code="Log(&quot;Milling herbs.&quot;);" />
+      <DisenchantAction ActionType="Mill" ItemTarget="All" ItemQuality="Uncommon" ItemId="0" />
+    </If>
+    <If Condition="InbagCount (61979) &gt;= 2" IgnoreCanRun="True" ChildrenCount="2">
+      <CustomAction Code="Log(&quot;Making Blackfallow Inks.&quot;);" />
+      <CastSpellAction Entry="86004" Repeat="1" RepeatType="Craftable" CastOnItem="False" ItemId="0" ItemType="Chest" />
+    </If>
+    <If Condition="InbagCount (61980) &gt;= 2" IgnoreCanRun="True" ChildrenCount="2">
+      <CustomAction Code="Log(&quot;Making Inferno Inks.&quot;);" />
+      <CastSpellAction Entry="86005" Repeat="1" RepeatType="Craftable" CastOnItem="False" ItemId="0" ItemType="Chest" />
+    </If>
+    <If Condition="InbagCount (61978) &gt;= 10" IgnoreCanRun="True" ChildrenCount="3">
+      <CustomAction Code="Log(&quot;Going to trade Blackfallow Inks for Inferno Inks.&quot;);" />
+      <FlyToAction Dismount="True" X="-8845.428" Y="850.3622" Z="98.69011" />
+      <While Condition="InbagCount (61978) &gt;= 10" IgnoreCanRun="True" ChildrenCount="1">
+        <BuyItemAction NpcEntry="52031" X="-8854.486" Y="863.191" Z="99.61101" ItemID="61981" Count="10" BuyItemType="SpecificItem" />
+      </While>
+    </If>
+    <If Condition="InbagCount (61981) &gt;= 10" IgnoreCanRun="True" ChildrenCount="4">
+      <If Condition="InbagCount (52329) &lt; (InbagCount (61981) * 3)" IgnoreCanRun="True" ChildrenCount="2">
+        <CustomAction Code="Log(&quot;I don't have enough Volatile Life, picking some up from mailbox.&quot;);" />
+        <GetMailAction ItemID="52329" CheckNewMail="True" GetMailType="Specific" AutoFindMailBox="True" X="0" Y="0" Z="0" MinFreeBagSlots="2" />
+      </If>
+      <If Condition="InbagCount (39502) &lt; (InbagCount (61981) / 10)" IgnoreCanRun="True" ChildrenCount="4">
+        <MoveToAction MoveType="Location" Pathing="Navigator" Entry="0" X="-8861.509" Y="860.9977" Z="99.61067" />
+        <InteractionAction Entry="30730" InteractDelay="0" InteractType="NPC" GameObjectType="Mailbox" SpellFocus="Anvil" />
+        <CustomAction Code="Log(&quot;Buying Parchment.&quot;);" />
+        <BuyItemAction NpcEntry="30730" X="-8863.968" Y="861.5417" Z="99.60984" ItemID="39502" Count="10" BuyItemType="SpecificItem" />
+      </If>
+      <CustomAction Code="Log(&quot;Creating Darkmoon Cards.&quot;);" />
+      <CastSpellAction Entry="86615" Repeat="1" RepeatType="Craftable" CastOnItem="False" ItemId="0" ItemType="Chest" />
+    </If>
+    <If Condition="(bool)Settings[&quot;Banker&quot;] &amp;&amp; (InbagCount (61988) &gt;= 1 || InbagCount(61989) &gt;= 1 || InbagCount(61990) &gt;= 1 || InbagCount(61991) &gt;= 1 || InbagCount(61992) &gt;= 1 || InbagCount(61993) &gt;= 1 || InbagCount(61994) &gt;= 1 || InbagCount(61995) &gt;= 1 || InbagCount(61996) &gt;= 1 || InbagCount(61997) &gt;= 1 || InbagCount(61998) &gt;= 1 || InbagCount(61999) &gt;= 1 || InbagCount(62000) &gt;= 1 || InbagCount(62001) &gt;= 1 || InbagCount(62002) &gt;= 1 || InbagCount(62003) &gt;= 1 || InbagCount(62004) &gt;= 1 || InbagCount(62005) &gt;= 1 || InbagCount(62006) &gt;= 1 || InbagCount(62007) &gt;= 1 || InbagCount(62008) &gt;= 1 || InbagCount(62009) &gt;= 1 || InbagCount(62010) &gt;= 1 || InbagCount(62011) &gt;= 1 || InbagCount(62012) &gt;= 1 || InbagCount(62013) &gt;= 1 || InbagCount(62014) &gt;= 1 || InbagCount(62015) &gt;= 1 || InbagCount(62016) &gt;= 1 || InbagCount(62017) &gt;= 1 || InbagCount(62018) &gt;= 1 || InbagCount(62019) &gt;= 1 || InbagCount(62021) &gt;= 1 || InbagCount(62046) &gt;= 1 || InbagCount(62045) &gt;= 1 || InbagCount(62044) &gt;= 1)" IgnoreCanRun="True" ChildrenCount="2">
+      <FlyToAction Dismount="True" X="-8882.136" Y="641.3346" Z="98.52799" />
+      <PutItemInBankAction Amount="0" ItemID="61988,61989,61990,61991,61992,61993,61994,61995,61996,61997,61998,61999,62000,62001,62002,62003,62004,62005,62006,62007,62008,62009,62010,62011,62012,62013,62014,62015,62016,62017,62018,62019,62044,62046,62045,62021" NpcEntry="0" GuildTab="0" AutoFindBank="True" UseCategory="False" Category="Quest" SubCategoryType="SubCategoryType" SubCategory="None" Bank="Personal" X="0" Y="0" Z="0" />
+    </If>
+    <CustomAction Code="RefreshDataStore();" />
+    <If Condition="(bool)Settings[&quot;Banker&quot;] &amp;&amp; DataStore[61988] &gt;= 1 &amp;&amp; DataStore[61989] &gt;= 1 &amp;&amp; DataStore[61990] &gt;= 1 &amp;&amp; DataStore[61991] &gt;= 1 &amp;&amp; DataStore[61992] &gt;= 1 &amp;&amp; DataStore[61993] &gt;= 1 &amp;&amp; DataStore[61994] &gt;= 1 &amp;&amp; DataStore[61995] &gt;= 1" IgnoreCanRun="True" ChildrenCount="2">
+      <GetItemfromBankAction ItemID="61988,61989,61990,61991,61992,61993,61994,61995" Amount="1" Bank="Personal" GetItemfromBankType="SpecificItem" NpcEntry="0" AutoFindBank="True" X="0" Y="0" Z="0" MinFreeBagSlots="2" />
+      <If Condition="InbagCount (61988) &gt;= 1 &amp;&amp; InbagCount(61989) &gt;= 1 &amp;&amp; InbagCount(61990) &gt;= 1 &amp;&amp; InbagCount(61991) &gt;= 1 &amp;&amp; InbagCount(61992) &gt;= 1 &amp;&amp; InbagCount(61993) &gt;= 1 &amp;&amp; InbagCount(61994) &gt;= 1 &amp;&amp; InbagCount(61995) &gt;= 1" IgnoreCanRun="True" ChildrenCount="1">
+        <CustomAction Code="Lua.DoString(&quot;UseItemByName(61988)&quot;); " />
+      </If>
+    </If>
+    <If Condition="(bool)Settings[&quot;Banker&quot;] &amp;&amp; DataStore[61996] &gt;= 1 &amp;&amp; DataStore[61997] &gt;= 1 &amp;&amp; DataStore[61998] &gt;= 1 &amp;&amp; DataStore[61999] &gt;= 1 &amp;&amp; DataStore[62000] &gt;= 1 &amp;&amp; DataStore[62001] &gt;= 1 &amp;&amp; DataStore[62002] &gt;= 1 &amp;&amp; DataStore[62003] &gt;= 1" IgnoreCanRun="True" ChildrenCount="2">
+      <GetItemfromBankAction ItemID="61996,61997,61998,61999,62000,62001,62002,62003" Amount="1" Bank="Personal" GetItemfromBankType="SpecificItem" NpcEntry="0" AutoFindBank="True" X="0" Y="0" Z="0" MinFreeBagSlots="2" />
+      <If Condition="InbagCount (61996) &gt;= 1 &amp;&amp; InbagCount(61997) &gt;= 1 &amp;&amp; InbagCount(61998) &gt;= 1 &amp;&amp; InbagCount(61999) &gt;= 1 &amp;&amp; InbagCount(62000) &gt;= 1 &amp;&amp; InbagCount(62001) &gt;= 1 &amp;&amp; InbagCount(62002) &gt;= 1 &amp;&amp; InbagCount(62003) &gt;= 1" IgnoreCanRun="True" ChildrenCount="1">
+        <CustomAction Code="Lua.DoString(&quot;UseItemByName(61996)&quot;); " />
+      </If>
+    </If>
+    <If Condition="(bool)Settings[&quot;Banker&quot;] &amp;&amp; DataStore[62004] &gt;= 1 &amp;&amp; DataStore[62005] &gt;= 1 &amp;&amp; DataStore[62006] &gt;= 1 &amp;&amp; DataStore[62007] &gt;= 1 &amp;&amp; DataStore[62008] &gt;= 1 &amp;&amp; DataStore[62009] &gt;= 1 &amp;&amp; DataStore[62010] &gt;= 1 &amp;&amp; DataStore[62011] &gt;= 1" IgnoreCanRun="True" ChildrenCount="2">
+      <GetItemfromBankAction ItemID="62004,62005,62006,62007,62008,62009,62010,62011" Amount="1" Bank="Personal" GetItemfromBankType="SpecificItem" NpcEntry="0" AutoFindBank="True" X="0" Y="0" Z="0" MinFreeBagSlots="2" />
+      <If Condition="InbagCount (62004) &gt;= 1 &amp;&amp; InbagCount(62005) &gt;= 1 &amp;&amp; InbagCount(62006) &gt;= 1 &amp;&amp; InbagCount(62007) &gt;= 1 &amp;&amp; InbagCount(62008) &gt;= 1 &amp;&amp; InbagCount(62009) &gt;= 1 &amp;&amp; InbagCount(62010) &gt;= 1 &amp;&amp; InbagCount(62011) &gt;= 1" IgnoreCanRun="True" ChildrenCount="1">
+        <CustomAction Code="Lua.DoString(&quot;UseItemByName(62004)&quot;); " />
+      </If>
+    </If>
+    <If Condition="(bool)Settings[&quot;Banker&quot;] &amp;&amp; DataStore[62012] &gt;= 1 &amp;&amp; DataStore[62013] &gt;= 1 &amp;&amp; DataStore[62014] &gt;= 1 &amp;&amp; DataStore[62015] &gt;= 1 &amp;&amp; DataStore[62016] &gt;= 1 &amp;&amp; DataStore[62017] &gt;= 1 &amp;&amp; DataStore[62018] &gt;= 1 &amp;&amp; DataStore[62019] &gt;= 1" IgnoreCanRun="True" ChildrenCount="2">
+      <GetItemfromBankAction ItemID="62012,62013,62014,62015,62016,62017,62018,62019" Amount="1" Bank="Personal" GetItemfromBankType="SpecificItem" NpcEntry="0" AutoFindBank="True" X="0" Y="0" Z="0" MinFreeBagSlots="2" />
+      <If Condition="InbagCount (62012) &gt;= 1 &amp;&amp; InbagCount(62013) &gt;= 1 &amp;&amp; InbagCount(62014) &gt;= 1 &amp;&amp; InbagCount(62015) &gt;= 1 &amp;&amp; InbagCount(62016) &gt;= 1 &amp;&amp; InbagCount(62017) &gt;= 1 &amp;&amp; InbagCount(62018) &gt;= 1 &amp;&amp; InbagCount(62019) &gt;= 1" IgnoreCanRun="True" ChildrenCount="1">
+        <CustomAction Code="Lua.DoString(&quot;UseItemByName(62012)&quot;); " />
+      </If>
+    </If>
+  </While>
+  <Comment Text="With this profile you need the addon &quot;Postal&quot;" />
+  <Comment Text="Link below:" />
+  <Comment Text="http://wow.curse.com/downloads/wow-addons/details/postal.aspx" />
+  <Comment Text="Set Postal up to stop gathering mail at 2 bag spots like this:" />
+  <Comment Text="1. Open Mailbox" />
+  <Comment Text="2. Press the &quot;Down Arrow&quot; next to the &quot;X&quot; upper right corner." />
+  <Comment Text="OpenAll -&gt; Other Options -&gt; Keep Free Space -&gt; 2" />
+</Professionbuddy>

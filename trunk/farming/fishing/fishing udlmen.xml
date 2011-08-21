@@ -1,0 +1,72 @@
+<HBProfile>
+	<Name>Twilight Highlands 450-500</Name>
+	<MinDurability>0.4</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<SellGrey>True</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+	<MailWhite>False</MailWhite>
+	<MailGreen>False</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<ProtectedItems>
+		<Item name="Fishing Pole" entry="6256" />
+	</ProtectedItems>
+	<SubProfile>
+		<Name>Mount H 450-500</Name>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>86</MaxLevel>
+		<TargetMinLevel>86</TargetMinLevel>
+		
+<Hotspots>
+<Hotspot X="-8527.961" Y="733.5269" Z="149.1112" />
+<Hotspot X="-8540.962" Y="499.2513" Z="153.2553" />
+<Hotspot X="-8520.413" Y="275.4225" Z="153.2553" />
+<Hotspot X="-8631.991" Y="521.3542" Z="157.3141" />
+<Hotspot X="-9052.099" Y="503.3835" Z="151.1619" />
+<Hotspot X="-9191.442" Y="518.6964" Z="150.9589" />
+<Hotspot X="-9219.276" Y="-356.0002" Z="130.8372" />
+<Hotspot X="-9280.222" Y="-531.3809" Z="116.4761" />
+<Hotspot X="-9326.791" Y="-1224.009" Z="117.7928" />
+<Hotspot X="-9416.854" Y="-736.1924" Z="103.3576" />
+<Hotspot X="-9579.336" Y="-929.626" Z="102.5576" />
+<Hotspot X="-9235.046" Y="-1198.886" Z="127.2803" />
+<Hotspot X="-8987.587" Y="-1043.907" Z="143.3016" />
+<Hotspot X="-8888.227" Y="-1037.832" Z="153.5265" />
+<Hotspot X="-8771.061" Y="-1076.851" Z="158.5338" />
+<Hotspot X="-8737.345" Y="-1160.261" Z="158.4204" />
+<Hotspot X="-9692.651" Y="-1141.338" Z="100.2417" />
+<Hotspot X="-10042.4" Y="-1149.193" Z="43.72979" />
+<Hotspot X="-11009.96" Y="-1215.709" Z="0.2666128" />
+<Hotspot X="-10786.75" Y="-1219.744" Z="1.244401" />
+<Hotspot X="-11338.11" Y="-1258.4" Z="3.741751" />
+<Hotspot X="-11549.34" Y="-1120.057" Z="0.2712935" />
+<Hotspot X="-11410" Y="-1277.929" Z="1.55568" />
+<Hotspot X="-11486.41" Y="-1317.354" Z="3.847482" />
+<Hotspot X="-11293.55" Y="-1616.306" Z="0.8302996" />
+<Hotspot X="-11158.88" Y="-1813.786" Z="1.479306" />
+<Hotspot X="-11177.66" Y="-1681.462" Z="0.7474873" />
+<Hotspot X="-11117.4" Y="-1638.897" Z="-0.3195566" />
+<Hotspot X="-10947.36" Y="-1663.538" Z="7.13286" />
+
+
+
+		</Hotspots>
+<AvoidMobs>
+
+</AvoidMobs>
+
+                <Blackspots>
+
+		
+
+                </Blackspots>        
+                 
+		<Vendors>
+
+			
+		</Vendors>
+		<Mailboxes>                        
+		</Mailboxes>
+	</SubProfile>
+</HBProfile>

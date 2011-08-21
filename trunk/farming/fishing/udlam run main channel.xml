@@ -1,0 +1,53 @@
+<HBProfile>
+	<Name>Twilight Highlands 450-500</Name>
+	<MinDurability>0.4</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<SellGrey>True</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+	<MailWhite>False</MailWhite>
+	<MailGreen>False</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<ProtectedItems>
+		<Item name="Fishing Pole" entry="6256" />
+	</ProtectedItems>
+	<SubProfile>
+		<Name>Main Channel Uldamn</Name>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>86</MaxLevel>
+		<TargetMinLevel>86</TargetMinLevel>
+		
+<Hotspots>
+
+<Hotspot X="-9224.348" Y="-428.3319" Z="119.0847" />
+<Hotspot X="-9258.31" Y="-514.6115" Z="116.8151" />
+<Hotspot X="-9682.127" Y="-700.4144" Z="100.304" />
+<Hotspot X="-9756.125" Y="-699.2783" Z="99.75225" />
+<Hotspot X="-9810.289" Y="-744.1537" Z="99.04739" />
+<Hotspot X="-10052.24" Y="-1073.395" Z="43.32887" />
+<Hotspot X="-10113.83" Y="-1053.705" Z="42.61654" />
+<Hotspot X="-10309.02" Y="-1191.818" Z="43.31655" />
+<Hotspot X="-10428.38" Y="-1277.753" Z="43.31711" />
+<Hotspot X="-10380.28" Y="-1276.378" Z="43.31711" />
+<Hotspot X="-10247.96" Y="-1226.918" Z="43.31694" />
+
+		</Hotspots>
+<AvoidMobs>
+
+</AvoidMobs>
+
+                <Blackspots>
+
+		
+
+                </Blackspots>        
+                 
+		<Vendors>
+
+			
+		</Vendors>
+		<Mailboxes>                        
+		</Mailboxes>
+	</SubProfile>
+</HBProfile>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Professionbuddy ChildrenCount="6">
+  <If Condition="Me.GetSkill(Styx.SkillLine.Skinning).CurrentValue == 75 &amp;&amp; Me.GetSkill(Styx.SkillLine.Skinning).MaxValue == 75" IgnoreCanRun="True" ChildrenCount="2">
+    <TrainSkillAction NpcEntry="6306" X="-9380.229" Y="-69.52946" Z="64.43707" />
+    <LoadProfileAction Path="HBProfiles\[A] QO Skinning 1-525 [Kick].xml" ProfileType="Honorbuddy" />
+  </If>
+  <If Condition="Me.GetSkill(Styx.SkillLine.Skinning).CurrentValue == 150 &amp;&amp; Me.GetSkill(Styx.SkillLine.Skinning).MaxValue == 150" IgnoreCanRun="True" ChildrenCount="2">
+    <TrainSkillAction NpcEntry="6306" X="-9380.229" Y="-69.52946" Z="64.43707" />
+    <LoadProfileAction Path="HBProfiles\[A] QO Skinning 1-525 [Kick].xml" ProfileType="Honorbuddy" />
+  </If>
+  <If Condition="Me.GetSkill(Styx.SkillLine.Skinning).CurrentValue == 225 &amp;&amp; Me.GetSkill(Styx.SkillLine.Skinning).MaxValue == 225" IgnoreCanRun="True" ChildrenCount="2">
+    <TrainSkillAction NpcEntry="6291" X="-4740.687" Y="-1028.764" Z="504.4312" />
+    <LoadProfileAction Path="HBProfiles\[A] QO Skinning 1-525 [Kick].xml" ProfileType="Honorbuddy" />
+  </If>
+  <If Condition="Me.GetSkill(Styx.SkillLine.Skinning).CurrentValue == 300 &amp;&amp; Me.GetSkill(Styx.SkillLine.Skinning).MaxValue == 300" IgnoreCanRun="True" ChildrenCount="2">
+    <TrainSkillAction NpcEntry="6306" X="-9380.229" Y="-69.52946" Z="64.43707" />
+    <LoadProfileAction Path="HBProfiles\[A] QO Skinning 1-525 [Kick].xml" ProfileType="Honorbuddy" />
+  </If>
+  <If Condition="Me.GetSkill(Styx.SkillLine.Skinning).CurrentValue == 375 &amp;&amp; Me.GetSkill(Styx.SkillLine.Skinning).MaxValue == 375" IgnoreCanRun="True" ChildrenCount="2">
+    <TrainSkillAction NpcEntry="18777" X="-693.8346" Y="2724.696" Z="94.11061" />
+    <LoadProfileAction Path="HBProfiles\[A] QO Skinning 1-525 [Kick].xml" ProfileType="Honorbuddy" />
+  </If>
+  <If Condition="Me.GetSkill(Styx.SkillLine.Skinning).CurrentValue == 450 &amp;&amp; Me.GetSkill(Styx.SkillLine.Skinning).MaxValue == 450" IgnoreCanRun="True" ChildrenCount="2">
+    <TrainSkillAction NpcEntry="27000" X="2136.098" Y="5255.882" Z="19.44923" />
+    <LoadProfileAction Path="HBProfiles\[A] QO Skinning 1-525 [Kick].xml" ProfileType="Honorbuddy" />
+  </If>
+</Professionbuddy>

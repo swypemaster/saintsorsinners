@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HBProfile creator="Fishy" version="0.5">
+  <Name>Volatile Fire farming Cannon's Inferno</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>4</MinFreeBagSlots>
+  <MinLevel>80</MinLevel>
+  <MaxLevel>90</MaxLevel>
+  <SellGrey>true</SellGrey>
+  <SellWhite>false</SellWhite>
+  <SellGreen>true</SellGreen>
+  <SellBlue>false</SellBlue>
+  <SellPurple>false</SellPurple>
+  <MailGrey>false</MailGrey>
+  <MailWhite>false</MailWhite>
+  <MailBlue>true</MailBlue>
+  <MailPurple>true</MailPurple>
+  <SubProfile>
+    <Name>Volatile Fire</Name>
+    <MinLevel>80</MinLevel>
+    <MaxLevel>90</MaxLevel>
+    <GrindArea>
+      <RandomizeHotspots>true</RandomizeHotspots>
+      <TargetMinLevel>80</TargetMinLevel>
+      <TargetMaxLevel>88</TargetMaxLevel>
+      <Factions>2146 2296</Factions>
+      <MaxDistance>20</MaxDistance>
+      <Hotspots>
+        <Hotspot x="-4936.615" y="-4723.675" z="333.7363" />
+        <Hotspot x="-4909.492" y="-4677.788" z="320.9012" />
+        <Hotspot x="-4883.52" y="-4548.128" z="319.9057" />
+        <Hotspot x="-4894.169" y="-4488.779" z="326.2407" />
+        <Hotspot x="-4894.539" y="-4489.884" z="326.3908" />
+        <Hotspot x="-4991.445" y="-4562.505" z="319.4787" />
+        <Hotspot x="-4976.205" y="-4636.163" z="318.9168" />
+        <Hotspot x="-4945.656" y="-4690.057" z="323.2278" />
+      </Hotspots>
+    </GrindArea>
+    <Vendors>
+      <Vendor id="49756" name="Zoklaw Irtak" type="Repair" x="-4861.516" y="-4846.278" z="196.5946" />
+    </Vendors>
+    <AvoidMobs>
+      <Mob id="46258" name="Apexar" />
+      <Mob id="46785" name="Lord Cannon" />
+    </AvoidMobs>
+    <BlackSpots>
+      <BlackSpot x="-4932.924" y="-4599.108" z="321.71" radius="20.04432" />
+      <BlackSpot x="-4955.101" y="-4449.859" z="333.3719" radius="15.41182" />
+      <Blackspot X="-4976.286" Y="-4617.977" Z="314.2896" Radius="1.375488" />
+    </BlackSpots>
+  </SubProfile>
+  <ProtectedItems>
+    <Item id="8494" />
+    <Item id="53010" />
+    <Item id="6497" />
+    <Item id="6949" />
+    <Item id="6950" />
+    <Item id="8926" />
+    <Item id="8927" />
+    <Item id="8928" />
+    <Item id="21927" />
+    <Item id="43230" />
+    <Item id="43231" />
+    <Item id="17031" />
+    <Item id="118" />
+    <Item id="858" />
+    <Item id="929" />
+    <Item id="1710" />
+    <Item id="3928" />
+    <Item id="13446" />
+    <Item id="17556" />
+    <Item id="28551" />
+    <Item id="33447" />
+    <Item id="30319" />
+    <Item id="34581" />
+    <Item id="34582" />
+    <Item id="32760" />
+    <Item id="32761" />
+    <Item id="31737" />
+    <Item id="31735" />
+    <Item id="23773" />
+    <Item id="33803" />
+    <Item id="12654" />
+    <Item id="10579" />
+    <Item id="32883" />
+    <Item id="30612" />
+    <Item id="30611" />
+    <Item id="32882" />
+    <Item id="41164" />
+    <Item id="13377" />
+    <Item id="11630" />
+    <Item id="41165" />
+    <Item id="31949" />
+    <Item id="3465" />
+    <Item id="3464" />
+    <Item id="23772" />
+    <Item id="10512" />
+    <Item id="19316" />
+    <Item id="19317" />
+    <Item id="10513" />
+    <Item id="9399" />
+    <Item id="24417" />
+    <Item id="18042" />
+    <Item id="15997" />
+    <Item id="11284" />
+    <Item id="28056" />
+    <Item id="8068" />
+    <Item id="8067" />
+    <Item id="8069" />
+    <Item id="4960" />
+    <Item id="41584" />
+    <Item id="2519" />
+    <Item id="28060" />
+    <Item id="28061" />
+    <Item id="11285" />
+    <Item id="2516" />
+    <Item id="3030" />
+    <Item id="2512" />
+    <Item id="2515" />
+    <Item id="5568" />
+    <Item id="3033" />
+    <Item id="41586" />
+    <Item id="28053" />
+    <Item id="17556" />
+    <Item id="33444" />
+    <Item id="33449" />
+    <Item id="4541" />
+    <Item id="3770" />
+    <Item id="1645" />
+    <Item id="8766" />
+    <Item id="4496" />
+    <Item id="5571" />
+    <Item id="828" />
+    <Item id="5572" />
+    <Item id="805" />
+  </ProtectedItems>
+  <ForceMail>
+    <Item id="2589" />
+    <Item id="2934" />
+    <Item id="2592" />
+    <Item id="4306" />
+    <Item id="4338" />
+    <Item id="14047" />
+    <Item id="21877" />
+    <Item id="22470" />
+    <Item id="2318" />
+    <Item id="2319" />
+    <Item id="4304" />
+    <Item id="4234" />
+    <Item id="8170" />
+    <Item id="21887" />
+    <Item id="33568" />
+    <Item id="181166" />
+    <Item id="2447" />
+    <Item id="765" />
+    <Item id="2449" />
+    <Item id="785" />
+    <Item id="2450" />
+    <Item id="2452" />
+    <Item id="2453" />
+    <Item id="3355" />
+    <Item id="3356" />
+    <Item id="3357" />
+    <Item id="3821" />
+    <Item id="3818" />
+    <Item id="3358" />
+    <Item id="3819" />
+    <Item id="8831" />
+    <Item id="8836" />
+    <Item id="8839" />
+    <Item id="4625" />
+    <Item id="8846" />
+    <Item id="8838" />
+    <Item id="13464" />
+    <Item id="13466" />
+    <Item id="13465" />
+    <Item id="13467" />
+    <Item id="13463" />
+    <Item id="13468" />
+    <Item id="22793" />
+    <Item id="22792" />
+    <Item id="22791" />
+    <Item id="22786" />
+    <Item id="22787" />
+    <Item id="22788" />
+    <Item id="22785" />
+    <Item id="22789" />
+    <Item id="22794" />
+    <Item id="36901" />
+    <Item id="191303" />
+    <Item id="37921" />
+    <Item id="36904" />
+    <Item id="36907" />
+    <Item id="36903" />
+    <Item id="36906" />
+    <Item id="36905" />
+    <Item id="36908" />
+    <Item id="2770" />
+    <Item id="2771" />
+    <Item id="2775" />
+    <Item id="2776" />
+    <Item id="2772" />
+    <Item id="3858" />
+    <Item id="7911" />
+    <Item id="10620" />
+    <Item id="23425" />
+    <Item id="23424" />
+    <Item id="23426" />
+    <Item id="23447" />
+    <Item id="36909" />
+    <Item id="36912" />
+    <Item id="36910" />
+    <Item id="37705" />
+    <Item id="17407" />
+    <Item id="17378" />
+    <Item id="17408" />
+    <Item id="24222" />
+    <Item id="32544" />
+    <Item id="32522" />
+    <Item id="24879" />
+    <Item id="8499" />
+  </ForceMail>
+</HBProfile>

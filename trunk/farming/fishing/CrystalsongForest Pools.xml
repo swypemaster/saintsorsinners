@@ -1,0 +1,42 @@
+<HBProfile>
+	<Name>Crystalsong Forest</Name>
+	<MinDurability>0.4</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>True</SellGreen>
+	<MailWhite>False</MailWhite>
+	<MailGreen>False</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<ProtectedItems>
+		<Item name="Fishing Pole" entry="6256" />
+	</ProtectedItems>
+	<SubProfile>
+		<Name>Crystalsong Forest</Name>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>86</MaxLevel>
+		<TargetMinLevel>86</TargetMinLevel>
+		<Factions>7 </Factions>
+		<Hotspots>
+			<Hotspot X="5463.26" Y="67.30072" Z="148.6113" />
+			<Hotspot X="5418.111" Y="147.8011" Z="152.1041" />
+			<Hotspot X="5468.194" Y="237.1962" Z="149.5816" />
+			<Hotspot X="5477.348" Y="344.7885" Z="148.846" />
+			<Hotspot X="5651.658" Y="537.7934" Z="148.9141" />
+			<Hotspot X="5689.976" Y="739.9745" Z="149.2588" />
+			<Hotspot X="5755.746" Y="799.3714" Z="149.8443" />
+		</Hotspots>
+		<Vendors>
+			<Vendor Name="Lanudal Silverhart" Entry="30241" Type="Repair" X="5056.556" Y="-591.7134" Z="219.9716" />
+		</Vendors>
+		<Blackspots>
+			<Blackspot X="5434.385" Y="105.0724" Z="147.6364" Radius="5.986061" />
+		</Blackspots>
+		<AvoidMobs>
+			<Mob Name="Wildthorn Stalker" Entry="3819" />
+		</AvoidMobs>
+		<Mailboxes>
+		</Mailboxes>
+	</SubProfile>
+</HBProfile>

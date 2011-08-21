@@ -1,0 +1,58 @@
+
+<HBProfile>
+		<Name>Air Farms</Name>
+		<MinDurability>0.4</MinDurability>
+		<MinFreeBagSlots>5</MinFreeBagSlots>
+		<SellGrey>True</SellGrey>
+		<SellWhite>False</SellWhite>
+		<SellGreen>False</SellGreen>
+		<SellBlue>False</SellBlue>
+		<SellPurple>False</SellPurple>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>85</MaxLevel>
+		<MailWhite>True</MailWhite>
+		<MailGreen>True</MailGreen>
+		<MailBlue>True</MailBlue>
+		<MailPurple>True</MailPurple>
+	<ProtectedItems>
+		<Item>6948</Item> <!--Hearthstone -->
+		<Item>22829</Item> <!-- Super Healing Potion -->
+		<Item>37700</Item> <!-- Crystallized Air -->    
+		<Item>33444</Item> <!-- Pungeant Seal Whey --> 
+		<Item>33454</Item> <!-- Salted Venison --> 
+		<Item>33470</Item> <!-- Frostweave Cloth -->
+		<Item>35623</Item> <!-- Eternal Air -->
+		<Item>37705</Item> <!-- Crystallized Air -->
+		<Item>35622</Item> <!-- Eternal Water -->
+                <Item>45912</Item> <!-- Book of Glyph Mastery -->
+	</ProtectedItems>
+	
+	    <AvoidMobs>
+
+	    </AvoidMobs>
+
+	<Hotspots>
+<Hotspot X="5785.816" Y="-4273.728" Z="372.9391" />
+<Hotspot X="5755.408" Y="-4312.669" Z="373.996" />
+<Hotspot X="5593.987" Y="-4341.322" Z="374.0419" />
+<Hotspot X="5569.217" Y="-4454.831" Z="376.9934" />
+<Hotspot X="5569.719" Y="-4337.31" Z="376.4237" />
+<Hotspot X="5584.24" Y="-4278.005" Z="374.5955" />
+<Hotspot X="5596.043" Y="-4153.79" Z="362.8697" />
+<Hotspot X="5594.693" Y="-4071.158" Z="362.3381" />
+<Hotspot X="5652.826" Y="-4027.362" Z="365.9309" />
+<Hotspot X="5792.419" Y="-4029.125" Z="363.5133" />
+<Hotspot X="5841.149" Y="-4076.149" Z="362.119" />
+<Hotspot X="5838.651" Y="-4162.259" Z="362.1919" />
+<Hotspot X="5850.979" Y="-4301.975" Z="369.4005" />
+<Hotspot X="5839.326" Y="-4349.157" Z="373.9957" />
+<Hotspot X="5862.401" Y="-4444.074" Z="375.6905" />
+	</Hotspots>
+	<Vendors>
+		<Vendor Name="Ba'kari" Entry="28855" Type="Repair" X="5769.661" Y="-3572.947" Z="387.2389" />
+	</Vendors>
+	<Mailboxes>
+		<Mailbox X="5482.938" Y="-2643.933" Z="307.0368" />
+	</Mailboxes>
+	
+</HBProfile>

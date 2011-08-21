@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HBProfile>
+  <Name>GB2 - Grizzly Small Herb.xml</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  <MinLevel>1</MinLevel>
+  <MaxLevel>86</MaxLevel>
+  <Factions>99999</Factions>
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+  <SellPurple>False</SellPurple>
+  <Vendors>
+	<Vendor Name="Brom Starkarm" Entry="27062" Type="Repair" X="3421.368" Y="-2757.578" Z="199.3001" />
+  </Vendors>
+  <Mailboxes>
+	<Mailbox X="3400.832" Y="-2813.612" Z="200.5007" />
+  </Mailboxes>
+  <Hotspots>
+    <Hotspot X="4054.987" Y="-1563.224" Z="185.299" />
+    <Hotspot X="4101.987" Y="-1687.382" Z="194.1828" />
+    <Hotspot X="4127.496" Y="-1812.902" Z="208.2803" />
+    <Hotspot X="4122.152" Y="-1945.23" Z="223.1353" />
+    <Hotspot X="4117.182" Y="-2077.123" Z="237.94" />
+    <Hotspot X="4111.912" Y="-2209.874" Z="243.8764" />
+    <Hotspot X="4078.095" Y="-2336.57" Z="238.4817" />
+    <Hotspot X="4094.377" Y="-2468.151" Z="234.9949" />
+    <Hotspot X="4085.825" Y="-2596.932" Z="232.4132" />
+    <Hotspot X="4012.152" Y="-2700.498" Z="230.2453" />
+    <Hotspot X="3964.066" Y="-2781.85" Z="250.948" />
+    <Hotspot X="3995.562" Y="-2896.932" Z="284.2611" />
+    <Hotspot X="4044.796" Y="-3020.588" Z="287.6414" />
+    <Hotspot X="4145.396" Y="-3089.541" Z="296.7265" />
+    <Hotspot X="4273.17" Y="-3115.183" Z="323.4214" />
+    <Hotspot X="4332.469" Y="-3216.74" Z="322.5341" />
+    <Hotspot X="4406.616" Y="-3199.896" Z="324.9878" />
+    <Hotspot X="4343.587" Y="-3085.492" Z="330.9239" />
+    <Hotspot X="4308.236" Y="-2959.175" Z="324.5271" />
+    <Hotspot X="4278.812" Y="-2829.226" Z="318.3085" />
+    <Hotspot X="4235.838" Y="-2705.048" Z="302.4503" />
+    <Hotspot X="4191.643" Y="-2579.993" Z="283.1479" />
+    <Hotspot X="4154.402" Y="-2454.267" Z="265.9293" />
+    <Hotspot X="4123.102" Y="-2325.928" Z="251.9284" />
+    <Hotspot X="4138.767" Y="-2196.167" Z="241.8681" />
+    <Hotspot X="4179.823" Y="-2068.909" Z="239.1899" />
+    <Hotspot X="4222.574" Y="-1943.998" Z="234.9437" />
+    <Hotspot X="4212.342" Y="-1811.702" Z="224.2404" />
+    <Hotspot X="4179.607" Y="-1684.21" Z="206.9731" />
+    <Hotspot X="4184.295" Y="-1553.339" Z="190.1516" />
+    <Hotspot X="4089.293" Y="-1483.991" Z="171.4688" />
+    <Hotspot X="4056.754" Y="-1486.019" Z="169.2073" />
+  </Hotspots>
+</HBProfile>

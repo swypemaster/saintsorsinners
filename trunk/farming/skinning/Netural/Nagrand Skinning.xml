@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HBProfile creator="Scotty516" version="0.0.2">
+  <Name>Nagrand Skinning</Name>
+  <MinLevel>63</MinLevel>
+  <MaxLevel>86</MaxLevel>
+  <SellGrey>true</SellGrey>
+  <SellWhite>true</SellWhite>
+  <SellGreen>true</SellGreen>
+  <MailBlue>true</MailBlue>
+  <MailPurple>true</MailPurple>
+  <GrindArea>
+    <RandomizeHotspots>true</RandomizeHotspots>
+    <TargetMinLevel>60</TargetMinLevel>
+    <TargetMaxLevel>70</TargetMaxLevel>
+    <Factions>31 188 7 16 45 91 14 189</Factions>
+    <MaxDistance>100</MaxDistance>
+    <Hotspots>
+      <Hotspot x="-2613.375" y="7032.01025" z="0" />
+      <Hotspot x="-2280.0498" y="6957.448" z="0" />
+      <Hotspot x="-2376.54224" y="6685.51855" z="0" />
+      <Hotspot x="-2657.243" y="6742.53662" z="0" />
+      <Hotspot x="-2867.76343" y="7207.44629" z="0" />
+      <Hotspot x="-2894.07764" y="7488.148" z="0" />
+      <Hotspot x="-2214.254" y="7540.78" z="0" />
+      <Hotspot x="-1942.32593" y="7435.5166" z="0" />
+      <Hotspot x="-1714.25586" y="7317.096" z="0" />
+      <Hotspot x="-1617.76331" y="7045.166" z="0" />
+      <Hotspot x="-1573.90344" y="6803.938" z="0" />
+      <Hotspot x="-1687.93945" y="6514.46436" z="0" />
+      <Hotspot x="-2073.90356" y="6224.992" z="0" />
+      <Hotspot x="-2328.28979" y="6396.044" z="0" />
+      <Hotspot x="-2641.30469" y="6391.04932" z="0" />
+      <Hotspot x="-2489.92114" y="7576.17" z="0" />
+      <Hotspot x="-1914.66064" y="6949.00732" z="0" />
+      <Hotspot x="-1819.50684" y="6274.26758" z="0" />
+      <Hotspot x="-2606.70386" y="7338.28027" z="0" />
+      <Hotspot x="-2312.58545" y="7247.45068" z="0" />
+      <Hotspot x="-2009.81653" y="7160.945" z="0" />
+    </Hotspots>
+  </GrindArea>
+  <Mailboxes>
+    <Mailbox x="-2672.006" y="7288.747" z="36.62866" />
+  </Mailboxes>
+  <Vendors>
+    <Vendor id="19012" name="Sparik" type="Repair" x="-2541.9" y="7364.77" z="7.03216" />
+  </Vendors>
+  <AvoidMobs>
+    <Mob id="17158" name="Dust Howler" />
+    <Mob id="17156" name="Tortured Earth Spirit" />
+    <Mob id="18352" name="Boulderfist Hunter" />
+    <Mob id="17128" name="Windroc" />
+    <Mob id="17153" name="Lake Spirit" />
+    <Mob id="17159" name="Storm Rager" />
+    <Mob id="17136" name="Boulderfist Warrior" />
+    <Mob id="17137" name="Boulderfist Mage" />
+    <Mob id="17150" name="Vir'aani Arcanist" />
+    <Mob id="17149" name="Vir'aani Raider" />
+    <Mob id="17981" name="Voidspawn" />
+    <Mob id="18298" name="Gava'xi" />
+    <Mob id="17157" name="Shattered Rumbler" />
+	<Mob id="18220" name="Ravenous Windroc" />
+	<Mob id="18062" name="Enraged Crusher" />
+  </AvoidMobs>
+  <ForceMail>
+    <Item id="21887" name="Knothide Leather" />
+    <Item id="25649" name="Knothide Leather Scraps" />
+  </ForceMail>
+</HBProfile>

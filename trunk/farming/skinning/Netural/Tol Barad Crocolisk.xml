@@ -1,0 +1,91 @@
+<HBProfile> // Beginning of HB profile
+	<Name>Baradin Crocolisk by Maurito</Name> 
+  
+	<MinLevel>78</MinLevel> 
+	<MaxLevel>86</MaxLevel> 
+	
+    <TargetElites>False</TargetElites> 
+
+	<MinDurability>0.2</MinDurability> 
+	<MinFreeBagSlots>1</MinFreeBagSlots> 
+	
+	// set your selling and mailing here
+	<SellGrey>True</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+	<MailWhite>True</MailWhite>
+	<MailGreen>True</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+
+	 
+   <SubProfile> 
+    <Name>Tol Barad - Baradin Crocolisk</Name>
+	
+    <MinLevel>78</MinLevel>
+    <MaxLevel>86</MaxLevel> 
+		
+	<GrindArea> 
+	<Factions>14</Factions>
+	<TargetMinLevel>82</TargetMinLevel> // Target minimum level mob
+	<TargetMaxLevel>86</TargetMaxLevel> // Target maximum level mob
+		   
+   	<Hotspots> // These are the points around the area you want to farm
+		<Hotspot X="-1240.285" Y="1125.035" Z="119.027" /> 
+		<Hotspot X="-1269.381" Y="1119.039" Z="118.9577" />
+		<Hotspot X="-1300.835" Y="1106.461" Z="120.7848" />
+		<Hotspot X="-1320.154" Y="1143.143" Z="120.1236" />
+		<Hotspot X="-1313.923" Y="1187.141" Z="118.9237" />
+		<Hotspot X="-1298.881" Y="1228.472" Z="119.9949" />
+		<Hotspot X="-1279.763" Y="1265.455" Z="119.6536" />
+		<Hotspot X="-1247.218" Y="1274.503" Z="119.3643" />
+		<Hotspot X="-1226.073" Y="1288.858" Z="118.8764" />
+		<Hotspot X="-1194.208" Y="1294.935" Z="119.7412" />
+		<Hotspot X="-1160.624" Y="1301.484" Z="118.4459" />
+		<Hotspot X="-1141.24" Y="1318.024" Z="120.4502" />
+		<Hotspot X="-1140.839" Y="1283.216" Z="118.9639" />
+		<Hotspot X="-1136.406" Y="1248.455" Z="118.915" />
+		<Hotspot X="-1112.936" Y="1229.025" Z="121.2209" />
+		<Hotspot X="-1136.909" Y="1214.945" Z="119.3369" />
+		<Hotspot X="-1185.181" Y="1243.938" Z="118.9918" />
+		<Hotspot X="-1222.979" Y="1246.893" Z="120.6122" />
+		<Hotspot X="-1262.321" Y="1241.374" Z="121.0709" />
+		<Hotspot X="-1284.965" Y="1227.22" Z="120.0809" />
+		<Hotspot X="-1284.488" Y="1204.976" Z="120.0786" />
+		<Hotspot X="-1260.951" Y="1193.928" Z="118.9853" />
+		<Hotspot X="-1231.889" Y="1183.283" Z="119.3744" />
+		<Hotspot X="-1190.704" Y="1171.705" Z="119.3331" />
+		<Hotspot X="-1190.143" Y="1151.228" Z="119.2381" />
+		<Hotspot X="-1188.914" Y="1129.926" Z="119.223" />
+		<Hotspot X="-1168.149" Y="1114.443" Z="120.4832" />
+		<Hotspot X="-1139.918" Y="1133.375" Z="121.4617" />
+		<Hotspot X="-1135.788" Y="1159.093" Z="119.6715" />
+		<Hotspot X="-1153.263" Y="1196.069" Z="121.1712" />
+		<Hotspot X="-1226.96" Y="1185.161" Z="119.7886" />
+		<Hotspot X="-1269.67" Y="1188.636" Z="119.1507" />
+		<Hotspot X="-1291.824" Y="1160.619" Z="119.3054" />
+		<Hotspot X="-1292.922" Y="1135.192" Z="120.2798" />
+		<Hotspot X="-1263.323" Y="1166.613" Z="119.6041" />
+		<Hotspot X="-1276.15" Y="1203.801" Z="119.3984" />
+		<Hotspot X="-1266.306" Y="1224.951" Z="121.4812" />
+		<Hotspot X="-1240.479" Y="1244.684" Z="119.4626" />
+		<Hotspot X="-1229.194" Y="1268.804" Z="120.5107" />
+		<Hotspot X="-1203.338" Y="1257.342" Z="119.0074" />
+		<Hotspot X="-1177.849" Y="1257.546" Z="119.2251" />
+		<Hotspot X="-1162.122" Y="1262.854" Z="122.0882" />
+		<Hotspot X="-1191.025" Y="1203.586" Z="119.0391" />
+		<Hotspot X="-1199.672" Y="1165.428" Z="119.2053" />
+		<Hotspot X="-1203.86" Y="1113.685" Z="119.7295" />
+		<Hotspot X="-1204.35" Y="1098.068" Z="120.6606" />
+
+	</Hotspots>
+	
+	</GrindArea> 
+				
+	</SubProfile>
+	
+ 
+ 
+  
+
+</HBProfile>

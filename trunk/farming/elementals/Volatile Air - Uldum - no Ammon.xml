@@ -1,0 +1,61 @@
+<HBProfile>
+   <Name>Uldum Volatile Air Farming</Name>
+   <MinLevel>0</MinLevel>
+   <MaxLevel>999</MaxLevel>
+   
+   <MinDurability>0.3</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+   
+   <MailGrey>False</MailGrey>
+   <MailWhite>False</MailWhite>
+   <MailGreen>True</MailGreen>
+   <MailBlue>True</MailBlue>
+   <MailPurple>True</MailPurple>
+   
+   <SellGrey>True</SellGrey>
+   <SellWhite>True</SellWhite>
+   <SellGreen>False</SellGreen>
+   <SellBlue>False</SellBlue>
+   <SellPurple>False</SellPurple>
+   
+   <AvoidMobs>
+       
+   </AvoidMobs>
+   
+   <Blackspots>
+       <Blackspot X="-10701.52" Y="431.6073" Z="20.76593" Radius="5.607923" />
+   </Blackspots>
+   
+   <Mailboxes>
+      <Mailbox X="-9427.878" Y="-968.0198" Z="111.0116"  />
+   </Mailboxes>
+   
+   <Vendors>
+       <Vendor Name="Schmied Abasi" Entry="48617" Type="Repair" X="-9404.68" Y="-906.438" Z="112.5404" />
+   </Vendors>
+   
+<GrindArea>
+       <TargetMinLevel>80</TargetMinLevel>
+       <TargetMaxLevel>99</TargetMaxLevel>
+       <Factions>14 91 834</Factions>
+       <MaxDistance>45</MaxDistance>
+       <Hotspots>
+           <Hotspot X="-9536.948" Y="-279.2706" Z="102.2847" />
+<Hotspot X="-9615.296" Y="-229.5602" Z="100.8026" />
+<Hotspot X="-9610.747" Y="-129.4948" Z="104.2319" />
+<Hotspot X="-9528.647" Y="1.950875" Z="113.9982" />
+<Hotspot X="-9618.184" Y="8.088207" Z="106.2131" />
+<Hotspot X="-9638.235" Y="-30.79556" Z="94.3067" />
+<Hotspot X="-9672.686" Y="-85.41261" Z="89.17045" />
+<Hotspot X="-9709.318" Y="-132.9951" Z="81.55069" />
+<Hotspot X="-9860.961" Y="-41.45332" Z="58.42918" />
+<Hotspot X="-9820.313" Y="32.53534" Z="65.9367" />
+<Hotspot X="-9799.598" Y="92.63414" Z="68.08055" />
+<Hotspot X="-9818.148" Y="159.5007" Z="83.63435" />
+<Hotspot X="-9924.786" Y="227.6175" Z="66.78481" />
+<Hotspot X="-9990.92" Y="205.2874" Z="50.94107" />
+<Hotspot X="-10025.97" Y="305.9982" Z="32.61528" />
+<Hotspot X="-10044.37" Y="206.0267" Z="54.38118" />
+       </Hotspots>
+   </GrindArea> 
+</HBProfile>

@@ -1,0 +1,73 @@
+<HBProfile>
+   <!--
+      PROFILE EXPECTATIONS:
+         * When using this profile, be certain to set the HonorBuddy bot to (select only one):
+                (*) Grinding / Mixed
+                ( ) Questing
+                ( ) PvP
+   
+         * This profile is appropriate for (check all that apply):
+                [X] Alliance   [ ] Achievement
+                [X] Horde      [X] Farming
+                               [ ] Leveling
+                               [ ] PvP
+                               [ ] Questing
+                               [ ] Reputation
+                               [ ] Seasonal
+   
+         * An explanation of <ForceMail> and <ProtectedItems> usage is here...
+               http://www.buddyforum.de/mediawiki/index.php?title=HonorBuddy:_About_ProtectedItems_and_ForceMail
+   
+         * DO NOT INCLUDE a <ForceMail> element in a profile!
+           Instead, each user should populate his <hb_install_dir>/ForceMail.xml file.
+           The Buddy Wiki provides a robust sample <ForceMail> element here...
+               http://www.buddyforum.de/mediawiki/index.php?title=Honorbuddy:_A_prototypical_ForceMail_Element
+  
+         * DO NOT INCLUDE a <ProtectedItems> element in a profile!
+           Instead, each user should populate his <hb_install_dir>/Protected Items.xml file.
+           The Buddy Wiki provides a robust sample <ProtectedItems> element here...
+               http://www.buddyforum.de/mediawiki/index.php?title=Honorbuddy:_A_prototypical_ProtectedItems_Element
+   
+    -->
+   <Name>Crusader</Name>
+   <MinLevel>42</MinLevel>
+   <MaxLevel>86</MaxLevel>
+   
+   <MinDurability>0.3</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+   
+   <MailGrey>False</MailGrey>
+   <MailWhite>False</MailWhite>
+   <MailGreen>True</MailGreen>
+   <MailBlue>True</MailBlue>
+   <MailPurple>True</MailPurple>
+   
+   <SellGrey>True</SellGrey>
+   <SellWhite>False</SellWhite>
+   <SellGreen>False</SellGreen>
+   <SellBlue>False</SellBlue>
+   <SellPurple>False</SellPurple>
+   
+   <TargetElites>False</TargetElites>	
+   
+   <AvoidMobs>
+       <Mob Name="Blackwind Warp Chaser" Entry="23219" />
+   </AvoidMobs>
+  
+   <GrindArea>
+       <TargetMinLevel>40</TargetMinLevel>
+       <TargetMaxLevel>50</TargetMaxLevel>
+       <Factions>67</Factions>
+       <MaxDistance>30</MaxDistance>
+       <Hotspots>
+		   <Hotspot X="1646.631" Y="-5490.892" Z="100.7212" />
+		   <Hotspot X="1675.48" Y="-5567.38" Z="101.0185" />
+		   <Hotspot X="1737.588" Y="-5554.076" Z="118.3628" />
+		   <Hotspot X="1617.325" Y="-5604.19" Z="100.9877" />
+		   <Hotspot X="1551.996" Y="-5494.107" Z="100.9008" />
+		   <Hotspot X="1547.64" Y="-5561.78" Z="100.8009" />
+		   <Hotspot X="1578.455" Y="-5589.333" Z="111.171" />
+       </Hotspots>
+   </GrindArea>
+   
+</HBProfile>

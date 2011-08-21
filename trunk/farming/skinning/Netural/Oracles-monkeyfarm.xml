@@ -1,0 +1,88 @@
+ <HBProfile>
+   <Name>Monkeyfarm Skinning - Oracles</Name>
+   <MinLevel>0</MinLevel>
+   <MaxLevel>86</MaxLevel>
+  
+   <ProtectedItems>
+		<Item>33568</Item>
+		<Item>44128</Item>
+		<Item>7004</Item>
+	</ProtectedItems>
+   
+   <MinDurability>0.3</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+   
+   <MailGrey>False</MailGrey>
+   <MailWhite>True</MailWhite>
+   <MailGreen>True</MailGreen>
+   <MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+   
+   <SellGrey>True</SellGrey>
+   <SellWhite>True</SellWhite>
+   <SellGreen>False</SellGreen>
+   <SellBlue>False</SellBlue>
+   <SellPurple>False</SellPurple>
+   
+   <TargetElites>False</TargetElites>	
+   
+   <BlackSpots>
+                <BlackSpot X="5080.429" Y="4149.574" Z="-62.58587" /> 
+                <BlackSpot X="5075.895" Y="4141.522" Z="-61.72722" /> 
+                <BlackSpot X="5073.095" Y="4132.176" Z="-61.06094" /> 
+                <BlackSpot X="5072.714" Y="4123.288" Z="-59.74517" /> 
+                <BlackSpot X="5075.443" Y="4115.931" Z="-58.22701" /> 
+                <BlackSpot X="5080.035" Y="4109.479" Z="-57.49316" /> 
+                <BlackSpot X="5122.633" Y="4279.947" Z="-95.1463" /> 
+                <BlackSpot X="5134.163" Y="4388.918" Z="-98.54353" /> 
+                <BlackSpot X="5131.735" Y="4406.473" Z="-96.87941" /> 
+                <BlackSpot X="5131.411" Y="4422.722" Z="-96.25106" /> 
+                <BlackSpot X="5130.579" Y="4439.726" Z="-96.68668" /> 
+                <BlackSpot X="5129.67" Y="4458.31" Z="-97.45341" /> 
+                <BlackSpot X="5129.123" Y="4469.496" Z="-97.11935" /> 
+                <BlackSpot X="5128.611" Y="4479.965" Z="-96.54729" /> 
+                <BlackSpot X="5128.981" Y="4385.918" Z="-98.34635" /> 
+                <BlackSpot X="5132.18" Y="4379.708" Z="-98.63914" /> 
+                <BlackSpot X="5134.806" Y="4370.912" Z="-98.52116" /> 
+                <BlackSpot X="5135.632" Y="4361.161" Z="-98.63124" /> 
+                <BlackSpot X="5137.34" Y="4341.003" Z="-99.32674" /> 
+                <BlackSpot X="5137.644" Y="4325.947" Z="-100.0065" /> 
+                <BlackSpot X="5139.73" Y="4308.966" Z="-99.79725" /> 
+                <BlackSpot X="5141.72" Y="4292.771" Z="-99.83749" /> 
+                <BlackSpot X="5143.91" Y="4274.943" Z="-99.34735" /> 
+                <BlackSpot X="5146.03" Y="4257.685" Z="-98.70515" /> 
+                <BlackSpot X="5233.824" Y="4472.786" Z="-92.46922" /> 
+                <BlackSpot X="5237.15" Y="4479.011" Z="-91.03477" /> 
+                <BlackSpot X="5238.344" Y="4486.351" Z="-86.37003" /> 
+                <BlackSpot X="5225.97" Y="4485.307" Z="-90.93822" /> 
+	</BlackSpots>
+   
+   <AvoidMobs>
+		<Mob Name="Sapphire Hive Wasp" Entry="28086" />
+		<Mob Name="Sapphire Hive Drone" Entry="28085" />
+   </AvoidMobs>
+   
+   <Mailboxes>
+		 <Mailbox X="-1268.755" Y="7174.888" Z="57.35672" />
+   </Mailboxes>
+   
+   <Vendors>  
+			<Vendor Name="Loomee" Entry="29035" Type="Ammo" X="5664.408" Y="4597.69" Z="-137.447" />
+   </Vendors>
+   
+   <GrindArea>
+       <TargetMinLevel>70</TargetMinLevel>
+       <TargetMaxLevel>73</TargetMaxLevel>
+       <Factions>16 189</Factions>
+       <MaxDistance>30</MaxDistance>
+       <RandomizeHotspots>False</RandomizeHotspots> 
+       <Hotspots>
+			<Hotspot X="5199.797" Y="4242.852" Z="-90.15619" />
+			<Hotspot X="5183.305" Y="4417.984" Z="-94.25593" />
+			<Hotspot X="5115.573" Y="4136.284" Z="-75.31605" />
+			<Hotspot X="5139.844" Y="4030.496" Z="-62.20717" />
+			<Hotspot X="5237.208" Y="3799.379" Z="-22.72471" />
+       </Hotspots>
+   </GrindArea>
+   
+</HBProfile>

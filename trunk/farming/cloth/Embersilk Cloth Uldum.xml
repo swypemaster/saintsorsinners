@@ -1,0 +1,68 @@
+<HBProfile>
+
+   <Name>Embersilk Cloth Uldum</Name>
+   <MinDurability>.2</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+   <SellGrey>True</SellGrey>
+   <SellWhite>True</SellWhite>
+   <SellGreen>False</SellGreen>
+   <SellBlue>False</SellBlue>
+   <SellPurple>False</SellPurple>
+   <MailWhite>False</MailWhite>
+   <MailGreen>True</MailGreen>
+   <MailBlue>True</MailBlue>
+   <MailPurple>True</MailPurple>
+   <MinLevel>83</MinLevel>
+   <MaxLevel>86</MaxLevel>
+
+   <ProtectedItems>
+      
+
+   </ProtectedItems>
+
+   <ForceMail>
+      
+
+   </ForceMail>
+
+   <SubProfile>
+
+      <Factions>14 </Factions>
+
+      <TargetElites>False</TargetElites>
+      <Vendors>
+         <Vendor Name="Blacksmith Abasi" Entry="48617" Type="Repair" X="-9404.68" Y="-906.438" Z="112.5413" />
+      </Vendors>
+      <Mailboxes>
+         <Mailbox X="-9414.004" Y="-935.4627" Z="112.5403" />
+      </Mailboxes>
+      <AvoidMobs>
+      </AvoidMobs>
+
+      <GrindArea>
+         <RandomizeHotspots>False</RandomizeHotspots>         
+
+         <Blackspots>
+         </Blackspots>
+		
+        <Hotspots>
+            <Hotspot X="-10791.86" Y="326.5256" Z="32.22175" />
+            <Hotspot X="-10812.2" Y="432.8956" Z="32.12471" />
+            <Hotspot X="-10883.61" Y="440.2061" Z="25.52505" />
+            <Hotspot X="-10849.53" Y="541.6141" Z="26.40638" />
+            <Hotspot X="-10756.62" Y="521.9601" Z="31.15753" />
+            <Hotspot X="-10695.45" Y="446.2455" Z="31.43236" />
+            <Hotspot X="-10621.67" Y="443.6421" Z="34.11147" />
+            <Hotspot X="-10546.17" Y="436.2091" Z="46.70545" />
+            <Hotspot X="-10583.86" Y="526.3757" Z="39.16487" />
+            <Hotspot X="-10565.21" Y="315.054" Z="48.60468" />
+            <Hotspot X="-10612.07" Y="279.1087" Z="38.59942" />
+            <Hotspot X="-10649.3" Y="360.2156" Z="37.5537" />
+            <Hotspot X="-10718.37" Y="377.7763" Z="34.6356" />
+            <Hotspot X="-10763.68" Y="424.8589" Z="34.2288" />
+            <Hotspot X="-10806.79" Y="379.2717" Z="35.00141" />
+         </Hotspots>
+      </GrindArea>
+   </SubProfile>
+
+</HBProfile>
