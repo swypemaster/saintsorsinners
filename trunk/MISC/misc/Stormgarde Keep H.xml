@@ -1,0 +1,43 @@
+<HBProfile> <!-- Hey, For the Insane title Ravenholdt -->
+   <MinLevel>80</MinLevel>
+   <MaxLevel>86</MaxLevel>
+  
+  <Grindarea>
+   <Name> Stormgarde Keep</Name>
+    <TargetMinLevel>10</TargetMinLevel>
+	<TargetMaxLevel>60</TargetMaxLevel>
+	
+	<Factions>87</Factions>
+	
+	<Hotspots>
+     <Hotspot X="-1548.161" Y="-1805.663" Z="67.34242" />
+     <Hotspot X="-1625.963" Y="-1804.166" Z="80.17449" />
+     <Hotspot X="-1634.916" Y="-1789.926" Z="80.67195" />
+     <Hotspot X="-1646.938" Y="-1800.929" Z="79.93602" />
+     <Hotspot X="-1639.243" Y="-1817.499" Z="79.46656" />
+     <Hotspot X="-1650.837" Y="-1849.117" Z="78.96883" />
+     <Hotspot X="-1665.931" Y="-1871.884" Z="79.22819" />
+     <Hotspot X="-1680.611" Y="-1885.726" Z="79.1803" />
+     <Hotspot X="-1697.19" Y="-1888.344" Z="79.98459" />
+     <Hotspot X="-1719.883" Y="-1891.831" Z="81.25259" />
+     <Hotspot X="-1700.642" Y="-1888.772" Z="80.15891" />
+     <Hotspot X="-1663.362" Y="-1872.629" Z="79.44455" />
+     <Hotspot X="-1633.976" Y="-1812.14" Z="80.15297" />
+     <Hotspot X="-1617.257" Y="-1805.178" Z="79.88866" />
+     <Hotspot X="-1569.343" Y="-1807.166" Z="67.18262" />
+     <Hotspot X="-1585.274" Y="-1845.767" Z="67.70231" />
+     <Hotspot X="-1594.551" Y="-1847.28" Z="67.37553" />
+     <Hotspot X="-1597.779" Y="-1864.123" Z="67.44228" />
+     <Hotspot X="-1599.995" Y="-1910.632" Z="67.47297" />
+     <Hotspot X="-1596.397" Y="-1848.795" Z="67.45142" />
+     <Hotspot X="-1585.63" Y="-1846.011" Z="67.67207" />
+     <Hotspot X="-1561.872" Y="-1804.832" Z="67.33675" />
+	</Hotspots>
+	
+	<Blackspots>
+     <Blackspot X="-1596.006" Y="-1938.027" Z="69.05878" Radius="5.422408" />	 
+	</Blackspots>
+	
+  </Grindarea>
+
+</HBProfile>  

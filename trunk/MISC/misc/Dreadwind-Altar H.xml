@@ -1,0 +1,58 @@
+<HBProfile> <!-- Hey, For the Insane title Ravenholdt, pick pocketing part -->
+
+  <Grindarea>
+   <Name> Dreadwind pass - Altar of Storms</Name>
+    <TargetMinLevel>10</TargetMinLevel>
+	<TargetMaxLevel>60</TargetMaxLevel>
+	
+	<Factions>45 90</Factions>
+	
+	<Hotspots>
+	 <Hotspot X="-11365.13" Y="-2865.918" Z="6.090215" />
+     <Hotspot X="-11398.13" Y="-2792.599" Z="2.103002" />
+     <Hotspot X="-11340.28" Y="-2763.861" Z="9.890414" />
+     <Hotspot X="-11281.04" Y="-2736.481" Z="11.22297" />
+     <Hotspot X="-11214.46" Y="-2721.245" Z="13.36063" />
+     <Hotspot X="-11436.12" Y="-2764.408" Z="3.407111" />
+     <Hotspot X="-11482.29" Y="-2797.044" Z="-0.9904953" />
+     <Hotspot X="-11515.93" Y="-2865.12" Z="8.766801" />
+     <Hotspot X="-11550.28" Y="-2827.029" Z="5.18556" />
+     <Hotspot X="-11566.32" Y="-2769.311" Z="6.956016" />
+     <Hotspot X="-11529.11" Y="-2714.194" Z="6.700319" />
+     <Hotspot X="-11486.1" Y="-2692.702" Z="6.228947" />
+     <Hotspot X="-11457.28" Y="-2663.657" Z="14.29901" />
+     <Hotspot X="-11432.7" Y="-2626.26" Z="38.50777" />
+     <Hotspot X="-11364.39" Y="-2567.751" Z="79.17353" />
+     <Hotspot X="-11343.05" Y="-2555.252" Z="86.33495" />
+	 <Hotspot X="-11326.83" Y="-2536.583" Z="90.27864" />
+     <Hotspot X="-11336.39" Y="-2554.074" Z="87.88708" />
+     <Hotspot X="-11295.85" Y="-2549.098" Z="97.0447" />
+     <Hotspot X="-11282.09" Y="-2528.919" Z="97.13017" />
+     <Hotspot X="-11264.87" Y="-2535.494" Z="97.07587" />
+     <Hotspot X="-11263.11" Y="-2565.646" Z="97.06666" />
+     <Hotspot X="-11311.79" Y="-2553.285" Z="97.02827" />
+     <Hotspot X="-11342.9" Y="-2553.155" Z="86.25787" />
+     <Hotspot X="-11313.25" Y="-2574.04" Z="89.55584" />
+	</Hotspots>
+	
+  </Grindarea>
+<Mailboxes>
+<Mailbox X="-10462.66" Y="-3264.648" Z="20.17928" />
+</Mailboxes>
+
+<Vendors>
+<Vendor Name="Gharash" Entry="8176" Type="Repair" X="-10406.83" Y="-3266.042" Z="21.89678" />
+</Vendors>
+    
+  
+   <ProtectedItems>
+    <Item>6948</Item> <!-- Hearthstone -->
+   </ProtectedItems>
+   
+   <ForceMail>
+    <Item name="Heavy Junkbox" Entry="16885" />
+   </ForceMail>
+   
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+  
+</HBProfile>  

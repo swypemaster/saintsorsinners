@@ -1,0 +1,128 @@
+<HBProfile creator="Sainter222" version="1.0"> <!-- Beginning of HB profile -->
+	<Name>[N-Rep] Molten Core</Name> <!-- Name of HB profile -->
+  
+	<MinLevel>60</MinLevel>  <!-- minimum level that can use the HBProfile -->
+	<MaxLevel>86</MaxLevel> <!-- max level that can use the HBProfile -->
+	
+    <TargetElites>False</TargetElites> <!-- Target Elites setting -->
+
+	<MinDurability>0.1</MinDurability> <!-- Repair at 30% durability -->
+	<MinFreeBagSlots>2</MinFreeBagSlots> <!-- How many free bag slots to keep until you need to sell / mail -->
+	
+	<!-- Set your selling and mailing here -->
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>False</SellGreen>
+	
+	<MailWhite>True</MailWhite>
+	<MailGreen>True</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+
+	 
+	<SubProfile> <!-- For multiple profiles, use SubProfile -->
+		<Name>Molten Core</Name>
+	
+		<MinLevel>25</MinLevel> <!-- Minimum Level that can use the SubProfile - Useful if you're leveling and using multiple profiles -->
+		<MaxLevel>86</MaxLevel> <!-- Maximum Level that can use the SubProfile - Useful if you're leveling and using multiple profiles -->
+		<!-- <TargetElites>True</TargetElites> --> <!-- Target Elites setting (Has to be outside of GrindArea but inside SubProfile or HBProfile -->
+		<!-- I have mine inside of HBProfile, so it's de-selected here -->
+	
+		<Mailboxes>	<!-- Horde -->
+			<Mailbox X="-14419.62" Y="516.0793" Z="4.991048" /> <!-- BB -->
+		</Mailboxes>
+	
+		<Vendors> <!-- Horde -->
+			<Vendor Name="Jutak" Entry="2843" Type="Repair" X="-14467.77" Y="468.375" Z="15.02453" /> <!-- BB -->
+			<Vendor Name="Vharr" Entry="1146" Type="Repair" X="-12357.8" Y="155.552" Z="4.248324" /> <!-- Grom'gol Base Camp -->
+			<Vendor Name="Jaquilina Dramet" Entry="2483" Type="Repair" X="-11650.59" Y="-47.65972" Z="16.23964" /> <!-- Nesingwary's Expedition -->
+		</Vendors>
+
+		<GrindArea> <!-- Beginning of farming area -->
+			<Factions>54</Factions> <!-- This is considered a(n) "[Undead, Scourge, Wolf, Murloc]" -->
+			<TargetMinLevel>1</TargetMinLevel> <!-- Target minimum level mob -->
+			<TargetMaxLevel>87</TargetMaxLevel> <!-- Target maximum level mob -->
+				   
+			<Hotspots> <!-- These are the points around the area you want to farm -->
+				<Hotspot X="1130.179" Y="-541.6954" Z="-107.6645" />
+<Hotspot X="1160.148" Y="-580.5646" Z="-114.0983" />
+<Hotspot X="1201.618" Y="-641.3065" Z="-126.44" />
+<Hotspot X="1184.856" Y="-678.0529" Z="-128.5761" />
+<Hotspot X="1158.074" Y="-667.4878" Z="-129.3179" />
+<Hotspot X="1139.069" Y="-774.116" Z="-145.113" />
+<Hotspot X="1079.982" Y="-762.0137" Z="-150.6039" />
+<Hotspot X="1052.116" Y="-754.2713" Z="-151.636" />
+<Hotspot X="1023.845" Y="-769.2342" Z="-157.0267" />
+<Hotspot X="1050.685" Y="-802.4033" Z="-152.1055" />
+<Hotspot X="1039.181" Y="-859.103" Z="-158.2789" />
+<Hotspot X="1004.479" Y="-870.4908" Z="-166.3194" />
+<Hotspot X="1021.891" Y="-897.0513" Z="-162.2772" />
+<Hotspot X="965.132" Y="-906.5404" Z="-176.9456" />
+<Hotspot X="969.826" Y="-955.0819" Z="-181.2293" />
+<Hotspot X="1134.949" Y="-1025.932" Z="-185.768" />
+<Hotspot X="963.3268" Y="-923.6172" Z="-178.8308" />
+<Hotspot X="998.7573" Y="-894.41" Z="-167.9896" />
+<Hotspot X="1034.923" Y="-825.4114" Z="-153.7913" />
+<Hotspot X="1050.539" Y="-798.4239" Z="-151.8878" />
+<Hotspot X="1024.172" Y="-765.9128" Z="-157.036" />
+<Hotspot X="1063.256" Y="-747.7219" Z="-151.754" />
+<Hotspot X="1051.156" Y="-709.9917" Z="-156.349" />
+<Hotspot X="1093.101" Y="-660.4355" Z="-155.4675" />
+<Hotspot X="1031.675" Y="-626.3496" Z="-190.5116" />
+<Hotspot X="991.1533" Y="-666.4388" Z="-195.7046" />
+<Hotspot X="968.8742" Y="-645.7921" Z="-199.6859" />
+<Hotspot X="995.8572" Y="-595.6668" Z="-201.9699" />
+<Hotspot X="970.9055" Y="-580.1351" Z="-203.0647" />
+<Hotspot X="878.8872" Y="-626.7341" Z="-199.7577" />
+<Hotspot X="866.5806" Y="-579.513" Z="-203.9541" />
+<Hotspot X="897.4282" Y="-539.4677" Z="-203.073" />
+<Hotspot X="829.451" Y="-626.2487" Z="-202.933" />
+<Hotspot X="811.8545" Y="-592.1055" Z="-204.3412" />
+<Hotspot X="770.3926" Y="-562.9592" Z="-215.3632" />
+<Hotspot X="758.2106" Y="-516.8491" Z="-214.2368" />
+<Hotspot X="699.504" Y="-489.5267" Z="-213.5413" />
+<Hotspot X="690.543" Y="-545.336" Z="-211.9939" />
+<Hotspot X="719.4699" Y="-584.8652" Z="-212.1838" />
+<Hotspot X="663.6523" Y="-759.5388" Z="-208.9998" />
+<Hotspot X="630.3043" Y="-774.0535" Z="-208.4539" />
+<Hotspot X="583.5405" Y="-800.8317" Z="-205.2435" />
+<Hotspot X="592.2924" Y="-840.9201" Z="-207.0494" />
+<Hotspot X="653.0057" Y="-846.58" Z="-208.5724" />
+<Hotspot X="665.6707" Y="-811.8747" Z="-208.8253" />
+<Hotspot X="678.9755" Y="-854.3201" Z="-207.4937" />
+<Hotspot X="706.0321" Y="-882.9321" Z="-199.6479" />
+<Hotspot X="715.7465" Y="-910.0614" Z="-193.3093" />
+<Hotspot X="730.9311" Y="-942.8198" Z="-188.2494" />
+<Hotspot X="747.8648" Y="-971.6658" Z="-180.4647" />
+<Hotspot X="749.9432" Y="-988.6047" Z="-178.0911" />
+<Hotspot X="744.6993" Y="-1021.863" Z="-177.2088" />
+<Hotspot X="709.3689" Y="-1041.187" Z="-179.5685" />
+<Hotspot X="642.5403" Y="-1062.158" Z="-197.6143" />
+<Hotspot X="655.9713" Y="-1099.199" Z="-193.1117" />
+<Hotspot X="630.5939" Y="-1121.922" Z="-199.6226" />
+<Hotspot X="604.1212" Y="-1175.43" Z="-195.9556" />
+<Hotspot X="648.0028" Y="-1073.874" Z="-194.8664" />
+<Hotspot X="844.632" Y="-1122.675" Z="-158.3763" />
+<Hotspot X="892.5977" Y="-1019.927" Z="-193.2339" />
+<Hotspot X="879.2396" Y="-1003.726" Z="-195.9164" />
+<Hotspot X="857.4757" Y="-1023.353" Z="-194.9335" />
+<Hotspot X="838.9139" Y="-997.0072" Z="-204.306" />
+<Hotspot X="790.9305" Y="-972.9854" Z="-207.6129" />
+<Hotspot X="817.3206" Y="-1133.034" Z="-153.3678" />
+<Hotspot X="784.2815" Y="-1135.559" Z="-149.4404" />
+<Hotspot X="675.3107" Y="-1152.797" Z="-129.279" />
+<Hotspot X="690.0905" Y="-1198.315" Z="-121.2715" />
+<Hotspot X="740.6946" Y="-1195.553" Z="-117.935" />
+<Hotspot X="844.424" Y="-816.9482" Z="-229.8825" />
+			</Hotspots>
+		</GrindArea> <!-- End of farming area -->
+	
+		<AvoidMobs> <!-- Mobs you want to avoid / not target (has to be outside of GrindArea) -->
+		</AvoidMobs>
+
+		<Blackspots> <!-- Problem areas where you get stuck or you want to avoid (has to be outside of GrindArea but inside SubProfile OR HBProfile) -->
+		</Blackspots>
+	
+	</SubProfile> <!-- End of SubProfile - Make another if you're leveling -->
+	
+</HBProfile>
