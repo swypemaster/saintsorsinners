@@ -1,0 +1,55 @@
+<HBProfile>
+ <Name>Razormaw Hatchling</Name> 
+ <MinDurability>0.3</MinDurability> 
+ <MinFreeBagSlots>2</MinFreeBagSlots> 
+ <SellGrey>True</SellGrey> 
+ <SellWhite>True</SellWhite> 
+ <SellGreen>True</SellGreen> 
+ <SellBlue>False</SellBlue> 
+ <SellPurple>False</SellPurple> 
+ <MinLevel>20</MinLevel> 
+ <MaxLevel>81</MaxLevel> 
+
+  <ProtectedItems>
+  <Item>48124</Item>  
+  </ProtectedItems>
+
+  <ForceMail>
+  <Item>48124</Item> 
+  </ForceMail>
+  
+  <SubProfile>
+  <MinLevel>20</MinLevel> 
+  <MaxLevel>81</MaxLevel> 
+  
+  <Vendors>
+  <Vendor Name="Kixxle" Entry="8305" Type="Repair" X="-3188.032" Y="-2465.57" Z="9.562748" />
+  </Vendors>
+  
+  <GrindArea>
+  <Factions>48</Factions>
+  <TargetMinLevel>20</TargetMinLevel>
+  <TargetMaxLevel>81</TargetMaxLevel>
+  <RandomizeHotspots>false</RandomizeHotspots>
+  <MaximumHotspotTime>5000</MaximumHotspotTime>
+  <Hotspots>
+  <Hotspot X="-3252.291" Y="-3416.868" Z="65.53631" />
+<Hotspot X="-3231.063" Y="-3335.658" Z="64.46326" />
+<Hotspot X="-3250.318" Y="-3256.071" Z="64.62865" />
+<Hotspot X="-3162.753" Y="-3172.372" Z="64.3987" />
+<Hotspot X="-3051.562" Y="-3147.574" Z="63.16306" />
+<Hotspot X="-2987.312" Y="-3094.498" Z="64.67028" />
+<Hotspot X="-3108.027" Y="-3258.781" Z="65.00867" />
+<Hotspot X="-3055.788" Y="-3243.355" Z="68.17601" />
+<Hotspot X="-3014.916" Y="-3187.571" Z="54.81736" />
+<Hotspot X="-2974.283" Y="-3155.315" Z="57.75505" />
+<Hotspot X="-2910.351" Y="-3207.33" Z="59.95875" />
+<Hotspot X="-2934.235" Y="-3227.482" Z="58.15634" />
+<Hotspot X="-2949.203" Y="-3287.821" Z="62.46973" />
+<Hotspot X="-2987.922" Y="-3320.291" Z="61.92237" />
+<Hotspot X="-3036.804" Y="-3264.323" Z="68.15752" />
+
+  </Hotspots>
+  </GrindArea>
+  </SubProfile>
+  </HBProfile>

@@ -1,0 +1,53 @@
+<HBProfile>
+ <Name>Leaping Hatchling</Name> 
+ <MinDurability>0.3</MinDurability> 
+ <MinFreeBagSlots>2</MinFreeBagSlots> 
+ <SellGrey>True</SellGrey> 
+ <SellWhite>True</SellWhite> 
+ <SellGreen>True</SellGreen> 
+ <SellBlue>False</SellBlue> 
+ <SellPurple>False</SellPurple> 
+ <MinLevel>10</MinLevel> 
+ <MaxLevel>81</MaxLevel> 
+
+  <ProtectedItems>
+  <Item>48118</Item>  
+  </ProtectedItems>
+
+  <ForceMail>
+  <Item>48118</Item> 
+  </ForceMail>
+  
+  <SubProfile>
+  <MinLevel>10</MinLevel> 
+  <MaxLevel>81</MaxLevel> 
+
+  
+  <Mailboxes>
+  <Mailbox X="-1033.606" Y="-3674.909" Z="23.0534" />
+  </Mailboxes>
+  
+  <Vendors>
+  <Vendor Name="Ironzar" Entry="3491" Type="Repair" X="-919.6163" Y="-3683.763" Z="8.156311" />
+  </Vendors>
+  
+  <GrindArea>
+  <Factions>48 14</Factions>
+  <TargetMinLevel>10</TargetMinLevel>
+  <TargetMaxLevel>81</TargetMaxLevel>
+  <RandomizeHotspots>false</RandomizeHotspots>
+  <MaximumHotspotTime>5000</MaximumHotspotTime>
+  <Hotspots>
+  <Hotspot X="1173.023" Y="-3266.208" Z="91.66824" />
+<Hotspot X="1065.169" Y="-3289.167" Z="91.66702" />
+<Hotspot X="1150.353" Y="-3351.422" Z="91.86836" />
+<Hotspot X="1190.639" Y="-3450.064" Z="91.67576" />
+<Hotspot X="1130.882" Y="-3463.135" Z="86.60228" />
+<Hotspot X="1046.79" Y="-3408.415" Z="91.6654" />
+<Hotspot X="936.5351" Y="-3501.807" Z="91.66717" />
+<Hotspot X="848.0479" Y="-3561.875" Z="91.89003" />
+<Hotspot X="726.3962" Y="-3522.465" Z="91.66722" />
+  </Hotspots>
+  </GrindArea>
+  </SubProfile>
+  </HBProfile>

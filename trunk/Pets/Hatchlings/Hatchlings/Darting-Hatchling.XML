@@ -1,0 +1,52 @@
+<HBProfile>
+ <Name>Darting Hatchling</Name> 
+ <MinDurability>0.3</MinDurability> 
+ <MinFreeBagSlots>2</MinFreeBagSlots> 
+ <SellGrey>True</SellGrey> 
+ <SellWhite>True</SellWhite> 
+ <SellGreen>True</SellGreen> 
+ <SellBlue>False</SellBlue> 
+ <SellPurple>False</SellPurple> 
+ <MinLevel>30</MinLevel> 
+ <MaxLevel>81</MaxLevel> 
+
+  <ProtectedItems>
+  <Item>48112</Item>  
+  </ProtectedItems>
+
+  <ForceMail>
+  <Item>48112</Item> 
+  </ForceMail>
+  
+  <SubProfile>
+  <MinLevel>30</MinLevel> 
+  <MaxLevel>81</MaxLevel> 
+  
+  <Mailboxes>
+  <Mailbox X="-4598.57" Y="-3179.911" Z="34.90624" />
+  </Mailboxes>
+  
+  <Vendors>
+  <Vendor Name="Razbo Rustgear" Entry="23571" Type="Repair" X="-4603.661" Y="-3210.939" Z="34.92535" />
+  </Vendors>
+  
+  <GrindArea>
+  <TargetMinLevel>32</TargetMinLevel>
+  <TargetMaxLevel>81</TargetMaxLevel>
+  <Factions>48</Factions>
+  <RandomizeHotspots>false</RandomizeHotspots>
+  <MaximumHotspotTime>5000</MaximumHotspotTime>
+  <Hotspots>
+  <Hotspot X="-2785.061" Y="-3732.009" Z="32.64597" />
+<Hotspot X="-2696.246" Y="-3671.032" Z="31.03404" />
+<Hotspot X="-2674.479" Y="-3568.558" Z="35.62485" />
+<Hotspot X="-2609.735" Y="-3492.46" Z="33.97311" />
+<Hotspot X="-2534.988" Y="-3473.923" Z="40.50172" />
+<Hotspot X="-2643.231" Y="-3428.503" Z="35.61068" />
+<Hotspot X="-2708.49" Y="-3505.77" Z="34.65125" />
+<Hotspot X="-2766.065" Y="-3567.434" Z="33.72696" />
+<Hotspot X="-2807.835" Y="-3655.809" Z="36.78178" />
+  </Hotspots>
+  </GrindArea>
+  </SubProfile>
+  </HBProfile>

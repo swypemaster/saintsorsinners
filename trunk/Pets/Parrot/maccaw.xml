@@ -1,0 +1,164 @@
+<HBProfile>
+     <Name>xc4t maccaw farming</Name>
+     <MinLevel>40</MinLevel>
+     <MaxLevel>80</MaxLevel>
+     <TargetMinLevel>40</TargetMinLevel>
+     <TargetMaxLevel>80</TargetMaxLevel>
+	<MinDurability>0.4</MinDurability>
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>True</SellGreen>
+	<SellBlue>False</SellBlue>
+	<SellPurple>False</SellPurple>
+	<MailGrey>False</MailGrey>
+	<MailWhite>False</MailWhite>
+	<MailGreen>False</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<ProtectedItems>
+    <!-- Instant Poison -->
+    <Item>6497</Item>
+    <Item>6949</Item>
+    <Item>6950</Item>
+    <Item>8926</Item>
+    <Item>8927</Item>
+    <Item>8928</Item>
+    <Item>21927</Item>
+    <Item>43230</Item>
+    <Item>43231</Item>
+
+    <!--Rune of Teleportation-->
+    <Item>17031</Item>
+
+    <!--Potions-->
+    <!--Healing Potions-->
+    <Item>118</Item>
+    <Item>858</Item>
+    <Item>929</Item>
+    <Item>1710</Item>
+    <Item>3928</Item>
+    <Item>13446</Item>
+    <Item>17556</Item>
+    <Item>28551</Item>
+    <Item>33447</Item>
+
+    <!--Hunter Ammo-->
+    <Item>30319</Item>
+    <Item>34581</Item>
+    <Item>34582</Item>
+    <Item>32760</Item>
+    <Item>32761</Item>
+    <Item>31737</Item>
+    <Item>31735</Item>
+    <Item>23773</Item>
+    <Item>33803</Item>
+    <Item>12654</Item>
+    <Item>10579</Item>
+    <Item>32883</Item>
+    <Item>30612</Item>
+    <Item>30611</Item>
+    <Item>32882</Item>
+    <Item>41164</Item>
+    <Item>13377</Item>
+    <Item>11630</Item>
+    <Item>41165</Item>
+    <Item>31949</Item>
+    <Item>3465</Item>
+    <Item>3464</Item>
+    <Item>23772</Item>
+    <Item>10512</Item>
+    <Item>19316</Item>
+    <Item>19317</Item>
+    <Item>10513</Item>
+    <Item>9399</Item>
+    <Item>24417</Item>
+    <Item>18042</Item>
+    <Item>15997</Item>
+    <Item>11284</Item>
+    <Item>28056</Item>
+    <Item>8068</Item>
+    <Item>8067</Item>
+    <Item>8069</Item>
+    <Item>4960</Item>
+    <Item>41584</Item>
+    <Item>2519</Item>
+    <Item>28060</Item>
+    <Item>28061</Item>
+    <Item>11285</Item>
+    <Item>2516</Item>
+    <Item>3030</Item>
+    <Item>2512</Item>
+    <Item>2515</Item>
+    <Item>5568</Item>
+    <Item>3033</Item>
+    <Item>41586</Item>
+    <Item>28053</Item>
+
+
+    <Item>17556</Item>
+    <!--Major Healing Potion-->
+    <!--Freshly Baked Bread-->
+    <Item>4541</Item>
+    <!--Mutton Chop-->
+    <Item>3770</Item>
+    <!--Moonberry Juice-->
+    <Item>1645</Item>
+    <!--Morning Glory Dew-->
+    <Item>8766</Item>
+    <!--Lowbie Bags-->
+    <Item>4496</Item>
+    <Item>5571</Item>
+    <Item>828</Item>
+    <Item>5572</Item>
+    <Item>805</Item>
+  </ProtectedItems>
+     
+<SubProfile>
+		     <Name>Maccaw Farm</Name>
+                     <MinLevel>40</MinLevel>
+                     <MaxLevel>81</MaxLevel>
+                     <TargetMinLevel>40</TargetMinLevel>
+                     <TargetMaxLevel>81</TargetMaxLevel>
+	<Factions>119</Factions>
+	<Hotspots>
+<Hotspot X="-14902.03" Y="331.7845" Z="6.146648" />
+<Hotspot X="-14904.41" Y="297.1755" Z="3.684892" />
+<Hotspot X="-14966.25" Y="311.4409" Z="1.877531" />
+<Hotspot X="-14969.41" Y="319.943" Z="4.843799" />
+<Hotspot X="-14972.79" Y="335.6957" Z="13.16937" />
+<Hotspot X="-14950.59" Y="354.9273" Z="12.79336" />
+<Hotspot X="-14956.16" Y="347.8105" Z="12.95875" />
+<Hotspot X="-14946.25" Y="345.3882" Z="15.52871" />
+<Hotspot X="-14939.18" Y="348.2979" Z="17.9251" />
+<Hotspot X="-14941.77" Y="353.0731" Z="10.62098" />
+<Hotspot X="-14955.93" Y="349.042" Z="7.543614" />
+<Hotspot X="-14983.88" Y="338.6511" Z="4.285706" />
+<Hotspot X="-14967.89" Y="342.0248" Z="0.2208804" />
+<Hotspot X="-14941.84" Y="352.6003" Z="0.2138928" />
+<Hotspot X="-14925.18" Y="292.2057" Z="1.92824" />
+<Hotspot X="-14910.45" Y="254.0919" Z="-1.829577" />
+<Hotspot X="-14894.57" Y="191.2437" Z="-1.829034" />
+<Hotspot X="-14884.42" Y="151.1069" Z="-1.829034" />
+<Hotspot X="-14868.52" Y="88.26279" Z="0.8932732" />
+<Hotspot X="-14839.15" Y="65.68203" Z="3.524047" />
+<Hotspot X="-14888.75" Y="73.11207" Z="2.154315" />
+<Hotspot X="-14900.3" Y="73.90151" Z="7.421455" />
+<Hotspot X="-14908.25" Y="74.44595" Z="13.56485" />
+<Hotspot X="-14916.26" Y="100.8018" Z="14.64375" />
+<Hotspot X="-14918.41" Y="112.5031" Z="18.32512" />
+<Hotspot X="-14927.86" Y="107.8652" Z="12.57454" />
+<Hotspot X="-14923.28" Y="80.69606" Z="7.522496" />
+<Hotspot X="-14914.86" Y="88.7218" Z="0.2002225" />
+<Hotspot X="-14928.87" Y="102.4417" Z="0.1830379" />
+
+</Hotspots>
+<AvoidMobs>
+<Mob Name="Ironpatch" Entry="2547" />
+<Mob Name="Fleet Master Firallon" Entry="2546" />
+<Mob Name="Garr Salthoof" Entry="2549" />
+<Mob Name="Captain Keelhaul" Entry="2548" />
+</AvoidMobs>
+
+</SubProfile>
+
+</HBProfile>
