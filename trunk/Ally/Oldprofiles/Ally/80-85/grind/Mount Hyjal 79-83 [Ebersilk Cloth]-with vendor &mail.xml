@@ -1,0 +1,39 @@
+﻿<HBProfile>
+  <MinDurability>0.10</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  <MinLevel>75</MinLevel>
+  <MaxLevel>86</MaxLevel>
+  <SellGrey>true</SellGrey>
+  <MailWhite>true</MailWhite>
+  <MailGreen>true</MailGreen>
+  <MailBlue>true</MailBlue>
+  <MailPurple>true</MailPurple>
+
+     <Mailboxes>
+	  <Mailbox X="5525.458" Y="3626.346" Z="1567.226" />
+     </Mailboxes>
+	 <!--Nordrassil-->
+     <Vendors>
+      <Vendor Name="Toron Rockhoof" Entry="43410" Type="Repair" X="5575.697" Y="-3602.496" Z="1570.735" />
+     </Vendors>
+
+  <SubProfile>
+    <Name>[GROM]Mount Hyjal 79-83 [Ebersilk Cloth]</Name>
+    <MinLevel>75</MinLevel>
+    <MaxLevel>86</MaxLevel>
+    <GrindArea>
+      <Factions>2253</Factions>
+<RandomizeHotspots>True</RandomizeHotspots>
+      <Hotspots>
+<Hotspot X="4667.138" Y="-3632.778" Z="967.4044" />
+<Hotspot X="4482.836" Y="-3541.254" Z="1013.042" />
+<Hotspot X="4463.083" Y="-3482.975" Z="1033.002" />
+<Hotspot X="4485.925" Y="-3415.916" Z="1032.884" />
+<Hotspot X="4587.99" Y="-3290.776" Z="1013.183" />
+<Hotspot X="4646.995" Y="-3381.868" Z="1019.017" />
+<Hotspot X="4661.547" Y="-2977.771" Z="1075.201" />
+<Hotspot X="4610.9" Y="-2997.18" Z="1069.866" />
+      </Hotspots>
+    </GrindArea>
+  </SubProfile>
+</HBProfile>

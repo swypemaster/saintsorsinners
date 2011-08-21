@@ -1,0 +1,669 @@
+<HBProfile>
+  <Name>Alliance Outlands v2.0 by Hawker</Name>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>2</MinFreeBagSlots>
+  <MinLevel>58</MinLevel>
+  <MaxLevel>72</MaxLevel>
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+
+  <BlacklistedQuestgivers>
+    <BlacklistedQuestgiver Name="Kayra Longmane" Entry="17969" />
+    <BlacklistedQuestgiver Name="Khadgar" Entry="18166" />
+    <BlacklistedQuestgiver Name="Prospector Conall" Entry="18295" />
+    <BlacklistedQuestgiver Name="Vindicator Idaar" Entry="18004" />
+    <BlacklistedQuestgiver Name="Anchorite Ahuurn" Entry="18003" />
+    <BlacklistedQuestgiver Name="Ruam" Entry="18007" />
+    <BlacklistedQuestgiver Name="Watcher Jhang" Entry="17884" />
+    <BlacklistedQuestgiver Name="Haalrun" Entry="18005" />
+    <BlacklistedQuestgiver Name="Noraani" Entry="18006" />
+    <BlacklistedQuestgiver Name="Gurgthock" Entry="18471" />
+    <BlacklistedQuestgiver Name="Otonbu the Sage" Entry="18222" />
+    <BlacklistedQuestgiver Name="Bogus" Entry="111" />
+    <BlacklistedQuestgiver Name="Bogus" Entry="111" />
+    <BlacklistedQuestgiver Name="Bogus" Entry="111" />
+    <BlacklistedQuestgiver Name="Bogus" Entry="111" />
+    <BlacklistedQuestgiver Name="Bogus" Entry="111" />
+    <BlacklistedQuestgiver Name="Bogus" Entry="111" />
+    <BlacklistedQuestgiver Name="Bogus" Entry="111" />
+    <BlacklistedQuestgiver Name="Bogus" Entry="111" />
+    <BlacklistedQuestgiver Name="Bogus" Entry="111" />
+    <BlacklistedQuestgiver Name="Bogus" Entry="111" />
+    <BlacklistedQuestgiver Name="Bogus" Entry="111" />
+    <BlacklistedQuestgiver Name="Bogus" Entry="111" />
+    <BlacklistedQuestgiver Name="Bogus" Entry="111" />
+    <BlacklistedQuestgiver Name="Bogus" Entry="111" />
+    <BlacklistedQuestgiver Name="Bogus" Entry="111" />
+  </BlacklistedQuestgivers>
+
+  <!--Template for how to make a level-->
+  <SubProfile>
+    <Name>Template</Name>
+    <!--Bot will stay in this subprofile from MinLevel until it hits MaxLevel-->
+    <MinLevel>100</MinLevel>
+    <MaxLevel>101</MaxLevel>
+
+    <!--Bot will pick up all quests but only do these-->
+    <ForcedQuestList>
+      <Quest Id="99999" Name="Name" />
+      <Quest Id="99999" Name="Name" />
+      <Quest Id="99999" Name="Name" />
+      <Quest Id="99999" Name="Name" />
+      <Quest Id="99999" Name="Name" />
+      <Quest Id="99999" Name="Name" />
+      <Quest Id="99999" Name="Name" />
+      <Quest Id="99999" Name="Name" />
+      <Quest Id="99999" Name="Name" />
+      <Quest Id="99999" Name="Name" />
+      <Quest Id="99999" Name="Name" />
+      <Quest Id="99999" Name="Name" />
+      <Quest Id="99999" Name="Name" />
+    </ForcedQuestList>
+
+    <!--Bot will not pull mobs on this list or any mobs within 30 yards of it -->
+    <AvoidMobs>
+      <AvoidMob Name="A Mob to Avoid" Entry="9999" />
+    </AvoidMobs>
+
+    <!--Bot will avoid these locations-->
+    <Blackspots>
+      <Blackspot X="1" Y="1" Z="1" Radius="50"/>
+    </Blackspots>
+
+    <!--Bot will grind mobs of these levels with these factions at these locations until it levels if there are no quests-->
+    <TargetMinLevel>100</TargetMinLevel>
+    <TargetMaxLevel>101</TargetMaxLevel>
+    <Factions>8888 9999</Factions>
+    <Hotspots>
+      <Hotspot X="1" Y="1" Z="1" />
+    </Hotspots>
+  </SubProfile>
+  
+  <!--58 to 61-->
+  <SubProfile>
+    <Name>Skinning 58-60</Name>
+    <MinLevel>58</MinLevel>
+    <MaxLevel>61</MaxLevel>
+<QuestOrder>
+
+    <!--Bot will pick up all quests but only do these-->
+    <ForcedQuestList>
+      <Quest Id="10288" Name="Arrival in Outland" />
+      <Quest Id="10140" Name="Journey to Honor Hold" />
+      <Quest Id="10254" Name="Force Commander Danath" />
+      <Quest Id="10161" Name="In Case of Emergency..." />
+      <Quest Id="9349" Name="Ravager Egg Roundup" />
+      <Quest Id="10055" Name="Waste Not, Want Not" />
+      <Quest Id="10482" Name="Fel Orc Scavengers" />
+      <Quest Id="10483" Name="Ill Omens" />
+      <Quest Id="10141" Name="The Legion Reborn" />
+      <Quest Id="10142" Name="The Path of Anguish" />
+      <Quest Id="10143" Name="Expedition Point" />
+      <Quest Id="9351" Name="Voidwalkers Gone Wild" />
+      <Quest Id="10484" Name="Cursed Talismans" />
+      <Quest Id="9355" Name="A Job for an Intelligent Man" />
+      <Quest Id="10050" Name="Unyielding Souls" />
+      <Quest Id="9558" Name="The Longbeards" />
+      <Quest Id="10057" Name="Looking to the Leadership" />
+      <Quest Id="10058" Name="An Old Gift" />
+      <Quest Id="9417" Name="The Arakkoa Threat" />
+      <Quest Id="9385" Name="Rampaging Ravagers" />
+    </ForcedQuestList>
+
+
+    <Vendors>
+      <Vendor Name="Humphry" Entry="16823" Type="Repair" X="-715.8364" Y="2596.895" Z="91.01123"/>
+    </Vendors>
+    <Mailboxes>
+      <Mailbox X="-707.1925" Y="2699.073" Z="94.39796" />
+    </Mailboxes>
+
+    <Factions>90 954</Factions>
+    <!--1662 Orcs ?-->
+
+    <Hotspots>
+      <Hotspot X="-519.1132" Y="2844.924" Z="48.29179" />
+      <Hotspot X="-492.1735" Y="2633.88" Z="68.26153" />
+      <Hotspot X="-377.5506" Y="2598.288" Z="49.7706" />
+      <Hotspot X="-476.1028" Y="2385.456" Z="38.05076" />
+      <Hotspot X="-716.1121" Y="1960.868" Z="48.76816" />
+    </Hotspots>
+    <AvoidMobs>
+      <AvoidMob Name="Fel Reaver" Entry="18733" />
+      <AvoidMob Name="Tagar Spinebreaker" Entry="19443" />
+    </AvoidMobs>
+    <Blackspots>
+      <Blackspot X="-707.1925" Y="2699.073" Z="94.39796" Radius="150"/>
+      <Blackspot X="-656.8229" Y="2685.751" Z="88.69316" Radius="150"/>
+    </Blackspots>
+</QuestOrder>
+  </SubProfile>
+
+  <!-- 61 to 63-->
+  <SubProfile>
+    <Name>Telhamat, Terrokar and Cenarion Quests</Name>
+    <MinLevel>61</MinLevel>
+    <MaxLevel>63</MaxLevel>
+
+    <ForcedQuestList>
+      <Quest Id="9543" Name="Atonement" />
+      <Quest Id="9430" Name="Sha'naar Relics" />
+      <Quest Id="9558" Name="The Longbeards" />
+      <Quest Id="10079" Name="When This Mine's a-Rockin'" />
+      <Quest Id="10099" Name="The Mastermind" />
+      <Quest Id="9417" Name="The Arakkoa Threat" />
+      <Quest Id="9385" Name="Rampaging Ravagers" />
+      <Quest Id="9373" Name="Missing Missive" />
+      <Quest Id="9372" Name="Demonic Contamination" />
+      <Quest Id="10058" Name="An Old Gift" />
+      <Quest Id="9426" Name="The Pools of Aggonar" />
+      <Quest Id="9399" Name="Cruel Taskmasters" />
+      <Quest Id="10159" Name="Keep Thornfang Hill Clear!" />
+      <Quest Id="10403" Name="Naladu" />
+      <Quest Id="10367" Name="A Traitor Among Us" />
+      <Quest Id="9390" Name="In Search of Sedai" />
+      <Quest Id="9423" Name="Return to Obadei" />
+      <Quest Id="9424" Name="Makuru's Vengeance" />
+      <Quest Id="9398" Name="Deadly Predators" />
+      <Quest Id="9912" Name="The Cenarion Expedition" />
+      <Quest Id="9728" Name="A Warm Welcome" />
+      <Quest Id="9747" Name="The Umbrafen Tribe" />
+      <Quest Id="10037" Name="Rather Be Fishin'" />
+      <Quest Id="9895" Name="The Dying Balance" />
+      <Quest Id="9788" Name="A Damp, Dark Place" />
+      <Quest Id="10096" Name="Saving the Sporeloks" />
+      <Quest Id="9894" Name="Safeguarding the Watchers" />
+      <Quest Id="10210" Name="A'dal" />
+      <Quest Id="9728" Name="A Warm Welcome" />
+      <Quest Id="9802" Name="Plants of Zangarmarsh" />
+    </ForcedQuestList>
+
+    <Vendors>
+      <Vendor Name="Fedryen Swiftspear" Entry="17904" Type="Repair" X="-198.9696" Y="5490.686" Z="21.84628"/>
+    </Vendors>
+    <Mailboxes>
+      <Mailbox X="-197.3626" Y="5505.807" Z="22.53568" />
+    </Mailboxes>
+    <Factions>7 14 115</Factions>
+    <Hotspots>
+      <Hotspot X="-393.0645" Y="6504.241" Z="21.44002" />
+      <Hotspot X="3.499016" Y="6801.241" Z="20.20188" />
+      <Hotspot X="91.10171" Y="6496.508" Z="22.10075" />
+      <Hotspot X="-278.8273" Y="7002.994" Z="22.06146" />
+      <Hotspot X="-490.1513" Y="6105.011" Z="17.40911" />
+      <Hotspot X="-290.2928" Y="6844.319" Z="23.34273" />
+    </Hotspots>
+    <AvoidMobs>
+      <AvoidMob Name="Fel Reaver" Entry="18733" />
+    </AvoidMobs>
+    <Blackspots>
+      <Blackspot X="338.4681" Y="7820.176" Z="19.74734" Radius="100" />
+      <Blackspot X="203.3937" Y="7726.902" Z="20.08119" Radius="100" />
+    </Blackspots>
+  </SubProfile>
+
+  <!--63-65-->
+  <SubProfile>
+    <Name>Orebor 63-65</Name>
+    <Mesh Name="Alliance Outlands.mesh" ServerID="33" />
+    <MinLevel>63</MinLevel>
+    <MaxLevel>65</MaxLevel>
+    <Factions>1804 14 16 45 51</Factions>
+    <Vendors>
+      <Vendor Name="Fedryen Swiftspear" Entry="17904" Type="Repair" X="-198.9696" Y="5490.686" Z="21.84628"/>
+      <Vendor Name="Bossi Pentapiston" Entry="21112" Type="Repair" X="1911.047" Y="5549.254" Z="263.7921"/>
+      <Vendor Name="Cahill" Entry="19499" Type="Repair" X="2100.732" Y="6797.837" Z="175.6137" />
+      <Vendor Name="Aaron Hollman" Entry="19662" Type="Repair" X="-2100.399" Y="5298.32" Z="-37.32356" />
+      <Vendor Name="Cecil Meyers" Entry="19056" Type="Repair" X="-2978.951" Y="4033.115" Z="3.575936" />
+    </Vendors>
+    <Mailboxes>
+      <Mailbox X="1935.042" Y="5547.066" Z="266.3936" />
+      <Mailbox X="2082.132" Y="6879.863" Z="180.0559"  />
+      <Mailbox X="-2041.601" Y="5351.331" Z="-9.350564" />
+      <Mailbox X="-2930.101" Y="4010.276" Z="-1.388322" />
+      <Mailbox X="-197.3626" Y="5505.807" Z="22.53568" />
+    </Mailboxes>
+    <ForcedQuestList>
+      <Quest Id="9835" Name="Ango'rosh Encroachment" />
+      <Quest Id="10115" Name="Daggerfen Deviance" />
+      <Quest Id="9848" Name="Secrets of the Daggerfen" />
+      <Quest Id="9839" Name="Overlord Gorefist" />
+      <Quest Id="10104" Name="Concerns About Tuurem" />
+      <Quest Id="10917" Name="The Outcast's Plight" />
+      <Quest Id="10116" Name="Wanted: Chieftain Mummaki" />
+      <Quest Id="9817" Name="Leader of the Bloodscale" />
+      <Quest Id="9730" Name="Leader of the Darkcrest" />
+      <Quest Id="9833" Name="Lines of Communication" />
+      <Quest Id="9830" Name="Stinger Venom" />
+      <Quest Id="9902" Name="The Terror of Marshlight Lake" />
+      <Quest Id="9968" Name="Strange Energy" />
+      <Quest Id="9971" Name="Clues in the Thicket" />
+      <Quest Id="10869" Name="Thin the Flock" />
+      <Quest Id="9992" Name="Olemba Seeds" />
+      <Quest Id="9998" Name="Unruly Neighbors" />
+      <Quest Id="10026" Name="Magical Disturbances" />
+      <Quest Id="9986" Name="Stymying the Arakkoa" />
+      <Quest Id="10016" Name="Timber Worg Tails" />
+      <Quest Id="10033" Name="Wanted: Bonelashers Dead!" />
+      <Quest Id="10028" Name="Vessels of Power" />
+      <Quest Id="10022" Name="The Elusive Ironjaw" />
+      <Quest Id="10002" Name="The Firewing Liaison" />
+      <Quest Id="10007" Name="Thinning the Ranks" />
+      <Quest Id="9802" Name="Plants of Zangarmarsh" />
+      <Quest Id="9697" Name="Watcher Leesa'oh" />
+      <Quest Id="9701" Name="Observing the Sporelings" />
+      <Quest Id="9702" Name="A Question of Gluttony" />
+      <Quest Id="9708" Name="Familiar Fungi" />
+      <Quest Id="9709" Name="Stealing Back the Mushrooms" />
+      <Quest Id="9743" Name="Natural Enemies" />
+      <Quest Id="9739" Name="The Sporelings' Plight" />
+    </ForcedQuestList>
+    <Blackspots>
+      <Blackspot X="338.4681" Y="7820.176" Z="19.74734" Radius="100" />
+      <Blackspot X="203.3937" Y="7726.902" Z="20.08119" Radius="100" />
+      <Blackspot X="263.2183" Y="8017.605" Z="20.89505" Radius="75" />
+      <Blackspot X="-1268.954" Y="7007.026" Z="34.32474" Radius="100" />
+      <Blackspot X="-1394.833" Y="7262.559" Z="30.18716" Radius="125" />
+      <Blackspot X="-1255.003" Y="7377.085" Z="33.00045" Radius="100" />
+      <Blackspot X="182.7514" Y="7800.294" Z="17.54409" Radius="100" />
+    </Blackspots>
+    <Hotspots>
+      <Hotspot X="718.0024" Y="7589.224" Z="23.21994" />
+      <Hotspot X="1002.069" Y="8441.564" Z="19.22298" />
+      <Hotspot X="-141.5329" Y="8780.635" Z="24.0929" />
+      <Hotspot X="-36.55889" Y="8936.01" Z="19.00528" />
+    </Hotspots>
+    <AvoidMobs>
+      <AvoidMob Name="Fel Reaver" Entry="18733" />
+    </AvoidMobs>
+  </SubProfile>
+
+  <!--65-67-->
+  <SubProfile>
+    <Name>Nagrand and Blades Edge Mountain</Name>
+    <Mesh Name="Alliance Outlands.mesh" ServerID="33" />
+    <MinLevel>65</MinLevel>
+    <MaxLevel>67</MaxLevel>
+
+    <ForcedQuestList>
+      <Quest Id="9709" Name="Stealing Back the Mushrooms" />
+      <Quest Id="0792" Name="A Message to Telaar" />
+      <Quest Id="9917" Name="Do My Eyes Deceive Me" />
+      <Quest Id="9918" Name="Not On My Watch!" />
+      <Quest Id="10113" Name="The Nesingwary Safari" />
+      <Quest Id="9857" Name="Talbuk Mastery" />
+      <Quest Id="9858" Name="Talbuk Mastery" />
+      <Quest Id="9859" Name="Talbuk Mastery" />
+      <Quest Id="9854" Name="Windroc Mastery" />
+      <Quest Id="9855" Name="Windroc Mastery" />
+      <Quest Id="9856" Name="Windroc Mastery" />
+      <Quest Id="9789" Name="Clefthoof Mastery" />
+      <Quest Id="9850" Name="Clefthoof Mastery" />
+      <Quest Id="9851" Name="Clefthoof Mastery" />
+      <Quest Id="10109" Name="I Must Have Them!" />
+      <Quest Id="9913" Name="The Consortium Needs You!" />
+      <Quest Id="9869" Name="The Throne of the Elements" />
+      <Quest Id="10077" Name="Oshu'gun Crystal Powder" />
+      <Quest Id="9798" Name="Solving the Problem" />
+      <Quest Id="9956" Name="The Ravaged Caravan" />
+      <Quest Id="9925" Name="Matters of Security" />
+      <Quest Id="9800" Name="A Rare Bean" />
+      <Quest Id="9818" Name="The Underneath" />
+      <Quest Id="9819" Name="The Tortured Earth" />
+      <Quest Id="9815" Name="Muck Diving" />
+      <Quest Id="9882" Name="Stealing from Thieves" />
+      <Quest Id="9936" Name="Wanted: Giselda the Crone" />
+      <Quest Id="9940" Name="Wanted: Zorbo the Advisor" />
+      <Quest Id="10476" Name="Fierce Enemies" />
+      <Quest Id="9900" Name="Gava'xi" />
+      <Quest Id="9879" Name="The Totem of Kar'dash" />
+      <Quest Id="9861" Name="The Howling Wind" />
+      <Quest Id="9928" Name="Armaments for Deception" />
+      <Quest Id="9982" Name="He Called Himself Altruis..." />
+      <Quest Id="9991" Name="Survey the Land" />
+      <Quest Id="9862" Name="Murkblood Corrupters" />
+      <Quest Id="9871" Name="Murkblood Invaders" />
+      <Quest Id="9873" Name="Ortor My Old Friend..." />
+      <Quest Id="9878" Name="Solving the Problem" />
+      <Quest Id="11042" Name="A Mystifying Vision" />
+      <Quest Id="11044" Name="Visions of Destruction" />
+      <Quest Id="10555" Name="Malaise" />
+      <Quest Id="10455" Name="The Encroaching Wilderness" />
+      <Quest Id="10927" Name="Killing the Crawlers" />
+      <Quest Id="10510" Name="Into the Draenethyst Mine" />
+      <Quest Id="10511" Name="Strange Brew" />
+      <Quest Id="10690" Name="The Den Mother" />
+      <Quest Id="10502" Name="The Bloodmaul Ogres" />
+      <Quest Id="10504" Name="The Bladespire Ogres" />
+      <Quest Id="10457" Name="Protecting Our Own" />
+    </ForcedQuestList>
+
+
+    <Factions>16 1780 1781</Factions>
+    <Vendors>
+      <Vendor Name="Pilot Marsha" Entry="18278" Type="Repair" X="-1480.122" Y="6357.977" Z="34.26549" />
+      <Vendor Name="Sparik" Entry="19012" Type="Repair" X="-2530.663" Y="7354.053" Z="9.283692" />
+      <Vendor Name="Cahill" Entry="19499" Type="Repair" X="2100.732" Y="6797.837" Z="175.6137" />
+    </Vendors>
+    <Mailboxes>
+      <Mailbox X="2082.132" Y="6879.863" Z="180.0559"  />
+      <Mailbox X="-2673.312" Y="7289.664" Z="37.04981" />
+      <Mailbox X="2082.132" Y="6879.863" Z="180.0559"  />
+    </Mailboxes>
+
+    <Hotspots>
+      <Hotspot X="1560.325" Y="6780.702" Z="131.1929" />
+      <!--Ogres-->
+      <Hotspot X="1784.702" Y="6491.01" Z="1.114291" />
+      <Hotspot X="1977.183" Y="6367.617" Z="-10.33805" />
+      <!--Lions-->
+      <Hotspot X="1799.04" Y="6872.647" Z="141.5363" />
+    </Hotspots>
+
+    <Blackspots>
+      <Blackspot X="338.4681" Y="7820.176" Z="19.74734" Radius="100" />
+      <Blackspot X="203.3937" Y="7726.902" Z="20.08119" Radius="100" />
+      <Blackspot X="263.2183" Y="8017.605" Z="20.89505" Radius="75" />
+      <Blackspot X="-1268.954" Y="7007.026" Z="34.32474" Radius="100" />
+      <Blackspot X="-1394.833" Y="7262.559" Z="30.18716" Radius="125" />
+      <Blackspot X="-1255.003" Y="7377.085" Z="33.00045" Radius="100" />
+      <Blackspot X="182.7514" Y="7800.294" Z="17.54409" Radius="100" />
+    </Blackspots>
+    <AvoidMobs>
+      <AvoidMob Name="Scalewing Serpent" Entry="20749" />
+      <AvoidMob Name="Dreadwing" Entry="21032" />
+    </AvoidMobs>
+  </SubProfile>
+
+  <!--67-71-->
+  <SubProfile>
+    <Name>Toshley</Name>
+    <Mesh Name="Alliance Outlands.mesh" ServerID="33" />
+    <MinLevel>67</MinLevel>
+    <MaxLevel>72</MaxLevel>
+
+    <ForcedQuestList>
+      <Quest Id="10502" Name="The Bloodmaul Ogres" />
+      <Quest Id="10504" Name="The Bladespire Ogres" />
+      <Quest Id="10608" Name="Crystal Clear" />
+      <Quest Id="11040" Name="Parts for the Rocket-Chief" />
+      <Quest Id="11042" Name="A Mystifying Vision" />
+      <Quest Id="10584" Name="Picking Up Some Power Converters" />
+      <Quest Id="10342" Name="Securing the Shaleskin Shale" />
+      <Quest Id="10199" Name="That Little Extra Kick" />
+      <Quest Id="10186" Name="You're Hired!" />
+      <Quest Id="10457" Name="Protecting Our Own" />
+      <Quest Id="10795" Name="A Date with Dorgok" />
+      <Quest Id="10682" Name="A Time for Negotiation..." />
+      <Quest Id="10796" Name="Crush the Bloodmaul Camp!" />
+      <Quest Id="10753" Name="Culling the Wild" />
+      <Quest Id="10770" Name="Little Embers" />
+      <Quest Id="10797" Name="Favor of the Gronn" />
+      <Quest Id="10798" Name="Pay the Baron a Visit" />
+      <Quest Id="10810" Name="Damaged Mask" />
+      <Quest Id="10812" Name="Mystery Mask" />
+      <Quest Id="10224" Name="Essence for the Engines" />
+      <Quest Id="10265" Name="Consortium Crystal Collection" />
+      <Quest Id="10262" Name="A Heap of Ethereals" />
+      <Quest Id="10203" Name="Invaluable Asset Zapping" />
+      <Quest Id="10206" Name="Pick Your Part" />
+      <Quest Id="10205" Name="Warp-Raider Nesaad" />
+    </ForcedQuestList>
+
+    <Factions>16 1738 1780 1781</Factions>
+    <!--1738 is the Veik Lash mobs if you are already 68-->
+    <Vendors>
+      <Vendor Name="Cahill" Entry="19499" Type="Repair" X="2100.732" Y="6797.837" Z="175.6137" />
+      <Vendor Name="Bossi Pentapiston" Entry="21112" Type="Repair" X="1911.047" Y="5549.254" Z="263.7921"/>
+    </Vendors>
+    <Mailboxes>
+      <Mailbox X="2082.132" Y="6879.863" Z="180.0559"  />
+      <Mailbox X="1935.042" Y="5547.066" Z="266.3936" />
+    </Mailboxes>
+    <Hotspots>
+      <Hotspot X="3131.155" Y="5371.511" Z="146.3467" />
+      <Hotspot X="1999.912" Y="5594.978" Z="258.9816" />
+      <Hotspot X="2268.65" Y="5773.929" Z="267.7125" />
+      <Hotspot X="2404.833" Y="5764.186" Z="272.7544" />
+      <Hotspot X="2443.233" Y="5579.51" Z="267.8449" />
+    </Hotspots>
+    <Blackspots>
+      <Blackspot X="1825.389" Y="6649.691" Z="138.1938" radius="50"/>
+      <Blackspot X="2266.818" Y="6065.665" Z="144.9341" radius="50"/>
+      <Blackspot X="2390.219" Y="6101.302" Z="130.3373" radius="50"/>
+    </Blackspots>
+    <AvoidMobs>
+      <AvoidMob Name="Scalewing Serpent" Entry="20749" />
+      <AvoidMob Name="Dreadwing" Entry="21032" />
+      <AvoidMob Name="Maggoc" Entry="20600" />
+  
+  </AvoidMobs>
+
+  </SubProfile>
+
+
+
+  <ProtectedItems>
+    <!-- Instant Poison -->
+    <Item>6497</Item>
+    <Item>6949</Item>
+    <Item>6950</Item>
+    <Item>8926</Item>
+    <Item>8927</Item>
+    <Item>8928</Item>
+    <Item>21927</Item>
+    <Item>43230</Item>
+    <Item>43231</Item>
+
+    <!--Rune of Teleportation-->
+    <Item>17031</Item>
+
+    <!--Potions-->
+
+    <!--Healing Potions-->
+    <Item>118</Item>
+    <Item>858</Item>
+    <Item>929</Item>
+    <Item>1710</Item>
+    <Item>3928</Item>
+    <Item>13446</Item>
+    <Item>17556</Item>
+    <Item>28551</Item>
+    <Item>33447</Item>
+
+    <!--Quest Items: Unidentified Plant Parts-->
+    <Item>24401</Item>
+
+
+  </ProtectedItems>
+
+  <ForceMail>
+    <Item>2589</Item>
+    <!--Linen Cloth-->
+    <Item>2934</Item>
+    <!--Ruined Leather Scraps-->
+    <Item>2592</Item>
+    <!--Wool Cloth-->
+    <Item>4306</Item>
+    <!--Silk cloth-->
+    <Item>4338</Item>
+    <!--Mageweave Cloth-->
+    <Item>14047</Item>
+    <!--Runecloth-->
+    <Item>21877</Item>
+    <!--Netherweave Cloth-->
+    <Item>22470</Item>
+    <!--Frostweave Cloth-->
+    <Item>2318</Item>
+    <!--Light Leather-->
+    <Item>2319</Item>
+    <!--Medium Leather-->
+    <Item>4304</Item>
+    <!--Heavy Leather-->
+    <Item>4234</Item>
+    <!--Thick Leather-->
+    <Item>8170</Item>
+    <!--Rugged Leather-->
+    <Item>21887</Item>
+    <!--Knothide Leathter-->
+    <Item>33568</Item>
+    <!--Borean Leather-->
+    <Item>181166</Item>
+    <!--Bloodthistle-->
+    <Item>2447</Item>
+    <!--Peacebloom-->
+    <Item>765</Item>
+    <!--Silverleaf-->
+    <Item>2449</Item>
+    <!--Earthroot-->
+    <Item>785</Item>
+    <!--Mageroyal-->
+    <Item>2450</Item>
+    <!--Briarthorn-->
+    <Item>2452</Item>
+    <!--Swiftthistle-->
+    <Item>2453</Item>
+    <!--Bruiseweed-->
+    <Item>3355</Item>
+    <!--Wild Steelbloom-->
+    <Item>3356</Item>
+    <!--Kingsblood-->
+    <Item>3357</Item>
+    <!--Liferoot-->
+    <Item>3821</Item>
+    <!--Goldthorn-->
+    <Item>3818</Item>
+    <!--Fadeleaf-->
+    <Item>3358</Item>
+    <!--Khadgar's Whisker-->
+    <Item>3819</Item>
+    <!--Wintersbite-->
+    <Item>8831</Item>
+    <!--Purple Lotus-->
+    <Item>8836</Item>
+    <!--Arthas' Tears-->
+    <Item>8839</Item>
+    <!--Blindweed-->
+    <Item>4625</Item>
+    <!--Firebloom-->
+    <Item>8846</Item>
+    <!--Gromsblood-->
+    <Item>8838</Item>
+    <!--Sungrass-->
+    <Item>13464</Item>
+    <!--Golden Sansam-->
+    <Item>13466</Item>
+    <!--Plaguebloom-->
+    <Item>13465</Item>
+    <!--Mountain Silversage-->
+    <Item>13467</Item>
+    <!--Icecap-->
+    <Item>13463</Item>
+    <!--Dreamfoil-->
+    <Item>13468</Item>
+    <!--Black Lotus-->
+    <Item>22793</Item>
+    <!--Mana Thistle-->
+    <Item>22792</Item>
+    <!--Nightmare Vine-->
+    <Item>22791</Item>
+    <!--Netherbloom-->
+    <Item>22786</Item>
+    <!--Dreaming Glory-->
+    <Item>22787</Item>
+    <!--Ragveil-->
+    <Item>22788</Item>
+    <!--Flame Cap-->
+    <Item>22785</Item>
+    <!--Felweed-->
+    <Item>22789</Item>
+    <!--Terocone-->
+    <Item>22794</Item>
+    <!--Fel Lotus-->
+    <Item>36901</Item>
+    <!--Goldclover-->
+    <Item>191303</Item>
+    <!--Firethorn-->
+    <Item>37921</Item>
+    <!--Deadnettle-->
+    <Item>36904</Item>
+    <!--Tiger Lily-->
+    <Item>36907</Item>
+    <!--Talandra's Rose-->
+    <Item>36903</Item>
+    <!--Adder's Tongue-->
+    <Item>36906</Item>
+    <!--Icethorn-->
+    <Item>36905</Item>
+    <!--Lichbloom-->
+    <Item>36908</Item>
+    <!--Frost Lotus-->
+    <Item>2770</Item>
+    <!--Copper Vein-->
+    <Item>2771</Item>
+    <!--Tin Vein-->
+    <Item>2775</Item>
+    <!--Silver Vein-->
+    <Item>2776</Item>
+    <!--Gold Vein-->
+    <Item>2772</Item>
+    <!--Iron Deposit-->
+    <Item>3858</Item>
+    <!--Mithril Deposit-->
+    <Item>7911</Item>
+    <!--Truesilver Deposit-->
+    <Item>10620</Item>
+    <!--Thorium Vein-->
+    <Item>23425</Item>
+    <!--Adamatite Deposit-->
+    <Item>23424</Item>
+    <!--Fel Iron Deposit-->
+    <Item>23426</Item>
+    <!--Khorium Vein-->
+    <Item>23447</Item>
+    <!--Eternium Vein-->
+    <Item>36909</Item>
+    <!--Cobalt Deposit-->
+    <Item>36912</Item>
+    <!--Saronite Deposit-->
+    <Item>36910</Item>
+    <!--Titanium Vein-->
+
+    <Item>22572</Item>
+    <!--<Mote of Air> -->
+    <Item>22578</Item>
+    <!--<Mote of Water> -->
+    <Item>22576</Item>
+    <!--<Mote of Mana> -->
+    <Item>22574</Item>
+    <!--<Mote of Fire>  -->
+    <Item>22577</Item>
+    <!--Mote of Shadow> -->
+    <Item>22575</Item>
+    <!--Mote of Life> -->
+    <Item>22573</Item>
+    <!--Mote of Earth> -->
+    <Item>37700</Item>
+    <!--<Crystallized Air> -->
+    <Item>37705</Item>
+    <!--Crystallized Water-->
+    <Item>188140</Item>
+    <!--<Crystallized Mana> -->
+    <Item>37702</Item>
+    <!--<Crystallized Fire>  -->
+    <Item>37703</Item>
+    <!--Crystallized Shadow> -->
+    <Item>37704</Item>
+    <!--Crystallized Life> -->
+    <Item>37701</Item>
+    <!--Crystallized Earth> -->
+    <Item>8499</Item>
+    <!--Tiny Crimson Whelpling-->
+  </ForceMail>
+</HBProfile>

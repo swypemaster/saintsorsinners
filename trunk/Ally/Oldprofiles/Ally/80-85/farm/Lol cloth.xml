@@ -1,0 +1,46 @@
+<HBProfile>
+<Name>Still in beta</Name>
+<MinLevel>80</MinLevel>
+<MaxLevel>87</MaxLevel>
+<MinDurability>0.2</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+<SellGrey>True</SellGrey>
+<SellWhite>True</SellWhite>
+<SellGreen>False</SellGreen>
+<ProtectedItems>
+<Item>52976</Item>
+<Item>52977</Item>
+<Item>62778</Item>
+<Item>67495</Item>
+<Item>8984</Item>
+<Item>10920</Item>
+<Item>6950</Item>
+<Item>53010</Item>
+</ProtectedItems>
+	<SubProfile>
+		<Name>Not tested</Name>
+		<MinLevel>80</MinLevel>
+		<MaxLevel>87</MaxLevel>
+		<Mailboxes>
+		 <Mailbox X="4503.089" Y="5715.804" Z="81.49169" />
+		</Mailboxes>
+		<Vendors>
+<Vendor Name="Rusty Anvil" Entry="48959" Type="Repair" X="-10701.63" Y="1044.231" Z="24.13959" />
+		</Vendors>
+<Factions>1924</Factions>
+<Hotspots>
+<Hotspot X="-10513.73" Y="1326.337" Z="66.63857" />
+<Hotspot X="-10488.09" Y="1274.376" Z="63.09751" />
+<Hotspot X="-10472.34" Y="1161.918" Z="42.85331" />
+<Hotspot X="-10373.6" Y="1082.324" Z="65.26413" />
+<Hotspot X="-10494.12" Y="997.2672" Z="42.73695" />
+<Hotspot X="-10518.68" Y="959.8317" Z="37.19093" />
+<Hotspot X="-10481.02" Y="937.9697" Z="41.7623" />
+<Hotspot X="-10344.23" Y="894.965" Z="58.27537" />
+<Hotspot X="-10265.11" Y="1176.461" Z="110.2982" />
+</Hotspots>
+<AvoidMobs>
+<AvoidMob Name="Slacking laborer" Entry="47292" /> 
+</AvoidMobs>
+</SubProfile>
+</HBProfile>

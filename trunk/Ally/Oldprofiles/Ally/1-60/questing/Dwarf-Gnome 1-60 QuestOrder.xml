@@ -1,0 +1,3196 @@
+<HBProfile>
+  <Name>Dwarf-Gnome 1-60</Name>
+  <Mesh Name="Dwarf-Gnome 1-61.mesh" ServerID="33" />
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>2</MinFreeBagSlots>
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>True</SellGreen>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+
+  <!--55 and beyond-->
+  <SubProfile>
+    <Name>The Plaguelands</Name>
+    <MinLevel>55</MinLevel>
+    <MaxLevel>80</MaxLevel>
+
+    <QuestOrder>     
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>50</TargetMinLevel>
+          <TargetMaxLevel>56</TargetMaxLevel>
+          <Factions>22 44 73</Factions>
+          <Hotspots>
+            <Hotspot X="1912.027" Y="-1956.467" Z="79.40088" />
+            <Hotspot X="1890.146" Y="-2059.188" Z="74.77845" />
+            <Hotspot X="1876.308" Y="-2171.489" Z="64.48815" />
+            <Hotspot X="1972.763" Y="-2308.949" Z="60.97094" />
+            <Hotspot X="2138.594" Y="-2443.003" Z="59.59328" />
+            <Hotspot X="1811.586" Y="-2434.658" Z="60.46855" />
+            <Hotspot X="1847.612" Y="-2262.445" Z="60.5037" />
+            <Hotspot X="1813.759" Y="-2100.897" Z="70.35281" />
+            <Hotspot X="1586.867" Y="-2055.752" Z="60.42436" />
+            <Hotspot X="1542.404" Y="-1980.139" Z="62.19477" />
+            <Hotspot X="1690.639" Y="-2015.632" Z="60.51912" />
+            <Hotspot X="1827.208" Y="-1996.363" Z="73.99042" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      
+
+      <!-- Clear the Way (level 52) -->
+      <!-- Kill 10 Skeletal Flayers and 10 Slavering Ghouls in Sorrow Hill. -->
+      <!-- http://www.wowhead.com/quest=5092 -->
+      <PickUp QuestName="Clear the Way" GiverName="Commander Ashlam Valorfist" QuestId="5092" GiverId="10838" X="957.7129" Y="-1419.474" Z="66.26379" />
+      
+      <!-- Little Pamela (level 55) -->
+      <!-- Find Pamela Redpath in Darrowshire.   -->
+      <!-- http://www.wowhead.com/quest=5142 -->
+      <PickUp QuestName="Little Pamela" GiverName="Marlene Redpath" QuestId="5142" GiverId="10927" />
+      
+      <!-- Creature: Skeletal Flayer -->
+      <Objective QuestName="Clear the Way" QuestId="5092" Type="KillMob" KillCount="10" MobId="1783" />
+      <!-- Creature: Slavering Ghoul -->
+      <Objective QuestName="Clear the Way" QuestId="5092" Type="KillMob" KillCount="10" MobId="1791" />
+      <TurnIn QuestName="Clear the Way" NpcName="Commander Ashlam Valorfist" QuestId="5092" TurnInId="10838" />   
+      
+
+      <!-- Carrion Grubbage (level 56) -->
+      <!-- Seek out the Carrion Grubs and Devourers of the region. Slay them and harvest their meat. Return to Tirion Fordring when you have gathered 15 Slabs of Carrion Worm Meat.   -->
+      <!-- http://www.wowhead.com/quest=5544 -->
+      <PickUp QuestName="Carrion Grubbage" GiverName="Tirion Fordring" QuestId="5544" GiverId="1855" />
+      <!-- Item: Slab of Carrion Worm Meat -->
+      <Objective QuestName="Carrion Grubbage" QuestId="5544" Type="Collect" CollectCount="15" ItemId="13853" />
+      <TurnIn QuestName="Carrion Grubbage" NpcName="Tirion Fordring" QuestId="5544" TurnInId="1855" />
+
+      <Grindto Level="56"/>
+
+      <!-- Blood Tinged Skies (level 56) -->
+      <!-- Slay 30 Plaguebats and return to Tirion Fordring.   -->
+      <!-- http://www.wowhead.com/quest=5543 -->
+      <PickUp QuestName="Blood Tinged Skies" GiverName="Tirion Fordring" QuestId="5543" GiverId="1855" />
+      <!-- Creature: Plaguebat -->
+      <Objective QuestName="Blood Tinged Skies" QuestId="5543" Type="KillMob" KillCount="30" MobId="8600" />
+      <TurnIn QuestName="Blood Tinged Skies" NpcName="Tirion Fordring" QuestId="5543" TurnInId="1855" />
+
+      <Grindto Level="57"/>
+
+      <!-- Demon Dogs (level 56) -->
+      <!-- Slay 20 Plaguehound Runts, 5 Plaguehounds and 5 Frenzied Plaguehounds. Return to Tirion Fordring when the task is complete.   -->
+      <!-- http://www.wowhead.com/quest=5542 -->
+      <PickUp QuestName="Demon Dogs" GiverName="Tirion Fordring" QuestId="5542" GiverId="1855" />
+      <!-- Creature: Plaguehound Runt -->
+      <Objective QuestName="Demon Dogs" QuestId="5542" Type="KillMob" KillCount="20" MobId="8596" />
+      <!-- Creature: Plaguehound -->
+      <Objective QuestName="Demon Dogs" QuestId="5542" Type="KillMob" KillCount="5" MobId="8597" />
+      <!-- Creature: Frenzied Plaguehound -->
+      <Objective QuestName="Demon Dogs" QuestId="5542" Type="KillMob" KillCount="5" MobId="8598" />
+      <TurnIn QuestName="Demon Dogs" NpcName="Tirion Fordring" QuestId="5542" TurnInId="1855" />
+
+      <!-- Little Pamela (level 55) -->
+      <!-- Find Pamela Redpath in Darrowshire.   -->
+      <!-- http://www.wowhead.com/quest=5142 -->
+      <PickUp QuestName="Little Pamela" GiverName="Marlene Redpath" QuestId="5142" GiverId="10927" />
+      <TurnIn QuestName="Little Pamela" NpcName="Pamela Redpath" QuestId="5142" TurnInId="10926" />
+
+      <Grindto Level="59"/>
+
+      <!-- Augustus' Receipt Book (level 55) -->
+      <!-- Get Augustus' Receipt Book from the inn in Terrordale.   -->
+      <!-- http://www.wowhead.com/quest=6164 -->
+      <PickUp QuestName="Augustus' Receipt Book" GiverName="Augustus the Touched" QuestId="6164" GiverId="12384" />
+      <!-- Item: Augustus' Receipt Book -->
+      <Objective QuestName="Augustus' Receipt Book" QuestId="6164" Type="Collect" CollectCount="1" ItemId="15884" />
+      <TurnIn QuestName="Augustus' Receipt Book" NpcName="Augustus the Touched" QuestId="6164" TurnInId="12384" />
+
+      <!-- The Wildlife Suffers Too (level 54) -->
+      <!-- Destroy 8 Diseased Wolves, and then return to Mulgris Deepriver at the Writhing Haunt, Western Plaguelands.   -->
+      <!-- http://www.wowhead.com/quest=4984 -->
+      <PickUp QuestName="The Wildlife Suffers Too" GiverName="Mulgris Deepriver" QuestId="4984" GiverId="10739" />
+      <!-- Creature: Diseased Wolf -->
+      <Objective QuestName="The Wildlife Suffers Too" QuestId="4984" Type="KillMob" KillCount="8" MobId="1817" />
+      <TurnIn QuestName="The Wildlife Suffers Too" NpcName="Mulgris Deepriver" QuestId="4984" TurnInId="10739" />
+
+      <!-- The Wildlife Suffers Too (level 56) -->
+      <!-- Destroy 8 Diseased Grizzlies, and then return to Mulgris Deepriver at the Writhing Haunt, Western Plaguelands.   -->
+      <!-- http://www.wowhead.com/quest=4985 -->
+      <PickUp QuestName="The Wildlife Suffers Too" GiverName="Mulgris Deepriver" QuestId="4985" GiverId="10739" />
+      <!-- Creature: Diseased Grizzly -->
+      <Objective QuestName="The Wildlife Suffers Too" QuestId="4985" Type="KillMob" KillCount="8" MobId="1816" />
+      <TurnIn QuestName="The Wildlife Suffers Too" NpcName="Mulgris Deepriver" QuestId="4985" TurnInId="10739" />
+
+
+      <!-- Counting Out Time (level 56) -->
+      <!-- Locate 5 Andorhal Watches amongst the rubble of the city, and return with them to Chromie in the Andorhal Inn, Western Plaguelands.   -->
+      <!-- http://www.wowhead.com/quest=4973 -->
+      <PickUp QuestName="Counting Out Time" GiverName="Chromie" QuestId="4973" GiverId="10667" />
+      <!-- Item: Andorhal Watch -->
+      <Objective QuestName="Counting Out Time" QuestId="4973" Type="Collect" CollectCount="5" ItemId="12638" />
+      <TurnIn QuestName="Counting Out Time" NpcName="Chromie" QuestId="4973" TurnInId="10667" />
+
+      <!-- Counting Out Time (level 56) -->
+      <!-- Locate 5 Andorhal Watches, found in lockboxes amongst the rubble of the city.  Return with them to Chromie in the Andorhal Inn, Western Plaguelands.   -->
+      <!-- http://www.wowhead.com/quest=4972 -->
+      <PickUp QuestName="Counting Out Time" GiverName="Chromie" QuestId="4972" GiverId="10667" />
+      <!-- Item: Andorhal Watch -->
+      <Objective QuestName="Counting Out Time" QuestId="4972" Type="Collect" CollectCount="5" ItemId="12638" />
+      <TurnIn QuestName="Counting Out Time" NpcName="Chromie" QuestId="4972" TurnInId="10667" />
+
+
+      <Grindto Level="60"/>
+
+      <!-- Defenders of Darrowshire (level 55) -->
+      <!-- Free 15 Darrowshire Spirits and return to Carlin Redpath.   -->
+      <!-- http://www.wowhead.com/quest=5211 -->
+      <PickUp QuestName="Defenders of Darrowshire" GiverName="Carlin Redpath" QuestId="5211" GiverId="11063" />
+      <TurnIn QuestName="Defenders of Darrowshire" NpcName="Carlin Redpath" QuestId="5211" TurnInId="11063" />
+
+      <SetGrindArea>
+        <GrindArea>
+          <Factions>21 44 312</Factions>
+          <TargetMinLevel>55</TargetMinLevel>
+          <TargetMaxLevel>65</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="2398.04" Y="-3715.157" Z="180.4971" />
+            <Hotspot X="2167.994" Y="-3487.412" Z="121.7821" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <Grindto Level="81"/>
+    </QuestOrder>
+
+    <Vendors>
+      <!--Chillwind Point-->
+      <Vendor Name="Leonard Porter" Entry="12942" Type="Repair" X="949.3392" Y="-1435.346" Z="62.67448" />
+    </Vendors>
+    <Mailboxes>
+      <!--Aerie Peak-->
+      <Mailbox X="295.0269" Y="-2116.203" Z="121.8379" />
+    </Mailboxes>
+
+    <AvoidMobs>
+      <AvoidMob Name="Lord Maldazzar" Entry="1848" />
+    </AvoidMobs>
+
+    <Blackspots>
+      <!--Ruins of Andorhal-->
+      <Blackspot X="1404.729" Y="-1474.707" Z="63.49719" Radius="200" />
+      <!--Gahrron's Withering-->
+      <Blackspot X="1679.113" Y="-2284.815" Z="66.34722" Radius="100" />
+      <!--The Writhing Haunt-->
+      <Blackspot X="1483.873" Y="-1870.842" Z="60.95671" Radius="100" />
+      <!--EPL Scarab Tunnel-->
+      <Blackspot X="2781.103" Y="-2500.747" Z="82.44774" Radius="40" />
+      <!--Corin's Crossing-->
+      <Blackspot X="2053.066" Y="-4493.58" Z="73.62772" Radius="175" />
+    </Blackspots>
+  </SubProfile>
+
+
+  <!--50-54-->
+  <SubProfile>
+    <Name>Searing Gorge and Burning Steppes</Name>
+    <MinLevel>50</MinLevel>
+    <MaxLevel>55</MaxLevel>
+
+    <QuestOrder>
+
+      <PickUp QuestName="Fiery Menace!" QuestId="7724" GiverName="Hansel Heavyhands" GiverId="14627" />
+      <PickUp QuestName="Curse These Fat Fingers" QuestId="7723" GiverName="Hansel Heavyhands" GiverId="14627" />
+      <PickUp QuestName="JOB OPPORTUNITY: Culling the Competition" QuestId="7729" GiverName="Wanted Poster" GiverId="179827" GiverType="Object" X="-6494.858" Y="-1163.144" Z="309.1546" />
+
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>41</TargetMinLevel>
+          <TargetMaxLevel>54</TargetMaxLevel>
+          <Factions>54 91 575</Factions>
+          <Hotspots>
+            <Hotspot X="-6601.353" Y="-949.8893" Z="245.3503" />
+            <Hotspot X="-6767.104" Y="-938.7498" Z="245.6541" />
+            <Hotspot X="-6898.89" Y="-893.6616" Z="245.4793" />
+            <Hotspot X="-6994.778" Y="-1002.33" Z="241.6708" />
+            <Hotspot X="-7135.585" Y="-1016.187" Z="240.223" />
+            <Hotspot X="-7121.837" Y="-1373.143" Z="241.4987" />
+            <Hotspot X="-6963.668" Y="-1583.425" Z="243.8822" />
+            <Hotspot X="-6861.765" Y="-1693.611" Z="249.2109" />
+            <Hotspot X="-6748.612" Y="-1802.365" Z="255.5093" />
+            <Hotspot X="-6604.545" Y="-1796.028" Z="244.1588" />
+            <Hotspot X="-6648.402" Y="-1547.844" Z="245.5975" />
+            <Hotspot X="-6710.634" Y="-1431.621" Z="240.883" />
+            <Hotspot X="-6725.384" Y="-1322.334" Z="240.563" />
+            <Hotspot X="-6755.755" Y="-1203.273" Z="243.6388" />
+            <Hotspot X="-6798.007" Y="-1178.273" Z="242.5116" />
+            <Hotspot X="-6799.774" Y="-1128.85" Z="242.008" />
+            <Hotspot X="-6690.271" Y="-1099.544" Z="241.1686" />
+            <Hotspot X="-6616.651" Y="-1074.608" Z="245.4176" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="51"/>  
+      
+      <Objective QuestName="Fiery Menace!" QuestId="7724" Type="KillMob" MobId="5858" KillCount="20" />
+      <Objective QuestName="Curse These Fat Fingers" QuestId="7723" Type="KillMob" MobId="5854" KillCount="20" />
+      <Objective QuestName="JOB OPPORTUNITY: Culling the Competition" QuestId="7729" Type="KillMob" MobId="5846" KillCount="15" />
+      <Objective QuestName="JOB OPPORTUNITY: Culling the Competition" QuestId="7729" Type="KillMob" MobId="5844" KillCount="15" />
+
+      <TurnIn QuestName="JOB OPPORTUNITY: Culling the Competition" QuestId="7729" TurnInName="Taskmaster Scrange" TurnInId="14626" />
+      <TurnIn QuestName="Curse These Fat Fingers" QuestId="7723" TurnInName="Hansel Heavyhands" TurnInId="14627" />
+      <TurnIn QuestName="Fiery Menace!" QuestId="7724" TurnInName="Hansel Heavyhands" TurnInId="14627" />
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>41</TargetMinLevel>
+          <TargetMaxLevel>54</TargetMaxLevel>
+          <Factions>45 91</Factions>
+          <Hotspots>
+            <Hotspot X="-8104.518" Y="-2647.603" Z="133.4396" />
+            <Hotspot X="-7894.05" Y="-2751.07" Z="164.934" />
+            <Hotspot X="-7773.758" Y="-2702.485" Z="173.7066" />
+            <Hotspot X="-7677.845" Y="-2573.996" Z="142.995" />
+            <Hotspot X="-7843.888" Y="-2463.33" Z="136.8414" />
+            <Hotspot X="-8018.386" Y="-2474.81" Z="134.0396" />
+            <Hotspot X="-8062.388" Y="-2535.634" Z="136.9369" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="52"/>
+
+      <!-- Extinguish the Firegut (level 52) -->
+      <!-- Slay 15 Firegut Ogre-Mages, 7 Firegut Ogres, and 7 Firegut Ogre Brutes.   -->
+      <!-- http://www.wowhead.com/quest=3823 -->
+      <PickUp QuestName="Extinguish the Firegut" GiverName="Oralius" QuestId="3823" GiverId="9177" />
+      <!-- Creature: Firegut Ogre Mage -->
+      <Objective QuestName="Extinguish the Firegut" QuestId="3823" Type="KillMob" KillCount="15" MobId="7034" />
+      <!-- Creature: Firegut Ogre -->
+      <Objective QuestName="Extinguish the Firegut" QuestId="3823" Type="KillMob" KillCount="7" MobId="7033" />
+      <!-- Creature: Firegut Brute -->
+      <Objective QuestName="Extinguish the Firegut" QuestId="3823" Type="KillMob" KillCount="7" MobId="7035" />
+      <TurnIn QuestName="Extinguish the Firegut" NpcName="Oralius" QuestId="3823" TurnInId="9177" />
+ 
+      <Grindto Level="55"/>
+
+    </QuestOrder>
+
+    <AvoidMobs>
+      <AvoidMob Name="Lord Maldazzar" Entry="1848" />
+    </AvoidMobs>
+
+    <Vendors>
+      <!--Chillwind Point-->
+      <Vendor Name="Leonard Porter" Entry="12942" Type="Repair" X="949.3392" Y="-1435.346" Z="62.67448" />
+      <!--Thelsamar-->
+      <Vendor Name="Morhan Coppertongue" Entry="167" Type="Repair" X="-5346" Y="-2935" Z="324" />
+      <!--Thorium Point-->
+      <Vendor Name="Master Smith Burninate" Entry="14624" Type="Food" X="-6524.037" Y="-1188.717" Z="309.2562" />
+      <!--Burning Steppes-->
+      <Vendor Name="Felder Stover" Entry="1296" Type="Repair" X="-8366.361" Y="-2762.508" Z="187.5336" />
+      <!--Lakeshire-->
+      <Vendor Name="Kara Adams" Entry="793" Type="Repair" X="-9247.732" Y="-2234.377" Z="63.93391" />
+    </Vendors>
+    <Mailboxes>
+      <!--Aerie Peak-->
+      <Mailbox X="295.0269" Y="-2116.203" Z="121.8379" />
+      <!--Thelsamar-->
+      <Mailbox X="-5365.23" Y="-2953.062" Z="323.8214" />
+      <!--Lakeshire-->
+      <Mailbox X="-9249.709" Y="-2145.779" Z="64.05473" />
+    </Mailboxes>
+
+    <Blackspots>
+      <!--Underground area entrances-->
+      <Blackspot X="-6780.788" Y="-1174.117" Z="190.8713" Radius="25" />
+      <Blackspot X="-6733.053" Y="-1109.636" Z="246.0548" Radius="25" />
+      <!--WPL to the Hinterlands with Roaming Elite-->
+      <Blackspot X="811.3229" Y="-2423.715" Z="149.5435" Radius="75" />
+      <Blackspot X="650.2913" Y="-2500.781" Z="244.3491" Radius="45" />
+      <!--Wyrmkins in Burning Steppes-->
+      <Blackspot X="-7961.028" Y="-1323.69" Z="135.1622" Radius="50" />
+      <Blackspot X="-8252.449" Y="-2522.793" Z="143.6772" Radius="50" />
+      <!--Orcs in Burning Steppes-->
+      <Blackspot X="-8018.046" Y="-1587.19" Z="133.5087" Radius="40" />
+      <Blackspot X="-8085.748" Y="-1896.742" Z="135.4865" Radius="40" />
+      <!--Burning Steppes off road tracks through Orc encampments-->
+      <Blackspot X="-8200.311" Y="-1875.466" Z="158.6865" Radius="165.0269" />
+      <Blackspot X="-8158.621" Y="-2032.466" Z="142.8478" Radius="105.265" />
+      <Blackspot X="-8192.469" Y="-1445.033" Z="162.0146" Radius="113.1952" />
+      <Blackspot X="-8185.608" Y="-1331.801" Z="144.7664" Radius="76.12485"  />
+      <Blackspot X="-8280.428" Y="-1185.125" Z="159.6754" Radius="29.30011"  />
+      <Blackspot X="-7984.73" Y="-1882.045" Z="129.7236" Radius="30" />      
+      <!--Crypt Entrance in Sorrow Hill-->
+      <Blackspot X="1077.836" Y="-1916.809" Z="62.84536" Radius="15" />
+
+    </Blackspots>
+  </SubProfile>
+
+   <!--1-8-->
+  <SubProfile>
+    <Name>Coldridge Valley 1-8</Name>
+    <MinLevel>1</MinLevel>
+    <MaxLevel>8</MaxLevel>
+
+    <QuestOrder>
+      <!-- Dwarven Outfitters (level 1) -->
+      <!-- Sten Stoutarm would like 8 pieces of Tough Wolf Meat.   -->
+      <!-- http://www.wowhead.com/quest=179 -->
+      <PickUp QuestName="Dwarven Outfitters" GiverName="Sten Stoutarm" QuestId="179" GiverId="658" />
+
+      <SetGrindArea>
+        <GrindArea>
+          <Factions>32 36 189</Factions>
+          <Hotspots>
+            <Hotspot X="-6374.996" Y="268.6868" Z="385.8251" />
+            <Hotspot X="-6283.456" Y="395.3112" Z="381.4657" />
+            <Hotspot X="-6276.301" Y="516.603" Z="387.4124" />
+            <Hotspot X="-6431.353" Y="386.172" Z="390.0995" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="3"/>
+
+      <!-- Item: Tough Wolf Meat -->
+      <Objective QuestName="Dwarven Outfitters" QuestId="179" Type="Collect" CollectCount="8" ItemId="750" />
+      <TurnIn QuestName="Dwarven Outfitters" NpcName="Sten Stoutarm" QuestId="179" TurnInId="658" />
+
+      <!-- A New Threat (level 2) -->
+      <!-- Balir Frosthammer wants you to kill 6 Rockjaw Troggs and 6 Burly Rockjaw Troggs.   -->
+      <!-- http://www.wowhead.com/quest=170 -->
+      <PickUp QuestName="A New Threat" GiverName="Balir Frosthammer" QuestId="170" GiverId="713" />
+      <!-- Creature: Rockjaw Trogg -->
+      <Objective QuestName="A New Threat" QuestId="170" Type="KillMob" KillCount="6" MobId="707" />
+      <!-- Creature: Burly Rockjaw Trogg -->
+      <Objective QuestName="A New Threat" QuestId="170" Type="KillMob" KillCount="6" MobId="724" />
+      <TurnIn QuestName="A New Threat" NpcName="Balir Frosthammer" QuestId="170" TurnInId="713" />
+
+      <!-- A Refugee's Quandary (level 3) -->
+      <!-- Bring Felix's Box, Felix's Chest and Felix's Bucket of Bolts to Felix Whindlebolt in Anvilmar.   -->
+      <!-- http://www.wowhead.com/quest=3361 -->
+      <PickUp QuestName="A Refugee's Quandary" GiverName="Felix Whindlebolt" QuestId="3361" GiverId="8416" />
+      <!-- Item: Felix's Box -->
+      <Objective QuestName="A Refugee's Quandary" QuestId="3361" Type="Collect" CollectCount="1" ItemId="10438" />
+      <!-- Item: Felix's Chest -->
+      <Objective QuestName="A Refugee's Quandary" QuestId="3361" Type="Collect" CollectCount="1" ItemId="16313" />
+      <!-- Item: Felix's Bucket of Bolts -->
+      <Objective QuestName="A Refugee's Quandary" QuestId="3361" Type="Collect" CollectCount="1" ItemId="16314" />
+      <TurnIn QuestName="A Refugee's Quandary" NpcName="Felix Whindlebolt" QuestId="3361" TurnInId="8416" />
+
+      <!-- Coldridge Valley Mail Delivery (level 3) -->
+      <!-- Deliver the stack of letters to Talin Keeneye in Coldridge Valley.   -->
+      <!-- http://www.wowhead.com/quest=233 -->
+      <PickUp QuestName="Coldridge Valley Mail Delivery" GiverName="Sten Stoutarm" QuestId="233" GiverId="658" />
+      <TurnIn QuestName="Coldridge Valley Mail Delivery" NpcName="Talin Keeneye" QuestId="233" TurnInId="714" />
+
+      <!-- The Boar Hunter (level 3) -->
+      <!-- Talin Keeneye would like you to kill 8 Small Crag Boars.   -->
+      <!-- http://www.wowhead.com/quest=183 -->
+      <PickUp QuestName="The Boar Hunter" GiverName="Talin Keeneye" QuestId="183" GiverId="714" />
+      <!-- Creature: Small Crag Boar -->
+      <Objective QuestName="The Boar Hunter" QuestId="183" Type="KillMob" KillCount="8" MobId="708" />
+      <TurnIn QuestName="The Boar Hunter" NpcName="Talin Keeneye" QuestId="183" TurnInId="714" />
+
+      <!-- Coldridge Valley Mail Delivery (level 4) -->
+      <!-- Deliver the letter to Grelin Whitebeard in Coldridge Valley.   -->
+      <!-- http://www.wowhead.com/quest=234 -->
+      <PickUp QuestName="Coldridge Valley Mail Delivery" GiverName="Talin Keeneye" QuestId="234" GiverId="714" />
+      <TurnIn QuestName="Coldridge Valley Mail Delivery" NpcName="Grelin Whitebeard" QuestId="234" TurnInId="786" />
+
+      <!-- The Troll Cave (level 4) -->
+      <!-- Grelin Whitebeard would like you to kill 10 Frostmane Troll Whelps.   -->
+      <!-- http://www.wowhead.com/quest=182 -->
+      <PickUp QuestName="The Troll Cave" GiverName="Grelin Whitebeard" QuestId="182" GiverId="786" />
+
+      <SetGrindArea>
+        <GrindArea>
+          <Factions>32 36 107 189</Factions>
+          <Hotspots>
+            <Hotspot X="-6445.687" Y="559.2073" Z="385.7642" />
+            <Hotspot X="-6482.578" Y="683.5085" Z="387.9805" />
+            <Hotspot X="-6371.81" Y="773.9807" Z="386.2139" />
+            <Hotspot X="-6419.276" Y="644.1398" Z="386.9178" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="6"/>
+
+      <!-- Creature: Frostmane Troll Whelp -->
+      <Objective QuestName="The Troll Cave" QuestId="182" Type="KillMob" KillCount="10" MobId="706" />
+      <TurnIn QuestName="The Troll Cave" NpcName="Grelin Whitebeard" QuestId="182" TurnInId="786" />
+
+      <!-- Scalding Mornbrew Delivery (level 5) -->
+      <!-- Take a Scalding Mornbrew to Durnan Furcutter inside Anvilmar before it gets cold!   -->
+      <!-- http://www.wowhead.com/quest=3364 -->
+      <PickUp QuestName="Scalding Mornbrew Delivery" GiverName="Nori Pridedrift" QuestId="3364" GiverId="12738" />
+      <TurnIn QuestName="Scalding Mornbrew Delivery" NpcName="Durnan Furcutter" QuestId="3364" TurnInId="836" />
+
+      <!-- Bring Back the Mug (level 5) -->
+      <!-- Return Nori's Mug to Nori Pridedrift in Coldridge Valley.   -->
+      <!-- http://www.wowhead.com/quest=3365 -->
+      <PickUp QuestName="Bring Back the Mug" GiverName="Durnan Furcutter" QuestId="3365" GiverId="836" />
+      <TurnIn QuestName="Bring Back the Mug" NpcName="Nori Pridedrift" QuestId="3365" TurnInId="12738" />
+
+      <!-- The Stolen Journal (level 5) -->
+      <!-- Grelin Whitebeard wants you to kill Grik'nir the Cold, and retrieve his journal.   -->
+      <!-- http://www.wowhead.com/quest=218 -->
+      <PickUp QuestName="The Stolen Journal" GiverName="Grelin Whitebeard" QuestId="218" GiverId="786" />
+      <!-- Item: Grelin Whitebeard's Journal -->
+      <Objective QuestName="The Stolen Journal" QuestId="218" Type="Collect" CollectCount="1" ItemId="2004" />
+      <TurnIn QuestName="The Stolen Journal" NpcName="Grelin Whitebeard" QuestId="218" TurnInId="786" />
+
+      <!-- Senir's Observations (level 5) -->
+      <!-- Speak with Mountaineer Thalos.   -->
+      <!-- http://www.wowhead.com/quest=282 -->
+      <PickUp QuestName="Senir's Observations" GiverName="Grelin Whitebeard" QuestId="282" GiverId="786" />
+
+      <!-- Supplies to Tannok (level 5) -->
+      <!-- Deliver the Crate of Inn Supplies to Tannok Frosthammer in Kharanos.   -->
+      <!-- http://www.wowhead.com/quest=2160 -->
+      <PickUp QuestName="Supplies to Tannok" GiverName="Hands Springsprocket" QuestId="2160" GiverId="6782" />
+
+      <SetGrindArea>
+        <GrindArea>
+          <Factions>189 14 7 44 66 36 59</Factions>
+          <Hotspots>
+            <Hotspot X="-5805.396" Y="-197.7234" Z="353.4719" />
+            <Hotspot X="-5870.7" Y="-89.42693" Z="364.0182" />
+            <Hotspot X="-5834.511" Y="74.00606" Z="364.2347" />
+            <Hotspot X="-5753.602" Y="176.3217" Z="368.8942" />
+            <Hotspot X="-5791.291" Y="-164.7617" Z="350.7726" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="8"/>
+
+    </QuestOrder>
+    <Vendors>
+      <Vendor Name="Rybrad Coldbank" Entry="945" Type="Repair" X="-6104.651" Y="391.6877" Z="395.5427"/>
+      <Vendor Name="Bromos Grummner" Entry="926" Type="Train" TrainClass="Paladin" X="-6120.679" Y="382.0895" Z="395.5426" />
+      <Vendor Name="Thorgas Grimson" Entry="895" Type="Train" TrainClass="Hunter" X="-6091.788" Y="365.1413" Z="395.5397" />
+      <Vendor Name="Thran Khorman" Entry="912" Type="Train" TrainClass="Warrior" X="-6084.768" Y="382.1413" Z="395.5426" />
+      <Vendor Name="Marryk Nurribit" Entry="944" Type="Train" TrainClass="Mage" X="-6056.094" Y="388.1749" Z="392.7612" />
+      <Vendor Name="Branstock Khalder" Entry="837" Type="Train" TrainClass="Priest" X="-6056.739" Y="393.548" Z="392.7596" />
+      <Vendor Name="Alamar Grimm" Entry="460" Type="Train" TrainClass="Warlock" X="-6048.788" Y="391.0775" Z="398.9584" />
+    </Vendors>
+
+    <AvoidMobs>
+      <AvoidMob Name="Bjarn" Entry="1130" />
+    </AvoidMobs>
+
+  </SubProfile>
+
+  <!--8-14-->
+  <SubProfile>
+    <Name>Kharonos</Name>
+    <MinLevel>8</MinLevel>
+    <MaxLevel>14</MaxLevel>
+
+    <QuestOrder>
+
+      <!-- Senir's Observations (level 5) -->
+      <!-- Speak with Mountaineer Thalos.   -->
+      <!-- http://www.wowhead.com/quest=282 -->
+      <PickUp QuestName="Senir's Observations" GiverName="Grelin Whitebeard" QuestId="282" GiverId="786" />
+
+      <!-- Supplies to Tannok (level 5) -->
+      <!-- Deliver the Crate of Inn Supplies to Tannok Frosthammer in Kharanos.   -->
+      <!-- http://www.wowhead.com/quest=2160 -->
+      <PickUp QuestName="Supplies to Tannok" GiverName="Hands Springsprocket" QuestId="2160" GiverId="6782" />
+
+      <TurnIn QuestName="Senir's Observations" NpcName="Mountaineer Thalos" QuestId="282" TurnInId="1965" />
+
+      <!-- Senir's Observations (level 5) -->
+      <!-- Deliver Grelin's report to Senir Whitebeard in Kharanos.   -->
+      <!-- http://www.wowhead.com/quest=420 -->
+      <PickUp QuestName="Senir's Observations" GiverName="Mountaineer Thalos" QuestId="420" GiverId="1965" />
+      <TurnIn QuestName="Senir's Observations" NpcName="Senir Whitebeard" QuestId="420" TurnInId="1252" />
+
+      <TurnIn QuestName="Supplies to Tannok" NpcName="Tannok Frosthammer" QuestId="2160" TurnInId="6806" />
+
+      <CheckPoint Level="10" />
+
+      <!-- Tools for Steelgrill (level 5) -->
+      <!-- Deliver Steelgrill's Tools to Beldin Steelgrill.   -->
+      <!-- http://www.wowhead.com/quest=400 -->
+      <PickUp QuestName="Tools for Steelgrill" GiverName="Tharek Blackstone" QuestId="400" GiverId="1872" />
+      <TurnIn QuestName="Tools for Steelgrill" NpcName="Beldin Steelgrill" QuestId="400" TurnInId="1376" />
+
+      <!-- Ammo for Rumbleshot (level 6) -->
+      <!-- Bring Rumbleshot's Ammo to Hegnar Rumbleshot in Dun Morogh.   -->
+      <!-- http://www.wowhead.com/quest=5541 -->
+      <PickUp QuestName="Ammo for Rumbleshot" GiverName="Loslor Rudge" QuestId="5541" GiverId="1694" />
+      <!-- Item: Rumbleshot's Ammo -->
+      <Objective QuestName="Ammo for Rumbleshot" QuestId="5541" Type="Collect" CollectCount="1" ItemId="13850" />
+      <TurnIn QuestName="Ammo for Rumbleshot" NpcName="Hegnar Rumbleshot" QuestId="5541" TurnInId="1243" />
+
+      <!-- Stocking Jetsteam (level 6) -->
+      <!-- Gather 4 Chunks of Boar Meat and 2 Thick Bear Furs, and deliver them to Pilot Bellowfiz at Steelgrill's Depot.   -->
+      <!-- http://www.wowhead.com/quest=317 -->
+      <PickUp QuestName="Stocking Jetsteam" GiverName="Pilot Bellowfiz" QuestId="317" GiverId="1378" />
+      <!-- Item: Chunk of Boar Meat -->
+      <Objective QuestName="Stocking Jetsteam" QuestId="317" Type="Collect" CollectCount="4" ItemId="769" />
+      <!-- Item: Thick Bear Fur -->
+      <Objective QuestName="Stocking Jetsteam" QuestId="317" Type="Collect" CollectCount="2" ItemId="6952" />
+      <TurnIn QuestName="Stocking Jetsteam" NpcName="Pilot Bellowfiz" QuestId="317" TurnInId="1378" />
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMaxLevel>11</TargetMaxLevel>
+          <TargetMinLevel>5</TargetMinLevel>
+          <Factions>189 66 44 38</Factions>
+          <Hotspots>
+            <Hotspot X="-5700.856" Y="-580.8085" Z="401.5865" />
+            <Hotspot X="-5493.419" Y="-785.0892" Z="398.9977" />
+            <Hotspot X="-5684.284" Y="-990.883" Z="393.4352" />
+            <Hotspot X="-5771.086" Y="-866.1174" Z="396.7385" />
+            <Hotspot X="-5928.051" Y="-574.5433" Z="404.4683" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="10"/>
+
+      <!-- The Grizzled Den (level 7) -->
+      <!-- Gather 8 Wendigo Manes and bring them to Pilot Stonegear.   -->
+      <!-- http://www.wowhead.com/quest=313 -->
+      <PickUp QuestName="The Grizzled Den" GiverName="Pilot Stonegear" QuestId="313" GiverId="1377" />
+      <!-- Item: Wendigo Mane -->
+      <Objective QuestName="The Grizzled Den" QuestId="313" Type="Collect" CollectCount="8" ItemId="2671" />
+      <TurnIn QuestName="The Grizzled Den" NpcName="Pilot Stonegear" QuestId="313" TurnInId="1377" />
+
+      <!-- Frostmane Hold (level 9) -->
+      <!-- Explore Frostmane Hold, and kill 5 Frostmane Headhunters for Senir Whitebeard in Kharanos.   -->
+      <!-- http://www.wowhead.com/quest=287 -->
+      <PickUp QuestName="Frostmane Hold" GiverName="Senir Whitebeard" QuestId="287" GiverId="1252" />
+
+
+      <!-- Evershine (level 7) -->
+      <!-- Get a cask of Evershine from Rejold Barleybrew in Brewnall Village.   -->
+      <!-- http://www.wowhead.com/quest=318 -->
+      <PickUp QuestName="Evershine" GiverName="Pilot Bellowfiz" QuestId="318" GiverId="1378" />
+      <TurnIn QuestName="Evershine" NpcName="Rejold Barleybrew" QuestId="318" TurnInId="1374" />
+
+      <!-- A Favor for Evershine (level 8) -->
+      <!-- Kill 6 Ice Claw Bears, 8 Elder Crag Boars, and 8 Snow Leopards, and then return to Rejold Barleybrew in Brewnall Village.   -->
+      <!-- http://www.wowhead.com/quest=319 -->
+      <PickUp QuestName="A Favor for Evershine" GiverName="Rejold Barleybrew" QuestId="319" GiverId="1374" />
+      <!-- Creature: Ice Claw Bear -->
+      <Objective QuestName="A Favor for Evershine" QuestId="319" Type="KillMob" KillCount="6" MobId="1196" />
+      <!-- Creature: Elder Crag Boar -->
+      <Objective QuestName="A Favor for Evershine" QuestId="319" Type="KillMob" KillCount="8" MobId="1127" />
+      <!-- Creature: Snow Leopard -->
+      <Objective QuestName="A Favor for Evershine" QuestId="319" Type="KillMob" KillCount="8" MobId="1201" />
+      <TurnIn QuestName="A Favor for Evershine" NpcName="Rejold Barleybrew" QuestId="319" TurnInId="1374" />
+
+      <!-- Return to Bellowfiz (level 8) -->
+      <!-- Give the cask of Evershine to Pilot Bellowfiz at Steelgrill's Depot.   -->
+      <!-- http://www.wowhead.com/quest=320 -->
+      <PickUp QuestName="Return to Bellowfiz" GiverName="Rejold Barleybrew" QuestId="320" GiverId="1374" />
+      <TurnIn QuestName="Return to Bellowfiz" NpcName="Pilot Bellowfiz" QuestId="320" TurnInId="1378" />
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMaxLevel>11</TargetMaxLevel>
+          <TargetMinLevel>8</TargetMinLevel>
+          <Factions>44 189</Factions>
+          <Hotspots>
+            <Hotspot X="-5638.559" Y="-2211.69" Z="424.7657" />
+            <Hotspot X="-5434.304" Y="-2151.922" Z="401.2068" />
+            <Hotspot X="-5306.784" Y="-2184.937" Z="425.386" />
+            <Hotspot X="-5303.642" Y="-2095.529" Z="425.4906" />
+            <Hotspot X="-5464.588" Y="-1868.363" Z="400.3371" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="12"/>
+
+      <!-- The Perfect Stout (level 9) -->
+      <!-- Bring 6 Shimmerweeds to Rejold Barleybrew in the Brewnall Village.   -->
+      <!-- http://www.wowhead.com/quest=315 -->
+      <PickUp QuestName="The Perfect Stout" GiverName="Rejold Barleybrew" QuestId="315" GiverId="1374" />
+      <!-- Item: Shimmerweed -->
+      <Objective QuestName="The Perfect Stout" QuestId="315" Type="Collect" CollectCount="6" ItemId="2676" />
+      <TurnIn QuestName="The Perfect Stout" NpcName="Rejold Barleybrew" QuestId="315" TurnInId="1374" />
+
+
+      <!-- Shimmer Stout (level 10) -->
+      <!-- Take the Barrel of Shimmer Stout to Mountaineer Barleybrew.   -->
+      <!-- http://www.wowhead.com/quest=413 -->
+      <PickUp QuestName="Shimmer Stout" GiverName="Rejold Barleybrew" QuestId="413" GiverId="1374" />
+      <TurnIn QuestName="Shimmer Stout" NpcName="Mountaineer Barleybrew" QuestId="413" TurnInId="1959" />
+
+      <!-- Operation Recombobulation (level 10) -->
+      <!-- Bring Razzle Sprysprocket in Kharanos 8 Restabilization Cogs and 8 Gyromechanic Gears.   -->
+      <!-- http://www.wowhead.com/quest=412 -->
+      <PickUp QuestName="Operation Recombobulation" GiverName="Razzle Sprysprocket" QuestId="412" GiverId="1269" />
+      <!-- Item: Restabilization Cog -->
+      <Objective QuestName="Operation Recombobulation" QuestId="412" Type="Collect" CollectCount="8" ItemId="3083" />
+      <!-- Item: Gyromechanic Gear -->
+      <Objective QuestName="Operation Recombobulation" QuestId="412" Type="Collect" CollectCount="8" ItemId="3084" />
+      <TurnIn QuestName="Operation Recombobulation" NpcName="Razzle Sprysprocket" QuestId="412" TurnInId="1269" />
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMaxLevel>11</TargetMaxLevel>
+          <TargetMinLevel>5</TargetMinLevel>
+          <Factions>37 44 59 189</Factions>
+          <Hotspots>
+            <Hotspot X="-5596.091" Y="758.2472" Z="385.4584" />
+            <Hotspot X="-5582.931" Y="703.7394" Z="381.9283" />
+            <Hotspot X="-5671.231" Y="751.8199" Z="389.6771" />
+            <Hotspot X="-5673.38" Y="651.0963" Z="387.9773" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="13"/>
+
+      <!-- Creature: Frostmane Headhunter -->
+      <Objective QuestName="Frostmane Hold" QuestId="287" Type="KillMob" KillCount="5" MobId="1123" />
+      <!-- Label: Fully explore Frostmane Hold -->
+
+      <TurnIn QuestName="Frostmane Hold" NpcName="Senir Whitebeard" QuestId="287" TurnInId="1252" />
+
+      <!-- The Reports (level 10) -->
+      <!-- Deliver Senir's report to Senator Barin Redstone in Ironforge.   -->
+      <!-- http://www.wowhead.com/quest=291 -->
+      <PickUp QuestName="The Reports" GiverName="Senir Whitebeard" QuestId="291" GiverId="1252" />
+      <TurnIn QuestName="The Reports" NpcName="Senator Barin Redstone" QuestId="291" TurnInId="1274" />
+
+      <!-- Those Blasted Troggs! (level 9) -->
+      <!-- Kill 6 Rockjaw Skullthumpers for Foreman Stonebrow at the Gol'Bolar quarry.   -->
+      <!-- http://www.wowhead.com/quest=432 -->
+      <PickUp QuestName="Those Blasted Troggs!" GiverName="Foreman Stonebrow" QuestId="432" GiverId="1254" />
+      <!-- Creature: Rockjaw Skullthumper -->
+      <Objective QuestName="Those Blasted Troggs!" QuestId="432" Type="KillMob" KillCount="6" MobId="1115" />
+      <TurnIn QuestName="Those Blasted Troggs!" NpcName="Foreman Stonebrow" QuestId="432" TurnInId="1254" />
+
+      <!-- The Public Servant (level 11) -->
+      <!-- Kill 10 Rockjaw Bonesnappers for Senator Mehr Stonehallow at the Gol'Bolar quarry.   -->
+      <!-- http://www.wowhead.com/quest=433 -->
+      <PickUp QuestName="The Public Servant" GiverName="Senator Mehr Stonehallow" QuestId="433" GiverId="1977" />
+      <!-- Creature: Rockjaw Bonesnapper -->
+      <Objective QuestName="The Public Servant" QuestId="433" Type="KillMob" KillCount="10" MobId="1117" />
+      <TurnIn QuestName="The Public Servant" NpcName="Senator Mehr Stonehallow" QuestId="433" TurnInId="1977" />
+
+      <!-- Protecting the Herd (level 12) -->
+      <!-- Rudra Amberstill wants you to slay Vagash and bring his fang to her at the Ram ranch.   -->
+      <!-- http://www.wowhead.com/quest=314 -->
+      <PickUp QuestName="Protecting the Herd" GiverName="Rudra Amberstill" QuestId="314" GiverId="1265" />
+      <!-- Item: Fang of Vagash -->
+      <Objective QuestName="Protecting the Herd" QuestId="314" Type="Collect" CollectCount="1" ItemId="3627" />
+      <TurnIn QuestName="Protecting the Herd" NpcName="Rudra Amberstill" QuestId="314" TurnInId="1265" />
+
+      <!-- The Trogg Threat (level 12) -->
+      <!-- Bring 8 Trogg Stone Teeth to Captain Rugelfuss in the southern guard tower.   -->
+      <!-- http://www.wowhead.com/quest=267 -->
+      <PickUp QuestName="The Trogg Threat" GiverName="Captain Rugelfuss" QuestId="267" GiverId="1092" />
+
+      <!-- In Defense of the King's Lands (level 12) -->
+      <!-- Mountaineer Cobbleflint of the southern guard tower wants you to kill 10 Stonesplinter Troggs and 10 Stonesplinter Scouts.   -->
+      <!-- http://www.wowhead.com/quest=224 -->
+      <PickUp QuestName="In Defense of the King's Lands" GiverName="Mountaineer Cobbleflint" QuestId="224" GiverId="1089" />
+
+      <!-- Thelsamar Blood Sausages (level 11) -->
+      <!-- Bring 3 pieces of Bear Meat, 3 Boar Intestines, and 3 Spider Ichor to Vidra Hearthstove in Thelsamar.   -->
+      <!-- http://www.wowhead.com/quest=418 -->
+      <PickUp QuestName="Thelsamar Blood Sausages" GiverName="Vidra Hearthstove" QuestId="418" GiverId="1963" />
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMaxLevel>16</TargetMaxLevel>
+          <TargetMinLevel>10</TargetMinLevel>
+          <Factions>14 22 38 44 73 189</Factions>
+          <Hotspots>
+            <Hotspot X="-5137.079" Y="-3063.652" Z="323.7733" />
+            <Hotspot X="-5061.595" Y="-2907.467" Z="331.1645" />
+            <Hotspot X="-5066.042" Y="-2770.626" Z="327.2625" />
+            <Hotspot X="-5147.391" Y="-2964.265" Z="331.5018" />
+            <Hotspot X="-5007.207" Y="-3087.248" Z="317.1907" />
+            <Hotspot X="-4806.917" Y="-2834.283" Z="327.2472" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="14"/>
+    </QuestOrder>
+
+    <Vendors>
+      <Vendor Name="Grawn Thromwyn" Entry="1273" Type="Repair" X="-5588" Y="-428" Z="397" />
+      <!--Brewnall Village-->
+      <Vendor Name="Burdrak Harglhelm" Entry="3162" Type="Repair" X="-5363.67" Y="319.1137" Z="394.1142" />
+      <!--Quarry-->
+      <Vendor Name="Frast Dokner" Entry="1698" Type="Repair" X="-5712" Y="-1591" Z="383" />
+      <!--Thelsamar-->
+      <Vendor Name="Morhan Coppertongue" Entry="167" Type="Repair" X="-5346" Y="-2935" Z="324" />
+      <!--Classes-->
+      <Vendor Name="Brandur Ironhammer" Entry="5149" Type="Train" TrainType="Priest" X="-4601.648" Y="-896.4678" Z="502.7669" />
+      <Vendor Name="Beldruk Doombrow" Entry="5148" Type="Train" TrainType="Paladin" X="-4592.855" Y="-907.6873" Z="502.7672" />
+      <Vendor Name="Juli Stormkettle" Entry="5145" Type="Train" TrainType="Mage" X="-4604.943" Y="-921.4888" Z="501.0735" />
+      <Vendor Name="Briarthorn" Entry="5172" Type="Train" TrainType="Warlock" X="-4599.085" Y="-1111.665" Z="504.9387" />
+      <Vendor Name="Bilban Tosslespanner" Entry="5114" Type="Train" TrainType="Warrior" X="-5035.671" Y="-1234.642" Z="507.7518" />
+      <Vendor Name="Regnus Thundergranite" Entry="5117" Type="Train" TrainType="Hunter" X="-5006.603" Y="-1266.038" Z="507.7541" />
+      <Vendor Name="Farseer Javad" Entry="23127" Type="Train" TrainType="Shaman" X="-4720.412" Y="-1149.962" Z="502.448" />
+      <!--Gathering Professions-->
+      <Vendor Name="Reyna Stonebranch" Entry="5137" Type="Train" TrainType="Herbalism" X="-4881.243" Y="-1155.519" Z="505.7707" />
+      <Vendor Name="Geofram Bouldertoe" Entry="4254" Type="Train" TrainType="Mining" X="-4707.961" Y="-1108.908" Z="504.4468" />
+      <Vendor Name="Balthus Stoneflayer" Entry="6291" Type="Train" TrainType="Skinning" X="-4740.687" Y="-1028.764" Z="504.4316" />
+    </Vendors>
+    <Mailboxes>
+      <Mailbox X="-5604.86" Y="-511.8967" Z="401.7381" />
+    </Mailboxes>
+
+    <Blackspots>
+      <!--Troggs by Helm's Bed Lake-->
+      <Blackspot X="-5682.384" Y="-2119.434" Z="400.8934" Radius="50" />
+    </Blackspots>
+
+    <AvoidMobs>
+      <AvoidMob Name="Bjarn" Entry="1130" />
+    </AvoidMobs>
+  </SubProfile>
+
+  <!--14-22-->
+  <SubProfile>
+    <Name>Loch Modan</Name>
+    <MinLevel>14</MinLevel>
+    <MaxLevel>22</MaxLevel>
+    <QuestOrder>
+      <!-- Thelsamar Blood Sausages (level 11) -->
+      <!-- Bring 3 pieces of Bear Meat, 3 Boar Intestines, and 3 Spider Ichor to Vidra Hearthstove in Thelsamar.   -->
+      <!-- http://www.wowhead.com/quest=418 -->
+      <PickUp QuestName="Thelsamar Blood Sausages" GiverName="Vidra Hearthstove" QuestId="418" GiverId="1963" />
+      <!-- Item: Boar Intestines -->
+      <Objective QuestName="Thelsamar Blood Sausages" QuestId="418" Type="Collect" CollectCount="3" ItemId="3172" />
+      <!-- Item: Bear Meat -->
+      <Objective QuestName="Thelsamar Blood Sausages" QuestId="418" Type="Collect" CollectCount="3" ItemId="3173" />
+      <!-- Item: Spider Ichor -->
+      <Objective QuestName="Thelsamar Blood Sausages" QuestId="418" Type="Collect" CollectCount="3" ItemId="3174" />
+      <TurnIn QuestName="Thelsamar Blood Sausages" NpcName="Vidra Hearthstove" QuestId="418" TurnInId="1963" />
+
+      <!-- Rat Catching (level 11) -->
+      <!-- Bring 12 Tunnel Rat Ears to Mountaineer Kadrell in Thelsamar.   -->
+      <!-- http://www.wowhead.com/quest=416 -->
+      <PickUp QuestName="Rat Catching" GiverName="Mountaineer Kadrell" QuestId="416" GiverId="1340" X="-5357.482" Y="-2948.725" Z="324.0042" />
+      <!-- Item: Tunnel Rat Ear -->
+      <Objective QuestName="Rat Catching" QuestId="416" Type="Collect" CollectCount="12" ItemId="3110" />
+      <TurnIn QuestName="Rat Catching" NpcName="Mountaineer Kadrell" QuestId="416" TurnInId="1340" />
+
+      <!-- Mountaineer Stormpike's Task (level 15) -->
+      <!-- Speak with Mountaineer Stormpike.   -->
+      <!-- http://www.wowhead.com/quest=1339 -->
+      <PickUp QuestName="Mountaineer Stormpike's Task" GiverName="Mountaineer Kadrell" QuestId="1339" GiverId="1340" />
+      <TurnIn QuestName="Mountaineer Stormpike's Task" NpcName="Mountaineer Stormpike" QuestId="1339" TurnInId="1343" />
+
+      <!-- Filthy Paws (level 15) -->
+      <!-- Go to the Silver Stream Mine and collect 4 loads of Miners' Gear. -->
+      <!-- http://www.wowhead.com/quest=307 -->
+      <PickUp QuestName="Filthy Paws" GiverName="Mountaineer Stormpike" QuestId="307" GiverId="1343" />
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMaxLevel>16</TargetMaxLevel>
+          <TargetMinLevel>11</TargetMinLevel>
+          <Factions>14 22 38 44 73 189</Factions>
+          <Hotspots>
+            <Hotspot X="-5682.784" Y="-3284.376" Z="304.9738" />
+            <Hotspot X="-5845.892" Y="-3444.377" Z="318.433" />
+            <Hotspot X="-5836.889" Y="-3276.915" Z="295.1134" />
+            <Hotspot X="-5522.741" Y="-3166.986" Z="343.0392" />
+            <Hotspot X="-5795.59" Y="-3401.993" Z="307.2879" />
+            <Hotspot X="-5617.726" Y="-3689.741" Z="315.5794" />
+            <Hotspot X="-5386.701" Y="-3781.669" Z="306.2816" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="15"/>
+
+      <!-- Item: Miners' Gear -->
+      <Objective QuestName="Filthy Paws" QuestId="307" Type="Collect" CollectCount="4" ItemId="2640" />
+      <TurnIn QuestName="Filthy Paws" NpcName="Mountaineer Stormpike" QuestId="307" TurnInId="1343" />
+
+      <!-- Mercenaries (level 19) -->
+      <!-- Magistrate Bluntnose of Thelsamar has hired you to kill 4 Mo'grosh Ogres, 4 Mo'grosh Brutes and 4 Mo'grosh Enforcers.   -->
+      <!-- http://www.wowhead.com/quest=255 -->
+      <PickUp QuestName="Mercenaries" GiverName="Magistrate Bluntnose" QuestId="255" GiverId="1139" />
+
+      <!-- The Trogg Threat (level 12) -->
+      <!-- Bring 8 Trogg Stone Teeth to Captain Rugelfuss in the southern guard tower.   -->
+      <!-- http://www.wowhead.com/quest=267 -->
+      <PickUp QuestName="The Trogg Threat" GiverName="Captain Rugelfuss" QuestId="267" GiverId="1092" />
+      <!-- Item: Trogg Stone Tooth -->
+      <Objective QuestName="The Trogg Threat" QuestId="267" Type="Collect" CollectCount="8" ItemId="2536" />
+      <TurnIn QuestName="The Trogg Threat" NpcName="Captain Rugelfuss" QuestId="267" TurnInId="1092" />
+
+      <!-- In Defense of the King's Lands (level 12) -->
+      <!-- Mountaineer Cobbleflint of the southern guard tower wants you to kill 10 Stonesplinter Troggs and 10 Stonesplinter Scouts.   -->
+      <!-- http://www.wowhead.com/quest=224 -->
+      <PickUp QuestName="In Defense of the King's Lands" GiverName="Mountaineer Cobbleflint" QuestId="224" GiverId="1089" />
+      <!-- Creature: Stonesplinter Trogg -->
+      <Objective QuestName="In Defense of the King's Lands" QuestId="224" Type="KillMob" KillCount="10" MobId="1161" />
+      <!-- Creature: Stonesplinter Scout -->
+      <Objective QuestName="In Defense of the King's Lands" QuestId="224" Type="KillMob" KillCount="10" MobId="1162" />
+      <TurnIn QuestName="In Defense of the King's Lands" NpcName="Mountaineer Cobbleflint" QuestId="224" TurnInId="1089" />
+
+      <!-- Ironband's Excavation (level 18) -->
+      <!-- Speak with Explorer Fellhew.   -->
+      <!-- http://www.wowhead.com/quest=436 -->
+      <PickUp QuestName="Ironband's Excavation" GiverName="Jern Hornhelm" QuestId="436" GiverId="1105" />
+      <TurnIn QuestName="Ironband's Excavation" NpcName="Magmar Fellhew" QuestId="436" TurnInId="1345" />
+
+      <!-- Excavation Progress Report (level 15) -->
+      <!-- Bring Ironband's Progress Report to Jern Hornhelm in Thelsamar.   -->
+      <!-- http://www.wowhead.com/quest=298 -->
+      <PickUp QuestName="Excavation Progress Report" GiverName="Prospector Ironband" QuestId="298" GiverId="1344" />
+      <TurnIn QuestName="Excavation Progress Report" NpcName="Jern Hornhelm" QuestId="298" TurnInId="1105" />
+
+      <!-- Report to Ironforge (level 15) -->
+      <!-- Take Ironband's Progress Report to Prospector Stormpike.   -->
+      <!-- http://www.wowhead.com/quest=301 -->
+      <PickUp QuestName="Report to Ironforge" GiverName="Jern Hornhelm" QuestId="301" GiverId="1105" />
+      <TurnIn QuestName="Report to Ironforge" NpcName="Prospector Stormpike" QuestId="301" TurnInId="1356" />
+
+      <!-- Powder to Ironband (level 15) -->
+      <!-- Speak with Jern Hornhelm at Thelsamar in Loch Modan.   -->
+      <!-- http://www.wowhead.com/quest=302 -->
+      <PickUp QuestName="Powder to Ironband" GiverName="Prospector Stormpike" QuestId="302" GiverId="1356" />
+
+
+      <!-- Find Bingles (level 15) -->
+      <!-- Find Bingles Blastenheimer in Loch Modan.   -->
+      <!-- http://www.wowhead.com/quest=2039 -->
+      <PickUp QuestName="Find Bingles" GiverName="Gnoarn" QuestId="2039" GiverId="6569" />
+
+      <TurnIn QuestName="Powder to Ironband" NpcName="Jern Hornhelm" QuestId="302" TurnInId="1105" />
+
+      <TurnIn QuestName="Find Bingles" NpcName="Bingles Blastenheimer" QuestId="2039" TurnInId="6577" />
+
+      <!-- Crocolisk Hunting (level 15) -->
+      <!-- Get 5 pieces of Crocolisk Meat and 6 Crocolisk Skins for Marek Ironheart at the Farstrider Lodge.   -->
+      <!-- http://www.wowhead.com/quest=385 -->
+      <PickUp QuestName="Crocolisk Hunting" GiverName="Marek Ironheart" QuestId="385" GiverId="1154" />
+      <!-- Item: Crocolisk Meat -->
+      <Objective QuestName="Crocolisk Hunting" QuestId="385" Type="Collect" CollectCount="5" ItemId="2924" />
+      <!-- Item: Crocolisk Skin -->
+      <Objective QuestName="Crocolisk Hunting" QuestId="385" Type="Collect" CollectCount="6" ItemId="2925" />
+
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMaxLevel>17</TargetMaxLevel>
+          <TargetMinLevel>11</TargetMinLevel>
+          <Factions>14 22 38 44 73 189</Factions>
+          <Hotspots>
+            <Hotspot X="-5439.674" Y="-3515.102" Z="298.0015" />
+            <Hotspot X="-5525.365" Y="-3435.873" Z="297.8941" />
+            <Hotspot X="-5527.105" Y="-3507.025" Z="298.2676" />
+            <!--Onshore spots-->
+            <Hotspot X="-5659.333" Y="-3648.343" Z="314.8833" />
+            <Hotspot X="-5264.144" Y="-3656.351" Z="298.3677" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="17"/>
+
+      <TurnIn QuestName="Crocolisk Hunting" NpcName="Marek Ironheart" QuestId="385" TurnInId="1154" />
+
+      <Grindto Level="18"/>
+
+      <!-- In Defense of the King's Lands (level 15) -->
+      <!-- Mountaineer Gravelgaw in the southern guard tower wants you to kill 10 Stonesplinter Skullthumpers and 10 Stonesplinter Seers and report back to him.   -->
+      <!-- http://www.wowhead.com/quest=237 -->
+      <PickUp QuestName="In Defense of the King's Lands" GiverName="Mountaineer Gravelgaw" QuestId="237" GiverId="1091" />
+      <!-- Creature: Stonesplinter Skullthumper -->
+      <Objective QuestName="In Defense of the King's Lands" QuestId="237" Type="KillMob" KillCount="10" MobId="1163" />
+      <!-- Creature: Stonesplinter Seer -->
+      <Objective QuestName="In Defense of the King's Lands" QuestId="237" Type="KillMob" KillCount="10" MobId="1166" />
+      <TurnIn QuestName="In Defense of the King's Lands" NpcName="Mountaineer Gravelgaw" QuestId="237" TurnInId="1091" />
+
+
+      <PickUp QuestName="A Dark Threat Looms" QuestId="250" GiverName="Chief Engineer Hinderweir VII" GiverId="1093" />
+      <TurnIn QuestName="A Dark Threat Looms" QuestId="250" TurnInName="Suspicious Barrel" TurnInId="257" />
+
+      <PickUp QuestName="A Dark Threat Looms" QuestId="199" GiverName="Suspicious Barrel" GiverId="257" GiverType="Object" X="-4730.714" Y="-3539.253" Z="303.0773" />
+      <Objective QuestName="A Dark Threat Looms" QuestId="199" Type="CollectItem" ItemId="2563" CollectCount="1" />
+      <TurnIn QuestName="A Dark Threat Looms" QuestId="199" TurnInName="Chief Engineer Hinderweir VII" TurnInId="1093" />
+
+      <!-- A Dark Threat Looms (level 18) -->
+      <!-- Chief Engineer Hinderweir wants you to take the strange smelling powder to Ashlan Stonesmirk, the explosives expert at Dun Modr in the Wetlands.   -->
+      <!-- http://www.wowhead.com/quest=161 -->
+      <PickUp QuestName="A Dark Threat Looms" GiverName="Chief Engineer Hinderweir VII" QuestId="161" GiverId="1093" />
+
+      <Grindto Level="19"/>
+
+      <PickUp QuestName="The Algaz Gauntlet" QuestId="455" GiverName="Mountaineer Rockgar" GiverId="1342" />
+
+
+      <TurnIn QuestName="A Dark Threat Looms" NpcName="Ashlan Stonesmirk" QuestId="161" TurnInId="1073" />
+
+      <!-- A Dark Threat Looms (level 18) -->
+      <!-- Ashlan Stonesmirk wants you to return to Chief Engineer Hinderweir in Loch Modan and inform him of the new discovery.   -->
+      <!-- http://www.wowhead.com/quest=274 -->
+      <PickUp QuestName="A Dark Threat Looms" GiverName="Ashlan Stonesmirk" QuestId="274" GiverId="1073" />
+      <TurnIn QuestName="A Dark Threat Looms" NpcName="Chief Engineer Hinderweir VII" QuestId="274" TurnInId="1093" />
+
+      <!-- A Dark Threat Looms (level 18) -->
+      <!-- Chief Engineer Hinderweir wants you to gather Lurker Venom, a Mo'grosh Crystal, and a Crocolisk Tear.   -->
+      <!-- http://www.wowhead.com/quest=278 -->
+      <PickUp QuestName="A Dark Threat Looms" GiverName="Chief Engineer Hinderweir VII" QuestId="278" GiverId="1093" />
+
+      <!-- Item: Lurker Venom -->
+      <Objective QuestName="A Dark Threat Looms" QuestId="278" Type="Collect" CollectCount="1" ItemId="2606" />
+
+      <!-- Item: Crocolisk Tear -->
+      <Objective QuestName="A Dark Threat Looms" QuestId="278" Type="Collect" CollectCount="1" ItemId="2939" />
+
+      <!-- Item: Mo'grosh Crystal -->
+      <Objective QuestName="A Dark Threat Looms" QuestId="278" Type="Collect" CollectCount="1" ItemId="2607" />
+      <TurnIn QuestName="A Dark Threat Looms" NpcName="Chief Engineer Hinderweir VII" QuestId="278" TurnInId="1093" />
+
+      <PickUp QuestName="A Dark Threat Looms" QuestId="280" GiverName="Chief Engineer Hinderweir VII" GiverId="1093" />
+      <TurnIn QuestName="A Dark Threat Looms" QuestId="280" TurnInName="Explosive Charge" TurnInId="1585" />
+
+      <PickUp QuestName="A Dark Threat Looms" QuestId="283" GiverName="Explosive Charge" GiverId="1585" GiverType="Object" X="-4751.392" Y="-3389.173" Z="284.868" />
+      <TurnIn QuestName="A Dark Threat Looms" QuestId="283" TurnInName="Chief Engineer Hinderweir VII" TurnInId="1093" />
+
+      <!-- In Defense of the King's Lands (level 15) -->
+      <!-- Mountaineer Wallbang in the southern guard tower wants you to kill 10 Stonesplinter Shaman and 10 Stonesplinter Bonesnappers.   -->
+      <!-- http://www.wowhead.com/quest=263 -->
+      <PickUp QuestName="In Defense of the King's Lands" GiverName="Mountaineer Wallbang" QuestId="263" GiverId="1090" />
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMaxLevel>19</TargetMaxLevel>
+          <TargetMinLevel>14</TargetMinLevel>
+          <Factions>14 22 38 44 73 189</Factions>
+          <Hotspots>
+            <Hotspot X="-5187.355" Y="-3646.341" Z="303.7514" />
+            <Hotspot X="-5274.849" Y="-3910.416" Z="331.9034" />
+            <Hotspot X="-5222.846" Y="-4130.833" Z="328.7432" />
+            <Hotspot X="-5128.153" Y="-4051.953" Z="322.8116" />
+            <Hotspot X="-4828.895" Y="-3694.636" Z="311.1785" />
+            <Hotspot X="-5049.206" Y="-3634.193" Z="300.7007" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="20"/>
+
+
+      <!-- Gathering Idols (level 18) -->
+      <!-- Bring Magmar Fellhew 8 Carved Stone Idols.   -->
+      <!-- http://www.wowhead.com/quest=297 -->
+      <PickUp QuestName="Gathering Idols" GiverName="Magmar Fellhew" QuestId="297" GiverId="1345" />
+      <!-- Item: Carved Stone Idol -->
+      <Objective QuestName="Gathering Idols" QuestId="297" Type="Collect" CollectCount="8" ItemId="2636" />
+      <TurnIn QuestName="Gathering Idols" NpcName="Magmar Fellhew" QuestId="297" TurnInId="1345" />
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>14</TargetMinLevel>
+          <TargetMaxLevel>25</TargetMaxLevel>
+          <Factions>14 22 38 44 45 73 189</Factions>
+          <Hotspots>
+            <Hotspot X="-5187.355" Y="-3646.341" Z="303.7514" />
+            <Hotspot X="-5274.849" Y="-3910.416" Z="331.9034" />
+            <Hotspot X="-5222.846" Y="-4130.833" Z="328.7432" />
+            <Hotspot X="-5128.153" Y="-4051.953" Z="322.8116" />
+            <Hotspot X="-4828.895" Y="-3694.636" Z="311.1785" />
+            <Hotspot X="-5049.206" Y="-3634.193" Z="300.7007" />
+            <!--Ogre Compound-->
+            <Hotspot X="-4990.65" Y="-3891.259" Z="308.1357" />
+            <Hotspot X="-5024.315" Y="-4030.117" Z="302.654" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="21"/>
+
+      <!-- Creature: Stonesplinter Shaman -->
+      <Objective QuestName="In Defense of the King's Lands" QuestId="263" Type="KillMob" KillCount="10" MobId="1197" />
+      <!-- Creature: Stonesplinter Bonesnapper -->
+      <Objective QuestName="In Defense of the King's Lands" QuestId="263" Type="KillMob" KillCount="10" MobId="1164" />
+
+      <TurnIn QuestName="In Defense of the King's Lands" NpcName="Mountaineer Wallbang" QuestId="263" TurnInId="1090" />
+
+
+      <!-- In Defense of the King's Lands (level 17) -->
+      <!-- Kill the Trogg leader, Grawmug, and his two guards, Gnasher and Brawler then report back to Captain Rugelfuss in the southern guard tower.   -->
+      <!-- http://www.wowhead.com/quest=217 -->
+      <PickUp QuestName="In Defense of the King's Lands" GiverName="Captain Rugelfuss" QuestId="217" GiverId="1092" />
+
+
+      <!-- Creature: Grawmug -->
+      <Objective QuestName="In Defense of the King's Lands" QuestId="217" Type="KillMob" KillCount="1" MobId="1205" />
+      <!-- Creature: Gnasher -->
+      <Objective QuestName="In Defense of the King's Lands" QuestId="217" Type="KillMob" KillCount="1" MobId="1206" />
+      <!-- Creature: Brawler -->
+      <Objective QuestName="In Defense of the King's Lands" QuestId="217" Type="KillMob" KillCount="1" MobId="1207" />
+      <TurnIn QuestName="In Defense of the King's Lands" NpcName="Captain Rugelfuss" QuestId="217" TurnInId="1092" />
+
+      <!-- Creature: Mo'grosh Ogre -->
+      <Objective QuestName="Mercenaries" QuestId="255" Type="KillMob" KillCount="4" MobId="1178" />
+      <!-- Creature: Mo'grosh Brute -->
+      <Objective QuestName="Mercenaries" QuestId="255" Type="KillMob" KillCount="4" MobId="1180" />
+      <!-- Creature: Mo'grosh Enforcer -->
+      <Objective QuestName="Mercenaries" QuestId="255" Type="KillMob" KillCount="4" MobId="1179" />
+      <TurnIn QuestName="Mercenaries" NpcName="Magistrate Bluntnose" QuestId="255" TurnInId="1139" />
+
+      <Grindto Level="22"/>
+
+    </QuestOrder>
+    <Vendors>
+      <Vendor Name="Morhan Coppertongue" Entry="167" Type="Repair" X="-5346" Y="-2935" Z="324" />
+      <!--Classes-->
+      <Vendor Name="Brandur Ironhammer" Entry="5149" Type="Train" TrainType="Priest" X="-4601.648" Y="-896.4678" Z="502.7669" />
+      <Vendor Name="Beldruk Doombrow" Entry="5148" Type="Train" TrainType="Paladin" X="-4592.855" Y="-907.6873" Z="502.7672" />
+      <Vendor Name="Juli Stormkettle" Entry="5145" Type="Train" TrainType="Mage" X="-4604.943" Y="-921.4888" Z="501.0735" />
+      <Vendor Name="Briarthorn" Entry="5172" Type="Train" TrainType="Warlock" X="-4599.085" Y="-1111.665" Z="504.9387" />
+      <Vendor Name="Bilban Tosslespanner" Entry="5114" Type="Train" TrainType="Warrior" X="-5035.671" Y="-1234.642" Z="507.7518" />
+      <Vendor Name="Regnus Thundergranite" Entry="5117" Type="Train" TrainType="Hunter" X="-5006.603" Y="-1266.038" Z="507.7541" />
+      <Vendor Name="Farseer Javad" Entry="23127" Type="Train" TrainType="Shaman" X="-4720.412" Y="-1149.962" Z="502.448" />
+      <!--Gathering Professions-->
+      <Vendor Name="Reyna Stonebranch" Entry="5137" Type="Train" TrainType="Herbalism" X="-4881.243" Y="-1155.519" Z="505.7707" />
+      <Vendor Name="Geofram Bouldertoe" Entry="4254" Type="Train" TrainType="Mining" X="-4707.961" Y="-1108.908" Z="504.4468" />
+      <Vendor Name="Balthus Stoneflayer" Entry="6291" Type="Train" TrainType="Skinning" X="-4740.687" Y="-1028.764" Z="504.4316" />
+    </Vendors>
+    <Mailboxes>
+      <Mailbox X="-5365.23" Y="-2953.062" Z="323.8214" />
+    </Mailboxes>
+
+    <AvoidMobs>
+      <AvoidMob Name="Emogg the Crusher" Entry="14267" />
+    </AvoidMobs>
+
+    <Blackspots>
+      <!--Thrasher in the Loch-->
+      <Blackspot X="-5617.148" Y="-3412.818" Z="297" Radius="115" />
+      <Blackspot X="-5585.4" Y="-3353.065" Z="295.8649" Radius="100" />
+      <Blackspot X="-5595.829" Y="-3508.412" Z="296.6885" Radius="60" />
+      <Blackspot X="-5190.883" Y="-3116.229" Z="311.517" Radius="60" />
+      <Blackspot X="-5126.389" Y="-3139.645" Z="304.1221" Radius="50" />
+      <!--Cho'gal's Cave-->
+      <Blackspot X="-4840.218" Y="-4068.842" Z="312.5502" Radius="15" />
+      <!--Trogg Island-->
+      <Blackspot X="-4950.535" Y="-3396.511" Z="296.6746" Radius="150" />
+      <!--Entrance to Badlands and to Uldaman-->
+      <Blackspot X="-5928.438" Y="-3275.792" Z="284.3174" Radius="75" />
+
+    </Blackspots>
+  </SubProfile>
+
+  <!--22-30-->
+  <SubProfile>
+    <Name>Wetlands</Name>
+    <MinLevel>22</MinLevel>
+    <MaxLevel>30</MaxLevel>
+
+    <!--Delete the Algaz Gauntles Quest if you are starting at level 22-->
+    <QuestOrder>
+
+      <!-- The Algaz Gauntlet (level 21) -->
+      <!-- Traverse Dun Algaz. -->
+      <!-- http://www.wowhead.com/quest=455 -->
+      <PickUp QuestName="The Algaz Gauntlet" GiverName="Mountaineer Rockgar" QuestId="455" GiverId="1342" />
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>17</TargetMinLevel>
+          <TargetMaxLevel>25</TargetMaxLevel>
+          <Factions>14 22 25 45 54</Factions>
+          <Hotspots>
+            <Hotspot X="-3998.733" Y="-2673.609" Z="33.71572" />
+            <Hotspot X="-3845.211" Y="-2689.901" Z="30.07545" />
+            <Hotspot X="-3886.527" Y="-2844.254" Z="11.85806" />
+            <Hotspot X="-3947.727" Y="-2937.614" Z="12.32607" />
+            <Hotspot X="-4000.332" Y="-2906.709" Z="12.19959" />
+            <Hotspot X="-4108.659" Y="-2872.361" Z="12.60676" />
+            <Hotspot X="-4110.296" Y="-2717.793" Z="21.66211" />
+            <!--The Algaz Gauntlet-->
+            <Hotspot X="-4350.897" Y="-2417.135" Z="226.6961" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="23"/>
+
+      <!-- Creature: Dragonmaw Scout -->
+      <Objective QuestName="The Algaz Gauntlet" QuestId="455" Type="KillMob" KillCount="8" MobId="2103" />
+      <!-- Creature: Dragonmaw Grunt -->
+      <Objective QuestName="The Algaz Gauntlet" QuestId="455" Type="KillMob" KillCount="6" MobId="2102" />
+
+      <!-- Daily Delivery (level 21) -->
+      <!-- Deliver the Bundle of Crocolisk Skins to James Halloran, the tanner, in Menethil Harbor.   -->
+      <!-- http://www.wowhead.com/quest=469 -->
+      <PickUp QuestName="Daily Delivery" GiverName="Einar Stonegrip" QuestId="469" GiverId="2093" />
+
+      <!-- Digging Through the Ooze (level 24) -->
+      <!-- One of the oozes at Ironbeard's Tomb has Sida's bag, retrieve it and bring it back to her in Menethil Harbor.   -->
+      <!-- http://www.wowhead.com/quest=470 -->
+      <PickUp QuestName="Digging Through the Ooze" GiverName="Sida" QuestId="470" GiverId="2111" />
+
+      <!-- The Greenwarden (level 21) -->
+      <!-- Find the Greenwarden.   -->
+      <!-- http://www.wowhead.com/quest=463 -->
+      <PickUp QuestName="The Greenwarden" GiverName="First Mate Fitzsimmons" QuestId="463" GiverId="1239" />
+
+      <!-- Claws from the Deep (level 22) -->
+      <!-- Kill 12 Bluegill Murlocs. -->
+      <!-- http://www.wowhead.com/quest=279 -->
+      <PickUp QuestName="Claws from the Deep" GiverName="Karl Boran" QuestId="279" GiverId="1242" />
+
+      <TurnIn QuestName="Daily Delivery" NpcName="James Halloran" QuestId="469" TurnInId="2094" />
+
+      <!-- Young Crocolisk Skins (level 22) -->
+      <!-- Obtain 4 Young Crocolisk Skins for James Halloran in Menethil Harbor.   -->
+      <!-- http://www.wowhead.com/quest=484 -->
+      <PickUp QuestName="Young Crocolisk Skins" GiverName="James Halloran" QuestId="484" GiverId="2094" />
+
+      <TurnIn QuestName="The Algaz Gauntlet" NpcName="Valstag Ironjaw" QuestId="455" TurnInId="2086" />
+
+      <!-- Report to Captain Stoutfist (level 26) -->
+      <!-- Speak with Captain Stoutfist.   -->
+      <!--
+      -->
+      <!-- http://www.wowhead.com/quest=473 -->
+      <!--
+      <PickUp QuestName="Report to Captain Stoutfist" GiverName="Valstag Ironjaw" QuestId="473" GiverId="2086" />
+      <TurnIn QuestName="Report to Captain Stoutfist" NpcName="Captain Stoutfist" QuestId="473" TurnInId="2104" />-->
+
+      <!-- War Banners (level 26) -->
+      <!-- Bring 8 Dragonmaw War Banners to Captain Stoutfist.   -->
+      <!-- http://www.wowhead.com/quest=464 -->
+      <PickUp QuestName="War Banners" GiverName="Captain Stoutfist" QuestId="464" GiverId="2104" />
+
+      <!--Now to start doing quests-->
+      <TurnIn QuestName="The Greenwarden" NpcName="Rethiel the Greenwarden" QuestId="463" TurnInId="1244" />
+
+      <!-- Item: Young Crocolisk Skin -->
+      <Objective QuestName="Young Crocolisk Skins" QuestId="484" Type="Collect" CollectCount="4" ItemId="3397" />
+      <TurnIn QuestName="Young Crocolisk Skins" NpcName="James Halloran" QuestId="484" TurnInId="2094" />
+
+      <!-- Apprentice's Duties (level 26) -->
+      <!-- Collect 6 Giant Crocolisk Skins and bring them to James Halloran in Menethil Harbor.   -->
+      <!-- http://www.wowhead.com/quest=471 -->
+      <PickUp QuestName="Apprentice's Duties" GiverName="James Halloran" QuestId="471" GiverId="2094" />
+
+      <Grindto Level="24" />
+
+      <!-- Claws from the Deep (level 22) -->
+      <!-- Kill 12 Bluegill Murlocs. -->
+      <!-- http://www.wowhead.com/quest=279 -->
+      <PickUp QuestName="Claws from the Deep" GiverName="Karl Boran" QuestId="279" GiverId="1242" />
+      <!-- Item: Gobbler's Head -->
+      <Objective QuestName="Claws from the Deep" QuestId="279" Type="Collect" CollectCount="1" ItemId="3618" />
+      <!-- Creature: Bluegill Murloc -->
+      <Objective QuestName="Claws from the Deep" QuestId="279" Type="KillMob" KillCount="12" MobId="1024" />
+      <TurnIn QuestName="Claws from the Deep" NpcName="Karl Boran" QuestId="279" TurnInId="1242" />
+
+      <PickUp QuestName="Reclaiming Goods" QuestId="281" GiverName="Karl Boran" GiverId="1242" />
+      <TurnIn QuestName="Reclaiming Goods" QuestId="281" TurnInName="Damaged Crate" TurnInId="261" />
+
+      <PickUp QuestName="The Search Continues" QuestId="284" GiverName="Damaged Crate" GiverId="261" GiverType="Object" X="-3288.375" Y="-947.8962" Z="9.980251" />
+      <TurnIn QuestName="The Search Continues" QuestId="284" TurnInName="Sealed Barrel" TurnInId="142151" />
+
+
+      <PickUp QuestName="Search More Hovels" QuestId="285" GiverName="Sealed Barrel" GiverId="142151" GiverType="Object" X="-3201.342" Y="-953.6191" Z="8.760059" />
+      <TurnIn QuestName="Search More Hovels" QuestId="285" TurnInName="Half-buried Barrel" TurnInId="259" />
+
+      <PickUp QuestName="Return the Statuette" QuestId="286" GiverName="Half-buried Barrel" GiverId="259" GiverType="Object" X="-3107.682" Y="-968.5822" Z="8.067719" />
+      <Objective QuestName="Return the Statuette" QuestId="286" Type="CollectItem" ItemId="2625" CollectCount="1" />
+      <TurnIn QuestName="Return the Statuette" QuestId="286" TurnInName="Karl Boran" TurnInId="1242" />
+
+
+      <!-- In Search of The Excavation Team (level 24) -->
+      <!-- Tarrel Rockweaver wants you to travel to the Excavation Site and contact Merrin Rockweaver.   -->
+      <!-- http://www.wowhead.com/quest=305 -->
+      <PickUp QuestName="In Search of The Excavation Team" GiverName="Tarrel Rockweaver" QuestId="305" GiverId="2096" />
+      <TurnIn QuestName="In Search of The Excavation Team" NpcName="Merrin Rockweaver" QuestId="305" TurnInId="1076" />
+
+      <!-- Ormer's Revenge (level 24) -->
+      <!-- Ormer Ironbraid at the Whelgar Excavation Site wants you to kill 10 Mottled Screechers and 10 Mottled Raptors.   -->
+      <!-- http://www.wowhead.com/quest=294 -->
+      <PickUp QuestName="Ormer's Revenge" GiverName="Ormer Ironbraid" QuestId="294" GiverId="1078" />
+
+      <!-- In Search of The Excavation Team (level 24) -->
+      <!-- Return to Tarrel Rockweaver at Menethil Harbor in Wetlands with Merrin's note.   -->
+      <!-- http://www.wowhead.com/quest=306 -->
+      <PickUp QuestName="In Search of The Excavation Team" GiverName="Merrin Rockweaver" QuestId="306" GiverId="1076" />
+      <TurnIn QuestName="In Search of The Excavation Team" NpcName="Tarrel Rockweaver" QuestId="306" TurnInId="2096" />
+
+      <!-- Item: Sida's Bag -->
+      <Objective QuestName="Digging Through the Ooze" QuestId="470" Type="Collect" CollectCount="1" ItemId="3349" />
+      <TurnIn QuestName="Digging Through the Ooze" NpcName="Sida" QuestId="470" TurnInId="2111" />
+
+      <!-- Item: Giant Crocolisk Skin -->
+      <Objective QuestName="Apprentice's Duties" QuestId="471" Type="Collect" CollectCount="6" ItemId="3348" />
+      <TurnIn QuestName="Apprentice's Duties" NpcName="James Halloran" QuestId="471" TurnInId="2094" />
+
+
+      <Grindto Level="25" />
+
+      <!-- Tramping Paws (level 21) -->
+      <!-- Kill 15 Mosshide Gnolls and 10 Mosshide Mongrels, then return to Rethiel the Greenwarden in the Wetlands.   -->
+      <!-- http://www.wowhead.com/quest=276 -->
+      <PickUp QuestName="Tramping Paws" GiverName="Rethiel the Greenwarden" QuestId="276" GiverId="1244" />
+      <!-- Creature: Mosshide Gnoll -->
+      <Objective QuestName="Tramping Paws" QuestId="276" Type="KillMob" KillCount="15" MobId="1007" />
+      <!-- Creature: Mosshide Mongrel -->
+      <Objective QuestName="Tramping Paws" QuestId="276" Type="KillMob" KillCount="10" MobId="1008" />
+      <TurnIn QuestName="Tramping Paws" NpcName="Rethiel the Greenwarden" QuestId="276" TurnInId="1244" />
+
+      <!-- Fire Taboo (level 23) -->
+      <!-- Bring Rethiel the Greenwarden 9 Crude Flints.   -->
+      <!-- http://www.wowhead.com/quest=277 -->
+      <PickUp QuestName="Fire Taboo" GiverName="Rethiel the Greenwarden" QuestId="277" GiverId="1244" />
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>17</TargetMinLevel>
+          <TargetMaxLevel>25</TargetMaxLevel>
+          <Factions>14 48</Factions>
+          <Hotspots>
+            <Hotspot X="-3462.831" Y="-1249.006" Z="9.601528" />
+            <Hotspot X="-3475.607" Y="-1388.57" Z="9.658765" />
+            <Hotspot X="-3336.959" Y="-1573.438" Z="9.993711" />
+            <Hotspot X="-3399.09" Y="-1395.252" Z="8.79876" />
+            <Hotspot X="-3403.31" Y="-1617.487" Z="9.691345" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="26"/>
+
+
+      <!-- Creature: Mottled Raptor -->
+      <Objective QuestName="Ormer's Revenge" QuestId="294" Type="KillMob" KillCount="10" MobId="1020" />
+      <!-- Creature: Mottled Screecher -->
+      <Objective QuestName="Ormer's Revenge" QuestId="294" Type="KillMob" KillCount="10" MobId="1021" />
+      <TurnIn QuestName="Ormer's Revenge" NpcName="Ormer Ironbraid" QuestId="294" TurnInId="1078" />
+
+      <!-- Ormer's Revenge (level 27) -->
+      <!-- Ormer Ironbraid wants you to kill 10 Mottled Scytheclaw raptors and 10 Mottled Razormaw raptors then return to him at the Whelgar Excavation Site.   -->
+      <!-- http://www.wowhead.com/quest=295 -->
+      <PickUp QuestName="Ormer's Revenge" GiverName="Ormer Ironbraid" QuestId="295" GiverId="1078" />
+      <!-- Creature: Mottled Scytheclaw -->
+      <Objective QuestName="Ormer's Revenge" QuestId="295" Type="KillMob" KillCount="10" MobId="1022" />
+      <!-- Creature: Mottled Razormaw -->
+      <Objective QuestName="Ormer's Revenge" QuestId="295" Type="KillMob" KillCount="10" MobId="1023" />
+      <TurnIn QuestName="Ormer's Revenge" NpcName="Ormer Ironbraid" QuestId="295" TurnInId="1078" />
+
+      <!-- Item: Crude Flint -->
+      <Objective QuestName="Fire Taboo" QuestId="277" Type="Collect" CollectCount="9" ItemId="2611" />
+      <TurnIn QuestName="Fire Taboo" NpcName="Rethiel the Greenwarden" QuestId="277" TurnInId="1244" />
+
+      <!-- Blisters on The Land (level 26) -->
+      <!-- Kill 8 Fen Creepers, then return to Rethiel the Greenwarden in the Wetlands.   -->
+      <!-- http://www.wowhead.com/quest=275 -->
+      <PickUp QuestName="Blisters on The Land" GiverName="Rethiel the Greenwarden" QuestId="275" GiverId="1244" />
+      <!-- Creature: Fen Creeper -->
+      <Objective QuestName="Blisters on The Land" QuestId="275" Type="KillMob" KillCount="8" MobId="1040" />
+      <TurnIn QuestName="Blisters on The Land" NpcName="Rethiel the Greenwarden" QuestId="275" TurnInId="1244" />
+
+      <GrindTo Level="27" />
+
+      <!-- Item: Dragonmaw War Banner -->
+      <Objective QuestName="War Banners" QuestId="464" Type="Collect" CollectCount="8" ItemId="3337" />
+      <TurnIn QuestName="War Banners" NpcName="Captain Stoutfist" QuestId="464" TurnInId="2104" />
+
+      <Grindto Level="28"/>
+
+      <!-- Fall of Dun Modr (level 25) -->
+      <!-- Search for Longbraid near the town of Dun Modr.   -->
+      <!-- http://www.wowhead.com/quest=472 -->
+      <PickUp QuestName="Fall of Dun Modr" GiverName="Harlo Barnaby" QuestId="472" GiverId="2097" />
+      <TurnIn QuestName="Fall of Dun Modr" NpcName="Longbraid the Grim" QuestId="472" TurnInId="1071" />
+
+      <!-- The Dark Iron War (level 30) -->
+      <!-- Motley Garmason at Dun Modr wants you to kill 10 Dark Iron Dwarves,  5 Dark Iron Tunnelers, 5 Dark Iron Saboteurs and 5 Dark Iron Demolitionists.   -->
+      <!-- http://www.wowhead.com/quest=303 -->
+      <PickUp QuestName="The Dark Iron War" GiverName="Motley Garmason" QuestId="303" GiverId="1074" />
+
+      <PickUp QuestName="The Thandol Span" QuestId="631" GiverName="Rhag Garmason" GiverId="1075" />
+      <TurnIn QuestName="The Thandol Span" QuestId="631" TurnInName="Ebenezer Rustlocke's Corpse" TurnInId="2652" TurninType="Object" X="-2367.529" Y="-2509.47" Z="75.34442" />
+
+      <PickUp QuestName="The Thandol Span" QuestId="632" GiverName="Ebenezer Rustlocke's Corpse" GiverId="2652" GiverType="Object" X="-2367.529" Y="-2509.47" Z="75.34442" />
+      <Objective QuestName="The Thandol Span" QuestId="632" Type="CollectItem" ItemId="4429" CollectCount="1" />
+      <TurnIn QuestName="The Thandol Span" QuestId="632" TurnInName="Rhag Garmason" TurnInId="1075" />
+
+      <!-- The Thandol Span (level 31) -->
+      <!-- Destroy the cache of explosives.   -->
+      <!-- http://www.wowhead.com/quest=633 -->
+      <PickUp QuestName="The Thandol Span" GiverName="Rhag Garmason" QuestId="633" GiverId="1075" />
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>22</TargetMinLevel>
+          <Factions>22 48 654</Factions>
+          <TargetMaxLevel>33</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-2976.329" Y="-2893.314" Z="32.12048" />
+            <Hotspot X="-3252.634" Y="-3054.377" Z="21.95899" />
+            <Hotspot X="-3352.255" Y="-2836.986" Z="13.4139" />
+            <Hotspot X="-3217.806" Y="-2773.431" Z="16.18583" />
+            <Hotspot X="-3164.255" Y="-2869.915" Z="17.88912" />
+            <Hotspot X="-3201.204" Y="-2804.096" Z="15.68216" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="29"/>
+
+      <!-- Missing Crystals (level 29) -->
+      <!-- Retrieve the Shipment of Rare Crystals from the Forsaken and return it to Huraan in Southshore.   -->
+      <!-- http://www.wowhead.com/quest=9435 -->
+      <PickUp QuestName="Missing Crystals" GiverName="Huraan" QuestId="9435" GiverId="17218" />
+      <!-- Item: Shipment of Rare Crystals -->
+      <Objective QuestName="Missing Crystals" QuestId="9435" Type="Collect" CollectCount="1" ItemId="23646" />
+      <TurnIn QuestName="Missing Crystals" NpcName="Huraan" QuestId="9435" TurnInId="17218" />
+
+      <!-- Soothing Turtle Bisque (level 31) -->
+      <!-- Bring 10 pieces of Turtle Meat to Chef Jessen in Southshore.   -->
+      <!-- http://www.wowhead.com/quest=555 -->
+      <PickUp QuestName="Soothing Turtle Bisque" GiverName="Chef Jessen" QuestId="555" GiverId="2430" />
+      <!-- Item: Turtle Meat -->
+      <Objective QuestName="Soothing Turtle Bisque" QuestId="555" Type="Collect" CollectCount="10" ItemId="3712" />
+      <TurnIn QuestName="Soothing Turtle Bisque" NpcName="Chef Jessen" QuestId="555" TurnInId="2430" />
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>22</TargetMinLevel>
+          <Factions>14 22 44 48 654</Factions>
+          <TargetMaxLevel>33</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-849.4036" Y="-541.1646" Z="11.03563" />
+            <Hotspot X="-849.0919" Y="-556.2243" Z="11.67529" />
+            <Hotspot X="-796.8376" Y="-804.902" Z="19.31531" />
+            <Hotspot X="-921.3631" Y="-876.681" Z="25.73653" />
+            <Hotspot X="-1029.408" Y="-922.9227" Z="42.55932" />
+            <Hotspot X="-1185.316" Y="-1072.521" Z="42.61578" />
+            <Hotspot X="-1196.246" Y="-1150.266" Z="40.89127" />
+            <Hotspot X="-1102.27" Y="-1124.303" Z="48.38684" />
+            <Hotspot X="-1018.579" Y="-1077.496" Z="43.84973" />
+            <Hotspot X="-931.105" Y="-1144.11" Z="50.28564" />
+            <Hotspot X="-850.1642" Y="-1187.137" Z="52.36968" />
+            <Hotspot X="-793.7483" Y="-1117.061" Z="48.99598" />
+            <Hotspot X="-766.7389" Y="-1038.04" Z="41.97897" />
+            <Hotspot X="-789.3646" Y="-950.0286" Z="29.38621" />
+            <Hotspot X="-809.1087" Y="-843.4847" Z="18.00889" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="30"/>
+
+    </QuestOrder>
+
+    <Vendors>
+      <Vendor Name="Naela Trance" Entry="1459" Type="Repair" X="-3758.334" Y="-855.7285" Z="9.899825" />
+      <Vendor Name="Robert Aebischer" Entry="3543" Type="Repair" X="-815.5286" Y="-572.1868" Z="15.22829" />
+    </Vendors>
+    <Mailboxes>
+      <Mailbox X="-3793.068" Y="-838.324" Z="9.656753" />
+      <Mailbox X="-849.0919" Y="-556.2243" Z="11.67529" />
+    </Mailboxes>
+
+    <Blackspots>
+      <!--Mosshide Gnoll camps-->
+      <Blackspot X="-4219.232" Y="-2684.958" Z="48.69537" Radius="50" />
+      <Blackspot X="-4107.127" Y="-2953.864" Z="11.92348" Radius="50" />
+      <Blackspot X="-3978.542" Y="-3005.66" Z="9.825611" Radius="50" />
+      <Blackspot X="-3787.535" Y="-2988.223" Z="11.64557" Radius="75" />
+      <Blackspot X="-4050.88" Y="-2983.529" Z="11.73001" Radius="50" />
+      <Blackspot X="-2907.279" Y="-2054.574" Z="9.312461" Radius="50" />
+      <Blackspot X="-2900.967" Y="-2580.59" Z="34.01011" Radius="50" />
+      <!--Thelgan Rock Cave-->
+      <Blackspot X="-3877.345" Y="-2549.996" Z="41.79459" Radius="25" />
+      <!--Raptor Screecher Camps-->
+      <Blackspot X="-3535.973" Y="-1312.565" Z="10.35605" Radius="60" />
+      <Blackspot X="-3699.048" Y="-1349.428" Z="19.57444" Radius="50" />
+      <Blackspot X="-3497.267" Y="-1476.409" Z="9.384251" Radius="50" />
+      <!--Can't get out of the water-->
+      <Blackspot X="-3339.311" Y="-988.493" Z="5.700517" Radius="25" />
+      <!--Strange route to Ormer-->
+      <Blackspot X="-3522.619" Y="-1916.505" Z="33.53466" Radius="25" />
+      <!--Memethil Harbor-->
+      <Blackspot X="-3655.355" Y="-1060.69" Z="1.039497" Radius="125" />
+      <!--Dark Iron Encampments-->
+      <Blackspot X="-2832.945" Y="-2855.775" Z="35.66371" Radius="35" />
+      <Blackspot X="-2868.061" Y="-2963.542" Z="36.27425" Radius="35" />
+      <!--Nethander Stead-->
+      <Blackspot X="-912.3071" Y="-1003.987" Z="37.8911" Radius="100" />
+      <Blackspot X="-920.8754" Y="-1003.895" Z="31.79866" Radius="100" />
+      <!--Naga near Southshore-->
+      <Blackspot X="-984.5401" Y="-808.6776" Z="13.78995" Radius="68.73955" />
+    </Blackspots>
+
+  </SubProfile>
+
+  <!--30-39-->
+  <SubProfile>
+    <Name>Hillsbrad Foothills, Alterac Mountains and Arathi Highlands</Name>
+    <MinLevel>30</MinLevel>
+    <MaxLevel>39</MaxLevel>
+
+    <Blackspots>
+      <!--Circle of East Binding-->
+      <Blackspot X="-832.3849" Y="-3241.078" Z="84.53363" Radius="100" />
+      <!--Circle of West Binding-->
+      <Blackspot X="-868.1942" Y="-1788.285" Z="62.63524" Radius="100" />
+      <!--Circle of Outer Binding-->
+      <Blackspot X="-1352.001" Y="-2745.807" Z="64.80099" Radius="100" />
+      <!--Boulderfist Hall Camp Fire-->
+      <Blackspot X="-1918.151" Y="-2783.743" Z="71.13868" Radius="25" />
+      <!--Go'Shek Farm-->
+      <Blackspot X="-1504.644" Y="-3117.936" Z="29.03757" Radius="125" />
+      <!--Horde Altrac Valley Entrance-->
+      <Blackspot X="391.6285" Y="-988.2649" Z="111.2437" Radius="75" />
+    </Blackspots>
+
+    <AvoidMobs>
+      <AvoidMob Name="Thundering Exile" Entry="2762" />
+      <AvoidMob Name="Giant Plains Creeper" Entry="2565" />
+    </AvoidMobs>
+
+    <QuestOrder>
+      <!--Catch up quests for people who start at 30-->
+
+      <!-- Fall of Dun Modr (level 25) -->
+      <!-- Search for Longbraid near the town of Dun Modr.   -->
+      <!-- http://www.wowhead.com/quest=472 -->
+      <PickUp QuestName="Fall of Dun Modr" GiverName="Harlo Barnaby" QuestId="472" GiverId="2097" />
+      <TurnIn QuestName="Fall of Dun Modr" NpcName="Longbraid the Grim" QuestId="472" TurnInId="1071" />
+
+      <!-- Missing Crystals (level 29) -->
+      <!-- Retrieve the Shipment of Rare Crystals from the Forsaken and return it to Huraan in Southshore.   -->
+      <!-- http://www.wowhead.com/quest=9435 -->
+      <PickUp QuestName="Missing Crystals" GiverName="Huraan" QuestId="9435" GiverId="17218" />
+      <!-- Item: Shipment of Rare Crystals -->
+      <Objective QuestName="Missing Crystals" QuestId="9435" Type="Collect" CollectCount="1" ItemId="23646" />
+      <TurnIn QuestName="Missing Crystals" NpcName="Huraan" QuestId="9435" TurnInId="17218" />
+
+
+      <!-- Soothing Turtle Bisque (level 31) -->
+      <!-- Bring 10 pieces of Turtle Meat to Chef Jessen in Southshore.   -->
+      <!-- http://www.wowhead.com/quest=555 -->
+      <PickUp QuestName="Soothing Turtle Bisque" GiverName="Chef Jessen" QuestId="555" GiverId="2430" />
+      <!-- Item: Turtle Meat -->
+      <Objective QuestName="Soothing Turtle Bisque" QuestId="555" Type="Collect" CollectCount="10" ItemId="3712" />
+      <TurnIn QuestName="Soothing Turtle Bisque" NpcName="Chef Jessen" QuestId="555" TurnInId="2430" />
+
+      <!--New quests-->
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>22</TargetMinLevel>
+          <Factions>14 22 44 48 654</Factions>
+          <TargetMaxLevel>33</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-849.4036" Y="-541.1646" Z="11.03563" />
+            <Hotspot X="-849.0919" Y="-556.2243" Z="11.67529" />
+            <Hotspot X="-796.8376" Y="-804.902" Z="19.31531" />
+            <Hotspot X="-921.3631" Y="-876.681" Z="25.73653" />
+            <Hotspot X="-1029.408" Y="-922.9227" Z="42.55932" />
+            <Hotspot X="-1185.316" Y="-1072.521" Z="42.61578" />
+            <Hotspot X="-1196.246" Y="-1150.266" Z="40.89127" />
+            <Hotspot X="-1102.27" Y="-1124.303" Z="48.38684" />
+            <Hotspot X="-1018.579" Y="-1077.496" Z="43.84973" />
+            <Hotspot X="-931.105" Y="-1144.11" Z="50.28564" />
+            <Hotspot X="-850.1642" Y="-1187.137" Z="52.36968" />
+            <Hotspot X="-793.7483" Y="-1117.061" Z="48.99598" />
+            <Hotspot X="-766.7389" Y="-1038.04" Z="41.97897" />
+            <Hotspot X="-789.3646" Y="-950.0286" Z="29.38621" />
+            <Hotspot X="-809.1087" Y="-843.4847" Z="18.00889" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <GrindTo Level="32" />
+
+
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>26</TargetMinLevel>
+          <Factions>22 48 654</Factions>
+          <TargetMaxLevel>33</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-1266.369" Y="-2299.056" Z="57.86597" />
+            <Hotspot X="-1235.727" Y="-2807.201" Z="49.332" />
+            <Hotspot X="-1061.807" Y="-3205.792" Z="45.20158" />
+            <Hotspot X="-1185.126" Y="-2861.405" Z="48.45189" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <GrindTo Level="33" />
+
+      <!-- Northfold Manor (level 31) -->
+      <!-- Kill 10 Syndicate Highwaymen and 6 Syndicate Mercenaries. -->
+      <!-- http://www.wowhead.com/quest=681 -->
+      <PickUp QuestName="Northfold Manor" GiverName="Captain Nials" QuestId="681" GiverId="2700" />
+      <!-- Creature: Syndicate Highwayman -->
+      <Objective QuestName="Northfold Manor" QuestId="681" Type="KillMob" KillCount="10" MobId="2586" />
+      <!-- Creature: Syndicate Mercenary -->
+      <Objective QuestName="Northfold Manor" QuestId="681" Type="KillMob" KillCount="6" MobId="2589" />
+      <TurnIn QuestName="Northfold Manor" NpcName="Captain Nials" QuestId="681" TurnInId="2700" />
+
+      <GrindTo Level="34" />
+
+      <!-- The Dark Iron War (level 30) -->
+      <!-- Motley Garmason at Dun Modr wants you to kill 10 Dark Iron Dwarves,  5 Dark Iron Tunnelers, 5 Dark Iron Saboteurs and 5 Dark Iron Demolitionists.   -->
+      <!-- http://www.wowhead.com/quest=303 -->
+      <PickUp QuestName="The Dark Iron War" GiverName="Motley Garmason" QuestId="303" GiverId="1074" />
+
+      <PickUp QuestName="1. The Thandol Span" QuestId="631" GiverName="Rhag Garmason" GiverId="1075" />
+      <TurnIn QuestName="1. The Thandol Span" QuestId="631" TurnInName="Ebenezer Rustlocke's Corpse" TurnInId="2652" TurninType="Object" X="-2367.529" Y="-2509.47" Z="75.34442" />
+
+      <PickUp QuestName="2. The Thandol Span" QuestId="632" GiverName="Ebenezer Rustlocke's Corpse" GiverId="2652" GiverType="Object" X="-2367.529" Y="-2509.47" Z="75.34442" />
+      <Objective QuestName="2. The Thandol Span" QuestId="632" Type="CollectItem" ItemId="4429" CollectCount="1" />
+      <TurnIn QuestName="2. The Thandol Span" QuestId="632" TurnInName="Rhag Garmason" TurnInId="1075" />
+
+      <!-- The Thandol Span (level 31) -->
+      <!-- Destroy the cache of explosives.   -->
+      <!-- http://www.wowhead.com/quest=633 -->
+      <PickUp QuestName="3. The Thandol Span" GiverName="Rhag Garmason" QuestId="633" GiverId="1075" />
+      <Objective QuestName="3. The Thandol Span" QuestId="633" Type="UseObject" ObjectId="2704" UseCount="1" />
+      <TurnIn QuestName="3. The Thandol Span" NpcName="Rhag Garmason" QuestId="633" TurnInId="1075" />
+
+      <!-- A Grim Task (level 31) -->
+      <!-- Kill Balgaras the Foul and bring his ear to Longbraid the Grim outside of Dun Modr.   -->
+      <!-- http://www.wowhead.com/quest=304 -->
+      <PickUp QuestName="A Grim Task" GiverName="Longbraid the Grim" QuestId="304" GiverId="1071" />
+      <!-- Item: Ear of Balgaras -->
+      <Objective QuestName="A Grim Task" QuestId="304" Type="Collect" CollectCount="1" ItemId="3639" />
+      <TurnIn QuestName="A Grim Task" NpcName="Longbraid the Grim" QuestId="304" TurnInId="1071" />
+
+      <!-- Creature: Dark Iron Dwarf -->
+      <Objective QuestName="The Dark Iron War" QuestId="303" Type="KillMob" KillCount="10" MobId="1051" />
+      <!-- Creature: Dark Iron Tunneler -->
+      <Objective QuestName="The Dark Iron War" QuestId="303" Type="KillMob" KillCount="5" MobId="1053" />
+      <!-- Creature: Dark Iron Saboteur -->
+      <Objective QuestName="The Dark Iron War" QuestId="303" Type="KillMob" KillCount="5" MobId="1052" />
+      <!-- Creature: Dark Iron Demolitionist -->
+      <Objective QuestName="The Dark Iron War" QuestId="303" Type="KillMob" KillCount="5" MobId="1054" />
+      <TurnIn QuestName="The Dark Iron War" NpcName="Motley Garmason" QuestId="303" TurnInId="1074" />
+
+      <PickUp QuestName="Plea To The Alliance" QuestId="634" GiverName="Rhag Garmason" GiverId="1075" />
+      <TurnIn QuestName="Plea To The Alliance" QuestId="634" TurnInName="Captain Nials" TurnInId="2700" />
+
+      <!-- Down the Coast (level 30) -->
+      <!-- Kill 10 Torn Fin Tidehunters and 10 Torn Fin Oracles for Lieutenant Farren Orinelle in Southshore.   -->
+      <!-- http://www.wowhead.com/quest=536 -->
+      <PickUp QuestName="Down the Coast" GiverName="Lieutenant Farren Orinelle" QuestId="536" GiverId="2228" />
+      <!-- Creature: Torn Fin Tidehunter -->
+      <Objective QuestName="Down the Coast" QuestId="536" Type="KillMob" KillCount="10" MobId="2377" />
+      <!-- Creature: Torn Fin Oracle -->
+      <Objective QuestName="Down the Coast" QuestId="536" Type="KillMob" KillCount="10" MobId="2376" />
+      <TurnIn QuestName="Down the Coast" NpcName="Lieutenant Farren Orinelle" QuestId="536" TurnInId="2228" />
+
+      <!-- Farren's Proof (level 32) -->
+      <!-- Collect 10 Murloc Heads from the murlocs on the Western Strand for Lieutenant Farren Orinelle in Southshore.   -->
+      <!-- http://www.wowhead.com/quest=559 -->
+      <PickUp QuestName="Farren's Proof" GiverName="Lieutenant Farren Orinelle" QuestId="559" GiverId="2228" />
+      <!-- Item: Murloc Head -->
+      <Objective QuestName="Farren's Proof" QuestId="559" Type="Collect" CollectCount="10" ItemId="3716" />
+      <TurnIn QuestName="Farren's Proof" NpcName="Lieutenant Farren Orinelle" QuestId="559" TurnInId="2228" />
+
+      <!-- Farren's Proof (level 32) -->
+      <!-- Deliver the sack of murloc heads to Marshall Redpath in Southshore.   -->
+      <!-- http://www.wowhead.com/quest=560 -->
+      <PickUp QuestName="Farren's Proof" GiverName="Lieutenant Farren Orinelle" QuestId="560" GiverId="2228" />
+      <TurnIn QuestName="Farren's Proof" NpcName="Marshal Redpath" QuestId="560" TurnInId="2263" />
+
+      <!-- Farren's Proof (level 32) -->
+      <!-- Speak with Lieutenant Farren Orinelle in Southshore.   -->
+      <!-- http://www.wowhead.com/quest=561 -->
+      <PickUp QuestName="Farren's Proof" GiverName="Marshal Redpath" QuestId="561" GiverId="2263" />
+      <TurnIn QuestName="Farren's Proof" NpcName="Lieutenant Farren Orinelle" QuestId="561" TurnInId="2228" />
+
+      <!-- Stormwind Ho! (level 32) -->
+      <!-- Kill 10 Daggerspine Shorehunters and 10 Daggerspine Sirens for Lieutenant Farren Orinelle in Southshore.   -->
+      <!-- http://www.wowhead.com/quest=562 -->
+      <PickUp QuestName="Stormwind Ho!" GiverName="Lieutenant Farren Orinelle" QuestId="562" GiverId="2228" />
+      <!-- Creature: Daggerspine Shorehunter -->
+      <Objective QuestName="Stormwind Ho!" QuestId="562" Type="KillMob" KillCount="10" MobId="2369" />
+      <!-- Creature: Daggerspine Siren -->
+      <Objective QuestName="Stormwind Ho!" QuestId="562" Type="KillMob" KillCount="10" MobId="2371" />
+      <TurnIn QuestName="Stormwind Ho!" NpcName="Lieutenant Farren Orinelle" QuestId="562" TurnInId="2228" />
+
+      <!-- Hints of a New Plague? (level 33) -->
+      <!-- Find Quae and Kinelory near the Go'Shek Farm in the Arathi Highlands.   -->
+      <!-- http://www.wowhead.com/quest=659 -->
+      <PickUp QuestName="Hints of a New Plague?" GiverName="Phin Odelic" QuestId="659" GiverId="2711" />
+      <TurnIn QuestName="Hints of a New Plague?" NpcName="Quae" QuestId="659" TurnInId="2712" />
+
+      <!-- Costly Menace (level 34) -->
+      <!-- Darren Malvew of Southshore wants you to kill 8 Mountain Lions and 10 Hulking Mountain Lions.   -->
+      <!-- http://www.wowhead.com/quest=564 -->
+      <PickUp QuestName="Costly Menace" GiverName="Darren Malvew" QuestId="564" GiverId="2382" />
+      <!-- Creature: Mountain Lion -->
+      <Objective QuestName="Costly Menace" QuestId="564" Type="KillMob" KillCount="8" MobId="2406" />
+      <!-- Creature: Hulking Mountain Lion -->
+      <Objective QuestName="Costly Menace" QuestId="564" Type="KillMob" KillCount="10" MobId="2407" />
+      <TurnIn QuestName="Costly Menace" NpcName="Darren Malvew" QuestId="564" TurnInId="2382" />
+
+      <GrindTo Level="36" />
+
+      <!-- Worth Its Weight in Gold (level 36) -->
+      <!-- Find 10 Witherbark Tusks, 4 Witherbark Medicine Pouches and a Shadow Hunter Knife for Apprentice Kryten at Refuge Pointe.   -->
+      <!-- http://www.wowhead.com/quest=691 -->
+      <PickUp QuestName="Worth Its Weight in Gold" GiverName="Apprentice Kryten" QuestId="691" GiverId="2788" />
+      <!-- Item: Witherbark Tusk -->
+      <Objective QuestName="Worth Its Weight in Gold" QuestId="691" Type="Collect" CollectCount="10" ItemId="4503" />
+      <!-- Item: Witherbark Medicine Pouch -->
+      <Objective QuestName="Worth Its Weight in Gold" QuestId="691" Type="Collect" CollectCount="4" ItemId="4522" />
+      <!-- Item: Shadow Hunter Knife -->
+      <Objective QuestName="Worth Its Weight in Gold" QuestId="691" Type="Collect" CollectCount="1" ItemId="5040" />
+      <TurnIn QuestName="Worth Its Weight in Gold" NpcName="Apprentice Kryten" QuestId="691" TurnInId="2788" />
+
+      <!--Level 36-->
+      <!-- Syndicate Assassins (level 33) -->
+      <!-- Kill 12 Syndicate Footpads and 8 Syndicate Thieves, then return to Magistrate Henry Maleb in Southshore.   -->
+      <!-- http://www.wowhead.com/quest=505 -->
+      <PickUp QuestName="Syndicate Assassins" GiverName="Magistrate Henry Maleb" QuestId="505" GiverId="2276" />
+
+      <PickUp QuestName="Encrypted Letter" QuestId="511" GiverName="Syndicate Documents" GiverId="186420" GiverType="Object" X="-33.8045" Y="-560.0526" Z="151.9653" />
+
+      <PickUp QuestName="Foreboding Plans" QuestId="510" GiverName="Syndicate Documents" GiverId="186420" GiverType="Object" X="-33.8045" Y="-560.0526" Z="151.9653" />
+
+      <!-- Creature: Syndicate Footpad -->
+      <Objective QuestName="Syndicate Assassins" QuestId="505" Type="KillMob" KillCount="12" MobId="2240" />
+      <!-- Creature: Syndicate Thief -->
+      <Objective QuestName="Syndicate Assassins" QuestId="505" Type="KillMob" KillCount="8" MobId="2241" />
+      <TurnIn QuestName="Syndicate Assassins" NpcName="Magistrate Henry Maleb" QuestId="505" TurnInId="2276" />
+
+
+      <Objective QuestName="Foreboding Plans" QuestId="510" Type="CollectItem" ItemId="3718" CollectCount="1" />
+      <TurnIn QuestName="Foreboding Plans" QuestId="510" TurnInName="Magistrate Henry Maleb" TurnInId="2276" />
+
+      <Objective QuestName="Encrypted Letter" QuestId="511" Type="CollectItem" ItemId="3521" CollectCount="1" />
+      <TurnIn QuestName="Encrypted Letter" QuestId="511" TurnInName="Loremaster Dibbs" TurnInId="2277" />
+
+      <PickUp QuestName="Letter to Stormpike" QuestId="514" GiverName="Loremaster Dibbs" GiverId="2277" />
+      <Objective QuestName="Letter to Stormpike" QuestId="514" Type="CollectItem" ItemId="3521" CollectCount="1" />
+
+      <!-- Crushridge Bounty (level 36) -->
+      <!-- Gather 9 Dirty Knucklebones from Crushridge ogres in the Alterac Mountains.  Bring them to Marshal Redpath in Southshore.   -->
+      <!-- http://www.wowhead.com/quest=500 -->
+      <PickUp QuestName="Crushridge Bounty" GiverName="Marshal Redpath" QuestId="500" GiverId="2263" />
+      <!-- Item: Dirty Knucklebones -->
+      <Objective QuestName="Crushridge Bounty" QuestId="500" Type="Collect" CollectCount="9" ItemId="2843" />
+      <TurnIn QuestName="Crushridge Bounty" NpcName="Marshal Redpath" QuestId="500" TurnInId="2263" />
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>34</TargetMinLevel>
+          <TargetMaxLevel>40</TargetMaxLevel>
+          <Factions>22 45 48</Factions>
+          <Hotspots>
+            <Hotspot X="-1830.456" Y="-2664.41" Z="55.76287" />
+            <Hotspot X="-2094.822" Y="-2588.921" Z="78.57738" />
+            <Hotspot X="-1686.329" Y="-3019.257" Z="31.74811" />
+            <Hotspot X="-1540.209" Y="-2819.927" Z="36.87103" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="38"/>
+
+      <!-- Noble Deaths (level 36) -->
+      <!-- Bring 7 Alterac Signet Rings to Magistrate Maleb in Southshore.   -->
+      <!-- http://www.wowhead.com/quest=512 -->
+      <PickUp QuestName="Noble Deaths" GiverName="Magistrate Henry Maleb" QuestId="512" GiverId="2276" />
+      <!-- Item: Alterac Signet Ring -->
+      <Objective QuestName="Noble Deaths" QuestId="512" Type="Collect" CollectCount="7" ItemId="3505" />
+      <TurnIn QuestName="Noble Deaths" NpcName="Magistrate Henry Maleb" QuestId="512" TurnInId="2276" />
+
+      <!-- Stromgarde Badges (level 37) -->
+      <!-- Bring 7 Stromgarde Badges to Captain Nials at Refuge Pointe.   -->
+      <!-- http://www.wowhead.com/quest=682 -->
+      <PickUp QuestName="Stromgarde Badges" GiverName="Captain Nials" QuestId="682" GiverId="2700" />
+      <!-- Item: Stromgarde Badge -->
+      <Objective QuestName="Stromgarde Badges" QuestId="682" Type="Collect" CollectCount="7" ItemId="4506" />
+      <TurnIn QuestName="Stromgarde Badges" NpcName="Captain Nials" QuestId="682" TurnInId="2700" />
+
+      <!--The Princess Trapped Level 37-->
+      <!--Gather 12 Motes of Myzrael, then bring them to the Iridescent Shards in Drywhisker Gorge. -->
+      <!--http://www.wowhead.com/quest=642-->
+      <PickUp QuestName="The Princess Trapped" QuestId="642" GiverName="Shards of Myzrael" GiverId="138492" GiverType="Object" X="-944.4182" Y="-3117.666" Z="48.98298" />
+      <Objective QuestName="The Princess Trapped" QuestId="642" Type="CollectItem" ItemId="4435" CollectCount="12" />
+      <TurnIn QuestName="The Princess Trapped" QuestId="642" TurnInName="Iridescent Shards" TurnInId="2701" />
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMaxLevel>46</TargetMaxLevel>
+          <TargetMinLevel>37</TargetMinLevel>
+          <Factions>14 16 38 59 91</Factions>
+          <Hotspots>
+            <Hotspot X="-6660.037" Y="-2732.632" Z="242.9695" />
+            <Hotspot X="-6735.621" Y="-3279.708" Z="242.0609" />
+            <Hotspot X="-6855.897" Y="-2537.542" Z="241.9168" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+
+      <Grindto Level="39"/>
+
+    </QuestOrder>
+
+
+    <Vendors>
+      <!--Menethil Harbor-->
+      <Vendor Name="Naela Trance" Entry="1459" Type="Repair" X="-3758.334" Y="-855.7285" Z="9.899825" />
+      <!--Stonewright Dam in Loch Modan-->
+      <Vendor Name="Nillen Andemar" Entry="222" Type="Repair" X="-4669.423" Y="-3176.2" Z="310.2854" />
+      <!--Southshore-->
+      <Vendor Name="Robert Aebischer" Entry="3543" Type="Repair" X="-815.5286" Y="-572.1868" Z="15.22829" />
+      <!--Refuge Pointe-->
+      <Vendor Name="Jannos Ironwill" Entry="1471" Type="Repair" X="-1278.573" Y="-2521.999" Z="21.37443" />
+    </Vendors>
+    <Mailboxes>
+      <!--Memethil Harbor-->
+      <Mailbox X="-3793.068" Y="-838.324" Z="9.656753" />
+      <!--Southshore-->
+      <Mailbox X="-849.0919" Y="-556.2243" Z="11.67529" />
+    </Mailboxes>
+
+  </SubProfile>
+
+  <!--39-46-->
+  <SubProfile>
+    <Name>Arathi Highlands and Badlands</Name>
+    <MinLevel>39</MinLevel>
+    <MaxLevel>46</MaxLevel>
+
+    <QuestOrder>
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMaxLevel>46</TargetMaxLevel>
+          <TargetMinLevel>37</TargetMinLevel>
+          <Factions>14 16 38 59 91</Factions>
+          <Hotspots>
+            <Hotspot X="-7325.638" Y="-3152.907" Z="315.6069" />
+            <Hotspot X="-7273.07" Y="-3127.271" Z="315.3514" />
+            <Hotspot X="-7163.866" Y="-3045.79" Z="270.5474" />
+            <Hotspot X="-7130.315" Y="-2978.663" Z="258.1721" />
+            <Hotspot X="-7101.465" Y="-3252.853" Z="244.8026" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <PickUp QuestName="A Sign of Hope" QuestId="720" GiverName="Crumpled Map" GiverId="2868" GiverType="Object" X="-6449.683" Y="-3395.975" Z="241.6154" />
+      <TurnIn QuestName="A Sign of Hope" QuestId="720" TurnInName="Prospector Ryedol" TurnInId="2910" />
+
+      <!-- A Dwarf and His Tools (level 35) -->
+      <!-- Find Ryedol's Lucky Pick and return it to Prospector Ryedol south of Hammertoe's Dig Site.   -->
+      <!-- http://www.wowhead.com/quest=719 -->
+      <PickUp QuestName="A Dwarf and His Tools" GiverName="Prospector Ryedol" QuestId="719" GiverId="2910" />
+      <!-- Item: Ryedol's Lucky Pick -->
+      <Objective QuestName="A Dwarf and His Tools" QuestId="719" Type="Collect" CollectCount="1" ItemId="4616" />
+
+      <TurnIn QuestName="A Dwarf and His Tools" NpcName="Prospector Ryedol" QuestId="719" TurnInId="2910" />
+
+
+      <!-- Study of the Elements: Rock (level 37) -->
+      <!-- Find 10 Small Stone Shards and bring them to Lotwil Veriatus in the Badlands.   -->
+      <!-- http://www.wowhead.com/quest=710 -->
+      <PickUp QuestName="Study of the Elements: Rock" GiverName="Lotwil Veriatus" QuestId="710" GiverId="2921" />
+      <!-- Item: Small Stone Shard -->
+      <Objective QuestName="Study of the Elements: Rock" QuestId="710" Type="Collect" CollectCount="10" ItemId="4626" />
+      <TurnIn QuestName="Study of the Elements: Rock" NpcName="Lotwil Veriatus" QuestId="710" TurnInId="2921" />
+
+      <GrindTo Level="40" />
+
+      <!-- Mirages (level 38) -->
+      <!-- Retrieve the Supply Crate for Sigrun Ironhew.   -->
+      <!-- http://www.wowhead.com/quest=718 -->
+      <PickUp QuestName="Mirages" GiverName="Sigrun Ironhew" QuestId="718" GiverId="2860" />
+      <!-- Item: Supply Crate -->
+      <Objective QuestName="Mirages" QuestId="718" Type="Collect" CollectCount="1" ItemId="4629" />
+      <TurnIn QuestName="Mirages" NpcName="Sigrun Ironhew" QuestId="718" TurnInId="2860" />
+
+      <PickUp QuestName="A Sign of Hope" QuestId="721" GiverName="Prospector Ryedol" GiverId="2910" />
+      <TurnIn QuestName="A Sign of Hope" QuestId="721" TurnInName="Hammertoe Grez" TurnInId="2909" />
+
+      <PickUp QuestName="Amulet of Secrets" QuestId="722" GiverName="Hammertoe Grez" GiverId="2909" />
+      <Objective QuestName="Amulet of Secrets" QuestId="722" Type="CollectItem" ItemId="4635" CollectCount="1" />
+      <TurnIn QuestName="Amulet of Secrets" QuestId="722" TurnInName="Hammertoe Grez" TurnInId="2909" />
+
+      <!-- Prospect of Faith (level 40) -->
+      <!-- Take Hammertoe's Amulet to Prospector Ryedol in the Badlands.   -->
+      <!-- http://www.wowhead.com/quest=723 -->
+      <PickUp QuestName="Prospect of Faith" GiverName="Hammertoe Grez" QuestId="723" GiverId="2909" />
+      <TurnIn QuestName="Prospect of Faith" NpcName="Prospector Ryedol" QuestId="723" TurnInId="2910" />
+
+      <!-- Prospect of Faith (level 40) -->
+      <!-- Take Hammertoe's Amulet to Historian Karnik in Ironforge.   -->
+      <!-- http://www.wowhead.com/quest=724 -->
+      <PickUp QuestName="Prospect of Faith" GiverName="Prospector Ryedol" QuestId="724" GiverId="2910" />
+
+      <!--In case you have not already done the Alterac Quest we repeat this: -->
+      <PickUp QuestName="Encrypted Letter" QuestId="511" GiverName="Syndicate Documents" GiverId="186420" GiverType="Object" X="-33.8045" Y="-560.0526" Z="151.9653" />
+
+      <Objective QuestName="Encrypted Letter" QuestId="511" Type="CollectItem" ItemId="3521" CollectCount="1" />
+      <TurnIn QuestName="Encrypted Letter" QuestId="511" TurnInName="Loremaster Dibbs" TurnInId="2277" />
+
+
+      <PickUp QuestName="Letter to Stormpike" QuestId="514" GiverName="Loremaster Dibbs" GiverId="2277" />
+      <Objective QuestName="Letter to Stormpike" QuestId="514" Type="CollectItem" ItemId="3521" CollectCount="1" />
+      <TurnIn QuestName="Letter to Stormpike" QuestId="514" TurnInName="Prospector Stormpike" TurnInId="1356" />
+
+      <!-- Further Mysteries (level 34) -->
+      <!-- Bring the Decrypted Letter to Magistrate Maleb in Southshore.   -->
+      <!-- http://www.wowhead.com/quest=525 -->
+      <PickUp QuestName="Further Mysteries" GiverName="Prospector Stormpike" QuestId="525" GiverId="1356" />
+
+      <TurnIn QuestName="Prospect of Faith" NpcName="Historian Karnik" QuestId="724" TurnInId="2916" />
+
+      <!-- Passing Word of a Threat (level 40) -->
+      <!-- Find Advisor Belgrum and give him his note.   -->
+      <!-- http://www.wowhead.com/quest=725 -->
+      <PickUp QuestName="Passing Word of a Threat" GiverName="Historian Karnik" QuestId="725" GiverId="2916" />
+      <TurnIn QuestName="Passing Word of a Threat" NpcName="Advisor Belgrum" QuestId="725" TurnInId="2918" />
+
+      <!-- Passing Word of a Threat (level 40) -->
+      <!-- Speak to Historian Karnik.   -->
+      <!-- http://www.wowhead.com/quest=726 -->
+      <PickUp QuestName="Passing Word of a Threat" GiverName="Advisor Belgrum" QuestId="726" GiverId="2918" />
+      <TurnIn QuestName="Passing Word of a Threat" NpcName="Historian Karnik" QuestId="726" TurnInId="2916" />
+
+
+      <PickUp QuestName="Ironband Wants You!" QuestId="707" GiverName="Prospector Stormpike" GiverId="1356" />
+
+      <PickUp QuestName="Badlands Reagent Run" QuestId="2500" GiverName="Ghak Healtouch" GiverId="1470" />
+
+      <TurnIn QuestName="Ironband Wants You!" QuestId="707" TurnInName="Prospector Ironband" TurnInId="1344" />
+
+      <PickUp QuestName="Find Agmond" QuestId="738" GiverName="Prospector Ironband" GiverId="1344" />
+      <TurnIn QuestName="Find Agmond" QuestId="738" TurnInName="Battered Dwarven Skeleton" TurnInId="2875" />
+
+      <PickUp QuestName="Murdaloc" QuestId="739" GiverName="Battered Dwarven Skeleton" GiverId="2875" GiverType="Object" X="-6922.713" Y="-3345.458" Z="243.5231" />
+      <Objective QuestName="Murdaloc" QuestId="739" Type="KillMob" MobId="2945" KillCount="1" />
+      <Objective QuestName="Murdaloc" QuestId="739" Type="KillMob" MobId="2893" KillCount="12" />
+      <TurnIn QuestName="Murdaloc" QuestId="739" TurnInName="Prospector Ironband" TurnInId="1344" />
+
+      <!--QuestName="Agmond's Fate" QuestId="704" is a death trap-->
+
+      <!-- Study of the Elements: Rock (level 39) -->
+      <!-- Bring 3 Large Stone Slabs to Lotwil Veriatus in the Badlands.   -->
+      <!-- http://www.wowhead.com/quest=711 -->
+      <PickUp QuestName="Study of the Elements: Rock" GiverName="Lotwil Veriatus" QuestId="711" GiverId="2921" />
+      <!-- Item: Large Stone Slab -->
+      <Objective QuestName="Study of the Elements: Rock" QuestId="711" Type="Collect" CollectCount="3" ItemId="4627" />
+      <TurnIn QuestName="Study of the Elements: Rock" NpcName="Lotwil Veriatus" QuestId="711" TurnInId="2921" />
+
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMaxLevel>46</TargetMaxLevel>
+          <TargetMinLevel>35</TargetMinLevel>
+          <Factions>14 16 38 59 91</Factions>
+          <Hotspots>
+            <Hotspot X="-7324.754" Y="-3467.406" Z="323.4129" />
+            <Hotspot X="-7256.849" Y="-3485.629" Z="316.1638" />
+            <Hotspot X="-7220.84" Y="-3411.59" Z="286.8909" />
+            <Hotspot X="-7245.209" Y="-3197.242" Z="292.8318" />
+            <Hotspot X="-7325.638" Y="-3152.907" Z="315.6069" />
+            <Hotspot X="-7273.07" Y="-3127.271" Z="315.3514" />
+            <Hotspot X="-7163.866" Y="-3045.79" Z="270.5474" />
+            <Hotspot X="-7130.315" Y="-2978.663" Z="258.1721" />
+            <Hotspot X="-7101.465" Y="-3252.853" Z="244.8026" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="41" />
+
+      <PickUp QuestName="Badlands Reagent Run" QuestId="2500" GiverName="Ghak Healtouch" GiverId="1470" />
+      <Objective QuestName="Badlands Reagent Run" QuestId="2500" Type="CollectItem" ItemId="7847" CollectCount="5" />
+      <Objective QuestName="Badlands Reagent Run" QuestId="2500" Type="CollectItem" ItemId="7846" CollectCount="10" />
+      <Objective QuestName="Badlands Reagent Run" QuestId="2500" Type="CollectItem" ItemId="7848" CollectCount="5" />
+      <TurnIn QuestName="Badlands Reagent Run" QuestId="2500" TurnInName="Ghak Healtouch" TurnInId="1470" />
+
+      <!-- Barbecued Buzzard Wings (level 40) -->
+      <!-- Bring 4 Buzzard Wings to Rigglefuzz.   -->
+      <!-- http://www.wowhead.com/quest=703 -->
+      <PickUp QuestName="Barbecued Buzzard Wings" GiverName="Rigglefuzz" QuestId="703" GiverId="2817" />
+      <!-- Item: Buzzard Wing -->
+      <Objective QuestName="Barbecued Buzzard Wings" QuestId="703" Type="Collect" CollectCount="4" ItemId="3404" />
+      <TurnIn QuestName="Barbecued Buzzard Wings" NpcName="Rigglefuzz" QuestId="703" TurnInId="2817" />
+
+      <Grindto Level="42"/>
+
+      <!-- Scrounging (level 40) -->
+      <!-- Get 7 pieces of Scrap Metal for Sigrun.   -->
+      <!-- http://www.wowhead.com/quest=733 -->
+      <PickUp QuestName="Scrounging" GiverName="Sigrun Ironhew" QuestId="733" GiverId="2860" />
+      <!-- Item: Scrap Metal -->
+      <Objective QuestName="Scrounging" QuestId="733" Type="Collect" CollectCount="7" ItemId="4630" />
+      <TurnIn QuestName="Scrounging" NpcName="Sigrun Ironhew" QuestId="733" TurnInId="2860" />
+
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMaxLevel>46</TargetMaxLevel>
+          <TargetMinLevel>37</TargetMinLevel>
+          <Factions>45 91</Factions>
+          <Hotspots>
+            <Hotspot X="-7184.245" Y="-2163.757" Z="318.1614" />
+            <Hotspot X="-7218.582" Y="-2101.25" Z="317.4014" />
+            <Hotspot X="-7405.705" Y="-2464.775" Z="324.6772" />
+            <Hotspot X="-7304.168" Y="-2501.028" Z="312.6662" />
+            <Hotspot X="-7097.612" Y="-2346.347" Z="242.7535" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <GrindTo Level="43" />
+
+      <!-- Further Mysteries (level 34) -->
+      <!-- Bring the Decrypted Letter to Magistrate Maleb in Southshore.   -->
+      <!-- http://www.wowhead.com/quest=525 -->
+      <PickUp QuestName="Further Mysteries" GiverName="Prospector Stormpike" QuestId="525" GiverId="1356" />
+      <TurnIn QuestName="Further Mysteries" NpcName="Magistrate Henry Maleb" QuestId="525" TurnInId="2276" />
+
+      <!-- Crushridge Warmongers (level 40) -->
+      <!-- Slay 10 Crushridge Warmongers, then return to Marshal Redpath in Southshore.   -->
+      <!-- http://www.wowhead.com/quest=504 -->
+      <PickUp QuestName="Crushridge Warmongers" GiverName="Marshal Redpath" QuestId="504" GiverId="2263" />
+      <!-- Creature: Crushridge Warmonger -->
+      <Objective QuestName="Crushridge Warmongers" QuestId="504" Type="KillMob" KillCount="10" MobId="2287" />
+      <TurnIn QuestName="Crushridge Warmongers" NpcName="Marshal Redpath" QuestId="504" TurnInId="2263" />
+
+      <GrindTo Level="44" />
+
+      <!-- Study of the Elements: Rock (level 42) -->
+      <!-- Bring 5 Bracers of Rock Binding to Lotwil Veriatus in the Badlands.   -->
+      <!-- http://www.wowhead.com/quest=712 -->
+      <PickUp QuestName="Study of the Elements: Rock" GiverName="Lotwil Veriatus" QuestId="712" GiverId="2921" />
+      <!-- Item: Bracers of Rock Binding -->
+      <Objective QuestName="Study of the Elements: Rock" QuestId="712" Type="Collect" CollectCount="5" ItemId="4628" />
+      <TurnIn QuestName="Study of the Elements: Rock" NpcName="Lotwil Veriatus" QuestId="712" TurnInId="2921" />
+
+      <GrindTo Level="45" />
+
+      <!-- Fiery Blaze Enchantments (level 45) -->
+      <!-- Acquire a Black Drake's Heart for Sigrun Ironhew.   -->
+      <!-- http://www.wowhead.com/quest=706 -->
+      <PickUp QuestName="Fiery Blaze Enchantments" GiverName="Sigrun Ironhew" QuestId="706" GiverId="2860" />
+      <!-- Item: Black Drake's Heart -->
+      <Objective QuestName="Fiery Blaze Enchantments" QuestId="706" Type="Collect" CollectCount="1" ItemId="4612" />
+      <TurnIn QuestName="Fiery Blaze Enchantments" NpcName="Sigrun Ironhew" QuestId="706" TurnInId="2860" />
+
+      <Grindto Level="46"/>
+
+    </QuestOrder>
+
+    <Blackspots>
+      <!--Purple Lotus down a hole :-( -->
+      <Blackspot X="-6451.659" Y="-3418.005" Z="229.7102" Radius="10" />
+      <!--Lethlor Ravine Elites-->
+      <Blackspot X="-6853.736" Y="-4099.149" Z="273.9956" Radius="75" />
+      <Blackspot X="-6597.69" Y="-4108.401" Z="264.4925" Radius="75" />
+      <!--Circle of East Binding-->
+      <Blackspot X="-832.3849" Y="-3241.078" Z="84.53363" Radius="100" />
+      <!--Circle of West Binding-->
+      <Blackspot X="-868.1942" Y="-1788.285" Z="62.63524" Radius="100" />
+      <!--Circle of Outer Binding-->
+      <Blackspot X="-1352.001" Y="-2745.807" Z="64.80099" Radius="100" />
+      <!--Boulderfist Hall Camp Fire-->
+      <Blackspot X="-1918.151" Y="-2783.743" Z="71.13868" Radius="25" />
+      <!--Go'Shek Farm-->
+      <Blackspot X="-1504.644" Y="-3117.936" Z="29.03757" Radius="125" />
+      <!--Horde Altrac Valley Entrance-->
+      <Blackspot X="391.6285" Y="-988.2649" Z="111.2437" Radius="75" />
+      <!--Tunnel throught Stonesplinter Valley-->
+      <Blackspot X="-6065.72" Y="-2941.873" Z="401.675" Radius="25" />
+      <Blackspot X="-6043.684" Y="-2953.14" Z="402.9894" Radius="25" />
+      <Blackspot X="-6195.438" Y="-2930.34" Z="403.9528" Radius="50" />
+      <!--Dustbelch Groto entrance-->
+      <Blackspot X="-7319.868" Y="-2268.566" Z="242.7882" Radius="15" />
+      <!--Camp Cagg campfire and 4 ogre grouping-->
+      <Blackspot X="-7132.297" Y="-2418.099" Z="242.855" Radius="17.18945" />
+    </Blackspots>
+
+    <AvoidMobs>
+      <AvoidMob Entry="2931" Name="Zaricotl" />
+      <AvoidMob Entry="2754" Name="Anathemus" />
+    </AvoidMobs>
+
+    <Vendors>
+      <!--Thelsamar-->
+      <Vendor Name="Morhan Coppertongue" Entry="167" Type="Repair" X="-5346" Y="-2935" Z="324" />
+      <!--Southshore-->
+      <Vendor Name="Robert Aebischer" Entry="3543" Type="Repair" X="-815.5286" Y="-572.1868" Z="15.22829" />
+      <!--Refuge Pointe-->
+      <Vendor Name="Jannos Ironwill" Entry="1471" Type="Repair" X="-1278.573" Y="-2521.999" Z="21.37443" />
+    </Vendors>
+    <Mailboxes>
+      <!--Thelsamar-->
+      <Mailbox X="-5365.23" Y="-2953.062" Z="323.8214" />
+      <!--Southshore-->
+      <Mailbox X="-849.0919" Y="-556.2243" Z="11.67529" />
+    </Mailboxes>
+
+  </SubProfile>
+
+  <!--46-50-->
+  <SubProfile>
+    <Name>The Hinterlands 46-50</Name>
+    <MinLevel>46</MinLevel>
+    <MaxLevel>50</MaxLevel>
+    <QuestOrder>
+      <SetGrindArea>
+        <GrindArea>
+          <Factions>14 16 38 795</Factions>
+          <Hotspots>
+            <Hotspot X="-35.34854" Y="-3033.214" Z="127.9022" />
+            <Hotspot X="-188.2201" Y="-3193.341" Z="123.3568" />
+            <Hotspot X="-60.00284" Y="-3447.498" Z="122.0703" />
+            <Hotspot X="51.30627" Y="-3371.401" Z="119.772" />
+            <Hotspot X="338.8362" Y="-2971.036" Z="117.0501" />
+            <Hotspot X="79.60473" Y="-3075.128" Z="135.2823" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <PickUp QuestName="Featherbeard's Endorsement" QuestId="9469" GiverName="Ambassador Rualeth" GiverId="17223" />
+      <TurnIn QuestName="Featherbeard's Endorsement" QuestId="9469" TurnInName="Featherbeard's Journal" TurnInId="181649" />
+
+      <PickUp QuestName="In Pursuit of Featherbeard" QuestId="9476" GiverName="Featherbeard's Journal" GiverId="181649" GiverType="Object" X="49.43311" Y="-2090.566" Z="110.8947" />
+
+      <!-- Preying on the Predators (level 44) -->
+      <!-- Ambassador Rualeth at Aerie Peak wants you to kill 10 Mangy Silvermane and 5 Silvermane Wolves.   -->
+      <!-- http://www.wowhead.com/quest=9471 -->
+      <PickUp QuestName="Preying on the Predators" GiverName="Ambassador Rualeth" QuestId="9471" GiverId="17223" />
+      <!-- Creature: Mangy Silvermane -->
+      <Objective QuestName="Preying on the Predators" QuestId="9471" Type="KillMob" KillCount="10" MobId="2923" />
+      <!-- Creature: Silvermane Wolf -->
+      <Objective QuestName="Preying on the Predators" QuestId="9471" Type="KillMob" KillCount="5" MobId="2924" />
+
+      <Grindto Level="47"/>
+
+      <TurnIn QuestName="Preying on the Predators" NpcName="Ambassador Rualeth" QuestId="9471" TurnInId="17223" />
+
+      <!-- Troll Necklace Bounty (level 45) -->
+      <!-- Bring 5 Troll Tribal Necklaces to Fraggar Thundermantle in Aerie Peak.   -->
+      <!-- http://www.wowhead.com/quest=2880 -->
+      <PickUp QuestName="Troll Necklace Bounty" GiverName="Fraggar Thundermantle" QuestId="2880" GiverId="7884" />
+      <!-- Item: Troll Tribal Necklace -->
+      <Objective QuestName="Troll Necklace Bounty" QuestId="2880" Type="Collect" CollectCount="5" ItemId="9259" />
+      <TurnIn QuestName="Troll Necklace Bounty" NpcName="Fraggar Thundermantle" QuestId="2880" TurnInId="7884" />
+
+      <!-- Witherbark Cages (level 45) -->
+      <!-- Check the cages at the two Witherbark villages, then return to Gryphon  Master Talonaxe.   -->
+      <!-- http://www.wowhead.com/quest=2988 -->
+      <PickUp QuestName="Witherbark Cages" GiverName="Gryphon Master Talonaxe" QuestId="2988" GiverId="5636" />
+      <!-- Label: Check First Cage -->
+      <Objective QuestName="Witherbark Cages" QuestId="2988" Type="UseObject" Count="0" Id="144066" />
+      <!-- Label: Check Second Cage -->
+      <Objective QuestName="Witherbark Cages" QuestId="2988" Type="UseObject" Count="0" Id="144067" />
+      <!-- Label: Check Third Cage -->
+      <Objective QuestName="Witherbark Cages" QuestId="2988" Type="UseObject" Count="0" Id="144068" />
+      <TurnIn QuestName="Witherbark Cages" NpcName="Gryphon Master Talonaxe" QuestId="2988" TurnInId="5636" />
+
+      <!-- A Gesture of Goodwill (level 46) -->
+      <!-- Ambassador Rualeth at Aerie Peak wants you to slay Witch Doctor Mai'jin and his pet spider Tcha'kaz.   -->
+      <!-- http://www.wowhead.com/quest=9470 -->
+      <PickUp QuestName="A Gesture of Goodwill" GiverName="Ambassador Rualeth" QuestId="9470" GiverId="17223" />
+      <!-- Creature: Witch Doctor Mai'jin -->
+      <Objective QuestName="A Gesture of Goodwill" QuestId="9470" Type="KillMob" KillCount="1" MobId="17235" />
+      <!-- Creature: Tcha'kaz -->
+      <Objective QuestName="A Gesture of Goodwill" QuestId="9470" Type="KillMob" KillCount="1" MobId="17236" />
+      <TurnIn QuestName="A Gesture of Goodwill" NpcName="Ambassador Rualeth" QuestId="9470" TurnInId="17223" />
+
+      <Grindto Level="48"/>
+
+ 
+     
+      
+
+      <SetGrindArea>
+        <GrindArea>
+          <Factions>14 16 38</Factions>
+          <Hotspots>
+            <Hotspot X="159.2272" Y="-4556.237" Z="119.3887" />
+            <Hotspot X="-55.34163" Y="-4178.183" Z="121.9365" />
+            <Hotspot X="168.5995" Y="-4193.746" Z="116.93" />
+            <Hotspot X="246.5955" Y="-4006.223" Z="118.9021" />
+            <Hotspot X="53.12618" Y="-3911.387" Z="142.3383" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+
+      <Grindto Level="49"/>
+
+      <TurnIn QuestName="In Pursuit of Featherbeard" QuestId="9476" TurnInName="Featherbeard's Remains" TurnInId="181643" TurninType="Object" />
+
+      <PickUp QuestName="Reclaiming the Eggs" QuestId="9475" GiverName="Featherbeard's Remains" GiverId="181643" GiverType="Object" X="-369.9352" Y="-3000.715" Z="109.6006" />
+      <Objective QuestName="Reclaiming the Eggs" QuestId="9475" Type="CollectItem" ItemId="23694" CollectCount="5" />
+      <TurnIn QuestName="Reclaiming the Eggs" QuestId="9475" TurnInName="Ambassador Rualeth" TurnInId="17223" />
+
+      <!-- Skulk Rock Clean-up (level 48) -->
+      <!-- Kill 10 Green Sludges and 10 Jade Oozes, and then report back to Fraggar Thundermantle in Aerie Peak.   -->
+      <!-- http://www.wowhead.com/quest=2877 -->
+      <PickUp QuestName="Skulk Rock Clean-up" GiverName="Fraggar Thundermantle" QuestId="2877" GiverId="7884" />
+      <!-- Creature: Green Sludge -->
+      <Objective QuestName="Skulk Rock Clean-up" QuestId="2877" Type="KillMob" KillCount="10" MobId="2655" />
+      <!-- Creature: Jade Ooze -->
+      <Objective QuestName="Skulk Rock Clean-up" QuestId="2877" Type="KillMob" KillCount="10" MobId="2656" />
+      <TurnIn QuestName="Skulk Rock Clean-up" NpcName="Fraggar Thundermantle" QuestId="2877" TurnInId="7884" />
+
+      <Grindto Level="50"/>
+
+    </QuestOrder>
+
+    <Vendors>
+      <Vendor Name="Harggan" Entry="8161" Type="Repair" X="335.4943" Y="-2092.074" Z="131.5641" />
+    </Vendors>
+    <Mailboxes>
+      <Mailbox X="295.0269" Y="-2116.203" Z="121.8379" />
+    </Mailboxes>
+
+    <AvoidMobs>
+      <AvoidMob Entry="8215" Name="Grimungous" />
+    </AvoidMobs>
+
+    <Blackspots>
+      <!--Troll Camps with Campfires-->
+      <Blackspot X="229.8374" Y="-4316.232" Z="117.702" Radius="15" />
+      <Blackspot X="326.3243" Y="-4121.531" Z="119.3581" Radius="15" />
+      <!--Skulk Rock Cave Entrance-->
+      <Blackspot X="451.2115" Y="-3791.061" Z="120.9422" Radius="15" />
+      <!--Altar of Zul-->
+      <Blackspot X="-264.3121" Y="-3443.342" Z="175.0953" Radius="40" />
+    </Blackspots>
+  </SubProfile>
+  
+  <!--Scripted Quests-->
+  <Quest Name="A Call to Arms: The Plaguelands!" Id="5090">
+    <Turnin X="957.7129" Y="-1419.474" Z="66.26379" />
+  </Quest>
+  
+  <Quest Id="7729" Name="JOB OPPORTUNITY: Culling the Competition">
+    <Objective Type="KillMob" MobId="5846" KillCount="15">
+      <Hotspots>
+        <Hotspot X="-6656.781" Y="-1366.642" Z="247.96" />
+        <Hotspot X="-6691.558" Y="-1274.781" Z="241.6499" />
+        <Hotspot X="-6799.324" Y="-1086.362" Z="243.5282" />
+        <Hotspot X="-6801.727" Y="-952.2215" Z="240.9864" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="KillMob" MobId="5844" KillCount="15">
+      <Hotspots>
+        <Hotspot X="-6656.781" Y="-1366.642" Z="247.96" />
+        <Hotspot X="-6691.558" Y="-1274.781" Z="241.6499" />
+        <Hotspot X="-6799.324" Y="-1086.362" Z="243.5282" />
+        <Hotspot X="-6801.727" Y="-952.2215" Z="240.9864" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  
+  <Quest Id="5542" Name="Demon Dogs">
+    <Objective Type="KillMob" MobId="8596" KillCount="20">
+      <Hotspots>
+        <Hotspot X="1965.43" Y="-3889.349" Z="127.6858" />
+        <Hotspot X="2102.241" Y="-3830.321" Z="134.0714" />
+        <Hotspot X="2053.286" Y="-3633.319" Z="134.0539" />
+        <Hotspot X="1891.516" Y="-3436.21" Z="108.4795" />
+        <Hotspot X="1981.244" Y="-3279.054" Z="100.4307" />
+        <Hotspot X="2028.576" Y="-3254.486" Z="89.50568" />
+        <Hotspot X="2089.371" Y="-3129.556" Z="78.07442" />
+        <Hotspot X="2076.223" Y="-2949.285" Z="87.46163" />
+        <Hotspot X="2154.629" Y="-2709.251" Z="74.16979" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="KillMob" MobId="8597" KillCount="5">
+      <Hotspots>
+        <Hotspot X="2218.925" Y="-4117.864" Z="77.60836" />
+        <Hotspot X="2348.127" Y="-4210.315" Z="99.48584" />
+        <Hotspot X="2296.624" Y="-4744.274" Z="95.86208" />
+        <Hotspot X="2244.9" Y="-4378.771" Z="94.97214" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="KillMob" MobId="8598" KillCount="5">
+      <Hotspots>
+        <Hotspot X="2753.927" Y="-4284.974" Z="87.08645" />
+        <Hotspot X="2601.726" Y="-4528.726" Z="85.47312" />
+        <Hotspot X="3062.51" Y="-4535.161" Z="123.409" />
+        <Hotspot X="3076.83" Y="-4146.883" Z="95.99605" />
+        <Hotspot X="2753.128" Y="-4086.08" Z="94.42383" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="5543" Name="Blood Tinged Skies">
+    <Objective Type="KillMob" MobId="8600" KillCount="30">
+      <Hotspots>
+        <Hotspot X="1965.43" Y="-3889.349" Z="127.6858" />
+        <Hotspot X="2102.241" Y="-3830.321" Z="134.0714" />
+        <Hotspot X="2053.286" Y="-3633.319" Z="134.0539" />
+        <Hotspot X="1891.516" Y="-3436.21" Z="108.4795" />
+        <Hotspot X="1981.244" Y="-3279.054" Z="100.4307" />
+        <Hotspot X="2028.576" Y="-3254.486" Z="89.50568" />
+        <Hotspot X="2089.371" Y="-3129.556" Z="78.07442" />
+        <Hotspot X="2076.223" Y="-2949.285" Z="87.46163" />
+        <Hotspot X="2154.629" Y="-2709.251" Z="74.16979" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="5544" Name="Carrion Grubbage">
+    <Objective Type="CollectItem" ItemId="13853" CollectCount="15">
+      <!--Carrion Grub-->
+      <CollectFrom>
+        <Mob Id="8603" Name="Carrion Grub" />
+      </CollectFrom>
+      <Hotspots>
+        <Hotspot X="1965.43" Y="-3889.349" Z="127.6858" />
+        <Hotspot X="2102.241" Y="-3830.321" Z="134.0714" />
+        <Hotspot X="2053.286" Y="-3633.319" Z="134.0539" />
+        <Hotspot X="1891.516" Y="-3436.21" Z="108.4795" />
+        <Hotspot X="1981.244" Y="-3279.054" Z="100.4307" />
+        <Hotspot X="2028.576" Y="-3254.486" Z="89.50568" />
+        <Hotspot X="2089.371" Y="-3129.556" Z="78.07442" />
+        <Hotspot X="2076.223" Y="-2949.285" Z="87.46163" />
+        <Hotspot X="2154.629" Y="-2709.251" Z="74.16979" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="7724" Name="Fiery Menace!">
+    <Objective Type="KillMob" MobId="5858" KillCount="20">
+      <Hotspots>
+        <Hotspot X="-6601.353" Y="-949.8893" Z="245.3503" />
+        <Hotspot X="-6767.104" Y="-938.7498" Z="245.6541" />
+        <Hotspot X="-6898.89" Y="-893.6616" Z="245.4793" />
+        <Hotspot X="-6994.778" Y="-1002.33" Z="241.6708" />
+        <Hotspot X="-7135.585" Y="-1016.187" Z="240.223" />
+        <Hotspot X="-7121.837" Y="-1373.143" Z="241.4987" />
+        <Hotspot X="-6963.668" Y="-1583.425" Z="243.8822" />
+        <Hotspot X="-6861.765" Y="-1693.611" Z="249.2109" />
+        <Hotspot X="-6748.612" Y="-1802.365" Z="255.5093" />
+        <Hotspot X="-6604.545" Y="-1796.028" Z="244.1588" />
+        <Hotspot X="-6648.402" Y="-1547.844" Z="245.5975" />
+        <Hotspot X="-6710.634" Y="-1431.621" Z="240.883" />
+        <Hotspot X="-6725.384" Y="-1322.334" Z="240.563" />
+        <Hotspot X="-6755.755" Y="-1203.273" Z="243.6388" />
+        <Hotspot X="-6798.007" Y="-1178.273" Z="242.5116" />
+        <Hotspot X="-6799.774" Y="-1128.85" Z="242.008" />
+        <Hotspot X="-6690.271" Y="-1099.544" Z="241.1686" />
+        <Hotspot X="-6616.651" Y="-1074.608" Z="245.4176" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="7723" Name="Curse These Fat Fingers">
+    <Objective Type="KillMob" MobId="5854" KillCount="20">
+      <Hotspots>
+        <Hotspot X="-6601.353" Y="-949.8893" Z="245.3503" />
+        <Hotspot X="-6767.104" Y="-938.7498" Z="245.6541" />
+        <Hotspot X="-6898.89" Y="-893.6616" Z="245.4793" />
+        <Hotspot X="-6994.778" Y="-1002.33" Z="241.6708" />
+        <Hotspot X="-7135.585" Y="-1016.187" Z="240.223" />
+        <Hotspot X="-7121.837" Y="-1373.143" Z="241.4987" />
+        <Hotspot X="-6963.668" Y="-1583.425" Z="243.8822" />
+        <Hotspot X="-6861.765" Y="-1693.611" Z="249.2109" />
+        <Hotspot X="-6748.612" Y="-1802.365" Z="255.5093" />
+        <Hotspot X="-6604.545" Y="-1796.028" Z="244.1588" />
+        <Hotspot X="-6648.402" Y="-1547.844" Z="245.5975" />
+        <Hotspot X="-6710.634" Y="-1431.621" Z="240.883" />
+        <Hotspot X="-6725.384" Y="-1322.334" Z="240.563" />
+        <Hotspot X="-6755.755" Y="-1203.273" Z="243.6388" />
+        <Hotspot X="-6798.007" Y="-1178.273" Z="242.5116" />
+        <Hotspot X="-6799.774" Y="-1128.85" Z="242.008" />
+        <Hotspot X="-6690.271" Y="-1099.544" Z="241.1686" />
+        <Hotspot X="-6616.651" Y="-1074.608" Z="245.4176" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  
+  <Quest Id="2877" Name="Skulk Rock Clean-up">
+    <Objective Type="KillMob" MobId="2655" KillCount="10">
+      <Hotspots>
+        <Hotspot X="381.6044" Y="-3745.145" Z="150.6312" />
+        <Hotspot X="293.6144" Y="-3764.636" Z="140.6701" />
+        <Hotspot X="267.6179" Y="-3820.989" Z="144.1721" />
+        <Hotspot X="313.7459" Y="-3847.433" Z="142.5805" />
+        <Hotspot X="358.9387" Y="-3864.756" Z="135.9806" />
+        <Hotspot X="366.2506" Y="-3797.975" Z="171.2724" />
+        <Hotspot X="428.0054" Y="-3883.488" Z="123.4387" />
+        <Hotspot X="481.2231" Y="-3791.075" Z="119.5908" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="KillMob" MobId="2656" KillCount="10">
+      <Hotspots>
+        <Hotspot X="381.6044" Y="-3745.145" Z="150.6312" />
+        <Hotspot X="293.6144" Y="-3764.636" Z="140.6701" />
+        <Hotspot X="267.6179" Y="-3820.989" Z="144.1721" />
+        <Hotspot X="313.7459" Y="-3847.433" Z="142.5805" />
+        <Hotspot X="358.9387" Y="-3864.756" Z="135.9806" />
+        <Hotspot X="366.2506" Y="-3797.975" Z="171.2724" />
+        <Hotspot X="428.0054" Y="-3883.488" Z="123.4387" />
+        <Hotspot X="481.2231" Y="-3791.075" Z="119.5908" />       
+      </Hotspots>
+    </Objective>
+  </Quest>
+  
+  <Quest Id="2988" Name="Witherbark Cages">
+    <Objective Type="UseObject" ObjectId="144066" UseCount="1">
+      <Hotspots>
+        <Hotspot X="-41.08227" Y="-2471.012" Z="120.0619" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="UseObject" ObjectId="144067" UseCount="1">
+      <Hotspots>
+        <Hotspot X="-41.46029" Y="-2466.133" Z="119.8944" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="UseObject" ObjectId="144068" UseCount="1">
+      <Hotspots>
+        <Hotspot X="-6.717286" Y="-2806.366" Z="125.2645" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  
+  <Quest Id="706" Name="Fiery Blaze Enchantments">
+    <Objective Type="CollectItem" ItemId="4612" CollectCount="1">
+      <Hotspots>
+        <Hotspot X="-6815.216" Y="-3915.347" Z="267.9844" />
+        <Hotspot X="-6822.874" Y="-3854.856" Z="264.4833" />
+        <Hotspot X="-6916.849" Y="-3923.5" Z="263.8903" />
+        <Hotspot X="-7016.731" Y="-3910.319" Z="265.0691" />
+        <Hotspot X="-6959.218" Y="-3983.487" Z="265.3413" />
+        <Hotspot X="-6938.447" Y="-4020.158" Z="264.2066" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="704" Name="Agmond's Fate">
+    <Objective Type="CollectItem" ItemId="4610" CollectCount="4">
+      <Hotspots>
+        <Hotspot X="-6058.004" Y="-3141.527" Z="253.8933" />
+        <Hotspot X="-6118.786" Y="-3052.188" Z="247.7039" />
+        <!--Right at Ulda entrance-->
+        <Hotspot X="-6087.801" Y="-2953.821" Z="204.4227" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="703" Name="Barbecued Buzzard Wings">
+    <Objective Type="CollectItem" ItemId="3404" CollectCount="4">
+      <Hotspots>
+        <Hotspot X="-6435.82" Y="-2426.149" Z="310.5116" />
+        <Hotspot X="-7097.048" Y="-2775.448" Z="242.4612" />
+        <Hotspot X="-7044.044" Y="-3035.331" Z="240.9172" />
+        <Hotspot X="-6709.627" Y="-3362.255" Z="241.7509" />
+        <Hotspot X="-6950.489" Y="-2373.144" Z="242.0572" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+
+  <Quest Id="718" Name="Mirages">
+    <Objective Type="CollectItem" ItemId="4629" CollectCount="1">
+      <Hotspots>
+        <Hotspot X="-6256.576" Y="-3733.414" Z="243.9282" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="642" Name="The Princess Trapped">
+    <Objective Type="CollectItem" ItemId="4435" CollectCount="12">
+      <Hotspots>
+        <Hotspot X="-1101.253" Y="-3720.721" Z="86.58247" />
+        <Hotspot X="-1194.752" Y="-3611.788" Z="53.75387" />
+        <Hotspot X="-1070.897" Y="-3830.641" Z="133.4887" />
+        <Hotspot X="-905.4319" Y="-3869.748" Z="139.8284" />
+        <Hotspot X="-889.0096" Y="-3957.07" Z="134.5759" />
+        <Hotspot X="-863.1544" Y="-3964.068" Z="152.2048" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="505" Name="Syndicate Assassins">
+    <Objective Type="KillMob" MobId="2240" KillCount="12">
+      <Hotspots>
+        <Hotspot X="-126.7151" Y="-567.6678" Z="161.8865" />
+        <Hotspot X="-35.14386" Y="-596.3931" Z="154.278" />
+        <Hotspot X="31.2558" Y="-575.488" Z="146.9279" />
+        <Hotspot X="32.44645" Y="-512.1023" Z="143.7593" />
+        <Hotspot X="-51.16003" Y="-516.0691" Z="155.065" />
+        <Hotspot X="-135.2853" Y="-576.3094" Z="162.7325" />
+        <Hotspot X="-30.88211" Y="-561.7786" Z="151.413" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="KillMob" MobId="2241" KillCount="8">
+      <Hotspots>
+        <Hotspot X="-126.7151" Y="-567.6678" Z="161.8865" />
+        <Hotspot X="-35.14386" Y="-596.3931" Z="154.278" />
+        <Hotspot X="31.2558" Y="-575.488" Z="146.9279" />
+        <Hotspot X="32.44645" Y="-512.1023" Z="143.7593" />
+        <Hotspot X="-51.16003" Y="-516.0691" Z="155.065" />
+        <Hotspot X="-135.2853" Y="-576.3094" Z="162.7325" />
+        <Hotspot X="-30.88211" Y="-561.7786" Z="151.413" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="303" Name="The Dark Iron War">
+    <Objective Type="KillMob" MobId="1051" KillCount="10">
+      <Hotspots>
+        <Hotspot X="-2662.829" Y="-2376.236" Z="87.63382" />
+        <Hotspot X="-2559.617" Y="-2383.489" Z="77.60935" />
+        <Hotspot X="-2565.288" Y="-2349.93" Z="79.9347" />
+        <Hotspot X="-2645.62" Y="-2320.273" Z="77.61797" />
+        <Hotspot X="-2658.874" Y="-2313.637" Z="70.39396" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="KillMob" MobId="1053" KillCount="5">
+      <Hotspots>
+        <Hotspot X="-2662.829" Y="-2376.236" Z="87.63382" />
+        <Hotspot X="-2559.617" Y="-2383.489" Z="77.60935" />
+        <Hotspot X="-2565.288" Y="-2349.93" Z="79.9347" />
+        <Hotspot X="-2645.62" Y="-2320.273" Z="77.61797" />
+        <Hotspot X="-2658.874" Y="-2313.637" Z="70.39396" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="KillMob" MobId="1052" KillCount="5">
+      <Hotspots>
+        <Hotspot X="-2662.829" Y="-2376.236" Z="87.63382" />
+        <Hotspot X="-2559.617" Y="-2383.489" Z="77.60935" />
+        <Hotspot X="-2565.288" Y="-2349.93" Z="79.9347" />
+        <Hotspot X="-2645.62" Y="-2320.273" Z="77.61797" />
+        <Hotspot X="-2658.874" Y="-2313.637" Z="70.39396" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="KillMob" MobId="1054" KillCount="5">
+      <Hotspots>
+        <Hotspot X="-2662.829" Y="-2376.236" Z="87.63382" />
+        <Hotspot X="-2559.617" Y="-2383.489" Z="77.60935" />
+        <Hotspot X="-2565.288" Y="-2349.93" Z="79.9347" />
+        <Hotspot X="-2645.62" Y="-2320.273" Z="77.61797" />
+        <Hotspot X="-2658.874" Y="-2313.637" Z="70.39396" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+
+  <Quest Id="691" Name="Worth Its Weight in Gold">
+    <Objective Type="CollectItem" ItemId="5040" CollectCount="1">
+      <Hotspots>
+        <Hotspot X="-1503.632" Y="-3352.132" Z="37.01669" />
+        <Hotspot X="-1574.093" Y="-3409.185" Z="41.40879" />
+        <Hotspot X="-1688.272" Y="-3490" Z="56.41761" />
+        <Hotspot X="-1740.666" Y="-3411.339" Z="43.96187" />
+        <Hotspot X="-1806.788" Y="-3406.593" Z="45.3931" />
+        <Hotspot X="-2028.654" Y="-3311.969" Z="55.2347" />
+        <Hotspot X="-2096.444" Y="-3364.766" Z="59.27808" />
+        <Hotspot X="-2034.654" Y="-3383.241" Z="59.66108" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="CollectItem" ItemId="4503" CollectCount="10">
+      <Hotspots>
+        <Hotspot X="-1503.632" Y="-3352.132" Z="37.01669" />
+        <Hotspot X="-1574.093" Y="-3409.185" Z="41.40879" />
+        <Hotspot X="-1688.272" Y="-3490" Z="56.41761" />
+        <Hotspot X="-1740.666" Y="-3411.339" Z="43.96187" />
+        <Hotspot X="-1806.788" Y="-3406.593" Z="45.3931" />
+        <Hotspot X="-2028.654" Y="-3311.969" Z="55.2347" />
+        <Hotspot X="-2096.444" Y="-3364.766" Z="59.27808" />
+        <Hotspot X="-2034.654" Y="-3383.241" Z="59.66108" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="CollectItem" ItemId="4522" CollectCount="4">
+      <Hotspots>
+        <Hotspot X="-1503.632" Y="-3352.132" Z="37.01669" />
+        <Hotspot X="-1574.093" Y="-3409.185" Z="41.40879" />
+        <Hotspot X="-1688.272" Y="-3490" Z="56.41761" />
+        <Hotspot X="-1740.666" Y="-3411.339" Z="43.96187" />
+        <Hotspot X="-1806.788" Y="-3406.593" Z="45.3931" />
+        <Hotspot X="-2028.654" Y="-3311.969" Z="55.2347" />
+        <Hotspot X="-2096.444" Y="-3364.766" Z="59.27808" />
+        <Hotspot X="-2034.654" Y="-3383.241" Z="59.66108" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="681" Name="Northfold Manor">
+    <Objective Type="KillMob" MobId="2586" KillCount="10">
+      <Hotspots>
+        <Hotspot X="-821.0507" Y="-2125.726" Z="35.62247" />
+        <Hotspot X="-894.5483" Y="-2101.275" Z="46.1396" />
+        <Hotspot X="-929.4854" Y="-2052.829" Z="51.49482" />
+        <Hotspot X="-913.2638" Y="-1997.557" Z="51.6021" />
+        <Hotspot X="-840.3506" Y="-1941.478" Z="49.34787" />
+        <Hotspot X="-768.601" Y="-1926.484" Z="43.10559" />
+        <Hotspot X="-779.5502" Y="-1975.62" Z="34.06072" />
+        <Hotspot X="-807.5775" Y="-2056.055" Z="34.59185" />
+        <Hotspot X="-800.6492" Y="-2139.503" Z="40.65127" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="KillMob" MobId="2589" KillCount="6">
+      <Hotspots>
+        <Hotspot X="-821.0507" Y="-2125.726" Z="35.62247" />
+        <Hotspot X="-894.5483" Y="-2101.275" Z="46.1396" />
+        <Hotspot X="-929.4854" Y="-2052.829" Z="51.49482" />
+        <Hotspot X="-913.2638" Y="-1997.557" Z="51.6021" />
+        <Hotspot X="-840.3506" Y="-1941.478" Z="49.34787" />
+        <Hotspot X="-768.601" Y="-1926.484" Z="43.10559" />
+        <Hotspot X="-779.5502" Y="-1975.62" Z="34.06072" />
+        <Hotspot X="-807.5775" Y="-2056.055" Z="34.59185" />
+        <Hotspot X="-800.6492" Y="-2139.503" Z="40.65127" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="9435" Name="Missing Crystals">
+    <Objective Type="CollectItem" ItemId="23646" CollectCount="1">
+      <Hotspots>
+        <Hotspot X="-342.7394" Y="-712.4085" Z="57.73339" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="275" Name="Blisters on The Land">
+    <Objective Type="KillMob" MobId="1040" KillCount="8">
+      <Hotspots>
+        <Hotspot X="-2688.686" Y="-1785.237" Z="9.718381" />
+        <Hotspot X="-2613.581" Y="-1709.802" Z="9.187003" />
+        <Hotspot X="-2770.503" Y="-1634.391" Z="9.671263" />
+        <Hotspot X="-2819.369" Y="-1595.911" Z="9.070571" />
+        <Hotspot X="-2930.589" Y="-1508.326" Z="7.230965" />
+        <Hotspot X="-2984.838" Y="-1516.091" Z="9.046303" />
+        <Hotspot X="-3070.075" Y="-1489.318" Z="9.307153" />
+        <Hotspot X="-3148.17" Y="-1421.607" Z="9.159908" />
+        <Hotspot X="-2834.472" Y="-1371.999" Z="9.299911" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="263" Name="In Defense of the King's Lands">
+    <Objective Type="KillMob" MobId="1197" KillCount="10">
+      <Hotspots>
+        <Hotspot X="-6174.863" Y="-2978.76" Z="387.3657" />
+        <Hotspot X="-6214.955" Y="-3001.077" Z="385.4086" />
+        <Hotspot X="-6114.536" Y="-3001.966" Z="398.6011" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="KillMob" MobId="1164" KillCount="10">
+      <Hotspots>
+        <Hotspot X="-6174.863" Y="-2978.76" Z="387.3657" />
+        <Hotspot X="-6214.955" Y="-3001.077" Z="385.4086" />
+        <Hotspot X="-6114.536" Y="-3001.966" Z="398.6011" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+
+  <Quest Id="279" Name="Claws from the Deep">
+    <Objective Type="CollectItem" ItemId="3618" CollectCount="1">
+      <Hotspots>
+        <Hotspot X="-3273.008" Y="-1148.193" Z="10.99247" />
+        <Hotspot X="-3211.518" Y="-1109.755" Z="9.14622" />
+        <Hotspot X="-3167.079" Y="-1016.13" Z="8.472683" />
+        <Hotspot X="-3212.156" Y="-974.2067" Z="7.794137" />
+        <Hotspot X="-3240.553" Y="-958.6415" Z="10.3942" />
+        <Hotspot X="-3295.346" Y="-976.9664" Z="10.7738" />
+        <Hotspot X="-3300.518" Y="-1021.649" Z="10.0172" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="KillMob" MobId="1024" KillCount="12">
+      <Hotspots>
+        <Hotspot X="-3273.008" Y="-1148.193" Z="10.99247" />
+        <Hotspot X="-3211.518" Y="-1109.755" Z="9.14622" />
+        <Hotspot X="-3167.079" Y="-1016.13" Z="8.472683" />
+        <Hotspot X="-3212.156" Y="-974.2067" Z="7.794137" />
+        <Hotspot X="-3240.553" Y="-958.6415" Z="10.3942" />
+        <Hotspot X="-3295.346" Y="-976.9664" Z="10.7738" />
+        <Hotspot X="-3300.518" Y="-1021.649" Z="10.0172" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="555" Name="Soothing Turtle Bisque">
+    <Objective Type="CollectItem" ItemId="3712" CollectCount="10">
+      <Hotspots>
+        <Hotspot X="-856.3335" Y="-742.1161" Z="8.368821" />
+        <Hotspot X="-597.2325" Y="-826.6256" Z="10.10947" />
+        <Hotspot X="-537.8349" Y="-918.6074" Z="32.00985" />
+        <Hotspot X="-411.6983" Y="-1087.018" Z="42.97218" />
+        <Hotspot X="-185.9318" Y="-1146.912" Z="44.4907" />
+        <Hotspot X="56.06971" Y="-1148.234" Z="39.99943" />
+        <Hotspot X="129.3916" Y="-1193.024" Z="39.08113" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="471" Name="Apprentice's Duties">
+    <Objective Type="CollectItem" ItemId="3348" CollectCount="6">
+      <Hotspots>
+        <Hotspot X="-2938.775" Y="-1004.743" Z="4.810304" />
+        <Hotspot X="-2623.525" Y="-1591.291" Z="8.915844" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+
+
+  <Quest Id="470" Name="Digging Through the Ooze">
+    <Objective Type="CollectItem" ItemId="3349" CollectCount="1">
+      <Hotspots>
+        <Hotspot X="-3653.61" Y="-3168.071" Z="18.08603" />
+        <Hotspot X="-3756.882" Y="-3113.431" Z="13.41689" />
+        <Hotspot X="-3818.982" Y="-3125.208" Z="13.41469" />
+        <Hotspot X="-3345.948" Y="-2917.61" Z="17.57278" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="277" Name="Fire Taboo">
+    <Objective Type="CollectItem" ItemId="2611" CollectCount="9">
+      <Hotspots>
+        <Hotspot X="-3818.557" Y="-3002.074" Z="10.66375" />
+        <Hotspot X="-3681.037" Y="-3059.818" Z="19.18794" />
+        <Hotspot X="-3288.091" Y="-2606.764" Z="9.877172" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="276" Name="Tramping Paws">
+    <Objective Type="KillMob" MobId="1007" KillCount="15">
+      <Hotspots>
+        <Hotspot X="-4138.883" Y="-2833.865" Z="16.00855" />
+        <Hotspot X="-4036.388" Y="-2883.575" Z="11.94508" />
+        <Hotspot X="-3954.514" Y="-2955.655" Z="12.63819" />
+        <Hotspot X="-3735.522" Y="-2820.374" Z="12.24633" />
+        <Hotspot X="-3662.832" Y="-2834.344" Z="14.899" />
+        <Hotspot X="-3623.222" Y="-2871.273" Z="13.12971" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="KillMob" MobId="1008" KillCount="10">
+      <Hotspots>
+        <Hotspot X="-4138.883" Y="-2833.865" Z="16.00855" />
+        <Hotspot X="-4036.388" Y="-2883.575" Z="11.94508" />
+        <Hotspot X="-3954.514" Y="-2955.655" Z="12.63819" />
+        <Hotspot X="-3735.522" Y="-2820.374" Z="12.24633" />
+        <Hotspot X="-3662.832" Y="-2834.344" Z="14.899" />
+        <Hotspot X="-3623.222" Y="-2871.273" Z="13.12971" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="256" Name="WANTED: Chok'sul">
+    <Objective Type="CollectItem" ItemId="2561" CollectCount="1">
+      <Hotspots>
+        <Hotspot X="-4762.558" Y="-4192.313" Z="303.1339" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="218" Name="The Stolen Journal">
+    <Objective Type="CollectItem" ItemId="2004" CollectCount="1">
+      <CollectFrom>
+        <Mob Id="808" Name="Grik'nir the Cold" />
+      </CollectFrom>
+      <Hotspots>
+        <Hotspot X="-6508.717" Y="300.9417" Z="370.3429" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="217" Name="In Defense of the King's Lands">
+    <!--Grawmug-->
+    <Objective Type="KillMob" MobId="1205" KillCount="1">
+      <Hotspots>
+        <Hotspot X="-6162.284" Y="-2948.142" Z="409.0051" />
+      </Hotspots>
+    </Objective>
+    <!--Gnasher-->
+    <Objective Type="KillMob" MobId="1206" KillCount="1">
+      <Hotspots>
+        <Hotspot X="-6162.284" Y="-2948.142" Z="409.0051" />
+      </Hotspots>
+    </Objective>
+    <!--Brawler-->
+    <Objective Type="KillMob" MobId="1207" KillCount="1">
+      <Hotspots>
+        <Hotspot X="-6162.284" Y="-2948.142" Z="409.0051" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="237" Name="In Defense of the King's Lands">
+    <Objective Type="KillMob" MobId="1163" KillCount="10">
+      <Hotspots>
+        <Hotspot X="-5927.688" Y="-3001.65" Z="378.0284" />
+        <Hotspot X="-6000.089" Y="-2937.792" Z="398.5822" />
+        <Hotspot X="-6085.197" Y="-2774.228" Z="413.8741" />
+        <Hotspot X="-6093.02" Y="-2798.577" Z="416.481" />
+        <Hotspot X="-6036.946" Y="-2822.304" Z="411.2115" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="KillMob" MobId="1166" KillCount="10">
+      <Hotspots>
+        <Hotspot X="-5927.688" Y="-3001.65" Z="378.0284" />
+        <Hotspot X="-6000.089" Y="-2937.792" Z="398.5822" />
+        <Hotspot X="-6085.197" Y="-2774.228" Z="413.8741" />
+        <Hotspot X="-6093.02" Y="-2798.577" Z="416.481" />
+        <Hotspot X="-6036.946" Y="-2822.304" Z="411.2115" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="307" Name="Filthy Paws">
+    <Objective Type="CollectItem" ItemId="2640" CollectCount="4">
+      <Hotspots>
+        <Hotspot X="-4939.525" Y="-2993.782" Z="320.4344" />
+        <Hotspot X="-4916.01" Y="-2960.369" Z="316.1286" />
+        <Hotspot X="-4869.494" Y="-2976.818" Z="317.9344" />
+        <Hotspot X="-4825.53" Y="-2971.717" Z="320.4511" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="418" Name="Thelsamar Blood Sausages">
+    <Objective Type="CollectItem" ItemId="3172" CollectCount="3">
+      <Hotspots>
+        <Hotspot X="-5247.694" Y="-2753.907" Z="347.3921" />
+        <Hotspot X="-5142.667" Y="-2730.281" Z="340.5259" />
+        <Hotspot X="-5090.417" Y="-2820.089" Z="327.7153" />
+        <Hotspot X="-5026.664" Y="-2959.121" Z="341.9161" />
+        <Hotspot X="-4997.387" Y="-3073.916" Z="319.6118" />
+        <Hotspot X="-5123.022" Y="-2989.094" Z="333.8278" />
+        <Hotspot X="-4915.454" Y="-2837.199" Z="326.8106" />
+        <Hotspot X="-4794.253" Y="-2838.05" Z="323.0772" />
+        <Hotspot X="-4734.476" Y="-2792.453" Z="320.3688" />
+        <Hotspot X="-4681.89" Y="-2834.22" Z="323.7108" />
+        <Hotspot X="-4703.312" Y="-2948.214" Z="320.5571" />
+        <Hotspot X="-4719.042" Y="-3035.881" Z="314.4444" />
+        <Hotspot X="-4927.562" Y="-3099.738" Z="316.7127" />
+        <Hotspot X="-5172.922" Y="-3014.586" Z="333.7502" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="CollectItem" ItemId="3173" CollectCount="3">
+      <Hotspots>
+        <Hotspot X="-5247.694" Y="-2753.907" Z="347.3921" />
+        <Hotspot X="-5142.667" Y="-2730.281" Z="340.5259" />
+        <Hotspot X="-5090.417" Y="-2820.089" Z="327.7153" />
+        <Hotspot X="-5026.664" Y="-2959.121" Z="341.9161" />
+        <Hotspot X="-4997.387" Y="-3073.916" Z="319.6118" />
+        <Hotspot X="-5123.022" Y="-2989.094" Z="333.8278" />
+        <Hotspot X="-4915.454" Y="-2837.199" Z="326.8106" />
+        <Hotspot X="-4794.253" Y="-2838.05" Z="323.0772" />
+        <Hotspot X="-4734.476" Y="-2792.453" Z="320.3688" />
+        <Hotspot X="-4681.89" Y="-2834.22" Z="323.7108" />
+        <Hotspot X="-4703.312" Y="-2948.214" Z="320.5571" />
+        <Hotspot X="-4719.042" Y="-3035.881" Z="314.4444" />
+        <Hotspot X="-4927.562" Y="-3099.738" Z="316.7127" />
+        <Hotspot X="-5172.922" Y="-3014.586" Z="333.7502" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="CollectItem" ItemId="3174" CollectCount="3">
+      <Hotspots>
+        <Hotspot X="-5247.694" Y="-2753.907" Z="347.3921" />
+        <Hotspot X="-5142.667" Y="-2730.281" Z="340.5259" />
+        <Hotspot X="-5090.417" Y="-2820.089" Z="327.7153" />
+        <Hotspot X="-5026.664" Y="-2959.121" Z="341.9161" />
+        <Hotspot X="-4997.387" Y="-3073.916" Z="319.6118" />
+        <Hotspot X="-5123.022" Y="-2989.094" Z="333.8278" />
+        <Hotspot X="-4915.454" Y="-2837.199" Z="326.8106" />
+        <Hotspot X="-4794.253" Y="-2838.05" Z="323.0772" />
+        <Hotspot X="-4734.476" Y="-2792.453" Z="320.3688" />
+        <Hotspot X="-4681.89" Y="-2834.22" Z="323.7108" />
+        <Hotspot X="-4703.312" Y="-2948.214" Z="320.5571" />
+        <Hotspot X="-4719.042" Y="-3035.881" Z="314.4444" />
+        <Hotspot X="-4927.562" Y="-3099.738" Z="316.7127" />
+        <Hotspot X="-5172.922" Y="-3014.586" Z="333.7502" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="416" Name="Rat Catching">
+    <Objective Type="CollectItem" ItemId="3110" CollectCount="12">
+      <Hotspots>
+        <Hotspot X="-5247.694" Y="-2753.907" Z="347.3921" />
+        <Hotspot X="-5142.667" Y="-2730.281" Z="340.5259" />
+        <Hotspot X="-5090.417" Y="-2820.089" Z="327.7153" />
+        <Hotspot X="-5026.664" Y="-2959.121" Z="341.9161" />
+        <Hotspot X="-4997.387" Y="-3073.916" Z="319.6118" />
+        <Hotspot X="-5123.022" Y="-2989.094" Z="333.8278" />
+        <Hotspot X="-4915.454" Y="-2837.199" Z="326.8106" />
+        <Hotspot X="-4794.253" Y="-2838.05" Z="323.0772" />
+        <Hotspot X="-4734.476" Y="-2792.453" Z="320.3688" />
+        <Hotspot X="-4681.89" Y="-2834.22" Z="323.7108" />
+        <Hotspot X="-4703.312" Y="-2948.214" Z="320.5571" />
+        <Hotspot X="-4719.042" Y="-3035.881" Z="314.4444" />
+        <Hotspot X="-4927.562" Y="-3099.738" Z="316.7127" />
+        <Hotspot X="-5172.922" Y="-3014.586" Z="333.7502" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="433" Name="The Public Servant ">
+    <Objective Type="KillMob" MobId="1117" KillCount="10">
+      <Hotspots>
+        <Hotspot X="-5764.161" Y="-1672.434" Z="358.9872" />
+        <Hotspot X="-5828.46" Y="-1500.123" Z="358.8322" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="314" Name="Protecting the Herd">
+    <Objective Type="CollectItem" ItemId="3627" CollectCount="1">
+      <CollectFrom>
+        <Mob Id="1388" Name="Vagash" />
+      </CollectFrom>
+      <Hotspots>
+        <Hotspot X="-5390.374" Y="-1278.734" Z="445.372" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+
+  <Quest Id="294" Name="Ormer's Revenge" >
+    <TurnIn X="-3561.266" Y="-1955.656" Z="113.6103" />
+  </Quest>
+  <Quest Id="295" Name="Ormer's Revenge" >
+    <TurnIn X="-3561.266" Y="-1955.656" Z="113.6103"  />
+  </Quest>
+  <Quest Id="296" Name="Ormer's Revenge" >
+    <TurnIn X="-3561.266" Y="-1955.656" Z="113.6103"  />
+  </Quest>
+
+  <Quest Id="134" Name="Ogre Thieves">
+    <Objective Type="CollectItem" ItemId="1349" CollectCount="1">
+      <CollectFrom>
+        <GameObject Id="199" Name="Abercrombie's Crate" />
+      </CollectFrom>
+      <Hotspots>
+        <Hotspot X="-11089.17" Y="-67.41135" Z="14.71906" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="4296" Name="Tablet of the Seven">
+    <Objective Type="CollectItem" ItemId="11470" CollectCount="1">
+      <CollectFrom>
+        <GameObject Id="169294" Name="Tablet of the Seven" />
+      </CollectFrom>
+      <Hotspots>
+        <Hotspot X="-7826.157" Y="-1850.457" Z="133.4395" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+
+  <Quest Id="3361" Name="A Refugee's Quandary">
+    <Objective Type="CollectItem" ItemId="10438" CollectCount="1">
+      <CollectFrom>
+        <GameObject Id="148499" Name="Felix's Box" />
+      </CollectFrom>
+      <Hotspots>
+        <Hotspot X="-6374.813" Y="773.546" Z="386.743" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="CollectItem" ItemId="16313" CollectCount="1">
+      <CollectFrom>
+        <GameObject Id="178084" Name="Felix's Chest" />
+      </CollectFrom>
+      <Hotspots>
+        <Hotspot X="-6502.593" Y="680.5035" Z="387.273" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="CollectItem" ItemId="16314" CollectCount="1">
+      <CollectFrom>
+        <GameObject Id="178085" Name="Felix's Bucket of Bolts" />
+      </CollectFrom>
+      <Hotspots>
+        <Hotspot X="-6479.861" Y="507.7559" Z="386.0042" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <Quest Id="170" Name="A New Threat">
+    <Objective Type="KillMob" MobId="707" KillCount="6">
+      <Hotspots>
+        <Hotspot X="-6374.996" Y="268.6868" Z="385.8251" />
+        <Hotspot X="-6283.456" Y="395.3112" Z="381.4657" />
+        <Hotspot X="-6276.301" Y="516.603" Z="387.4124" />
+        <Hotspot X="-6431.353" Y="386.172" Z="390.0995" />
+        <Hotspot X="-6276.565" Y="481.0866" Z="386.2427" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="KillMob" MobId="724" KillCount="6">
+      <Hotspots>
+        <Hotspot X="-6374.996" Y="268.6868" Z="385.8251" />
+        <Hotspot X="-6283.456" Y="395.3112" Z="381.4657" />
+        <Hotspot X="-6276.301" Y="516.603" Z="387.4124" />
+        <Hotspot X="-6431.353" Y="386.172" Z="390.0995" />
+        <Hotspot X="-6276.565" Y="481.0866" Z="386.2427" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <ProtectedItems>
+    <!-- Instant Poison -->
+    <Item>6947</Item>
+    <Item>6949</Item>
+    <Item>6950</Item>
+    <Item>8926</Item>
+    <Item>8927</Item>
+    <Item>8928</Item>
+    <Item>21927</Item>
+    <Item>43230</Item>
+    <Item>43231</Item>
+
+    <!--Rune of Teleportation-->
+    <Item>17031</Item>
+
+    <!--Potions-->
+    <!--Healing Potions-->
+    <Item>118</Item>
+    <Item>858</Item>
+    <Item>929</Item>
+    <Item>1710</Item>
+    <Item>3928</Item>
+    <Item>13446</Item>
+    <Item>17556</Item>
+    <Item>28551</Item>
+    <Item>33447</Item>
+
+    <!--Hunter Ammo-->
+    <Item>30319</Item>
+    <Item>34581</Item>
+    <Item>34582</Item>
+    <Item>32760</Item>
+    <Item>32761</Item>
+    <Item>31737</Item>
+    <Item>31735</Item>
+    <Item>23773</Item>
+    <Item>33803</Item>
+    <Item>12654</Item>
+    <Item>10579</Item>
+    <Item>32883</Item>
+    <Item>30612</Item>
+    <Item>30611</Item>
+    <Item>32882</Item>
+    <Item>41164</Item>
+    <Item>13377</Item>
+    <Item>11630</Item>
+    <Item>41165</Item>
+    <Item>31949</Item>
+    <Item>3465</Item>
+    <Item>3464</Item>
+    <Item>23772</Item>
+    <Item>10512</Item>
+    <Item>19316</Item>
+    <Item>19317</Item>
+    <Item>10513</Item>
+    <Item>9399</Item>
+    <Item>24417</Item>
+    <Item>18042</Item>
+    <Item>15997</Item>
+    <Item>11284</Item>
+    <Item>28056</Item>
+    <Item>8068</Item>
+    <Item>8067</Item>
+    <Item>8069</Item>
+    <Item>4960</Item>
+    <Item>41584</Item>
+    <Item>2519</Item>
+    <Item>28060</Item>
+    <Item>28061</Item>
+    <Item>11285</Item>
+    <Item>2516</Item>
+    <Item>3030</Item>
+    <Item>2512</Item>
+    <Item>2515</Item>
+    <Item>5568</Item>
+    <Item>3033</Item>
+    <Item>41586</Item>
+    <Item>28053</Item>
+
+  </ProtectedItems>
+  <ForceMail>
+    <Item>2589</Item>
+    <!--Linen Cloth-->
+    <Item>2934</Item>
+    <!--Ruined Leather Scraps-->
+    <Item>2592</Item>
+    <!--Wool Cloth-->
+    <Item>4306</Item>
+    <!--Silk cloth-->
+    <Item>4338</Item>
+    <!--Mageweave Cloth-->
+    <Item>14047</Item>
+    <!--Runecloth-->
+    <Item>21877</Item>
+    <!--Netherweave Cloth-->
+    <Item>22470</Item>
+    <!--Frostweave Cloth-->
+    <Item>2318</Item>
+    <!--Light Leather-->
+    <Item>2319</Item>
+    <!--Medium Leather-->
+    <Item>4304</Item>
+    <!--Heavy Leather-->
+    <Item>4234</Item>
+    <!--Thick Leather-->
+    <Item>8170</Item>
+    <!--Rugged Leather-->
+    <Item>21887</Item>
+    <!--Knothide Leathter-->
+    <Item>33568</Item>
+    <!--Borean Leather-->
+    <Item>181166</Item>
+    <!--Bloodthistle-->
+    <Item>2447</Item>
+    <!--Peacebloom-->
+    <Item>765</Item>
+    <!--Silverleaf-->
+    <Item>2449</Item>
+    <!--Earthroot-->
+    <Item>785</Item>
+    <!--Mageroyal-->
+    <Item>2450</Item>
+    <!--Briarthorn-->
+    <Item>2452</Item>
+    <!--Swiftthistle-->
+    <Item>2453</Item>
+    <!--Bruiseweed-->
+    <Item>3355</Item>
+    <!--Wild Steelbloom-->
+    <Item>3356</Item>
+    <!--Kingsblood-->
+    <Item>3357</Item>
+    <!--Liferoot-->
+    <Item>3821</Item>
+    <!--Goldthorn-->
+    <Item>3818</Item>
+    <!--Fadeleaf-->
+    <Item>8153</Item>
+    <!--Wildvine-->
+    <Item>3358</Item>
+    <!--Khadgar's Whisker-->
+    <Item>3819</Item>
+    <!--Wintersbite-->
+    <Item>8831</Item>
+    <!--Purple Lotus-->
+    <Item>8836</Item>
+    <!--Arthas' Tears-->
+    <Item>8839</Item>
+    <!--Blindweed-->
+    <Item>4625</Item>
+    <!--Firebloom-->
+    <Item>8846</Item>
+    <!--Gromsblood-->
+    <Item>8838</Item>
+    <!--Sungrass-->
+    <Item>13464</Item>
+    <!--Golden Sansam-->
+    <Item>13466</Item>
+    <!--Plaguebloom-->
+    <Item>13465</Item>
+    <!--Mountain Silversage-->
+    <Item>13467</Item>
+    <!--Icecap-->
+    <Item>13463</Item>
+    <!--Dreamfoil-->
+    <Item>13468</Item>
+    <!--Black Lotus-->
+    <Item>22793</Item>
+    <!--Mana Thistle-->
+    <Item>22792</Item>
+    <!--Nightmare Vine-->
+    <Item>22791</Item>
+    <!--Netherbloom-->
+    <Item>22786</Item>
+    <!--Dreaming Glory-->
+    <Item>22787</Item>
+    <!--Ragveil-->
+    <Item>22788</Item>
+    <!--Flame Cap-->
+    <Item>22785</Item>
+    <!--Felweed-->
+    <Item>22789</Item>
+    <!--Terocone-->
+    <Item>22794</Item>
+    <!--Fel Lotus-->
+    <Item>36901</Item>
+    <!--Goldclover-->
+    <Item>191303</Item>
+    <!--Firethorn-->
+    <Item>37921</Item>
+    <!--Deadnettle-->
+    <Item>36904</Item>
+    <!--Tiger Lily-->
+    <Item>36907</Item>
+    <!--Talandra's Rose-->
+    <Item>36903</Item>
+    <!--Adder's Tongue-->
+    <Item>36906</Item>
+    <!--Icethorn-->
+    <Item>36905</Item>
+    <!--Lichbloom-->
+    <Item>36908</Item>
+    <!--Frost Lotus-->
+    <Item>2770</Item>
+    <!--Copper Vein-->
+    <Item>2771</Item>
+    <!--Tin Vein-->
+    <Item>2775</Item>
+    <!--Silver Vein-->
+    <Item>2776</Item>
+    <!--Gold Vein-->
+    <Item>2772</Item>
+    <!--Iron Deposit-->
+    <Item>3858</Item>
+    <!--Mithril Deposit-->
+    <Item>7911</Item>
+    <!--Truesilver Deposit-->
+    <Item>10620</Item>
+    <!--Thorium Vein-->
+    <Item>23425</Item>
+    <!--Adamatite Deposit-->
+    <Item>23424</Item>
+    <!--Fel Iron Deposit-->
+    <Item>23426</Item>
+    <!--Khorium Vein-->
+    <Item>23447</Item>
+    <!--Eternium Vein-->
+    <Item>36909</Item>
+    <!--Cobalt Deposit-->
+    <Item>36912</Item>
+    <!--Saronite Deposit-->
+    <Item>36910</Item>
+    <!--Titanium Vein-->
+    <Item>37705</Item>
+    <!--Crystallized Water-->
+    <Item>17407</Item>
+    <!--Felmist <Mote of Shadow> -->
+    <Item>17378</Item>
+    <!--Swamp Gas <Mote of Water> -->
+    <Item>17408</Item>
+    <!--Arcane Vortex <Mote of Mana> -->
+    <Item>24222</Item>
+    <!--Windy Cloud <Mote of Air>  -->
+    <Item>32544</Item>
+    <!--Steam Cloud <Crystalized Fire> and <Crystalized Water> -->
+    <Item>32522</Item>
+    <!--Cinder Cloud <Crystalized Fire> -->
+    <Item>24879</Item>
+    <!--Arctic Cloud <Crystalized Air> and <Crystalized Water> -->
+    <Item>8499</Item>
+    <!--Tiny Crimson Whelpling-->
+    <Item>20769</Item>
+    <Item>20769</Item>
+    <!-- Oozing Bag and Disgusting Oozeling-->
+    <Item>48114</Item>
+    <!--Deviate Hatchling-->
+  </ForceMail>
+</HBProfile>

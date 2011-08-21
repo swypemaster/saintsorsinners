@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HBProfile creator="blancharke" version="0.01">
+  <Name>Dwarf Questing+Grinding</Name>
+  <MinDurability>0.2</MinDurability>
+  <MinFreeBagSlots>2</MinFreeBagSlots>
+  <MinLevel>1</MinLevel>
+  <MaxLevel>61</MaxLevel>
+  <SellGrey>true</SellGrey>
+  <SellWhite>true</SellWhite>
+
+  
+	<QuestOrder>
+		<PickUp QuestName="Hold the Line!" QuestId="24469" GiverName="Joren Ironstock" GiverId="37081" />
+			<Objective QuestName="Hold the Line!" QuestId="24469" Type="KillMob" MobId="37070" KillCount="6" />
+		<TurnIn QuestName="Hold the Line!" QuestId="24469" TurnInName="Joren Ironstock" TurnInId="37081" />
+		<PickUp QuestName="Give 'em What-For" QuestId="24470" GiverName="Joren Ironstock" GiverId="37081" />
+		<PickUp QuestName="Aid for the Wounded" QuestId="24471" GiverName="Sten Stoutarm" GiverId="658" />
+			<Objective QuestName="Give 'em What-For" QuestId="24470" Type="KillMob" MobId="37073" KillCount="3" />
+			<UseItem ItemId="49743" QuestId="24471" TargetId="37080" TargetType="Npc" X="-6330.203" Y="301.783" Z="379.6402" />
+			<UseItem ItemId="49743" QuestId="24471" TargetId="37080" TargetType="Npc" X="-6356.825" Y="336.1632" Z="380.4662" />
+			<UseItem ItemId="49743" QuestId="24471" TargetId="37080" TargetType="Npc"  X="-6284.427" Y="430.2604" Z="383.9273"  />
+			<UseItem ItemId="49743" QuestId="24471" TargetId="37080" TargetType="Npc" X="-6347.745" Y="382.6111" Z="377.7332"  />
+			<UseItem ItemId="49743" QuestId="24471" TargetId="37080" TargetType="Npc" X="-6290.19" Y="413.4353" Z="384.1726" />
+			<UseItem ItemId="49743" QuestId="24471" TargetId="37080" TargetType="Npc" X="-6295.788" Y="379.6188" Z="380.4489" />
+			<UseItem ItemId="49743" QuestId="24471" TargetId="37080" TargetType="Npc" X="-6320.641" Y="275.1294" Z="379.6853"  />
+			<UseItem ItemId="49743" QuestId="24471" TargetId="37080" TargetType="Npc" X="-6295.81" Y="271.4533" Z="381.0571"  />
+			<UseItem ItemId="49743" QuestId="24471" TargetId="37080" TargetType="Npc" X="-6291.307" Y="244.118" Z="393.4308"  />
+		<TurnIn QuestName="Aid for the Wounded" QuestId="24471" TurnInName="Sten Stoutarm" TurnInId="658" />
+		<TurnIn QuestName="Give 'em What-For" QuestId="24470" TurnInName="Joren Ironstock" TurnInId="37081" /><PickUp QuestName="Lockdown in Anvilmar" QuestId="24473" GiverName="Joren Ironstock" GiverId="37081" />
+		<TurnIn QuestName="Lockdown in Anvilmar" QuestId="24473" TurnInName="Jona Ironstock" TurnInId="37087" />
+		<PickUp QuestName="First Things First: We're Gonna Need Some Beer" QuestId="24474" GiverName="Jona Ironstock" GiverId="37087" />
+		<PickUp QuestName="Dwarven Artifacts" QuestId="24477" GiverName="Grundel Harkin" GiverId="1104" />
+			<Objective QuestName="First Things First: We're Gonna Need Some Beer" QuestId="24474" Type="CollectItem" ItemId="49746" CollectCount="1" />
+			<Objective QuestName="First Things First: We're Gonna Need Some Beer" QuestId="24474" Type="CollectItem" ItemId="49744" CollectCount="1" />
+			<Objective QuestName="First Things First: We're Gonna Need Some Beer" QuestId="24474" Type="CollectItem" ItemId="49745" CollectCount="1" />
+			<Objective QuestName="Dwarven Artifacts" QuestId="24477" Type="CollectItem" ItemId="49749" CollectCount="5" />
+		<TurnIn QuestName="Dwarven Artifacts" QuestId="24477" TurnInName="Grundel Harkin" TurnInId="1104" />
+		<PickUp QuestName="Make Hay While the Sun Shines" QuestId="24486" GiverName="Grundel Harkin" GiverId="1104" />
+		<TurnIn QuestName="First Things First: We're Gonna Need Some Beer" QuestId="24474" TurnInName="Jona Ironstock" TurnInId="37087" />
+		<PickUp QuestName="All the Other Stuff" QuestId="24475" GiverName="Jona Ironstock" GiverId="37087" />
+			<Objective QuestName="Make Hay While the Sun Shines" QuestId="24486" Type="CollectItem" ItemId="49751" CollectCount="5" />
+			<Objective QuestName="All the Other Stuff" QuestId="24475" Type="CollectItem" ItemId="49747" CollectCount="3" />
+			<Objective QuestName="All the Other Stuff" QuestId="24475" Type="CollectItem" ItemId="49748" CollectCount="4" />
+		<TurnIn QuestName="Make Hay While the Sun Shines" QuestId="24486" TurnInName="Grundel Harkin" TurnInId="1104" />
+		<TurnIn QuestName="All the Other Stuff" QuestId="24475" TurnInName="Jona Ironstock" TurnInId="37087" />
+		<If Condition="Me.Class == WoWClass.Shaman">
+			<PickUp QuestName="Empowered Rune" QuestId="24494" GiverName="Jona Ironstock" GiverId="37087" />
+			<TurnIn QuestName="Empowered Rune" QuestId="24494" TurnInName="Teo Hammerstorm" TurnInId="37115" />
+		</If>
+		<If Condition="Me.Class == WoWClass.Mage">
+			<PickUp QuestName="Arcane Rune" QuestId="24496" GiverName="Jona Ironstock" GiverId="37087" />
+			<TurnIn QuestName="Arcane Rune" QuestId="24496" TurnInName="Teegli Merrowith" TurnInId="37121" />
+		</If>
+		<PickUp QuestName="Whitebeard Needs Ye" QuestId="24487" GiverName="Jona Ironstock" GiverId="37087" />
+		<TurnIn QuestName="Whitebeard Needs Ye" QuestId="24487" TurnInName="Grelin Whitebeard" TurnInId="786" />
+		<PickUp QuestName="The Troll Menace" QuestId="182" GiverName="Grelin Whitebeard" GiverId="786" />
+		<PickUp QuestName="Trolling for Information" QuestId="24489" GiverName="Apprentice Soren" GiverId="1354" />
+		<PickUp QuestName="A Refugee's Quandary" QuestId="3361" GiverName="Felix Whindlebolt" GiverId="8416" />
+			<Objective QuestName="Trolling for Information" QuestId="24489" Type="KillMob" MobId="37111" KillCount="1" />
+			<Objective QuestName="A Refugee's Quandary" QuestId="3361" Type="CollectItem" ItemId="10438" CollectCount="1" />
+			<Objective QuestName="Trolling for Information" QuestId="24489" Type="KillMob" MobId="37110" KillCount="1" />
+			<Objective QuestName="A Refugee's Quandary" QuestId="3361" Type="CollectItem" ItemId="16314" CollectCount="1" />
+			<Objective QuestName="A Refugee's Quandary" QuestId="3361" Type="CollectItem" ItemId="16313" CollectCount="1" />
+			<Objective QuestName="Trolling for Information" QuestId="24489" Type="KillMob" MobId="37109" KillCount="1" />
+			<Objective QuestName="The Troll Menace" QuestId="182" Type="KillMob" MobId="706" KillCount="10" />
+		<TurnIn QuestName="A Refugee's Quandary" QuestId="3361" TurnInName="Felix Whindlebolt" TurnInId="8416" />
+		<TurnIn QuestName="Trolling for Information" QuestId="24489" TurnInName="Apprentice Soren" TurnInId="1354" />
+		<TurnIn QuestName="The Troll Menace" QuestId="182" TurnInName="Grelin Whitebeard" TurnInId="786" />
+		<SetGrindArea>
+			<GrindArea>
+				<TargetMinLevel>3</TargetMinLevel>
+				<TargetMaxLevel>5</TargetMaxLevel>
+				<Factions>190 189</Factions>
+				<MaxDistance>10</MaxDistance>
+				<Hotspots>
+					<Hotspot X="-6370.138" Y="777.3041" Z="387.0003" />
+					<Hotspot X="-6405.194" Y="749.5352" Z="390.7043" />
+					<Hotspot X="-6485.829" Y="681.4692" Z="387.6077" />
+					<Hotspot X="-6500.47" Y="604.0336" Z="394.6802" />
+					<Hotspot X="-6470.635" Y="505.3944" Z="386.3701" />
+					<Hotspot X="-6485.829" Y="681.4692" Z="387.6077" />
+				</Hotspots>
+			</GrindArea>
+		</SetGrindArea>
+		<Grindto Level="5"/>		
+		<PickUp QuestName="Ice and Fire" QuestId="218" GiverName="Grelin Whitebeard" GiverId="786" />
+			<Objective QuestName="Ice and Fire" QuestId="218" Type="KillMob" MobId="808" KillCount="1" />
+			<Objective QuestName="Ice and Fire" QuestId="218" Type="KillMob" MobId="37112" KillCount="1" />
+		<SetGrindArea>
+			<GrindArea>
+				<TargetMinLevel>3</TargetMinLevel>
+				<TargetMaxLevel>5</TargetMaxLevel>
+				<Factions>190</Factions>
+				<MaxDistance>10</MaxDistance>
+				<Hotspots>
+					<Hotspot X="-6479.613" Y="323.3441" Z="375.0846" />
+					<Hotspot X="-6531.033" Y="384.561" Z="381.3755" />
+				</Hotspots>
+			</GrindArea>
+		</SetGrindArea>
+		<Grindto Level="6"/>
+		<TurnIn QuestName="Ice and Fire" QuestId="218" TurnInName="Grelin Whitebeard" TurnInId="786" />
+		<PickUp QuestName="A Trip to Ironforge" QuestId="24490" GiverName="Grelin Whitebeard" GiverId="786" />
+		<TurnIn QuestName="A Trip to Ironforge" QuestId="24490" TurnInName="Hands Springsprocket" TurnInId="6782" />
+		<PickUp QuestName="Follow that Gyro-Copter!" QuestId="24491" GiverName="Hands Springsprocket" GiverId="6782" />
+		<TurnIn QuestName="Follow that Gyro-Copter!" QuestId="24491" TurnInName="Milo Geartwinge" TurnInId="37113" />
+		<PickUp QuestName="Pack Your Bags" QuestId="24492" GiverName="Milo Geartwinge" GiverId="37113" />
+		<PickUp QuestName="Don't Forget About Us" QuestId="24493" GiverName="Jona Ironstock" GiverId="37087"/>
+			<Objective QuestName="Pack Your Bags" QuestId="24492" Type="CollectItem" ItemId="49754" CollectCount="1" />
+			<Objective QuestName="Pack Your Bags" QuestId="24492" Type="CollectItem" ItemId="49755" CollectCount="1" />
+			<Objective QuestName="Pack Your Bags" QuestId="24492" Type="CollectItem" ItemId="49756" CollectCount="1" />
+		<TurnIn QuestName="Pack Your Bags" QuestId="24492" TurnInName="Milo Geartwinge" TurnInId="37113" />
+		<TurnIn QuestName="Don't Forget About Us" QuestId="24493" TurnInName="Tharek Blackstone" TurnInId="1872" />
+	</QuestOrder>
+		
+		<Quest Id="24492" Name="Pack Your Bags">
+			<Objective Type="CollectItem" ItemId="49755" CollectCount="1">
+				<CollectFrom>
+				</CollectFrom>
+				<Hotspots>
+					<Hotspot X="-6047.718" Y="384.1154" Z="398.8769" />
+				</Hotspots>
+			</Objective>
+		</Quest>
+
+   <SubProfile>
+    <Name>1-6 Settings</Name>
+    <MinLevel>1</MinLevel>
+    <MaxLevel>6</MaxLevel>
+    <AvoidMobs>
+      <AvoidMob Entry="44389" Name="Training Dummy" />
+    </AvoidMobs>
+	<Vendors>
+		<Vendor Name="" Entry="1104" Type="Repair" X="-6104.505" Y="384.0296" Z="395.5431" />
+
+      <!--Class Trainers-->
+		<Vendor Name="Solm Hargrin" Entry="916" Type="Train" TrainClass="Rogue" X="-6093.748" Y="404.9183" Z="395.5372" />
+		<Vendor Name="Bromos Grummner" Entry="926" Type="Train" TrainClass="Paladin" X="-6120.679" Y="382.0895" Z="395.5435" />
+		<Vendor Name="Branstock Khalder" Entry="837" Type="Train" TrainClass="Priest" X="-6056.739" Y="393.548" Z="392.7602" />
+		<Vendor Name="Thorgas Grimson" Entry="895" Type="Train" TrainClass="Hunter" X="-6091.788" Y="365.1413" Z="395.5403" />
+		<Vendor Name="Thran Khorman" Entry="912" Type="Train" TrainClass="Warrior" X="-6084.768" Y="382.1413" Z="395.5431" />
+		<Vendor Name="Saripal Smolderbrew" Entry="43455" Type="Train" TrainClass="Warlock" X="-6074.89" Y="388.547" Z="393.6033" />
+		<Vendor Name="Teo Hammerstorm" Entry="37115" Type="Train" TrainClass="Shaman" X="-6051.299" Y="389.2604" Z="398.8734" />
+		<Vendor Name="Teegli Merrowith" Entry="37121" Type="Train" TrainClass="Mage" X="-6056.094" Y="388.1749" Z="392.7616" />
+      <!--Class Trainers-->
+    </Vendors>
+	<Blackspots>
+		<Blackspot X="-6164.695" Y="409.7438" Z="398.2454" Radius="5" />
+	</Blackspots>
+  </SubProfile>
+</HBProfile>

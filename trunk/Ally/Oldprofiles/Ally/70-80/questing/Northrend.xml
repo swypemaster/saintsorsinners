@@ -1,0 +1,2024 @@
+<HBProfile>
+  <Name>Alpha Northrend 68-80 Beta Test</Name>
+  <MinDurability>0.2</MinDurability>
+  <MinFreeBagSlots>2</MinFreeBagSlots>
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+
+<!-- Blackspots -->
+<Blackspots>
+<Blackspot X="6033.461" Y="-620.7478" Z="368.9462" Radius="200"/>
+<Blackspot X="5306.641" Y="4681.201" Z="-128.917" Radius="10"/>
+<Blackspot X="3372.773" Y="4065.907" Z="22.78253" Radius="200" />
+<Blackspot X="277.9925" Y="-5688.471" Z="290.7957" Radius="100" />
+<Blackspot X="3260.8" Y="-741.1226" Z="168.7312" Radius="200"/>
+<Blackspot X="3150.5" Y="-2243.446" Z="112.2429" Radius="200"/>
+<Blackspot X="4524.456" Y="-3627.986" Z="232.397" Radius="60.60215" />
+<Blackspot X="4455.107" Y="-3515.577" Z="233.0896" Radius="42.69543" />
+<Blackspot X="4400.179" Y="-4717.791" Z="64.39796" Radius="100"/>
+<Blackspot X="3294.179" Y="-757.7051" Z="169.9875" Radius="200"/>
+<Blackspot X="3829.088" Y="1586.34" Z="86.6986" Radius="200" />
+<Blackspot X="3138.848" Y="470.3604" Z="21.32861" Radius="200" />
+<Blackspot X="4446.484" Y="1625.035" Z="128.243" Radius="20"/>
+<Blackspot X="5509.484" Y="5786.837" Z="-83.66223" Radius="100"/>
+<Blackspot X="6296.827" Y="-3486.286" Z="370.2325" Radius="200" />
+<Blackspot X="719.4668" Y="-4953.261" Z="4.459609" Radius="50" />
+<Blackspot X="506.3086" Y="-5440.477" Z="267.5675" Radius="200" />
+<Blackspot X="581.3445" Y="-5135.081" Z="-1.435048" Radius="50" />
+<Blackspot X="324.5951" Y="-4614.155" Z="236.4901" Radius="200" />
+<Blackspot X="389.2896" Y="-5792.203" Z="293.3652" Radius="100" />
+<Blackspot X="277.9925" Y="-5688.471" Z="290.7957" Radius="100" />
+</Blackspots>
+<!-- Vendors -->
+<Vendors>
+<Vendor Name="Xark Bolthammer" Entry="29907" Type="Repair" X="6097.559" Y="-1071.257" Z="404.4124" />
+<Vendor Name="Elizabeth Hollingsworth" Entry="28813" Type="Ammo" X="5134.823" Y="-2188.904" Z="236.5899" />
+<Vendor Name="Elizabeth Hollingsworth" Entry="28813" Type="Repair" X="5134.823" Y="-2188.904" Z="236.5899" />
+<Vendor Name="Aidan Steeleye" Entry="28800" Type="Ammo" X="5499.77" Y="-2651.866" Z="303.9542" />
+<Vendor Name="Aidan Steeleye" Entry="28800" Type="Repair" X="5499.77" Y="-2651.866" Z="303.9542" />
+<Vendor Name="Master Smith Devin Brevig" Entry="27045" Type="Repair" X="3677.906" Y="-737.243" Z="213.6113" />
+<Vendor Name="Kuk'uq" Entry="27185" Type="Repair" X="2756.133" Y="851.5743" Z="6.703277" />
+<Vendor Name="Mardan Thunderhoof" Entry="28040" Type="Ammo" X="5552.257" Y="5738.877" Z="-76.21725" />
+<Vendor Name="Mardan Thunderhoof" Entry="28040" Type="Repair" X="5552.257" Y="5738.877" Z="-76.21725" />
+<Vendor Name="Brom Armstrong" Entry="27062" Type="Repair" X="3421.368" Y="-2757.578" Z="199.3005" />
+<Vendor Name="Quartermaster McCarty" Entry="26375" Type="Food" X="4596.138" Y="-4237.277" Z="178.6546" />
+<Vendor Name="Tiernan Anvilheart" Entry="26229" Type="Repair" X="4542.522" Y="-4249.319" Z="170.4924" />
+<Vendor Name="Veira Langdon" Entry="26388" Type="Ammo" X="4532.392" Y="-4207.711" Z="170.822" />
+<Vendor Name="Willis Wobblewheel" Entry="26599" Type="Repair" X="4135.004" Y="5281.168" Z="25.08813" />
+<Vendor Name="Broff Bombast" Entry="27011" Type="Ammo" X="2359.466" Y="5237.433" Z="7.713012" />
+<Vendor Name="Broff Bombast" Entry="27011" Type="Repair" X="2359.466" Y="5237.433" Z="7.713012" />
+<Vendor Name="Mardan Thunderhoof" Entry="28040" Type="Ammo" X="5552.257" Y="5738.877" Z="-76.21725" />
+<Vendor Name="Mardan Thunderhoof" Entry="28040" Type="Repair" X="5552.257" Y="5738.877" Z="-76.21725" />
+<Vendor Name="Deniigi" Entry="27151" Type="Repair" X="801.2076" Y="-2948.573" Z="6.660284" />
+<Vendor Name="Everett McGill" Entry="26934" Type="Repair" X="488.725" Y="-5932.577" Z="308.7209" />
+<Vendor Name="Torik" Entry="26901" Type="Repair" X="645.4608" Y="-5031.651" Z="3.489645" />
+<Vendor Name="Sentinel Amberline" Entry="27055" Type="Repair" X="3514.701" Y="1999.156" Z="64.88658" />
+<Vendor Name="Deniigi" Entry="27151" Type="Repair" X="801.2076" Y="-2948.573" Z="6.660284" />
+<Vendor Name="Everett McGill" Entry="26934" Type="Repair" X="488.725" Y="-5932.577" Z="308.7209" />
+<Vendor Name="Eldrim Mounder" Entry="24052" Type="Repair" X="2428.321" Y="-5086.521" Z="273.2868" />
+<Vendor Name="Torik" Entry="26901" Type="Repair" X="645.4608" Y="-5031.651" Z="3.489645" />
+<Vendor Name="Kuk'uq" Entry="27185" Type="Repair" X="2754.21" Y="858.1937" Z="6.692381" />
+<Vendor Name="Brollen Wheatbeard" Entry="33599" Type="Repair" X="8548.112" Y="933.3629" Z="547.2929" />
+</Vendors>
+
+<!-- AvoidMobs -->
+<AvoidMobs>
+<AvoidMob Name="Plague Sprayer" Entry="28274" />
+<AvoidMob Name="Serpent Defender" Entry="29693"/>
+<AvoidMob Name="Drakkari Witch Doctor" Entry="27555"/>
+<AvoidMob Name="Drakkari Defender" Entry="26704"/>
+<AvoidMob Name="Injured Drakkari Refugee" Entry="27554"/>
+<AvoidMob Name="Redfang Hunter" Entry="26356"/>
+<AvoidMob Name="Frostpaw Warrior" Entry="26357"/>
+<AvoidMob Name="Runed Giant" Entry="26417"/>
+<AvoidMob Name="Storm Giant" Entry="24812" />
+<AvoidMob Name="Venture Co. Excavator" Entry="28123" />
+<AvoidMob Name="Venture Co. Ruffian" Entry="28124" />
+<AvoidMob Name="Perch Guardian" Entry="29013" />
+<AvoidMob Name="Risen Reaver" Entry="28242" />
+</AvoidMobs>
+
+<!-- MailBox -->
+<Mailboxes>
+<Mailbox X="8591.42" Y="693.5306" Z="547.293" />
+<Mailbox X="3401.819" Y="-2810.98" Z="200.4462" />
+<Mailbox X="568.1748" Y="-4936.134" Z="18.03235" />
+<Mailbox X="5566.33" Y="5758.396" Z="-75.22648" />
+</Mailboxes>
+
+<!-- QuestOverrides -->
+
+<Quest Id="12829" Name="Moving In">
+	<Objective Type="KillMob" MobId="29412" KillCount="12">
+		<Hotspots>
+<Hotspot X="6468.749" Y="-1027.474" Z="434.0722" />
+<Hotspot X="6854.293" Y="-1541.383" Z="354.7178" />
+		</Hotspots>
+	</Objective>
+</Quest>
+
+<Quest Id="12830" Name="Ore Repossession">
+	<Objective Type="CollectItem" ItemId="40744" CollectCount="5">
+		<Hotspots>
+<Hotspot X="6468.749" Y="-1027.474" Z="434.0722" />
+<Hotspot X="6854.293" Y="-1541.383" Z="354.7178" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="12648" Name="Dressing Down">
+	<Objective Type="CollectItem" ItemId="38698" CollectCount="1">
+		<CollectFrom>
+<Vendor Name="Gristlegut" Entry="28589" Type="Repair" X="5156.954" Y="-1591.637" Z="239.3642" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="5156.744" Y="-1595.213" Z="239.0543" />
+		</Hotspots>
+	</Objective>
+</Quest>
+
+<Quest Id="12565" Name="The Blessing of Zim'Abwa">
+<TurnIn X="5248.609" Y="-2441.381" Z="290.0513" />
+</Quest> 
+
+<Quest Id="12610" Name="Clipping Their Wings">
+	<Objective Type="CollectItem" ItemId="38620" CollectCount="7">
+<Hotspots>
+<Hotspot X="6138.601" Y="-2359.144" Z="304.0517" />
+<Hotspot X="5811.012" Y="-2327.031" Z="288.9942" />
+<Hotspot X="5764.22" Y="-2520.35" Z="292.9088" />
+</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="12017" Name="Meat on the Hook">
+	<Objective Type="KillMob" MobId="26510" KillCount="1">
+		<Hotspots>
+<Hotspot X="2643.16" Y="1035.677" Z="-19.72963" />
+<Hotspot X="2641.311" Y="997.0214" Z="-24.23031" />
+</Hotspots>
+	</Objective>
+</Quest>
+
+<Quest Id="12272" Name="The Bleeding Ore">
+	<Objective Type="CollectItem" ItemId="37359" CollectCount="10">
+		<CollectFrom>
+<GameObject Id="188699" Name="Strange Ore" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="3897.528" Y="-882.9328" Z="119.5999" />
+<Hotspot X="4032.883" Y="-826.1584" Z="119.6792" />
+<Hotspot X="4002.011" Y="-875.0258" Z="117.7619" />
+<Hotspot X="4000.845" Y="-952.2711" Z="105.179" />
+		</Hotspots>
+	</Objective>
+</Quest>
+
+<Quest Id="12269" Name="Not In Our Mine">
+	<Objective Type="CollectItem" ItemId="37411" CollectCount="10">
+		<Hotspots>
+<Hotspot X="3897.528" Y="-882.9328" Z="119.5999" />
+<Hotspot X="4032.883" Y="-826.1584" Z="119.6792" />
+<Hotspot X="4002.011" Y="-875.0258" Z="117.7619" />
+<Hotspot X="4000.845" Y="-952.2711" Z="105.179" />
+	</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="12311" Name="The Noble's Crypt">
+	<Objective Type="KillMob" MobId="27508" KillCount="1">
+		<Hotspots>
+<Hotspot X="3607.236" Y="-780.8186" Z="146.6048" />
+</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="12000" Name="Rifle the Bodies">
+	<Objective Type="CollectItem" ItemId="35783" CollectCount="1">
+		<CollectFrom>
+<Vendor Name="Dead Mage Hunter" Entry="26477" Type="Repair" X="3402.501" Y="2291.558" Z="30.3925" />
+		</CollectFrom>
+	</Objective>
+</Quest>
+
+<Quest Id="12282" Name="Imprints on the Past">
+	<Objective Type="CollectItem" ItemId="37538" CollectCount="1">
+		<CollectFrom>
+<GameObject Id="189291" Name="Scrying Orb" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="3672.403" Y="-797.9938" Z="174.4637" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="12046" Name="Soft Packaging">
+	<Objective Type="CollectItem" ItemId="36729" CollectCount="12">
+<Hotspots>
+<Hotspot X="4689.446" Y="593.0811" Z="116.368" />
+<Hotspot X="4511.607" Y="677.3067" Z="83.48395" />
+<Hotspot X="4687.625" Y="884.7073" Z="126.3473" />
+<Hotspot X="4692.14" Y="595.5793" Z="116.56" />
+</Hotspots>
+	</Objective>
+</Quest>
+
+<Quest Id="12148" Name="One of a Kind">
+	<Objective Type="CollectItem" ItemId="36854" CollectCount="1">
+<Hotspots>
+<Hotspot X="3338.984" Y="631.6773" Z="82.27358" />
+<Hotspot X="3420.708" Y="811.8761" Z="87.76858" />
+
+</Hotspots>
+</Objective>
+</Quest>
+
+<Quest Id="12092" Name="Strengthen the Ancients">
+<Objective Type="CollectItem" ItemId="36786" CollectCount="3">
+<CollectFrom>
+<Vendor Name="Woodlands Walker" Entry="26421" Type="Repair" X="3229.479" Y="1844.142" Z="134.4824" />
+</CollectFrom>
+</Objective>
+</Quest>
+<Quest Id="12416" Name="Heated Battle">
+	<Objective Type="KillMob" MobId="27685" KillCount="12">
+		<Hotspots>
+<Hotspot X="3770.462" Y="713.6584" Z="82.57763" />
+<Hotspot X="3872.09" Y="669.641" Z="62.28404" />
+<Hotspot X="3796.875" Y="646.2703" Z="72.46781" />
+<Hotspot X="3753.317" Y="805.1859" Z="74.74077" />
+<Hotspot X="3618.311" Y="775.5789" Z="70.34333" />
+<Hotspot X="3621.91" Y="774.8755" Z="70.34654" />
+<Hotspot X="3670.263" Y="863.0004" Z="56.46259" />
+		</Hotspots>
+	</Objective>
+	<Objective Type="KillMob" MobId="27686" KillCount="8">
+		<Hotspots>
+<Hotspot X="3770.462" Y="713.6584" Z="82.57763" />
+<Hotspot X="3872.09" Y="669.641" Z="62.28404" />
+<Hotspot X="3796.875" Y="646.2703" Z="72.46781" />
+<Hotspot X="3753.317" Y="805.1859" Z="74.74077" />
+<Hotspot X="3618.311" Y="775.5789" Z="70.34333" />
+<Hotspot X="3621.91" Y="774.8755" Z="70.34654" />
+<Hotspot X="3670.263" Y="863.0004" Z="56.46259" />
+		</Hotspots>
+	</Objective>
+	<Objective Type="KillMob" MobId="27531" KillCount="1">
+		<Hotspots>
+<Hotspot X="3770.462" Y="713.6584" Z="82.57763" />
+<Hotspot X="3872.09" Y="669.641" Z="62.28404" />
+<Hotspot X="3796.875" Y="646.2703" Z="72.46781" />
+<Hotspot X="3753.317" Y="805.1859" Z="74.74077" />
+<Hotspot X="3618.311" Y="775.5789" Z="70.34333" />
+<Hotspot X="3621.91" Y="774.8755" Z="70.34654" />
+<Hotspot X="3670.263" Y="863.0004" Z="56.46259" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="12216" Name="Take Their Rear!">
+	<Objective Type="CollectItem" ItemId="37200" CollectCount="8">
+		<Hotspots>
+<Hotspot X="4563.866" Y="-3824.118" Z="230.2491" />
+<Hotspot X="4429.531" Y="-3817.978" Z="210.5322" />
+<Hotspot X="4482.535" Y="-3955.609" Z="189.5166" />
+<Hotspot X="4255.838" Y="-3673.955" Z="256.3967" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11998" Name="Softening the Blow">
+	<Objective Type="CollectItem" ItemId="35796" CollectCount="1">
+		<CollectFrom>
+<Vendor Name="Hugh Glass" Entry="26484" Type="Food" X="4113.109" Y="-4738.284" Z="100.7881" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="4106.994" Y="-4735.494" Z="100.7879" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11988" Name="The Runic Keystone">
+	<Objective Type="CollectItem" ItemId="35747" CollectCount="5">
+<Hotspots>
+<Hotspot X="4529.344" Y="-4441.733" Z="186.3555" />
+<Hotspot X="4787.18" Y="-4402.833" Z="198.1849" />
+</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11960" Name="Planning for the Future">
+	<Objective Type="CollectItem" ItemId="35692" CollectCount="12">
+		<CollectFrom>
+<GameObject Id="35692" Name="Snowfall Glade Pup" />
+		</CollectFrom>
+	</Objective>
+</Quest>
+<Quest Id="11255" Name="Prisoners of Wyrmskull">
+<Objective Type="CollectItem" ItemId="33308" CollectCount="3">
+<CollectFrom>
+<Mob Id="24124" Name="Dragonflayer Thane" />
+</CollectFrom>	
+<Hotspots>
+<Hotspot X="1034.543" Y="-5030.279" Z="10.75436" />
+<Hotspot X="943.638" Y="-4990.527" Z="1.330157" />
+<Hotspot X="904.7105" Y="-4858.498" Z="4.159058" />
+<Hotspot X="1004.12" Y="-4834.214" Z="-0.8944045" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11333" Name="Into the World of Spirits">
+	<Objective Type="CollectItem" ItemId="33635" CollectCount="1">
+		<Hotspots>
+<Hotspot X="725.7231" Y="-5169.935" Z="-73.77097" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11288" Name="The Shining Light">
+	<Objective Type="CollectItem" ItemId="33485" CollectCount="1">
+		<CollectFrom>
+<GameObject Id="186607" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="961.9856" Y="-4822.913" Z="-116.158" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11300" Name="Stunning Defeat at the Ring">
+	<Objective Type="CollectItem" ItemId="33545" CollectCount="1">
+		<CollectFrom>
+<Mob Id="24213" Name="Firjus the Soul Crusher" />
+<Mob Id="24215" Name="Jlarborn the Strategist" />
+<Mob Id="24214"	Name="Yorus the Flesh Harvester" />
+<Mob Id="23931" Name="Oluf the Violent" />
+</CollectFrom>
+		<Hotspots>
+<Hotspot X="798.8055" Y="-4728.021" Z="-96.23602" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11290" Name="Dragonflayer Battle Plans">
+	<Objective Type="CollectItem" ItemId="33488" CollectCount="1">
+		<CollectFrom>
+<GameObject Id="186618" Name="Dragonflayer Battle Plans" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="990.8181" Y="-4766.051" Z="-1.197742" />
+		</Hotspots>
+	</Objective>
+</Quest>
+
+<Quest Id="11483" Name="We Can Rebuild It">
+	<Objective Type="CollectItem" ItemId="34133" CollectCount="1">
+		<CollectFrom>
+<GameObject Id="186954" Name="Large Barrel" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="845.4748" Y="-5472.148" Z="213.4943" />
+		</Hotspots>
+	</Objective>
+	<Objective Type="CollectItem" ItemId="34134" CollectCount="1">
+		<CollectFrom>
+<GameObject Id="186955" Name="Industrial Strength Rope" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="1464.231" Y="-5311.46" Z="195.878" />
+		</Hotspots>
+	</Objective>
+	<Objective Type="CollectItem" ItemId="34135" CollectCount="1">
+		<CollectFrom>
+<Vendor Name="McGoyver" Entry="24040" X="634.9737" Y="-5072.095" Z="-0.1112735" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="640.8435" Y="-5065.205" Z="0.4905704" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11456" Name="Feeding the Survivors">
+	<Objective Type="CollectItem" ItemId="36776" CollectCount="6">
+		<CollectFrom>
+<Mob Id="24681" Name="Island Shoveltusk" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="787.7029" Y="-3263.427" Z="24.45933" />
+<Hotspot X="572.5457" Y="-3311.877" Z="25.43109" />
+<Hotspot X="543.5874" Y="-3078.823" Z="25.19651" />
+</Hotspots>
+	</Objective>
+</Quest>
+
+<Quest Id="11457" Name="Arming Kamagua">
+	<Objective Type="CollectItem" ItemId="34101" CollectCount="3">
+		<CollectFrom>
+<Mob Id="24673" Name="Frostwing Chimaera" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="859.5565" Y="-3003.697" Z="25.55747" />
+<Hotspot X="954.8084" Y="-3057.18" Z="53.18429" />
+<Hotspot X="909.0323" Y="-3179.822" Z="34.26745" />
+		</Hotspots>
+	</Objective>
+</Quest>
+
+<Quest Id="11299" Name="The Ring of Judgement">
+<TurnIn X="803.8787" Y="-4766.542" Z="-94.18191" />
+</Quest>
+
+<Quest Id="12000" Name="Rifle the Bodies">
+	<Objective Type="CollectItem" ItemId="35783" CollectCount="1">
+		<CollectFrom>
+		<Mob Id="26477" Name="Dead Mage Hunter" />
+		</CollectFrom>
+		
+	</Objective>
+</Quest>
+<Quest Id="11960" Name="Planning for the Future">
+	<Objective Type="CollectItem" ItemId="35692" CollectCount="12">
+		<CollectFrom>
+<GameObject Id="35692" Name="Snowfall Glade Pup" />
+		</CollectFrom>
+	</Objective>
+</Quest>
+<Quest Id="11255" Name="Prisoners of Wyrmskull">
+<Objective Type="CollectItem" ItemId="33308" CollectCount="3">
+<CollectFrom>
+<Mob Id="24124" Name="Dragonflayer Thane" />
+</CollectFrom>	
+<Hotspots>
+<Hotspot X="1034.543" Y="-5030.279" Z="10.75436" />
+<Hotspot X="943.638" Y="-4990.527" Z="1.330157" />
+<Hotspot X="904.7105" Y="-4858.498" Z="4.159058" />
+<Hotspot X="1004.12" Y="-4834.214" Z="-0.8944045" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11333" Name="Into the World of Spirits">
+	<Objective Type="CollectItem" ItemId="33635" CollectCount="1">
+		<Hotspots>
+<Hotspot X="725.7231" Y="-5169.935" Z="-73.77097" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11288" Name="The Shining Light">
+	<Objective Type="CollectItem" ItemId="33485" CollectCount="1">
+		<CollectFrom>
+<GameObject Id="186607" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="961.9856" Y="-4822.913" Z="-116.158" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11300" Name="Stunning Defeat at the Ring">
+	<Objective Type="CollectItem" ItemId="33545" CollectCount="1">
+		<CollectFrom>
+<Mob Id="24213" Name="Firjus the Soul Crusher" />
+<Mob Id="24215" Name="Jlarborn the Strategist" />
+<Mob Id="24214"	Name="Yorus the Flesh Harvester" />
+<Mob Id="23931" Name="Oluf the Violent" />
+</CollectFrom>
+		<Hotspots>
+<Hotspot X="798.8055" Y="-4728.021" Z="-96.23602" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11290" Name="Dragonflayer Battle Plans">
+	<Objective Type="CollectItem" ItemId="33488" CollectCount="1">
+		<CollectFrom>
+<GameObject Id="186618" Name="Dragonflayer Battle Plans" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="990.8181" Y="-4766.051" Z="-1.197742" />
+		</Hotspots>
+	</Objective>
+</Quest>
+
+<Quest Id="11483" Name="We Can Rebuild It">
+	<Objective Type="CollectItem" ItemId="34133" CollectCount="1">
+		<CollectFrom>
+<GameObject Id="186954" Name="Large Barrel" />
+		</CollectFrom>
+	</Objective>
+	<Objective Type="CollectItem" ItemId="34134" CollectCount="1">
+		<CollectFrom>
+<GameObject Id="186955" Name="Industrial Strength Rope" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="1463.988" Y="-5312.518" Z="195.9126" />
+		</Hotspots>
+	</Objective>
+	<Objective Type="CollectItem" ItemId="34135" CollectCount="1">
+		<CollectFrom>
+<Vendor Name="McGoyver" Entry="24040" X="634.9737" Y="-5072.095" Z="-0.1112735" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="640.8435" Y="-5065.205" Z="0.4905704" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11456" Name="Feeding the Survivors">
+	<Objective Type="CollectItem" ItemId="36776" CollectCount="6">
+		<CollectFrom>
+<Mob Id="24681" Name="Island Shoveltusk" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="787.7029" Y="-3263.427" Z="24.45933" />
+<Hotspot X="572.5457" Y="-3311.877" Z="25.43109" />
+<Hotspot X="543.5874" Y="-3078.823" Z="25.19651" />
+</Hotspots>
+	</Objective>
+</Quest>
+
+<Quest Id="11457" Name="Arming Kamagua">
+	<Objective Type="CollectItem" ItemId="34101" CollectCount="3">
+		<CollectFrom>
+<Mob Id="24673" Name="Frostwing Chimaera" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="859.5565" Y="-3003.697" Z="25.55747" />
+<Hotspot X="954.8084" Y="-3057.18" Z="53.18429" />
+<Hotspot X="909.0323" Y="-3179.822" Z="34.26745" />
+		</Hotspots>
+	</Objective>
+</Quest>
+
+<Quest Id="11299" Name="The Ring of Judgement">
+<TurnIn X="803.8787" Y="-4766.542" Z="-94.18191" />
+</Quest>
+
+<Quest Id="12000" Name="Rifle the Bodies">
+	<Objective Type="CollectItem" ItemId="35783" CollectCount="1">
+		<CollectFrom>
+		<Mob Id="26477" Name="Dead Mage Hunter" />
+		</CollectFrom>
+		
+	</Objective>
+</Quest>
+
+<Quest Id="11942" Name="Words of Power">
+	<!--High Priest Andorath's Scroll-->
+	<Objective Type="CollectItem" ItemId="35355" CollectCount="1">
+		<CollectFrom>
+		<Mob Id="25392" />
+		</CollectFrom>
+		<Hotspots>
+		<Hotspot X="4095.72" Y="3497.408" Z="131.6657" />
+		</Hotspots>
+	</Objective>
+	<!-- High Priest Naferset's Scroll -->
+	<Objective Type="CollectItem" ItemId="35353" CollectCount="1">
+		<CollectFrom>
+		<Mob Id="25378" />
+		</CollectFrom>
+		<Hotspots>
+		<Hotspot X="4102.058" Y="3754.474" Z="92.66196" />
+		<Hotspot X="4126.739" Y="3743.105" Z="92.68185" />
+		<Hotspot X="4118.684" Y="3716.101" Z="92.66355" />
+		</Hotspots>
+	</Objective>
+	<!-- High Priest Talet-Kha's Scroll -->
+	<Objective Type="CollectItem" ItemId="35354" CollectCount="1">
+		<CollectFrom>
+		<Mob Id="25422" />
+		</CollectFrom>
+		<Hotspots>
+		<Hotspot X="3789.406" Y="3420.071" Z="85.03582" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11650" Name="Just a Few More Things...">
+	<Objective Type="CollectItem" ItemId="34802" CollectCount="1">
+		<CollectFrom>
+<GameObject Id="187697" Name="Crafty's Tools" />
+                </CollectFrom>
+                <Hotspots>
+<Hotspot X="4009.139" Y="4858.201" Z="-12.75404" />
+		</Hotspots>
+	</Objective>
+	<Objective Type="CollectItem" ItemId="39682" CollectCount="1">
+		<CollectFrom>
+<Mob Id="25514" Name="Rocknar" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="3263.275" Y="3885.008" Z="28.32656" />
+		</Hotspots>
+	</Objective>
+	<Objective Type="CollectItem" ItemId="34804" CollectCount="1">
+		<CollectFrom>
+		</CollectFrom>
+		<Hotspots>
+		</Hotspots>
+	</Objective>
+	<Objective Type="CollectItem" ItemId="34801" CollectCount="1">
+		<Hotspots>
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11699" Name="I'm Stuck in this Damned Cage... But Not For Long!">
+	<Objective Type="CollectItem" ItemId="34958" CollectCount="1">
+		<CollectFrom>
+<Mob Id="25678" Name="Doctor Razorgrin" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="4406.451" Y="4555.028" Z="88.75735" />
+		</Hotspots>
+	</Objective>
+	<Objective Type="CollectItem" ItemId="34959" CollectCount="1">
+		<CollectFrom>
+<Mob Id="25682" Name="Lich-Lord Chillwinter" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="4386.882" Y="4589.641" Z="119.5689" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11617" Name="Hampering Their Escape">
+<Objective Type="CollectItem" ItemId="34772" CollectCount="3">
+		<CollectFrom>
+<Mob Id="25449" Name="Beryl Reclaimer" />
+		</CollectFrom>
+		<Hotspots>
+<Hotspot X="3569.89" Y="5420.532" Z="42.03618" />
+<Hotspot X="3658.277" Y="5536.537" Z="33.14667" />
+		</Hotspots>
+	</Objective>
+</Quest>
+
+
+<Quest Id="11613" Name="Karuk's Oath">
+	<Objective Type="KillMob" MobId="25522" KillCount="6">
+	<Hotspots>
+		<Hotspot X="1826.738" Y="6008.997" Z="0.439678" />
+		<Hotspot X="1943.809" Y="5787.282" Z="9.526751" />
+		<Hotspot X="1927.227" Y="6062.495" Z="10.78215" />
+	</Hotspots>
+        </Objective>
+	<Objective Type="KillMob" MobId="25521" KillCount="5">
+	<Hotspots>
+		<Hotspot X="1927.227" Y="6062.495" Z="10.78215" />
+		<Hotspot X="1826.738" Y="6008.997" Z="0.439678" />
+		<Hotspot X="1943.809" Y="5787.282" Z="9.526751" />
+	</Hotspots>
+	</Objective>
+</Quest>
+
+        
+<Quest Id="11788" Name="Lefty Loosey, Righty Tighty">
+	<Objective Type="KillMob" MobId="25830" KillCount="1">
+		<Hotspots>
+		<Hotspot X="4112.679" Y="5098.741" Z="-1.509933" />
+		</Hotspots>
+	</Objective>
+	<Objective Type="KillMob" MobId="25831" KillCount="1">
+		<Hotspots>
+		<Hotspot X="4224.078" Y="4800.859" Z="-12.99485" />
+		</Hotspots>
+	</Objective>
+	<Objective Type="KillMob" MobId="25832" KillCount="1">
+		<Hotspots>
+		<Hotspot X="4032.829" Y="4897.634" Z="-12.77638" />
+		</Hotspots>
+	</Objective>
+	<Objective Type="KillMob" MobId="25833" KillCount="1">
+		<Hotspots>
+		<Hotspot X="3791.67" Y="4811.272" Z="-13.03152" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11897" Name="Plug the Sinkholes">
+	<Objective Type="KillMob" MobId="26249" KillCount="1">
+		<Hotspots>
+		<Hotspot X="2155.888" Y="5653.617" Z="29.01705" />
+		</Hotspots>
+	</Objective>
+	<Objective Type="KillMob" MobId="26248" KillCount="1">
+		<Hotspots>
+		<Hotspot X="2443.401" Y="5455.841" Z="19.6777" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11625" Name="The Trident of Naz'jan">
+	<Objective Type="CollectItem" ItemId="35774" CollectCount="1">
+		<Hotspots>
+		<Hotspot X="1490.986" Y="5402.792" Z="38.13547" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11626" Name="The Emissary">
+	<Objective Type="KillMob" MobId="26452" KillCount="1">
+		<Hotspots>
+		<Hotspot X="1507.719" Y="5592.498" Z="-38.79838" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11913" Name="Take No Chances">
+	<Objective Type="KillMob" MobId="26161" KillCount="8">
+		<Hotspots>
+		<Hotspot X="2535.941" Y="5291.179" Z="33.61732" />
+<Hotspot X="2508.69" Y="5340.638" Z="33.11306" />
+<Hotspot X="2513.855" Y="5367.281" Z="32.86322" />
+<Hotspot X="2553.373" Y="5361.672" Z="33.21572" />
+<Hotspot X="2566.349" Y="5377.182" Z="32.86378" />
+<Hotspot X="2569.961" Y="5384.957" Z="32.86444" />
+<Hotspot X="2581.465" Y="5383.155" Z="32.86352" />
+<Hotspot X="2620.649" Y="5381.563" Z="32.86364" />
+<Hotspot X="2588.891" Y="5309.765" Z="36.66586" />
+<Hotspot X="2591.594" Y="5295.566" Z="36.95126" />
+		</Hotspots>
+	</Objective>
+</Quest>
+
+<Quest Id="11299" Name="The Ring of Judgement">
+<TurnIn X="803.7684" Y="-4765.519" Z="-94.18375" />
+</Quest>
+
+<Quest Id="11904" Name="Fruits of Our Labor">
+	<Objective Type="UseObject" ObjectId="188104" UseCount="1">
+		<Hotspots>
+		<Hotspot X="2796.835" Y="5274.287" Z="21.62332" />
+		</Hotspots>
+	</Objective>
+	<Objective Type="CollectItem" ItemId="35705" CollectCount="1">
+		<Hotspots>
+		<Hotspot X="2834.333" Y="5228.68" Z="13.88469" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11792" Name="Enemies of the Light">
+	<Objective Type="CollectItem" ItemId="35122" CollectCount="1">
+		<CollectFrom>
+		<Mob Id="25651" />
+		</CollectFrom>
+	</Objective>
+</Quest>
+<Quest Id="11938" Name="Buying Some Time">
+	<Objective Type="KillMob" MobId="26195" KillCount="20">
+		<Hotspots>
+		<Hotspot X="3703.863" Y="3724.047" Z="47.03734" />
+<Hotspot X="3733.766" Y="3701.841" Z="47.23612" />
+<Hotspot X="3779.02" Y="3677.302" Z="45.87645" />
+<Hotspot X="3828.343" Y="3632.738" Z="46.67183" />
+<Hotspot X="3785.823" Y="3614.367" Z="46.83595" />
+<Hotspot X="3752.542" Y="3570.65" Z="46.83354" />
+<Hotspot X="3823.287" Y="3545.381" Z="46.8677" />
+<Hotspot X="3839.016" Y="3564.731" Z="47.1446" />
+<Hotspot X="3881.29" Y="3629.858" Z="46.62458" />
+<Hotspot X="3878.93" Y="3676.175" Z="46.71845" />
+<Hotspot X="3838.318" Y="3699.683" Z="46.83672" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11942" Name="Words of Power">
+	<!--High Priest Andorath's Scroll-->
+	<Objective Type="CollectItem" ItemId="35355" CollectCount="1">
+		<CollectFrom>
+		<Mob Id="25392" />
+		</CollectFrom>
+		<Hotspots>
+		<Hotspot X="4095.72" Y="3497.408" Z="131.6657" />
+		</Hotspots>
+	</Objective>
+	<!-- High Priest Naferset's Scroll -->
+	<Objective Type="CollectItem" ItemId="35353" CollectCount="1">
+		<CollectFrom>
+		<Mob Id="25378" />
+		</CollectFrom>
+		<Hotspots>
+		<Hotspot X="4102.058" Y="3754.474" Z="92.66196" />
+		<Hotspot X="4126.739" Y="3743.105" Z="92.68185" />
+		<Hotspot X="4118.684" Y="3716.101" Z="92.66355" />
+		</Hotspots>
+	</Objective>
+	<!-- High Priest Talet-Kha's Scroll -->
+	<Objective Type="CollectItem" ItemId="35354" CollectCount="1">
+		<CollectFrom>
+		<Mob Id="25422" />
+		</CollectFrom>
+		<Hotspots>
+		<Hotspot X="3789.406" Y="3420.071" Z="85.03582" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="11797" Name="The Siege">
+	<Objective Type="KillMob" MobId="25227" KillCount="6">
+		<Hotspots>
+		<Hotspot X="2281.571" Y="5404.586" Z="2.123103" />
+<Hotspot X="2300.982" Y="5469.54" Z="2.43844" />
+<Hotspot X="2225.927" Y="5469.503" Z="3.181126" />
+<Hotspot X="2167.741" Y="5525.012" Z="2.797869" />
+<Hotspot X="2107.767" Y="5505.892" Z="0.2528268" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="12035" Name="Repurposed Technology">
+	<Objective Type="KillMob" MobId="25993" KillCount="5">
+		<Hotspots>
+		<Hotspot X="2554.765" Y="5214.494" Z="37.40779" />
+		</Hotspots>
+	</Objective>
+</Quest>
+
+
+<Quest Id="11927" Name="Word on the Street" >
+<TurnIn X="2271.308" Y="5185.344" Z="20.28886" />
+</Quest>
+
+<Quest Id="11600" Name="The Late William Allerton" >
+<TurnIn X="2271.308" Y="5185.344" Z="20.28886" />
+</Quest>
+
+<Quest Id="11904" Name="Fruits of Our Labor">
+	<Objective Type="UseObject" ObjectId="188104" UseCount="1">
+		<Hotspots>
+<Hotspot X="2797.82" Y="5273.879" Z="21.55119" />
+		</Hotspots>
+	</Objective>
+	<Objective Type="CollectItem" ItemId="35705" CollectCount="1">
+		<Hotspots>
+<Hotspot X="2717.887" Y="5291.909" Z="30.29857" />
+<Hotspot X="2859.585" Y="5230.165" Z="10.97985" />
+		</Hotspots>
+	</Objective>
+</Quest>
+
+<Quest Id="11587" Name="Prison Break">
+<Objective Type="CollectItem" ItemId="34688" CollectCount="1">
+                <CollectFrom>
+<Mob Id="25585" Name="Beryl Mage Hunter" />
+                </CollectFrom>
+		<Hotspots>
+<Hotspot X="3485.063" Y="6116.211" Z="70.96674" />
+<Hotspot X="3395.144" Y="6162.923" Z="79.83147" />
+<Hotspot X="3393.596" Y="6237.548" Z="75.58925" />
+<Hotspot X="3263.39" Y="6161.079" Z="72.86103" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="12520" Name="Rhino Mastery: The Test">
+	<Objective Type="KillMob" MobId="28009" KillCount="15">
+		<Hotspots>
+<Hotspot X="5998.874" Y="5612.99" Z="-71.11282" />
+<Hotspot X="5614.419" Y="5605.063" Z="-88.75378" />
+<Hotspot X="5671.374" Y="5864.607" Z="-61.58224" />
+		</Hotspots>
+	</Objective>
+</Quest>
+
+<Quest Id="12533" Name="The Wasp Hunter's Apprentice">
+	<Objective Type="KillMob" MobId="28086" KillCount="6">
+		<Hotspots>
+<Hotspot X="5001.546" Y="4332.093" Z="-84.29277" />
+<Hotspot X="4992.065" Y="4204.195" Z="-82.89742" />
+<Hotspot X="5078.885" Y="4237.386" Z="-76.9222" />
+		</Hotspots>
+	</Objective>
+	<Objective Type="KillMob" MobId="28085" KillCount="9">
+		<Hotspots>
+<Hotspot X="5001.546" Y="4332.093" Z="-84.29277" />
+<Hotspot X="4992.065" Y="4204.195" Z="-82.89742" />
+<Hotspot X="5078.885" Y="4237.386" Z="-76.9222" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="12531" Name="The Underground Menace">
+	<Objective Type="CollectItem" ItemId="38473" CollectCount="1">
+<Hotspots>
+<Hotspot X="4924.466" Y="4816.655" Z="-92.70717" />
+<Hotspot X="4782.433" Y="4352.246" Z="-53.77612" />
+<Hotspot X="4851.303" Y="4434.96" Z="-65.81837" />
+<Hotspot X="4777.904" Y="4618.826" Z="-66.69015" />
+</Hotspots>
+	</Objective>
+</Quest>
+
+<Quest Id="11949" Name="Not Without a Fight!">
+	<Objective Type="KillMob" MobId="25760" KillCount="12">
+		<Hotspots>
+<Hotspot X="2649.987" Y="4680.974" Z="0.08336142" />
+<Hotspot X="2847.862" Y="4606.449" Z="2.091394" />
+
+		</Hotspots>
+	</Objective>
+</Quest>
+
+
+<!--BOREAN-->
+<QuestOrder>
+	<PickUp QuestName="Enlistment Day" QuestId="11672" GiverName="Recruitment Officer Blythe" GiverId="25307" GiverType="NPC" />
+  	<TurnIn QuestName="Enlistment Day" QuestId="11672" TurnInName="General Arlos" TurnInId="25250" TurnInType="NPC" />
+  	<PickUp QuestName="A Time for Heroes" QuestId="11727" GiverName="General Arlos" GiverId="25250" GiverType="NPC" />
+  	<TurnIn QuestName="A Time for Heroes" QuestId="11727" TurnInName="Sergeant Hammerhill" TurnInId="25816" TurnInType="NPC" />
+  	<PickUp QuestName="The Siege" QuestId="11797" GiverName="Sergeant Hammerhill" GiverId="25816" GiverType="NPC" />
+  	<PickUp QuestName="A Soldier in Need" QuestId="11789" GiverName="Medic Hawthorn" GiverId="25825" GiverType="NPC" />
+  	<Objective QuestName="The Siege" QuestId="11797" Type="KillMob" MobId="25227" MobName="Crypt Crawler" KillCount="6" />
+  	<TurnIn QuestName="The Siege" QuestId="11797" TurnInName="Sergeant Hammerhill" TurnInId="25816" TurnInType="NPC" />
+  	<PickUp QuestName="Death From Above" QuestId="11889" GiverName="Sergeant Hammerhill" GiverId="25816" GiverType="NPC" />
+  	<Objective QuestName="A Soldier in Need" QuestId="11789" Type="CollectItem" ItemId="35119" ItemName="Hawthorn's Anti-Venom" CollectCount="1" />
+  	<PickUp QuestName="Cultists Among Us" QuestId="11920" GiverName="Cultist Shrine" GiverId="187851" GiverType="Object" X="2243.815" Y="5256.613" Z="3.528494" />
+        <TurnIn QuestName="Cultists Among Us" QuestId="11920" TurnInName="Captain Lefty Lugsail" TurnInId="25298" />
+        <PickUp QuestName="Notify Arlos" QuestId="11791" GiverName="Admiral Cantlebree" GiverId="25299" GiverType="NPC" />
+  	<TurnIn QuestName="Notify Arlos" QuestId="11791" TurnInName="General Arlos" TurnInId="25250" TurnInType="NPC" />
+  	<PickUp QuestName="A Diplomatic Mission" QuestId="12141" GiverName="Counselor Talbot" GiverId="25301" GiverType="NPC" />
+  	<PickUp QuestName="Enemies of the Light" QuestId="11792" GiverName="Harbinger Vurenn" GiverId="25285" GiverType="NPC" />
+  	<TurnIn QuestName="A Soldier in Need" QuestId="11789" TurnInName="Medic Hawthorn" TurnInId="25825" TurnInType="NPC" />
+  	<UseItem QuestName="Death From Above" QuestId="11889" ItemId="35278" X="2190.409" Y="5391.721" Z="0.1632824" />
+	<UseItem QuestName="Death From Above" QuestId="11889" ItemId="35278" X="2190.409" Y="5391.722" Z="0.1632824" />
+	<UseItem QuestName="Death From Above" QuestId="11889" ItemId="35278" X="2190.409" Y="5391.723" Z="0.1632824" />
+	<UseItem QuestName="Death From Above" QuestId="11889" ItemId="35278" X="2190.409" Y="5391.724" Z="0.1632824" />
+	<UseItem QuestName="Death From Above" QuestId="11889" ItemId="35278" X="2190.409" Y="5391.725" Z="0.1632824" />
+	<UseItem QuestName="Death From Above" QuestId="11889" ItemId="35278" X="2190.409" Y="5391.726" Z="0.1632824" />
+	<Objective QuestName="Death From Above" QuestId="11889" Type="KillMob" MobId="25582" MobName="Scourged Flamespitter" KillCount="6" />
+  	<TurnIn QuestName="Death From Above" QuestId="11889" TurnInName="Sergeant Hammerhill" TurnInId="25816" TurnInType="NPC" />
+  	<PickUp QuestName="Plug the Sinkholes" QuestId="11897" GiverName="Sergeant Hammerhill" GiverId="25816" />
+  	<UseItem QuestName="Plug the Sinkholes" QuestId="11897" ItemId="35704" X="2449.31" Y="5453.518" Z="17.64688" />
+  	<UseItem QuestName="Plug the Sinkholes" QuestId="11897" ItemId="35704" X="2119.441" Y="5637.296" Z="30.03662"/>
+  	<TurnIn QuestName="Plug the Sinkholes" QuestId="11897" TurnInName="Sergeant Hammerhill" TurnInId="25816" />
+  	<PickUp QuestName="Farshire" QuestId="11928" GiverName="Sergeant Hammerhill" GiverId="25816" GiverType="NPC" />
+  	<PickUp QuestName="Word on the Street" QuestId="11927" GiverName="Mark Hanes" GiverId="26155" GiverType="NPC" />
+  	<TurnIn QuestName="Word on the Street" QuestId="11927" TurnInName="Leryssa" TurnInId="25251" TurnInType="NPC" />
+  	<PickUp QuestName="Thassarian, My Brother" QuestId="11599" GiverName="Leryssa" GiverId="25251" GiverType="NPC" />
+  	<PickUp QuestName="Distress Call" QuestId="11707" GiverName="Airman Skyhopper" GiverId="25737" GiverType="NPC" />
+  	<TurnIn QuestName="Farshire" QuestId="11928" TurnInName="Gerald Green" TurnInId="26083" TurnInType="NPC" />
+  	<PickUp QuestName="Military? What Military?" QuestId="11901" GiverName="Gerald Green" GiverId="26083" GiverType="NPC" />
+  	<TurnIn QuestName="Military? What Military?" QuestId="11901" TurnInName="Plagued Grain" TurnInId="188085" TurnInType="Object" />
+  	<PickUp QuestName="Pernicious Evidence" QuestId="11902" GiverName="Plagued Grain" GiverId="188085" GiverType="Object" X="2759.969" Y="5295.227" Z="25.5763" />
+  	<TurnIn QuestName="Thassarian, My Brother" QuestId="11599" TurnInName="William Allerton" TurnInId="25385" TurnInType="NPC" />
+  	<PickUp QuestName="The Late William Allerton" QuestId="11600" GiverName="William Allerton" GiverId="25385" GiverType="NPC" />
+  	<TurnIn QuestName="Pernicious Evidence" QuestId="11902" TurnInName="Gerald Green" TurnInId="26083" TurnInType="NPC" />
+  	<PickUp QuestName="It's Time for Action" QuestId="11903" GiverName="Gerald Green" GiverId="26083" GiverType="NPC" />
+  	<PickUp QuestName="Take No Chances" QuestId="11913" GiverName="Wendy Darren" GiverId="26085" />
+  	<PickUp QuestName="Reference Material" QuestId="11908" GiverName="Jeremiah Hawning" GiverId="26084" GiverType="NPC" />
+  	<UseItem QuestName="Take No Chances" QuestId="11913" ItemId="35491" X="2630.161" Y="5348.214" Z="32.87684" /> 
+  	<UseItem QuestName="Take No Chances" QuestId="11913" ItemId="35491" X="2531.843" Y="5371.868" Z="32.86333" /> 
+  	<UseItem QuestName="Take No Chances" QuestId="11913" ItemId="35491" X="2514.88" Y="5363.249" Z="32.86333" />
+  	<UseItem QuestName="Take No Chances" QuestId="11913" ItemId="35491" X="2542.667" Y="5349.253" Z="33.10916" />
+  	<UseItem QuestName="Take No Chances" QuestId="11913" ItemId="35491" X="2581.442" Y="5384.736" Z="32.86376" /> 
+  	<UseItem QuestName="Take No Chances" QuestId="11913" ItemId="35491" X="2606.804" Y="5348.479" Z="32.86314" />
+  	<UseItem QuestName="Take No Chances" QuestId="11913" ItemId="35491" X="2579.879" Y="5337.542" Z="31.01983" />
+  	<UseItem QuestName="Take No Chances" QuestId="11913" ItemId="35491" X="2649.508" Y="5381.658" Z="32.86336" />
+  	<UseItem QuestName="Take No Chances" QuestId="11913" ItemId="35491" X="2506.707" Y="5340.738" Z="33.19893" /> 
+  	<UseItem QuestName="Take No Chances" QuestId="11913" ItemId="35491" X="2531.843" Y="5371.868" Z="32.86333" /> 
+  	<UseItem QuestName="Take No Chances" QuestId="11913" ItemId="35491" X="2514.88" Y="5363.249" Z="32.86333" />
+  	<UseItem QuestName="Take No Chances" QuestId="11913" ItemId="35491" X="2581.844" Y="5366.423" Z="33.07253" />
+  	<UseItem QuestName="Take No Chances" QuestId="11913" ItemId="35491" X="2581.442" Y="5384.736" Z="32.86376" /> 
+  	<UseItem QuestName="Take No Chances" QuestId="11913" ItemId="35491" X="2597.885" Y="5398.882" Z="32.864" />
+  	<UseItem QuestName="Take No Chances" QuestId="11913" ItemId="35491" X="2579.879" Y="5337.542" Z="31.01983" />
+  	<UseItem QuestName="Take No Chances" QuestId="11913" ItemId="35491" X="2591.171" Y="5361.217" Z="33.06713" />
+  	<Objective QuestName="Reference Material" QuestId="11908" Type="CollectItem" ItemId="35481" ItemName="Fields, Factories and Workshops" CollectCount="1" />
+  	<Objective QuestName="It's Time for Action" QuestId="11903" Type="KillMob" MobId="25650" MobName="Plagued Scavenger" KillCount="14" />
+  	<TurnIn QuestName="Take No Chances" QuestId="11913" TurnInName="Wendy Darren" TurnInId="26085" />
+  	<TurnIn QuestName="It's Time for Action" QuestId="11903" TurnInName="Gerald Green" TurnInId="26083" TurnInType="NPC" />
+  	<PickUp QuestName="Fruits of Our Labor" QuestId="11904" GiverName="Gerald Green" GiverId="26083" />
+  	<TurnIn QuestName="Reference Material" QuestId="11908" TurnInName="Jeremiah Hawning" TurnInId="26084" TurnInType="NPC" />
+  	<Objective QuestName="Fruits of Our Labor" QuestId="11904" Type="CollectItem" ItemId="35705" CollectCount="1" />
+  	<Objective QuestName="Fruits of Our Labor" QuestId="11904" Type="UseObject" ObjectId="188104" UseCount="1" />
+  	<Objective QuestName="Enemies of the Light" QuestId="11792" Type="CollectItem" ItemId="35122" ItemName="Cultist Communique" CollectCount="1" />
+  	<TurnIn QuestName="Fruits of Our Labor" QuestId="11904" TurnInName="Gerald Green" TurnInId="26083" />
+  	<PickUp QuestName="One Last Delivery" QuestId="11962" GiverName="Gerald Green" GiverId="26083" GiverType="NPC" />
+  	<TurnIn QuestName="One Last Delivery" QuestId="11962" TurnInName="Hilda Stoneforge" TurnInId="25235" TurnInType="NPC" />
+  	<PickUp QuestName="Weapons for Farshire" QuestId="11963" GiverName="Hilda Stoneforge" GiverId="25235" GiverType="NPC" />
+  	<TurnIn QuestName="Weapons for Farshire" QuestId="11963" TurnInName="Gerald Green" TurnInId="26083" TurnInType="NPC" />
+  	<TurnIn QuestName="The Late William Allerton" QuestId="11600" TurnInName="Leryssa" TurnInId="25251" TurnInType="NPC" />
+  	<PickUp QuestName="Lost and Found" QuestId="11601" GiverName="Leryssa" GiverId="25251" GiverType="NPC" />
+  	<TurnIn QuestName="Lost and Found" QuestId="11601" TurnInName="James Deacon" TurnInId="25245" TurnInType="NPC" />
+  	<PickUp QuestName="In Wine, Truth" QuestId="11603" GiverName="James Deacon" GiverId="25245" GiverType="NPC" />
+  	<Objective QuestName="In Wine, Truth" QuestId="11603" Type="CollectItem" ItemId="34714" ItemName="Kul Tiras Wine" CollectCount="1" />
+  	<TurnIn QuestName="In Wine, Truth" QuestId="11603" TurnInName="Old Man Colburn" TurnInId="25302" TurnInType="NPC" />
+  	<PickUp QuestName="A Deserter" QuestId="11604" GiverName="Old Man Colburn" GiverId="25302" GiverType="NPC" />
+  	<TurnIn QuestName="A Deserter" QuestId="11604" TurnInName="Private Brau" TurnInId="25395" TurnInType="NPC" />
+  	<PickUp QuestName="Cowards and Fools" QuestId="11932" GiverName="Private Brau" GiverId="25395" GiverType="NPC" />
+  	<TurnIn QuestName="Enemies of the Light" QuestId="11792" TurnInName="Harbinger Vurenn" TurnInId="25285" TurnInType="NPC" />
+  	<PickUp QuestName="Further Investigation" QuestId="11793" GiverName="Harbinger Vurenn" GiverId="25285" GiverType="NPC" />
+  	<TurnIn QuestName="Further Investigation" QuestId="11793" TurnInName="Vindicator Yaala" TurnInId="25826" TurnInType="NPC" />
+  	<TurnIn QuestName="A Diplomatic Mission" QuestId="12141" TurnInName="Karuk" TurnInId="25435" TurnInType="NPC" />
+  	<PickUp QuestName="Karuk's Oath" QuestId="11613" GiverName="Karuk" GiverId="25435" GiverType="NPC" />
+  	<Objective QuestName="Karuk's Oath" QuestId="11613" Type="KillMob" MobId="25521" MobName="Skadir Longboatsman" KillCount="5" />
+  	<Objective QuestName="Karuk's Oath" QuestId="11613" Type="KillMob" MobId="25522" MobName="Skadir Raider" KillCount="6" />
+  	<TurnIn QuestName="Karuk's Oath" QuestId="11613" TurnInName="Karuk" TurnInId="25435" TurnInType="NPC" />
+  	<PickUp QuestName="Gamel the Cruel" QuestId="11619" GiverName="Karuk" GiverId="25435" GiverType="NPC" />
+  	<Objective QuestName="Gamel the Cruel" QuestId="11619" Type="KillMob" MobId="26449" MobName="Gamel the Cruel" KillCount="1" />
+  	<TurnIn QuestName="Gamel the Cruel" QuestId="11619" TurnInName="Karuk" TurnInId="25435" TurnInType="NPC" />
+  	<PickUp QuestName="A Father's Words" QuestId="11620" GiverName="Karuk" GiverId="25435" GiverType="NPC" />
+  	<TurnIn QuestName="A Father's Words" QuestId="11620" TurnInName="Veehja" TurnInId="25450" TurnInType="NPC" />
+  	<PickUp QuestName="The Trident of Naz'jan" QuestId="11625" GivermName="Veehja" GiverId="25450" GiverType="NPC" />
+  	<Objective QuestName="The Trident of Naz'jan" QuestId="11625" Type="CollectItem" ItemId="35774" ItemName="Trident of Naz'jan" CollectCount="1" />
+  	<TurnIn QuestName="The Trident of Naz'jan" QuestId="11625" TurnInName="Veehja" TurnInId="25450" TurnInType="NPC" />
+  	<PickUp QuestName="Reclaiming the Quarry" QuestId="11612" GiverName="Etaruk" GiverId="25292" GiverType="NPC" />
+  	<Objective QuestName="Reclaiming the Quarry" QuestId="11612" Type="KillMob" MobId="25353" KillCount="12" />
+  	<TurnIn QuestName="Reclaiming the Quarry" QuestId="11612" TurnInName="Etaruk" TurnInId="25292" />
+  	<PickUp QuestName="Hampering Their Escape" QuestId="11617" GiverName="Etaruk" GiverId="25292" GiverType="NPC" />
+  	<Objective QuestName="Hampering Their Escape" QuestId="11617" Type="CollectItem" ItemId="34772" ItemName="Gnomish Grenade" CollectCount="3"  />
+  	<UseItem QuestName="Hampering Their Escape" QuestId="11617" ItemId="34772" X="3540.917" Y="5549.901" Z="65.20853" />
+  	<UseItem QuestName="Hampering Their Escape" QuestId="11617" ItemId="34772" X="3584.252" Y="5674.715" Z="66.55325"  />
+  	<UseItem QuestName="Hampering Their Escape" QuestId="11617" ItemId="34772" X="3671.428" Y="5553.83" Z="36.04424"  />
+  	<TurnIn QuestName="Hampering Their Escape" QuestId="11617" TurnInName="Etaruk" TurnInId="25292" TurnInType="NPC" />
+  	<PickUp QuestName="Ears of Our Enemies" QuestId="11866" GiverName="Arch Druid Lathorius" GiverId="25809" GiverType="NPC" />
+  	<PickUp QuestName="Happy as a Clam" QuestId="11869" GiverName="Hierophant Cenius" GiverId="25810" GiverType="NPC" />
+  	<PickUp QuestName="Unfit for Death" QuestId="11865" GiverName="Zaza" GiverId="25811" GiverType="NPC" />
+  	<UseItem QuestName="Unfit for Death" QuestId="11865" ItemId="35127" X="3078.783" Y="5340.487" Z="58.12449" />
+  	<UseItem QuestName="Unfit for Death" QuestId="11865" ItemId="35127" X="3084.69" Y="5285.571" Z="59.72563" />
+  	<UseItem QuestName="Unfit for Death" QuestId="11865" ItemId="35127" X="3116.929" Y="5249.898" Z="60.59465" />
+  	<UseItem QuestName="Unfit for Death" QuestId="11865" ItemId="35127" X="3062.281" Y="5237.495" Z="65.03194" />
+  	<UseItem QuestName="Unfit for Death" QuestId="11865" ItemId="35127" X="3031.003" Y="5270.857" Z="61.49407" />
+  	<UseItem QuestName="Unfit for Death" QuestId="11865" ItemId="35127" X="2975.476" Y="5288.088" Z="61.51498" />
+  	<UseItem QuestName="Unfit for Death" QuestId="11865" ItemId="35127" X="2950.815" Y="5246.208" Z="60.9285" />
+  	<UseItem QuestName="Unfit for Death" QuestId="11865" ItemId="35127" X="2893.797" Y="5260.6" Z="60.19304" />
+  	<UseItem QuestName="Unfit for Death" QuestId="11865" ItemId="35127" X="3078.783" Y="5340.487" Z="58.12449" />
+  	<UseItem QuestName="Unfit for Death" QuestId="11865" ItemId="35127" X="3084.69" Y="5285.571" Z="59.72563" />
+  	<UseItem QuestName="Unfit for Death" QuestId="11865" ItemId="35127" X="3116.929" Y="5249.898" Z="60.59465" />
+  	<UseItem QuestName="Unfit for Death" QuestId="11865" ItemId="35127" X="3062.281" Y="5237.495" Z="65.03194" />
+  	<UseItem QuestName="Unfit for Death" QuestId="11865" ItemId="35127" X="3031.003" Y="5270.857" Z="61.49407" />
+  	<UseItem QuestName="Unfit for Death" QuestId="11865" ItemId="35127" X="2975.476" Y="5288.088" Z="61.51498" />
+  	<UseItem QuestName="Unfit for Death" QuestId="11865" ItemId="35127" X="2950.815" Y="5246.208" Z="60.9285" />
+  	<UseItem QuestName="Unfit for Death" QuestId="11865" ItemId="35127" X="2893.797" Y="5260.6" Z="60.19304" />
+  	<Objective QuestName="Happy as a Clam" QuestId="11869" Type="KillMob" MobId="25836" MobName="Loot Crazed Diver" KillCount="10" />
+  	<Objective QuestName="Ears of Our Enemies" QuestId="11866" Type="CollectItem" ItemId="35188" ItemName="Nesingwary Lackey Ear" CollectCount="15" />
+ 	<TurnIn QuestName="Unfit for Death" QuestId="11865" TurnInName="Zaza" TurnInId="25811" TurnInType="NPC" />
+  	<TurnIn QuestName="Happy as a Clam" QuestId="11869" TurnInName="Hierophant Cenius" TurnInId="25810" TurnInType="NPC" />
+  	<PickUp QuestName="The Abandoned Reach" QuestId="11870" GiverName="Hierophant Cenius" GiverId="25810" GiverType="NPC" />
+  	<TurnIn QuestName="The Abandoned Reach" QuestId="11870" TurnInName="Hierophant Liandra" TurnInId="25838" TurnInType="NPC" />
+  	<PickUp QuestName="Not On Our Watch" QuestId="11871" GiverName="Hierophant Liandra" GiverId="25838" GiverType="NPC" />
+  	<Objective QuestName="Not On Our Watch" QuestId="11871" Type="CollectItem" ItemId="35222" ItemName="Shipment of Animal Parts" CollectCount="12" />
+  	<TurnIn QuestName="Not On Our Watch" QuestId="11871" TurnInName="Hierophant Liandra" TurnInId="25838" TurnInType="NPC" />
+  	<PickUp QuestName="The Nefarious Clam Master..." QuestId="11872" GiverName="Hierophant Liandra" GiverId="25838" GiverType="NPC" />
+  	<Objective QuestName="The Nefarious Clam Master..." QuestId="11872" Type="KillMob" MobId="25800" MobName="Clam Master K" KillCount="1" />
+  	<TurnIn QuestName="The Nefarious Clam Master..." QuestId="11872" TurnInName="Hierophant Cenius" TurnInId="25810" TurnInType="NPC" />
+  	<TurnIn QuestName="Ears of Our Enemies" QuestId="11866" TurnInName="Arch Druid Lathorius" TurnInId="25809" TurnInType="NPC" />
+  	<TurnIn QuestName="Distress Call" QuestId="11707" TurnInName="Fizzcrank Fullthrottle" TurnInId="25590" />
+	<PickUp QuestName="King Mrgl-Mrgl" QuestId="11704" GiverName="Mordle Cogspinner" GiverId="25702" />
+  	<TurnIn QuestName="King Mrgl-Mrgl" QuestId="11704" TurnInName="King Mrgl-Mrgl" TurnInId="25197" />
+  	<PickUp QuestName="What's the Matter with the Transmatter?" QuestId="11710" GiverName="Mordle Cogspinner" GiverId="25702" />
+  	<Objective QuestName="What's the Matter with the Transmatter?" QuestId="11710" Type="CollectItem" ItemId="34972" CollectCount="15" />
+  	<TurnIn QuestName="What's the Matter with the Transmatter?" QuestId="11710" TurnInName="Mordle Cogspinner" TurnInId="25702" />
+  	<PickUp QuestName="Dirty, Stinkin' Snobolds!" QuestId="11645" GiverName="Crafty Wobblesprocket" GiverId="25477" />
+  	<Objective QuestName="Dirty, Stinkin' Snobolds!" QuestId="11645" Type="CollectItem" ItemId="34787" CollectCount="10" />
+  	<TurnIn QuestName="Dirty, Stinkin' Snobolds!" QuestId="11645" TurnInName="Crafty Wobblesprocket" TurnInId="25477" />
+  	<PickUp QuestName="Finding the Phylactery" QuestId="11956" GiverName="Thassarian" GiverId="26170" X="3295.889" Y="3682.7" Z="32.4682"/>
+	<Objective QuestName="Finding the Phylactery" QuestId="11956" Type="CollectItem" ItemId="35687" CollectCount="1" />
+	<TurnIn QuestName="Finding the Phylactery" QuestId="11956" TurnInName="Thassarian" TurnInId="26170" X="3295.889" Y="3682.7" Z="32.4682"/>
+	<PickUp QuestName="Buying Some Time" QuestId="11938" GiverName="Thassarian" GiverId="26170" X="3295.889" Y="3682.7" Z="32.4682"/>
+	<Objective QuestName="Buying Some Time" QuestId="11938" Type="KillMob" MobId="26195" KillCount="20" />
+	<Objective QuestName="Buying Some Time" QuestId="11938" Type="CollectItem" ItemId="35944" CollectCount="1" />
+	<TurnIn QuestName="Buying Some Time" QuestId="11938" TurnInName="Thassarian" TurnInId="26170" X="3295.889" Y="3682.7" Z="32.4682"/>
+	<PickUp QuestName="Words of Power" QuestId="11942" GiverName="Thassarian" GiverId="26170" X="3295.889" Y="3682.7" Z="32.4682"/>
+  	<Objective QuestName="Words of Power" QuestId="11942" Type="CollectItem" ItemId="35355" CollectCount="1" />
+  	<Objective QuestName="Words of Power" QuestId="11942" Type="CollectItem" ItemId="35353" CollectCount="1" />
+  	<Objective QuestName="Words of Power" QuestId="11942" Type="CollectItem" ItemId="35354" CollectCount="1" />
+  	<TurnIn QuestName="Words of Power" QuestId="11942" TurnInName="Thassarian" TurnInId="26170" X="3295.889" Y="3682.7" Z="32.4682"/>
+   	<PickUp QuestName="Check in With Bixie" QuestId="11692" GiverName="Mordle Cogspinner" GiverId="25702" GiverType="NPC" />
+  	<TurnIn QuestName="Check in With Bixie" QuestId="11692" TurnInName="Bixie Wrenchshanker" TurnInId="25705" TurnInType="NPC" />
+  	<PickUp QuestName="Oh Great... Plagued Magnataur!" QuestId="11693" GiverName="Bixie Wrenchshanker" GiverId="25705" GiverType="NPC" />
+  	<Objective QuestName="Oh Great... Plagued Magnataur!" QuestId="11693" Type="KillMob" MobId="25615" MobName="Plagued Magnataur" KillCount="10" />
+  	<TurnIn QuestName="Oh Great... Plagued Magnataur!" QuestId="11693" TurnInName="Bixie Wrenchshanker" TurnInId="25705" TurnInType="NPC" />
+  	<PickUp QuestName="There's Something Going On In Those Caves" QuestId="11694" GiverName="Bixie Wrenchshanker" GiverId="25705" />
+  	<UseItem QuestName="There's Something Going On In Those Caves" QuestId="11694" ItemId="34915" ItemName="Bixie's Inhibiting Powder" X="4354.891" Y="4263.395" Z="98.40501" />
+  	<TurnIn QuestName="There's Something Going On In Those Caves" QuestId="11694" TurnInName="Bixie Wrenchshanker" TurnInId="25705" />
+  	<PickUp QuestName="Rats, Tinky Went into the Necropolis!" QuestId="11697" GiverName="Bixie Wrenchshanker" GiverId="25705" GiverType="NPC" />
+  	<PickUp QuestName="Might As Well Wipe Out the Scourge" QuestId="11698" GiverName="Bixie Wrenchshanker" GiverId="25705" />
+  	<Objective QuestName="Might As Well Wipe Out the Scourge" QuestId="11698" Type="KillMob" MobId="25660" KillCount="20" />
+  	<TurnIn QuestName="Rats, Tinky Went into the Necropolis!" QuestId="11697" TurnInName="Tinky Wickwhistle" TurnInId="25714" TurnInType="NPC" />
+  	<PickUp QuestName="I'm Stuck in this Damned Cage... But Not For Long!" QuestId="11699" GiverName="Tinky Wickwhistle" GiverId="25714" />
+  	<Objective QuestName="I'm Stuck in this Damned Cage... But Not For Long!" QuestId="11699" Type="CollectItem" ItemId="34957" CollectCount="1" />
+  	<Objective QuestName="I'm Stuck in this Damned Cage... But Not For Long!" QuestId="11699" Type="CollectItem" ItemId="34958" CollectCount="1" />
+  	<Objective QuestName="I'm Stuck in this Damned Cage... But Not For Long!" QuestId="11699" Type="CollectItem" ItemId="34959" CollectCount="1" />
+  	<TurnIn QuestName="I'm Stuck in this Damned Cage... But Not For Long!" QuestId="11699" TurnInName="Tinky Wickwhistle" TurnInId="25714" />
+  	<PickUp QuestName="Let Bixie Know" QuestId="11700" GiverName="Tinky Wickwhistle" GiverId="25714" GiverType="NPC" />
+  	<TurnIn QuestName="Might As Well Wipe Out the Scourge" QuestId="11698" TurnInName="Bixie Wrenchshanker" TurnInId="25705" />
+  	<TurnIn QuestName="Let Bixie Know" QuestId="11700" TurnInName="Bixie Wrenchshanker" TurnInId="25705" TurnInType="NPC" />
+  	<PickUp QuestName="Back to the Airstrip" QuestId="11701" GiverName="Bixie Wrenchshanker" GiverId="25705" GiverType="NPC" />
+  	<TurnIn QuestName="Back to the Airstrip" QuestId="11701" TurnInName="Fizzcrank Fullthrottle" TurnInId="25590" TurnInType="NPC" />
+  	<TurnIn QuestName="Cowards and Fools" QuestId="11932" TurnInName="Ataika" TurnInId="26169" />
+        <PickUp QuestName="The Son of Karkut" QuestId="12086" GiverName="Ataika" GiverId="26169" />
+        <PickUp QuestName="Not Without a Fight!" QuestId="11949" GiverName="Ataika" GiverId="26169" />
+	<TurnIn QuestName="The Son of Karkut" QuestId="12086" TurnInName="Corporal Venn" TurnInId="26187" />
+        <Objective QuestName="Not Without a Fight!" QuestId="11949" Type="KillMob" MobId="25760" KillCount="12" />
+	<TurnIn QuestName="Not Without a Fight!" QuestId="11949" TurnInName="Ataika" TurnInId="26169" />
+	<PickUp QuestName="Surrounded!" QuestId="11944" GiverName="Corporal Venn" GiverId="26187" />
+	<Objective QuestName="Surrounded!" QuestId="11944" Type="KillMob" MobId="26202" KillCount="7" />
+	<TurnIn QuestName="Surrounded!" QuestId="11944" TurnInName="Corporal Venn" TurnInId="26187" />
+	<PickUp QuestName="The Lost Courier" QuestId="12157" GiverName="Private Casey" GiverId="26186" />
+
+
+        <SetGrindArea>
+  	<GrindArea>
+  	<Hotspots>
+  	<Hotspot X="3418.023" Y="4634.113" Z="24.85472" />
+  	<Hotspot X="3365.545" Y="4701.173" Z="29.85485" />
+  	<Hotspot X="3327.882" Y="4773.12" Z="32.08756" />
+  	<Hotspot X="3307.033" Y="4845.331" Z="28.69606" />
+  	<Hotspot X="3263.794" Y="4874.466" Z="31.117" />
+  	<Hotspot X="3243.586" Y="4817.167" Z="29.83127" />
+  	<Hotspot X="3246.169" Y="4747.178" Z="32.02566" />
+  	<Hotspot X="3252.707" Y="4675.334" Z="31.62525" />
+  	<Hotspot X="3240.135" Y="4624.782" Z="31.48522" />
+  	<Hotspot X="3204.129" Y="4520.634" Z="25.85188" />
+  	<Hotspot X="3184.182" Y="4452.093" Z="27.64801" />
+  	<Hotspot X="3138.029" Y="4414.087" Z="27.63865" />
+  	<Hotspot X="3141.562" Y="4368.542" Z="27.83609" />
+  	<Hotspot X="3214.621" Y="4288.834" Z="24.96799" />
+  	<Hotspot X="3255.629" Y="4354.805" Z="26.43528" />
+  	<Hotspot X="3226.382" Y="4435.579" Z="28.9236" />
+  	<Hotspot X="3312.508" Y="4652.259" Z="31.18153" />
+  	<Hotspot X="3317.254" Y="4840.901" Z="28.58386" />
+  	</Hotspots>
+  	</GrindArea>
+  	</SetGrindArea>
+  	<GrindTo Level="71" />
+	<!--Howling Fjord-->
+	<Checkpoint Level="71"/>
+	<PickUp QuestName="Hell Has Frozen Over..." QuestId="11228" GiverName="Macalroy" GiverId="23547" />
+	<TurnIn QuestName="Hell Has Frozen Over..." QuestId="11228" TurnInName="Vice Admiral Keller" TurnInId="23546" />
+	<PickUp QuestName="If Valgarde Falls..." QuestId="11243" GiverName="Vice Admiral Keller" GiverId="23546" />
+	<Objective QuestName="If Valgarde Falls..." QuestId="11243" Type="KillMob" MobId="24051" KillCount="12" />
+	<TurnIn QuestName="If Valgarde Falls..." QuestId="11243" TurnInName="Vice Admiral Keller" TurnInId="23546" />
+	<PickUp QuestName="Rescuing the Rescuers" QuestId="11244" GiverName="Vice Admiral Keller" GiverId="23546" />
+	<Objective QuestName="Rescuing the Rescuers" QuestId="11244" Type="UseObject" ObjectId="186565" UseCount="8" />
+	<TurnIn QuestName="Rescuing the Rescuers" QuestId="11244" TurnInName="Vice Admiral Keller" TurnInId="23546" />
+	<PickUp QuestName="The Human League" QuestId="11273" GiverName="Beltrand McSorf" GiverId="23548" />
+	<TurnIn QuestName="The Human League" QuestId="11273" TurnInName="Pulroy the Archaeologist" TurnInId="24122" />
+	<PickUp QuestName="Zedd's Probably Dead" QuestId="11274" GiverName="Pulroy the Archaeologist" GiverId="24122" />
+	<TurnIn QuestName="Zedd's Probably Dead" QuestId="11274" TurnInName="Zedd" TurnInId="24145" />
+	<PickUp QuestName="And Then There Were Two..." QuestId="11276" GiverName="Zedd" GiverId="24145" />
+	<TurnIn QuestName="And Then There Were Two..." QuestId="11276" TurnInName="Glorenfeld" TurnInId="24150"  X="949.6965" Y="-4840.253" Z="-69.63878" />
+	<PickUp QuestName="The Depths of Depravity" QuestId="11277" GiverName="Glorenfeld" GiverId="24150" X="949.6965" Y="-4840.253" Z="-69.63878"  />
+	<Objective QuestName="The Depths of Depravity" QuestId="11277" Type="CollectItem" ItemId="33355" CollectCount="10" />
+	<TurnIn QuestName="The Depths of Depravity" QuestId="11277" TurnInName="Glorenfeld" TurnInId="24150" X="949.6965" Y="-4840.253" Z="-69.63878" />	
+	<PickUp QuestName="Fresh Legs" QuestId="11251" GiverName="Scout Valory" GiverId="24106" />
+	<TurnIn QuestName="Fresh Legs" QuestId="11251" TurnInName="Defender Mordun" TurnInId="24111" />
+	<PickUp QuestName="Tools to Get the Job Done" QuestId="11475" GiverName="Walt" GiverId="24807" />
+	<PickUp QuestName="Out of My Element?" QuestId="11477" GiverName="Donny" GiverId="24811" />
+	<Objective QuestName="Tools to Get the Job Done" QuestId="11475" Type="CollectItem" ItemId="34131" CollectCount="1" />
+	<Objective QuestName="Out of My Element?" QuestId="11477" Type="KillMob" MobId="23676" KillCount="10" />
+	<Objective QuestName="Out of My Element?" QuestId="11477" Type="KillMob" MobId="23711" KillCount="5" />
+	<Objective QuestName="Out of My Element?" QuestId="11477" Type="KillMob" MobId="23674" KillCount="2" />
+	<TurnIn QuestName="Out of My Element?" QuestId="11477" TurnInName="Donney" TurnInId="24811" />
+	<TurnIn QuestName="Tools to Get the Job Done" QuestId="11475" TurnInName="Walt" TurnInId="24807" />
+	<PickUp QuestName="We Have the Technology" QuestId="11484" GiverName="Walt" GiverId="24807" />
+	<PickUp QuestName="We Can Rebuild It" QuestId="11483" GiverName="Walt" GiverId="24807" />
+	<Objective QuestName="We Have the Technology" QuestId="11484" Type="CollectItem" ItemId="34136" CollectCount="1" />
+	<Objective QuestName="We Have the Technology" QuestId="11484" Type="CollectItem" ItemId="34137" CollectCount="1" />
+	<!--Need to Get Dark Ingots Of Vendor Profile has coord in but will not talk to vendor and fly back-->
+	<Objective QuestName="We Can Rebuild It" QuestId="11483" Type="CollectItem" ItemId="34133" CollectCount="1" />
+	<Objective QuestName="We Can Rebuild It" QuestId="11483" Type="CollectItem" ItemId="34134" CollectCount="1" />
+	<Objective QuestName="We Can Rebuild It" QuestId="11483" Type="CollectItem" ItemId="34135" CollectCount="1" CollectFrom="24040" />
+	<TurnIn QuestName="We Can Rebuild It" QuestId="11483" TurnInName="Walt" TurnInId="24807" />
+	<TurnIn QuestName="We Have the Technology" QuestId="11484" TurnInName="Walt" TurnInId="24807" />
+	<PickUp QuestName="One Size Does Not Fit All" QuestId="11190" GiverName="Cannoneer Ely" GiverId="23770" />
+	<PickUp QuestName="The Clutches of Evil" QuestId="11157" GiverName="Captain Adams" GiverId="23749" />
+	<PickUp QuestName="Shoveltusk Soup Again?" QuestId="11155" GiverName="Chef Kettleblack" GiverId="23773" />
+	<Objective QuestName="One Size Does Not Fit All" QuestId="11190" Type="CollectItem" ItemId="33123" CollectCount="10" />
+	<Objective QuestName="Shoveltusk Soup Again?" QuestId="11155" Type="CollectItem" ItemId="33120" CollectCount="6" />
+	<Objective QuestName="The Clutches of Evil" QuestId="11157" Type="KillMob" MobId="23777" KillCount="15" />
+	<Objective QuestName="The Clutches of Evil" QuestId="11157" Type="KillMob" MobId="23688" KillCount="15" />
+	<TurnIn QuestName="Shoveltusk Soup Again?" QuestId="11155" TurnInName="Chef Kettleblack" TurnInId="23773" />
+	<TurnIn QuestName="One Size Does Not Fit All" QuestId="11190" TurnInName="Cannoneer Ely" TurnInId="23770" />
+	<TurnIn QuestName="The Clutches of Evil" QuestId="11157" TurnInName="Captain Adams" TurnInId="23749" />
+	<PickUp QuestName="Mage-Lieutenant Malister" QuestId="11187" GiverName="Captain Adams" GiverId="23749" />
+	<TurnIn QuestName="Mage-Lieutenant Malister" QuestId="11187" TurnInName="Mage-Lieutenant Malister" TurnInId="23888" />
+	<PickUp QuestName="Root Cause" QuestId="11182" GiverName="Ember Clutch Ancient" GiverId="23870" />
+	<Objective QuestName="Root Cause" QuestId="11182" Type="KillMob" MobId="23871" KillCount="5" />
+	<Objective QuestName="Root Cause" QuestId="11182" Type="KillMob" MobId="23940" KillCount="1" />
+	<TurnIn QuestName="Root Cause" QuestId="11182" TurnInName="Ember Clutch Ancient" TurnInId="23870" />
+	<PickUp QuestName="Orfus of Kamagua" QuestId="11573" GiverName="Lunk-tusk" GiverId="25233" />
+	<TurnIn QuestName="Orfus of Kamagua" QuestId="11573" TurnInName="Orfus of Kamagua" TurnInId="23804" />
+	<PickUp QuestName="The Dead Rise!" QuestId="11504" GiverName="Orfus of Kamagua" GiverId="23804" />
+	<Objective QuestName="The Dead Rise!" QuestId="11504" Type="CollectItem" ItemId="34222" CollectCount="1" />
+	<Objective QuestName="The Dead Rise!" QuestId="11504" Type="CollectItem" ItemId="34223" CollectCount="1" />
+	<Objective QuestName="The Dead Rise!" QuestId="11504" Type="CollectItem" ItemId="34224" CollectCount="1" />
+	<Objective QuestName="The Dead Rise!" QuestId="11504" Type="CollectItem" ItemId="34225" CollectCount="1" />
+	<TurnIn QuestName="The Dead Rise!" QuestId="11504" TurnInName="Orfus of Kamagua" TurnInId="23804" />
+	<PickUp QuestName="Elder Atuik and Kamagua" QuestId="11507" GiverName="Orfus of Kamagua" GiverId="23804" />
+	<Objective QuestName="Elder Atuik and Kamagua" QuestId="11507" Type="CollectItem" ItemId="34226" CollectCount="1" />
+	<TurnIn QuestName="Elder Atuik and Kamagua" QuestId="11507" TurnInName="Elder Atuik" TurnInId="24755" />
+	<PickUp QuestName="Grezzix Spindlesnap" QuestId="11508" GiverName="Elder Atuik" GiverId="24755" />
+	<PickUp QuestName="Feeding the Survivors" QuestId="11456" GiverName="Elder Atuik" GiverId="24755" />
+	<Objective QuestName="Feeding the Survivors" QuestId="11456" Type="CollectItem" ItemId="36776" CollectCount="6" />
+	<TurnIn QuestName="Feeding the Survivors" QuestId="11456" TurnInName="Elder Atuik" TurnInId="24755" />
+	<PickUp QuestName="Arming Kamagua" QuestId="11457" GiverName="Elder Atuik" GiverId="24755" />
+	<Objective QuestName="Arming Kamagua" QuestId="11457" Type="CollectItem" ItemId="34101" CollectCount="6" />
+	<TurnIn QuestName="Arming Kamagua" QuestId="11457" TurnInName="Elder Atuik" TurnInId="24755" />
+	<PickUp QuestName="Avenge Iskaal" QuestId="11458" GiverName="Ember Elder Atuik" GiverId="24755" />
+	<TurnIn QuestName="Grezzix Spindlesnap" QuestId="11508" TurnInName="Grezzix Spindlesnap" TurnInId="24643" X="590.6047" Y="-2793.394" Z="0.1701273" />
+	<Objective QuestName="Avenge Iskaal" QuestId="11458" Type="KillMob" MobId="24676" KillCount="8" />
+	<TurnIn QuestName="Avenge Iskaal" QuestId="11458" TurnInName="Ember Elder Atuik" TurnInId="24755" />
+	<PickUp QuestName="Street Cred" QuestId="11509" GiverName="Grezzix Spindlesnap" GiverId="24643" X="590.6047" Y="-2793.394" Z="0.1701273"/>
+	<TurnIn QuestName="Street Cred" QuestId="11509" TurnInName="Silvermoon Harry" TurnInId="24539" />
+	<PickUp QuestName="Scoodles" QuestId="11510" GiverName="Silvermoon Harry" GiverId="24539" />
+	<Objective QuestName="Scoodles" QuestId="11510" Type="CollectItem" ItemId="34235" CollectCount="1" />
+	<TurnIn QuestName="Scoodles" QuestId="11510" TurnInName="Silvermoon Harry" TurnInId="24539" />
+	<PickUp QuestName="Swabbin' Soap" QuestId="11469" GiverName="Scuttle Frostprow" GiverId="24784" />
+	<Objective QuestName="Swabbin' Soap" QuestId="11469" Type="CollectItem" ItemId="34122" CollectCount="1" />
+	<TurnIn QuestName="Swabbin' Soap" QuestId="11469" TurnInName="Scuttle Frostprow" TurnInId="24784" />
+	<PickUp QuestName="See to the Operations" QuestId="11176" GiverName="Overseer Irena Stonemantle" GiverId="23891" />
+	<PickUp QuestName="Where is Explorer Jaren?" QuestId="11393" GiverName="Overseer Irena Stonemantle" GiverId="23891" />
+	<TurnIn QuestName="Where is Explorer Jaren?" QuestId="11393" TurnInName="Explorer Jaren" TurnInId="23833" />
+	<TurnIn QuestName="See to the Operations" QuestId="11176" TurnInName="Steel Gate Chief Archaeologist" TurnInId="24399" />
+	<PickUp QuestName="And You Thought Murlocs Smelled Bad!" QuestId="11394" GiverName="Explorer Jaren" GiverId="23833" />
+	<Objective QuestName="And You Thought Murlocs Smelled Bad!" QuestId="11394" Type="KillMob" MobId="23645" KillCount="15" />
+	<TurnIn QuestName="And You Thought Murlocs Smelled Bad!" QuestId="11394" TurnInName="Explorer Jaren" TurnInId="23833" />
+        <SetGrindArea>
+      	<GrindArea>
+	<TargetMinLevel>68</TargetMinLevel>
+    	<TargetMaxLevel>71</TargetMaxLevel>
+    	<Factions></Factions>
+    	<Hotspots>
+      	<Hotspot X="301.7261" Y="-3239.557" Z="15.06243" />
+	<Hotspot X="605.3627" Y="-3270.208" Z="26.50757" />
+	<Hotspot X="881.2144" Y="-3146.538" Z="30.36376" />
+	<Hotspot X="688.7117" Y="-3027.352" Z="25.67243" />
+    	</Hotspots>
+	</GrindArea>
+    	</SetGrindArea>
+    	<GrindTo Level="72" />
+<!--DragonBlight-->
+<Checkpoint Level="72" />
+<TurnIn QuestName="The Lost Courier" QuestId="12157" TurnInName="Courier Lanson" TurnInId="27060" />
+<PickUp QuestName="Flight of the Wintergarde Defender" QuestId="12237" GiverName="Gryphon Commander Urik" GiverId="27317" />
+<TurnIn QuestName="Flight of the Wintergarde Defender" QuestId="12237" TurnInName="Gryphon Commander Urik" TurnInId="27317" />
+<PickUp QuestName="Return to the High Commander" QuestId="12251" GiverName="Gryphon Commander Urik" GiverId="27317" />
+<TurnIn QuestName="Return to the High Commander" QuestId="12251" TurnInName="High Commander Halford Wyrmbane" TurnInId="27136" />
+<PickUp QuestName="The Fate of the Dead" QuestId="12258" GiverName="Commander Lynore Windstryke" GiverId="27155" />
+<Objective QuestName="The Fate of the Dead" QuestId="12258" Type="KillMob" MobId="27370" KillCount="15" />
+<TurnIn QuestName="The Fate of the Dead" QuestId="12258" TurnInName="Commander Lynore Windstryke" TurnInId="27155" />
+<PickUp QuestName="The Demo-gnome" QuestId="12275" GiverName="High Commander Halford Wyrmbane" GiverId="27136" />
+<TurnIn QuestName="The Demo-gnome" QuestId="12275" TurnInName="Siege Engineer Quarterflash" TurnInId="27159" />
+<PickUp QuestName="Rescue from Town Square" QuestId="12253" GiverName="High Commander Halford Wyrmbane" GiverId="27136" />
+<Objective QuestName="Rescue from Town Square" QuestId="12253" Type="KillMob" MobId="27359" KillCount="6" />
+<TurnIn QuestName="Rescue from Town Square" QuestId="12253" TurnInName="High Commander Halford Wyrmbane" TurnInId="27136" />
+<PickUp QuestName="Not In Our Mine" QuestId="12269" GiverName="Highlord Leoric Von Zeldig" GiverId="27156" />
+<PickUp QuestName="The Search for Slinkin" QuestId="12276" GiverName="Siege Engineer Quarterflash" GiverId="27159" />
+<PickUp QuestName="The Bleeding Ore" QuestId="12272" GiverName="Siege Engineer Quarterflash" GiverId="27159" />
+<PickUp QuestName="Find Durkon!" QuestId="12309" GiverName="High Commander Halford Wyrmbane" GiverId="27136" />
+<Objective QuestName="The Bleeding Ore" QuestId="12272" Type="CollectItem" ItemId="37359" CollectCount="10" />
+<Objective QuestName="Not In Our Mine" QuestId="12269" Type="CollectItem" ItemId="37411" CollectCount="10" />
+<Objective QuestName="The Search for Slinkin" QuestId="12276" Type="CollectItem" ItemId="37459" CollectCount="1" />
+<TurnIn QuestName="The Search for Slinkin" QuestId="12276" TurnInName="Slinkin the Demo-gnome" TurnInId="27412" />
+<TurnIn QuestName="Not In Our Mine" QuestId="12269" TurnInName="Highlord Leoric Von Zeldig" TurnInId="27156" />
+<TurnIn QuestName="The Bleeding Ore" QuestId="12272" TurnInName="Siege Engineer Quarterflash" TurnInId="27159" />
+<TurnIn QuestName="Find Durkon!" QuestId="12309" TurnInName="Cavalier Durkon" TurnInId="27318" />
+<PickUp QuestName="The Noble's Crypt" QuestId="12311" GiverName="Cavalier Durkon" GiverId="27318" />
+<Objective QuestName="The Noble's Crypt" QuestId="12311" Type="KillMob" MobId="27508" KillCount="1" />
+<PickUp QuestName="Secrets of the Scourge" QuestId="12312" GiverName="Flesh-bound Tome" GiverId="189311" GiverType="Object" X="3619.799" Y="-782.4285" Z="148.0112"/>
+<Objective QuestName="Secrets of the Scourge" QuestId="12312" Type="CollectItem" ItemId="37601" CollectCount="1" />
+<TurnIn QuestName="The Noble's Crypt" QuestId="12311" TurnInName="Cavalier Durkon" TurnInId="27318" />
+<PickUp QuestName="Mystery of the Tome" QuestId="12319" GiverName="Cavalier Durkon" GiverId="27318" />
+<Objective QuestName="Mystery of the Tome" QuestId="12319" Type="CollectItem" ItemId="37607" CollectCount="1" />
+<TurnIn QuestName="Mystery of the Tome" QuestId="12319" TurnInName="High Commander Halford Wyrmbane" TurnInId="27136" />
+<PickUp QuestName="Understanding the Language of Death" QuestId="12320" GiverName="High Commander Halford Wyrmbane" GiverId="27136" />
+<Objective QuestName="Understanding the Language of Death" QuestId="12320" Type="CollectItem" ItemId="37607" CollectCount="1" />
+<TurnIn QuestName="Understanding the Language of Death" QuestId="12320" TurnInName="Inquisitor Hallard" TurnInId="27316" />
+<PickUp QuestName="A Righteous Sermon" QuestId="12321" GiverName="Inquisitor Hallard" GiverId="27316" />
+<!-- TurnBot Off till speak finished -->
+<TurnIn QuestName="A Righteous Sermon" QuestId="12321" TurnInName="High Commander Halford Wyrmbane" TurnInId="27136" />
+<TurnIn QuestName="Secrets of the Scourge" QuestId="12312" TurnInName="Cavalier Durkon" TurnInId="27318" />
+<PickUp QuestName="A Disturbance In The West" QuestId="12439" GiverName="Vas the Unstable" GiverId="27158" />
+<TurnIn QuestName="A Disturbance In The West" QuestId="12439" TurnInName="Rodney Wells" TurnInId="26878" />
+<PickUp QuestName="To Stars' Rest!" QuestId="12440" GiverName="Rodney Wells" GiverId="26878" />
+<TurnIn QuestName="To Stars' Rest!" QuestId="12440" TurnInName="Image of Archmage Modera" TurnInId="26673" />
+<PickUp QuestName="Rifle the Bodies" QuestId="12000" GiverName="Image of Archmage Modera" GiverId="26673" />
+<Objective QuestName="Rifle the Bodies" QuestId="12000" Type="CollectItem" ItemId="35783" CollectCount="1" CollectFrom="26477" />
+<TurnIn QuestName="Rifle the Bodies" QuestId="12000" TurnInName="Image of Archmage Modera" TurnInId="26673" />
+<PickUp QuestName="Prevent the Accord" QuestId="12004" GiverName="Image of Archmage Modera" GiverId="26673" />
+<Objective QuestName="Prevent the Accord" QuestId="12004" Type="CollectItem" ItemId="35800" CollectCount="1" />
+<Objective QuestName="Prevent the Accord" QuestId="12004" Type="CollectItem" ItemId="35801" CollectCount="1" />
+<TurnIn QuestName="Prevent the Accord" QuestId="12004" TurnInName="Image of Archmage Modera" TurnInId="26673" />
+<PickUp QuestName="Imprints on the Past" QuestId="12282" GiverName="Zelig the Visionary" GiverId="27314" />
+<Objective QuestName="Imprints on the Past" QuestId="12282" Type="CollectItem" ItemId="37538" CollectCount="1" />
+<TurnIn QuestName="Imprints on the Past" QuestId="12282" TurnInName="Zelig the Visionary" TurnInId="27314" />
+<PickUp QuestName="Pest Control" QuestId="12142" GiverName="Duane" GiverId="26978" GiverType="NPC" />
+<Objective QuestName="Pest Control" QuestId="12142" Type="KillMob" MobId="26705" KillCount="10" />
+<Objective QuestName="Pest Control" QuestId="12142" Type="KillMob" MobId="26481" KillCount="3" />
+<TurnIn QuestName="Pest Control" QuestId="12142" TurnInName="Duane" TurnInId="26978" TurnInType="NPC" />
+<PickUp QuestName="Canyon Chase" QuestId="12143" GiverName="Duane" GiverId="26978" />
+<Objective QuestName="Canyon Chase" QuestId="12143" Type="KillMob" MobId="27005" KillCount="1" />
+<TurnIn QuestName="Canyon Chase" QuestId="12143" TurnInName="Duane" TurnInId="26978" />
+<PickUp QuestName="Nozzlerust Defense" QuestId="12043" GiverName="Narf" GiverId="26647" />
+<PickUp QuestName="Shaved Ice" QuestId="12045" GiverName="Zivlix" GiverId="26661" />
+<PickUp QuestName="Stocking Up" QuestId="12044" GiverName="Xink" GiverId="26660" />
+<Objective QuestName="Nozzlerust Defense" QuestId="12043" Type="KillMob" MobId="26493" KillCount="1" />
+<Objective QuestName="Nozzlerust Defense" QuestId="12043" Type="KillMob" MobId="26492" KillCount="12" />
+<Objective QuestName="Shaved Ice" QuestId="12045" Type="CollectItem" ItemId="36728" CollectCount="4" />
+<Objective QuestName="Stocking Up" QuestId="12044" Type="CollectItem" ItemId="36727" CollectCount="8" />
+<TurnIn QuestName="Stocking Up" QuestId="12044" TurnInName="Xink" TurnInId="26660" />
+<TurnIn QuestName="Nozzlerust Defense" QuestId="12043" TurnInName="Narf" TurnInId="26647" />
+<TurnIn QuestName="Shaved Ice" QuestId="12045" TurnInName="Zivlix" TurnInId="26661" />
+<PickUp QuestName="Soft Packaging" QuestId="12046" GiverName="Zivlix" GiverId="26661" />
+<Objective QuestName="Soft Packaging" QuestId="12046" Type="CollectItem" ItemId="36729" CollectCount="12" />
+<TurnIn QuestName="Soft Packaging" QuestId="12046" TurnInName="Zivlix" TurnInId="26661" />
+<PickUp QuestName="Something That Doesn't Melt" QuestId="12047" GiverName="Zivlix" GiverId="26661" />
+<Objective QuestName="Something That Doesn't Melt" QuestId="12047" Type="CollectItem" ItemId="36730" CollectCount="12" />
+<TurnIn QuestName="Something That Doesn't Melt" QuestId="12047" TurnInName="Zivlix" TurnInId="26661" />
+<Objective QuestName="Disturbing Implications" QuestId="12146" Type="CollectItem" ItemId="36855" CollectCount="1" />
+<TurnIn QuestName="Disturbing Implications" QuestId="12146" TurnInName="Aurastrasza" TurnInId="26983" />
+<Objective QuestName="A Strange Device" QuestId="12055" Type="CollectItem" ItemId="36742" CollectCount="1" />
+<TurnIn QuestName="A Strange Device" QuestId="12055" TurnInName="Image of Archmage Modera" TurnInId="26673" />
+<PickUp QuestName="Projections and Plans" QuestId="12060" GiverName="Image of Archmage Modera" GiverId="26673" />
+<UseItem QuestName="Projections and Plans" QuestId="12060" ItemId="36747" X="3381.635" Y="2339.436" Z="34.96777" />
+<UseItem QuestName="Projections and Plans" QuestId="12060" ItemId="36747" X="3311.943" Y="2508.386" Z="197.317" />
+<TurnIn QuestName="Projections and Plans" QuestId="12060" TurnInName="Image of Archmage Modera" TurnInId="26673" />
+<PickUp QuestName="The Focus on the Beach" QuestId="12065" GiverName="Image of Archmage Modera" GiverId="26673" />
+<Objective QuestName="The Focus on the Beach" QuestId="12065" Type="CollectItem" ItemId="36751" CollectCount="1" CollectFrom="26762" />
+<UseItem QuestName="The Focus on the Beach" QuestId="12065" ItemId="36751" X="3139.822" Y="2142.694" Z="24.08412" />
+<TurnIn QuestName="The Focus on the Beach" QuestId="12065" TurnInName="Image of Archmage Modera" TurnInId="26673" />
+<TurnIn QuestName="A Letter for Home" QuestId="12067" TurnInName="Commander Saia Azuresteel" TurnInId="26459" />
+<PickUp QuestName="Atop the Woodlands" QuestId="12083" GiverName="Image of Archmage Modera" GiverId="26673" />
+<Objective QuestName="Atop the Woodlands" QuestId="12083" Type="CollectItem" ItemId="36779" CollectCount="1" />
+<UseItem QuestName="Atop the Woodlands" QuestId="12083" ItemId="36779" X="2880.108" Y="1807.803" Z="133.355" />
+<TurnIn QuestName="Atop the Woodlands" QuestId="12083" TurnInName="Image of Archmage Modera" TurnInId="26673" />
+<PickUp QuestName="Let Nothing Go To Waste" QuestId="11958" GiverName="Elder Ko'nani" GiverId="26194" GiverType="NPC" />
+<Objective QuestName="Let Nothing Go To Waste" QuestId="11958" Type="CollectItem" ItemId="35686" ItemName="Stolen Moa'ki Goods" CollectCount="6" />
+<TurnIn QuestName="Let Nothing Go To Waste" QuestId="11958" TurnInName="Elder Ko'nani" TurnInId="26194" TurnInType="NPC" />
+<PickUp QuestName="Slay Loguhn" QuestId="11959" GiverName="Elder Ko'nani" GiverId="26194" GiverType="NPC" />
+<TurnIn QuestName="Slay Loguhn" QuestId="11959" TurnInName="Elder Ko'nani" TurnInId="26194" TurnInType="NPC" />
+<PickUp QuestName="Spiritual Insight" QuestId="12028" GiverName="Toalu'u the Mystic" GiverId="26595" GiverType="NPC" />
+<TurnIn QuestName="Spiritual Insight" QuestId="12028" TurnInName="Toalu'u the Mystic" TurnInId="26595" TurnInType="NPC" />
+<PickUp QuestName="Elder Mana'loa" QuestId="12030" GiverName="Toalu'u the Mystic" GiverId="26595" GiverType="NPC" />
+ <TurnIn QuestName="Elder Mana'loa" QuestId="12030" TurnInName="Elder Mana'loa" TurnInId="188419" TurnInType="Object" />
+<PickUp QuestName="Search Indu'le Village" QuestId="12098" GiverName="Image of Archmage Modera" GiverId="26673" />
+<TurnIn QuestName="Search Indu'le Village" QuestId="12098" TurnInName="Mage-Commander Evenstar" TurnInId="26873" />
+<PickUp QuestName="The End of the Line" QuestId="12107" GiverName="Mage-Commander Evenstar" GiverId="26873" />
+<UseItem QuestName="The End of the Line" QuestId="12107" ItemId="36815"  X="3069.57" Y="1395.166" Z="122.3534" />
+<RunTo QuestName="The End of the Line" QuestId="12107" X="3103.423" Y="648.3962" Z="79.87502" />
+<TurnIn QuestName="The End of the Line" QuestId="12107" TurnInName="Image of Archmage Modera" TurnInId="26673" />
+<PickUp QuestName="Strengthen the Ancients" QuestId="12092" GiverName="Sarendryana" GiverId="26837" />
+<TurnIn QuestName="Strengthen the Ancients" QuestId="12092" TurnInName="Sarendryana" TurnInId="26837" />
+<PickUp QuestName="Signs of Big Watery Trouble" QuestId="12011" GiverName="Wrecked Crab Trap" GiverId="188364" GiverType="Object" X="2584.105" Y="950.6002" Z="-59.75602" />
+<TurnIn QuestName="Signs of Big Watery Trouble" QuestId="12011" TurnInName="Tua'kea" TurnInId="26245" />
+<PickUp QuestName="The Bait" QuestId="12016" GiverName="Tua'kea" GiverId="26245" />
+<Objective QuestName="The Bait" QuestId="12016" Type="CollectItem" ItemId="35831" CollectCount="1" />
+<TurnIn QuestName="The Bait" QuestId="12016" TurnInName="Tua'kea" TurnInId="26245" />
+<PickUp QuestName="Meat on the Hook" QuestId="12017" GiverName="Tua'kea" GiverId="26245" />
+<UseItem QuestName="Meat on the Hook" QuestId="12017" ItemId="35838" X="2649.44" Y="1009.03" Z="-24.92308"/>
+<Objective QuestName="Meat on the Hook" QuestId="12017" Type="KillMob" MobId="26510" KillCount="1" />
+<TurnIn QuestName="Meat on the Hook" QuestId="12017" TurnInName="Tua'kea" TurnInId="26245" />
+<PickUp QuestName="Gaining an Audience" QuestId="12119" GiverName="Image of Archmage Modera" GiverId="26673" />
+<Objective QuestName="Gaining an Audience" QuestId="12119" Type="CollectItem" ItemId="36832" CollectCount="1" />
+<TurnIn QuestName="Gaining an Audience" QuestId="12119" TurnInName="Tariolstrasz" TurnInId="26443" />
+<PickUp QuestName="Speak with your Ambassador" QuestId="12766" GiverName="Tariolstrasz" GiverId="26443" />
+<TurnIn QuestName="Speak with your Ambassador" QuestId="12766" TurnInName="Lauriel Trueblade" TurnInId="27803" />
+<PickUp QuestName="Report to the Ruby Dragonshrine" QuestId="12460" GiverName="Lauriel Trueblade" GiverId="27803" />
+<TurnIn QuestName="Report to the Ruby Dragonshrine" QuestId="12460" TurnInName="Ceristrasz" TurnInId="27506" />
+<PickUp QuestName="Heated Battle" QuestId="12416" GiverName="Ceristrasz" GiverId="27506" />
+<Objective QuestName="Heated Battle" QuestId="12416" Type="KillMob" MobId="27685" KillCount="12" />
+<Objective QuestName="Heated Battle" QuestId="12416" Type="KillMob" MobId="27686" KillCount="8" />
+<Objective QuestName="Heated Battle" QuestId="12416" Type="KillMob" MobId="27531" KillCount="1" />
+<TurnIn QuestName="Heated Battle" QuestId="12416" TurnInName="Ceristrasz" TurnInId="27506" />
+<PickUp QuestName="Cycle of Life" QuestId="12454" GiverName="Nishera the Garden Keeper" GiverId="27255" />
+<Objective QuestName="Cycle of Life" QuestId="12454" Type="KillMob" MobId="27244" KillCount="5" />
+<TurnIn QuestName="Cycle of Life" QuestId="12454" TurnInName="Nishera the Garden Keeper" TurnInId="27255" />
+<PickUp QuestName="The Obsidian Dragonshrine" QuestId="12447" GiverName="Nalice" GiverId="27765" />
+<TurnIn QuestName="The Obsidian Dragonshrine" QuestId="12447" TurnInName="Serinar" TurnInId="26593" />
+<PickUp QuestName="No One to Save You" QuestId="12262" GiverName="Serinar" GiverId="26593" />
+<Objective QuestName="No One to Save You" QuestId="12262" Type="KillMob" MobId="27356" KillCount="6" />
+<Objective QuestName="No One to Save You" QuestId="12262" Type="KillMob" MobId="27360" KillCount="10" />
+<TurnIn QuestName="No One to Save You" QuestId="12262" TurnInName="Serinar" TurnInId="26593" />
+<SetGrindArea>
+<GrindArea>
+<Factions>16 188 2000</Factions>
+<Hotspots>
+	<Hotspot X="4422.264" Y="-4047.006" Z="176.8698" />
+	<Hotspot X="4431.474" Y="-3995.349" Z="180.1825" />
+	<Hotspot X="4429.789" Y="-3934.641" Z="183.8836" />
+	<Hotspot X="4440.868" Y="-3870.854" Z="198.1185" />
+	<Hotspot X="4448.374" Y="-3793.912" Z="212.2202" />
+	<Hotspot X="4426.936" Y="-3739.034" Z="228.6865" />
+	<Hotspot X="4481.709" Y="-3732.467" Z="219.7762" />
+	<Hotspot X="4551.486" Y="-3740.474" Z="228.0867" />
+	<Hotspot X="4574.997" Y="-3766.517" Z="232.0932" />
+	<Hotspot X="4537.146" Y="-3803.069" Z="221.496" />
+	<Hotspot X="4531.41" Y="-3837.264" Z="220.4237" />
+	<Hotspot X="4527.572" Y="-3905.285" Z="216.8342" />
+	<Hotspot X="4455.876" Y="-3889.616" Z="196.7643" />
+	<Hotspot X="4357.309" Y="-3889.722" Z="198.2822" />
+	<Hotspot X="4292.84" Y="-3876.142" Z="213.2162" />
+	<Hotspot X="4279.71" Y="-3830.964" Z="227.4403" />
+	<Hotspot X="4290.657" Y="-3751.584" Z="259.435" />
+	<Hotspot X="4277.599" Y="-3712.54" Z="261.1005" />
+	<Hotspot X="4231.21" Y="-3647.958" Z="253.7504" />
+	<Hotspot X="4244.642" Y="-3609.794" Z="247.424" />
+	<Hotspot X="4279.335" Y="-3610.48" Z="246.2339" />
+	<Hotspot X="4286.535" Y="-3651.883" Z="255.3458" />
+	<Hotspot X="4310.51" Y="-3764.429" Z="250.3012" />
+	<Hotspot X="4283.56" Y="-3938.807" Z="194.9604" />
+	<Hotspot X="4275.377" Y="-4017.668" Z="168.732" />
+	<Hotspot X="4230.016" Y="-4078.865" Z="187.007" />
+	<Hotspot X="4244.234" Y="-4110.057" Z="184.5459" />
+	<Hotspot X="4311.279" Y="-4100.131" Z="190.3207" />
+	<Hotspot X="4355.353" Y="-4058.464" Z="184.821" />
+	<Hotspot X="4385.882" Y="-3994.603" Z="179.5184" />
+	<Hotspot X="4419.362" Y="-4001.376" Z="178.391" />
+</Hotspots>
+</GrindArea>
+</SetGrindArea>
+<GrindTo Level="74"/>
+<!--Grizzly Hills-->
+<Checkpoint Level="74" />
+  <PickUp QuestName="Mmm... Amberseeds!" QuestId="12225" GiverName="Amberseed" GiverId="188667" GiverType="Object" />
+  <TurnIn QuestName="Mmm... Amberseeds!" QuestId="12225" TurnInName="Master Woodsman Anderhol" TurnInId="27277" TurnInType="NPC" />
+  <PickUp QuestName="Just Passing Through" QuestId="12226" GiverName="Master Woodsman Anderhol" GiverId="27277" GiverType="NPC" />
+  <PickUp QuestName="Replenishing the Storehouse" QuestId="12212" GiverName="Master Woodsman Anderhol" GiverId="27277" GiverType="NPC" />
+  <PickUp QuestName="Them or Us!" QuestId="12215" GiverName="Master Woodsman Anderhol" GiverId="27277" GiverType="NPC" />
+  <PickUp QuestName="Local Support" QuestId="12292" GiverName="Lieutenant Dumont" GiverId="26875" GiverType="NPC" />
+  <Objective QuestName="Local Support" QuestId="12292" Type="CollectItem" ItemId="37572" ItemName="Cedar Chest" CollectCount="1" />
+  <Objective QuestName="Them or Us!" QuestId="12215" Type="KillMob" MobId="26592" MobName="Graymist Hunter" KillCount="6" />
+  <Objective QuestName="Replenishing the Storehouse" QuestId="12212" Type="CollectItem" ItemId="37185" ItemName="Succulent Venison" CollectCount="8" />
+  <TurnIn QuestName="Local Support" QuestId="12292" TurnInName="Lieutenant Dumont" TurnInId="26875" TurnInType="NPC" />
+  <PickUp QuestName="Close the Deal" QuestId="12293" GiverName="Lieutenant Dumont" GiverId="26875" GiverType="NPC" />
+  <TurnIn QuestName="Replenishing the Storehouse" QuestId="12212" TurnInName="Master Woodsman Anderhol" TurnInId="27277" TurnInType="NPC" />
+  <PickUp QuestName="Take Their Rear!" QuestId="12216" GiverName="Master Woodsman Anderhol" GiverId="27277" GiverType="NPC" />
+  <TurnIn QuestName="Them or Us!" QuestId="12215" TurnInName="Master Woodsman Anderhol" TurnInId="27277" TurnInType="NPC" />
+  <PickUp QuestName="Eagle Eyes" QuestId="12217" GiverName="Master Woodsman Anderhol" GiverId="27277" GiverType="NPC" />
+  <PickUp QuestName="Troll Season!" QuestId="12210" GiverName="Lieutenant Dumont" GiverId="26875" GiverType="NPC" />
+  <Objective QuestName="Just Passing Through" QuestId="12226" Type="CollectItem" ItemId="37246" ItemName="Blackroot Stalk" CollectCount="5" />
+  <Objective QuestName="Take Their Rear!" QuestId="12216" Type="CollectItem" ItemId="37200" ItemName="Grizzly Flank" CollectCount="8" />
+  <TurnIn QuestName="Close the Deal" QuestId="12293" TurnInName="Ivan" TurnInId="27469" TurnInType="NPC" />
+  <PickUp QuestName="A Tentative Pact" QuestId="12294" GiverName="Ivan" GiverId="27469" GiverType="NPC" />
+  <Objective QuestName="Eagle Eyes" QuestId="12217" Type="KillMob" MobId="26369" MobName="Imperial Eagle" KillCount="5" />
+  <TurnIn QuestName="A Tentative Pact" QuestId="12294" TurnInName="Lieutenant Dumont" TurnInId="26875" TurnInType="NPC" />
+  <PickUp QuestName="An Exercise in Diplomacy" QuestId="12295" GiverName="Lieutenant Dumont" GiverId="26875" GiverType="NPC" />
+  <TurnIn QuestName="Take Their Rear!" QuestId="12216" TurnInName="Master Woodsman Anderhol" TurnInId="27277" TurnInType="NPC" />
+  <TurnIn QuestName="Just Passing Through" QuestId="12226" TurnInName="Master Woodsman Anderhol" TurnInId="27277" TurnInType="NPC" />
+  <PickUp QuestName="Doing Your Duty" QuestId="12227" GiverName="Master Woodsman Anderhol" GiverId="27277" GiverType="NPC" />
+  <TurnIn QuestName="Eagle Eyes" QuestId="12217" TurnInName="Master Woodsman Anderhol" TurnInId="27277" TurnInType="NPC" />
+  <Objective QuestName="Doing Your Duty" QuestId="12227" Type="CollectItem" ItemId="37250" CollectCount="1" />
+  <PickUp QuestName="Secrets of the Flamebinders" QuestId="12222" GiverName="Woodsman Drake" GiverId="27391" GiverType="NPC" />
+  <PickUp QuestName="Thinning the Ranks" QuestId="12223" GiverName="Woodsman Drake" GiverId="27391" GiverType="NPC" />
+  <TurnIn QuestName="Doing Your Duty" QuestId="12227" TurnInName="Master Woodsman Anderhol" TurnInId="27277" TurnInType="NPC" />
+  <Objective QuestName="Secrets of the Flamebinders" QuestId="12222" Type="CollectItem" ItemId="37229" ItemName="Flame-Imbued Talisman" CollectCount="3" />
+  <Objective QuestName="Thinning the Ranks" QuestId="12223" Type="KillMob" MobId="27260" MobName="Dragonflayer Huscarl" KillCount="12" />
+  <TurnIn QuestName="Secrets of the Flamebinders" QuestId="12222" TurnInName="Woodsman Drake" TurnInId="27391" />
+  <TurnIn QuestName="Thinning the Ranks" QuestId="12223" TurnInName="Woodsman Drake" TurnInId="27391" />
+  <TurnIn QuestName="Troll Season!" QuestId="12210" TurnInName="Samir" TurnInId="23724" TurnInType="NPC" />
+  <TurnIn QuestName="An Exercise in Diplomacy" QuestId="12295" TurnInName="Envoy Ducal" TurnInId="26821" TurnInType="NPC" />
+  <PickUp QuestName="Northern Hospitality" QuestId="12299" GiverName="Sergei" GiverId="27486" GiverType="NPC" />
+  <PickUp QuestName="Wolfsbane Root" QuestId="12307" GiverName="Katja" GiverId="27545" GiverType="NPC" />
+  <Objective QuestName="Northern Hospitality" QuestId="12299" Type="KillMob" MobId="27424" MobName="Conquest Hold Marauder" KillCount="8" />
+  <Objective QuestName="Wolfsbane Root" QuestId="12307" Type="UseObject" ObjectId="189313" ObjectName="Wolfsbane Root" UseCount="8" />
+  <TurnIn QuestName="Northern Hospitality" QuestId="12299" TurnInName="Sergei" TurnInId="27486" TurnInType="NPC" />
+  <TurnIn QuestName="Wolfsbane Root" QuestId="12307" TurnInName="Katja" TurnInId="27545" TurnInType="NPC" />
+  <PickUp QuestName="Test of Mettle" QuestId="12300" GiverName="Sergei" GiverId="27486" GiverType="NPC" />
+  <Objective QuestName="Test of Mettle" QuestId="12300" Type="KillMob" MobId="27493" KillCount="1" />
+  <TurnIn QuestName="Test of Mettle" QuestId="12300" TurnInName="Captured Trapper" TurnInId="27497" TurnInType="NPC" />
+  <PickUp QuestName="Words of Warning" QuestId="12302" GiverName="Captured Trapper" GiverId="27497" GiverType="NPC" />
+  <TurnIn QuestName="Words of Warning" QuestId="12302" TurnInName="Caged Prisoner" TurnInId="27499" TurnInType="NPC" />
+  <PickUp QuestName="Softening the Blow" QuestId="11998" GiverName="Captain Gryan Stoutmantle" GiverId="26212" />
+  <Objective QuestName="Softening the Blow" QuestId="11998" Type="CollectItem" ItemId="35796" CollectCount="1" CollectFrom="26484" />
+  <PickUp QuestName="A Bear of an Appetite" QuestId="12279" GiverName="Hugh Glass" GiverId="26484" />
+  <UseItem QuestName="A Bear of an Appetite" QuestId="12279" ItemId="37542" X="4160.812" Y="-5315.66" Z="-1.199879" />
+  <UseItem QuestName="A Bear of an Appetite" QuestId="12279" ItemId="37542"  X="4195.487" Y="-5384.533" Z="-1.266546" />
+  <UseItem QuestName="A Bear of an Appetite" QuestId="12279" ItemId="37542" X="4244.427" Y="-5371.531" Z="-0.4973174" />
+  <UseItem QuestName="A Bear of an Appetite" QuestId="12279" ItemId="37542" X="4295.447" Y="-5465.642" Z="-1.676117" />
+  <UseItem QuestName="A Bear of an Appetite" QuestId="12279" ItemId="37542" X="4344.042" Y="-5408.667" Z="-0.497264" />
+  <UseItem QuestName="A Bear of an Appetite" QuestId="12279" ItemId="37542" X="4386.378" Y="-5344.593" Z="-1.566444" />
+  <UseItem QuestName="A Bear of an Appetite" QuestId="12279" ItemId="37542" X="4160.812" Y="-5315.66" Z="-1.199879" />
+  <UseItem QuestName="A Bear of an Appetite" QuestId="12279" ItemId="37542"  X="4195.487" Y="-5384.533" Z="-1.266546" />
+  <UseItem QuestName="A Bear of an Appetite" QuestId="12279" ItemId="37542" X="4244.427" Y="-5371.531" Z="-0.4973174" />
+  <UseItem QuestName="A Bear of an Appetite" QuestId="12279" ItemId="37542" X="4295.447" Y="-5465.642" Z="-1.676117" />
+  <UseItem QuestName="A Bear of an Appetite" QuestId="12279" ItemId="37542" X="4344.042" Y="-5408.667" Z="-0.497264" />
+  <UseItem QuestName="A Bear of an Appetite" QuestId="12279" ItemId="37542" X="4386.378" Y="-5344.593" Z="-1.566444" />
+  <Objective QuestName="A Bear of an Appetite" QuestId="12279" Type="CollectItem" ItemId="37501" CollectCount="6" />
+  <Objective QuestName="A Bear of an Appetite" QuestId="12279" Type="CollectItem" ItemId="37542" CollectCount="1" />
+  <TurnIn QuestName="A Bear of an Appetite" QuestId="12279" TurnInName="Hugh Glass" TurnInId="26484" />
+  <TurnIn QuestName="Softening the Blow" QuestId="11998" TurnInName="Brugar Stoneshear" TurnInId="26226" />
+  <PickUp QuestName="Brothers in Battle" QuestId="12002" GiverName="Brugar Stoneshear" GiverId="26226" GiverType="NPC" />
+  <PickUp QuestName="Find Kurun!" QuestId="11981" GiverName="Fallen Earthen Warrior" GiverId="26335" GiverType="NPC" />
+  <Objective QuestName="Brothers in Battle" QuestId="12002" Type="KillMob" MobId="26284" MobName="Runic Battle Golem" KillCount="10" />
+  <TurnIn QuestName="Find Kurun!" QuestId="11981" TurnInName="Kurun" TurnInId="26260" TurnInType="NPC" />
+  <TurnIn QuestName="Brothers in Battle" QuestId="12002" TurnInName="Brugar Stoneshear" TurnInId="26226" TurnInType="NPC" />
+  <PickUp QuestName="Uncovering the Tunnels" QuestId="12003" GiverName="Brugar Stoneshear" GiverId="26226" GiverType="NPC" />
+  <RunTo QuestName="Uncovering the Tunnels" QuestId="12003" X="4656.956" Y="-4613.494" Z="208.7764" /> 
+  <RunTo QuestName="Uncovering the Tunnels" QuestId="12003" X="4788.599" Y="-4401.806" Z="199.0293" />
+  <RunTo QuestName="Uncovering the Tunnels" QuestId="12003" X="4525.643" Y="-4440.619" Z="186.3555" />
+  <PickUp QuestName="The Damaged Journal" QuestId="11986" GiverName="Battered Journal" GiverId="188261" GiverType="Object" X="4823.791" Y="-4485.659" Z="198.8233" />
+  <Objective QuestName="The Damaged Journal" QuestId="11986" Type="CollectItem" ItemId="35737" CollectCount="8" />
+  <useItem QuestName="The Damaged Journal" QuestId="11986" ItemId="35739" X="4823.791" Y="-4485.659" Z="198.8233" />
+  <TurnIn QuestName="The Damaged Journal" QuestId="11986" TurnInName="Torthen Deepdig" TurnInId="26361" />
+  <TurnIn QuestName="Uncovering the Tunnels" QuestId="12003" TurnInName="Brugar Stoneshear" TurnInId="26226" TurnInType="NPC" />
+  <PickUp QuestName="The Fate of Orlond" QuestId="12010" GiverName="Brugar Stoneshear" GiverId="26226" GiverType="NPC" />
+  <PickUp QuestName="The Runic Keystone" QuestId="11988" GiverName="Torthen Deepdig" GiverId="26361" />
+  <Objective QuestName="The Runic Keystone" QuestId="11988" Type="CollectItem" ItemId="35747" CollectCount="5" />
+  <TurnIn QuestName="The Runic Keystone" QuestId="11988" TurnInName="Torthen Deepdig" TurnInId="26361" />
+  <TurnIn QuestName="The Fate of Orlond" QuestId="12010" TurnInName="Surveyor Orlond" TurnInId="26514" TurnInType="NPC" />
+  <PickUp QuestName="Steady as a Rock?" QuestId="12014" GiverName="Surveyor Orlond" GiverId="26514" GiverType="NPC" />
+  <Objective QuestName="Steady as a Rock?" QuestId="12014" Type="CollectItem" ItemId="35837" ItemName="Portable Seismograph" CollectCount="1" />
+  <UseItem QuestName="Steady as a Rock?" QuestId="12014" ItemId="35837" X="5054.018" Y="-4825.421" Z="219.5034" /> 
+  <Objective QuestName="Steady as a Rock?" QuestId="12014" Type="CollectItem" ItemId="35819" ItemName="Thor Modan Stability Profile" CollectCount="1" CollectFrom="188367" />
+  <TurnIn QuestName="Steady as a Rock?" QuestId="12014" TurnInName="Brugar Stoneshear" TurnInId="26226" TurnInType="NPC" />
+  <PickUp QuestName="Check Up on Raegar" QuestId="12128" GiverName="Brugar Stoneshear" GiverId="26226" GiverType="NPC" />
+  <PickUp QuestName="Nice to Meat You" QuestId="12113" GiverName="Harkor" GiverId="26884" GiverType="NPC" />
+  <PickUp QuestName="Therapy" QuestId="12114" GiverName="Harkor" GiverId="26884" GiverType="NPC" />
+  <PickUp QuestName="It Takes Guts...." QuestId="12116" GiverName="Kraz" GiverId="26886" GiverType="NPC" />
+  <Objective QuestName="A Bear of an Appetite" QuestId="12279" Type="CollectItem" ItemId="37501" ItemName="Northern Salmon" CollectCount="6" />
+  <Objective QuestName="It Takes Guts...." QuestId="12116" Type="CollectItem" ItemId="36825" ItemName="Drakkari Canopic Jar" CollectCount="5" CollectFrom="188499" />
+  <TurnIn QuestName="It Takes Guts...." QuestId="12116" TurnInName="Kraz" TurnInId="26886" TurnInType="NPC" />
+  <PickUp QuestName="Drak'aguul's Mallet" QuestId="12120" GiverName="Kraz" GiverId="26886" GiverType="NPC" />
+  <Objective QuestName="Drak'aguul's Mallet" QuestId="12120" Type="CollectItem" ItemId="36826" ItemName="Drakil'jin Mallet" CollectCount="1" />
+  <TurnIn QuestName="Drak'aguul's Mallet" QuestId="12120" TurnInName="Kraz" TurnInId="26886" TurnInType="NPC" />
+  <Objective QuestName="Therapy" QuestId="12114" Type="KillMob" MobId="26795" MobName="Drakkari Oracle" KillCount="10" />
+  <Objective QuestName="Therapy" QuestId="12114" Type="KillMob" MobId="26797" MobName="Drakkari Protector" KillCount="10" />
+  <Objective QuestName="Nice to Meat You" QuestId="12113" Type="CollectItem" ItemId="36819" CollectCount="10" />
+  <Objective QuestName="Nice to Meat You" QuestId="12113" Type="CollectItem" ItemId="36875" CollectCount="10" />
+  <TurnIn QuestName="Therapy" QuestId="12114" TurnInName="Harkor" TurnInId="26884" TurnInType="NPC" />
+  <TurnIn QuestName="Nice to Meat You" QuestId="12113" TurnInName="Harkor" TurnInId="26884" TurnInType="NPC" />
+  <TurnIn QuestName="Check Up on Raegar" QuestId="12128" TurnInName="Raegar Breakbrow" TurnInId="26883" TurnInType="NPC" />
+  <PickUp QuestName="Reallocating Resources" QuestId="12770" GiverName="Captain Gryan Stoutmantle" GiverId="26212" />
+  <TurnIn QuestName="Reallocating Resources" QuestId="12770" TurnInName="Sergeant Riannah" TurnInId="29137" />
+<SetGrindArea>
+<GrindArea>
+<Hotspots>
+			<Hotspot X="4802.721" Y="-3386.273" Z="291.4134" />
+			<Hotspot X="4885.605" Y="-3285.401" Z="290.122" />
+			<Hotspot X="4964.316" Y="-3377.278" Z="290.5109" />
+			<Hotspot X="5076.29" Y="-3457.365" Z="292.6833" />
+			<Hotspot X="5181.351" Y="-3551.821" Z="293.577" />
+			<Hotspot X="4893.243" Y="-3557.181" Z="296.3908" />
+</Hotspots>
+</GrindArea>
+</SetGrindArea>
+<GrindTo Level="76"/>
+<!--ZulDrak--> 
+<Checkpoint Level="76" />
+<PickUp QuestName="Trolls Is Gone Crazy!" QuestId="12861" GiverName="Chief Rageclaw" GiverId="29690" />
+<PickUp QuestName="In Search Of Answers" QuestId="12902" GiverName="Crusader Lord Lantinga" GiverId="29687" />
+<TurnIn QuestName="In Search Of Answers" QuestId="12902" TurnInName="Orders From Drakuru" TurnInId="191766" TurnInType="Object" X="4876.023" Y="-2342.631" Z="236.223" />
+<Objective QuestName="Trolls Is Gone Crazy!" QuestId="12861" Type="CollectItem" ItemId="41161" CollectCount="8" />
+<UseItem QuestName="Trolls Is Gone Crazy!" QuestId="12861" ItemId="41161" X="4966.122" Y="-2315.842" Z="245.095" />
+<UseItem QuestName="Trolls Is Gone Crazy!" QuestId="12861" ItemId="41161" X="4941.826" Y="-2299.934" Z="244.2175" />
+<UseItem QuestName="Trolls Is Gone Crazy!" QuestId="12861" ItemId="41161" X="4929.146" Y="-2297.992" Z="244.127" />
+<UseItem QuestName="Trolls Is Gone Crazy!" QuestId="12861" ItemId="41161" X="4921.155" Y="-2283.409" Z="243.7236" />
+<UseItem QuestName="Trolls Is Gone Crazy!" QuestId="12861" ItemId="41161" X="4905.229" Y="-2282.48" Z="244.1916" />
+<UseItem QuestName="Trolls Is Gone Crazy!" QuestId="12861" ItemId="41161" X="4860.328" Y="-2293.603" Z="243.9589" />
+<UseItem QuestName="Trolls Is Gone Crazy!" QuestId="12861" ItemId="41161" X="4812.682" Y="-2350.583" Z="238.9876" />
+<UseItem QuestName="Trolls Is Gone Crazy!" QuestId="12861" ItemId="41161" X="4834.724" Y="-2376.479" Z="234.4091" />
+<TurnIn QuestName="Trolls Is Gone Crazy!" QuestId="12861" TurnInName="Chief Rageclaw" TurnInId="29690" />
+<PickUp QuestName="Orders From Drakuru" QuestId="12883" GiverName="Orders From Drakuru" GiverId="191766" GiverType="Object" X="4876.023" Y="-2342.631" Z="236.223" />
+<TurnIn QuestName="Orders From Drakuru" QuestId="12883" TurnInName="Crusader Lord Lantinga" TurnInId="29687" />
+<PickUp QuestName="The Ebon Watch" QuestId="12884" GiverName="Crusader Lord Lantinga" GiverId="29687" />
+<PickUp QuestName="Crusader Forward Camp" QuestId="12894" GiverName="Crusader Lord Lantinga" GiverId="29687" />
+<Objective QuestName="The Ebon Watch" QuestId="12884" Type="CollectItem" ItemId="41262" CollectCount="1" />
+<TurnIn QuestName="Crusader Forward Camp" QuestId="12894" TurnInName="Crusader MacKellar" TurnInId="29689" />
+<PickUp QuestName="That's What Friends Are For..." QuestId="12903" GiverName="Crusader MacKellar" GiverId="29689" />
+<PickUp QuestName="Making Something Out Of Nothing" QuestId="12901" GiverName="Engineer Reed" GiverId="29688" />
+<PickUp QuestName="A Great Storm Approaches" QuestId="12912" GiverName="Gymer" GiverId="29647" />
+<PickUp QuestName="Light Won't Grant Me Vengeance" QuestId="12904" GiverName="Gerk" GiverId="29455" />
+<RunTo QuestName="That's What Friends Are For..." QuestId="12903" X="5751.123" Y="-1479.76" Z="234.2878" /> 
+<RunTo QuestName="That's What Friends Are For..." QuestId="12903" X="5687.006" Y="-1383.984" Z="234.1548" />
+<RunTo QuestName="That's What Friends Are For..." QuestId="12903" X="5950.588" Y="-1848.158" Z="248.3095"/>
+<Objective QuestName="Making Something Out Of Nothing" QuestId="12901" Type="CollectItem" ItemId="41399" CollectCount="10" />
+<TurnIn QuestName="That's What Friends Are For..." QuestId="12903" TurnInName="Crusader MacKellar" TurnInId="29689" />
+<TurnIn QuestName="Making Something Out Of Nothing" QuestId="12901" TurnInName="Engineer Reed" TurnInId="29688" />
+<TurnIn QuestName="A Great Storm Approaches" QuestId="12912" TurnInName="Engineer Reed" TurnInId="29688" />
+<PickUp QuestName="Gymer's Salvation" QuestId="12914" GiverName="Engineer Reed" GiverId="29688" />
+<Objective QuestName="Gymer's Salvation" QuestId="12914" Type="CollectItem" ItemId="41504" CollectCount="6" />
+<Objective QuestName="Gymer's Salvation" QuestId="12914" Type="CollectItem" ItemId="41503" CollectCount="6" />
+<Objective QuestName="Light Won't Grant Me Vengeance" QuestId="12904" Type="KillMob" MobId="29882" KillCount="15" />
+<TurnIn QuestName="The Ebon Watch" QuestId="12884" TurnInName="Stefan Vadu" TurnInId="28518" />
+<Objective QuestName="An Invitation, of Sorts..." QuestId="12631" Type="CollectItem" ItemId="38660" CollectCount="1" />
+<TurnIn QuestName="An Invitation, of Sorts..." QuestId="12631" TurnInName="Stefan Vadu" TurnInId="28518" />
+<PickUp QuestName="Near Miss" QuestId="12637" GiverName="Stefan Vadu" GiverId="28518" />
+<Objective QuestName="Near Miss" QuestId="12637" Type="KillMob" MobId="28532" KillCount="1" />
+<TurnIn QuestName="Near Miss" QuestId="12637" TurnInName="Stefan Vadu" TurnInId="28518" />
+<PickUp QuestName="You Can Run, But You Can't Hide" QuestId="12629" GiverName="Stefan Vadu" GiverId="28518" />
+<Objective QuestName="You Can Run, But You Can't Hide" QuestId="12629" Type="CollectItem" ItemId="38686" CollectCount="5" />
+<Objective QuestName="You Can Run, But You Can't Hide" QuestId="12629" Type="CollectItem" ItemId="38687" CollectCount="5" CollectFrom="29856" />
+<TurnIn QuestName="You Can Run, But You Can't Hide" QuestId="12629" TurnInName="Stefan Vadu" TurnInId="28518" />
+<PickUp QuestName="Dressing Down" QuestId="12648" GiverName="Stefan Vadu" GiverId="28518" />
+<UseItem QuestName="Dressing Down" QuestId="12648" ItemId="38699" X="5199.861" Y="-1581.653" Z="239.5982" />
+<Objective QuestName="Dressing Down" QuestId="12648" Type="CollectItem" ItemId="38698" CollectCount="1" CollectFrom="28589" />
+<TurnIn QuestName="Dressing Down" QuestId="12648" TurnInName="Stefan Vadu" TurnInId="28518" />
+<TurnIn QuestName="Gymer's Salvation" QuestId="12914" TurnInName="Engineer Reed" TurnInId="29688" />
+<PickUp QuestName="Our Only Hope" QuestId="12916" GiverName="Engineer Reed" GiverId="29688" />
+<TurnIn QuestName="Light Won't Grant Me Vengeance" QuestId="12904" TurnInName="Gerk" TurnInId="29455" />
+<UseItem QuestName="Our Only Hope" QuestId="12916" ItemId="41507" X="5796.425" Y="-1579.191" Z="233.9809" />
+<TurnIn QuestName="Our Only Hope" QuestId="12916" TurnInName="Gymer" TurnInId="29647" />
+<PickUp QuestName="Defend the Stand" QuestId="12503" GiverName="Commander Falstaav" GiverId="28059" />
+<Objective QuestName="Defend the Stand" QuestId="12503" Type="KillMob" MobId="28022" KillCount="10" />
+<TurnIn QuestName="Defend the Stand" QuestId="12503" TurnInName="Commander Falstaav" TurnInId="28059" />
+<PickUp QuestName="The Blessing of Zim'Abwa" QuestId="12565" GiverName="Hexxer Ubungo" GiverId="28062" />
+<Objective QuestName="The Blessing of Zim'Abwa" QuestId="12565" Type="CollectItem" ItemId="38551" CollectCount="10" />
+<TurnIn QuestName="The Blessing of Zim'Abwa" QuestId="12565" TurnInName="Zim'Abwa" TurnInId="190535" TurnInType="Object" X="5248.609" Y="-2441.381" Z="290.0513" />
+<PickUp QuestName="Siphoning the Spirits" QuestId="12799" GiverName="Captain Arnath" GiverId="28045" />
+<Objective QuestName="Siphoning the Spirits" QuestId="12799" Type="CollectItem" ItemId="40066" CollectCount="5" />
+<TurnIn QuestName="Siphoning the Spirits" QuestId="12799" TurnInName="Captain Arnath" TurnInId="28045" />
+<PickUp QuestName="Stocking the Shelves" QuestId="12609" GiverName="Captain Arnath" GiverId="28045" />
+<PickUp QuestName="Clipping Their Wings" QuestId="12610" GiverName="Captain Arnath" GiverId="28045" />
+<Objective QuestName="Stocking the Shelves" QuestId="12609" Type="CollectItem" ItemId="38610" CollectCount="7" />
+<Objective QuestName="Clipping Their Wings" QuestId="12610" Type="CollectItem" ItemId="38620" CollectCount="7" />
+<TurnIn QuestName="Clipping Their Wings" QuestId="12610" TurnInName="Captain Arnath" TurnInId="28045" />
+<TurnIn QuestName="Stocking the Shelves" QuestId="12609" TurnInName="Captain Arnath" TurnInId="28045" />
+<PickUp QuestName="Just Checkin'" QuestId="13099" GiverName="Chronicler To'kini" GiverId="28527" />
+<TurnIn QuestName="Just Checkin'" QuestId="13099" TurnInName="Chronicler Bah'Kini" TurnInId="30676" />
+<PickUp QuestName="Eggs for Dubra'Jin" QuestId="13556" GiverName="Ha'wana" GiverId="33025" />
+<Objective QuestName="Eggs for Dubra'Jin" QuestId="13556" Type="CollectItem" ItemId="44921" CollectCount="12" />
+<TurnIn QuestName="Eggs for Dubra'Jin" QuestId="13556" TurnInName="Ha'wana" TurnInId="33025" />
+<SetGrindArea>
+<GrindArea>
+<Hotspots>
+<Hotspot X="5723.28" Y="5676.782" Z="-79.16576" />
+<Hotspot X="5810.312" Y="5743.952" Z="-67.146" />
+<Hotspot X="6007.064" Y="5661.847" Z="-60.15242" />
+<Hotspot X="6178.333" Y="5570.44" Z="-43.88614" />
+<Hotspot X="6018.328" Y="5742.01" Z="-38.44308" />
+<Hotspot X="5884.928" Y="5836.82" Z="-39.20026" />
+<Hotspot X="5777.578" Y="5934.696" Z="-43.4478" />
+<Hotspot X="5647.35" Y="5914.773" Z="-53.92718" />
+</Hotspots>
+</GrindArea>
+</SetGrindArea>
+<GrindTo Level="77"/>
+<!--Sholazar Basin-->
+<Checkpoint Level="77" />
+<PickUp QuestName="It Could Be Anywhere!" QuestId="12624" GiverName="Chad" GiverId="28497" />
+<PickUp QuestName="Need an Engine, Take an Engine" QuestId="12522" GiverName="Weslex Quickwrench" GiverId="28033" />
+<PickUp QuestName="Venture Co. Misadventure" QuestId="12524" GiverName="Debaar" GiverId="28032" />
+<Objective QuestName="It Could Be Anywhere!" QuestId="12624" Type="CollectItem" ItemId="38642" CollectCount="1" />
+<TurnIn QuestName="It Could Be Anywhere!" QuestId="12624" TurnInName="Chad" TurnInId="28497" />
+<Objective QuestName="Need an Engine, Take an Engine" QuestId="12522" Type="CollectItem" ItemId="38334" CollectCount="1" />
+<TurnIn QuestName="Need an Engine, Take an Engine" QuestId="12522" TurnInName="Weslex Quickwrench" TurnInId="28033" />
+<Objective QuestName="Venture Co. Misadventure" QuestId="12524" Type="KillMob" MobId="28123" KillCount="15" />
+<TurnIn QuestName="Venture Co. Misadventure" QuestId="12524" TurnInName="Debaar" TurnInId="28032" />
+<PickUp QuestName="Have a Part, Give a Part" QuestId="12523" GiverName="Weslex Quickwrench" GiverId="28033" />
+<Objective QuestName="Have a Part, Give a Part" QuestId="12523" Type="CollectItem" ItemId="38349" CollectCount="7" />
+<TurnIn QuestName="Have a Part, Give a Part" QuestId="12523" TurnInName="Weslex Quickwrench" TurnInId="28033" />
+<PickUp QuestName="Aerial Surveillance" QuestId="12696" GiverName="Professor Calvert" GiverId="28266" />
+<PickUp QuestName="Wipe That Grin Off His Face" QuestId="12525" GiverName="Debaar" GiverId="28032" />
+<Objective QuestName="Wipe That Grin Off His Face" QuestId="12525" Type="KillMob" MobId="28186" KillCount="1" />
+<Objective QuestName="Wipe That Grin Off His Face" QuestId="12525" Type="KillMob" MobId="28188" KillCount="1" />
+<TurnIn QuestName="Wipe That Grin Off His Face" QuestId="12525" TurnInName="Debaar" TurnInId="28032" />
+<PickUp QuestName="Dreadsaber Mastery: Becoming a Predator" QuestId="12549" GiverName="Buck Cantwell" GiverId="28031" />
+<PickUp QuestName="Rhino Mastery: The Test" QuestId="12520" GiverName="Hemet Nesingwary" GiverId="27986" />
+<Objective QuestName="Dreadsaber Mastery: Becoming a Predator" QuestId="12549" Type="KillMob" MobId="28001" KillCount="15" />
+<Objective QuestName="Rhino Mastery: The Test" QuestId="12520" Type="KillMob" MobId="28009" KillCount="15" />
+<TurnIn QuestName="Dreadsaber Mastery: Becoming a Predator" QuestId="12549" TurnInName="Buck Cantwell" TurnInId="28031" />
+<TurnIn QuestName="Rhino Mastery: The Test" QuestId="12520" TurnInName="Hemet Nesingwary" TurnInId="27986" />
+<PickUp QuestName="Dreadsaber Mastery: Stalking the Prey" QuestId="12550" GiverName="Buck Cantwell" GiverId="28031" />
+<PickUp QuestName="Rhino Mastery: The Chase" QuestId="12526" GiverName="Hemet Nesingwary" GiverId="27986" />
+<PickUp QuestName="A Steak Fit for a Hunter" QuestId="12804" GiverName="Korg the Cleaver" GiverId="28046" />
+<PickUp QuestName="Crocolisk Mastery: The Trial" QuestId="12551" GiverName="Debaar" GiverId="28032" />
+<TurnIn QuestName="Rhino Mastery: The Chase" QuestId="12526" TurnInName="Oracle Soo-rahm" TurnInId="28191" />
+<PickUp QuestName="An Offering for Soo-rahm" QuestId="12543" GiverName="Oracle Soo-rahm" GiverId="28191" />
+<Objective QuestName="Dreadsaber Mastery: Stalking the Prey" QuestId="12550" Type="UseObject" ObjectId="190700" UseCount="3" />
+<Objective QuestName="An Offering for Soo-rahm" QuestId="12543" Type="CollectItem" ItemId="38505" CollectCount="5" />
+<Objective QuestName="Crocolisk Mastery: The Trial" QuestId="12551" Type="KillMob" MobId="28002" KillCount="15" />
+<TurnIn QuestName="An Offering for Soo-rahm" QuestId="12543" TurnInName="Oracle Soo-rahm" TurnInId="28191" />
+<PickUp QuestName="The Bones of Nozronn" QuestId="12544" GiverName="Oracle Soo-rahm" GiverId="28191" />
+<UseItem QuestName="The Bones of Nozronn" QuestId="12544" ItemId="38519" X="5210.412" Y="5791.234" Z="-70.80236" />
+<Objective QuestName="A Steak Fit for a Hunter" QuestId="12804" Type="CollectItem" ItemId="40394" CollectCount="5" />
+<TurnIn QuestName="A Steak Fit for a Hunter" QuestId="12804" TurnInName="Korg the Cleaver" TurnInId="28046" />
+<TurnIn QuestName="Crocolisk Mastery: The Trial" QuestId="12551" TurnInName="Debaar" TurnInId="28032" />
+<PickUp QuestName="Crocolisk Mastery: The Plan" QuestId="12560" GiverName="Debaar" GiverId="28032" />
+<TurnIn QuestName="Dreadsaber Mastery: Stalking the Prey" QuestId="12550" TurnInName="Buck Cantwell" TurnInId="28031" />
+<PickUp QuestName="Dreadsaber Mastery: Ready to Pounce" QuestId="12558" GiverName="Buck Cantwell" GiverId="28031" />
+<TurnIn QuestName="The Bones of Nozronn" QuestId="12544" TurnInName="Hemet Nesingwary" TurnInId="27986" />
+<PickUp QuestName="Rhino Mastery: The Kill" QuestId="12556" GiverName="Hemet Nesingwary" GiverId="27986" />
+<Objective QuestName="Crocolisk Mastery: The Plan" QuestId="12560" Type="CollectItem" ItemId="38553" CollectCount="5" />
+<TurnIn QuestName="Aerial Surveillance" QuestId="12696" TurnInName="Pilot Vic" TurnInId="28746" GiverType="NPC" />
+<PickUp QuestName="An Embarassing Incident" QuestId="12699" GiverName="Pilot Vic" GiverId="28746" GiverType="NPC"/>
+<PickUp QuestName="The Part-time Hunter" QuestId="12654" GiverName="Tamara Wobblesprocket" GiverId="28568" />
+<UseItem QuestName="An Embarassing Incident" QuestId="12699" ItemId="40390" X="5484.894" Y="4766.305" Z="-198.1657"/>
+<Objective QuestName="An Embarassing Incident" QuestId="12699" Type="CollectItem" ItemId="39264" CollectCount="1" />
+<TurnIn QuestName="An Embarassing Incident" QuestId="12699" TurnInName="Pilot Vic" TurnInId="28746" />
+<Objective QuestName="Rhino Mastery: The Kill" QuestId="12556" Type="CollectItem" ItemId="38522" CollectCount="1" />
+<Objective QuestName="Dreadsaber Mastery: Ready to Pounce" QuestId="12558" Type="CollectItem" ItemId="38523" CollectCount="1" />
+<Objective QuestName="The Part-time Hunter" QuestId="12654" Type="CollectItem" ItemId="38703" CollectCount="1" />
+<PickUp QuestName="Playing Along" QuestId="12528" GiverName="Tracker Gekgek" GiverId="28095" />
+<TurnIn QuestName="Playing Along" QuestId="12528" TurnInName="High-Shaman Rakjak" TurnInId="28082" />
+<PickUp QuestName="The Ape Hunter's Slave" QuestId="12529" GiverName="High-Shaman Rakjak" GiverId="28082" />
+<Objective QuestName="The Ape Hunter's Slave" QuestId="12529" Type="KillMob" MobId="28098" KillCount="8" />
+<Objective QuestName="The Ape Hunter's Slave" QuestId="12529" Type="KillMob" MobId="28096" KillCount="6" />
+<Objective QuestName="Tormenting the Softknuckles" QuestId="12530" Type="KillMob" MobId="28213" KillCount="1" />
+<Objective QuestName="Tormenting the Softknuckles" QuestId="12530" Type="CollectItem" ItemId="38467" CollectCount="1" />
+<TurnIn QuestName="Tormenting the Softknuckles" QuestId="12530" TurnInName="High-Shaman Rakjak" TurnInId="28082" />
+<TurnIn QuestName="The Ape Hunter's Slave" QuestId="12529" TurnInName="High-Shaman Rakjak" TurnInId="28082" />
+<PickUp QuestName="The Wasp Hunter's Apprentice" QuestId="12533" GiverName="High-Shaman Rakjak" GiverId="28082" />
+<PickUp QuestName="The Sapphire Queen" QuestId="12534" GiverName="Elder Harkek" GiverId="28138" />
+<Objective QuestName="The Sapphire Queen" QuestId="12534" Type="CollectItem" ItemId="38477" CollectCount="1" />
+<Objective QuestName="The Wasp Hunter's Apprentice" QuestId="12533" Type="KillMob" MobId="28086" KillCount="6" />
+<Objective QuestName="The Wasp Hunter's Apprentice" QuestId="12533" Type="KillMob" MobId="28085" KillCount="9" />
+<TurnIn QuestName="The Wasp Hunter's Apprentice" QuestId="12533" TurnInName="High-Shaman Rakjak" TurnInId="28082" />
+<TurnIn QuestName="The Sapphire Queen" QuestId="12534" TurnInName="High-Shaman Rakjak" TurnInId="28082" />
+<TurnIn QuestName="Rhino Mastery: The Kill" QuestId="12556" TurnInName="Hemet Nesingwary" TurnInId="27986" />
+<TurnIn QuestName="Dreadsaber Mastery: Ready to Pounce" QuestId="12558" TurnInName="Buck Cantwell" TurnInId="28031" />
+<TurnIn QuestName="Crocolisk Mastery: The Plan" QuestId="12560" TurnInName="Debaar" TurnInId="28032" />
+<PickUp QuestName="Crocolisk Mastery: The Ambush" QuestId="12569" GiverName="Debaar" GiverId="28032" />
+<UseItem QuestName="Crocolisk Mastery: The Ambush" QuestId="12569" ItemId="38564" X="5444.874" Y="4903" Z="-191.6308" />
+<Objective QuestName="Crocolisk Mastery: The Ambush" QuestId="12569" Type="CollectItem" ItemId="38559" CollectCount="1" />
+<TurnIn QuestName="Crocolisk Mastery: The Ambush" QuestId="12569" TurnInName="Debaar" TurnInId="28032" />
+<PickUp QuestName="In Search of Bigger Game" QuestId="12595" GiverName="Hemet Nesingwary" GiverId="27986" />
+<TurnIn QuestName="In Search of Bigger Game" QuestId="12595" TurnInName="Dorian Drakestalker" TurnInId="28376" />
+<PickUp QuestName="Sharpening Your Talons" QuestId="12603" GiverName="Dorian Drakestalker" GiverId="28376" />
+<Objective QuestName="Sharpening Your Talons" QuestId="12603" Type="KillMob" MobId="28378" KillCount="6" />
+<TurnIn QuestName="Sharpening Your Talons" QuestId="12603" TurnInName="Dorian Drakestalker" TurnInId="28376" />
+<SetGrindArea>
+<GrindArea>
+<Factions>2030 14 2080 2063 834</Factions>
+<Hotspots>
+<Hotspot X="5723.28" Y="5676.782" Z="-79.16576" />
+<Hotspot X="5810.312" Y="5743.952" Z="-67.146" />
+<Hotspot X="6007.064" Y="5661.847" Z="-60.15242" />
+<Hotspot X="6178.333" Y="5570.44" Z="-43.88614" />
+<Hotspot X="6018.328" Y="5742.01" Z="-38.44308" />
+<Hotspot X="5884.928" Y="5836.82" Z="-39.20026" />
+<Hotspot X="5777.578" Y="5934.696" Z="-43.4478" />
+<Hotspot X="5647.35" Y="5914.773" Z="-53.92718" />
+</Hotspots>
+</GrindArea>
+</SetGrindArea>
+<GrindTo Level="78" />
+
+<Checkpoint Level="78" />
+<PickUp QuestName="Clean Up" QuestId="12818" GiverName="Jeer Sparksocket" GiverId="29431" />
+<PickUp QuestName="Reclaimed Rations" QuestId="12827" GiverName="Ricket" GiverId="29428" />
+<PickUp QuestName="Expression of Gratitude" QuestId="12836" GiverName="Ricket" GiverId="29428" />
+<Objective QuestName="Clean Up" QuestId="12818" Type="CollectItem" ItemId="40603" CollectCount="10" />
+<Objective QuestName="Expression of Gratitude" QuestId="12836" Type="KillMob" MobId="30003" KillCount="1" />
+<Objective QuestName="Reclaimed Rations" QuestId="12827" Type="CollectItem" ItemId="40645" CollectCount="16" />
+<TurnIn QuestName="Reclaimed Rations" QuestId="12827" TurnInName="Ricket" TurnInId="29428" />
+<TurnIn QuestName="Expression of Gratitude" QuestId="12836" TurnInName="Ricket" TurnInId="29428" />
+<TurnIn QuestName="Clean Up" QuestId="12818" TurnInName="Jeer Sparksocket" TurnInId="29431" />
+<PickUp QuestName="Ore Repossession" QuestId="12830" GiverName="Tore Rumblewrench" GiverId="29430" />
+<PickUp QuestName="Moving In" QuestId="12829" GiverName="Tore Rumblewrench" GiverId="29430" />
+<Objective QuestName="Moving In" QuestId="12829" Type="KillMob" MobId="29412" KillCount="12" />
+<Objective QuestName="Ore Repossession" QuestId="12830" Type="CollectItem" ItemId="40744" CollectCount="5" />
+<PickUp QuestName="Only Partly Forgotten" QuestId="12831" GiverName="Injured Goblin Miner" GiverId="29434" />
+<Objective QuestName="Only Partly Forgotten" QuestId="12831" Type="CollectItem" ItemId="40944" CollectCount="1" />
+<TurnIn QuestName="Only Partly Forgotten" QuestId="12831" TurnInName="Injured Goblin Miner" TurnInId="29434" />
+<TurnIn QuestName="Ore Repossession" QuestId="12830" TurnInName="Tore Rumblewrench" TurnInId="29430" />
+<TurnIn QuestName="Moving In" QuestId="12829" TurnInName="Tore Rumblewrench" TurnInId="29430" />
+<PickUp QuestName="Honor Above All Else" QuestId="13036" GiverName="Highlord Tirion Fordring" GiverId="28179" />
+<TurnIn QuestName="Honor Above All Else" QuestId="13036" TurnInName="Crusade Commander Entari" TurnInId="30223" />
+<PickUp QuestName="Scourge Tactics" QuestId="13008" GiverName="Crusade Commander Entari" GiverId="30223" X="6256.228" Y="-16.39272" Z="410.0319"/>
+<PickUp QuestName="Curing The Incurable" QuestId="13040" GiverName="Father Gustav" GiverId="30226" X="6223.911" Y="-1.391122" Z="410.1637"/>
+<PickUp QuestName="Defending The Vanguard" QuestId="13039" GiverName="Crusader Lord Dalfors" GiverId="30224" X="6259.506" Y="44.82388" Z="388.4307"/>
+<Objective QuestName="Defending The Vanguard" QuestId="13039" Type="KillMob" MobId="30402" KillCount="15" />
+<TurnIn QuestName="Defending The Vanguard" QuestId="13039" TurnInName="Crusader Lord Dalfors" TurnInId="30224" />
+<Objective QuestName="Curing The Incurable" QuestId="13040" Type="CollectItem" ItemId="42770" CollectCount="10" />
+<TurnIn QuestName="Curing The Incurable" QuestId="13040" TurnInName="Father Gustav" TurnInId="30226" />
+<Objective QuestName="Scourge Tactics" QuestId="13008" Type="CollectItem" ItemId="30274" CollectCount="8" />
+<TurnIn QuestName="Scourge Tactics" QuestId="13008" TurnInName="Crusade Commander Entari" TurnInId="30223" />
+<PickUp QuestName="If There Are Survivors..." QuestId="13044" GiverName="Crusade Commander Entari" GiverId="30223" X="6256.05" Y="-17.83882" Z="410.0478"/>
+<TurnIn QuestName="If There Are Survivors..." QuestId="13044" TurnInName="Penumbrius" TurnInId="30227" />
+<PickUp QuestName="Into The Wild Green Yonder" QuestId="13045" GiverName="Penumbrius" GiverId="30227" X="6129.342" Y="-12.45778" Z="383.5179"/>
+<PickUp QuestName="A Cold Front Approaches" QuestId="13070" GiverName="Highlord Tirion Fordring" GiverId="28179" X="6255.528" Y="-41.95619" Z="421.4161" />
+<TurnIn QuestName="A Cold Front Approaches" QuestId="13070" TurnInName="Siegemaster Fezzik" TurnInId="30657" />
+<SetGrindArea>
+<GrindArea>
+<Hotspots>
+			<Hotspot X="8533.027" Y="1443.937" Z="641.4545" />
+			<Hotspot X="8549.787" Y="1516.137" Z="643.6642" />
+			<Hotspot X="8539.152" Y="1579.751" Z="643.1213" />
+			<Hotspot X="8578.573" Y="1607.382" Z="643.2248" />
+			<Hotspot X="8550.8" Y="1679.599" Z="643.6843" />
+</Hotspots>
+</GrindArea>
+</SetGrindArea>
+<GrindTo Level="80"/>
+
+</QuestOrder>
+
+<ProtectedItems>
+        <!-- Instant Poison -->
+        <Item>6497</Item>
+        <Item>6949</Item>
+        <Item>6950</Item>
+        <Item>8926</Item>
+        <Item>8927</Item>
+        <Item>8928</Item>
+        <Item>21927</Item>
+        <Item>43230</Item>
+        <Item>43231</Item>
+ 
+        <!--Rune of Teleportation-->
+        <Item>17031</Item>
+ 
+        <!--Potions-->
+        <!--Healing Potions-->
+        <Item>118</Item>
+        <Item>858</Item>
+        <Item>929</Item>
+        <Item>1710</Item>
+        <Item>3928</Item>
+        <Item>13446</Item>
+        <Item>17556</Item>
+        <Item>28551</Item>
+        <Item>33447</Item>
+ 
+        <!--Hunter Ammo-->
+        <Item>30319</Item>
+        <Item>34581</Item>
+        <Item>34582</Item>
+        <Item>32760</Item>
+        <Item>32761</Item>
+        <Item>31737</Item>
+        <Item>31735</Item>
+        <Item>23773</Item>
+        <Item>33803</Item>
+        <Item>12654</Item>
+        <Item>10579</Item>
+        <Item>32883</Item>
+        <Item>30612</Item>
+        <Item>30611</Item>
+        <Item>32882</Item>
+        <Item>41164</Item>
+        <Item>13377</Item>
+        <Item>11630</Item>
+        <Item>41165</Item>
+        <Item>31949</Item>
+        <Item>3465</Item>
+        <Item>3464</Item>
+        <Item>23772</Item>
+        <Item>10512</Item>
+        <Item>19316</Item>
+        <Item>19317</Item>
+        <Item>10513</Item>
+        <Item>9399</Item>
+        <Item>24417</Item>
+        <Item>18042</Item>
+        <Item>15997</Item>
+        <Item>11284</Item>
+        <Item>28056</Item>
+        <Item>8068</Item>
+        <Item>8067</Item>
+        <Item>8069</Item>
+        <Item>4960</Item>
+        <Item>41584</Item>
+        <Item>2519</Item>
+        <Item>28060</Item>
+        <Item>28061</Item>
+        <Item>11285</Item>
+        <Item>2516</Item>
+        <Item>3030</Item>
+        <Item>2512</Item>
+        <Item>2515</Item>
+        <Item>5568</Item>
+        <Item>3033</Item>
+        <Item>41586</Item>
+        <Item>28053</Item>
+ 
+        <Item>17556</Item>
+        <!--Food and Drinks-->
+        <Item>33444</Item>
+        <Item>33449</Item>
+        <!--Major Healing Potion-->
+        <!--Freshly Baked Bread-->
+        <Item>4541</Item>
+        <!--Mutton Chop-->
+        <Item>3770</Item>
+        <!--Moonberry Juice-->
+        <Item>1645</Item>
+        <!--Morning Glory Dew-->
+        <Item>8766</Item>
+        <!--Lowbie Bags-->
+        <Item>4496</Item>
+        <Item>5571</Item>
+        <Item>828</Item>
+        <Item>5572</Item>
+        <Item>805</Item>
+    </ProtectedItems>
+    <ForceMail>
+        <Item>2589</Item>
+        <!--Linen Cloth-->
+        <Item>2934</Item>
+        <!--Ruined Leather Scraps-->
+        <Item>2592</Item>
+        <!--Wool Cloth-->
+        <Item>4306</Item>
+        <!--Silk cloth-->
+        <Item>4338</Item>
+        <!--Mageweave Cloth-->
+        <Item>14047</Item>
+        <!--Runecloth-->
+        <Item>21877</Item>
+        <!--Netherweave Cloth-->
+        <Item>22470</Item>
+        <!--Frostweave Cloth-->
+        <Item>2318</Item>
+        <!--Light Leather-->
+        <Item>2319</Item>
+        <!--Medium Leather-->
+        <Item>4304</Item>
+        <!--Heavy Leather-->
+        <Item>4234</Item>
+        <!--Thick Leather-->
+        <Item>8170</Item>
+        <!--Rugged Leather-->
+        <Item>21887</Item>
+        <!--Knothide Leathter-->
+        <Item>33568</Item>
+        <!--Borean Leather-->
+        <Item>181166</Item>
+        <!--Bloodthistle-->
+        <Item>2447</Item>
+        <!--Peacebloom-->
+        <Item>765</Item>
+        <!--Silverleaf-->
+        <Item>2449</Item>
+        <!--Earthroot-->
+        <Item>785</Item>
+        <!--Mageroyal-->
+        <Item>2450</Item>
+        <!--Briarthorn-->
+        <Item>2452</Item>
+        <!--Swiftthistle-->
+        <Item>2453</Item>
+        <!--Bruiseweed-->
+        <Item>3355</Item>
+        <!--Wild Steelbloom-->
+        <Item>3356</Item>
+        <!--Kingsblood-->
+        <Item>3357</Item>
+        <!--Liferoot-->
+        <Item>3821</Item>
+        <!--Goldthorn-->
+        <Item>3818</Item>
+        <!--Fadeleaf-->
+        <Item>3358</Item>
+        <!--Khadgar's Whisker-->
+        <Item>3819</Item>
+        <!--Wintersbite-->
+        <Item>8831</Item>
+        <!--Purple Lotus-->
+        <Item>8836</Item>
+        <!--Arthas' Tears-->
+        <Item>8839</Item>
+        <!--Blindweed-->
+        <Item>4625</Item>
+        <!--Firebloom-->
+        <Item>8846</Item>
+        <!--Gromsblood-->
+        <Item>8838</Item>
+        <!--Sungrass-->
+        <Item>13464</Item>
+        <!--Golden Sansam-->
+        <Item>13466</Item>
+        <!--Plaguebloom-->
+        <Item>13465</Item>
+        <!--Mountain Silversage-->
+        <Item>13467</Item>
+        <!--Icecap-->
+        <Item>13463</Item>
+        <!--Dreamfoil-->
+        <Item>13468</Item>
+        <!--Black Lotus-->
+        <Item>22793</Item>
+        <!--Mana Thistle-->
+        <Item>22792</Item>
+        <!--Nightmare Vine-->
+        <Item>22791</Item>
+        <!--Netherbloom-->
+        <Item>22786</Item>
+        <!--Dreaming Glory-->
+        <Item>22787</Item>
+        <!--Ragveil-->
+        <Item>22788</Item>
+        <!--Flame Cap-->
+        <Item>22785</Item>
+        <!--Felweed-->
+        <Item>22789</Item>
+        <!--Terocone-->
+        <Item>22794</Item>
+        <!--Fel Lotus-->
+        <Item>36901</Item>
+        <!--Goldclover-->
+        <Item>191303</Item>
+        <!--Firethorn-->
+        <Item>37921</Item>
+        <!--Deadnettle-->
+        <Item>36904</Item>
+        <!--Tiger Lily-->
+        <Item>36907</Item>
+        <!--Talandra's Rose-->
+        <Item>36903</Item>
+        <!--Adder's Tongue-->
+        <Item>36906</Item>
+        <!--Icethorn-->
+        <Item>36905</Item>
+        <!--Lichbloom-->
+        <Item>36908</Item>
+        <!--Frost Lotus-->
+        <Item>2770</Item>
+        <!--Copper Vein-->
+        <Item>2771</Item>
+        <!--Tin Vein-->
+        <Item>2775</Item>
+        <!--Silver Vein-->
+        <Item>2776</Item>
+        <!--Gold Vein-->
+        <Item>2772</Item>
+        <!--Iron Deposit-->
+        <Item>3858</Item>
+        <!--Mithril Deposit-->
+        <Item>7911</Item>
+        <!--Truesilver Deposit-->
+        <Item>10620</Item>
+        <!--Thorium Vein-->
+        <Item>23425</Item>
+        <!--Adamatite Deposit-->
+        <Item>23424</Item>
+        <!--Fel Iron Deposit-->
+        <Item>23426</Item>
+        <!--Khorium Vein-->
+        <Item>23447</Item>
+        <!--Eternium Vein-->
+        <Item>36909</Item>
+        <!--Cobalt Deposit-->
+        <Item>36912</Item>
+        <!--Saronite Deposit-->
+        <Item>36910</Item>
+        <!--Titanium Vein-->
+        <Item>37705</Item>
+        <!--Crystallized Water-->
+        <Item>17407</Item>
+        <!--Felmist <Mote of Shadow> -->
+        <Item>17378</Item>
+        <!--Swamp Gas <Mote of Water> -->
+        <Item>17408</Item>
+        <!--Arcane Vortex <Mote of Mana> -->
+        <Item>24222</Item>
+        <!--Windy Cloud <Mote of Air>  -->
+        <Item>32544</Item>
+        <!--Steam Cloud <Crystalized Fire> and <Crystalized Water> -->
+        <Item>32522</Item>
+        <!--Cinder Cloud <Crystalized Fire> -->
+        <Item>24879</Item>
+        <!--Arctic Cloud <Crystalized Air> and <Crystalized Water> -->
+        <Item>8499</Item>
+        <!--Tiny Crimson Whelpling-->
+    </ForceMail>
+</HBProfile>

@@ -1,0 +1,31 @@
+﻿<HBProfile>
+  <MinDurability>0.01</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  <MinLevel>1</MinLevel>
+  <MaxLevel>85</MaxLevel>
+  <SellGrey>true</SellGrey>
+  <MailWhite>true</MailWhite>
+  <MailGreen>true</MailGreen>
+  <MailBlue>true</MailBlue>
+  <MailPurple>true</MailPurple>
+  <SubProfile>
+    <Name>[NAF]Hyenas/Camels 83-85</Name>
+    <MinLevel>0</MinLevel>
+    <MaxLevel>85</MaxLevel>
+    <GrindArea>
+      <Factions>1999 1711 16</Factions>
+      <RandomizeHotspots>false</RandomizeHotspots>
+      <MaximumHotspotTime>0</MaximumHotspotTime>
+      <Hotspots>
+<Hotspot X="-10297.2" Y="-686.5615" Z="153.1531" />
+<Hotspot X="-10374.67" Y="-765.2645" Z="146.6872" />
+<Hotspot X="-10454.75" Y="-866.6758" Z="139.3741" />
+<Hotspot X="-10504.94" Y="-1001.828" Z="125.815" />
+<Hotspot X="-10460.58" Y="-1036.993" Z="118.2589" />
+<Hotspot X="-10390.03" Y="-881.6003" Z="126.077" />
+<Hotspot X="-10315.92" Y="-883.9283" Z="115.2948" />
+<Hotspot X="-10229.71" Y="-669.8051" Z="135.5186" />
+      </Hotspots>
+    </GrindArea>
+  </SubProfile>
+</HBProfile>

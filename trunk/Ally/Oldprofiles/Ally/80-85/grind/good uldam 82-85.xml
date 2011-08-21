@@ -1,0 +1,122 @@
+ <HBProfile>
+   <!--
+      PROFILE EXPECTATIONS:
+         * When using this profile, be certain to set the HonorBuddy bot to (select only one):
+                (*) Grinding / Mixed
+                ( ) Questing
+                ( ) PvP
+   
+         * This profile is appropriate for (check all that apply):
+                [X] Alliance
+                [ ] Horde
+    
+         * Profile writers, ALWAYS want to include a <ForceMail> element in a Grinding profile.
+           Details on where to locate one at the bottom of this file.
+  
+         * Profile writers, NEVER include a <ProtectedItems> element in a Grinding profile.
+           Each user should supply his own in a ProtectedItems.xml.
+   
+           The explanation of ProtectedItems.xml is here:
+               http://www.buddyforum.de/mediawiki/index.php?title=HonorBuddy:_About_Protected_Items
+   
+           Users, a sample ProtectedItems block for inclusion into ProtectedItems.xml is here:
+               http://www.buddyforum.de/mediawiki/index.php?title=HB_Profile_Writing:_A_typical_ProtectedItems_Block
+    -->
+   <Name>Uldam neferset guards</Name>
+   <MinLevel>82</MinLevel>
+   <MaxLevel>86</MaxLevel>
+   
+   <MinDurability>0.3</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+   
+   <MailGrey>False</MailGrey>
+   <MailWhite>False</MailWhite>
+   <MailGreen>false</MailGreen>
+   <MailBlue>false</MailBlue>
+   <MailPurple>false</MailPurple>
+   
+   <SellGrey>True</SellGrey>
+   <SellWhite>True</SellWhite>
+   <SellGreen>False</SellGreen>
+   <SellBlue>False</SellBlue>
+   <SellPurple>False</SellPurple>
+   
+   <TargetElites>False</TargetElites>	
+   
+   <AvoidMobs>
+       
+   </AvoidMobs>
+   
+   <Blackspots>
+       
+   </Blackspots>
+
+   <Mailboxes>
+       
+   </Mailboxes>
+   
+   <Vendors>
+       <Vendor Name="Blacksmith Abasi" Entry="48617" Type="Repair" X="-9404.68" Y="-906.438" Z="112.5399" />
+   </Vendors>
+   
+   <GrindArea>
+       <TargetMinLevel>80</TargetMinLevel>
+       <TargetMaxLevel>85</TargetMaxLevel>
+       <Factions>16</Factions>
+       <Hotspots>
+	<Hotspot X="-10493.95" Y="-1155.777" Z="43.6867" />
+	<Hotspot X="-10510.58" Y="-1174.516" Z="43.34034" />
+	<Hotspot X="-10511.33" Y="-1137.518" Z="43.31607" />
+	<Hotspot X="-10527.06" Y="-1156.549" Z="43.80036" />
+	<Hotspot X="-10544.96" Y="-1158.802" Z="45.85432" />
+       </Hotspots>
+   </GrindArea>
+   
+   <!-- If a ForceMail block is needed, a robust block can be found at:
+      http://www.buddyforum.de/mediawiki/index.php?title=HB_Profile_Writing:_A_prototypical_ForceMail_Block
+     -->
+<ProtectedItems>
+<!-- ProtectedItems block
+
+  -->
+   
+   <!-- ========== Basic Items (alphabetically) ========== -->
+        <Item Name="Hearthstone" Entry="6948" />
+        <Item Name="Embersilk Cloth" Entry="53010" />
+        <Item Name="Dreamcloth" Entry="54440" />
+        <Item Name="Volatile Air" Entry="52328" />
+        <Item Name="Volatile Earth" Entry="52327" />
+        <Item Name="Volatile Fire" Entry="52325" />
+        <Item Name="Volatile Life" Entry="52329" />
+        <Item Name="Volatile Water" Entry="52326" />
+        <Item Name="Alicite" Entry="52179" />
+        <Item Name="Carnelian" Entry="52177" />
+        <Item Name="Hessonite" Entry="52181" />
+        <Item Name="Jasper" Entry="52182" />
+        <Item Name="Nightstone" Entry="52180" />
+        <Item Name="Zephyrite" Entry="52178" />
+        <Item Name="Amberjewel" Entry="52195" />
+        <Item Name="Demonseye" Entry="52194" />
+        <Item Name="Dream Emerald" Entry="52192" />
+        <Item Name="Ember Topaz" Entry="52193" />
+        <Item Name="Inferno Ruby" Entry="52190" />
+        <Item Name="Ocean Sapphire" Entry="52191" />
+        <Item Name="Chimera's Eye" Entry="52196" />
+        <Item Name="Stormvine" Entry="202748" />
+        <Item Name="Lichbloom" Entry="36905" />
+        <Item Name="Cinderbloom" Entry="202747" />
+        <Item Name="Azshara's Veil" Entry="202749" />
+        <Item Name="Icethorn" Entry="36906" />
+        <Item Name="Frost Lotus" Entry="36908" />
+        <Item Name="Heartblossom" Entry="202750" />
+        <Item Name="Whiptail" Entry="202752" />
+        <Item Name="Twilight Jasmine" Entry="202751" />
+        <Item Name="Obsidium Ore" Entry="53038" />
+        <Item Name="Elementium Ore" Entry="52185" />
+        <Item Name="Pyrite Ore" Entry="52183" />  
+   
+</ProtectedItems>
+
+</HBProfile>
+  
+      

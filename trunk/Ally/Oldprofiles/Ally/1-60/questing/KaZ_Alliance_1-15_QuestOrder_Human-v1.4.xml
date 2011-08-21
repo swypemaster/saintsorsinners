@@ -1,0 +1,1425 @@
+<HBProfile>
+  <Name>[KaZ] Alliance 1-15 Human [QuestOrder]</Name>
+  <MinDurability>0.2</MinDurability>
+  <MinFreeBagSlots>2</MinFreeBagSlots>
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <MinLevel>1</MinLevel>
+  <MaxLevel>86</MaxLevel>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+  <ContinentID>0</ContinentID>
+  <SubProfile>
+    <Name>[KaZ][Questing|Alliance] 1-5 Human [QuestOrder|Northshire]</Name>
+    <MinLevel>1</MinLevel>
+    <MaxLevel>5</MaxLevel>
+    <AvoidMobs>
+      <Mob Name="Training Dummy" Entry="44548" />
+    </AvoidMobs>
+    <Blackspots>
+      <Blackspot X="-8907.356" Y="-130.1166" Z="80.92081" Radius="1.9639151" />
+    </Blackspots>
+    <QuestOrder>
+      <If Condition="Me.Class == WoWClass.Warrior">
+        <PickUp QuestName="Beating them Back!" QuestId="28766" GiverName="Marshal McBride" GiverId="197" />
+        <Objective QuestName="Beating them Back!" QuestId="28766" Type="KillMob" MobId="49871" KillCount="6" />
+        <TurnIn QuestName="Beating them Back!" QuestId="28766" TurnInName="Marshal McBride" TurnInId="197" />
+        <PickUp QuestName="Lions for Lambs" QuestId="28774" GiverName="Marshal McBride" GiverId="197" />
+        <Objective QuestName="Lions for Lambs" QuestId="28774" Type="KillMob" MobId="49874" KillCount="8" />
+        <TurnIn QuestName="Lions for Lambs" QuestId="28774" TurnInName="Marshal McBride" TurnInId="197" />
+        <PickUp QuestName="Simple Letter" QuestId="3100" GiverName="Llane Beshere" GiverId="911" />
+        <TurnIn QuestName="Simple Letter" QuestId="3100" TurnInName="Llane Beshere" TurnInId="911" />
+        <PickUp QuestName="Charging into Battle" QuestId="26913" GiverName="Llane Beshere" GiverId="911" />
+        <TurnIn QuestName="Charging into Battle" QuestId="26913" TurnInName="Llane Beshere" TurnInId="911" />
+        <PickUp QuestName="Join the Battle!" QuestId="28789" GiverName="Llane Beshere" GiverId="911" />
+        <TurnIn QuestName="Join the Battle!" QuestId="28789" TurnInName="Sergeant Willem" TurnInId="823" />
+        <PickUp QuestName="They Sent Assassins" QuestId="28797" GiverName="Sergeant Willem" GiverId="823" />
+        <Objective QuestName="They Sent Assassins" QuestId="28797" Type="KillMob" Name="Goblin Assassin" MobId="50039" KillCount="8" />
+        <TurnIn QuestName="They Sent Assassins" QuestId="28797" TurnInName="Sergeant Willem" TurnInId="823" />
+        <PickUp QuestName="The Rear is Clear" QuestId="28823" GiverName="Sergeant Willem" GiverId="823" />
+        <TurnIn QuestName="The Rear is Clear" QuestId="28823" TurnInName="Marshal McBride" TurnInId="197" />
+      </If>
+      <If Condition="Me.Class == WoWClass.Hunter">
+        <PickUp QuestName="Beating them Back!" QuestId="28767" GiverName="Marshal McBride" GiverId="197" />
+        <Objective QuestName="Beating them Back!" QuestId="28767" Type="KillMob" MobId="49871" KillCount="6" />
+        <TurnIn QuestName="Beating them Back!" QuestId="28767" TurnInName="Marshal McBride" TurnInId="197" />
+        <PickUp QuestName="Lions for Lambs" QuestId="28759" GiverName="Marshal McBride" GiverId="197" />
+        <Objective QuestName="Lions for Lambs" QuestId="28759" Type="KillMob" MobId="49874" KillCount="8" />
+        <TurnIn QuestName="Lions for Lambs" QuestId="28759" TurnInName="Marshal McBride" TurnInId="197" />		
+		<PickUp QuestName="Etched Letter" QuestId="26910" GiverName="Ashley Blank" GiverId="43278" />
+        <TurnIn QuestName="Etched Letter" QuestId="26910" TurnInName="Ashley Blank" TurnInId="43278" />
+        <PickUp QuestName="The Hunter's Path" QuestId="26917" GiverName="Ashley Blank" GiverId="43278" />
+        <TurnIn QuestName="The Hunter's Path" QuestId="26917" TurnInName="Ashley Blank" TurnInId="43278" />
+        <PickUp QuestName="Join the Battle!" QuestId="28780" GiverName="Ashley Blank" GiverId="43278" />
+        <TurnIn QuestName="Join the Battle!" QuestId="28780" TurnInName="Sergeant Willem" TurnInId="823" />
+        <PickUp QuestName="They Sent Assassins" QuestId="28791" GiverName="Sergeant Willem" GiverId="823" />
+        <Objective QuestName="They Sent Assassins" QuestId="28791" Type="KillMob" Name="Goblin Assassin" MobId="50039" KillCount="8" />
+        <TurnIn QuestName="They Sent Assassins" QuestId="28791" TurnInName="Sergeant Willem" TurnInId="823" />
+        <PickUp QuestName="The Rear is Clear" QuestId="28817" GiverName="Sergeant Willem" GiverId="823" />
+        <TurnIn QuestName="The Rear is Clear" QuestId="28817" TurnInName="Marshal McBride" TurnInId="197" />
+      </If>
+      <If Condition="Me.Class == WoWClass.Warlock">
+        <PickUp QuestName="Beating them Back!" QuestId="28765" GiverName="Marshal McBride" GiverId="197" />
+        <Objective QuestName="Beating them Back!" QuestId="28765" Type="KillMob" MobId="49871" KillCount="6" />
+        <TurnIn QuestName="Beating them Back!" QuestId="28765" TurnInName="Marshal McBride" TurnInId="197" />
+        <PickUp QuestName="Lions for Lambs" QuestId="28773" GiverName="Marshal McBride" GiverId="197" />
+        <Objective QuestName="Lions for Lambs" QuestId="28773" Type="KillMob" MobId="49874" KillCount="8" />
+        <TurnIn QuestName="Lions for Lambs" QuestId="28773" TurnInName="Marshal McBride" TurnInId="197" />
+		<PickUp QuestName="Tainted Letter" QuestId="3105" GiverName="Drusilla La Salle" GiverId="459" />
+        <TurnIn QuestName="Tainted Letter" QuestId="3105" TurnInName="Drusilla La Salle" TurnInId="459" />
+        <PickUp QuestName="Immolation" QuestId="26914" GiverName="Drusilla La Salle" GiverId="459" />
+        <TurnIn QuestName="Immolation" QuestId="26914" TurnInName="Drusilla La Salle" TurnInId="459" />
+        <PickUp QuestName="Join the Battle!" QuestId="28788" GiverName="Drusilla La Salle" GiverId="459" />
+        <TurnIn QuestName="Join the Battle!" QuestId="28788" TurnInName="Sergeant Willem" TurnInId="823" />
+        <PickUp QuestName="They Sent Assassins" QuestId="28796" GiverName="Sergeant Willem" GiverId="823" />
+        <Objective QuestName="They Sent Assassins" QuestId="28796" Type="KillMob" Name="Goblin Assassin" MobId="50039" KillCount="8" />
+        <TurnIn QuestName="They Sent Assassins" QuestId="28796" TurnInName="Sergeant Willem" TurnInId="823" />
+        <PickUp QuestName="The Rear is Clear" QuestId="28822" GiverName="Sergeant Willem" GiverId="823" />
+        <TurnIn QuestName="The Rear is Clear" QuestId="28822" TurnInName="Marshal McBride" TurnInId="197" />
+      </If>
+      <If Condition="Me.Class == WoWClass.Rogue">
+        <PickUp QuestName="Beating them Back!" QuestId="28764" GiverName="Marshal McBride" GiverId="197" />
+        <Objective QuestName="Beating them Back!" QuestId="28764" Type="KillMob" MobId="49871" KillCount="6" />
+        <TurnIn QuestName="Beating them Back!" QuestId="28764" TurnInName="Marshal McBride" TurnInId="197" />
+        <PickUp QuestName="Lions for Lambs" QuestId="28772" GiverName="Marshal McBride" GiverId="197" />
+        <Objective QuestName="Lions for Lambs" QuestId="28772" Type="KillMob" MobId="49874" KillCount="8" />
+        <TurnIn QuestName="Lions for Lambs" QuestId="28772" TurnInName="Marshal McBride" TurnInId="197" />
+		<PickUp QuestName="Encrypted Letter" QuestId="3102" GiverName="Jorik Kerridan" GiverId="915" />
+        <TurnIn QuestName="Encrypted Letter" QuestId="3102" TurnInName="Jorik Kerridan" TurnInId="915" />
+        <PickUp QuestName="The Deepest Cut" QuestId="26915" GiverName="Jorik Kerridan" GiverId="915" />
+        <TurnIn QuestName="The Deepest Cut" QuestId="26915" TurnInName="Jorik Kerridan" TurnInId="915" />
+        <PickUp QuestName="Join the Battle!" QuestId="28787" GiverName="Jorik Kerridan" GiverId="915" />
+        <TurnIn QuestName="Join the Battle!" QuestId="28787" TurnInName="Sergeant Willem" TurnInId="823" />
+        <PickUp QuestName="They Sent Assassins" QuestId="28795" GiverName="Sergeant Willem" GiverId="823" />
+        <Objective QuestName="They Sent Assassins" QuestId="28795" Type="KillMob" Name="Goblin Assassin" MobId="50039" KillCount="8" />
+        <TurnIn QuestName="They Sent Assassins" QuestId="28795" TurnInName="Sergeant Willem" TurnInId="823" />
+        <PickUp QuestName="The Rear is Clear" QuestId="28821" GiverName="Sergeant Willem" GiverId="823" />
+        <TurnIn QuestName="The Rear is Clear" QuestId="28821" TurnInName="Marshal McBride" TurnInId="197" />
+      </If>
+      <If Condition="Me.Class == WoWClass.Paladin">
+        <PickUp QuestName="Beating them Back!" QuestId="28762" GiverName="Marshal McBride" GiverId="197" />
+        <Objective QuestName="Beating them Back!" QuestId="28762" Type="KillMob" MobId="49871" KillCount="6" />
+        <TurnIn QuestName="Beating them Back!" QuestId="28762" TurnInName="Marshal McBride" TurnInId="197" />
+        <PickUp QuestName="Lions for Lambs" QuestId="28770" GiverName="Marshal McBride" GiverId="197" />
+        <Objective QuestName="Lions for Lambs" QuestId="28770" Type="KillMob" MobId="49874" KillCount="8" />
+        <TurnIn QuestName="Lions for Lambs" QuestId="28770" TurnInName="Marshal McBride" TurnInId="197" />
+        <PickUp QuestName="Consecrated Letter" QuestId="3101" GiverName="Marshal McBride" GiverId="197" />
+        <TurnIn QuestName="Consecrated Letter" QuestId="3101" TurnInName="Brother Sammuel" TurnInId="925" />
+        <PickUp QuestName="The Power of the Light" QuestId="26918" GiverName="Brother Sammuel" GiverId="925" />
+        <TurnIn QuestName="The Power of the Light" QuestId="26918" TurnInName="Brother Sammuel" TurnInId="925" />
+        <PickUp QuestName="Join the Battle!" QuestId="28785" GiverName="Brother Sammuel" GiverId="925" />
+        <TurnIn QuestName="Join the Battle!" QuestId="28785" TurnInName="Sergeant Willem" TurnInId="823" />
+        <PickUp QuestName="They Sent Assassins" QuestId="28793" GiverName="Sergeant Willem" GiverId="823" />
+        <Objective QuestName="They Sent Assassins" QuestId="28793" Type="KillMob" Name="Goblin Assassin" MobId="50039" KillCount="8" />
+        <TurnIn QuestName="They Sent Assassins" QuestId="28793" TurnInName="Sergeant Willem" TurnInId="823" />
+        <PickUp QuestName="The Rear is Clear" QuestId="28819" GiverName="Sergeant Willem" GiverId="823" />
+        <TurnIn QuestName="The Rear is Clear" QuestId="28819" TurnInName="Marshal McBride" TurnInId="197" />
+      </If>
+      <If Condition="Me.Class == WoWClass.Priest">
+        <PickUp QuestName="Beating them Back!" QuestId="28763" GiverName="Marshal McBride" GiverId="197" />
+        <Objective QuestName="Beating them Back!" QuestId="28763" Type="KillMob" MobId="49871" KillCount="6" />
+        <TurnIn QuestName="Beating them Back!" QuestId="28763" TurnInName="Marshal McBride" TurnInId="197" />
+        <PickUp QuestName="Lions for Lambs" QuestId="28771" GiverName="Marshal McBride" GiverId="197" />
+        <Objective QuestName="Lions for Lambs" QuestId="28771" Type="KillMob" MobId="49874" KillCount="8" />
+        <TurnIn QuestName="Lions for Lambs" QuestId="28771" TurnInName="Marshal McBride" TurnInId="197" />
+		<PickUp QuestName="Hallowed Letter" QuestId="3103" GiverName="Priestess Anetta" GiverId="375" />
+        <TurnIn QuestName="Hallowed Letter" QuestId="3103" TurnInName="Priestess Anetta" TurnInId="375" />
+        <PickUp QuestName="Healing the Wounded" QuestId="26919" GiverName="Priestess Anetta" GiverId="375" />
+        <TurnIn QuestName="Healing the Wounded" QuestId="26919" TurnInName="Priestess Anetta" TurnInId="375" />
+        <PickUp QuestName="Join the Battle!" QuestId="28786" GiverName="Priestess Anetta" GiverId="375" />
+        <TurnIn QuestName="Join the Battle!" QuestId="28786" TurnInName="Sergeant Willem" TurnInId="823" />
+        <PickUp QuestName="They Sent Assassins" QuestId="28794" GiverName="Sergeant Willem" GiverId="823" />
+        <Objective QuestName="They Sent Assassins" QuestId="28794" Type="KillMob" Name="Goblin Assassin" MobId="50039" KillCount="8" />
+        <TurnIn QuestName="They Sent Assassins" QuestId="28794" TurnInName="Sergeant Willem" TurnInId="823" />
+        <PickUp QuestName="The Rear is Clear" QuestId="28820" GiverName="Sergeant Willem" GiverId="823" />
+        <TurnIn QuestName="The Rear is Clear" QuestId="28820" TurnInName="Marshal McBride" TurnInId="197" />
+      </If>
+      <If Condition="Me.Class == WoWClass.Mage">
+        <PickUp QuestName="Beating them Back!" QuestId="28757" GiverName="Marshal McBride" GiverId="197" />
+        <Objective QuestName="Beating them Back!" QuestId="28757" Type="KillMob" MobId="49871" KillCount="6" />
+        <TurnIn QuestName="Beating them Back!" QuestId="28757" TurnInName="Marshal McBride" TurnInId="197" />
+        <PickUp QuestName="Lions for Lambs" QuestId="28769" GiverName="Marshal McBride" GiverId="197" />
+        <Objective QuestName="Lions for Lambs" QuestId="28769" Type="KillMob" MobId="49874" KillCount="8" />
+        <TurnIn QuestName="Lions for Lambs" QuestId="28769" TurnInName="Marshal McBride" TurnInId="197" />
+		<PickUp QuestName="Glyphic Letter" QuestId="3104" GiverName="Khelden Bremen" GiverId="198" />
+        <TurnIn QuestName="Glyphic Letter" QuestId="3104" TurnInName="Khelden Bremen" TurnInId="198" />
+        <PickUp QuestName="Mastering the Arcane" QuestId="26916" GiverName="Khelden Bremen" GiverId="198" />
+        <TurnIn QuestName="Mastering the Arcane" QuestId="26916" TurnInName="Khelden Bremen" TurnInId="198" />
+        <PickUp QuestName="Join the Battle!" QuestId="28784" GiverName="Khelden Bremen" GiverId="198" />
+        <TurnIn QuestName="Join the Battle!" QuestId="28784" TurnInName="Sergeant Willem" TurnInId="823" />
+        <PickUp QuestName="They Sent Assassins" QuestId="28792" GiverName="Sergeant Willem" GiverId="823" />
+        <Objective QuestName="They Sent Assassins" QuestId="28792" Type="KillMob" Name="Goblin Assassin" MobId="50039" KillCount="8" />
+        <TurnIn QuestName="They Sent Assassins" QuestId="28792" TurnInName="Sergeant Willem" TurnInId="823" />
+        <PickUp QuestName="The Rear is Clear" QuestId="28818" GiverName="Sergeant Willem" GiverId="823" />
+        <TurnIn QuestName="The Rear is Clear" QuestId="28818" TurnInName="Marshal McBride" TurnInId="197" />
+      </If>
+      <PickUp QuestName="Blackrock Invasion" QuestId="26389" GiverName="Marshal McBride" GiverId="197" />
+      <Objective QuestName="Blackrock Invasion" QuestId="26389" Type="CollectItem" Name="Blackrock Orc Weapon" ItemId="58361" CollectCount="8" />
+      <TurnIn QuestName="Blackrock Invasion" QuestId="26389" TurnInName="Marshal McBride" TurnInId="197" />
+      <PickUp QuestName="Ending the Invasion!" QuestId="26390" GiverName="Marshal McBride" GiverId="197" />
+      <Objective QuestName="Ending the Invasion!" QuestId="26390" Type="KillMob" Name="Kurtok the Slayer" MobId="42938" KillCount="1" />
+      <TurnIn QuestName="Ending the Invasion!" QuestId="26390" TurnInName="Marshal McBride" TurnInId="197" />
+      <PickUp QuestName="Report to Goldshire" QuestId="54" GiverName="Marshal McBride" GiverId="197" />
+	  <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>3</TargetMinLevel>
+          <TargetMaxLevel>5</TargetMaxLevel>
+          <Factions>7 32 14</Factions>
+          <Hotspots>
+            <RandomizeHotspots>True</RandomizeHotspots>
+            <Hotspot X="-8967.943" Y="-375.8716" Z="73.11469" />
+            <Hotspot X="-8872.168" Y="-369.2667" Z="73.20724" />
+            <Hotspot X="-8936.924" Y="-448.251" Z="80.24292" />
+            <Hotspot X="-9040.439" Y="-423.9886" Z="71.34547" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <Grindto Level="5"/>
+    </QuestOrder>
+    <Vendors>
+      <Vendor Name="Brother Danil" Entry="152" Type="Food" X="-8901.59" Y="-112.716" Z="81.84828" />
+      <Vendor Name="Godric Rothgar" Entry="1213" Type="Repair" X="-8898.231" Y="-119.8379" Z="81.83493" />
+      <Vendor Name="Khelden Bremen" Entry="198" Type="Train" TrainClass="Mage" X="-8851.57" Y="-188.234" Z="89.31455" />
+      <Vendor Name="Priestess Anetta" Entry="375" Type="Train" TrainClass="Priest" X="-8853.587" Y="-193.336" Z="81.9331" />
+      <Vendor Name="Drusilla La Salle" Entry="459" Type="Train" TrainClass="Warlock" X="-8926.743" Y="-195.5889" Z="80.58859" />
+      <Vendor Name="Jorik Kerridan" Entry="915" Type="Train" TrainClass="Rogue" X="-8863.468" Y="-210.9055" Z="80.57187" />
+      <Vendor Name="Brother Sammuel" Entry="925" Type="Train" TrainClass="Paladin" X="-8914.567" Y="-215.0163" Z="82.11676" />
+      <Vendor Name="Llane Beshere" Entry="911" Type="Train" TrainClass="Warrior" X="-8918.364" Y="-208.4109" Z="82.12556" />
+      <Vendor Name="Ashley Blank" Entry="43278" Type="Train" TrainClass="Hunter" X="-8924.651" Y="-149.9028" Z="81.36338" />
+    </Vendors>
+    <Mailboxes>
+      <Mailbox X="-8908.27" Y="-129.904" Z="80.91549" />
+    </Mailboxes>
+  </SubProfile>
+  <SubProfile>
+    <Name>[KaZ][Questing|Alliance] 5-10 Human [QuestOrder|Goldshire|Eastvale Logging Camp]</Name>
+    <MinLevel>5</MinLevel>
+    <MaxLevel>10</MaxLevel>
+    <AvoidMobs>
+      <Mob Name="Training Dummy" Entry="44548" />
+      <Mob Name="Bandit" Entry="116" />
+    </AvoidMobs>
+    <Quest Id="26152" Name="Wanted: James Clark">
+      <Objective Type="Collect" ItemId="57122" CollectCount="1">
+        <Hotspots>
+          <Hotspot X="-9494.834" Y="-1196.06" Z="49.56646" />
+        </Hotspots>
+      </Objective>
+    </Quest>
+    <Quest Id="47" Name="Gold Dust Exchange">
+      <Objective Type="CollectItem" ItemId="773" CollectCount="10">
+        <Hotspots>
+          <Hotspot X="-9792.924" Y="148.6573" Z="24.36459" />
+          <Hotspot X="-9790.336" Y="146.164" Z="24.74088" />
+        </Hotspots>
+      </Objective>
+    </Quest>
+    <Quest Id="60" Name="Kobold Candles">
+      <Objective Type="CollectItem" ItemId="772" CollectCount="8">
+        <Hotspots>
+          <Hotspot X="-9792.924" Y="148.6573" Z="24.36459" />
+          <Hotspot X="-9790.336" Y="146.164" Z="24.74088" />
+        </Hotspots>
+      </Objective>
+    </Quest>
+    <Quest Id="87" Name="Goldtooth">
+      <Objective Type="Collect" ItemId="981" CollectCount="1">
+        <CollectFrom>
+          <Mob Id="327" Name="Goldtooth" />
+        </CollectFrom>
+        <Hotspots>
+          <Hotspot X="-9803.375" Y="138.1248" Z="52.31993" />
+        </Hotspots>
+      </Objective>
+    </Quest>
+    <Quest Id="83" Name="Fine Linen Goods">
+      <Objective Type="Collect" ItemId="1019" CollectCount="6">
+        <Hotspots>
+          <Hotspot X="-9194.271" Y="-1127.831" Z="70.45897" />
+          <Hotspot X="-9220.792" Y="-1095.72" Z="71.00063" />
+          <Hotspot X="-9234.589" Y="-1029.086" Z="69.35631" />
+          <Hotspot X="-9248.219" Y="-990.4721" Z="67.45255" />
+          <Hotspot X="-9217.466" Y="-973.5811" Z="70.20268" />
+          <Hotspot X="-9156.251" Y="-949.0311" Z="70.4827" />
+        </Hotspots>
+      </Objective>
+    </Quest>
+    <Quest Id="46" Name="Bounty on Murlocs">
+      <Objective Type="Collect" ItemId="780" CollectCount="8">
+        <CollectFrom>
+          <Mob Id="732" Name="Murloc Lurker" />
+          <Mob Id="46" Name="Murloc Forager" />
+        </CollectFrom>
+        <Hotspots>
+          <Hotspot X="-9308.878" Y="-1157.69" Z="68.80774" />
+          <Hotspot X="-9200.046" Y="-1254.434" Z="76.95231" />
+        </Hotspots>
+        <Blackspots>
+          <Blackspot X="-9211.377" Y="-1252.56" Z="76.9533" Radius="10.699564" />
+        </Blackspots>
+      </Objective>
+    </Quest>
+    <Blackspots>
+      <Blackspot X="-8907.356" Y="-130.1166" Z="80.92081" Radius="1.9639151" />
+      <Blackspot X="-9056.966" Y="-364.7452" Z="73.30579" Radius="29.56319" />
+      <Blackspot X="-8789.665" Y="-248.4299" Z="82.44733" Radius="5" />
+      <Blackspot X="-8752.785" Y="-190.9217" Z="85.40722" Radius="5" />
+      <Blackspot X="-8769.156" Y="-114.911" Z="83.35869" Radius="5" />
+      <Blackspot X="-9555.457" Y="95.38097" Z="58.59454" Radius="56.24086" />
+      <Blackspot X="-9550.905" Y="120.948" Z="59.16756" Radius="32.19931" />
+      <Blackspot X="-9574.67" Y="28.19108" Z="60.25593" Radius="41.94389" />
+      <Blackspot X="-9455.604" Y="45.82354" Z="56.60705" Radius="5.415222" />
+    </Blackspots>
+    <QuestOrder>
+      <PickUp QuestName="Rest and Relaxation" QuestId="2158" GiverName="Falkhaan Isenstrider" GiverId="6774" />
+      <TurnIn QuestName="Report to Goldshire" QuestId="54" TurnInName="Marshal Dughan" TurnInId="240" X="-9465.577" Y="72.70617" Z="56.49507" />
+      <PickUp QuestName="The Fargodeep Mine" QuestId="62" GiverName="Marshal Dughan" GiverId="240" />
+      <PickUp QuestName="Gold Dust Exchange" QuestId="47" GiverName="Remy&quot;Two Times&quot;" GiverId="241" />
+      <PickUp QuestName="Kobold Candles" QuestId="60" GiverName="William Pestle" GiverId="253" />
+      <TurnIn QuestName="Rest and Relaxation" QuestId="2158" TurnInName="Innkeeper Farley" TurnInId="295" />
+      <Objective QuestName="Gold Dust Exchange" QuestId="47" Type="CollectItem" ItemId="773" CollectCount="10" />
+      <Objective QuestName="Kobold Candles" QuestId="60" Type="CollectItem" ItemId="772" CollectCount="8" />
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>3</TargetMinLevel>
+          <TargetMaxLevel>6</TargetMaxLevel>
+          <Factions>26</Factions>
+          <Hotspots>
+            <RandomizeHotspots>True</RandomizeHotspots>
+            <Hotspot X="-9873.256" Y="180.7318" Z="18.13993" />
+            <Hotspot X="-9899.715" Y="221.0688" Z="15.1909" />
+            <Hotspot X="-9870.471" Y="213.6296" Z="14.00844" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <Grindto Level="6"/>
+      <TurnIn QuestName="Kobold Candles" QuestId="60" TurnInName="William Pestle" TurnInId="253" />
+      <PickUp QuestName="A Visit With Maybell" QuestId="26150" GiverName="William Pestle" GiverId="253" />
+      <TurnIn QuestName="The Fargodeep Mine" QuestId="62" TurnInName="Marshal Dughan" TurnInId="240" />
+      <PickUp QuestName="The Jasperlode Mine" QuestId="76" GiverName="Marshal Dughan" GiverId="240" />
+      <TurnIn QuestName="Gold Dust Exchange" QuestId="47" TurnInName="Remy &quot;Two Times&quot;" TurnInId="241" />
+      <TurnIn QuestName="A Visit With Maybell" QuestId="26150" TurnInName="Maybell Maclure" TurnInId="251" />
+      <PickUp QuestName="Young Lovers" QuestId="106" GiverName="Maybell Maclure" GiverId="251" />
+      <PickUp QuestName="Lost Necklace" QuestId="85" GiverName="&quot;Auntie&quot; Bernice Stonefield" GiverId="246" X="-9890.032" Y="338.4336" Z="36.4637" />
+      <Objective QuestName="Young Lovers" QuestId="106" Type="CollectItem" ItemId="1208" CollectCount="1" />
+      <TurnIn QuestName="Young Lovers" QuestId="106" TurnInName="Tommy Joe Stonefield" TurnInId="252" />
+      <PickUp QuestName="Speak with Gramma" QuestId="111" GiverName="Tommy Joe Stonefield" GiverId="252" />
+      <TurnIn QuestName="Speak with Gramma" QuestId="111" TurnInName="Gramma Stonefield" TurnInId="248" />
+      <PickUp QuestName="Note to William" QuestId="107" GiverName="Gramma Stonefield" GiverId="248" />
+      <Objective QuestName="Note to William" QuestId="107" Type="CollectItem" ItemId="1252" CollectCount="1" />
+      <TurnIn QuestName="Lost Necklace" QuestId="85" TurnInName="Billy Maclure" TurnInId="247" />
+      <PickUp QuestName="Pie for Billy" QuestId="86" GiverName="Billy Maclure" GiverId="247" />
+      <Objective QuestName="Pie for Billy" QuestId="86" Type="CollectItem" ItemId="60401" CollectCount="4" />
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>6</TargetMinLevel>
+          <TargetMaxLevel>7</TargetMaxLevel>
+          <Factions>189</Factions>
+          <Hotspots>
+            <Hotspot X="-9954.406" Y="72.49335" Z="33.14707" />
+            <Hotspot X="-9966.273" Y="111.2808" Z="33.34238" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <Grindto Level="7"/>
+      <TurnIn QuestName="Pie for Billy" QuestId="86" TurnInName="&quot;Auntie&quot;Bernice Stonefield" TurnInId="246" />
+      <PickUp QuestName="Back to Billy" QuestId="84" GiverName="&quot;Auntie&quot;Bernice Stonefield" GiverId="246" />
+      <Objective QuestName="Back to Billy" QuestId="84" Type="CollectItem" ItemId="962" CollectCount="1" />
+      <TurnIn QuestName="Back to Billy" QuestId="84" TurnInName="Billy Maclure" TurnInId="247" />
+      <PickUp QuestName="Goldtooth" QuestId="87" GiverName="Billy Maclure" GiverId="247" />
+      <Objective QuestName="Goldtooth" QuestId="87" Type="CollectItem" ItemId="981" CollectCount="1" />
+      <TurnIn QuestName="Goldtooth" QuestId="87" TurnInName="&quot;Auntie&quot;Bernice Stonefield" TurnInId="246" />
+      <PickUp QuestName="Princess Must Die!" QuestId="88" GiverName="Ma Stonefield" GiverId="244" />
+      <Objective QuestName="Princess Must Die!" QuestId="88" Type="CollectItem" ItemId="1006" CollectCount="1" />
+      <TurnIn QuestName="Princess Must Die!" QuestId="88" TurnInName="Ma Stonefield" TurnInId="244" />
+      <PickUp QuestName="A Fishy Peril" QuestId="40" GiverName="Remy&quot;Two Times&quot;" GiverId="241" />
+      <TurnIn QuestName="A Fishy Peril" QuestId="40" TurnInName="Marshal Dughan" TurnInId="240" />
+      <PickUp QuestName="Further Concerns" QuestId="35" GiverName="Marshal Dughan" GiverId="240" />
+      <TurnIn QuestName="Note to William" QuestId="107" TurnInName="William Pestle" TurnInId="253" />
+      <PickUp QuestName="Collecting Kelp" QuestId="112" GiverName="William Pestle" GiverId="253" />
+      <Objective QuestName="Collecting Kelp" QuestId="112" Type="CollectItem" ItemId="1256" CollectCount="4" />
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>7</TargetMinLevel>
+          <TargetMaxLevel>9</TargetMaxLevel>
+          <Factions>18 38</Factions>
+          <Hotspots>
+            <Hotspot X="-9531.392" Y="-341.8155" Z="59.11568" />
+            <Hotspot X="-9530.466" Y="-289.4689" Z="59.52356" />
+            <Hotspot X="-9461.674" Y="-336.9723" Z="59.16798" />
+            <Hotspot X="-9496.574" Y="-401.8203" Z="59.57899" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <Grindto Level="8"/>
+      <RunTo X="-9086.532" Y="-557.8581" Z="60.70144" QuestId="76"/>
+      <TurnIn QuestName="The Jasperlode Mine" QuestId="76" TurnInName="Marshal Dughan" TurnInId="240" />
+      <TurnIn QuestName="Collecting Kelp" QuestId="112" TurnInName="William Pestle" TurnInId="253" />
+      <PickUp QuestName="The Escape" QuestId="114" GiverName="William Pestle" GiverId="253" />
+      <Objective QuestName="The Escape" QuestId="114" Type="CollectItem" ItemId="1257" CollectCount="1" />
+      <TurnIn QuestName="The Escape" QuestId="114" TurnInName="Maybell Maclure" TurnInId="251" />
+      <TurnIn QuestName="Further Concerns" QuestId="35" TurnInName="Guard Thomas" TurnInId="261" />
+      <PickUp QuestName="Find the Lost Guards" QuestId="37" GiverName="Guard Thomas" GiverId="261" />
+      <PickUp QuestName="Protect the Frontier" QuestId="52" GiverName="Guard Thomas" GiverId="261" />
+      <PickUp QuestName="Bounty on Murlocs" QuestId="46" GiverType="Object" GiverId="203733" X="-9613.294" Y="-1033.362" Z="40.24664" />
+      <PickUp QuestName="Wanted: James Clark" QuestId="26152" GiverType="Object" GiverId="203733" X="-9613.294" Y="-1033.362" Z="40.24664" />
+      <PickUp QuestName="Fine Linen Goods" QuestId="83" GiverName="Sara Timberlain" GiverId="278" X="-9529.587" Y="-1222.869" Z="47.25032" />
+      <PickUp QuestName="A Bundle of Trouble" QuestId="5545" GiverName="Supervisor Raelen" GiverId="10616" />
+      <Objective QuestName="Wanted: James Clark" QuestId="26152" Type="CollectItem" ItemId="57122" CollectCount="1" />
+      <TurnIn QuestName="Find the Lost Guards" QuestId="37" TurnInName="A half-eaten body" TurnInId="55" />
+      <PickUp QuestName="Discover Rolf's Fate" QuestId="45" GiverType="Object" GiverId="55" X="-9335.764" Y="-986.4834" Z="67.69179" />
+      <Objective QuestName="Fine Linen Goods" QuestId="83" Type="CollectItem" ItemId="1019" CollectCount="6" />
+      <TurnIn QuestName="Discover Rolf's Fate" QuestId="45" TurnInType="Object" TurnInId="56" X="-9224.173" Y="-1234.316" Z="73.73194" />
+      <PickUp QuestName="Report to Thomas" QuestId="71" GiverType="Object" GiverId="56" X="-9224.173" Y="-1234.316" Z="73.73194" />
+      <Objective QuestName="Report to Thomas" QuestId="71" Type="CollectItem" ItemId="735" CollectCount="1" />
+      <Objective QuestName="Bounty on Murlocs" QuestId="46" Type="CollectItem" ItemId="780" CollectCount="8" />
+      <Objective QuestName="Protect the Frontier" QuestId="52" Type="KillMob" MobId="118" KillCount="8" />
+      <Objective QuestName="Protect the Frontier" QuestId="52" Type="KillMob" MobId="822" KillCount="5" />
+      <Objective QuestName="A Bundle of Trouble" QuestId="5545" Type="CollectItem" ItemId="13872" CollectCount="8" />
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>8</TargetMinLevel>
+          <TargetMaxLevel>10</TargetMaxLevel>
+          <Factions>38 44 18</Factions>
+          <Hotspots>
+            <Hotspot X="-9347.283" Y="-1266.581" Z="63.75726" />
+            <Hotspot X="-9294.096" Y="-1211.16" Z="69.30965" />
+            <Hotspot X="-9252.388" Y="-1272.799" Z="72.93996" />
+            <Hotspot X="-9370.188" Y="-1440.907" Z="64.21999" />
+            <Hotspot X="-9460.382" Y="-1510.899" Z="64.09034" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <Grindto Level="9"/>
+      <TurnIn QuestName="Wanted: James Clark" QuestId="26152" TurnInName="Marshal McCree" TurnInId="42256" />
+      <TurnIn QuestName="A Bundle of Trouble" QuestId="5545" TurnInName="Supervisor Raelen" TurnInId="10616" />
+      <TurnIn QuestName="Fine Linen Goods" QuestId="83" TurnInName="Sara Timberlain" TurnInId="278" />
+      <TurnIn QuestName="Bounty on Murlocs" QuestId="46" TurnInName="Guard Thomas" TurnInId="261" />
+      <TurnIn QuestName="Protect the Frontier" QuestId="52" TurnInName="Guard Thomas" TurnInId="261" />
+      <TurnIn QuestName="Report to Thomas" QuestId="71" TurnInName="Guard Thomas" TurnInId="261" />
+      <PickUp QuestName="Cloth and Leather Armor" QuestId="59" GiverName="Guard Thomas" GiverId="261" />
+      <TurnIn QuestName="Cloth and Leather Armor" QuestId="59" TurnInName="Sara Timberlain" TurnInId="278" />
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>9</TargetMinLevel>
+          <TargetMaxLevel>10</TargetMaxLevel>
+          <Factions>38 44 18</Factions>
+          >
+          <Hotspots>
+            <Hotspot X="-9347.283" Y="-1266.581" Z="63.75726" />
+            <Hotspot X="-9294.096" Y="-1211.16" Z="69.30965" />
+            <Hotspot X="-9252.388" Y="-1272.799" Z="72.93996" />
+            <Hotspot X="-9370.188" Y="-1440.907" Z="64.21999" />
+            <Hotspot X="-9460.382" Y="-1510.899" Z="64.09034" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <Grindto Level="10"/>
+      <Checkpoint Level="10" />
+    </QuestOrder>
+    <Vendors>
+      <Vendor Name="Corina Steele" Entry="54" Type="Repair" X="-9464.4" Y="94.0174" Z="58.34372" />
+      <Vendor Name="Innkeeper Farley" Entry="295" Type="Food" X="-9462.663" Y="16.19151" Z="56.96306" />
+      <Vendor Name="Keryn Sylvius" Entry="917" Type="Train" TrainClass="Rogue" X="-9465.792" Y="12.6454" Z="63.82055" />
+      <Vendor Name="Priestess Josetta" Entry="377" Type="Train" TrainClass="Priest" X="-9460.753" Y="33.13379" Z="63.82045" />
+      <Vendor Name="Brother Wilhelm" Entry="927" Type="Train" TrainClass="Paladin" X="-9466.16" Y="109.757" Z="57.61904" />
+      <Vendor Name="Lyria Du Lac" Entry="913" Type="Train" TrainClass="Warrior" X="-9463.16" Y="110.005" Z="57.70275" />
+      <Vendor Name="Maximillian Crowe" Entry="906" Type="Train" TrainClass="Warlock" X="-9472.802" Y="-5.326606" Z="49.79485" />
+      <Vendor Name="Zaldimar Wefhellt" Entry="328" Type="Train" TrainClass="Mage" X="-9471.675" Y="34.45095" Z="63.82158" />
+      <Vendor Name="Benjamin Foxworthy" Entry="46983" Type="Train" TrainClass="Hunter" X="-9464.94" Y="117.432" Z="57.96372" />
+      <Vendor Name="Rallic Finn" Entry="1198" Type="Repair" X="-9469.282" Y="-1355.242" Z="47.20493" />
+      <Vendor Name="Drake Lindgren" Entry="1250" Type="Food" X="-9483.098" Y="-1356.247" Z="46.95809" />
+    </Vendors>
+    <Mailboxes>
+      <Mailbox X="-9456.721" Y="46.77825" Z="56.60653" />
+    </Mailboxes>
+  </SubProfile>
+  <SubProfile>
+    <Name>[KaZ][Questing|Alliance] 10-15 Human [QuestOrder|Westbrook Garrison|Westfall]</Name>
+    <MinLevel>10</MinLevel>
+    <MaxLevel>15</MaxLevel>
+    <Quest Id="176" Name="Wanted: &quot;Hogger&quot;">
+      <Objective Type="KillMob" MobId="448" KillCount="1">
+        <Hotspots>
+          <Hotspot X="-10139.54" Y="669.1921" Z="35.95509" />
+        </Hotspots>
+      </Objective>
+    </Quest>
+    <Quest Id="26349" Name="The Coastal Menace">
+      <Objective Type="CollectItem" ItemId="3636" CollectCount="1">
+        <Hotspots>
+          <Hotspot X="-11360.31" Y="1809.013" Z="7.908248" />
+        </Hotspots>
+      </Objective>
+    </Quest>
+    <QuestOrder>
+      <PickUp QuestName="Hero's Call: Westfall!" QuestId="26378" GiverName="Marshal McCree" GiverId="42256" />
+      <PickUp QuestName="Westbrook Garrison Needs Help!" QuestId="239" GiverName="Marshal Dughan" GiverId="240" />
+      <PickUp QuestName="Wanted: &quot;Hogger&quot;" QuestId="176" GiverType="Object" GiverId="68" X="-9669.776" Y="684.2137" Z="36.62647" />
+      <TurnIn QuestName="Westbrook Garrison Needs Help!" QuestId="239" TurnInName="Deputy Rainer" TurnInId="963" />
+      <PickUp QuestName="Riverpaw Gnoll Bounty" QuestId="11" GiverName="Deputy Rainer" GiverId="963" />
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>9</TargetMinLevel>
+          <TargetMaxLevel>11</TargetMaxLevel>
+          <Factions>20 44</Factions>
+          <Hotspots>
+            <Hotspot X="-9769.086" Y="600.627" Z="34.66552" />
+            <Hotspot X="-9838.275" Y="561.9289" Z="38.90784" />
+            <Hotspot X="-9900.22" Y="557.8003" Z="36.91216" />
+            <Hotspot X="-9996.392" Y="537.4791" Z="35.60508" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <Grindto Level="11"/>
+      <Checkpoint Level="11" />
+      <Objective QuestName="Wanted: &quot;Hogger&quot;" QuestId="176" Type="KillMob" MobId="448" KillCount="1" />
+      <PickUp QuestName="Furlbrow's Deed" QuestId="184" GiverType="Object" GiverId="203734" X="-10139.54" Y="669.1921" Z="35.95509" />
+      <Objective QuestName="Riverpaw Gnoll Bounty" QuestId="11" Type="CollectItem" ItemId="782" CollectCount="8" />
+      <TurnIn QuestName="Wanted: &quot;Hogger&quot;" QuestId="176" TurnInName="Marshal Dughan" TurnInId="240" />
+      <TurnIn QuestName="Riverpaw Gnoll Bounty" QuestId="11" TurnInName="Deputy Rainer" TurnInId="963" />
+      <TurnIn QuestName="Hero's Call: Westfall!" QuestId="26378" TurnInName="Lieutenant Horatio Laine" TurnInId="42308" />
+      <TurnIn QuestName="Furlbrow's Deed" QuestId="184" TurnInName="Lieutenant Horatio Laine" TurnInId="42308" />
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>11</TargetMinLevel>
+          <TargetMaxLevel>13</TargetMaxLevel>
+          <Factions>73 38 189 14</Factions>
+          <Hotspots>
+            <Hotspot X="-10266.69" Y="1101.063" Z="41.14666" />
+            <Hotspot X="-10223.1" Y="1134.314" Z="36.0854"   />
+            <Hotspot X="-10171.41" Y="1191.756" Z="36.36875" />
+            <Hotspot X="-10112.85" Y="1182.475" Z="36.25175" />
+            <Hotspot X="-10075.9" Y="1194.451" Z="39.33773"  />
+            <Hotspot X="-10081.68" Y="1131.922" Z="36.5019"  />
+            <Hotspot X="-10127.16" Y="1082.31" Z="36.28313"  />
+            <Hotspot X="-10177.36" Y="1036.547" Z="36.28384" />
+            <Hotspot X="-10205.56" Y="1059.777" Z="36.34751" />
+            <Hotspot X="-10168.35" Y="1107.272" Z="36.90015" />
+          </Hotspots>
+        </GrindArea>
+        <AvoidMobs>
+          <AvoidMob Name="Unbound Cyclone" Entry="832" />
+        </AvoidMobs>
+      </SetGrindArea>
+      <Grindto Level="13"/>
+      <Checkpoint Level="13" />
+      <PickUp QuestName="The Legend of Captain Grayson" QuestId="26371" GiverName="Scout Galiaan" GiverId="878" />
+      <TurnIn QuestName="The Legend of Captain Grayson" QuestId="26371" TurnInName="Captain Grayson" TurnInId="392" />
+      <PickUp QuestName="The Coast Isn't Clear" QuestId="26348" GiverName="Captain Grayson" GiverId="392" />
+      <PickUp QuestName="Keeper of the Flame" QuestId="26347" GiverName="Captain Grayson" GiverId="392" />
+      <PickUp QuestName="The Coastal Menace" QuestId="26349" GiverName="Captain Grayson" GiverId="392" />
+      <Objective QuestName="The Coastal Menace" QuestId="26349" Type="CollectItem" ItemId="3636" CollectCount="1" />
+      <Objective QuestName="The Coast Isn't Clear" QuestId="26348" Type="KillMob" MobId="127" KillCount="7" />
+      <Objective QuestName="The Coast Isn't Clear" QuestId="26348" Type="KillMob" MobId="517" KillCount="7" />
+      <Objective QuestName="Keeper of the Flame" QuestId="26347" Type="CollectItem" ItemId="58204" CollectCount="5" />
+      <TurnIn QuestName="The Coast Isn't Clear" QuestId="26348" TurnInName="Captain Grayson" TurnInId="392" />
+      <TurnIn QuestName="Keeper of the Flame" QuestId="26347" TurnInName="Captain Grayson" TurnInId="392" />
+      <TurnIn QuestName="The Coastal Menace" QuestId="26349" TurnInName="Captain Grayson" TurnInId="392" />
+      <PickUp QuestName="Hero's Call: Redridge Mountains!" QuestId="26365" GiverName="Captain Danuvin" GiverId="821" />
+      <Checkpoint Level="14" />
+      <SetGrindArea>
+        <GrindArea>
+          <TargetMinLevel>14</TargetMinLevel>
+          <TargetMaxLevel>15</TargetMaxLevel>
+          <Factions>17 22 19 189</Factions>
+          <RandomizeHotspots>True</RandomizeHotspots>
+          <Hotspots>
+            <Hotspot X="-9795.188" Y="-1879.384" Z="41.03149" />
+            <Hotspot X="-9792.945" Y="-1834.337" Z="42.92387" />
+            <Hotspot X="-9828.539" Y="-1762.138" Z="23.76241" />
+            <Hotspot X="-9753.371" Y="-1788.219" Z="48.36356" />
+            <Hotspot X="-9719.611" Y="-1784.238" Z="56.32175" />
+            <Hotspot X="-9688.259" Y="-1819.542" Z="58.10881" />
+            <Hotspot X="-9647.03" Y="-1807.629" Z="52.76973"  />
+            <Hotspot X="-9645.658" Y="-1773.924" Z="53.66663" />
+            <Hotspot X="-9652.502" Y="-1740.847" Z="59.23289" />
+            <Hotspot X="-9619.253" Y="-2014.472" Z="62.62923" />
+            <Hotspot X="-9603.792" Y="-1960.28" Z="64.41457"  />
+            <Hotspot X="-9642.149" Y="-1937.888" Z="59.30474" />
+            <Hotspot X="-9664.402" Y="-1963.693" Z="56.54756" />
+            <Hotspot X="-9567.784" Y="-1875.809" Z="67.60642" />
+            <Hotspot X="-9505.147" Y="-1878.826" Z="79.05325" />
+            <Hotspot X="-9477.222" Y="-1862.237" Z="87.69332" />
+            <Hotspot X="-9440.384" Y="-1896.916" Z="87.12054" />
+            <Hotspot X="-9460.334" Y="-1929.39" Z="82.62672" />
+            <Hotspot X="-9478.279" Y="-1909.565" Z="81.17706" />
+            <Hotspot X="-9497.95" Y="-1920.35" Z="78.85899" />
+            <Hotspot X="-9526.519" Y="-1939.059" Z="74.0402" />
+            <Hotspot X="-9593.117" Y="-1963.165" Z="67.67345" />
+            <Hotspot X="-9655.491" Y="-1985.848" Z="57.08094" />
+            <Hotspot X="-9612.564" Y="-2026.795" Z="62.43754" />
+            <Hotspot X="-9532.117" Y="-2017.353" Z="74.77134" />
+            <Hotspot X="-9568.706" Y="-2057.988" Z="67.29362" />
+            <Hotspot X="-9520.96" Y="-2128.598" Z="97.90539" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <Grindto Level="15"/>
+      <Checkpoint Level="15" />
+    </QuestOrder>
+    <Vendors>
+      <Vendor Name="Corina Steele" Entry="54" Type="Repair" X="-9464.4" Y="94.0174" Z="58.34372" />
+      <Vendor Name="Innkeeper Farley" Entry="295" Type="Food" X="-9462.663" Y="16.19151" Z="56.96306" />
+      <Vendor Name="Keryn Sylvius" Entry="917" Type="Train" TrainClass="Rogue" X="-9465.792" Y="12.6454" Z="63.82055" />
+      <Vendor Name="Priestess Josetta" Entry="377" Type="Train" TrainClass="Priest" X="-9460.753" Y="33.13379" Z="63.82045" />
+      <Vendor Name="Brother Wilhelm" Entry="927" Type="Train" TrainClass="Paladin" X="-9466.16" Y="109.757" Z="57.61904" />
+      <Vendor Name="Lyria Du Lac" Entry="913" Type="Train" TrainClass="Warrior" X="-9463.16" Y="110.005" Z="57.70275" />
+      <Vendor Name="Maximillian Crowe" Entry="906" Type="Train" TrainClass="Warlock" X="-9472.802" Y="-5.326606" Z="49.79485" />
+      <Vendor Name="Zaldimar Wefhellt" Entry="328" Type="Train" TrainClass="Mage" X="-9471.675" Y="34.45095" Z="63.82158" />
+      <Vendor Name="Benjamin Foxworthy" Entry="46983" Type="Train" TrainClass="Hunter" X="-9464.94" Y="117.432" Z="57.96372" />
+      <Vendor Name="Quartermaster Hudson" Entry="1249" Type="Repair" X="-9653.945" Y="659.6507" Z="38.65258" />
+      <Vendor Name="Sergeant De Vries" Entry="955" Type="Food" X="-9633.785" Y="699.4894" Z="38.65304" />
+      <Vendor Name="William MacGregor" Entry="1668" Type="Repair" X="-10653.31" Y="996.5868" Z="32.87472" />
+      <Vendor Name="Innkeeper Heather" Entry="8931" Type="Food" X="-10653.28" Y="1166.431" Z="34.50473" />
+      <Vendor Name="Sister Darnhald" Entry="49741" Type="Train" TrainClass="Paladin" X="-10658.86" Y="1170.22" Z="34.49004" />
+      <Vendor Name="Kallen Stanner" Entry="49736" Type="Train" TrainClass="Warrior" X="-10657.5" Y="1172.181" Z="34.51397" />
+      <Vendor Name="Priestess Cocoa Anderson" Entry="49749" Type="Train" TrainClass="Priest" X="-10654.83" Y="1177.418" Z="34.56167" />
+      <Vendor Name="Deborah Fain" Entry="49769" Type="Train" TrainClass="Warlock" X="-10644.16" Y="1168.688" Z="34.5554" />
+      <Vendor Name="Zalna Wefhellt" Entry="49760" Type="Train" TrainClass="Mage" X="-10644.23" Y="1185.938" Z="34.09024" />
+      <Vendor Name="Lyndsay Hollister" Entry="43011" Type="Train" TrainClass="Hunter" X="-10642.74" Y="1187.929" Z="34.14152" />
+      <Vendor Name="Sern Hallows" Entry="49745" Type="Train" TrainClass="Rogue" X="-10634.92" Y="1191.038" Z="34.27001" />
+      <Vendor Name="Kara Adams" Entry="793" Type="Repair" X="-9247.732" Y="-2234.377" Z="63.93403" />
+      <Vendor Name="Lindsay Ashlock" Entry="791" Type="Food" X="-9260.255" Y="-2195.371" Z="63.93361" />
+      <Vendor Name="Keryn Sylvius" Entry="917" Type="Train" TrainClass="Rogue" X="-9465.792" Y="12.6454" Z="63.82055" />
+      <Vendor Name="Priestess Josetta" Entry="377" Type="Train" TrainClass="Priest" X="-9460.753" Y="33.13379" Z="63.82045" />
+      <Vendor Name="Brother Wilhelm" Entry="927" Type="Train" TrainClass="Paladin" X="-9466.16" Y="109.757" Z="57.61904" />
+      <Vendor Name="Lyria Du Lac" Entry="913" Type="Train" TrainClass="Warrior" X="-9463.16" Y="110.005" Z="57.70275" />
+      <Vendor Name="Cylina Darkheart" Entry="6374" Type="Train" TrainClass="Warlock" X="-9466.971" Y="-5.529351" Z="49.79376" />
+      <Vendor Name="Zaldimar Wefhellt" Entry="328" Type="Train" TrainClass="Mage" X="-9471.675" Y="34.45095" Z="63.82158" />
+      <Vendor Name="Benjamin Foxworthy" Entry="46983" Type="Train" TrainClass="Hunter" X="-9464.94" Y="117.432" Z="57.96372" />
+      <Vendor Name="Celestine of the Harvest" Entry="44395" Type="Train" TrainClass="Druid" X="-8284.26" Y="724.349" Z="75.2835" />
+      <Vendor Name="Farseer Umbrua" Entry="20407" Type="Train" TrainClass="Shaman" X="-8359.28" Y="577.384" Z="104.249" />
+    </Vendors>
+    <Mailboxes>
+      <Mailbox X="-9456.721" Y="46.77825" Z="56.60653" />
+      <Mailbox X="-10643.38" Y="1157.339" Z="33.24381" />
+      <Mailbox X="-9250.684" Y="-2144.213" Z="64.02137" />
+    </Mailboxes>
+  </SubProfile>
+  <!--Items that will not be sold or mailed-->
+  <ProtectedItems>
+    <!-- ========== Basic Items (alphabetically) ========== -->
+    <Item Name="Hearthstone" Entry="6948" />
+    <!-- Basic Items: Bandages (ordered by skill to make) -->
+    <Item Name="Linen Bandage" Entry="1251" />
+    <Item Name="Heavy Linen Bandage" Entry="2581" />
+    <Item Name="Wool Bandage" Entry="3530" />
+    <Item Name="Heavy Wool Bandage" Entry="3531" />
+    <Item Name="Silk Bandage" Entry="6450" />
+    <Item Name="Arathi Basin Silk Bandage" Entry="20067" />
+    <Item Name="Defiler's Silk Bandage" Entry="20235" />
+    <Item Name="Highlander's Silk Bandage" Entry="20244" />
+    <Item Name="Warsong Gulch Silk Bandage" Entry="19068" />
+    <Item Name="Manual: Heavy Silk Bandage" Entry="16112" />
+    <Item Name="Heavy Silk Bandage" Entry="6451" />
+    <Item Name="Manual: Mageweave Bandage" Entry="16113" />
+    <Item Name="Mageweave Bandage" Entry="8544" />
+    <Item Name="Arathi Basin Mageweave Bandage" Entry="20065" />
+    <Item Name="Defiler's Mageweave Bandage" Entry="20232" />
+    <Item Name="Highlander's Mageweave Bandage" Entry="20237" />
+    <Item Name="Warsong Gulch Mageweave Bandage" Entry="19067" />
+    <Item Name="Heavy Mageweave Bandage" Entry="8545" />
+    <Item Name="Runecloth Bandage" Entry="14529" />
+    <Item Name="Arathi Basin Runecloth Bandage" Entry="20066" />
+    <Item Name="Defiler's Runecloth Bandage" Entry="20234" />
+    <Item Name="Highlander's Runecloth Bandage" Entry="20243" />
+    <Item Name="Warsong Gulch Runecloth Bandage" Entry="19066" />
+    <Item Name="Heavy Runecloth Bandage" Entry="14530" />
+    <Item Name="Alterac Heavy Runecloth Bandage" Entry="19307" />
+    <Item Name="Manual: Netherweave Bandage" Entry="21992" />
+    <Item Name="Netherweave Bandage" Entry="21990" />
+    <Item Name="Manual: Heavy Netherweave Bandage" Entry="21993" />
+    <Item Name="Heavy Netherweave Bandage" Entry="21991" />
+    <Item Name="Frostweave Bandage" Entry="34721" />
+    <Item Name="Manual: Heavy Frostweave Bandage" Entry="39152" />
+    <Item Name="Heavy Frostweave Bandage" Entry="34722" />
+    <Item Name="Dense Frostweave Bandage" Entry="38640" />
+    <Item Name="Thick Frostweave Bandage" Entry="38643" />
+    <!-- Basic Items: Drink (ordered by level) -->
+    <!-- There are far too many drink items to list them all, and most are never used.
+         We only list the 'mainstream' items here, sorted by level.  If a "Stat food" is
+         needed, please place it in the "Basic Items: Drink & Food with Stats (ordered by level)"
+         section below.
+         We keep the food & drink sections separated, as warrior and rogues
+         could care less about drinks, and healing classes could care less about food.
+         -->
+    <Item Name="Refreshing Spring Water" Entry="159" />
+    <Item Name="Ice Cold Milk" Entry="1179" />
+    <Item Name="Melon Juice" Entry="1205" />
+    <Item Name="Sweet Nectar" Entry="1708" />
+    <Item Name="Moonberry Juice" Entry="1645" />
+    <Item Name="Morning Glory Dew" Entry="8766" />
+    <Item Name="Footman's Waterskin" Entry="24007" />
+    <Item Name="Grunt's Waterskin" Entry="24006" />
+    <Item Name="Filtered Draenic Water" Entry="28399" />
+    <Item Name="Purified Draenic Water" Entry="27860" />
+    <Item Name="Star's Lament" Entry="32455" />
+    <Item Name="Star's Tears" Entry="32453" />
+    <Item Name="Sweetened Goat's Milk" Entry="35954" />
+    <Item Name="Pungent Seal Whey" Entry="33444" />
+    <Item Name="Honeymint Tea" Entry="33445" />
+    <!-- Basic Items: Drink & Food with Stats (ordered by level to use) -->
+    <Item Name="Alterac Manna Biscuit" Entry="19301" />
+    <Item Name="Enriched Manna Biscuit" Entry="13724" />
+    <Item Name="Fisherman's Feast" Entry="33052" />
+    <Item Name="Fish Feast" Entry="43015" />
+    <Item Name="Jillian's Gourmet Fish Feast" Entry="45279" />
+    <!-- Basic Items: Food  (ordered by level) -->
+    <!-- There are far too many food items to list them all, and most are never used.
+         We only list the 'mainstream' items here, sorted by level.  If a "Stat food" is
+         needed, please place it in the "Basic Items: Drink & Food with Stats (ordered by level)"
+         section.
+         We keep the food & drink sections separated, as warrior and rogues
+         could care less about drinks, and healing classes could care less about food.
+         -->
+    <Item Name="Freshly Baked Bread" Entry="4541" />
+    <Item Name="Haunch of Meat" Entry="2287" />
+    <Item Name="Shiny Red Apple" Entry="4536" />
+    <Item Name="Tel'Abim Banana" Entry="4537" />
+    <Item Name="Tough Hunk of Bread" Entry="4540" />
+    <Item Name="Tough Jerky" Entry="117" />
+    <Item Name="Moist Cornbread" Entry="4542" />
+    <Item Name="Mutton Chop" Entry="3770" />
+    <Item Name="Snapvine Watermelon" Entry="4538" />
+    <Item Name="Goldenbark Apple" Entry="4539" />
+    <Item Name="Mulgore Spice Bread" Entry="4544" />
+    <Item Name="Wild Hog Shank" Entry="3771" />
+    <Item Name="Cured Ham Steak" Entry="4599" />
+    <Item Name="Moon Harvest Pumpkin" Entry="4602" />
+    <Item Name="Soft Banana Bread" Entry="4601" />
+    <Item Name="Alterac Swiss" Entry="8932" />
+    <Item Name="Deep Fried Plantains" Entry="8953" />
+    <Item Name="Homemade Cherry Pie" Entry="8950" />
+    <Item Name="Roasted Quail" Entry="8952" />
+    <Item Name="Garadar Sharp" Entry="27857" />
+    <Item Name="Mag'har Grainbread" Entry="27855" />
+    <Item Name="Skethyl Berries" Entry="27856" />
+    <Item Name="Smoked Talbuk Venison" Entry="27854" />
+    <Item Name="Bladespire Bagel" Entry="29449" />
+    <Item Name="Clefthoof Ribs" Entry="29451" />
+    <Item Name="Crusty Flatbread" Entry="33449" />
+    <Item Name="Mag'har Mild Cheese" Entry="29448" />
+    <Item Name="Salted Venison" Entry="33454" />
+    <Item Name="Sour Goat Cheese" Entry="33443" />
+    <Item Name="Telaari Grapes" Entry="29450" />
+    <Item Name="Tundra Berries" Entry="35949" />
+    <Item Name="Briny Hardcheese" Entry="35952" />
+    <Item Name="Mead Basted Caribou" Entry="35953" />
+    <Item Name="Savory Snowplum" Entry="35948" />
+    <Item Name="Sweet Potato Bread" Entry="35950" />
+    <!-- Basic Items: Food, Hunter's Exotic Pet  (ordered by level to use) -->
+    <Item Name="Kibler's Bits" Entry="33874" />
+    <Item Name="Sporeling Snack" Entry="27656" />
+    <!-- Basic Items: Potions, Flasks  (alphabetical) -->
+    <Item Name="Flask of Blinding Light" Entry="22861" />
+    <Item Name="Flask of Chromatic Resistance" Entry="13513" />
+    <Item Name="Flask of Chromatic Wonder" Entry="33208" />
+    <Item Name="Flask of Distilled Wisdom" Entry="13511" />
+    <Item Name="Flask of Endless Rage" Entry="46377" />
+    <Item Name="Flask of Fortification" Entry="22851" />
+    <Item Name="Flask of the Frost Wyrm" Entry="46376" />
+    <Item Name="Flask of Mighty Restoration" Entry="22853" />
+    <Item Name="Flask of Petrification" Entry="13506" />
+    <Item Name="Flask of Pure Death" Entry="22866" />
+    <Item Name="Flask of Pure Mojo" Entry="46378" />
+    <Item Name="Flask of Relentless Assault" Entry="22854" />
+    <Item Name="Flask of Stoneblood" Entry="46379" />
+    <Item Name="Flask of Supreme Power" Entry="13512" />
+    <Item Name="Flask of the North" Entry="47499" />
+    <Item Name="Flask of the Titans" Entry="13510" />
+    <Item Name="Shattrath Flask of Blinding Light" Entry="35717" />
+    <Item Name="Shattrath Flask of Fortification" Entry="32898" />
+    <Item Name="Shattrath Flask of Mighty Restoration" Entry="32899" />
+    <Item Name="Shattrath Flask of Pure Death" Entry="35716" />
+    <Item Name="Shattrath Flask of Relentless Assault" Entry="32901" />
+    <Item Name="Shattrath Flask of Supreme Power" Entry="32900" />
+    <Item Name="Unstable Flask of the Bandit" Entry="32599" />
+    <Item Name="Unstable Flask of the Beast" Entry="32598" />
+    <Item Name="Unstable Flask of the Elder" Entry="32596" />
+    <Item Name="Unstable Flask of the Physician" Entry="32600" />
+    <Item Name="Unstable Flask of the Soldier" Entry="32597" />
+    <Item Name="Unstable Flask of the Sorcerer" Entry="32601" />
+    <!-- Basic Items: Potions, Health  (ordered by level to use) -->
+    <Item Name="Minor Healing Potion" Entry="118" />
+    <Item Name="Lesser Healing Potion" Entry="858" />
+    <Item Name="Discolored Healing Potion" Entry="4596" />
+    <Item Name="Healing Potion" Entry="929" />
+    <Item Name="Greater Healing Potion" Entry="1710" />
+    <Item Name="Superior Healing Potion" Entry="3928" />
+    <Item Name="Combat Healing Potion" Entry="18839" />
+    <Item Name="Superior Healing Draught" Entry="17349" />
+    <Item Name="Major Healing Potion" Entry="13446" />
+    <Item Name="Major Healing Draught" Entry="17348" />
+    <Item Name="Super Healing Potion" Entry="22829" />
+    <Item Name="Argent Healing Potion" Entry="43531" />
+    <Item Name="Auchenai Healing Potion" Entry="32947" />
+    <Item Name="Bottled Nethergon Vapor" Entry="32905" />
+    <Item Name="Crystal Healing Potion" Entry="33934" />
+    <Item Name="Healing Potion Injector" Entry="33092" />
+    <Item Name="Rulkster's Secret Sauce" Entry="32763" />
+    <Item Name="Volatile Healing Potion" Entry="28100" />
+    <Item Name="Fel Regeneration Potion" Entry="31676" />
+    <Item Name="Major Combat Healing Potion" Entry="31838" />
+    <Item Name="Major Combat Healing Potion" Entry="31839" />
+    <Item Name="Major Combat Healing Potion" Entry="31852" />
+    <Item Name="Major Combat Healing Potion" Entry="31853" />
+    <Item Name="Endless Healing Potion" Entry="43569" />
+    <Item Name="Resurgent Healing Potion" Entry="39671" />
+    <Item Name="Runic Healing Potion" Entry="33447" />
+    <Item Name="Runic Healing Injector" Entry="41166" />
+    <!-- Basic Items: Potions, Mana (ordered by level to use) -->
+    <Item Name="Minor Mana Potion" Entry="2455" />
+    <Item Name="Lesser Mana Potion" Entry="3385" />
+    <Item Name="Mana Potion" Entry="3827" />
+    <Item Name="Greater Mana Potion" Entry="6149" />
+    <Item Name="Superior Mana Draught" Entry="17352" />
+    <Item Name="Superior Mana Potion" Entry="13443" />
+    <Item Name="Combat Mana Potion" Entry="18841" />
+    <Item Name="Major Mana Draught" Entry="17351" />
+    <Item Name="Major Mana Potion" Entry="13444" />
+    <Item Name="Super Mana Potion" Entry="22832" />
+    <Item Name="Argent Mana Potion" Entry="43530" />
+    <Item Name="Auchenai Mana Potion" Entry="32948" />
+    <Item Name="Bottled Nethergon Energy" Entry="32902" />
+    <Item Name="Crystal Mana Potion" Entry="33935" />
+    <Item Name="Mana Potion Injector" Entry="33093" />
+    <Item Name="Rulkster's Brain Juice" Entry="32762" />
+    <Item Name="Unstable Mana Potion" Entry="28101" />
+    <Item Name="Fel Mana Potion" Entry="31677" />
+    <Item Name="Major Combat Mana Potion" Entry="31840" />
+    <Item Name="Major Combat Mana Potion" Entry="31841" />
+    <Item Name="Major Combat Mana Potion" Entry="31854" />
+    <Item Name="Major Combat Mana Potion" Entry="31855" />
+    <Item Name="Endless Mana Potion" Entry="43570" />
+    <Item Name="Icy Mana Potion" Entry="40067" />
+    <Item Name="Runic Mana Potion" Entry="33448" />
+    <Item Name="Runic Mana Injector" Entry="42545" />
+    <!-- Basic Items: Potions, Mana Oil (ordered by level to use) -->
+    <Item Name="Minor Mana Oil" Entry="20745" />
+    <Item Name="Lesser Mana Oil" Entry="20747" />
+    <Item Name="Brilliant Mana Oil" Entry="20748" />
+    <Item Name="Superior Mana Oil" Entry="22521" />
+    <Item Name="Exceptional Mana Oil" Entry="36899" />
+    <!-- Basic Items: Potions, Rejuvenation [Health & Mana] (ordered by level to use) -->
+    <Item Name="Minor Rejuvenation Potion" Entry="2456" />
+    <Item Name="Dreamless Sleep Potion" Entry="12190" />
+    <Item Name="Wildvine Potion" Entry="9144" />
+    <Item Name="Major Rejuvenation Potion" Entry="18253" />
+    <Item Name="Greater Dreamless Sleep Potion" Entry="20002" />
+    <Item Name="Noth's Special Brew" Entry="39327" />
+    <Item Name="Mad Alchemist's Potion" Entry="34440" />
+    <Item Name="Major Dreamless Sleep Potion" Entry="22836" />
+    <Item Name="Potion of Nightmares" Entry="40081" />
+    <Item Name="Super Rejuvenation Potion" Entry="22850" />
+    <Item Name="Powerful Rejuvenation Potion" Entry="40087" />
+    <!-- ========== Classes (alphabetically) ========== -->
+    <!-- Class: Death Knight -->
+    <Item Name="Corpse Dust" Entry="37201" />
+    <!-- Class: Druid -->
+    <!-- Class: Druid, reagents (alphabetical) -->
+    <Item Name="Ashwood Seed" Entry="17036" />
+    <Item Name="Flintweed Seed" Entry="22147" />
+    <Item Name="Hornbeam Seed" Entry="17037" />
+    <Item Name="Ironwood Seed" Entry="17038" />
+    <Item Name="Maple Seed" Entry="17034" />
+    <Item Name="Starleaf Seed" Entry="44614" />
+    <Item Name="Stranglethorn Seed" Entry="17035" />
+    <Item Name="Wild Berries" Entry="17021" />
+    <Item Name="Wild Quillvine" Entry="22148" />
+    <Item Name="Wild Spineleaf" Entry="44605" />
+    <Item Name="Wild Thornroot" Entry="17026" />
+    <!-- Class: Mage -->
+    <!-- Class: Mage, reagents (alphabetical) -->
+    <Item Name="Arcane Powder" Entry="17020" />
+    <Item Name="Light Feather" Entry="17056" />
+    <Item Name="Rune of Portals" Entry="17032" />
+    <Item Name="Rune of Teleportation" Entry="17031" />
+    <!-- Class: Mage, Conjured Drink & Food (sorted by level to use) -->
+    <Item Name="Conjured Water    " Entry="5350" />
+    <Item Name="Conjured Muffin" Entry="5349" />
+    <Item Name="Conjured Fresh Water" Entry="2288" />
+    <Item Name="Conjured Bread" Entry="1113" />
+    <Item Name="Conjured Purified Water" Entry="2136" />
+    <Item Name="Conjured Rye" Entry="1114" />
+    <Item Name="Conjured Spring Water" Entry="3772" />
+    <Item Name="Conjured Pumpernickel" Entry="1487" />
+    <Item Name="Conjured Mineral Water" Entry="8077" />
+    <Item Name="Conjured Sourdough" Entry="8075" />
+    <Item Name="Conjured Sparkling Water" Entry="8078" />
+    <Item Name="Conjured Sweet Roll" Entry="8076" />
+    <Item Name="Conjured Crystal Water" Entry="8079" />
+    <Item Name="Conjured Cinnamon Roll" Entry="22895" />
+    <Item Name="Conjured Mountain Spring Water" Entry="30703" />
+    <Item Name="Conjured Glacier Water" Entry="22018" />
+    <Item Name="Conjured Croissant" Entry="22019" />
+    <Item Name="Conjured Mana Biscuit" Entry="34062" />
+    <Item Name="Conjured Mana Pie" Entry="43518" />
+    <Item Name="Conjured Mana Strudel" Entry="43523" />
+    <!-- Class: Mage, Conjured Gems (sorted by level to use) -->
+    <Item Name="Mana Agate" Entry="5514" />
+    <Item Name="Mana Jade" Entry="5513" />
+    <Item Name="Mana Citrine" Entry="8007" />
+    <Item Name="Mana Ruby" Entry="8008" />
+    <Item Name="Mana Emerald" Entry="22044" />
+    <Item Name="Mana Sapphire" Entry="33312" />
+    <!-- Class: Paladin -->
+    <!-- Class: Paladin, reagents (alphabetical) -->
+    <Item Name="Symbol of Divinity" Entry="17033" />
+    <Item Name="Symbol of Kings" Entry="21177" />
+    <!-- Class: Priest -->
+    <Item Name="Devout Candle" Entry="44615" />
+    <Item Name="Holy Candle" Entry="17028" />
+    <Item Name="Sacred Candle" Entry="17029" />
+    <!-- Class Rogue -->
+    <Item Name="Thieves' Tools" Entry="5060" />
+    <!-- Class: Rogue, poisons (alphabetical) -->
+    <Item Name="Anesthetic Poison" Entry="21835" />
+    <Item Name="Anesthetic Poison II" Entry="43237" />
+    <Item Name="Crippling Poison" Entry="3775" />
+    <Item Name="Crippling Poison II" Entry="3776" />
+    <Item Name="Deadly Poison" Entry="2892" />
+    <Item Name="Deadly Poison II" Entry="2893" />
+    <Item Name="Deadly Poison III" Entry="8984" />
+    <Item Name="Deadly Poison IV" Entry="8985" />
+    <Item Name="Deadly Poison V" Entry="20844" />
+    <Item Name="Deadly Poison VI" Entry="22053" />
+    <Item Name="Deadly Poison VII" Entry="22054" />
+    <Item Name="Deadly Poison VIII" Entry="43232" />
+    <Item Name="Deadly Poison IX" Entry="43233" />
+    <Item Name="Instant Poison" Entry="6947" />
+    <Item Name="Instant Poison II" Entry="6949" />
+    <Item Name="Instant Poison III" Entry="6950" />
+    <Item Name="Instant Poison IV" Entry="8926" />
+    <Item Name="Instant Poison V" Entry="8927" />
+    <Item Name="Instant Poison VI" Entry="8928" />
+    <Item Name="Instant Poison VII" Entry="21927" />
+    <Item Name="Instant Poison VIII" Entry="43230" />
+    <Item Name="Instant Poison IX" Entry="43231" />
+    <Item Name="Mind-numbing Poison" Entry="5237" />
+    <Item Name="Mind-numbing Poison II" Entry="6951" />
+    <Item Name="Mind-numbing Poison III" Entry="9186" />
+    <Item Name="Wound Poison" Entry="10918" />
+    <Item Name="Wound Poison II" Entry="10920" />
+    <Item Name="Wound Poison III" Entry="10921" />
+    <Item Name="Wound Poison IV" Entry="10922" />
+    <Item Name="Wound Poison V" Entry="22055" />
+    <Item Name="Wound Poison VI" Entry="43234" />
+    <Item Name="Wound Poison VII" Entry="43235" />
+    <!-- Class: Shaman -->
+    <!-- Class: Shaman reagents (alphabetical) -->
+    <Item Name="Ankh" Entry="17030" />
+    <Item Name="Fish Oil" Entry="17058" />
+    <Item Name="Shiny Fish Scales" Entry="17057" />
+    <!-- Class: Shaman, Totems (alphabetical) -->
+    <Item Name="Air Totem" Entry="5178" />
+    <Item Name="Earth Totem" Entry="5175" />
+    <Item Name="Fire Totem" Entry="5176" />
+    <Item Name="Water Totem" Entry="5177" />
+    <!-- Class: Warlock -->
+    <!-- Class: Warlock, consumables (alphabetical) -->
+    <Item Name="Demonic Figurine" Entry="16583" />
+    <Item Name="Infernal Stone" Entry="5565" />
+    <Item Name="Soulshard" Entry="43836" />
+    <!-- ========== Reputation Items (alphabetical by Faction) ==========
+      If you don't want these items in your backpack, we suggest setting up
+      Lootfilter to delete the unwanted ones.
+     -->
+    <!-- Reputation: Argent Dawn (alphabetical) -->
+    <Item Name="Argent Dawn Valor Token" Entry="12844" />
+    <Item Name="Bone Fragments" Entry="22526" />
+    <Item Name="Core of Elements" Entry="22527" />
+    <Item Name="Corruptor's Scourgestone" Entry="12843" />
+    <Item Name="Crypt Fiend Parts" Entry="22525" />
+    <Item Name="Dark Iron Scraps" Entry="22528" />
+    <Item Name="Invader's Scourgestone" Entry="12841" />
+    <Item Name="Minion's Scourgestone" Entry="12840" />
+    <Item Name="Savage Frond" Entry="22529" />
+    <!-- Reputation: Booty Bay/Everlook/Gadgetzan/Ratchet (alphabetical) -->
+    <Item Name="Miniaturization Residue" Entry="18956" />
+    <Item Name="Water Elemental Core" Entry="18958" />
+    <!-- Reputation: Cenarion Expedition (alphabetical) -->
+    <Item Name="Coilfang Armaments" Entry="24368" />
+    <Item Name="Nesingwary Lackey Ear" Entry="35188" />
+    <Item Name="Uncatalogued Species" Entry="24407" />
+    <Item Name="Unidentified Plant Parts" Entry="24401" />
+    <!-- Reputation: Darkmoon Faire (alphabetical) -->
+    <Item Name="Coarse Weightstone" Entry="3240" />
+    <Item Name="Copper Modulator" Entry="4363" />
+    <Item Name="Dense Grinding Stone" Entry="12644" />
+    <Item Name="Evil Bat Eye" Entry="11404" />
+    <Item Name="Glowing Scorpid Blood" Entry="19933" />
+    <Item Name="Green Firework" Entry="9313" />
+    <Item Name="Heavy Grinding Stone" Entry="3486" />
+    <Item Name="Mechanical Repair Kit" Entry="11590" />
+    <Item Name="Rugged Armor Kit" Entry="15564" />
+    <Item Name="Small Furry Paw" Entry="5134" />
+    <Item Name="Soft Bushy Tail" Entry="4582" />
+    <Item Name="Thorium Widget" Entry="15994" />
+    <Item Name="Torn Bear Pelt" Entry="11407" />
+    <Item Name="Vibrant Plume" Entry="5117" />
+    <Item Name="Whirring Bronze Gizmo" Entry="4375" />
+    <!-- Reputation: Gadgetzan (alphabetical) -->
+    <Item Name="Wastewander Water Pouch" Entry="8483" />
+    <!-- Reputation: Lower City (alphabetical) -->
+    <Item Name="Arakkoa Feather" Entry="25719" />
+    <!-- Reputation: Kurenai/Mag'har (alphabetical) -->
+    <Item Name="Obsidian Warbeads" Entry="25433" />
+    <!-- Reputation: Netherwing (alphabetical) -->
+    <Item Name="Fel Gland" Entry="32502" />
+    <Item Name="Netherwing Crystal" Entry="32427" />
+    <Item Name="Netherwing Egg" Entry="32506" />
+    <Item Name="Netherwing Relic" Entry="32509" />
+    <Item Name="Nethermine Cargo" Entry="32723" />
+    <Item Name="Nethermine Flayer Hide" Entry="32470" />
+    <Item Name="Nethercite Ore" Entry="32464" />
+    <Item Name="Netherdust Pollen" Entry="32468" />
+    <!-- Reputation: Oracles (alphabetical) -->
+    <Item Name="Energized Polished Crystal" Entry="39748" />
+    <Item Name="Shiny Treasures" Entry="38575" />
+    <!-- Reputation: Ravenholdt (alphabetical) -->
+    <Item Name="Heavy Junkbox" Entry="16885" />
+    <Item Name="Syndicate Emblem" Entry="17124" />
+    <!-- Reputation: Sons of Hodir (alphabetical) -->
+    <Item Name="Everfrost Chip" Entry="44724" />
+    <Item Name="Everfrost Chip" Entry="44725" />
+    <Item Name="Frozen Iron Scrap" Entry="42252" />
+    <Item Name="Relic of Ulduar" Entry="42780" />
+    <Item Name="Viscous Oil" Entry="42640" />
+    <!-- Reputation: Sporeggar (alphabetical) -->
+    <Item Name="Bog Lord Tendril" Entry="24291" />
+    <Item Name="Fertile Spores" Entry="24449" />
+    <Item Name="Glowcap" Entry="24245" />
+    <Item Name="Mature Spore Sac" Entry="24290" />
+    <Item Name="Sanguine Hibiscus" Entry="24246" />
+    <!-- Reputation: The Aldor (alphabetical) -->
+    <Item Name="Dreadfang Venom Sac" Entry="25802" />
+    <Item Name="Fel Armament" Entry="29740" />
+    <Item Name="Mark of Kil'jaeden" Entry="29425" />
+    <Item Name="Mark of Sargeras" Entry="30809" />
+    <!-- Reputation: The Consortium (alphabetical) -->
+    <Item Name="Ethereum Prison Key" Entry="29460" />
+    <Item Name="Ethereum Prisoner I.D. Tag" Entry="31957" />
+    <Item Name="Oshu'gun Crystal Fragment" Entry="25416" />
+    <Item Name="Pair of Ivory Tusks" Entry="25463" />
+    <Item Name="Zaxxis Insignia" Entry="29209" />
+    <!-- Reputation: The Scryers (alphabetical) -->
+    <Item Name="Arcane Tome" Entry="29739" />
+    <Item Name="Dampscale Basilisk Eye" Entry="25744" />
+    <Item Name="Firewing Signet" Entry="29426" />
+    <Item Name="Sunfury Signet" Entry="30810" />
+    <!-- Reputation: Thorium Brotherhood (alphabetical) -->
+    <Item Name="Blood of the Mountain" Entry="11382" />
+    <Item Name="Core Leather" Entry="17012" />
+    <Item Name="Dark Iron Ore" Entry="11370" />
+    <Item Name="Dark Iron Residue" Entry="18945" />
+    <Item Name="Fiery Core" Entry="17010" />
+    <Item Name="Incendosaur Scale" Entry="18944" />
+    <Item Name="Lava Core" Entry="17011" />
+    <!-- Reputation: Timbermaw Hold (alphabetical) -->
+    <Item Name="Deadwood Headdress Feather" Entry="21377" />
+    <Item Name="Winterfall Spirit Beads" Entry="21383" />
+    <!-- Reputation: Zandalar Tribe (alphabetical) -->
+    <Item Name="Arcanum of Focus" Entry="18330" />
+    <Item Name="Arcanum of Protection" Entry="18331" />
+    <Item Name="Arcanum of Rapidity" Entry="18329" />
+    <Item Name="Bloodscalp Coin" Entry="19706" />
+    <Item Name="Gurubashi Coin" Entry="19701" />
+    <Item Name="Hakkari Coin" Entry="19700" />
+    <Item Name="Primal Hakkari Idol" Entry="22637" />
+    <Item Name="Razzashi Coin" Entry="19699" />
+    <Item Name="Sandfury Coin" Entry="19704" />
+    <Item Name="Skullsplitter Coin" Entry="19705" />
+    <Item Name="Vilebranch Coin" Entry="19702" />
+    <Item Name="Witherbark Coin" Entry="19703" />
+    <Item Name="Zandalar Honor Token" Entry="19858" />
+    <Item Name="Zulian Coin" Entry="19698" />
+    <!-- Reputation: Wintersaber Trainers (alphabetical) -->
+    <Item Name="Shardtooth Meat" Entry="12622" />
+    <Item Name="Chillwind Meat" Entry="12623" />
+    <!-- ========== Trade Tools (alphabetical) ========== -->
+    <!-- Trade Tools: Alchemy (sorted by level) -->
+    <Item Name="Empty Vial" Entry="3371" />
+    <Item Name="Leaded Vial" Entry="3372" />
+    <Item Name="Crystal Vial" Entry="8925" />
+    <Item Name="Imbued Vial" Entry="18256" />
+    <Item Name="Enchanted Vial" Entry="40411" />
+    <Item Name="Philsopher's Stone" Entry="9149" />
+    <!-- Trade Tools: Blacksmithing (also see Trade Tools: Multi-purpose) -->
+    <Item Name="Blacksmith Hammer" Entry="5956" />
+    <!-- Trade Tools: Cooking -->
+    <Item Name="Simple Wood" Entry="4470" />
+    <!-- Trade Tools: Enchanting (ordered by skill to use) -->
+    <Item Name="Runed Copper Rod" Entry="6218" />
+    <Item Name="Runed Silver Rod" Entry="6339" />
+    <Item Name="Runed Truesilver Rod" Entry="11145" />
+    <Item Name="Runed Golden Rod" Entry="11130" />
+    <Item Name="Runed Arcanite Rod" Entry="16207" />
+    <Item Name="Runed Fel Iron Rod" Entry="22461" />
+    <Item Name="Runed Adamantite Rod" Entry="22462" />
+    <Item Name="Runed Eternium Rod" Entry="22463" />
+    <Item Name="Runed Titanium Rod" Entry="44452" />
+    <!-- Trade Tools: Engineering (alphabetical) -->
+    <Item Name="Delicate Arcanite Converter" Entry="16006" />
+    <Item Name="Dimensional Ripper - Area 52" Entry="30542" />
+    <Item Name="Dimensional Ripper - Everlook" Entry="18984" />
+    <Item Name="Engineer's Ink" Entry="10647" />
+    <Item Name="Field Repair Bot 74A" Entry="18232" />
+    <Item Name="Field Repair Bot 110G" Entry="34113" />
+    <Item Name="Gnomish Army Knife" Entry="40772" />
+    <Item Name="Goblin Jumper Cables" Entry="7148" />
+    <Item Name="Goblin Jumper Cables XL" Entry="18587" />
+    <Item Name="Jeeves" Entry="49040" />
+    <Item Name="MOLL-E" Entry="40768" />
+    <Item Name="Scrapbot Construction Kit" Entry="40769" />
+    <Item Name="Ultrasafe Transporter: Gadgetzan" Entry="18986" />
+    <Item Name="Ultrasafe Transporter: Toshley's Station" Entry="30544" />
+    <Item Name="Wormhole Generator: Northrend" Entry="48933" />
+    <Item Name="Zapthrottle Mote Extractor" Entry="23821" />
+    <!-- Trade Tools: Fishing (alphabetical) -->
+    <Item Name="Arcanite Fishing Pole" Entry="19970" />
+    <Item Name="Big Iron Fishing Pole" Entry="6367" />
+    <Item Name="Blump Family Fishing Pole" Entry="12225" />
+    <Item Name="Bone Fishing Pole" Entry="45991" />
+    <Item Name="Boots of the Bay" Entry="50287" />
+    <Item Name="Captain Rumsey's Lager" Entry="34832" />
+    <Item Name="Darkwood Fishing Pole" Entry="6366" />
+    <Item Name="Fishing Chair" Entry="33223" />
+    <Item Name="Fishing Pole" Entry="6256" />
+    <Item Name="High Test Eternium Fishing Line" Entry="19971" />
+    <Item Name="Jeweled Fishing Pole" Entry="45992" />
+    <Item Name="Lucky Fishing Hat" Entry="19972" />
+    <Item Name="Mastercraft Kalu'ak Fishing Pole" Entry="44050" />
+    <Item Name="Nat's Lucky Fishing Pole" Entry="45858" />
+    <Item Name="Nat Pagle's Extreme Anglin' Boots" Entry="19969" />
+    <Item Name="Seth's Graphite Fishing Pole" Entry="25978" />
+    <Item Name="Spun Truesilver Fishing Line" Entry="34836" />
+    <Item Name="Strong Fishing Pole" Entry="6365" />
+    <Item Name="Underbelly Elixir" Entry="44012" />
+    <Item Name="Weather-Beaten Fishing Hat" Entry="33820" />
+    <!-- Trade Tools: Herbalist (alphabetical) -->
+    <Item Name="Blood Scythe" Entry="19727" />
+    <!-- Trade Tools: Inscription (ordered by item level) -->
+    <Item Name="Virtuoso Inking Set" Entry="39505" />
+    <Item Name="Light Parchment" Entry="39354" />
+    <Item Name="Earthen Ink" Entry="34645" />
+    <Item Name="Ivory Ink" Entry="37101" />
+    <Item Name="Moonglow Ink" Entry="39469" />
+    <Item Name="Silver Ink" Entry="37100" />
+    <Item Name="Rough Parchment" Entry="34647" />
+    <Item Name="Hunter's Ink" Entry="43115" />
+    <Item Name="Midnight Ink" Entry="39774" />
+    <Item Name="Dawnstar Ink" Entry="43117" />
+    <Item Name="Lion's Ink" Entry="43116" />
+    <Item Name="Jadefire Ink" Entry="43118" />
+    <Item Name="Royal Ink" Entry="43119" />
+    <Item Name="Celestial Ink" Entry="43120" />
+    <Item Name="Common Parchment" Entry="10648" />
+    <Item Name="Fiery Ink" Entry="43121" />
+    <Item Name="Ink of the Sky" Entry="43123" />
+    <Item Name="Shimmering Ink" Entry="43122" />
+    <Item Name="Heavy Parchment" Entry="39501" />
+    <Item Name="Darkflame Ink" Entry="43125" />
+    <Item Name="Ethereal Ink" Entry="43124" />
+    <Item Name="Snowfall Ink" Entry="43127" />
+    <Item Name="Ink of the Sea" Entry="43126" />
+    <Item Name="Resilient Parchment" Entry="39502" />
+    <!-- Trade Tools: Jewelcrafting (alphabetical) -->
+    <Item Name="Jeweler's Kit" Entry="20815" />
+    <Item Name="Simple Grinder" Entry="20824" />
+    <!-- Trade Tools: Leatherworking (alphabetical) -->
+    <Item Name="Salt Shaker" Entry="15846" />
+    <!-- Trade Tools: Mining Tools  (also see Trade Tools: Multi-purpose) -->
+    <Item Name="Brann's Trusty Pick" Entry="20723" />
+    <Item Name="Cold Iron Pick" Entry="1959" />
+    <Item Name="Digmaster 5000" Entry="9465" />
+    <Item Name="Gouging Pick" Entry="1819" />
+    <Item Name="Kobold Excavation Pick" Entry="778" />
+    <Item Name="Mining Pick" Entry="2901" />
+    <Item Name="Tunnel Pick" Entry="756" />
+    <!-- Trade Tools: Multi-purpose [Blacksmith/Mining/Skinning] Tools (alphabetical) -->
+    <Item Name="Bladed Pickaxe" Entry="40893" />
+    <Item Name="Hammer Pick" Entry="40892" />
+    <!-- Trade Tools: Skinning Tools  (also see Trade Tools: Multi-purpose) -->
+    <Item Name="Finkle's Skinner" Entry="12709" />
+    <Item Name="Skinning Knife" Entry="7005" />
+    <Item Name="Zulian Slicer" Entry="19901" />
+    <!-- Trade Tools: Tailoring -->
+    <!-- nothing to protect -->
+    <!-- ========== Valuable (farmed) MiniPets (alphabetical) ========== -->
+    <Item Name="Azure Whelpling" Entry="34535" />
+    <Item Name="Captured Firefly" Entry="29960" />
+    <Item Name="Cat Carrier (Black Tabby)" Entry="8491" />
+    <Item Name="Cat Carrier (Siamese)" Entry="8490" />
+    <Item Name="Cat Carrier (White Kitten)" Entry="8489" />
+    <Item Name="Dark Whelpling" Entry="10822" />
+    <Item Name="Darting Hatchling" Entry="48112" />
+    <Item Name="Deviate Hatchling" Entry="48114" />
+    <Item Name="Disgusting Oozeling" Entry="20769" />
+    <Item Name="Leaping Hatchling" Entry="48118" />
+    <Item Name="Parrot Cage (Green Wing Macaw)" Entry="8492" />
+    <Item Name="Parrot Cage (Hyacinth Macaw)" Entry="8494" />
+    <Item Name="Ravasaur Hatchling" Entry="48122" />
+    <Item Name="Razormaw Hatchling" Entry="48124" />
+    <Item Name="Razzashi Hatchling" Entry="48126" />
+    <Item Name="Tiny Crimson Whelpling" Entry="8499" />
+    <Item Name="Tiny Emerald Whelpling" Entry="8498" />
+  </ProtectedItems>
+  <!--Force anything to be mailed, even if protected!-->
+  <ForceMail>
+    <!-- ========== Harvests (alphabetically) ========== -->
+    <!-- Harvests: Cloth & Spider's Silk (ordered by level, then alphabetically) -->
+    <Item Name="Linen Cloth" Entry="2589" />
+    <Item Name="Wool Cloth" Entry="2592" />
+    <Item Name="Spider's Silk" Entry="3182" />
+    <Item Name="Silk Cloth" Entry="4306" />
+    <Item Name="Thick Spider's Silk" Entry="4337" />
+    <Item Name="Mageweave Cloth" Entry="4338" />
+    <Item Name="Shadow Silk" Entry="10285" />
+    <Item Name="Felcloth" Entry="14256" />
+    <Item Name="Ironweb Spider Silk" Entry="14227" />
+    <Item Name="Runecloth" Entry="14047" />
+    <Item Name="Mooncloth" Entry="14342" />
+    <Item Name="Netherweave Cloth" Entry="21877" />
+    <Item Name="Netherweb Spider Silk" Entry="21881" />
+    <Item Name="Primal Mooncloth" Entry="21845" />
+    <Item Name="Frostweave Cloth" Entry="33470" />
+    <Item Name="Shadowcloth" Entry="24272" />
+    <Item Name="Spellcloth" Entry="24271" />
+    <Item Name="Iceweb Spider Silk" Entry="42253" />
+    <Item Name="Ebonweave" Entry="41593" />
+    <Item Name="Moonshroud" Entry="41594" />
+    <Item Name="Spellweave" Entry="41595" />
+    <!-- Harvests: Elementals (ordered by level, then alphabetically) -->
+    <Item Name="Elemental Air" Entry="7069" />
+    <Item Name="Elemental Earth" Entry="7067" />
+    <Item Name="Elemental Fire" Entry="7068" />
+    <Item Name="Elemental Water" Entry="7070" />
+    <Item Name="Breath of Wind" Entry="7081" />
+    <Item Name="Core of Earth" Entry="7075" />
+    <Item Name="Globe of Water" Entry="7079" />
+    <Item Name="Heart of Fire" Entry="7077" />
+    <Item Name="Heart of the Wild" Entry="10286" />
+    <Item Name="Ichor of Undeath" Entry="7972" />
+    <Item Name="Essence of Air" Entry="7082" />
+    <Item Name="Essence of Earth" Entry="7076" />
+    <Item Name="Essence of Fire" Entry="7078" />
+    <Item Name="Essence of Undeath" Entry="12808" />
+    <Item Name="Essence of Water" Entry="7080" />
+    <Item Name="Living Essence" Entry="12803" />
+    <Item Name="Mote of Air" Entry="22572" />
+    <Item Name="Mote of Earth" Entry="22573" />
+    <Item Name="Mote of Fire" Entry="22574" />
+    <Item Name="Mote of Life" Entry="22575" />
+    <Item Name="Mote of Mana" Entry="22576" />
+    <Item Name="Mote of Shadow" Entry="22577" />
+    <Item Name="Mote of Water" Entry="22578" />
+    <Item Name="Primal Air" Entry="22451" />
+    <Item Name="Primal Earth" Entry="22452" />
+    <Item Name="Primal Fire" Entry="21884" />
+    <Item Name="Primal Life" Entry="21886" />
+    <Item Name="Primal Mana" Entry="22457" />
+    <Item Name="Primal Shadow" Entry="22456" />
+    <Item Name="Primal Water" Entry="21885" />
+    <Item Name="Crystallized Air" Entry="37700" />
+    <Item Name="Crystallized Earth" Entry="37701" />
+    <Item Name="Crystallized Fire" Entry="37702" />
+    <Item Name="Crystallized Life" Entry="37704" />
+    <Item Name="Crystallized Shadow" Entry="37703" />
+    <Item Name="Crystallized Water" Entry="37705" />
+    <Item Name="Eternal Air" Entry="35623" />
+    <Item Name="Eternal Earth" Entry="35624" />
+    <Item Name="Eternal Fire" Entry="36860" />
+    <Item Name="Eternal Life" Entry="35625" />
+    <Item Name="Eternal Might" Entry="40248" />
+    <Item Name="Eternal Shadow" Entry="35627" />
+    <Item Name="Eternal Water" Entry="35622" />
+    <Item Name="Primal Might" Entry="23571" />
+    <!-- Harvests: Gems (ordered by level, then alphabetically) -->
+    <Item Name="Blood Shard" Entry="5075" />
+    <Item Name="Malachite" Entry="774" />
+    <Item Name="Tigerseye" Entry="818" />
+    <Item Name="Shadowgem" Entry="1210" />
+    <Item Name="Moss Agate" Entry="1206" />
+    <Item Name="Lesser Moonstone" Entry="1705" />
+    <Item Name="Jade" Entry="1529" />
+    <Item Name="Citrine" Entry="3864" />
+    <Item Name="Aquamarine" Entry="7909" />
+    <Item Name="Black Diamond" Entry="11754" />
+    <Item Name="Blood of the Mountain" Entry="11382" />
+    <Item Name="Souldarite" Entry="19774" />
+    <Item Name="Star Ruby" Entry="7910" />
+    <Item Name="Blue Sapphire" Entry="12361" />
+    <Item Name="Large Opal" Entry="12799" />
+    <Item Name="Arcane Crystal" Entry="12363" />
+    <Item Name="Azerothian Diamond" Entry="12800" />
+    <Item Name="Huge Emerald" Entry="12364" />
+    <Item Name="Azure Moonstone" Entry="23117" />
+    <Item Name="Blood Garnet" Entry="23077" />
+    <Item Name="Deep Peridot" Entry="23079" />
+    <Item Name="Flame Spessarite" Entry="21929" />
+    <Item Name="Golden Draenite" Entry="23112" />
+    <Item Name="Shadow Draenite" Entry="23107" />
+    <Item Name="Dawnstone" Entry="23440" />
+    <Item Name="Living Ruby" Entry="23436" />
+    <Item Name="Netherwing Egg" Entry="32506" />
+    <Item Name="Nightseye" Entry="23441" />
+    <Item Name="Noble Topaz" Entry="23439" />
+    <Item Name="Star of Elune" Entry="23438" />
+    <Item Name="Talasite" Entry="23437" />
+    <Item Name="Bloodstone" Entry="36917" />
+    <Item Name="Chalcedony" Entry="36923" />
+    <Item Name="Dark Jade" Entry="36932" />
+    <Item Name="Huge Citrine" Entry="36929" />
+    <Item Name="Shadow Crystal" Entry="36926" />
+    <Item Name="Sun Crystal" Entry="36920" />
+    <Item Name="Autumn's Glow" Entry="36921" />
+    <Item Name="Forest Emerald" Entry="36933" />
+    <Item Name="Monarch Topaz" Entry="36930" />
+    <Item Name="Scarlet Ruby" Entry="36918" />
+    <Item Name="Sky Sapphire" Entry="36924" />
+    <Item Name="Twilight Opal" Entry="36927" />
+    <!-- Harvests: Herbs (ordered by level) -->
+    <Item Name="Bloodthistle" Entry="22710" />
+    <Item Name="Peacebloom" Entry="2447" />
+    <Item Name="Silverleaf" Entry="765" />
+    <Item Name="Earthroot" Entry="2449" />
+    <Item Name="Mageroyal" Entry="785" />
+    <Item Name="Briarthorn" Entry="2450" />
+    <Item Name="Swiftthistle" Entry="2452" />
+    <Item Name="Bruiseweed" Entry="2453" />
+    <Item Name="Stranglekelp" Entry="3820" />
+    <Item Name="Grave Moss" Entry="3369" />
+    <Item Name="Wild Steelbloom" Entry="3355" />
+    <Item Name="Kingsblood" Entry="3356" />
+    <Item Name="Liferoot" Entry="3357" />
+    <Item Name="Fadeleaf" Entry="3818" />
+    <Item Name="Goldthorn" Entry="3821" />
+    <Item Name="Khadgar's Whisker" Entry="3358" />
+    <Item Name="Wintersbite" Entry="3819" />
+    <Item Name="Wildvine" Entry="8153" />
+    <Item Name="Firebloom" Entry="4625" />
+    <Item Name="Purple Lotus" Entry="8831" />
+    <Item Name="Arthas' Tears" Entry="8836" />
+    <Item Name="Sungrass" Entry="8838" />
+    <Item Name="Blindweed" Entry="8839" />
+    <Item Name="Ghost Mushroom" Entry="8845" />
+    <Item Name="Gromsblood" Entry="8846" />
+    <Item Name="Golden Sansam" Entry="13464" />
+    <Item Name="Dreamfoil" Entry="13463" />
+    <Item Name="Flame Cap" Entry="22788" />
+    <Item Name="Mountain Silversage" Entry="13465" />
+    <Item Name="Plaguebloom" Entry="13466" />
+    <Item Name="Icecap" Entry="13467" />
+    <Item Name="Black Lotus" Entry="13468" />
+    <Item Name="Bloodvine" Entry="19726" />
+    <Item Name="Dreaming Glory" Entry="22786" />
+    <Item Name="Felweed" Entry="22785" />
+    <Item Name="Nightmare Seed" Entry="22797" />
+    <Item Name="Terocone" Entry="22789" />
+    <Item Name="Ragveil" Entry="22787" />
+    <Item Name="Ancient Lichen" Entry="22790" />
+    <Item Name="Fel Lotus" Entry="22794" />
+    <Item Name="Mana Thistle" Entry="22793" />
+    <Item Name="Netherbloom" Entry="22791" />
+    <Item Name="Nightmare Vine" Entry="22792" />
+    <Item Name="Deadnettle" Entry="37921" />
+    <Item Name="Goldclover" Entry="36901" />
+    <Item Name="Talandra's Rose" Entry="36907" />
+    <Item Name="Tiger Lily" Entry="36904" />
+    <Item Name="Adder's Tongue" Entry="36903" />
+    <Item Name="Frost Lotus" Entry="36908" />
+    <Item Name="Icethorn" Entry="36906" />
+    <Item Name="Lichbloom" Entry="36905" />
+    <!-- Harvests: Leather & Pelts-mainstream (ordered by level) -->
+    <Item Name="Ruined Leather Scraps" Entry="2934" />
+    <Item Name="Light Hide" Entry="783" />
+    <Item Name="Light Leather" Entry="2318" />
+    <Item Name="Medium Hide" Entry="4232" />
+    <Item Name="Medium Leather" Entry="2319" />
+    <Item Name="Heavy Hide" Entry="4235" />
+    <Item Name="Heavy Leather" Entry="4234" />
+    <Item Name="Deeprock Salt" Entry="8150" />
+    <Item Name="Thick Hide" Entry="8169" />
+    <Item Name="Thick Leather" Entry="4304" />
+    <Item Name="Rugged Hide" Entry="8171" />
+    <Item Name="Rugged Leather" Entry="8170" />
+    <Item Name="Enchanted Leather" Entry="12810" />
+    <Item Name="Crystal Infused Leather" Entry="25699" />
+    <Item Name="Knothide Leather" Entry="21887" />
+    <Item Name="Knothide Leather Scraps" Entry="25649" />
+    <Item Name="Thick Clefthoof Leather" Entry="25708" />
+    <Item Name="Heavy Knothide Leather" Entry="23793" />
+    <Item Name="Borean Leather" Entry="33568" />
+    <Item Name="Borean Leather Scraps" Entry="33567" />
+    <Item Name="Arctic Fur" Entry="44128" />
+    <Item Name="Heavy Borean Leather" Entry="38425" />
+    <!-- Harvests: Leather & Pelts-exotics (ordered by level) -->
+    <Item Name="Black Whelp Scale" Entry="7286" />
+    <Item Name="Deviate Scale" Entry="6470" />
+    <Item Name="Green Whelp Scale" Entry="7392" />
+    <Item Name="Perfect Deviate Scale" Entry="6471" />
+    <Item Name="Thin Kodo Leather" Entry="5082" />
+    <Item Name="Slimy Murloc Scale" Entry="5784" />
+    <Item Name="Raptor Hide" Entry="4461" />
+    <Item Name="Thick Murloc Scale" Entry="5785" />
+    <Item Name="Turtle Scale" Entry="8167" />
+    <Item Name="Scorpid Scale" Entry="8154" />
+    <Item Name="Worn Dragonscale" Entry="8165" />
+    <Item Name="Blue Dragonscale" Entry="15415" />
+    <Item Name="Devilsaur Leather" Entry="15417" />
+    <Item Name="Green Dragonscale" Entry="15412" />
+    <Item Name="Warbear Leather" Entry="15419" />
+    <Item Name="Black Dragonscale" Entry="15416" />
+    <Item Name="Heavy Scorpid Scale" Entry="15408" />
+    <Item Name="Heavy Silithid Carapace" Entry="20501" />
+    <Item Name="Light Silithid Carapace" Entry="20500" />
+    <Item Name="Silithid Chitin" Entry="20498" />
+    <Item Name="Refined Scale of Onyxia" Entry="17967" />
+    <Item Name="Scale of Onyxia" Entry="15410" />
+    <Item Name="Cobra Scales" Entry="29539" />
+    <Item Name="Core Leather" Entry="17012" />
+    <Item Name="Fel Scales" Entry="25700" />
+    <Item Name="Nether Dragonscales" Entry="29548" />
+    <Item Name="Primal Bat Leather" Entry="19767" />
+    <Item Name="Primal Tiger Leather" Entry="19768" />
+    <Item Name="Red Dragonscale" Entry="15414" />
+    <Item Name="Wind Scales" Entry="29547" />
+    <Item Name="Dreamscale" Entry="20381" />
+    <Item Name="Fel Hide" Entry="25707" />
+    <Item Name="Nerubian Chitin" Entry="38558" />
+    <Item Name="Icy Dragonscale" Entry="38557" />
+    <Item Name="Jormungar Scale" Entry="38561" />
+    <!-- Harvests: Ore-mainstream (ordered by level) -->
+    <Item Name="Copper Ore" Entry="2770" />
+    <Item Name="Tin Ore" Entry="2771" />
+    <Item Name="Silver Ore" Entry="2775" />
+    <Item Name="Iron Ore" Entry="2772" />
+    <Item Name="Gold Ore" Entry="2776" />
+    <Item Name="Mithril Ore" Entry="3858" />
+    <Item Name="Truesilver Ore" Entry="7911" />
+    <Item Name="Thorium Ore" Entry="10620" />
+    <Item Name="Dark Iron Ore" Entry="11370" />
+    <Item Name="Fel Iron Ore" Entry="23424" />
+    <Item Name="Elementium Ore" Entry="18562" />
+    <Item Name="Adamantite Ore" Entry="23425" />
+    <Item Name="Eternium Ore" Entry="23427" />
+    <Item Name="Cobalt Ore" Entry="36909" />
+    <Item Name="Khorium Ore" Entry="23426" />
+    <Item Name="Saronite Ore" Entry="36912" />
+    <Item Name="Titanium Ore" Entry="36910" />
+    <!-- Harvests: Ore-exotics (alphabetical) -->
+    <Item Name="Incendite Ore" Entry="3340" />
+    <Item Name="Lesser Bloodstone Ore" Entry="4278" />
+    <Item Name="Nethercite Ore" Entry="32464" />
+    <Item Name="Rathban Ore" Entry="2798" />
+    <!-- Harvests: Stone (ordered by level) -->
+    <Item Name="Rough Stone" Entry="2835" />
+    <Item Name="Heavy Stone" Entry="2838" />
+    <Item Name="Solid Stone" Entry="7912" />
+    <Item Name="Dense Stone" Entry="12365" />
+  </ForceMail>
+</HBProfile>

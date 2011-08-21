@@ -1,0 +1,207 @@
+<!-- Readme -->
+<!-- Chapter 3: The Wrath of the lich King -->
+<!-- Enable Lootfilter to drop trash you don't like -->
+<!-- Credits: panYama -->
+<!-- Faction: Neutral -->
+<!-- Level Range: 77-80 -->
+<!-- Class Requirements: Plate/Mail/Leather/cloth - Warrior,Paladin,Deathknight,Rogue,Shaman,Druid,Mage,Lock,Hunter -->
+<HBProfile>
+		<!-- General Configurations and settings -->
+		<Name>panYama's Leveling 77-80 Snowdrift Plains</Name>
+		<!-- Repairman Setup-->
+		<!-- When to go for a repair (0.3 = 30%) -->
+		<MinDurability>0.3</MinDurability>
+			
+		<!-- Vendor Slot Setup-->
+		<!-- When to go to the nearest vendor -->
+		<MinFreeBagSlots>4</MinFreeBagSlots>
+			
+		<!-- Character Specific Setup-->
+		<!-- Bot will detect if this profile is suitable for your character -->
+		<MinLevel>1</MinLevel>
+		<MaxLevel>81</MaxLevel>
+			
+		<!-- Vendor Quality Setup-->
+		<!-- What quality type to vendor (make sure what you want protected IS protected!) -->
+		<SellGrey>True</SellGrey>
+		<SellWhite>True</SellWhite>
+		<SellGreen>True</SellGreen>
+		<SellBlue>False</SellBlue>
+		<SellPurple>False</SellPurple>
+			
+		<!-- Mail Quality Setup-->
+		<!-- What quality to keep (If no mailbox near, this has no use.) -->
+		<MailWhite>True</MailWhite>
+		<MailGreen>True</MailGreen>
+		<MailBlue>True</MailBlue>
+		<MailPurple>True</MailPurple>
+		<!-- Protection Configurations and settings -->
+		<!-- Protect all items enlisted below, add item with wowheadid between <Item>00000</Item> tags. -->
+		<ProtectedItems>
+			<!-- General Item Protection -->
+			<!--**Hearthstone**-->
+			<Item>6948</Item> 
+			<!--**Mining Pick**-->
+			<Item>2901</Item>
+			<!--**Skinning Knife**-->			
+			<Item>7005</Item>
+				
+			<!-- Potion Item Protection -->
+			<!--**Life Savers**-->
+			<Item>118</Item>
+			<Item>858</Item>
+			<Item>929</Item>
+			<Item>1710</Item>
+			<Item>3928</Item>
+			<Item>13446</Item>
+			<Item>17556</Item>
+			<Item>28551</Item>
+			<Item>33447</Item>
+				
+			<!-- Poison Item Protection -->
+			<!--**All poisons the Rogues need to use**-->
+			<Item>6497</Item>
+			<Item>6949</Item>
+			<Item>6950</Item>
+			<Item>8926</Item>
+			<Item>8927</Item>
+			<Item>8928</Item>
+			<Item>21927</Item>
+			<Item>43230</Item>
+			<Item>43231</Item>
+				
+			<!-- Ammunition Item Protection -->
+			<!--**Gun/Arrow Ammunition for hunters to use**-->
+			<Item>30319</Item>
+			<Item>34581</Item>
+			<Item>34582</Item>
+			<Item>32760</Item>
+			<Item>32761</Item>
+			<Item>31737</Item>
+			<Item>31735</Item>
+			<Item>23773</Item>
+			<Item>33803</Item>
+			<Item>12654</Item>
+			<Item>10579</Item>
+			<Item>32883</Item>
+			<Item>30612</Item>
+			<Item>30611</Item>
+			<Item>32882</Item>
+			<Item>41164</Item>
+			<Item>13377</Item>
+			<Item>11630</Item>
+			<Item>41165</Item>
+			<Item>31949</Item>
+			<Item>3465</Item>
+			<Item>3464</Item>
+			<Item>23772</Item>
+			<Item>10512</Item>
+			<Item>19316</Item>
+			<Item>19317</Item>
+			<Item>10513</Item>
+			<Item>9399</Item>
+			<Item>24417</Item>
+			<Item>18042</Item>
+			<Item>15997</Item>
+			<Item>11284</Item>
+			<Item>28056</Item>
+			<Item>8068</Item>
+			<Item>8067</Item>
+			<Item>8069</Item>
+			<Item>4960</Item>
+			<Item>41584</Item>
+			<Item>2519</Item>
+			<Item>28060</Item>
+			<Item>28061</Item>
+			<Item>11285</Item>
+			<Item>2516</Item>
+			<Item>3030</Item>
+			<Item>2512</Item>
+			<Item>2515</Item>
+			<Item>5568</Item>
+			<Item>3033</Item>
+			<Item>41586</Item>
+			<Item>28053</Item>
+			
+			<!-- Profile Specifik Item Protection -->
+			<!--**Items to NOT trow away for gold income**-->
+			<Item>4304</Item>
+			<Item>4234</Item>
+			<Item>1645</Item>   
+			<Item>33454</Item> 
+			<Item>33449</Item>
+			<Item>35950</Item> 
+			<Item>33445</Item> 
+			<Item>33444</Item> 
+			<Item>35954</Item> 
+			<Item>42780</Item> 
+			<Item>37700</Item>
+			<Item>35623</Item>
+		</ProtectedItems>
+		
+		<!-- Grind Configurations -->
+		<!-- Grinding settings for Vendors,Mailbox,Avoidmobs,Locations -->
+		
+		<SubProfile>
+			<!--**Ending Chapter 3: The Wrath of the Lichking 77-80**-->
+			<Name>Bouldercrags Refuge - Start</Name>
+			<!-- **The Minimum and Maximum level your toon can be for this subprofile to work**-->
+			<MinLevel>77</MinLevel>
+			<MaxLevel>81</MaxLevel>
+			
+			<!-- AvoidMobs Support Setup -->
+			<!--**A list of all the mobs that should be avoided at all cost.**-->
+			
+			<!-- No avoided mobs to add so far -->
+			
+			<!-- Vendor Support Setup -->
+			<!--**A list of the nearest vendors to use while leveling.**-->
+			<Vendors>
+				<!--**VendorType: Food**-->
+			  <Vendor Name="Magorn" Entry="29963" Type="Food" X="8426.41" Y="-355.5836" Z="906.4021" />
+			  <!--**VendorType: Repair**-->
+			  <Vendor Name="Dargum Hammerdeep" Entry="29964" Type="Repair" X="8383.45" Y="-390.166" Z="903.1191" />
+			  <!--**VendorType: Ammo**-->
+			  <Vendor Name="Horgoru the Collector" Entry="29962" Type="Ammo" X="8409.795" Y="-393.8691" Z="903.1191" />
+			</Vendors>
+			
+			<!-- Mailbox Support Setup -->
+			<!--**A list of the nearest Mailboxes to use while leveling.**-->
+			<Mailboxes>
+			  <Mailbox X="8442.029" Y="-327.8856" Z="906.6088"/>
+			</Mailboxes>
+			
+			<!--** Hotspot/Blackspot Configurations **-->
+			<!--** A List of possible areas to grind, and avoid edit with cautions. **-->
+			<GrindArea>
+				<Factions>2102 14 1954</Factions>
+				<RandomizeHotspots>false</RandomizeHotspots>
+				<MaximumHotspotTime>7000</MaximumHotspotTime>
+				<Hotspots>
+					<Hotspot X="8408.779" Y="-182.9088" Z="822.3226" />
+					<Hotspot X="8395.944" Y="-57.2876" Z="803.019" />
+					<Hotspot X="8357.637" Y="56.29309" Z="807.8148" />
+					<Hotspot X="8250.343" Y="-99.74924" Z="843.8218" />
+					<Hotspot X="8163.797" Y="-27.59719" Z="853.832" />
+					<Hotspot X="8117.586" Y="-118.7528" Z="857.1934" />
+					<Hotspot X="8029.332" Y="-150.5289" Z="860.6136" />
+					<Hotspot X="7936.437" Y="-143.1817" Z="872.5043" />
+					<Hotspot X="7844.523" Y="-189.4387" Z="875.7382" />
+					<Hotspot X="7893.438" Y="-261.1419" Z="876.3652" />
+					<Hotspot X="7858.394" Y="-355.0077" Z="889.6404" />
+					<Hotspot X="7903.375" Y="-466.8247" Z="899.8069" />
+					<Hotspot X="7946.439" Y="-379.9262" Z="887.3077" />
+					<Hotspot X="7968.065" Y="-259.2819" Z="852.5575" />
+					<Hotspot X="7998.409" Y="-240.9231" Z="849.4702" />
+					<Hotspot X="8052.11" Y="-205.2115" Z="847.2932" />
+					<Hotspot X="8123.983" Y="-169.0014" Z="859.5996" />
+				</Hotspots>
+				<BlackSpots>
+				</BlackSpots>
+			</GrindArea>
+		</SubProfile>
+</HBProfile>
+<!--Readme-->
+<!-- You are now done with all Chapters, Wait will Chapter 4: Cataclysm is released! -->
+<!-- Courtesy of LiquidAtoR and PanYama (http://www.panyama.info) -->
+<!-- Copyright panYama's Snowdrift Plains 77-80 - 2010 -->
