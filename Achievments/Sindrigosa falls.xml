@@ -1,0 +1,231 @@
+<HBProfile>
+  <Name>Grizzly Hills</Name>
+  <MinDurability>0.2</MinDurability>
+  <MinFreeBagSlots>3</MinFreeBagSlots>
+  <MinLevel>72</MinLevel>
+  <MaxLevel>86</MaxLevel>
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>True</SellGreen>
+  <MailWhite>False</MailWhite>
+  <MailGreen>False</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+<SubProfile>
+    <Name>Grizzly Hills Wolves 'n Stags by Retsalk</Name>
+    <MinLevel>72</MinLevel>
+    <MaxLevel>86</MaxLevel>
+    <GrindArea>
+<TargetMinLevel>72</TargetMinLevel>
+<TargetMaxLevel>86</TargetMaxLevel>
+<TargetElites>False</TargetElites>
+ <AvoidMobs>
+	  <Mob Name="Westfall Brigade Marine" Entry="27501" />	
+      </AvoidMobs>
+<Factions>21 1885 16 1982</Factions>
+<LootRadius>45</LootRadius>
+ <Hotspots>
+<Hotspot X="7890.903" Y="911.2457" Z="453.7127" />
+<Hotspot X="7803.9" Y="982.4197" Z="449.429" />
+<Hotspot X="7723.706" Y="983.3977" Z="451.4079" />
+<Hotspot X="7708.147" Y="1073.461" Z="443.735" />
+<Hotspot X="7701.526" Y="1145.711" Z="439.3595" />
+<Hotspot X="7789.475" Y="1181.405" Z="440.9788" />
+<Hotspot X="7891.781" Y="1272.342" Z="444.286" />
+<Hotspot X="7864.281" Y="1175.019" Z="443.9777" />
+<Hotspot X="7902.043" Y="1112.927" Z="446.3793" />
+<Hotspot X="7900.878" Y="1032.97" Z="453.6872" />
+
+    </Hotspots>
+<Blackspots>
+<Blackspot X="3144.885" Y="-2043.016" Z="84.99939" Radius="13.09887" />
+</Blackspots>
+</GrindArea>
+ <Vendors>
+<Vendor Name="Smith Prigka" Entry="27134" Type="Repair" X="3309.34" Y="-2338.626" Z="110.8467" />
+<Vendor Name="Provisioner Lorkran" Entry="26868" Type="Food" X="3200.552" Y="-2301.466" Z="107.6754" />
+    </Vendors>
+ 
+    <Mailboxes>
+         <Mailbox  X="3241.534" Y="-2237.716" Z="115.091" />
+    </Mailboxes>
+ 
+    </SubProfile>
+ 
+  <ForceMail>
+    <Item>2589</Item><!--Linen Cloth-->
+    <Item>2934</Item><!--Ruined Leather Scraps-->
+    <Item>2592</Item><!--Wool Cloth-->
+    <Item>4306</Item><!--Silk cloth-->
+    <Item>4338</Item><!--Mageweave Cloth-->
+    <Item>14047</Item><!--Runecloth-->
+    <Item>21877</Item><!--Netherweave Cloth-->
+    <Item>33470</Item><!-- Frostweave Cloth  -->
+    <Item>2318</Item><!--Light Leather-->
+    <Item>2319</Item><!--Medium Leather-->
+    <Item>4304</Item><!--Heavy Leather-->
+    <Item>4234</Item><!--Thick Leather-->
+    <Item>8170</Item><!--Rugged Leather-->
+    <Item>21887</Item><!--Knothide Leathter-->
+    <Item>33568</Item><!--Borean Leather-->
+    <Item>181166</Item><!--Bloodthistle-->
+    <Item>2447</Item><!--Peacebloom-->
+    <Item>765</Item><!--Silverleaf-->
+    <Item>2449</Item><!--Earthroot-->
+    <Item>785</Item><!--Mageroyal-->
+    <Item>2450</Item><!--Briarthorn-->
+    <Item>2452</Item><!--Swiftthistle-->
+    <Item>2453</Item><!--Bruiseweed-->
+    <Item>3355</Item><!--Wild Steelbloom-->
+    <Item>3356</Item><!--Kingsblood-->
+    <Item>3357</Item><!--Liferoot-->
+    <Item>3821</Item><!--Goldthorn-->
+    <Item>3818</Item><!--Fadeleaf-->
+    <Item>8153</Item><!--Wildvine-->
+    <Item>3358</Item><!--Khadgar's Whisker-->
+    <Item>3819</Item><!--Wintersbite-->
+    <Item>8831</Item><!--Purple Lotus-->
+    <Item>8836</Item><!--Arthas' Tears-->
+    <Item>8839</Item><!--Blindweed-->
+    <Item>4625</Item><!--Firebloom-->
+    <Item>8846</Item><!--Gromsblood-->
+    <Item>8838</Item><!--Sungrass-->
+    <Item>13464</Item><!--Golden Sansam-->
+    <Item>13466</Item><!--Plaguebloom-->
+    <Item>13465</Item><!--Mountain Silversage-->
+    <Item>13467</Item><!--Icecap-->
+    <Item>13463</Item><!--Dreamfoil-->
+    <Item>13468</Item><!--Black Lotus-->
+    <Item>22793</Item><!--Mana Thistle-->
+    <Item>22792</Item><!--Nightmare Vine-->
+    <Item>22791</Item><!--Netherbloom-->
+    <Item>22786</Item><!--Dreaming Glory-->
+    <Item>22787</Item><!--Ragveil-->
+    <Item>22788</Item><!--Flame Cap-->
+    <Item>22785</Item><!--Felweed-->
+    <Item>22789</Item><!--Terocone-->
+    <Item>22794</Item><!--Fel Lotus-->
+    <Item>36901</Item><!--Goldclover-->
+    <Item>191303</Item><!--Firethorn-->
+    <Item>37921</Item><!--Deadnettle-->
+    <Item>36904</Item><!--Tiger Lily-->
+    <Item>36907</Item><!--Talandra's Rose-->
+    <Item>36903</Item><!--Adder's Tongue-->
+    <Item>36906</Item><!--Icethorn-->
+    <Item>36905</Item><!--Lichbloom-->
+    <Item>36908</Item><!--Frost Lotus-->
+    <Item>2770</Item><!--Copper Vein-->
+    <Item>2771</Item><!--Tin Vein-->
+    <Item>2775</Item><!--Silver Vein-->
+    <Item>2776</Item><!--Gold Vein-->
+    <Item>2772</Item><!--Iron Deposit-->
+    <Item>3858</Item><!--Mithril Deposit-->
+    <Item>7911</Item><!--Truesilver Deposit-->
+    <Item>10620</Item><!--Thorium Vein-->
+    <Item>23425</Item><!--Adamatite Deposit-->
+    <Item>23424</Item><!--Fel Iron Deposit-->
+    <Item>23426</Item><!--Khorium Vein-->
+    <Item>23447</Item><!--Eternium Vein-->
+    <Item>36909</Item><!--Cobalt Deposit-->
+    <Item>36912</Item><!--Saronite Deposit-->
+    <Item>36910</Item><!--Titanium Vein-->
+    <Item>37705</Item><!--Crystallized Water-->
+    <Item>17407</Item><!--Felmist <Mote of Shadow> -->
+    <Item>17378</Item><!--Swamp Gas <Mote of Water> -->
+    <Item>17408</Item><!--Arcane Vortex <Mote of Mana> -->
+    <Item>24222</Item><!--Windy Cloud <Mote of Air>  -->
+    <Item>32544</Item><!--Steam Cloud <Crystalized Fire> and <Crystalized Water> -->
+    <Item>32522</Item><!--Cinder Cloud <Crystalized Fire> -->
+    <Item>24879</Item><!--Arctic Cloud <Crystalized Air> and <Crystalized Water> -->
+    <Item>8499</Item><!--Tiny Crimson Whelpling-->
+    <Item>20769</Item><!-- Oozing Bag and Disgusting Oozeling-->
+    <Item>48114</Item><!--Deviate Hatchling-->
+    <Item>4500</Item><!--Traveler's Backpack-->
+  </ForceMail>
+ 
+  <ProtectedItems>
+    <!-- Bandages -->
+    <Item>3531</Item><!--Linen Bandage-->
+    <Item>3530</Item><!--Heavy Linen Bandage-->
+    <Item>1251</Item><!--Wool Bandage-->
+    <Item>2581</Item><!--Heavy Wool Bandage-->
+    <Item>6450</Item><!--Silk Bandage-->
+    <Item>6451</Item><!--Heavy Silk Bandage-->
+    <Item>8544</Item><!--Mageweave Bandage-->
+    <Item>8545</Item><!--Heavy Mageweave Bandage-->
+    <Item>14530</Item><!--Runecloth Bandage-->
+    <Item>14529</Item><!--Heavy Runecloth Bandage-->
+    <Item>21991</Item><!--Netherweave Bandage-->
+    <Item>34721</Item><!--Heavy Netherweave Bandage-->
+    <Item>34722</Item><!--Frostweave Bandage-->
+    <Item>21990</Item><!--Heavy Frostweave Bandage-->
+    <!-- Poisons-->
+    <!-- Deadly Poison -->
+    <Item>2893</Item><!--I-->
+    <Item>8984</Item><!--II-->
+    <Item>8985</Item><!--III-->
+    <Item>20844</Item><!--IV-->
+    <Item>22053</Item><!--V-->
+    <Item>22054</Item><!--VI-->
+    <Item>43232</Item><!--VII-->
+    <Item>43233</Item><!--VIII-->
+    <!--  Instant Poison  -->
+    <Item>6947</Item>
+    <Item>6949</Item>
+    <Item>6950</Item>
+    <Item>8926</Item>
+    <Item>8927</Item>
+    <Item>8928</Item>
+    <Item>21927</Item>
+    <Item>43230</Item>
+    <Item>43231</Item>
+    <Item>6948</Item><!-- Hearthstone  -->
+    <Item>2901</Item><!--  Mining Pick  -->
+    <Item>6256</Item><!-- Fishing Pole -->
+    <Item>11137</Item><!-- Vision Dust -->
+    <Item>6218</Item><!-- runed copper rod -->
+    <Item>11130</Item><!-- runed golden rod  -->
+    <Item>11145</Item><!-- runed truesilver rod  -->
+    <Item>17031</Item><!-- Rune of Teleportation  -->
+    -<!--Leather-->
+    <Item>7005</Item><!-- Skinning Knife  -->
+    <Item>4304</Item><!-- thick Leather  -->
+    <Item>4234</Item><!-- heavy lather  -->
+    <Item>2318</Item><!-- Light Leather  -->
+    <Item>2319</Item><!-- Medium Leather  -->
+    <Item>4232</Item><!-- Medium Hide  -->
+    <Item>4235</Item><!-- heavy Hide  -->
+    <Item>783</Item><!-- light Hide  -->
+    <!-- small Bags  -->
+    <Item>5571</Item><!-- small black pouch  -->
+    <Item>4496</Item><!-- small brown pouch  -->
+    <Item>828</Item><!-- small blue pouch  -->
+    <Item>5572</Item><!-- small green pouch  -->
+    <Item>805</Item><!-- small red pouch  -->
+    <!-- Drinks  -->
+    <Item>1645</Item><!-- Moonberry Juice  -->
+    <Item>1205</Item><!-- Melon Juice  -->
+    <Item>159</Item><!-- Refreshing Spring Water  -->
+    <Item>1179</Item><!-- Ice Cold Milk  -->
+    <Item>8766</Item><!-- Morning Glory Dew  -->
+    <Item>1708</Item><!-- Sweet Nectar  -->
+    -<!-- Cloth  -->
+    <Item>33470</Item><!-- Frostweave Cloth  -->
+    <Item>4338</Item><!-- Mageweave Cloth  -->
+    <Item>21877</Item><!-- Netherweave Cloth  -->
+    <Item>4306</Item><!-- Silk Cloth  -->
+    <Item>2589</Item><!-- Linen Cloth  -->
+    <Item>2592</Item><!-- Wool Cloth  -->
+    <Item>14047</Item><!-- Wool Cloth  -->
+    -<!-- Healing Potions  -->
+    <Item>118</Item>
+    <Item>858</Item>
+    <Item>929</Item>
+    <Item>1710</Item>
+    <Item>3928</Item>
+    <Item>13446</Item>
+    <Item>28551</Item>
+    <Item>33447</Item>
+  </ProtectedItems>
+</HBProfile>
