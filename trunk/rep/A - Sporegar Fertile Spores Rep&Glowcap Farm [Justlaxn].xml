@@ -1,0 +1,130 @@
+<HBProfile>
+	<Name>Sporegar Fertile Spores Rep/Glowcap Farm [Justlaxn]</Name>
+
+	<MinLevel>65</MinLevel>
+	<MaxLevel>86</MaxLevel>
+
+	<MinDurability>0.2</MinDurability>
+   	<MinFreeBagSlots>2</MinFreeBagSlots>
+
+   	<MailGrey>False</MailGrey>
+   	<MailWhite>False</MailWhite>
+   	<MailGreen>False</MailGreen>
+   	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+
+   	<SellGrey>True</SellGrey>
+   	<SellWhite>True</SellWhite>
+   	<SellGreen>True</SellGreen>
+   	<SellBlue>False</SellBlue>
+   	<SellPurple>False</SellPurple>
+
+   	<TargetElites>True</TargetElites>
+	
+	<AvoidMobs>
+   	</AvoidMobs>   
+   	<Blackspots>
+       		<Blackspot X="292.1132" Y="8487.395" Z="43.51323" Radius="42.63336" /> 
+		<Blackspot X="486.4735" Y="8158.848" Z="21.46613" Radius="5.398831" />
+   	</Blackspots>
+
+  	<Mailboxes>
+		<Mailbox X="-2670.931" Y="7288.093" Z="36.30991" /> 
+   	</Mailboxes>
+
+   	<Vendors>
+  		<Vendor Name="Paulsta'ats" Entry="23007" Type="Repair" X="-2054.747" Y="8609.072" Z="22.16219" /> 
+   	</Vendors>   
+
+   	<Quest Id="9806" Name="Fertile Spores">
+		<Objective Type="CollectItem" ItemId="24449" CollectCount="6">
+			<Hotspots>
+				<Hotspot X="1429.23" Y="8644.877" Z="-6.236575" />
+				<Hotspot X="1316.639" Y="8663.239" Z="7.521162" /> 
+				<Hotspot X="1218.108" Y="8700.115" Z="11.2043" />
+				<Hotspot X="1140.854" Y="8731.088" Z="12.31527" />
+				<Hotspot X="1087.826" Y="8767.644" Z="-6.898162" />
+				<Hotspot X="1029.21" Y="8690.08" Z="16.3639" /> 
+				<Hotspot X="890.4589" Y="8732.249" Z="-8.357116" />
+				<Hotspot X="824.8161" Y="8689.341" Z="18.16609" />
+			</Hotspots>
+		</Objective>
+  	 </Quest>
+
+	<QuestOrder>
+
+	<CustomBehavior File="UserSettings" LootMobs="True" PullDistance="35" TrainNewSkills="False" LearnFlightPaths="True" KillBetweenHotspots="True" LogoutForInactivity="True" />
+
+
+   			<!-- Farming for Fertile Spores - 30 for Each turn In -->
+   			<While Condition="Me.GetReputationLevelWith(970) &lt; Styx.WoWUnitReaction.Exalted">
+ 				<If Condition="(GetItemCount(24449) &lt; 30)">
+  				<CustomBehavior File="FlyTo" X="1429.23" Y="8644.877" Z="-6.236575" /> 
+				<CustomBehavior File="ForcedDismount" />
+						<SetGrindArea>
+							<Grindarea>		
+								<TargetMinLevel>60</TargetMinLevel>
+								<TargetMaxLevel>75</TargetMaxLevel>
+								<Factions>7</Factions>
+								<Hotspots>
+									<Hotspot X="1429.23" Y="8644.877" Z="-6.236575" />
+									<Hotspot X="1316.639" Y="8663.239" Z="7.521162" /> 
+									<Hotspot X="1218.108" Y="8700.115" Z="11.2043" />
+									<Hotspot X="1140.854" Y="8731.088" Z="12.31527" />
+									<Hotspot X="1087.826" Y="8767.644" Z="-6.898162" />
+									<Hotspot X="1029.21" Y="8690.08" Z="16.3639" /> 
+									<Hotspot X="890.4589" Y="8732.249" Z="-8.357116" />
+									<Hotspot X="824.8161" Y="8689.341" Z="18.16609" />
+								</Hotspots>
+								<While Condition="(GetItemCount(25433) &lt;= 30)" >
+									<CustomBehavior File="FlyTo" X="1255" Y="8244" Z="20.3" />
+									<CustomBehavior File="ForcedDismount" />
+								</While>
+								<Hotspots>
+									<Hotspot X="1255.676" Y="8244.516" Z="20.31415" />
+									<Hotspot X="1294.806" Y="8288.438" Z="17.32795" />
+									<Hotspot X="1347.693" Y="8372.237" Z="3.032876" />
+									<Hotspot X="1314.824" Y="8442.5" Z="20.80094" />
+									<Hotspot X="1373.047" Y="8478.289" Z="14.68785" />
+									<Hotspot X="1357.278" Y="8513.052" Z="22.29083" />
+									<Hotspot X="1322.554" Y="8561.377" Z="21.46478" />
+								</Hotspots>
+							</Grindarea>
+						</SetGrindArea>
+  					<GrindTo Condition="(GetItemCount(24449) &gt;= 30)" GoalText="Farming 30 Spores" /> 
+				</If>
+				<While Condition="(GetItemCount(24449) &gt;= 30)">
+  					<CustomBehavior File="FlyTo" X="262.77773" Y="8506.948" Z="23.48456" /> 
+  					<CustomBehavior File="ForcedDismount" />
+  					<CustomBehavior File="InteractWith" MobId="17925" NumOfTimes="1" CollectionDistance="50" WaitTime="1000" X="280.21" Y="8512.69" Z="24.21" /> 
+  					<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" NumOfTimes="1" WaitTime="1000" /> 
+  					<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteButton" NumOfTimes="1" WaitTime="1000" /> 
+  					<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" NumOfTimes="1" WaitTime="1000" />
+					<CustomBehavior File="InteractWith" MobId="17925" NumOfTimes="1" CollectionDistance="50" WaitTime="1000" X="280.21" Y="8512.69" Z="24.21" /> 
+  					<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" NumOfTimes="1" WaitTime="1000" /> 
+  					<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteButton" NumOfTimes="1" WaitTime="1000" /> 
+  					<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" NumOfTimes="1" WaitTime="1000" /> 
+  					<CustomBehavior File="WaitTimer" WaitTime="3000" /> 
+					<CustomBehavior File="InteractWith" MobId="17925" NumOfTimes="1" CollectionDistance="50" WaitTime="1000" X="280.21" Y="8512.69" Z="24.21" /> 
+  					<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" NumOfTimes="1" WaitTime="1000" /> 
+  					<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteButton" NumOfTimes="1" WaitTime="1000" /> 
+  					<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" NumOfTimes="1" WaitTime="1000" />
+					<CustomBehavior File="InteractWith" MobId="17925" NumOfTimes="1" CollectionDistance="50" WaitTime="1000" X="280.21" Y="8512.69" Z="24.21" /> 
+  					<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" NumOfTimes="1" WaitTime="1000" /> 
+  					<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteButton" NumOfTimes="1" WaitTime="1000" /> 
+  					<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" NumOfTimes="1" WaitTime="1000" />
+					<CustomBehavior File="InteractWith" MobId="17925" NumOfTimes="1" CollectionDistance="50" WaitTime="1000" X="280.21" Y="8512.69" Z="24.21" /> 
+  					<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" NumOfTimes="1" WaitTime="1000" /> 
+  					<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteButton" NumOfTimes="1" WaitTime="1000" /> 
+  					<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" NumOfTimes="1" WaitTime="1000" />
+ 				 </While>
+   			</While>
+
+   			<If Condition="Me.GetReputationLevelWith(970) == Styx.WoWUnitReaction.Exalted">
+				<CustomBehavior File="UserDialog" Title="Congrats" AllowBotStop="True" SoundCue="Asterisk" SoundCueInterval="1" Text="Congrats! You are now exalted with the Sporegar\n Justlaxn" /> 
+   			</If>
+
+   	</QuestOrder>
+
+</HBProfile>
+

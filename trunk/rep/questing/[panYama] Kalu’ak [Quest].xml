@@ -1,0 +1,137 @@
+   <!--
+      PROFILE README:
+         * When using this profile, be certain to set the HonorBuddy bot to (select only one):
+                [ ] Grinding
+                [*] Questing
+                [ ] PvP
+   
+         * This profile is appropriate for:
+                [ ] Leveling
+                [ ] PvP
+				[ ] Questing
+				[*] Reputation
+		
+		
+		PROFILE FEATURES:
+         * Takes a while to get exalted but for a good cause!
+		 
+		 * A collection of patterns and a fishing rod!
+		 
+		 * A Achievement for getting Exalted with Kalu'ak
+            
+			
+		PROFILE WARNINGS:
+         * DO NOT run this profile any other then Questing bot. Using something else will result in errors.
+  
+         * DO NOT post bugs that are NOT related to this profile by any means, they will get ignored. Bugs that are ment for this profile will be listed and fixed, so the profile
+		 can be updated to run smoothly.
+		 
+		 
+		 PROFILE CHANGELOG:
+		 * v2.0 Profile Overhaul
+			Date: Aug 1
+			* Updated to fit new HB.
+
+    -->
+<HBProfile>
+		<Name>panYama's - The Kalu'ak</Name>
+		
+		<!-- General Configuration -->
+		<MinDurability>0.2</MinDurability>
+		<MinFreeBagSlots>4</MinFreeBagSlots>
+		<MinLevel>75</MinLevel>
+		<MaxLevel>86</MaxLevel>
+		
+		<!-- Vendor Configuration -->
+		<SellGrey>True</SellGrey>
+		<SellWhite>True</SellWhite>
+		<SellGreen>False</SellGreen>
+		<SellBlue>False</SellBlue>
+		<SellPurple>False</SellPurple>
+		
+		<!-- Mail Configuration -->
+		<MailWhite>True</MailWhite>
+		<MailGreen>True</MailGreen>
+		<MailBlue>True</MailBlue>
+		<MailPurple>True</MailPurple>
+		
+		<!-- EliteMob Configuration -->
+		<TargetElites>True</TargetElites>
+		
+		<!-- AvoidMob Configuration -->
+		<AvoidMobs>
+			<AvoidMob Name="Gorloc Waddler" Entry="25685"  />
+			<AvoidMob Name="Snowfall Glade Reaver" Entry="26197" />
+			<AvoidMob Name="Gigantaur" Entry="26836" />
+		</AvoidMobs>
+		
+		<!-- Vendor Configuration -->
+		<Vendors>
+			<Vendor Name="Tonraq" Entry="27188" Type="Repair" X="2891.413" Y="4079.36" Z="2.21524" />
+			<Vendor Name="Deniigi" Entry="27151" Type="Repair" X="801.2076" Y="-2948.573" Z="6.660404" />
+			<Vendor Name="Kuk'uq" Entry="27185" Type="Repair" X="2756.748" Y="850.9854" Z="7.542554" />
+		</Vendors>
+		
+		<Mailboxes>
+				<!--*Mailbox Location: Une'pe*-->
+				<Mailbox X="3000.414" Y="4068.574" Z="26.9461" />
+		</Mailboxes>
+		
+	    <ProtectedItems>
+			<Item>35692</Item><!-- Snowfall Glade Pup -->
+		</ProtectedItems>
+				
+		<QuestOrder>
+			<Checkpoint Level="75"/>
+			<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+			<CustomBehavior File="WaitTimer" WaitTime="1700"/>
+			<CustomBehavior File="FlyTo" X="3142.946" Y="4889.827" Z="3.502788"  />
+			
+			<PickUp QuestName="Preparing for the Worst" QuestId="11945" GiverName="Utaik" GiverId="26213" />
+			<Objective QuestName="Preparing for the Worst" QuestId="11945" Type="CollectItem" ItemId="35711" CollectCount="8" />
+			<TurnIn QuestName="Preparing for the Worst" QuestId="11945" TurnInName="Utaik" TurnInId="26213" />
+			
+			<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+			<CustomBehavior File="WaitTimer" WaitTime="1700" />
+			<CustomBehavior File="FlyTo" X="2806.864" Y="915.6016" Z="21.1273"/>
+			
+			<PickUp QuestName="Planning for the Future" QuestId="11960" GiverName="Trapper Mau'i" GiverId="26228" />
+			<CustomBehavior File="InteractWith" QuestId="11960" ObjectType="Npc" MobId="26200" NumOfTimes="12" CollectionDistance="200" X="3106.433" Y="1081.372" Z="119.9169" />
+			<TurnIn QuestName="Planning for the Future" QuestId="11960" TurnInName="Trapper Mau'i" TurnInId="26228" />
+
+			<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+			<CustomBehavior File="WaitTimer" WaitTime="1700" />
+			<CustomBehavior File="FlyTo" X="753.6898" Y="-2891.066" Z="7.13704" />	
+			
+			<PickUp QuestName="The Way to His Heart..." QuestId="11472" GiverName="Anuniaq" GiverId="24810" />
+		</QuestOrder>
+
+		
+		
+		<Quest Id="11945" Name="Preparing for the Worst">
+			<Objective Type="CollectItem" ItemId="35711" CollectCount="8">
+				<CollectFrom>
+				</CollectFrom>
+				<Hotspots>
+					<Hotspot X="3131.467" Y="4754.632" Z="8.122505" />
+					<Hotspot X="3036.066" Y="4781.808" Z="0.3967537" />
+					<Hotspot X="3032.081" Y="4694.074" Z="0.3964536" />
+					<Hotspot X="3003.476" Y="4851.339" Z="0.3966905" />
+					<Hotspot X="2959.062" Y="4853" Z="0.3966905" />
+					<Hotspot X="2924.038" Y="4879.819" Z="2.060805" />
+					<Hotspot X="2913.461" Y="4838.504" Z="0.3974576" />
+					<Hotspot X="2879.065" Y="4862.796" Z="0.3974576" />
+				</Hotspots>
+			</Objective>
+		</Quest>
+
+
+		<Blackspots>		
+			<Blackspot X="3095.119" Y="4801.465" Z="1.224836" Radius="7.435694" />
+			<Blackspot X="3075.554" Y="4829.802" Z="1.352072" Radius="3.602962" />
+			<Blackspot X="3053.363" Y="4815.99" Z="1.539898" Radius="3.702409" />
+			<Blackspot X="3062.793" Y="4749.975" Z="1.325274" Radius="3.132093" />
+			<Blackspot X="3155.649" Y="4745.785" Z="8.924068" Radius="12.55349" />
+		</Blackspots>
+</HBProfile>
+<!-- Copyright panYama's The Kalu'ak Reputation - 2011 -->
