@@ -1,0 +1,81 @@
+ <HBProfile>
+      PROFILE EXPECTATIONS:
+         * When using this profile, be certain to set the HonorBuddy bot to (select only one):
+                (*) Grinding / Mixed
+                ( ) Questing
+                ( ) PvP
+   
+         * This profile is appropriate for (check all that apply):
+                [X] Alliance   [ ] Achievement
+                [ ] Horde      [X] Farming
+                               [X] Leveling
+                               [ ] PvP
+                               [ ] Questing
+                               [ ] Reputation
+                               [ ] Seasonal
+
+<Name>Nick's uldum savage leather</Name>
+   <MinLevel>80</MinLevel>
+   <MaxLevel>86</MaxLevel>
+   
+   <MinDurability>0.3</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+   
+   <MailGrey>False</MailGrey>
+   <MailWhite>True</MailWhite>
+   <MailGreen>True</MailGreen>
+   <MailBlue>True</MailBlue>
+   <MailPurple>False</MailPurple>
+   
+   <SellGrey>True</SellGrey>
+   <SellWhite>False</SellWhite>
+   <SellGreen>False</SellGreen>
+   <SellBlue>False</SellBlue>
+   <SellPurple>False</SellPurple>
+   
+   <TargetElites>False</TargetElites>	
+   
+   <AvoidMobs>
+      <AvoidMob Name="Neferset Smuggler" Entry="46884" />
+      <AvoidMob Name="Emerald Boa" Entry="49725" />  
+      <AvoidMob Name="Oasis Moth" Entry="50496" />
+   </AvoidMobs>
+   
+   <Blackspots>
+       
+   </Blackspots>
+   
+   <ContinentID>1</ContinentID>
+   
+   <Mailboxes>
+       <Mailbox X="-9429.801" Y="-967.6786" Z="111.012" />
+   </Mailboxes>
+   
+   <Vendors>
+       <Vendor Name="Blacksmith Abasi" Entry="48617" Type="Repair" X="-9404.68" Y="-906.438" Z="112.5408" />
+   </Vendors>
+   
+   <GrindArea>
+       <TargetMinLevel>80</TargetMinLevel>
+       <TargetMaxLevel>86</TargetMaxLevel>
+       <Factions>14</Factions>
+       <MaxDistance>30</MaxDistance>
+       <Hotspots>
+      	<Hotspot X="-9865.469" Y="-1116.029" Z="45.85451" />
+     	<Hotspot X="-9992.744" Y="-1147.097" Z="44.36986" />
+      	<Hotspot X="-10155.31" Y="-1203.969" Z="44.34593" />
+      	<Hotspot X="-10384.07" Y="-1296.24" Z="44.10415" />
+      	<Hotspot X="-10408.99" Y="-1201.631" Z="44.80264" />
+      	<Hotspot X="-10207.41" Y="-1088.017" Z="43.83559" />
+      	<Hotspot X="-10190.08" Y="-1141.266" Z="43.7294" />
+      	<Hotspot X="-10066.13" Y="-1078.835" Z="44.17458" />
+      	<Hotspot X="-10084.67" Y="-1027.272" Z="44.53403" />
+      	<Hotspot X="-9931.406" Y="-932.4494" Z="44.11505" />
+      	<Hotspot X="-9904.288" Y="-974.9154" Z="43.54739" />
+      	<Hotspot X="-9978.433" Y="-1035.549" Z="43.38363" />
+      	<Hotspot X="-9965.88" Y="-1072.625" Z="42.43151" />
+      	<Hotspot X="-9874.492" Y="-1043.286" Z="43.50154" />
+       </Hotspots>
+   </GrindArea>
+   
+</HBProfile>

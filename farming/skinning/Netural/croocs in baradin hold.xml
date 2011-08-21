@@ -1,0 +1,105 @@
+<HBProfile>
+   <!--
+      PROFILE EXPECTATIONS:
+         * When using this profile, be certain to set the HonorBuddy bot to (select only one):
+                (*) Grinding / Mixed
+                ( ) Questing
+                ( ) PvP
+   
+         * This profile is appropriate for (check all that apply):
+                [X] Alliance   [ ] Achievement
+                [ ] Horde      [X] Farming
+                               [ ] Leveling
+                               [ ] PvP
+                               [ ] Questing
+                               [ ] Reputation
+                               [ ] Seasonal
+   
+         * An explanation of <ForceMail> and <ProtectedItems> usage is here...
+               http://www.buddyforum.de/mediawiki/index.php?title=HonorBuddy:_About_ProtectedItems_and_ForceMail
+   
+         * DO NOT INCLUDE a <ForceMail> element in a profile!
+           Instead, each user should populate his <hb_install_dir>/ForceMail.xml file.
+           The Buddy Wiki provides a robust sample <ForceMail> element here...
+               http://www.buddyforum.de/mediawiki/index.php?title=Honorbuddy:_A_prototypical_ForceMail_Element
+  
+         * DO NOT INCLUDE a <ProtectedItems> element in a profile!
+           Instead, each user should populate his <hb_install_dir>/Protected Items.xml file.
+           The Buddy Wiki provides a robust sample <ProtectedItems> element here...
+               http://www.buddyforum.de/mediawiki/index.php?title=Honorbuddy:_A_prototypical_ProtectedItems_Element
+   
+    -->
+   <Name>Croocs in baradins hold</Name>
+   <MinLevel>83</MinLevel>
+   <MaxLevel>86</MaxLevel>
+   
+   <MinDurability>0.3</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+   
+   <MailGrey>False</MailGrey>
+   <MailWhite>true</MailWhite>
+   <MailGreen>false</MailGreen>
+   <MailBlue>True</MailBlue>
+   <MailPurple>True</MailPurple>
+   
+   <SellGrey>True</SellGrey>
+   <SellWhite>true</SellWhite>
+   <SellGreen>true</SellGreen>
+   <SellBlue>False</SellBlue>
+   <SellPurple>False</SellPurple>
+   
+   <AvoidMobs>
+       <Mob Name="Problim" Entry="47593" />
+   </AvoidMobs>
+   
+
+   
+
+   <Grindarea>
+
+      <TargetMinLevel>80</TargetMinLevel> 
+     <TargetMaxLevel>87</TargetMaxLevel>
+		<Factions>14 6 1610 116 5 2</Factions> <!-- [Flayer] -->
+   
+			<Hotspots>
+<Hotspot X="-1097.82" Y="1165.066" Z="119.9327" />
+<Hotspot X="-1130.739" Y="1120.984" Z="118.7918" />
+<Hotspot X="-1151.525" Y="1098.979" Z="119.9083" />
+<Hotspot X="-1193.847" Y="1082.774" Z="119.9144" />
+<Hotspot X="-1214.866" Y="1097.659" Z="120.3952" />
+<Hotspot X="-1212.643" Y="1122.845" Z="119.224" />
+<Hotspot X="-1241.328" Y="1123.123" Z="119.0844" />
+<Hotspot X="-1240.247" Y="1094.257" Z="122.6236" />
+<Hotspot X="-1312.935" Y="1087.792" Z="119.159" />
+<Hotspot X="-1333.067" Y="1176.964" Z="120.3058" />
+<Hotspot X="-1314.81" Y="1258.471" Z="120.3092" />
+<Hotspot X="-1266.753" Y="1300.986" Z="120.2512" />
+<Hotspot X="-1202.096" Y="1318.527" Z="122.2165" />
+<Hotspot X="-1191.571" Y="1343.176" Z="125.0211" />
+<Hotspot X="-1127.077" Y="1303.668" Z="119.4458" />
+<Hotspot X="-1102.27" Y="1269.987" Z="120.1473" />
+<Hotspot X="-1085.098" Y="1177.75" Z="121.5285" />
+<Hotspot X="-1162.084" Y="1127.972" Z="122.0408" />
+<Hotspot X="-1215.565" Y="1135.573" Z="118.9699" />
+<Hotspot X="-1254.433" Y="1146.601" Z="119.9295" />
+<Hotspot X="-1288.913" Y="1156.385" Z="119.279" />
+<Hotspot X="-1288.373" Y="1220.297" Z="119.222" />
+<Hotspot X="-1278.972" Y="1257.01" Z="119.5849" />
+<Hotspot X="-1251.121" Y="1284.2" Z="119.2648" />
+<Hotspot X="-1203.458" Y="1268.475" Z="118.9248" />
+<Hotspot X="-1171.066" Y="1258.11" Z="120.6493" />
+<Hotspot X="-1162.619" Y="1249.745" Z="120.6494" />
+<Hotspot X="-1159.628" Y="1234.716" Z="120.7277" />
+<Hotspot X="-1141.113" Y="1224.211" Z="118.8948" />
+<Hotspot X="-1161.232" Y="1163.355" Z="119.172" />
+<Hotspot X="-1219.712" Y="1150.146" Z="118.9342" />
+<Hotspot X="-1257.705" Y="1182.245" Z="119.3474" />
+<Hotspot X="-1285.168" Y="1211.125" Z="119.3793" />
+<Hotspot X="-1225.456" Y="1256.13" Z="121.2209" />
+<Hotspot X="-1182.78" Y="1208.666" Z="119.1225" />
+<Hotspot X="-1163.485" Y="1170.266" Z="119.2908" />
+			</Hotspots>
+
+</Grindarea>
+   
+</HBProfile>

@@ -1,0 +1,52 @@
+
+<HBProfile>
+		<Name>StormPeaks Frostfloe Deep (Eternal Fire)</Name>
+		<MinDurability>0.4</MinDurability>
+		<MinFreeBagSlots>2</MinFreeBagSlots>
+		<SellGrey>True</SellGrey>
+		<SellWhite>False</SellWhite>
+		<SellGreen>False</SellGreen>
+		<SellBlue>False</SellBlue>
+		<SellPurple>False</SellPurple>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>85</MaxLevel>
+		<MailWhite>True</MailWhite>
+		<MailGreen>True</MailGreen>
+		<MailBlue>True</MailBlue>
+		<MailPurple>True</MailPurple>
+	<ProtectedItems>
+		<Item>6948</Item> <!--Hearthstone -->
+		<Item>22829</Item> <!-- Super Healing Potion -->
+		<Item>37700</Item> <!-- Crystallized Air -->    
+		<Item>33444</Item> <!-- Pungeant Seal Whey --> 
+		<Item>33454</Item> <!-- Salted Venison --> 
+		<Item>33470</Item> <!-- Frostweave Cloth -->
+		<Item>35623</Item> <!-- Eternal Air -->
+		<Item>37705</Item> <!-- Crystallized Air -->
+		<Item>35622</Item> <!-- Eternal Water -->
+	</ProtectedItems>
+	<SubProfile>
+		<Mesh Name="Frostfloe Fire.mesh" ServerID="34" />
+		<Name>Frostfloe Fire</Name>
+		<MinLevel>68</MinLevel>
+		<MaxLevel>81</MaxLevel>
+	<Factions>16</Factions>
+
+	    <AvoidMobs>
+	    <Mob Name="Plains Mammoth" Entry="30448"/>
+		<Mob Name="Drathdrako" Entry="0"/>
+	    </AvoidMobs>
+
+	<Hotspots>
+		<Hotspot X="8279.259" Y="-2602.188" Z="1150.484" />
+		<Hotspot X="8316.896" Y="-2536.417" Z="1151.053" />
+		<Hotspot X="8395.21" Y="-2533.156" Z="1131.231" />
+	</Hotspots>
+	<Vendors>
+		<Vendor Name="Ontak" Entry="29969" Type="Repair" X="7796.924" Y="-2950.78" Z="1257.672" />
+	</Vendors>
+	<Mailboxes>
+		<Mailbox X="7809.961" Y="-2955.922" Z="1257.645" />
+	</Mailboxes>
+	</SubProfile>
+</HBProfile>

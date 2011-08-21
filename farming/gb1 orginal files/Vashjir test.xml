@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<GlideProfile>
+  <MinLevel>1</MinLevel>
+  <MaxLevel>80</MaxLevel>
+  <NaturalRun>True</NaturalRun>
+  <LureMinutes>0</LureMinutes>
+  <SkipWaypoints>True</SkipWaypoints>
+  <Factions></Factions>
+  <Waypoint>-7062.759 6601.857 -824.6226</Waypoint>
+  <Waypoint>-6943.017 6584.76 -824.6226</Waypoint>
+  <Waypoint>-6828.317 6523.91 -824.6226</Waypoint>
+  <Waypoint>-6706.902 6477.114 -824.6226</Waypoint>
+  <Waypoint>-6588.667 6425.889 -824.6226</Waypoint>
+  <Waypoint>-6460.487 6405.492 -824.6226</Waypoint>
+  <Waypoint>-6340.418 6357.987 -824.6226</Waypoint>
+  <Waypoint>-6242.022 6276.964 -824.6226</Waypoint>
+  <Waypoint>-6113.515 6266.467 -824.6226</Waypoint>
+  <Waypoint>-6021.696 6299.846 -824.6226</Waypoint>
+  <Waypoint>-6141.17 6313.417 -824.6226</Waypoint>
+  <Waypoint>-6265.334 6341.529 -824.6226</Waypoint>
+  <Waypoint>-6384.906 6392.232 -824.6226</Waypoint>
+  <Waypoint>-6507.041 6437.116 -824.6226</Waypoint>
+  <Waypoint>-6616.946 6501.916 -824.6226</Waypoint>
+  <Waypoint>-6743.694 6525.224 -824.6226</Waypoint>
+  <Waypoint>-6861.691 6578.186 -824.6226</Waypoint>
+  <Waypoint>-6972.646 6643.813 -824.6226</Waypoint>
+  <Waypoint>-7061.76 6732.147 -824.6226</Waypoint>
+  <Waypoint>-7155.727 6814.198 -824.6226</Waypoint>
+  <Waypoint>-7165.871 6713.529 -824.6226</Waypoint>
+</GlideProfile>

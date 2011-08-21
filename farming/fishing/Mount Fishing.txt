@@ -1,0 +1,38 @@
+<HBProfile>
+	<Name>Twilight Highlands 450-500</Name>
+	<MinDurability>0.4</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>True</SellGreen>
+	<MailWhite>False</MailWhite>
+	<MailGreen>False</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<ProtectedItems>
+		<Item name="Fishing Pole" entry="6256" />
+	</ProtectedItems>
+	<SubProfile>
+		<Name>Mount H 450-500</Name>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>86</MaxLevel>
+		<TargetMinLevel>86</TargetMinLevel>
+		<Hotspots>
+		
+<Hotspot X="5506.02" Y="-3451.257" Z="1558.799" />
+<Hotspot X="5380.907" Y="-3503.923" Z="1559.095" />     
+
+		</Hotspots>
+
+                <Blackspots>
+
+		
+
+                </Blackspots>        
+                 
+		<Vendors>			
+		</Vendors>
+		<Mailboxes>                         
+		</Mailboxes>
+	</SubProfile>
+</HBProfile>

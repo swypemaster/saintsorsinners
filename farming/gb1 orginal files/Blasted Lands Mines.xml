@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<GlideProfile>
+  <MinLevel>1</MinLevel>
+  <MaxLevel>80</MaxLevel>
+  <NaturalRun>True</NaturalRun>
+  <LureMinutes>0</LureMinutes>
+  <SkipWaypoints>True</SkipWaypoints>
+  <Factions></Factions>
+  <Waypoint>-10912.52 -2895.598 72.04284</Waypoint>
+  <Waypoint>-10952.44 -2866.831 65.82713</Waypoint>
+  <Waypoint>-11031.99 -2805.353 65.688</Waypoint>
+  <Waypoint>-11111.95 -2744.559 67.97634</Waypoint>
+  <Waypoint>-11202.66 -2725.634 63.5218</Waypoint>
+  <Waypoint>-11258.31 -2730.722 53.94666</Waypoint>
+  <Waypoint>-11354.67 -2752.326 38.03707</Waypoint>
+  <Waypoint>-11454.14 -2751.42 34.11574</Waypoint>
+  <Waypoint>-11554.07 -2762.464 32.86119</Waypoint>
+  <Waypoint>-11654.67 -2770.796 36.61235</Waypoint>
+  <Waypoint>-11754.07 -2759.795 39.39636</Waypoint>
+  <Waypoint>-11829.91 -2700.21 36.06808</Waypoint>
+  <Waypoint>-11812.05 -2605.468 34.74026</Waypoint>
+  <Waypoint>-11801.92 -2522.864 33.17994</Waypoint>
+  <Waypoint>-11839.28 -2511.791 29.35017</Waypoint>
+  <Waypoint>-11903.88 -2507.592 28.25039</Waypoint>
+  <Waypoint>-12001.64 -2531.411 30.60992</Waypoint>
+  <Waypoint>-12101.44 -2545.503 39.03918</Waypoint>
+  <Waypoint>-12201.42 -2539.281 48.85219</Waypoint>
+  <Waypoint>-12293.23 -2501.525 54.36593</Waypoint>
+  <Waypoint>-12290.05 -2416.949 57.79697</Waypoint>
+  <Waypoint>-12198.86 -2421.032 55.3847</Waypoint>
+  <Waypoint>-12135.83 -2391.667 53.35722</Waypoint>
+  <Waypoint>-12203.62 -2334.298 50.90386</Waypoint>
+  <Waypoint>-12295.48 -2332.918 67.02394</Waypoint>
+  <Waypoint>-12394.14 -2329.873 64.91336</Waypoint>
+  <Waypoint>-12490.06 -2354.733 48.88446</Waypoint>
+  <Waypoint>-12496.41 -2443.909 50.38302</Waypoint>
+  <Waypoint>-12447.88 -2531.898 47.89134</Waypoint>
+  <Waypoint>-12478.64 -2626.382 47.40548</Waypoint>
+  <Waypoint>-12536.85 -2707.619 43.53796</Waypoint>
+  <Waypoint>-12552.9 -2791.621 35.82915</Waypoint>
+  <Waypoint>-12526.36 -2803.878 39.17035</Waypoint>
+  <Waypoint>-12430.58 -2773.777 49.52972</Waypoint>
+  <Waypoint>-12337.27 -2798.559 45.64176</Waypoint>
+  <Waypoint>-12299.37 -2861.304 111.7445</Waypoint>
+  <Waypoint>-12262.66 -2949.693 116.4096</Waypoint>
+  <Waypoint>-12285.61 -3040.901 121.865</Waypoint>
+  <Waypoint>-12284.4 -3124.478 149.3997</Waypoint>
+  <Waypoint>-12206.49 -3141.95 189.9794</Waypoint>
+  <Waypoint>-12210.38 -3217.824 140.8317</Waypoint>
+  <Waypoint>-12218.93 -3298.13 108.2296</Waypoint>
+  <Waypoint>-12199.13 -3393.902 96.2429</Waypoint>
+  <Waypoint>-12163.22 -3468.945 136.0514</Waypoint>
+  <Waypoint>-12141.27 -3558.487 125.528</Waypoint>
+  <Waypoint>-12096.54 -3642.221 104.4707</Waypoint>
+  <Waypoint>-12029.5 -3716.58 91.43954</Waypoint>
+  <Waypoint>-11954.75 -3782.271 86.77876</Waypoint>
+  <Waypoint>-11858.4 -3759.209 89.52286</Waypoint>
+  <Waypoint>-11777.98 -3730.75 87.60766</Waypoint>
+  <Waypoint>-11687.51 -3694.624 81.23469</Waypoint>
+  <Waypoint>-11616.04 -3624.469 74.24371</Waypoint>
+  <Waypoint>-11590.21 -3528.239 70.04784</Waypoint>
+  <Waypoint>-11597.58 -3496.987 69.02918</Waypoint>
+  <Waypoint>-11585.4 -3426.423 50.33703</Waypoint>
+  <Waypoint>-11518.49 -3355.255 38.33998</Waypoint>
+  <Waypoint>-11422.87 -3378.374 38.60257</Waypoint>
+  <Waypoint>-11325.24 -3376.74 34.6513</Waypoint>
+  <Waypoint>-11230.57 -3341.993 35.16326</Waypoint>
+  <Waypoint>-11161.31 -3277.998 55.68629</Waypoint>
+  <Waypoint>-11178.69 -3188.424 57.17612</Waypoint>
+  <Waypoint>-11209.27 -3094.501 47.33136</Waypoint>
+  <Waypoint>-11165.63 -3005.5 42.36951</Waypoint>
+  <Waypoint>-11087.08 -2944.488 41.78779</Waypoint>
+  <Waypoint>-10987.04 -2951.16 45.2586</Waypoint>
+  <Waypoint>-10933.02 -2900.936 46.30419</Waypoint>
+  <Waypoint>-10947.97 -2885.789 48.3736</Waypoint>
+</GlideProfile>

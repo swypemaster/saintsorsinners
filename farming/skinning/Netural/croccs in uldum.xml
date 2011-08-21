@@ -1,0 +1,110 @@
+ <HBProfile>
+   <!--
+      PROFILE EXPECTATIONS:
+         * When using this profile, be certain to set the HonorBuddy bot to (select only one):
+                (*) Grinding / Mixed
+                ( ) Questing
+                ( ) PvP
+   
+         * This profile is appropriate for (check all that apply):
+                [X] Alliance   [ ] Achievement
+                [ ] Horde      [ ] Farming
+                               [X] Leveling
+                               [ ] PvP
+                               [ ] Questing
+                               [ ] Reputation
+                               [ ] Seasonal
+   
+         * An explanation of <ForceMail> and <ProtectedItems> usage is here...
+               http://www.buddyforum.de/mediawiki/index.php?title=HonorBuddy:_About_ProtectedItems_and_ForceMail
+   
+         * DO NOT INCLUDE a <ForceMail> element in a profile!
+           Instead, each user should populate his <hb_install_dir>/ForceMail.xml file.
+           The Buddy Wiki provides a robust sample <ForceMail> element here...
+               http://www.buddyforum.de/mediawiki/index.php?title=Honorbuddy:_A_prototypical_ForceMail_Element
+  
+         * DO NOT INCLUDE a <ProtectedItems> element in a profile!
+           Instead, each user should populate his <hb_install_dir>/Protected Items.xml file.
+           The Buddy Wiki provides a robust sample <ProtectedItems> element here...
+               http://www.buddyforum.de/mediawiki/index.php?title=Honorbuddy:_A_prototypical_ProtectedItems_Element
+   
+    -->
+   <Name>Uldum Croco tails</Name>
+   <MinLevel>81</MinLevel>
+   <MaxLevel>86</MaxLevel>
+   
+   <MinDurability>0.3</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+   
+   <MailGrey>False</MailGrey>
+   <MailWhite>true</MailWhite>
+   <MailGreen>false</MailGreen>
+   <MailBlue>True</MailBlue>
+   <MailPurple>True</MailPurple>
+   
+   <SellGrey>True</SellGrey>
+   <SellWhite>false</SellWhite>
+   <SellGreen>true</SellGreen>
+   <SellBlue>False</SellBlue>
+   <SellPurple>False</SellPurple>
+   
+   <TargetElites>False</TargetElites>	
+   
+
+   
+
+   
+
+   
+   <Mailboxes>
+       <Mailbox X="-9427.519" Y="-967.6268" Z="111.0121" />
+   </Mailboxes>
+   
+   <Vendors>
+       <Vendor Name="Blacksmith Abasi" Entry="48617" Type="Repair" X="-9404.68" Y="-906.438" Z="112.541" />
+   </Vendors>
+   
+   <GrindArea>
+       <TargetMinLevel>77</TargetMinLevel>
+       <TargetMaxLevel>87</TargetMaxLevel>
+       <Factions>14</Factions>
+       <MaxDistance>100</MaxDistance>
+       <Hotspots>
+<Hotspot X="-9892.287" Y="-1154.066" Z="47.07896" />
+<Hotspot X="-9862.141" Y="-1111.394" Z="45.54559" />
+<Hotspot X="-9922.957" Y="-1116.306" Z="44.47907" />
+<Hotspot X="-9946.035" Y="-1164.671" Z="48.68938" />
+<Hotspot X="-9978.643" Y="-1141.354" Z="44.47459" />
+<Hotspot X="-10025.52" Y="-1153.5" Z="44.46001" />
+<Hotspot X="-10083.45" Y="-1164.009" Z="44.31199" />
+<Hotspot X="-10147.28" Y="-1195.51" Z="44.07955" />
+<Hotspot X="-10213.89" Y="-1229.43" Z="44.46776" />
+<Hotspot X="-10256.13" Y="-1257.343" Z="45.06516" />
+<Hotspot X="-10374.13" Y="-1278.568" Z="42.59553" />
+<Hotspot X="-10428.1" Y="-1289.287" Z="42.61921" />
+<Hotspot X="-10434.13" Y="-1215.126" Z="43.42474" />
+<Hotspot X="-10355.06" Y="-1181.528" Z="44.25074" />
+<Hotspot X="-10302.41" Y="-1192.487" Z="41.51849" />
+<Hotspot X="-10261.48" Y="-1142.455" Z="42.52536" />
+<Hotspot X="-10216.99" Y="-1094.706" Z="43.89364" />
+<Hotspot X="-10178.87" Y="-1073.438" Z="44.5102" />
+<Hotspot X="-10199.32" Y="-1155.991" Z="43.46188" />
+<Hotspot X="-10141.89" Y="-1116.337" Z="44.32273" />
+<Hotspot X="-10101.65" Y="-1099.97" Z="44.24139" />
+<Hotspot X="-10049.53" Y="-1070.05" Z="42.84312" />
+<Hotspot X="-10073.14" Y="-1024.782" Z="43.6413" />
+<Hotspot X="-10016.95" Y="-983.2977" Z="43.97302" />
+<Hotspot X="-9961.198" Y="-966.4611" Z="43.81649" />
+<Hotspot X="-9985.085" Y="-935.0764" Z="48.66098" />
+<Hotspot X="-9949.83" Y="-910.1772" Z="48.8969" />
+<Hotspot X="-9925.676" Y="-934.9199" Z="43.12507" />
+<Hotspot X="-9914.659" Y="-978.1627" Z="43.64582" />
+<Hotspot X="-9903.683" Y="-1020.045" Z="42.86359" />
+<Hotspot X="-9888.63" Y="-1049.967" Z="43.65019" />
+<Hotspot X="-9879.134" Y="-1103.876" Z="44.4731" />
+<Hotspot X="-9977.269" Y="-1070.108" Z="42.25013" />
+<Hotspot X="-9988.069" Y="-1028.059" Z="43.41917" />
+       </Hotspots>
+   </GrindArea>
+   
+</HBProfile>

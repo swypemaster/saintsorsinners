@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HBProfile>
+  <Name>Elemental Fire - Hyjal</Name>
+  <MinDurability>0.3</MinDurability>
+  <MinFreeBagSlots>2</MinFreeBagSlots>
+  <MinLevel>1</MinLevel>
+  <MaxLevel>86</MaxLevel>
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>False</SellGreen>
+	<SellBlue>False</SellBlue>
+	<SellPurple>False</SellPurple>
+	
+	<MailWhite>True</MailWhite>
+	<MailGreen>True</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>  
+	<Vendors>
+		<Vendor Name="Naresir Sturmwut" Entry="54401" Type="Repair" X="3977.878" Y="-2957.934" Z="1005.848" />
+	</Vendors>
+	
+	<Mailboxes>
+		<!--no mail nearby - you should hearth and exit-->
+	</Mailboxes>
+	<AvoidMobs>
+		<Mob Name="Magmariese" Entry="40464"  />
+	</AvoidMobs>
+    <Factions>45</Factions>
+    <Hotspots>
+			<Hotspot X="4122.629" Y="-2887.008" Z="1006.786" />
+			<Hotspot X="4160.764" Y="-3007.436" Z="988.0385" />
+			<Hotspot X="4153.578" Y="-3136.819" Z="980.9532" />
+			<Hotspot X="4114.51" Y="-3180.836" Z="988.3134" />
+			<Hotspot X="4060.057" Y="-3184.992" Z="982.7844" />
+			<Hotspot X="4066.812" Y="-3338.789" Z="976.3829" />
+			<Hotspot X="3963.053" Y="-3225.828" Z="977.8935" />
+			<Hotspot X="3834.059" Y="-3166.983" Z="984.6044" />
+			<Hotspot X="3777.484" Y="-3067.931" Z="1004.285" />
+			<Hotspot X="3856.911" Y="-3015.291" Z="1006.084" />
+			<Hotspot X="3921.366" Y="-3067.062" Z="1010.199" />
+			<Hotspot X="4007.19" Y="-3067.597" Z="1013.558" />
+			<Hotspot X="4087.643" Y="-3009.606" Z="1011.09" />
+			<Hotspot X="4140.649" Y="-2948.636" Z="1011.612" />
+    </Hotspots>
+		<Blackspots>
+			<Blackspot X="3999.643" Y="-2972.373" Z="1006.524" Radius="40.53942" />
+		</Blackspots>
+</HBProfile>

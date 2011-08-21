@@ -1,0 +1,137 @@
+<!-- Copyright Liquid's Neutral Primal Farming Nagrand (Elemental Plateau) 2010 -->
+<!-- A Flying mount is required to get to this farming location -->
+<!-- There is no mailbox  or repair available in this part of Nagrand -->
+<!-- Motes of Fire, Air, Earth and Water are possible from this location -->
+<!-- It's one of better droplocations so if anyone else is farming, respect that -->
+<!-- The mobs drop grays, greens, occasional blue and epics -->
+<!-- Also Osho'gun Crystal Powder Sample are on the loottables (used for Halaa Research Tokens) -->
+<!-- Besides the loot there's occasional herbs and ores around for the gatherers -->
+<!-- Mana Thistle, Dreaming Glory, Adamantite and Khorium veins e.g. -->
+<!-- Lootfilter is highly recommended if you plan to farm here for a longer time unattended -->
+<!-- This is a semi busy farm area, and on PvP servers this used to be a ganking spot -->
+<HBProfile>
+	<!-- General Configurations and settings -->
+	<Name>Liquid's Primal Farming Nagrand (Elemental Plateau)</Name>
+	
+	<!-- When to go for a repair -->
+	<MinDurability>0.4</MinDurability>
+	
+	<!-- When to go to vendor trash -->
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	
+	<!-- What to vendor (make sure what you want protected IS protected! -->
+	<SellGrey>True</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+		
+		<!-- What to keep (since we can't mail here, we save it in our bags) -->
+		<MailWhite>True</MailWhite>
+		<MailGreen>True</MailGreen>
+		<MailBlue>True</MailBlue>
+		<MailPurple>True</MailPurple>
+
+	<!-- The actual profile starts here -->
+	<Subprofile>
+	
+		<!-- The name of this profile -->
+		<Name>Primal Farming - Elementals</Name>
+		
+		<!-- You can probably go here earlier. The mobs are around level 70 -->
+ 		<MinLevel>70</MinLevel>
+		<MaxLevel>81</MaxLevel>
+		
+			
+		<!-- There are no vendors reachable (Flying mount required) -->			
+		<Vendors>
+
+		</Vendors>
+		
+		<!-- There are no mailboxes reachable (Flying mount required) -->
+		<Mailboxes>
+
+		</Mailboxes>
+
+	<!-- The new tag for HB 1.9.5.9 around the Hotspots tag -->
+	<GrindArea>
+		<!-- Faction 16 are the Twilight Serpents -->
+		<Factions>16 834 2068</Factions>
+		<RandomizeHotspots>false</RandomizeHotspots>
+		<MaximumHotspotTime>7000</MaximumHotspotTime>
+		<!-- Many hotspots to cover each spawning area -->
+		<Hotspots>
+			<Hotspot X="-865.9193" Y="6609.882" Z="174.8568" />
+			<Hotspot X="-836.6516" Y="6517.418" Z="171.1522" />
+			<Hotspot X="-842.9286" Y="6469.816" Z="174.6479" />
+			<Hotspot X="-872.5835" Y="6430.357" Z="178.404" />
+			<Hotspot X="-839.0342" Y="6427.667" Z="174.9468" />
+			<Hotspot X="-819.3154" Y="6452.97" Z="174.5051" />
+			<Hotspot X="-792.9282" Y="6452.946" Z="175.0359" />
+			<Hotspot X="-757.1768" Y="6449.762" Z="177.8852" />
+			<Hotspot X="-782.1977" Y="6491.917" Z="191.7498" />
+			<Hotspot X="-804.3053" Y="6498.995" Z="196.4438" />
+			<Hotspot X="-781.6719" Y="6423.519" Z="171.7158" />
+			<Hotspot X="-760.0282" Y="6378.881" Z="173.4527" />
+			<Hotspot X="-712.9109" Y="6374.326" Z="171.1825" />
+			<Hotspot X="-694.7603" Y="6350.416" Z="173.2182" />
+			<Hotspot X="-718.7934" Y="6415.416" Z="171.5635" />
+			<Hotspot X="-709.7541" Y="6463.691" Z="174.0522" />
+			<Hotspot X="-745.6329" Y="6490.886" Z="174.1708" />
+			<Hotspot X="-679.6896" Y="6487.373" Z="171.5927" />
+			<Hotspot X="-661.2223" Y="6525.075" Z="171.5891" />
+			<Hotspot X="-648.9218" Y="6571.083" Z="170.7979" />
+			<Hotspot X="-686.5936" Y="6596.849" Z="170.7863" />
+			<Hotspot X="-697.8579" Y="6564.918" Z="171.0779" />
+			<Hotspot X="-730.8096" Y="6527.976" Z="172.1213" />
+			<Hotspot X="-769.3102" Y="6543.438" Z="171.4513" />
+			<Hotspot X="-754.0311" Y="6585.733" Z="171.3847" />
+			<Hotspot X="-809.1613" Y="6574.263" Z="170.7601" />
+			<Hotspot X="-827.8226" Y="6611.256" Z="175.2057" />
+			<Hotspot X="-787.6066" Y="6627.853" Z="175.0041" />
+			<Hotspot X="-725.3596" Y="6641.764" Z="178.109" />
+			<Hotspot X="-680.4613" Y="6731.022" Z="158.9085" />
+			<Hotspot X="-632.2784" Y="6747.626" Z="156.1371" />
+			<Hotspot X="-579.692" Y="6715.14" Z="157.966" />
+		</Hotspots>
+		
+		<!--There are no stuckpoints known or reported in this profile yet -->
+		<Blackspots>
+		</Blackspots>
+		
+	</GrindArea>
+			
+		<!-- No avoidmobs at this point -->
+		<AvoidMobs>
+
+		</AvoidMobs>
+
+	</Subprofile>
+
+	<!-- This is what we came here for so protect it -->
+    <ProtectedItems>
+	<!-- Mote of Fire -->
+	<Item>22574</Item>
+	<!-- Primal Fire -->
+	<Item>21884</Item>
+	<!-- Mote of Air -->
+	<Item>22572</Item>
+	<!-- Primal Air -->
+	<Item>22451</Item>
+	<!-- Mote of Earth -->
+	<Item>22573</Item>
+	<!-- Primal Earth -->
+	<Item>22452</Item>
+	<!-- Mote of Water -->
+	<Item>22578</Item>
+	<!-- Primal Water -->
+	<Item>21885</Item>
+	
+	<!-- This you might want to protect (for obtaining Halaa Research Tokens) -->
+	<!-- Oshu'gun Crystal Powder Sample Horde -->
+	<Item>26042</Item>
+	<!-- Oshu'gun Crystal Powder Sample Alliance -->
+	<Item>26043</Item>
+
+	</ProtectedItems>
+	
+</HBProfile>
+ 

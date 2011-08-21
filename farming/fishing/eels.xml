@@ -1,0 +1,57 @@
+<HBProfile>
+	<Name>Twilight Highlands 450-500</Name>
+	<MinDurability>0.4</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<SellGrey>True</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+	<MailWhite>False</MailWhite>
+	<MailGreen>False</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<ProtectedItems>
+		<Item name="Fishing Pole" entry="6256" />
+	</ProtectedItems>
+	<SubProfile>
+		<Name>Eels Water Elixer</Name>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>86</MaxLevel>
+		<TargetMinLevel>86</TargetMinLevel>
+		
+<Hotspots>
+
+<Hotspot X="-10711.5" Y="1468.531" Z="-0.3943478" />
+<Hotspot X="-10829.65" Y="691.0684" Z="0.4619555" />
+<Hotspot X="-10907.39" Y="575.6543" Z="-0.3210241" />
+<Hotspot X="-10933.25" Y="539.5851" Z="-0.3210241" />
+<Hotspot X="-10976.95" Y="376.1311" Z="1.789548" />
+<Hotspot X="-10986.62" Y="291.7658" Z="1.789548" />
+<Hotspot X="-11072.11" Y="76.43523" Z="0.0009444915" />
+<Hotspot X="-11221.16" Y="-175.6533" Z="-0.2127047" />
+<Hotspot X="-11431.12" Y="-278.5072" Z="-0.2127047" />
+<Hotspot X="-11559.84" Y="-393.6556" Z="-0.2127047" />
+<Hotspot X="-11757.61" Y="-550.665" Z="-0.2127047" />
+<Hotspot X="-11699.81" Y="-723.1071" Z="-0.2127047" />
+<Hotspot X="-11562.16" Y="-1105.881" Z="-0.2127047" />
+<Hotspot X="-11578.7" Y="-1200.781" Z="0.0007476807" />
+
+
+		</Hotspots>
+<AvoidMobs>
+
+</AvoidMobs>
+
+                <Blackspots>
+
+		
+
+                </Blackspots>        
+                 
+		<Vendors>
+
+			
+		</Vendors>
+		<Mailboxes>                        
+		</Mailboxes>
+	</SubProfile>
+</HBProfile>

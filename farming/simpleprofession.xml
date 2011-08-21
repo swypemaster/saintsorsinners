@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Professionbuddy ChildrenCount="3">
+ <If Condition="Jewelcrafting.Level&gt;499" IgnoreCanRun="True" ChildrenCount="4">
+    <If Condition="InbagCount(53038) &gt; 5 || InbagCount(52185) &gt; 5 || InbagCount(52183) &gt; 5" IgnoreCanRun="True" ChildrenCount="2">
+		<CustomAction Code="Log(&quot;[ProfessionBuddy] Cataclysm ore detected, making sure it's all stacked.&quot;);" />
+		<StackItemsAction />
+	</If>
+	<If Condition="InbagCount(53038) &gt; 5" IgnoreCanRun="True" ChildrenCount="2">
+		<CustomAction Code="Log(&quot;[ProfessionBuddy] Starting with prospecting obsidium.&quot;);" />
+		<DisenchantAction ActionType="Prospect" ItemTarget="Specific" ItemQuality="Uncommon" ItemId="53038" />
+	</If>
+	<If Condition="InbagCount(52185) &gt; 5" IgnoreCanRun="True" ChildrenCount="2">
+		<CustomAction Code="Log(&quot;[ProfessionBuddy] Starting with prospecting elementium.&quot;);" />
+		<DisenchantAction ActionType="Prospect" ItemTarget="Specific" ItemQuality="Uncommon" ItemId="52185" />
+	</If>
+	<If Condition="InbagCount(52183) &gt; 5" IgnoreCanRun="True" ChildrenCount="2">
+		<CustomAction Code="Log(&quot;[ProfessionBuddy] Starting with prospecting pyrite.&quot;);" />
+		<DisenchantAction ActionType="Prospect" ItemTarget="Specific" ItemQuality="Uncommon" ItemId="52183" />
+	</If>
+</If>
+
+<If Condition="Inscription.Level&gt;474" IgnoreCanRun="True" ChildrenCount="7">
+	<If Condition="InbagCount(52983) &gt; 5 || InbagCount(52984) &gt; 5 || InbagCount(52985) &gt; 5 || InbagCount(52986) &gt; 5 || InbagCount(52987) &gt; 5 || InbagCount(52988) &gt; 5" IgnoreCanRun="True" ChildrenCount="2">
+		<CustomAction Code="Log(&quot;[ProfessionBuddy] Cataclysm herbs detected, making sure it's all stacked.&quot;);" />
+		<StackItemsAction />
+	</If>
+	<If Condition="InbagCount(52983) &gt; 5" IgnoreCanRun="True" ChildrenCount="2">
+		<CustomAction Code="Log(&quot;[ProfessionBuddy] Starting with milling Cinderbloom.&quot;);" />
+		<DisenchantAction ActionType="Mill" ItemTarget="Specific" ItemQuality="Uncommon" ItemId="52983" />
+	</If>
+	<If Condition="InbagCount(52984) &gt; 5" IgnoreCanRun="True" ChildrenCount="2">
+		<CustomAction Code="Log(&quot;[ProfessionBuddy] Starting with milling Stormvine.&quot;);" />
+		<DisenchantAction ActionType="Mill" ItemTarget="Specific" ItemQuality="Uncommon" ItemId="52984" />
+	</If>
+	<If Condition="InbagCount(52985) &gt; 5" IgnoreCanRun="True" ChildrenCount="2">
+		<CustomAction Code="Log(&quot;[ProfessionBuddy] Starting with milling Azshara's Veil.&quot;);" />
+		<DisenchantAction ActionType="Mill" ItemTarget="Specific" ItemQuality="Uncommon" ItemId="52985" />
+	</If>
+	<If Condition="InbagCount(52986) &gt; 5" IgnoreCanRun="True" ChildrenCount="2">
+		<CustomAction Code="Log(&quot;[ProfessionBuddy] Starting with milling Heartblossom.&quot;);" />
+		<DisenchantAction ActionType="Mill" ItemTarget="Specific" ItemQuality="Uncommon" ItemId="52986" />
+	</If>
+	<If Condition="InbagCount(52987) &gt; 5" IgnoreCanRun="True" ChildrenCount="2">
+		<CustomAction Code="Log(&quot;[ProfessionBuddy] Starting with milling Twilight Jasmine.&quot;);" />
+		<DisenchantAction ActionType="Mill" ItemTarget="Specific" ItemQuality="Uncommon" ItemId="52987" />
+	</If>
+	<If Condition="InbagCount(52988) &gt; 5" IgnoreCanRun="True" ChildrenCount="2">
+		<CustomAction Code="Log(&quot;[ProfessionBuddy] Starting with milling Whiptail.&quot;);" />
+		<DisenchantAction ActionType="Mill" ItemTarget="Specific" ItemQuality="Uncommon" ItemId="52988" />
+	</If>
+</If>
+ <CustomAction Code="Log(&quot;[ProfessionBuddy] Profile completed!&quot;);" />
+</Professionbuddy>
+
+
+

@@ -1,0 +1,88 @@
+<HBProfile>
+   <Name>Uldum Volatile Air Farming</Name>
+   <MinLevel>0</MinLevel>
+   <MaxLevel>999</MaxLevel>
+   
+   <MinDurability>0.3</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+   
+   <MailGrey>False</MailGrey>
+   <MailWhite>False</MailWhite>
+   <MailGreen>True</MailGreen>
+   <MailBlue>True</MailBlue>
+   <MailPurple>True</MailPurple>
+   
+   <SellGrey>True</SellGrey>
+   <SellWhite>True</SellWhite>
+   <SellGreen>False</SellGreen>
+   <SellBlue>False</SellBlue>
+   <SellPurple>False</SellPurple>
+   
+   <AvoidMobs>
+       
+   </AvoidMobs>
+   
+   <Blackspots>
+       <Blackspot X="-10701.52" Y="431.6073" Z="20.76593" Radius="5.607923" />
+   </Blackspots>
+   
+   <Mailboxes>
+      <Mailbox X="-9427.878" Y="-968.0198" Z="111.0116"  />
+   </Mailboxes>
+   
+   <Vendors>
+       <Vendor Name="Schmied Abasi" Entry="48617" Type="Repair" X="-9404.68" Y="-906.438" Z="112.5404" />
+   </Vendors>
+   
+<GrindArea>
+       <TargetMinLevel>80</TargetMinLevel>
+       <TargetMaxLevel>99</TargetMaxLevel>
+       <Factions>14 91 834</Factions>
+       <MaxDistance>45</MaxDistance>
+       <Hotspots>
+           <Hotspot X="-9536.948" Y="-279.2706" Z="102.2847" />
+<Hotspot X="-9615.296" Y="-229.5602" Z="100.8026" />
+<Hotspot X="-9610.747" Y="-129.4948" Z="104.2319" />
+<Hotspot X="-9528.647" Y="1.950875" Z="113.9982" />
+<Hotspot X="-9618.184" Y="8.088207" Z="106.2131" />
+<Hotspot X="-9638.235" Y="-30.79556" Z="94.3067" />
+<Hotspot X="-9672.686" Y="-85.41261" Z="89.17045" />
+<Hotspot X="-9709.318" Y="-132.9951" Z="81.55069" />
+<Hotspot X="-9860.961" Y="-41.45332" Z="58.42918" />
+<Hotspot X="-9820.313" Y="32.53534" Z="65.9367" />
+<Hotspot X="-9799.598" Y="92.63414" Z="68.08055" />
+<Hotspot X="-9818.148" Y="159.5007" Z="83.63435" />
+<Hotspot X="-9924.786" Y="227.6175" Z="66.78481" />
+<Hotspot X="-9990.92" Y="205.2874" Z="50.94107" />
+<Hotspot X="-10025.97" Y="305.9982" Z="32.61528" />
+<Hotspot X="-10044.37" Y="206.0267" Z="54.38118" />
+<Hotspot X="-10235.15" Y="362.8776" Z="45.26736" />
+<Hotspot X="-10298.02" Y="362.88" Z="59.3726" />
+<Hotspot X="-10263.39" Y="477.967" Z="22.8713" />
+<Hotspot X="-10363.72" Y="399.3243" Z="44.61384" />
+<Hotspot X="-10408.4" Y="366.472" Z="61.66991" />
+<Hotspot X="-10460.28" Y="394.756" Z="57.57029" />
+<Hotspot X="-10476.38" Y="455.4519" Z="40.43914" />
+<Hotspot X="-10462.9" Y="485.6815" Z="36.77725" />
+<Hotspot X="-10504.63" Y="542.922" Z="29.43462" />
+<Hotspot X="-10572.25" Y="580.5731" Z="25.56415" />
+<Hotspot X="-10710.94" Y="586.4628" Z="25.75744" />
+<Hotspot X="-10760.16" Y="625.0739" Z="29.5274" />
+<Hotspot X="-10762.97" Y="537.8492" Z="24.41166" />
+<Hotspot X="-10766.11" Y="475.881" Z="24.4127" />
+<Hotspot X="-10826.49" Y="474.4706" Z="24.49667" />
+<Hotspot X="-10807.33" Y="369.9828" Z="27.35253" />
+<Hotspot X="-10649.32" Y="373.1032" Z="24.41244" />
+<Hotspot X="-10655.57" Y="501.9256" Z="24.41177" />
+<Hotspot X="-10603.77" Y="434.8969" Z="24.4123" />
+<Hotspot X="-10541.95" Y="429.4508" Z="35.81818" />
+<Hotspot X="-10536.31" Y="370.7488" Z="35.7527" />
+<Hotspot X="-10609.28" Y="285.0769" Z="23.44407" />
+<Hotspot X="-10660.04" Y="266.0518" Z="19.53007" />
+<Hotspot X="-10771.32" Y="267.6447" Z="21.31285" />
+<Hotspot X="-10845.4" Y="321.502" Z="12.44304" />
+<Hotspot X="-10757.24" Y="334.2026" Z="24.41215" />
+<Hotspot X="-10696.69" Y="440.2137" Z="20.77482" />
+       </Hotspots>
+   </GrindArea> 
+</HBProfile>

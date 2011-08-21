@@ -1,0 +1,72 @@
+<HBProfile>
+	<Name>The Valley of Fallen Heroes - Frostweave Cloth Farm by Marverick</Name>
+	<MinDurability>0.2</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>False</SellGreen>
+	<SellBlue>False</SellBlue>
+	<SellPurple>False</SellPurple>
+	<MailWhite>True</MailWhite>
+	<MailGreen>True</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>  
+	<MinLevel>77</MinLevel>
+	<MaxLevel>2147483647</MaxLevel>
+	<TargetMinLevel>79</TargetMinLevel>
+	<TargetMaxLevel>81</TargetMaxLevel>
+	<ProtectedItems>
+		<Item Entry="33470" Name="Frostweave Cloth" />
+	</ProtectedItems>
+	<ForceMail>
+		<Item Entry="33470" Name="Frostweave Cloth" />
+	</ForceMail>
+	<Vendors>
+		<Vendor Name="Runesmith Balehammer" Entry="30336" Type="Repair" X="8478.341" Y="2631.419" Z="653.0778" />
+	</Vendors>
+	<Mailboxes>
+		<Mailbox X="8415.08" Y="2697.178" Z="655.0934" />
+	</Mailboxes>
+	<Factions>634 974</Factions>
+	<GrindArea>
+		<MaximumHotspotTime>180000</MaximumHotspotTime>
+		<LootRadius>99</LootRadius>
+		<Hotspots>
+			<Hotspot X="7765.522" Y="2561.641" Z="401.1268" />
+			<Hotspot X="7808.563" Y="2394.109" Z="385.2149" />
+			<Hotspot X="7852.294" Y="2333.509" Z="383.363" />
+			<Hotspot X="7850.084" Y="2208.078" Z="372.3858" />
+			<Hotspot X="7740.121" Y="2253.821" Z="368.5046" />	
+			<Hotspot X="7618.089" Y="2287.59" Z="373.6925" />	
+			<Hotspot X="7696.472" Y="2318.727" Z="371.4606" />
+			<Hotspot X="7683.333" Y="2412.705" Z="375.9325" />
+			<Hotspot X="7772.721" Y="2374.234" Z="378.1976" />
+			<Hotspot X="7748.826" Y="2497.121" Z="391.6129" />	
+		</Hotspots>
+	</GrindArea>
+	<BlackSpots>
+		<BlackSpot X="8293.219" Y="2760.186" Z="656.0252" Radius="5" />
+		<BlackSpot X="7567.083" Y="2456.673" Z="387.9097" Radius="5" />
+		<BlackSpot X="7564.283" Y="2446.075" Z="384.6696" Radius="5" />
+		<BlackSpot X="7561.313" Y="2434.277" Z="382.2693" Radius="5" />
+		<BlackSpot X="7557.648" Y="2419.716" Z="379.6567" Radius="5" />
+		<BlackSpot X="7553.7" Y="2404.028" Z="379.0583" Radius="5" />
+		<BlackSpot X="7549.496" Y="2389.148" Z="379.1407" Radius="5" />
+		<BlackSpot X="7544.032" Y="2376.071" Z="379.3217" Radius="5" />
+		<BlackSpot X="7538.77" Y="2363.476" Z="377.7113" Radius="5" />
+		<BlackSpot X="7533.272" Y="2350.32" Z="377.2144" Radius="5" />
+		<BlackSpot X="7525.254" Y="2331.128" Z="375.8958" Radius="5" />
+		<BlackSpot X="7745.686" Y="2667.101" Z="404.9704" Radius="5" />
+		<BlackSpot X="7723.624" Y="2656.986" Z="402.9932" Radius="5" />
+		<BlackSpot X="7777.301" Y="2656.087" Z="405.3601" Radius="5" />
+		<BlackSpot X="7798.66" Y="2662.747" Z="407.0745" Radius="5" />
+	</BlackSpots>
+	<AvoidMobs>
+		<Mob Name="Scourge Banner-Bearer" Entry="31900" /> 
+		<Mob Name="Converted Hero" Entry="32255" />
+		<Mob Name="Shadow Vault Abomination" Entry="31438" />
+		<Mob Name="Shadow Vault Assaulter" Entry="31266" />
+		<Mob Name="Shadow Vault Skirmisher" Entry="31251" />
+		<Mob Name="Chillmaw" Entry="33687" />
+	</AvoidMobs>	
+</HBProfile>

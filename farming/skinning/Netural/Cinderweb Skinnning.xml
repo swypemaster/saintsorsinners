@@ -1,0 +1,50 @@
+<HBProfile Version="1.0">
+
+	<Name>[N] Skinning Cinderweb Spiders</Name>
+
+	<MinDurability>0.2</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+
+	<MailGrey>False</MailGrey>
+	<MailWhite>True</MailWhite>
+	<MailGreen>True</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<SellGrey>True</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+	<SellBlue>False</SellBlue>
+	<SellPurple>False</SellPurple>
+
+		
+		<Vendors>
+			<Vendor Name="Zen'Vorka" Entry="52822" Type="Repair" X="979.8785" Y="375.066" Z="37.9809" />
+		</Vendors>
+		
+		<Mailboxes>
+			<Hotspot X="5136.334" Y="-1725.343" Z="1335.958" />
+		</Mailboxes>
+		
+
+	<GrindArea>
+		<TargetMinLevel>75</TargetMinLevel>
+		<TargetMaxLevel>85</TargetMaxLevel>
+		<Factions>14</Factions>
+		<Hotspots>
+
+			<Hotspot X="1230.839" Y="116.018" Z="67.25191" />
+			<Hotspot X="1290.245" Y="96.22404" Z="64.43419" />
+			<Hotspot X="1353.786" Y="89.8466" Z="66.11369" />
+			<Hotspot X="1368.174" Y="146.824" Z="60.24195" />
+			<Hotspot X="1409.461" Y="205.7879" Z="56.86748" />
+			<Hotspot X="1343.212" Y="222.0292" Z="53.14923" />
+			<Hotspot X="1325.958" Y="174.0522" Z="49.52229" />
+			<Hotspot X="1273.817" Y="193.0854" Z="54.68413" />
+			<Hotspot X="1208.238" Y="207.6502" Z="54.37162" />
+			<Hotspot X="1313.457" Y="138.7698" Z="61.93322" />
+
+		</Hotspots>
+	</GrindArea>
+
+
+</HBProfile>

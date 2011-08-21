@@ -1,0 +1,50 @@
+<HBProfile>
+	<Name>Twilight Higland Flying Mount</Name>
+	<MinDurability>0.4</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>True</SellGreen>
+	<MailWhite>False</MailWhite>
+	<MailGreen>False</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<ProtectedItems>
+		<Item name="Fishing Pole" entry="6256" />
+	</ProtectedItems>
+	<SubProfile>
+		<Name>CrystalsongForest Flying Mount</Name>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>87</MaxLevel>
+		<TargetMinLevel>87</TargetMinLevel>
+		<Factions>7 </Factions>
+		<Hotspots>
+
+<Hotspot X="-4184.429" Y="-4128.447" Z="331.4842" />
+<Hotspot X="-4134.481" Y="-4213.748" Z="329.6291" />
+<Hotspot X="-4158.252" Y="-4295.399" Z="328.2888" />
+<Hotspot X="-4282.131" Y="-4341.912" Z="326.2045" />
+<Hotspot X="-4343.688" Y="-4302.765" Z="325.0552" />
+<Hotspot X="-4416.631" Y="-4220.289" Z="323.3184" />
+<Hotspot X="-4449.745" Y="-4118.148" Z="325.7887" />
+<Hotspot X="-4510.379" Y="-4072.202" Z="324.5725" />
+<Hotspot X="-4482.458" Y="-3948.879" Z="325.2323" />
+<Hotspot X="-4489.096" Y="-3865.144" Z="323.9089" />
+<Hotspot X="-4422.743" Y="-3822.228" Z="322.5191" />
+<Hotspot X="-4306.803" Y="-3873.457" Z="323.5178" />
+<Hotspot X="-4305.961" Y="-4021.922" Z="325.3401" />
+
+		</Hotspots>
+		<Vendors>
+
+		</Vendors>
+		<Blackspots>
+<Blackspot X="-4256.435" Y="-4038.778" Z="322.7247" Radius="40" />
+		</Blackspots>
+		<AvoidMobs>
+
+		</AvoidMobs>
+		<Mailboxes>
+		</Mailboxes>
+	</SubProfile>
+</HBProfile>

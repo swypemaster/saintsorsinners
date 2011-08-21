@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HBProfile creator="Dog" version="1.0">
+  <Name>Ice crown Frostweave run</Name>
+  <MinLevel>75</MinLevel>
+  <MaxLevel>86</MaxLevel>
+  <SellGrey>true</SellGrey>
+  <SellWhite>true</SellWhite>
+  <MailBlue>true</MailBlue>
+  <MailPurple>true</MailPurple>
+  <SubProfile>
+    <Name>Grind</Name>
+    <MinLevel>80</MinLevel>
+    <MaxLevel>85</MaxLevel>
+    <GrindArea>
+      <RandomizeHotspots>true</RandomizeHotspots>
+      <TargetMinLevel>76</TargetMinLevel>
+      <TargetMaxLevel>83</TargetMaxLevel>
+      <Factions>974 634</Factions>
+      <MaxDistance>50</MaxDistance>
+      <Hotspots>
+        <Hotspot x="7137.746" y="2628.992" z="394.6209" />
+        <Hotspot x="7128.721" y="2763.546" z="404.076" />
+        <Hotspot x="7234.354" y="2755.794" z="398.7532" />
+        <Hotspot x="7195.862" y="2496.143" z="404.5483" />
+        <Hotspot x="7353.86" y="2565.88" z="392.1788" />
+        <Hotspot x="7398.281" y="2512.523" z="391.8938" />
+        <Hotspot x="7423.719" y="2797.761" z="409.0714" />
+        <Hotspot x="7538.693" y="2789.028" z="416.7751" />
+        <Hotspot x="7090.344" y="2932.684" z="433.6636" />
+        <Hotspot x="7229.779" y="2961.909" z="430.6276" />
+      </Hotspots>
+    </GrindArea>
+    <Mailboxes>
+      <Mailbox x="5886.26" y="716.328" z="640.542" />
+    </Mailboxes>
+    <Vendors>
+      <Vendor id="28722" name="Bryan Landers" type="Repair" x="5928.48" y="733.342" z="642.137" />
+    </Vendors>
+    <AvoidMobs>
+      <Mob id="32467" name="Skeletal Reaver" />
+    </AvoidMobs>
+  </SubProfile>
+</HBProfile>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Professionbuddy ChildrenCount="1">
+  <While Condition="Inscription.Level&gt;450" IgnoreCanRun="True" ChildrenCount="13">
+    <While Condition="!CanCraft(86615) &amp;&amp; InbagCount(61981) &gt; 9  &amp;&amp; InbagCount(52329) &gt; 29 ;" IgnoreCanRun="True" ChildrenCount="1">
+      <If Condition="InbagCount(39502) &lt; 10 " IgnoreCanRun="True" ChildrenCount="1">
+        <BuyItemAction NpcEntry="30730" X="-8863.968" Y="861.5417" Z="99.61045" ItemID="39502" Count="10" BuyItemType="SpecificItem" />
+      </If>
+    </While>
+    <While Condition="CanCraft(86615) &amp;&amp; InbagCount(39502) &gt; 1 &amp;&amp; InbagCount(61981) &gt; 9  &amp;&amp; InbagCount(52329) &gt; 29 ;" IgnoreCanRun="True" ChildrenCount="1">
+      <CastSpellAction Entry="86615" Repeat="1" RepeatType="Craftable" CastOnItem="False" ItemId="0" ItemType="Chest" />
+    </While>
+    <If Condition="InbagCount(52983) &gt; 5 || InbagCount(52984) &gt; 5 || InbagCount(52985) &gt; 5 || InbagCount(52986) &gt; 5 || InbagCount(52987) &gt; 5 || InbagCount(52988) &gt; 5" IgnoreCanRun="True" ChildrenCount="2">
+      <CustomAction Code="Log(&quot;[ProfessionBuddy] Cataclysm herbs detected, making sure it's all stacked.&quot;);" />
+      <StackItemsAction />
+    </If>
+    <If Condition="InbagCount(61980) &gt; 1" IgnoreCanRun="True" ChildrenCount="2">
+      <CustomAction Code="Log(&quot;[ProfessionBuddy] Creating Inferno Ink.&quot;);" />
+      <CastSpellAction Entry="86005" Repeat="1" RepeatType="Craftable" CastOnItem="False" ItemId="0" ItemType="Chest" />
+    </If>
+    <If Condition="InbagCount(61979) &gt; 2" IgnoreCanRun="True" ChildrenCount="2">
+      <CustomAction Code="Log(&quot;[ProfessionBuddy] Starting with making Blackfallow Ink.&quot;);" />
+      <CastSpellAction Entry="86004" Repeat="1" RepeatType="Craftable" CastOnItem="False" ItemId="0" ItemType="Chest" />
+    </If>
+    <While Condition="InbagCount(61978) &gt;9" IgnoreCanRun="True" ChildrenCount="3">
+      <CustomAction Code="Log(&quot;[ProfessionBuddy] Buying Inferno Ink.&quot;);" />
+      <BuyItemAction NpcEntry="30730" X="-8863" Y="849" Z="860" ItemID="61981" Count="1" BuyItemType="SpecificItem" />
+      <While Condition="InbagCount(61978) &gt;9" IgnoreCanRun="True" ChildrenCount="2">
+        <CustomAction Code="Log(&quot;[ProfessionBuddy] Buying Inferno Ink.&quot;);" />
+        <BuyItemAction NpcEntry="30730" X="-8863" Y="849" Z="860" ItemID="61981" Count="1" BuyItemType="SpecificItem" />
+      </While>
+    </While>
+    <If Condition="InbagCount(52983) &gt; 5" IgnoreCanRun="True" ChildrenCount="2">
+      <CustomAction Code="Log(&quot;[ProfessionBuddy] Starting with milling Cinderbloom.&quot;);" />
+      <DisenchantAction ActionType="Mill" ItemTarget="Specific" ItemQuality="Uncommon" ItemId="52983" />
+    </If>
+    <If Condition="InbagCount(52984) &gt; 5" IgnoreCanRun="True" ChildrenCount="2">
+      <CustomAction Code="Log(&quot;[ProfessionBuddy] Starting with milling Stormvine.&quot;);" />
+      <DisenchantAction ActionType="Mill" ItemTarget="Specific" ItemQuality="Uncommon" ItemId="52984" />
+    </If>
+    <If Condition="InbagCount(52985) &gt; 5" IgnoreCanRun="True" ChildrenCount="2">
+      <CustomAction Code="Log(&quot;[ProfessionBuddy] Starting with milling Azshara's Veil.&quot;);" />
+      <DisenchantAction ActionType="Mill" ItemTarget="Specific" ItemQuality="Uncommon" ItemId="52985" />
+    </If>
+    <If Condition="InbagCount(52986) &gt; 5" IgnoreCanRun="True" ChildrenCount="2">
+      <CustomAction Code="Log(&quot;[ProfessionBuddy] Starting with milling Heartblossom.&quot;);" />
+      <DisenchantAction ActionType="Mill" ItemTarget="Specific" ItemQuality="Uncommon" ItemId="52986" />
+    </If>
+    <If Condition="InbagCount(52987) &gt; 5" IgnoreCanRun="True" ChildrenCount="2">
+      <CustomAction Code="Log(&quot;[ProfessionBuddy] Starting with milling Twilight Jasmine.&quot;);" />
+      <DisenchantAction ActionType="Mill" ItemTarget="Specific" ItemQuality="Uncommon" ItemId="52987" />
+    </If>
+    <If Condition="InbagCount(52988) &gt; 5" IgnoreCanRun="True" ChildrenCount="2">
+      <CustomAction Code="Log(&quot;[ProfessionBuddy] Starting with milling Whiptail.&quot;);" />
+      <DisenchantAction ActionType="Mill" ItemTarget="Specific" ItemQuality="Uncommon" ItemId="52988" />
+    </If>
+    <If Condition="HasNewMail || MailCount&gt; 0" IgnoreCanRun="True" ChildrenCount="1">
+      <GetMailAction ItemID="" GetMailType="AllItems" AutoFindMailBox="True" X="0" Y="0" Z="0" MinFreeBagSlots="8" />
+    </If>
+  </While>
+</Professionbuddy>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HBProfile version="1.0">
+
+<Name>[N - Farm] Volatile Fire [Twilight Highlands]</Name>
+
+<MinLevel>84</MinLevel>
+<MaxLevel>86</MaxLevel>
+
+<SellGrey>true</SellGrey>
+<MailWhite>true</MailWhite>
+
+<GrindArea>
+
+<RandomizeHotspots>false</RandomizeHotspots>
+
+<TargetMinLevel>82</TargetMinLevel>
+<TargetMaxLevel>86</TargetMaxLevel>
+<Factions>2146</Factions>
+
+<MaxDistance>50</MaxDistance>
+
+<Hotspots>
+<Hotspot X="-3011.038" Y="-4645.919" Z="150.0691" />
+<Hotspot X="-3047.3" Y="-4666.718" Z="138.8887" />
+<Hotspot X="-3061.063" Y="-4704.081" Z="134.473" />
+<Hotspot X="-3049.889" Y="-4734.9" Z="139.5569" />
+<Hotspot X="-3014.048" Y="-4764.536" Z="144.139" />
+<Hotspot X="-2980.865" Y="-4752.136" Z="148.0491" />
+<Hotspot X="-2964.166" Y="-4738.967" Z="152.6739" />
+<Hotspot X="-2935.711" Y="-4727.653" Z="151.3219" />
+<Hotspot X="-2917.626" Y="-4696.505" Z="150.6999" />
+<Hotspot X="-2915.199" Y="-4638.286" Z="140.5405" />
+<Hotspot X="-2894.034" Y="-4599.162" Z="147.0094" />
+<Hotspot X="-2902.527" Y="-4586.545" Z="148.5619" />
+<Hotspot X="-2936.758" Y="-4573.633" Z="141.4447" />
+<Hotspot X="-2970.022" Y="-4603.221" Z="140.5243" />
+<Hotspot X="-2982.828" Y="-4622.617" Z="145.5231" />
+</Hotspots>
+</GrindArea>
+</HBProfile>

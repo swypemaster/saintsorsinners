@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HBProfile creator="bigj" version="0.0.1">
+  <Name>Eternal Elements</Name>
+  <MinLevel>1</MinLevel>
+  <MaxLevel>86</MaxLevel>
+  <SubProfile>
+    <Name>Wintergasp</Name>
+    <MinLevel>78</MinLevel>
+    <MaxLevel>86</MaxLevel>
+    <GrindArea>
+      <TargetMinLevel>78</TargetMinLevel>
+      <TargetMaxLevel>81</TargetMaxLevel>
+      <Factions>30877 30842 30876 30849 30846 30848 30847</Factions>
+      <MaxDistance>25</MaxDistance>
+      <Hotspots>
+        <Hotspot x="4242.389" y="1791.34729" z="findhighest" />
+        <Hotspot x="4246.055" y="1862.82764" z="findhighest" />
+        <Hotspot x="4314.787" y="1886.65466" z="findhighest" />
+        <Hotspot x="4371.147" y="1817.46521" z="findhighest" />
+        <Hotspot x="4366.699" y="1998.6969" z="findhighest" />
+        <Hotspot x="4407.80225" y="2128.58887" z="findhighest" />
+        <Hotspot x="4396.347" y="2212.9" z="findhighest" />
+        <Hotspot x="4472.868" y="2297.66943" z="findhighest" />
+        <Hotspot x="4460.03857" y="2399.85059" z="findhighest" />
+        <Hotspot x="4379.85059" y="2490.57324" z="findhighest" />
+        <Hotspot x="4400.47" y="2581.2998" z="findhighest" />
+        <Hotspot x="4305.62061" y="2702.72314" z="findhighest" />
+        <Hotspot x="4215.811" y="2848.43237" z="findhighest" />
+        <Hotspot x="4301.954" y="3043.631" z="findhighest" />
+        <Hotspot x="4382.142" y="3089.448" z="findhighest" />
+        <Hotspot x="4392.681" y="3153.59814" z="findhighest" />
+        <Hotspot x="4399.0957" y="3246.15576" z="findhighest" />
+        <Hotspot x="4387.64063" y="3351.54517" z="findhighest" />
+        <Hotspot x="4330.36426" y="3412.94653" z="findhighest" />
+        <Hotspot x="4290.95752" y="3514.21118" z="findhighest" />
+        <Hotspot x="4298.289" y="3595.77246" z="findhighest" />
+        <Hotspot x="4360.606" y="3635.63745" z="findhighest" />
+        <Hotspot x="4415.134" y="3725.90332" z="findhighest" />
+        <Hotspot x="4409.177" y="3817.087" z="findhighest" />
+        <Hotspot x="4416.967" y="3915.145" z="findhighest" />
+        <Hotspot x="4542.517" y="3971.96362" z="findhighest" />
+        <Hotspot x="4480.37939" y="4123.981" z="findhighest" />
+        <Hotspot x="4617.206" y="3941.72266" z="findhighest" />
+        <Hotspot x="4579.631" y="3854.20435" z="findhighest" />
+        <Hotspot x="4605.29" y="3760.729" z="findhighest" />
+        <Hotspot x="4670.814" y="3770.81" z="findhighest" />
+        <Hotspot x="4729.466" y="3858.78613" z="findhighest" />
+        <Hotspot x="4791.32373" y="3719.49072" z="findhighest" />
+        <Hotspot x="4860.05566" y="3680.08228" z="findhighest" />
+        <Hotspot x="4959.03027" y="3548.575" z="findhighest" />
+        <Hotspot x="5026.3877" y="3488.5498" z="findhighest" />
+        <Hotspot x="5121.69629" y="3421.1936" z="findhighest" />
+        <Hotspot x="5131.31836" y="3305.724" z="findhighest" />
+        <Hotspot x="5006.68457" y="3176.51172" z="findhighest" />
+        <Hotspot x="4924.66455" y="3154.05981" z="findhighest" />
+        <Hotspot x="4791.32373" y="3111.44824" z="findhighest" />
+        <Hotspot x="4727.174" y="3013.391" z="findhighest" />
+        <Hotspot x="4747.336" y="2901.12915" z="findhighest" />
+        <Hotspot x="4782.617" y="2757.70874" z="findhighest" />
+        <Hotspot x="4819.732" y="2682.10352" z="findhighest" />
+        <Hotspot x="4899.00342" y="2617.95459" z="findhighest" />
+        <Hotspot x="5026.84326" y="2577.17188" z="findhighest" />
+        <Hotspot x="5082.74561" y="2507.98145" z="findhighest" />
+        <Hotspot x="5134.065" y="2411.2998" z="findhighest" />
+        <Hotspot x="5118.028" y="2331.57056" z="findhighest" />
+        <Hotspot x="5070.37354" y="2260.09" z="findhighest" />
+        <Hotspot x="4903.583" y="2275.21167" z="findhighest" />
+        <Hotspot x="4821.105" y="2291.24854" z="findhighest" />
+        <Hotspot x="4682.725" y="2256.88379" z="findhighest" />
+        <Hotspot x="4612.161" y="2236.722" z="findhighest" />
+        <Hotspot x="4546.636" y="2133.62524" z="findhighest" />
+        <Hotspot x="4521.89258" y="1992.95557" z="findhighest" />
+        <Hotspot x="4520.976" y="1859.15833" z="findhighest" />
+        <Hotspot x="4517.30957" y="1734.06787" z="findhighest" />
+        <Hotspot x="4575.96045" y="1640.59351" z="findhighest" />
+        <Hotspot x="4470.572" y="1632.80334" z="findhighest" />
+        <Hotspot x="4380.7627" y="1678.16772" z="findhighest" />
+        <Hotspot x="4285.45557" y="1736.35974" z="findhighest" />
+      </Hotspots>
+    </GrindArea>
+    <ProtectedItems>
+      <Item id="35623" name="Eternal Air" />
+      <Item id="35624" name="Eternal Earth" />
+      <Item id="36860" name="Eternal Fire" />
+      <Item id="35625" name="Eternal Life" />
+      <Item id="35622" name="Eternal Water" />
+      <Item id="37700" name="Crystallized Air" />
+      <Item id="37701" name="Crystallized Earth" />
+      <Item id="37702" name="Crystallized Fire" />
+      <Item id="37704" name="Crystallized Life" />
+      <Item id="37703" name="Crystallized Shadow" />
+      <Item id="37705" name="Crystallized Water" />
+      <Item id="35627" name="Eternal Shadow" />
+      <Item id="36912" name="Saronite Ore" />
+      <Item id="36910" name="Titanium Ore" />
+      <Item id="36901" name="Goldclover" />
+      <Item id="36906" name="Icethorn" />
+      <Item id="36905" name="Lichbloom" />
+      <Item id="36903" name="Adder's Tongue" />
+      <Item id="2901" name="Mining Pick" />
+    </ProtectedItems>
+  </SubProfile>
+</HBProfile>
