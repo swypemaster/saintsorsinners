@@ -1,0 +1,10 @@
+cleartarget
+/tar [nodead] cockroach
+/cleartarget
+/tar [nodead] spider
+/cleartarget
+/tar [nodead] scorpion
+/cleartarget
+/tar [nodead] beetle
+/startattack
+/cast [spell name] 

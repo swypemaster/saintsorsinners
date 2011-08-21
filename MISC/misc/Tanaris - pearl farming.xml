@@ -1,0 +1,60 @@
+<HBProfile>
+	<Name>[Horde] Swamp Of Sorrows - Disgusting Oozeling v1.1 by Cicro</Name>
+	<MinDurability>0.4</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<SellGrey>True</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+	<MailWhite>False</MailWhite>
+	<MailGreen>False</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<ProtectedItems>
+		<Item name="Black Pearl" entry="7971" />
+		<Item name="Big-Mouth Clam" entry="7973" />
+		<Item name="Iridescent Pearl" entry="5500" />
+		<Item name="Golden Pearl" entry="13926" />
+		<Item name="Recipe: Invisibility Potion" entry="9295" />
+		<Item name="Small Lustrous Pearl" entry="4598" />
+	</ProtectedItems>
+	<SubProfile>
+		<Name>Tenaris - Black PEarl</Name>
+		<MinLevel>45</MinLevel>
+		<MaxLevel>87</MaxLevel>
+		<TargetMinLevel>20</TargetMinLevel>
+		<Factions>778 15</Factions>
+		<Hotspots>
+
+<Hotspot X="-7614.475" Y="-3831.64" Z="2.5957" />
+<Hotspot X="-7494.819" Y="-3905.687" Z="-1.334384" />
+<Hotspot X="-7501.431" Y="-3987.955" Z="-1.717678" />
+<Hotspot X="-7575.661" Y="-4021.92" Z="-1.716087" />
+<Hotspot X="-7633.451" Y="-3932.803" Z="-1.691395" />
+<Hotspot X="-7688.107" Y="-4002.186" Z="-1.716822" />
+<Hotspot X="-7761.409" Y="-3981.018" Z="-1.671671" />
+<Hotspot X="-7735.032" Y="-4038.097" Z="-1.717179" />
+<Hotspot X="-7747.973" Y="-4112.278" Z="-1.716054" />
+<Hotspot X="-7754.818" Y="-4173.756" Z="-1.716336" />
+<Hotspot X="-7818.433" Y="-4214.829" Z="-1.648654" />
+<Hotspot X="-7881.279" Y="-4237.119" Z="-1.718873" />
+<Hotspot X="-7896.291" Y="-4181.287" Z="-0.9709781" />
+<Hotspot X="-7907.817" Y="-4121.046" Z="-1.642205" />
+<Hotspot X="-7879.54" Y="-4069.457" Z="-1.692693" />
+<Hotspot X="-7837.698" Y="-4023.413" Z="-1.708513" />
+<Hotspot X="-7766.256" Y="-4023.864" Z="-1.716428" />
+<Hotspot X="-7765.68" Y="-3980.556" Z="-1.65691" />
+
+		</Hotspots>
+		<Vendors>
+<Vendor Name="Krinkle Goodsteel" Entry="5411" Type="Repair" X="-7232.01" Y="-3751.71" Z="9.092967" />
+		</Vendors>
+		<Blackspots>
+
+		</Blackspots>
+		<AvoidMobs>
+<Mob Name="Desert Crawler" Entry="40764" />
+		</AvoidMobs>
+		<Mailboxes>
+		</Mailboxes>
+	</SubProfile>
+</HBProfile>
