@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HBProfile creator="Nuok" version="4">
+  <Name>Dwarf Mount Trainer by Nuok</Name>
+  <MinLevel>0</MinLevel>
+  <MaxLevel>60</MaxLevel>
+  
+  <Hotspots>
+  <Hotspot X="-5538.288" Y="-1333.122" Z="398.6639" />
+  </Hotspots>
+  
+  </HBProfile>
+  

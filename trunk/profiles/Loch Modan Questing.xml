@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HBProfile creator="blancharke" version="0.01">
+	<Name>Loch Modan Quests</Name>
+	<MinDurability>0.2</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<MinLevel>12</MinLevel>
+	<MaxLevel>61</MaxLevel>
+	<SellGrey>true</SellGrey>
+	<SellWhite>true</SellWhite>
+	<MailGrey>True</MailGrey> <!-- note the spelling of 'Grey' -->
+	<MailWhite></MailWhite>
+	<MailGreen>True</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+
+
+  
+	<QuestOrder>
+		<PickUp QuestName="Reinforcements for Loch Modan" GiverName="Mountaineer Barleybrew" QuestId="26131" GiverId="1959" />
+		<TurnIn QuestName="Reinforcements for Loch Modan" TurnInName="Pilot Hammerfoot" QuestId="26131" TurnInId="1960" />
+		<PickUp QuestName="The Lost Pilot" QuestId="26854" GiverName="Pilot Hammerfoot" GiverId="1960" />
+		<TurnIn QuestName="The Lost Pilot" QuestId="26854" TurnInName="A Dwarven Corpse" TurnInId="2059" />
+			<CustomBehavior File="RunMacro" Macro="/script AcceptQuest()"  NumOfTimes="1" WaitTime="2000" />
+			<Objective QuestName="A Pilot's Revenge" QuestId="26855" Type="CollectItem" ItemId="3183" CollectCount="1" />
+		<TurnIn QuestName="A Pilot's Revenge" QuestId="26855" TurnInName="Pilot Hammerfoot" TurnInId="1960" GiverType="Object"  X="-5579.432" Y="-2155.281" Z="401.8304" />
+		<PickUp QuestName="South Gate Status Report" QuestId="13635" GiverName="Pilot Hammerfoot" GiverId="1960" />
+		<TurnIn QuestName="South Gate Status Report" QuestId="13635" TurnInName="Captain Rugelfuss" TurnInId="1092" />
+		<PickUp QuestName="In Defense of the King's Lands" GiverName="Captain Rugelfuss" QuestId="26146" GiverId="1092" />
+		<PickUp QuestName="The Trogg Threat" GiverName="Mountaineer Cobbleflint" QuestId="26145" GiverId="1089" />
+			<Objective QuestName="In Defense of the King's Lands" QuestId="26146" Type="KillMob" KillCount="12" MobId="1161" />
+			<Objective QuestName="The Trogg Threat" QuestId="26145" Type="Collect" CollectCount="8" ItemId="2536" />
+		<TurnIn QuestName="In Defense of the King's Lands" TurnInName="Captain Rugelfuss" QuestId="26146" TurnInId="1092" />
+		<PickUp QuestName="A Decisive Strike" GiverName="Captain Rugelfuss" QuestId="26148" GiverId="1092" />
+		<TurnIn QuestName="The Trogg Threat" TurnInName="Mountaineer Cobbleflint" QuestId="26145" TurnInId="1089" />
+		<PickUp QuestName="Bigger and Uglier" GiverName="Mountaineer Wallbang" QuestId="26147" GiverId="1090" />
+			<Objective QuestName="Bigger and Uglier" QuestId="26147" Type="KillMob" KillCount="8" MobId="1197" />
+			<Objective QuestName="Bigger and Uglier" QuestId="26147" Type="KillMob" KillCount="8" MobId="1164" />
+			<Objective QuestName="A Decisive Strike" QuestId="26148" Type="KillMob" KillCount="1" MobId="42230" />
+		<TurnIn QuestName="Bigger and Uglier" TurnInName="Mountaineer Wallbang" QuestId="26147" TurnInId="1090" />	
+		<TurnIn QuestName="A Decisive Strike" TurnInName="Captain Rugelfuss" QuestId="26148" TurnInId="1092" />
+		<PickUp QuestName="Onward to Thelsamar" GiverName="Captain Rugelfuss" QuestId="26176" GiverId="1092" />
+		<TurnIn QuestName="Onward to Thelsamar" TurnInName="Mountaineer Kadrell" QuestId="26176" TurnInId="1340" />
+		<PickUp QuestName="Out of Gnoll-where" GiverName="Mountaineer Kadrell" QuestId="26842" GiverId="1340" />
+		<PickUp QuestName="Stormpike's Orders" GiverName="Mountaineer Kadrell" QuestId="13636" GiverId="1340" />
+		<PickUp QuestName="Thelsamar Blood Sausages" GiverName="Vidra Hearthstove" QuestId="26860" GiverId="1963" />
+		<PickUp QuestName="WANTED: The Dark Iron Spy" QuestId="13648" GiverName="Wanted Poster" GiverId="256" GiverType="Object" X="-5341.952" Y="-3021.589" Z="324.1548"/>
+		<RunTo QuestId="26860" X="-5292.428" Y="-2986.121" Z="340.6314"  />
+		<RunTo QuestId="26860"  X="-5278.931" Y="-2971.804" Z="338.7373"/>
+		<PickUp QuestName="Looking for Lurkers" GiverName="Dakk Blunderblast" QuestId="25118" GiverId="1777"  />
+		<TurnIn QuestName="Stormpike's Orders" TurnInName="Mountaineer Stormpike" QuestId="13636" TurnInId="1343" />
+		<PickUp QuestName="A Tiny, Clever Commander" GiverName="Mountaineer Stormpike" QuestId="26843" GiverId="1343" />
+			<Objective QuestName="A Tiny, Clever Commander" QuestId="26843" Type="KillMob" KillCount="1" MobId="44197" />
+			<Objective QuestName="Thelsamar Blood Sausages" QuestId="26860" Type="Collect" CollectCount="8" ItemId="60497" />
+			<Objective QuestName="Looking for Lurkers" QuestId="25118" Type="KillMob" KillCount="8" MobId="1195" />
+			<Objective QuestName="Out of Gnoll-where" QuestId="26842" Type="Collect" CollectCount="12" ItemId="60402" />
+			<RunTo QuestId="13648"  X="-5278.931" Y="-2971.804" Z="338.7373"/>
+		<TurnIn QuestName="Looking for Lurkers" TurnInName="Dakk Blunderblast" QuestId="25118" TurnInId="1777" />	
+		<TurnIn QuestName="Thelsamar Blood Sausages" TurnInName="Vidra Hearthstove" QuestId="26860" TurnInId="1963" />
+		<TurnIn QuestName="Out of Gnoll-where" TurnInName="Mountaineer Kadrell" QuestId="26842" TurnInId="1340" />
+			<Objective QuestName="WANTED: The Dark Iron Spy" QuestId="13648" Type="KillMob" MobId="33456" KillCount="1" />
+		<PickUp QuestName="Explorers' League Document (1 of 6)" QuestId="13656" GiverName="Stolen Explorers' League Document" GiverId="194387" GiverType="Object" X="-5612.479" Y="-3008.249" Z="386.0452"/>	
+		<TurnIn QuestName="WANTED: The Dark Iron Spy" QuestId="13648" TurnInName="Magistrate Bluntnose" TurnInId="1139" />
+		<TurnIn QuestName="A Tiny, Clever Commander" TurnInName="Mountaineer Stormpike" QuestId="26843" TurnInId="1343" />
+		<PickUp QuestName="Kobold and Kobolder" GiverName="Mountaineer Stormpike" QuestId="26844" GiverId="1343" />
+		<Objective QuestName="Kobold and Kobolder" QuestId="26844" Type="KillMob" KillCount="5" MobId="1177" />
+		<Objective QuestName="Kobold and Kobolder" QuestId="26844" Type="KillMob" KillCount="5" MobId="1176" />
+		<TurnIn QuestName="Kobold and Kobolder" TurnInName="Mountaineer Stormpike" QuestId="26844" TurnInId="1343" />
+		<PickUp QuestName="Who's In Charge Here?" GiverName="Mountaineer Stormpike" QuestId="26845" GiverId="1343" />
+		<PickUp QuestName="Filthy Paws" GiverName="Mountaineer Stormpike" QuestId="26863" GiverId="1343" />
+		<PickUp QuestName="A Nasty Exploit" GiverName="Scout Dorli" QuestId="26846" GiverId="44200" />
+			<Objective QuestName="A Nasty Exploit" QuestId="26846" Type="KillMob" KillCount="5" MobId="1174" />
+			<Objective QuestName="Filthy Paws" QuestId="26863" Type="Collect" CollectCount="6" ItemId="2640" />
+			<Objective QuestName="Who's In Charge Here?" QuestId="26845" Type="Collect" CollectCount="1" ItemId="60404" />
+		<TurnIn QuestName="Who's In Charge Here?" TurnInName="Mountaineer Stormpike" QuestId="26845" TurnInId="1343" />
+		<TurnIn QuestName="A Nasty Exploit" TurnInName="Scout Dorli" QuestId="26846" TurnInId="44200" />
+		<TurnIn QuestName="Filthy Paws" TurnInName="Mountaineer Stormpike" QuestId="26863" TurnInId="1343" />
+		<PickUp QuestName="The Bearer of Gnoll-edge" GiverName="Mountaineer Stormpike" QuestId="26864" GiverId="1343" />
+		<TurnIn QuestName="The Bearer of Gnoll-edge" TurnInName="Mountaineer Kadrell" QuestId="26864" TurnInId="1340" />
+		<PickUp QuestName="Suddenly, Murlocs!" GiverName="Mountaineer Kadrell" QuestId="26927" GiverId="1340" />
+		<TurnIn QuestName="Suddenly, Murlocs!" TurnInName="Cannary Caskshot" QuestId="26927" TurnInId="44345" />
+		<PickUp QuestName="Smells Like A Plan" GiverName="Cannary Caskshot" QuestId="26928" GiverId="44345" />
+		<PickUp QuestName="A Load of Croc" GiverName="Cannary Caskshot" QuestId="26929" GiverId="44345" />
+		<PickUp QuestName="Buzz Off" GiverName="Mountaineer Kadrell" QuestId="26932" GiverId="1340" />
+		<PickUp QuestName="Explorers' League Document (2 of 6)" QuestId="13655" GiverName="Stolen Explorers' League Document" GiverId="194378" GiverType="Object" X="-5204.552" Y="-3134.869" Z="296.4843"/>
+			<Objective QuestName="Smells Like A Plan" QuestId="26928" Type="Collect" CollectCount="7" ItemId="60511" />
+			<Objective QuestName="A Load of Croc" QuestId="26929" Type="Collect" CollectCount="6" ItemId="57131" />
+			<Objective QuestName="Buzz Off" QuestId="26932" Type="KillMob" KillCount="8" MobId="44184" />
+		<TurnIn QuestName="Buzz Off" TurnInName="Mountaineer Kadrell" QuestId="26932" TurnInId="1340" />	
+		<TurnIn QuestName="A Load of Croc" TurnInName="Cannary Caskshot" QuestId="26929" TurnInId="44345" />
+		<TurnIn QuestName="Smells Like A Plan" TurnInName="Cannary Caskshot" QuestId="26928" TurnInId="44345" />
+		<PickUp QuestName="Axis of Awful" GiverName="Cannary Caskshot" QuestId="26868" GiverId="44345" />
+			<RunTo QuestId="26868"  X="-5505.765" Y="-3357.03" Z="269.7006"  />  <!-- Run to spot near the actual questlocation -->
+			<UseItem ItemId="60502" QuestId="26868"  X="-5505.765" Y="-3357.03" Z="269.7006"  />	<!-- Put on disguise -->
+			<UseItem ItemId="60503" QuestId="26868" TargetId="44262" TargetType="Npc"  X="-5508.52" Y="-3373" Z="268.6145" /> <!-- Throw Item to mob -->
+		<TurnIn QuestName="Axis of Awful" TurnInName="Cannary Caskshot" QuestId="26868" TurnInId="44345" />
+		<PickUp QuestName="Resupplying the Excavation" GiverName="Jern Hornhelm" QuestId="13639" GiverId="1105" />
+		<TurnIn QuestName="Resupplying the Excavation" TurnInName="Huldar" QuestId="13639" TurnInId="2057" />
+		<PickUp QuestName="Protecting the Shipment" GiverName="Huldar" QuestId="309" GiverId="2057" />
+			<RunTo QuestId="309"  X="-5674.694" Y="-3520.067" Z="299.2339" />
+			<RunTo QuestId="309"  X="-5736.448" Y="-3583.633" Z="315.6929"  />
+			<RunTo QuestId="309"  X="-5697.629" Y="-3552.853" Z="305.9517" />
+		<PickUp QuestName="Explorers' League Document (3 of 6)" QuestId="13657" GiverName="Stolen Explorers' League Document" GiverId="194388" GiverType="Object" X="-5832.978" Y="-3695.097" Z="364.5751"/>	
+		<TurnIn QuestName="Protecting the Shipment" TurnInName="Prospector Ironband" QuestId="309" TurnInId="1344" />	
+		<PickUp QuestName="Keep Your Hands Off The Goods!" GiverName="Prospector Ironband" QuestId="13650" GiverId="1344" />
+		<PickUp QuestName="Gathering Idols" GiverName="Magmar Fellhew" QuestId="26961" GiverId="1345" />
+			<PickUp QuestName="Explorers' League Document (4 of 6)" QuestId="13658" GiverName="Stolen Explorers' League Document" GiverId="194389" GiverType="Object" X="-5703.209" Y="-3872.545" Z="331.4976"/>
+			<RunTo QuestId="13650" X="-5731.653" Y="-3941.61" Z="322.3069" />
+			<RunTo QuestId="13650" X="-5591.783" Y="-3928.418" Z="324.2761" />
+			<RunTo QuestId="13650" X="-5686.399" Y="-4002.007" Z="326.6877"  />
+			<Objective QuestName="Gathering Idols" QuestId="26961" Type="Collect" CollectCount="8" ItemId="2636" />
+		<TurnIn QuestName="Keep Your Hands Off The Goods!" TurnInName="Prospector Ironband" QuestId="13650" TurnInId="1344" />
+		<TurnIn QuestName="Gathering Idols" TurnInName="Magmar Fellhew" QuestId="26961" TurnInId="1345" />
+		<PickUp QuestName="Joining the Hunt" GiverName="Magmar Fellhew" QuestId="13647" GiverId="1345" />
+		<TurnIn QuestName="Joining the Hunt" TurnInName="Marek Ironheart" QuestId="13647" TurnInId="1154" />
+		<PickUp QuestName="Hornet Hunting" GiverName="Marek Ironheart" QuestId="27028" GiverId="1154" />
+		<PickUp QuestName="Foxtails By The Handful" GiverName="Marek Ironheart" QuestId="27030" GiverId="1154" />
+		<PickUp QuestName="Thistle While You Work" GiverName="Safety Warden Pipsy" QuestId="27025" GiverId="44859" />
+		<PickUp QuestName="The Joy of Boar Hunting" GiverName="Daryl the Youngling" QuestId="27016" GiverId="1187" />
+		<PickUp QuestName="Wing Nut" GiverName="Bingles Blastenheimer" QuestId="27031" GiverId="6577" />
+			<Objective QuestName="Wing Nut" QuestId="27031" Type="Collect" CollectCount="3" ItemId="60792" />
+			<Objective QuestName="Hornet Hunting" QuestId="27028" Type="Collect" CollectCount="6" ItemId="60754" />
+			<Objective QuestName="The Joy of Boar Hunting" QuestId="27016" Type="KillMob" KillCount="10" MobId="44627" />
+		<PickUp QuestName="Explorers' League Document (6 of 6)" QuestId="13659" GiverName="Stolen Explorers' League Document" GiverId="194390" GiverType="Object" X="-5147.639" Y="-4011.647" Z="328.9329" />
+			<Objective QuestName="Thistle While You Work" QuestId="27025" Type="Collect" CollectCount="6" ItemId="60737" />
+			<Objective QuestName="Foxtails By The Handful" QuestId="27030" Type="Collect" CollectCount="7" ItemId="60755" />
+		<TurnIn QuestName="Thistle While You Work" TurnInName="Safety Warden Pipsy" QuestId="27025" TurnInId="44859" />
+		<PickUp QuestName="Defcon: Bobcat" GiverName="Safety Warden Pipsy" QuestId="27026" GiverId="44859" />
+		<TurnIn QuestName="Foxtails By The Handful" TurnInName="Marek Ironheart" QuestId="27030" TurnInId="1154" />
+		<TurnIn QuestName="Hornet Hunting" TurnInName="Marek Ironheart" QuestId="27028" TurnInId="1154" />
+		<TurnIn QuestName="Wing Nut" TurnInName="Bingles Blastenheimer" QuestId="27031" TurnInId="6577" />
+		<PickUp QuestName="Bird is the Word" GiverName="Bingles Blastenheimer" QuestId="27032" GiverId="6577" />
+		<TurnIn QuestName="The Joy of Boar Hunting" TurnInName="Daryl the Youngling" QuestId="27016" TurnInId="1187" />
+		<PickUp QuestName="Vyrin's Revenge" GiverName="Vyrin Swiftwind" QuestId="27036" GiverId="1156" />
+			<Objective QuestName="Vyrin's Revenge" QuestId="27036" Type="Collect" CollectCount="1" ItemId="2713" />
+		<TurnIn QuestName="Bird is the Word" TurnInName="Rusted Skystrider" QuestId="27032" TurnInId="44618" />
+		<PickUp QuestName="Skystrider's Heart" GiverName="Rusted Skystrider" QuestId="27033" GiverId="44618" />
+			<Objective QuestName="Defcon: Bobcat" QuestId="27026" Type="KillMob" KillCount="8" MobId="44188" />
+		<TurnIn QuestName="Defcon: Bobcat" TurnInName="Safety Warden Pipsy" QuestId="27026" TurnInId="44859" />
+		<TurnIn QuestName="Skystrider's Heart" TurnInName="Bingles Blastenheimer" QuestId="27033" TurnInId="6577" />
+		<TurnIn QuestName="Vyrin's Revenge" TurnInName="Daryl the Youngling" QuestId="27036" TurnInId="1187" />
+		<PickUp QuestName="Vyrin's Revenge" GiverName="Daryl the Youngling" QuestId="27037" GiverId="1187" />
+		<TurnIn QuestName="Vyrin's Revenge" TurnInName="Vyrin Swiftwind" QuestId="27037" TurnInId="1156" />
+		<PickUp QuestName="He's That Age" GiverName="Bingles Blastenheimer" QuestId="27034" GiverId="6577" />
+		<TurnIn QuestName="He's That Age" TurnInName="Ando Blastenheimer" QuestId="27034" TurnInId="44870" />
+		<PickUp QuestName="Standing Up" GiverName="Ando Blastenheimer" QuestId="27035" GiverId="44870" />
+		<PickUp QuestName="Explorers' League Document (5 of 6)" QuestId="13660" GiverName="Stolen Explorers' League Document" GiverId="194391" GiverType="Object" X="-5188.246" Y="-3475.782" Z="302.9647" />
+			<Objective QuestName="Standing Up" QuestId="27035" Type="KillMob" Count="1" Id="44724" />
+		<TurnIn QuestName="Standing Up" TurnInName="Ando Blastenheimer" QuestId="27035" TurnInId="44870" />
+		<PickUp QuestName="Fight the Hammer" GiverName="Ando Blastenheimer" QuestId="27074" GiverId="44870" />
+		<TurnIn QuestName="Fight the Hammer" TurnInName="Ashlan Stonesmirk" QuestId="27074" TurnInId="1073" />
+		<PickUp QuestName="Servants of Cho'gall" GiverName="Ashlan Stonesmirk" QuestId="27075" GiverId="1073" />
+		<PickUp QuestName="Clutching at Chaos" GiverName="Ashlan Stonesmirk" QuestId="27077" GiverId="1073" />
+			<Objective QuestName="Servants of Cho'gall" QuestId="27075" Type="KillMob" Count="7" Id="44758" />
+			<Objective QuestName="Clutching at Chaos" QuestId="27077" Type="Collect" CollectCount="10" ItemId="60738" />
+		<TurnIn QuestName="Servants of Cho'gall" TurnInName="Ashlan Stonesmirk" QuestId="27075" TurnInId="1073" />
+		<TurnIn QuestName="Clutching at Chaos" TurnInName="Ashlan Stonesmirk" QuestId="27077" TurnInId="1073" />
+		<!-- Mage had troubles doing this *no healing* , enable with tougher class-->
+		<PickUp QuestName="Gor'kresh" GiverName="Ashlan Stonesmirk" QuestId="27078" GiverId="1073" />
+			<RunTo QuestId="27078" X="-4789.228" Y="-4174.894" Z="305.8371"/>
+			<Objective QuestName="Gor'kresh" QuestId="27078" Type="KillMob" KillCount="1" MobId="44771" />
+		<TurnIn QuestName="Gor'kresh" TurnInName="Ashlan Stonesmirk" QuestId="27078" TurnInId="1073" />
+		<PickUp QuestName="Ando's Call" QuestId="27115" GiverName="Ashlan Stonesmirk" GiverId="1073" />
+		<TurnIn QuestName="Ando's Call" QuestId="27115" TurnInName="Ando Blastenheimer" TurnInId="44870" />
+		<TurnIn QuestName="Explorers' League Document (1 of 6)" QuestId="13656" TurnInName="Torren Squarejaw" TurnInId="1153" />
+		<TurnIn QuestName="Explorers' League Document (2 of 6)" QuestId="13655" TurnInName="Torren Squarejaw" TurnInId="1153" />
+		<TurnIn QuestName="Explorers' League Document (3 of 6)" QuestId="13657" TurnInName="Torren Squarejaw" TurnInId="1153" />
+		<TurnIn QuestName="Explorers' League Document (4 of 6)" QuestId="13658" TurnInName="Torren Squarejaw" TurnInId="1153" />
+		<TurnIn QuestName="Explorers' League Document (5 of 6)" QuestId="13660" TurnInName="Torren Squarejaw" TurnInId="1153" />
+		<TurnIn QuestName="Explorers' League Document (6 of 6)" QuestId="13659" TurnInName="Torren Squarejaw" TurnInId="1153" />
+		<PickUp QuestName="Checking on the Boys" GiverName="Mountaineer Stormpike" QuestId="26137" GiverId="1343" />
+		<TurnIn QuestName="Checking on the Boys" TurnInName="Mountaineer Rharen" QuestId="26137" TurnInId="41075" />		
+	</QuestOrder>
+	
+	<Quest Id="26145" Name="The Trogg Threat">
+		<Objective Type="CollectItem" ItemId="2536" CollectCount="8">
+			<CollectFrom>
+			</CollectFrom>
+			<Hotspots>
+				<Hotspot X="-5804.872" Y="-2868.897" Z="367.6025" />
+				<Hotspot X="-5888.02" Y="-2907.054" Z="367.387" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+	
+	<Quest Id="26148" Name="A Decisive Strike">
+		<Objective Type="KillMob" MobId="42230" KillCount="1">
+			<Hotspots>
+				<Hotspot X="-5613.181" Y="-2939.681" Z="377.9579"  />
+			</Hotspots>
+		</Objective>
+	</Quest>
+	
+	
+
+	<Quest Id="26843" Name="A Tiny, Clever Commander">
+		<Objective Type="KillMob" MobId="44197" KillCount="1">
+			<Hotspots>
+				<Hotspot X="-5069.87" Y="-2715.07" Z="319.1195"  />
+			</Hotspots>
+		</Objective>
+	</Quest>
+	
+	<Quest Id="26844" Name="Kobold and Kobolder">
+		<Objective Type="KillMob" MobId="1177" KillCount="5">
+			<Hotspots>
+				<Hotspot X="-4717.524" Y="-2906.53" Z="323.7469" />
+				<Hotspot X="-4735.032" Y="-2967.147" Z="314.6063" />
+				<Hotspot X="-4737.335" Y="-3018.343" Z="315.295" />				
+			</Hotspots>
+		</Objective>
+		<Objective Type="KillMob" MobId="1176" KillCount="5">
+			<Hotspots>
+				<Hotspot X="-4810.297" Y="-3027.183" Z="308.8242" />
+				<Hotspot X="-4784.156" Y="-3051.881" Z="305.3865" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+	
+	<Quest Id="26845" Name="Who's In Charge Here?">
+		<Objective Type="CollectItem" ItemId="60404" CollectCount="1">
+			<CollectFrom>
+			</CollectFrom>
+			<Hotspots>
+				<Hotspot X="-4981.23" Y="-2951.92" Z="314.8374"  />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="26863" Name="Filthy Paws">
+		<Objective Type="CollectItem" ItemId="2640" CollectCount="6">
+			<CollectFrom>
+				<Hotspot X="-4851.869" Y="-2975.063" Z="321.8114" />
+				<Hotspot X="-4889.776" Y="-2970.706" Z="316.7393" />
+				<Hotspot X="-4896.892" Y="-2977.126" Z="317.4008" />
+				<Hotspot X="-4988.404" Y="-2985.615" Z="314.5029" />
+				<Hotspot X="-5000.391" Y="-2970.182" Z="314.1325" />
+			</CollectFrom>
+			<Hotspots>
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="26846" Name="A Nasty Exploit">
+		<Objective Type="KillMob" MobId="1174" KillCount="5">
+			<Hotspots>
+				<Hotspot X="-4851.869" Y="-2975.063" Z="321.8114" />
+				<Hotspot X="-4889.776" Y="-2970.706" Z="316.7393" />
+				<Hotspot X="-4896.892" Y="-2977.126" Z="317.4008" />
+				<Hotspot X="-4988.404" Y="-2985.615" Z="314.5029" />
+				<Hotspot X="-5000.391" Y="-2970.182" Z="314.1325" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+	
+	<Quest Id="27031" Name="Wing Nut">
+		<Objective Type="CollectItem" ItemId="60792" CollectCount="3">
+			<Hotspots>
+				<Hotspot X="-5685.504" Y="-4133.011" Z="392.6498" />
+				<Hotspot X="-5796.186" Y="-4159.284" Z="386.3471" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+	
+	<Quest Id="27035" Name="Standing Up">
+		<Objective Type="KillMob" MobId="44724" KillCount="1">
+			<Hotspots>
+				<Hotspot X="-4925.08" Y="-3387.05" Z="304.0818"  />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<SubProfile>
+		<Name>12 - XX Settings</Name>
+		<MinLevel>12</MinLevel>
+		<MaxLevel>86</MaxLevel>
+		<AvoidMobs>
+			<Mob Name="Mosshide Representative" Id="44262" />
+			<Mob Name="Tunnel Rat Lackey" Id="44264" />
+			<Mob Name="Bluegill Representative" Id="44263" />
+		</AvoidMobs>
+		<Vendors>
+			<Vendor Name="Faldoc Stonefaith" Entry="49793" Type="Train" TrainClass="Paladin" X="-5385.389" Y="-2969.505" Z="322.0593" />	
+		</Vendors>
+		<Mailboxes>
+			<Mailbox  X="-5363.955" Y="-2954.098" Z="323.881" /> 
+		</Mailboxes>
+		<Blackspots>
+		</Blackspots>
+	</SubProfile>
+</HBProfile>
