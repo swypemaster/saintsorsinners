@@ -1,0 +1,50 @@
+<HBProfile>
+	<Name>[Alliance] Wetlands - Dark Whelpling+Tiny Crimson Whelpling v1.0 by Cicro</Name>
+	<MinDurability>0.4</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>True</SellGreen>
+	<MailWhite>False</MailWhite>
+	<MailGreen>False</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<ProtectedItems>
+		<Item name="Tiny Crimson Whelpling" entry="8499" />
+		<Item name="Dark Whelpling" entry="10822" />
+	</ProtectedItems>
+	<SubProfile>
+		<Name>Wetlands - Dark Whelpling+Tiny Crimson Whelpling v1.0</Name>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>87</MaxLevel>
+		<TargetMinLevel>10</TargetMinLevel>
+		<Factions>2272 2273</Factions>
+		<Hotspots>
+
+<Hotspot X="-3431.935" Y="-2874.231" Z="11.44406" />
+<Hotspot X="-3572.549" Y="-2983.427" Z="11.68369" />
+<Hotspot X="-3599.827" Y="-3077.045" Z="19.50005" />
+<Hotspot X="-3704.435" Y="-3113.367" Z="16.61839" />
+<Hotspot X="-3580.043" Y="-3204.87" Z="22.68017" />
+<Hotspot X="-3466.746" Y="-3305.683" Z="26.77207" />
+<Hotspot X="-3421.605" Y="-3289.364" Z="23.97771" />
+<Hotspot X="-3345.907" Y="-3134.991" Z="24.61979" />
+<Hotspot X="-3250.269" Y="-2968.882" Z="21.26735" />
+<Hotspot X="-3213.301" Y="-2873.864" Z="15.97233" />
+<Hotspot X="-3442.104" Y="-3063.061" Z="23.73901" />
+<Hotspot X="-3403.688" Y="-2843.552" Z="14.31323" />
+
+		</Hotspots>
+		<Vendors>
+<Vendor Name="Victorina" Entry="41622" Type="Repair" X="-3270.458" Y="-2787.835" Z="12.77803" />
+		</Vendors>
+		<Blackspots>
+
+		</Blackspots>
+		<AvoidMobs>
+<Mob Name="Pyrricion" Entry="42044" />
+		</AvoidMobs>
+		<Mailboxes>
+		</Mailboxes>
+	</SubProfile>
+</HBProfile>

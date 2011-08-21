@@ -1,0 +1,48 @@
+<HBProfile>
+	<Name>[Alliance] Feralas - Sprite Darter v1.0 by Cicro</Name>
+	<MinDurability>0.4</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>True</SellGreen>
+	<MailWhite>False</MailWhite>
+	<MailGreen>False</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<ProtectedItems>
+		<Item name="Sprite Darter Egg" entry="11474" />
+
+
+	</ProtectedItems>
+	<SubProfile>
+		<Name>Feralas - Sprite Darter</Name>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>87</MaxLevel>
+		<TargetMinLevel>20</TargetMinLevel>
+		<Factions>7 38 61</Factions>
+		<Hotspots>
+
+<Hotspot X="-5069.928" Y="338.7726" Z="23.59748" />
+<Hotspot X="-5045.905" Y="493.9356" Z="13.75154" />
+<Hotspot X="-4964.547" Y="598.9878" Z="20.95767" />
+<Hotspot X="-4855.002" Y="686.8251" Z="45.61571" />
+<Hotspot X="-4745.633" Y="620.8562" Z="45.54721" />
+<Hotspot X="-4777.165" Y="439.3016" Z="15.40836" />
+<Hotspot X="-4738.26" Y="313.8226" Z="19.681" />
+<Hotspot X="-4732.565" Y="199.8214" Z="40.42848" />
+<Hotspot X="-4875.922" Y="314.6627" Z="29.91418" />
+
+		</Hotspots>
+		<Vendors>
+<Vendor Name="Cymerdi" Entry="44385" Type="Repair" X="-4972.65" Y="84.3681" Z="99.95086" />
+		</Vendors>
+		<Blackspots>
+
+		</Blackspots>
+		<AvoidMobs>
+
+		</AvoidMobs>
+		<Mailboxes>
+		</Mailboxes>
+	</SubProfile>
+</HBProfile>
