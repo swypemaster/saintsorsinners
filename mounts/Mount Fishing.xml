@@ -1,0 +1,48 @@
+<HBProfile>
+	<Name>Twilight Highlands 450-500</Name>
+	<MinDurability>0.4</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<SellGrey>True</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+	<MailWhite>False</MailWhite>
+	<MailGreen>False</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<ProtectedItems>
+		<Item name="Fishing Pole" entry="6256" />
+	</ProtectedItems>
+	<SubProfile>
+		<Name>Mount H 450-500</Name>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>86</MaxLevel>
+		<TargetMinLevel>86</TargetMinLevel>
+<Hotspots>
+<Hotspot X="5517.797" Y="-3120.076" Z="1560.708" />
+<Hotspot X="5568.403" Y="-3135.762" Z="1561.274" />
+<Hotspot X="5428.497" Y="-2627.825" Z="1477.942" />
+<Hotspot X="5380.479" Y="-2653.136" Z="1480.296" />
+<Hotspot X="5319.713" Y="-2651.456" Z="1476.197" />
+
+
+
+		</Hotspots>
+<AvoidMobs>
+<Mob Name="Blazebound Elemental" Entry="38896" />
+</AvoidMobs>
+
+                <Blackspots>
+
+		
+
+                </Blackspots>        
+                 
+		<Vendors>
+<Vendor Name="Toron Rockhoof" Entry="43410" Type="Repair" X="5572.65" Y="-3600.99" Z="1570.6" />
+			
+		</Vendors>
+		<Mailboxes>
+<Hotspot X="5524.05" Y="-3627.373" Z="1567.102" />                         
+		</Mailboxes>
+	</SubProfile>
+</HBProfile>
