@@ -1,0 +1,248 @@
+<HBProfile>
+   <!--
+      PROFILE EXPECTATIONS:
+         * Be certain to set HonorBuddy to ***Questing*** when using this profile.
+   
+         * You must supply your own ProtectedItems.xml.  The profile does not provide one.
+           The explanation of ProtectedItems.xml is here:
+               http://www.buddyforum.de/mediawiki/index.php?title=HonorBuddy:_About_Protected_Items
+           A sample ProtectedItems block is here:
+               http://www.buddyforum.de/mediawiki/index.php?title=HB_Profile_Writing:_A_typical_ProtectedItems_Block
+    -->
+   <Name>CJ's Dwarf 1-10 QuestOrder</Name>
+   <MinLevel>1</MinLevel>
+   <MaxLevel>11</MaxLevel>
+   
+   <MinDurability>0.2</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+    
+   <MailGrey>False</MailGrey>
+   <MailWhite>False</MailWhite>
+   <MailGreen>True</MailGreen>
+   <MailBlue>True</MailBlue>
+   <MailPurple>True</MailPurple>
+   
+   <SellGrey>True</SellGrey>
+   <SellWhite>True</SellWhite>
+   <SellGreen>False</SellGreen>
+   <SellBlue>False</SellBlue>
+   <SellPurple>False</SellPurple>
+   
+   <TargetElites>False</TargetElites>
+   
+   <AvoidMobs>
+       
+   </AvoidMobs>
+   
+   <Blackspots>
+       <!--A tree it gets stuck on in the orchard-->
+      
+   </Blackspots>
+   
+   
+   
+   <Mailboxes>
+        <!-- Goldshire -->
+   </Mailboxes>
+   
+   <Vendors>      
+		
+	
+
+		 
+
+   </Vendors>
+   
+   <!-- Quest Overrides -->
+<Quest Id="24475" Name="All the Other Stuff">
+	<Objective Type="CollectItem" ItemId="49747" CollectCount="3">
+		<CollectFrom>
+		<Mob Name="Small Crag Boar" Id="708" />
+		</CollectFrom>
+		<Hotspots>
+		<Hotspot X="-6294.901" Y="286.5533" Z="380.2132" />
+<Hotspot X="-6295.29" Y="246.3124" Z="390.7136" />
+<Hotspot X="-6243.869" Y="245.2816" Z="388.8954" />
+<Hotspot X="-6159.225" Y="263.6059" Z="389.0013" />
+<Hotspot X="-6357.063" Y="362.8073" Z="378.3036" />
+
+		</Hotspots>
+	</Objective>
+	<Objective Type="CollectItem" ItemId="49748" CollectCount="4">
+		<CollectFrom>
+		<Mob Name="Ragged Young Wolf" Id="705"  />
+		</CollectFrom>
+		<Hotspots>
+		<Hotspot X="-6350.171" Y="295.2481" Z="380.4428" />
+<Hotspot X="-6377.881" Y="287.0989" Z="387.6239" />
+<Hotspot X="-6398.541" Y="279.9536" Z="393.8838" />
+<Hotspot X="-6383.622" Y="255.3502" Z="388.7052" />
+<Hotspot X="-6353.043" Y="217.6644" Z="394.3616" />
+<Hotspot X="-6330.851" Y="218.1788" Z="388.5059" />	
+<Hotspot X="-6414.71" Y="376.0289" Z="385.3479" />
+		</Hotspots>
+	</Objective>
+</Quest>
+<Quest Id="218" Name="Ice and Fire" PickUpName="Grelin Whitebeard" PickUpID="786">
+	<Objective Type="KillMob" MobId="808" KillCount="1">
+		<Hotspots>
+		<Hotspot X="-6500.501" Y="304.2424" Z="369.9774" />
+		</Hotspots>
+	</Objective>
+	<Objective Type="KillMob" MobId="37507" KillCount="10">
+		<Hotspots>
+		<Hotspot X="-6506.681" Y="387.4102" Z="385.0729" />
+<Hotspot X="-6477.042" Y="383.3407" Z="381.3582" />
+<Hotspot X="-6474.247" Y="353.3873" Z="377.9596" />
+<Hotspot X="-6500.501" Y="304.2424" Z="369.9774" />
+<Hotspot X="-6518.2" Y="318.226" Z="374.0129" />
+<Hotspot X="-6527.083" Y="344.2198" Z="372.8882" />
+		</Hotspots>
+	</Objective>
+	<Objective Type="KillMob" MobId="37112" KillCount="1">
+		<Hotspots>
+		<Hotspot X="-6482.534" Y="338.7563" Z="369.3296" />
+		</Hotspots>
+	</Objective>
+</Quest>
+
+
+  
+   
+
+   
+   <QuestOrder>
+<PickUp QuestName="Hold the Line!" QuestId="24469" GiverName="Joren Ironstock" GiverId="37081" />
+<Objective QuestName="Hold the Line!" QuestId="24469" Type="KillMob" MobId="37070" KillCount="6" />
+<TurnIn QuestName="Hold the Line!" QuestId="24469" TurnInName="Joren Ironstock" TurnInId="37081" />
+
+<PickUp QuestName="Give 'em What-For" QuestId="24470" GiverName="Joren Ironstock" GiverId="37081" />
+<Objective QuestName="Give 'em What-For" QuestId="24470" Type="KillMob" MobId="37073" KillCount="3" />
+<TurnIn QuestName="Give 'em What-For" QuestId="24470" TurnInName="Joren Ironstock" TurnInId="37081" />
+
+<PickUp QuestName="Aid for the Wounded" QuestId="24471" GiverName="Sten Stoutarm" GiverId="658" />
+<Objective QuestName="Aid for the Wounded" QuestId="24471" Type="KillMob" MobId="37079" KillCount="4" />
+<Objective QuestName="Aid for the Wounded" QuestId="24471" Type="CollectItem" ItemId="49743" CollectCount="1" />
+<TurnIn QuestName="Aid for the Wounded" QuestId="24471" TurnInName="Sten Stoutarm" TurnInId="658" />
+
+<PickUp QuestName="Lockdown in Anvilmar" QuestId="24473" GiverName="Joren Ironstock" GiverId="37081" />
+<TurnIn QuestName="Lockdown in Anvilmar" QuestId="24473" TurnInName="Jona Ironstock" TurnInId="37087" />
+
+
+
+<PickUp QuestName="Dwarven Artifacts" QuestId="24477" GiverName="Grundel Harkin" GiverId="1104" />
+<PickUp QuestName="First Things First: We're Gonna Need Some Beer" QuestId="24474" GiverName="Jona Ironstock" GiverId="37087" />
+
+
+<Objective QuestName="First Things First: We're Gonna Need Some Beer" QuestId="24474" Type="CollectItem" ItemId="49744" CollectCount="1" />
+<Objective QuestName="First Things First: We're Gonna Need Some Beer" QuestId="24474" Type="CollectItem" ItemId="49745" CollectCount="1" />
+<Objective QuestName="First Things First: We're Gonna Need Some Beer" QuestId="24474" Type="CollectItem" ItemId="49746" CollectCount="1" />
+<Objective QuestName="Dwarven Artifacts" QuestId="24477" Type="CollectItem" ItemId="49749" CollectCount="5" />
+
+<TurnIn QuestName="First Things First: We're Gonna Need Some Beer" QuestId="24474" TurnInName="Jona Ironstock" TurnInId="37087" />
+<TurnIn QuestName="Dwarven Artifacts" QuestId="24477" TurnInName="Grundel Harkin" TurnInId="1104" />
+
+<PickUp QuestName="Make Hay While the Sun Shines" QuestId="24486" GiverName="Grundel Harkin" GiverId="1104" />
+<PickUp QuestName="All the Other Stuff" QuestId="24475" GiverName="Jona Ironstock" GiverId="37087" />
+
+
+
+<Objective QuestName="Make Hay While the Sun Shines" QuestId="24486" Type="CollectItem" ItemId="49751" CollectCount="5" />
+<Objective QuestName="All the Other Stuff" QuestId="24475" Type="CollectItem" ItemId="49747" CollectCount="3" />
+<Objective QuestName="All the Other Stuff" QuestId="24475" Type="CollectItem" ItemId="49748" CollectCount="4" />
+
+<TurnIn QuestName="All the Other Stuff" QuestId="24475" TurnInName="Jona Ironstock" TurnInId="37087" />
+<TurnIn QuestName="Make Hay While the Sun Shines" QuestId="24486" TurnInName="Grundel Harkin" TurnInId="1104" />
+
+<PickUp QuestName="Whitebeard Needs Ye" QuestId="24487" GiverName="Jona Ironstock" GiverId="37087" />
+<TurnIn QuestName="Whitebeard Needs Ye" QuestId="24487" TurnInName="Grelin Whitebeard" TurnInId="786" />
+
+<PickUp QuestName="The Troll Menace" QuestId="182" GiverName="Grelin Whitebeard" GiverId="786" />
+<PickUp QuestName="Trolling for Information" QuestId="24489" GiverName="Apprentice Soren" GiverId="1354" />
+<PickUp QuestName="A Refugee's Quandary" QuestId="3361" GiverName="Felix Whindlebolt" GiverId="8416" />
+
+<Objective QuestName="The Troll Menace" QuestId="182" Type="KillMob" MobId="706" KillCount="10" />
+<Objective QuestName="Trolling for Information" QuestId="24489" Type="KillMob" MobId="37109" KillCount="1" />
+<Objective QuestName="Trolling for Information" QuestId="24489" Type="KillMob" MobId="37110" KillCount="1" />
+<Objective QuestName="Trolling for Information" QuestId="24489" Type="KillMob" MobId="37111" KillCount="1" />
+<Objective QuestName="A Refugee's Quandary" QuestId="3361" Type="CollectItem" ItemId="10438" CollectCount="1" />
+<Objective QuestName="A Refugee's Quandary" QuestId="3361" Type="CollectItem" ItemId="16313" CollectCount="1" />
+<Objective QuestName="A Refugee's Quandary" QuestId="3361" Type="CollectItem" ItemId="16314" CollectCount="1" />
+
+<TurnIn QuestName="The Troll Menace" QuestId="182" TurnInName="Grelin Whitebeard" TurnInId="786" />
+<TurnIn QuestName="Trolling for Information" QuestId="24489" TurnInName="Apprentice Soren" TurnInId="1354" />
+<TurnIn QuestName="A Refugee's Quandary" QuestId="3361" TurnInName="Felix Whindlebolt" TurnInId="8416" />
+
+<PickUp QuestName="Ice and Fire" QuestId="218" GiverName="Grelin Whitebeard" GiverId="786" X="-6363.002" Y="567.0847" Z="385.7679" />
+
+
+   
+    <SetGrindArea>
+        <GrindArea>
+            <Factions>190</Factions>
+            <Hotspots>
+                <Hotspot X="-6473.273" Y="346.2043" Z="377.7312" />
+<Hotspot X="-6475.248" Y="387.3411" Z="382.577" />
+<Hotspot X="-6491.118" Y="401.5236" Z="384.9537" />
+<Hotspot X="-6517.373" Y="420.5351" Z="386.3791" />
+<Hotspot X="-6537.714" Y="422.732" Z="386.066" />
+<Hotspot X="-6569.815" Y="408.3365" Z="387.2207" />
+            </Hotspots>
+        </GrindArea>
+    </SetGrindArea>
+   
+    <GrindTo Level="5" />
+
+<Objective QuestName="Ice and Fire" QuestId="218" Type="KillMob" MobId="808" KillCount="1" />
+<Objective QuestName="Ice and Fire" QuestId="218" Type="KillMob" MobId="37112" KillCount="1" />
+<TurnIn QuestName="Ice and Fire" QuestId="218" TurnInName="Grelin Whitebeard" TurnInId="786" />
+
+<PickUp QuestName="A Trip to Ironforge" QuestId="24490" GiverName="Grelin Whitebeard" GiverId="786" />
+<TurnIn QuestName="A Trip to Ironforge" QuestId="24490" TurnInName="Hands Springsprocket" TurnInId="6782" />
+
+<PickUp QuestName="Follow that Gyro-Copter!" QuestId="24491" GiverName="Hands Springsprocket" GiverId="6782" />
+<TurnIn QuestName="Follow that Gyro-Copter!" QuestId="24491" TurnInName="Milo Geartwinge" TurnInId="37113" />
+
+<PickUp QuestName="Pack Your Bags" QuestId="24492" GiverName="Milo Geartwinge" GiverId="37113" />
+<Objective QuestName="Pack Your Bags" QuestId="24492" Type="CollectItem" ItemId="49754" CollectCount="1" />
+<Objective QuestName="Pack Your Bags" QuestId="24492" Type="CollectItem" ItemId="49755" CollectCount="1" />
+<Objective QuestName="Pack Your Bags" QuestId="24492" Type="CollectItem" ItemId="49756" CollectCount="1" />
+<PickUp QuestName="Don't Forget About Us" QuestId="24493" GiverName="Jona Ironstock" GiverId="37087" />
+
+
+<TurnIn QuestName="Pack Your Bags" QuestId="24492" TurnInName="Milo Geartwinge" TurnInId="37113" />
+<TurnIn QuestName="Don't Forget About Us" QuestId="24493" TurnInName="Tharek Blackstone" TurnInId="1872" />
+
+<PickUp QuestName="The Perfect Stout" QuestId="315" GiverName="Rejold Barleybrew" GiverId="1374" />
+<PickUp QuestName="Frostmane Aggression" QuestId="25724" GiverName="Captain Tharran" GiverId="40950" />
+
+<Objective QuestName="The Perfect Stout" QuestId="315" Type="CollectItem" ItemId="2676" CollectCount="7" />
+<Objective QuestName="Frostmane Aggression" QuestId="25724" Type="KillMob" MobId="41121" KillCount="5" />
+<Objective QuestName="Frostmane Aggression" QuestId="25724" Type="KillMob" MobId="41122" KillCount="7" />
+
+<TurnIn QuestName="Frostmane Aggression" QuestId="25724" TurnInName="Captain Tharran" TurnInId="40950" />
+<TurnIn QuestName="The Perfect Stout" QuestId="315" TurnInName="Rejold Barleybrew" TurnInId="1374" />
+
+<PickUp QuestName="Pilfered Supplies" QuestId="25668" GiverName="Quartermaster Glynna" GiverId="40951" />
+<PickUp QuestName="Forced to Watch from Afar" QuestId="313" GiverName="Captain Tharran" GiverId="40950" />
+<PickUp QuestName="Culling the Wendigos" QuestId="25667" GiverName="" GiverId="40950" />
+
+<Objective QuestName="Pilfered Supplies" QuestId="25668" Type="CollectItem" ItemId="55151" CollectCount="6" />
+<Objective QuestName="Culling the Wendigos" QuestId="25667" Type="KillMob" MobId="40941" KillCount="10" />
+<Objective QuestName="Forced to Watch from Afar" QuestId="313" Type="KillMob" MobId="40991" KillCount="1" />
+<Objective QuestName="Forced to Watch from Afar" QuestId="313" Type="KillMob" MobId="40994" KillCount="1" />
+<Objective QuestName="Forced to Watch from Afar" QuestId="313" Type="KillMob" MobId="41056" KillCount="1" />
+
+<TurnIn QuestName="Pilfered Supplies" QuestId="25668" TurnInName="Quartermaster Glynna" TurnInId="40951" />
+<TurnIn QuestName="Forced to Watch from Afar" QuestId="313" TurnInName="Captain Tharran" TurnInId="40950" />
+<TurnIn QuestName="Culling the Wendigos" QuestId="25667" TurnInName="" TurnInId="40950" />
+
+
+
+       </QuestOrder>
+   
+   
+   <!-- If a ForceMail block is needed, a robust block can be found at:
+      http://www.buddyforum.de/mediawiki/index.php?title=HB_Profile_Writing:_A_prototypical_ForceMail_Block
+     -->
+</HBProfile>

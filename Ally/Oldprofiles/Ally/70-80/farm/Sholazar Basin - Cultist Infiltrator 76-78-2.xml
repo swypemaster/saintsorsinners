@@ -1,0 +1,308 @@
+<HBProfile>
+  <Name>Alliance Northrend</Name>
+  <Mesh Name="Western Northrend 68-80.mesh" ServerID="33" />
+  <MinDurability>0.2</MinDurability>
+  <MinFreeBagSlots>2</MinFreeBagSlots>
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <MinLevel>1</MinLevel>
+  <MaxLevel>85</MaxLevel>
+  <MailWhite>False</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+
+  <SubProfile>
+    <Name>SholazarFTW</Name>
+    <MinLevel>66</MinLevel>
+    <MaxLevel>81</MaxLevel>
+    <Factions>2080</Factions>
+    <Vendors>
+      <Vendor Name="Mardan Thunderhoof" Entry="28040" Type="Repair" X="5552.257" Y="5738.877" Z="-76.21694" />
+    </Vendors>
+    <Mailboxes>
+      <Mailbox X="5562.393" Y="5757.779" Z="-75.35441" />
+    </Mailboxes>
+    <Hotspots>
+	<Hotspot X="6149.523" Y="4486.982" Z="-84.66098" />
+	<Hotspot X="6089.951" Y="4504.272" Z="-81.84831" />
+	<Hotspot X="6023.506" Y="4506.74" Z="-86.67097" />
+	<Hotspot X="6040.354" Y="4462.82" Z="-81.42429" />
+    </Hotspots>
+    <AvoidMobs>
+    </AvoidMobs>
+  </SubProfile>
+
+  <ProtectedItems>
+    <!-- Instant Poison -->
+    <Item>6497</Item>
+    <Item>6949</Item>
+    <Item>6950</Item>
+    <Item>8926</Item>
+    <Item>8927</Item>
+    <Item>8928</Item>
+    <Item>21927</Item>
+    <Item>43230</Item>
+    <Item>43231</Item>
+
+    <!--Rune of Teleportation-->
+    <Item>17031</Item>
+
+    <!--Potions-->
+    <!--Healing Potions-->
+    <Item>118</Item>
+    <Item>858</Item>
+    <Item>929</Item>
+    <Item>1710</Item>
+    <Item>3928</Item>
+    <Item>13446</Item>
+    <Item>17556</Item>
+    <Item>28551</Item>
+    <Item>33447</Item>
+
+    <!--Hunter Ammo-->
+    <Item>30319</Item>
+    <Item>34581</Item>
+    <Item>34582</Item>
+    <Item>32760</Item>
+    <Item>32761</Item>
+    <Item>31737</Item>
+    <Item>31735</Item>
+    <Item>23773</Item>
+    <Item>33803</Item>
+    <Item>12654</Item>
+    <Item>10579</Item>
+    <Item>32883</Item>
+    <Item>30612</Item>
+    <Item>30611</Item>
+    <Item>32882</Item>
+    <Item>41164</Item>
+    <Item>13377</Item>
+    <Item>11630</Item>
+    <Item>41165</Item>
+    <Item>31949</Item>
+    <Item>3465</Item>
+    <Item>3464</Item>
+    <Item>23772</Item>
+    <Item>10512</Item>
+    <Item>19316</Item>
+    <Item>19317</Item>
+    <Item>10513</Item>
+    <Item>9399</Item>
+    <Item>24417</Item>
+    <Item>18042</Item>
+    <Item>15997</Item>
+    <Item>11284</Item>
+    <Item>28056</Item>
+    <Item>8068</Item>
+    <Item>8067</Item>
+    <Item>8069</Item>
+    <Item>4960</Item>
+    <Item>41584</Item>
+    <Item>2519</Item>
+    <Item>28060</Item>
+    <Item>28061</Item>
+    <Item>11285</Item>
+    <Item>2516</Item>
+    <Item>3030</Item>
+    <Item>2512</Item>
+    <Item>2515</Item>
+    <Item>5568</Item>
+    <Item>3033</Item>
+    <Item>41586</Item>
+    <Item>28053</Item>
+
+
+    <Item>17556</Item>
+    <!--Major Healing Potion-->
+    <!--Freshly Baked Bread-->
+    <Item>4541</Item>
+    <!--Mutton Chop-->
+    <Item>3770</Item>
+    <!--Moonberry Juice-->
+    <Item>1645</Item>
+    <!--Morning Glory Dew-->
+    <Item>8766</Item>
+    <!--Lowbie Bags-->
+    <Item>4496</Item>
+    <Item>5571</Item>
+    <Item>828</Item>
+    <Item>5572</Item>
+    <Item>805</Item>
+  </ProtectedItems>
+  <ForceMail>
+    <Item>2589</Item>
+    <!--Linen Cloth-->
+    <Item>2934</Item>
+    <!--Ruined Leather Scraps-->
+    <Item>2592</Item>
+    <!--Wool Cloth-->
+    <Item>4306</Item>
+    <!--Silk cloth-->
+    <Item>4338</Item>
+    <!--Mageweave Cloth-->
+    <Item>14047</Item>
+    <!--Runecloth-->
+    <Item>21877</Item>
+    <!--Netherweave Cloth-->
+    <Item>33470</Item>
+    <!--Frostweave Cloth-->
+    <Item>2318</Item>
+    <!--Light Leather-->
+    <Item>2319</Item>
+    <!--Medium Leather-->
+    <Item>4304</Item>
+    <!--Heavy Leather-->
+    <Item>4234</Item>
+    <!--Thick Leather-->
+    <Item>8170</Item>
+    <!--Rugged Leather-->
+    <Item>21887</Item>
+    <!--Knothide Leathter-->
+    <Item>33568</Item>
+    <!--Borean Leather-->
+    <Item>181166</Item>
+    <!--Bloodthistle-->
+    <Item>2447</Item>
+    <!--Peacebloom-->
+    <Item>765</Item>
+    <!--Silverleaf-->
+    <Item>2449</Item>
+    <!--Earthroot-->
+    <Item>785</Item>
+    <!--Mageroyal-->
+    <Item>2450</Item>
+    <!--Briarthorn-->
+    <Item>2452</Item>
+    <!--Swiftthistle-->
+    <Item>2453</Item>
+    <!--Bruiseweed-->
+    <Item>3355</Item>
+    <!--Wild Steelbloom-->
+    <Item>3356</Item>
+    <!--Kingsblood-->
+    <Item>3357</Item>
+    <!--Liferoot-->
+    <Item>3821</Item>
+    <!--Goldthorn-->
+    <Item>3818</Item>
+    <!--Fadeleaf-->
+    <Item>3358</Item>
+    <!--Khadgar's Whisker-->
+    <Item>3819</Item>
+    <!--Wintersbite-->
+    <Item>8831</Item>
+    <!--Purple Lotus-->
+    <Item>8836</Item>
+    <!--Arthas' Tears-->
+    <Item>8839</Item>
+    <!--Blindweed-->
+    <Item>4625</Item>
+    <!--Firebloom-->
+    <Item>8846</Item>
+    <!--Gromsblood-->
+    <Item>8838</Item>
+    <!--Sungrass-->
+    <Item>13464</Item>
+    <!--Golden Sansam-->
+    <Item>13466</Item>
+    <!--Plaguebloom-->
+    <Item>13465</Item>
+    <!--Mountain Silversage-->
+    <Item>13467</Item>
+    <!--Icecap-->
+    <Item>13463</Item>
+    <!--Dreamfoil-->
+    <Item>13468</Item>
+    <!--Black Lotus-->
+    <Item>22793</Item>
+    <!--Mana Thistle-->
+    <Item>22792</Item>
+    <!--Nightmare Vine-->
+    <Item>22791</Item>
+    <!--Netherbloom-->
+    <Item>22786</Item>
+    <!--Dreaming Glory-->
+    <Item>22787</Item>
+    <!--Ragveil-->
+    <Item>22788</Item>
+    <!--Flame Cap-->
+    <Item>22785</Item>
+    <!--Felweed-->
+    <Item>22789</Item>
+    <!--Terocone-->
+    <Item>22794</Item>
+    <!--Fel Lotus-->
+    <Item>36901</Item>
+    <!--Goldclover-->
+    <Item>191303</Item>
+    <!--Firethorn-->
+    <Item>37921</Item>
+    <!--Deadnettle-->
+    <Item>36904</Item>
+    <!--Tiger Lily-->
+    <Item>36907</Item>
+    <!--Talandra's Rose-->
+    <Item>36903</Item>
+    <!--Adder's Tongue-->
+    <Item>36906</Item>
+    <!--Icethorn-->
+    <Item>36905</Item>
+    <!--Lichbloom-->
+    <Item>36908</Item>
+    <!--Frost Lotus-->
+    <Item>2770</Item>
+    <!--Copper Vein-->
+    <Item>2771</Item>
+    <!--Tin Vein-->
+    <Item>2775</Item>
+    <!--Silver Vein-->
+    <Item>2776</Item>
+    <!--Gold Vein-->
+    <Item>2772</Item>
+    <!--Iron Deposit-->
+    <Item>3858</Item>
+    <!--Mithril Deposit-->
+    <Item>7911</Item>
+    <!--Truesilver Deposit-->
+    <Item>10620</Item>
+    <!--Thorium Vein-->
+    <Item>23425</Item>
+    <!--Adamatite Deposit-->
+    <Item>23424</Item>
+    <!--Fel Iron Deposit-->
+    <Item>23426</Item>
+    <!--Khorium Vein-->
+    <Item>23447</Item>
+    <!--Eternium Vein-->
+    <Item>36909</Item>
+    <!--Cobalt Deposit-->
+    <Item>36912</Item>
+    <!--Saronite Deposit-->
+    <Item>36910</Item>
+    <!--Titanium Vein-->
+    <Item>37705</Item>
+    <!--Crystallized Water-->
+    <Item>17407</Item>
+    <!--Felmist <Mote of Shadow> -->
+    <Item>17378</Item>
+    <!--Swamp Gas <Mote of Water> -->
+    <Item>17408</Item>
+    <!--Arcane Vortex <Mote of Mana> -->
+    <Item>24222</Item>
+    <!--Windy Cloud <Mote of Air>  -->
+    <Item>32544</Item>
+    <!--Steam Cloud <Crystalized Fire> and <Crystalized Water> -->
+    <Item>32522</Item>
+    <!--Cinder Cloud <Crystalized Fire> -->
+    <Item>24879</Item>
+    <!--Arctic Cloud <Crystalized Air> and <Crystalized Water> -->
+    <Item>8499</Item>
+    <!--Tiny Crimson Whelpling-->
+  </ForceMail>
+</HBProfile>
+
+
+
+

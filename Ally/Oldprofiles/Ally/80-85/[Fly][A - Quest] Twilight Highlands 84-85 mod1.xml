@@ -1,0 +1,674 @@
+<HBProfile>
+	<Name>[A - Quest] Twilight Highlands 84-85 [Kick]</Name>
+	<MinLevel>84</MinLevel>
+	<MaxLevel>86</MaxLevel>
+	
+	<MinDurability>0.1</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	
+	<SellGrey>True</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+	<SellBlue>False</SellBlue>
+	<SellPurple>False</SellPurple>
+	
+	<MailGreen>True</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>  
+
+	<Vendors>
+		<Vendor Name="Bren Stoneforge" Entry="49800" Type="Repair" X="-4195.974" Y="-5590.519" Z="27.29005" /> <!-- Firebeards -->
+		<Vendor Name="Richard Maschner" Entry="49726" Type="Repair" X="-4856.569" Y="-6606.094" Z="9.417848" /> <!-- Highbank -->
+		<Vendor Name="Dorgan Slagfist" Entry="49695" Type="Repair" X="-4852.063" Y="-6610.596" Z="9.417848" /> <!-- Highbank -->
+		<Vendor Name="Brian Terrel" Entry="49605" Type="Repair" X="-4187.616" Y="-4751.438" Z="126.7877" /> <!-- Victor's Point -->
+	</Vendors>
+	
+	<Mailboxes>
+		<Mailbox X="-4861.504" Y="-6672.604" Z="8.482577" />
+	</Mailboxes>
+	
+	<Blackspots>
+		<Blackspot X="-4044.171" Y="-4909.552" Z="90.73296" Radius="26.49721" />
+		<Blackspot X="-4061.168" Y="-4872.312" Z="106.8161" Radius="15.97308" Height="20" />
+	</Blackspots>
+	
+	
+	<!--
+		<Pickup QuestName="" QuestId="" GiverName="" GiverId="" GiverType="NPC" />
+			<Objective QuestName="" QuestId="" Type="CollectItem" CollectCount="1" ItemId="" />
+			<Objective QuestName="" QuestId="" Type="KillMob" MobId="" MobName="" KillCount="5" />
+			<Objective QuestId="" ItemId="" Type="UseObject" UseCount="1" />
+			<UseItem QuestName="" QuestId="" ItemId="" XYZ />
+		<TurnIn QuestName="" QuestId="" TurnInName="" TurnInId="" />
+		
+			<If Condition="((HasQuest()) &amp;&amp; (!IsQuestCompleted()))" >
+			</If>
+			<If Condition="(HasQuest())" >
+			</If>
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="MyCTM" X Y Z />
+				<RunTo QuestId="" X Y Z />
+				<CustomBehavior File="UseItemAtRange" QuestId="" ObjectType="Npc" MobId="" ItemId="" NumOfTimes="1" WaitTime="1000" RangeWanted="30" CollectionDistance="50" X Y Z />
+				<CustomBehavior File="UseItemOn" QuestId="" ObjectType="Npc" MobId="" ItemId="" NumOfTimes="1" WaitTime="1000" CollectionDistance="50" X Y Z />
+				<CustomBehavior File="TalkandInteractWith" QuestId="" ObjectType="NPC" MobId="" NumOfTimes="1" GossipOption="1" WaitTime="1000" CollectionDistance="50" X Y Z />
+				<CustomBehavior File="InteractWith" QuestId="" ObjectType="Gameobject" MobId="" NumOfTimes="1" CollectionDistance="50" X Y Z />
+				<CustomBehavior File="InteractWith" QuestId="" ObjectType="NPC" MobId="" NumOfTimes="1" CollectionDistance="50" X Y Z />
+				<CustomBehavior File="RunMacro" Macro="" NumOfTimes="1" WaitTime="1000" />
+				<CustomBehavior File="NoControlVehicle" NpcMountId="" TargetId="" SpellId="" OftenToUse="" TimesToUse="" VehicleId="" MaxDist="" TypeId="" />
+				<CustomBehavior File="UserDialog" QuestId="" Title="title" AllowBotStop="True" SoundCue="Asterisk" SoundCueInterval="1" Text="" />
+	-->
+	<Quest Id="27433" Name="Shredderectomy">
+		<Objective Type="CollectItem" ItemId="61048" CollectCount="5">
+			<CollectFrom>
+				<Mob Name="Diamond-Blade Shredder" Id="45185" />
+			</CollectFrom>
+		</Objective>
+	</Quest>
+
+	<Quest Id="27805" Name="Small Comforts">
+		<Objective Type="CollectItem" ItemId="62545" CollectCount="1">
+			<CollectFrom>
+				<GameObject Name="Meara's Dried Roses" Id="206408" />
+			</CollectFrom>
+			<Hotspots>
+				<Hotspot X="-4129.067" Y="-5588.552" Z="35.9794" />
+			</Hotspots>
+		</Objective>
+		<Objective Type="CollectItem" ItemId="62546" CollectCount="1">
+			<CollectFrom>
+				<GameObject Name="Parlan's Ivory Hammer" Id="206411" />
+			</CollectFrom>
+			<Hotspots>
+				<Hotspot X="-4155.225" Y="-5563.222" Z="31.5141" />
+			</Hotspots>
+		</Objective>
+		<Objective Type="CollectItem" ItemId="62543" CollectCount="1">
+			<CollectFrom>
+				<GameObject Name="Aprika's Lost Doll" Id="206410" />
+			</CollectFrom>
+			<Hotspots>
+				<Hotspot X="-4121.86" Y="-5570.719" Z="39.79448" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="27752" Name="Fight Like a Wildhammer">
+		<Objective Type="CollectItem" ItemId="62330" CollectCount="10">
+			<CollectFrom> 
+				<GameObject Name="Thundermar Ale Keg" Id="206195" />
+			</CollectFrom>
+			<Hotspots>
+				<Hotspot X="-3449.358" Y="-5030.368" Z="66.67535" />
+				<Hotspot X="-3473.238" Y="-5013.446" Z="66.40994" />
+				<Hotspot X="-3465.265" Y="-4873.771" Z="88.23212" />
+				<Hotspot X="-3476.252" Y="-4858.416" Z="89.61749" />
+				<Hotspot X="-3343.334" Y="-4843.775" Z="110.2118" />
+				<Hotspot X="-3318.122" Y="-4860.123" Z="110.6405" />
+				<Hotspot X="-3457.899" Y="-5031.506" Z="67.04486" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+	
+	
+	
+	
+	
+	
+	<QuestOrder>
+
+		<PickUp QuestName="Hero's Call: Twilight Highlands!" QuestId="28716" GiverName="Hero's Call Board" GiverId="206294" GiverType="Object" X="-8344.381" Y="639.3972" Z="95.80094" />
+			<If Condition="(HasQuest(28716))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-8442.632" Y="332.6037" Z="142.268" />
+				<CustomBehavior File="RunMacro" Macro="/dismount" NumOfTimes="1" WaitTime="2000" />
+			</If>
+		<TurnIn QuestName="Hero's Call: Twilight Highlands!" QuestId="28716" TurnInName="King Varian Wrynn" TurnInId="29611" />
+		<PickUp QuestName="My Son, the Prince" QuestId="26960" GiverName="King Varian Wrynn" GiverId="29611" />
+			<If Condition="((HasQuest(26960)) &amp;&amp; (!IsQuestCompleted(26960)))" >
+				<CustomBehavior File="TalkandInteractWith" QuestId="26960" ObjectType="NPC" MobId="1747" NumOfTimes="1" GossipOption="1" WaitTime="1000" CollectionDistance="50" X="-8361.36" Y="233.563" Z="156.9925" />
+			</If>
+		<TurnIn QuestName="My Son, the Prince" QuestId="26960" TurnInName="King Varian Wrynn" TurnInId="29611" />
+		<PickUp QuestName="Rallying the Fleet" GiverName="King Varian Wrynn" QuestId="26975" GiverId="29611" />
+		<PickUp QuestName="Twilight Investigation" GiverName="King Varian Wrynn" QuestId="26977" GiverId="29611" />
+		<TurnIn QuestName="Twilight Investigation" TurnInName="Major Samuelson" QuestId="26977" TurnInId="2439" />
+		<PickUp QuestName="The Usual Suspects" QuestId="26997" GiverName="Major Samuelson" GiverId="2439" />
+			<If Condition="((HasQuest(26975)) &amp;&amp; (!IsQuestCompleted(26975)))" >
+				<CustomBehavior File="TalkandInteractWith" QuestId="26975" ObjectType="NPC" MobId="1747" NumOfTimes="1" GossipOption="1" WaitTime="1000" CollectionDistance="50" X="-8361.36" Y="233.563" Z="156.9925" />
+				<RunTo X="-8439.267" Y="328.155" Z="145.0836" />
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-8452.188" Y="1148.011" Z="19.05081" />
+				<CustomBehavior File="RunMacro" Macro="/dismount" NumOfTimes="1" WaitTime="2000" />
+			</If>
+		<TurnIn QuestName="Rallying the Fleet" TurnInName="Supply Sergeant Graves" QuestId="26975" TurnInId="44749" />
+		<PickUp QuestName="Missing Parts" GiverName="Supply Sergeant Graves" QuestId="27038" GiverId="44749" />
+		<PickUp QuestName="Peasant Problems" QuestId="27044" GiverName="Anduin Wrynn" GiverId="44293" />
+			<Objective QuestName="Missing Parts" QuestId="27038" Type="Collect" CollectCount="5" ItemId="60757" />
+			<If Condition="((HasQuest(26997)) &amp;&amp; (!IsQuestCompleted(26997)))" >
+				<CustomBehavior File="InteractWith" QuestId="26997" ObjectType="NPC" MobId="29152" NumOfTimes="4" WaitTime="1000" CollectionDistance="200" X="-8470.37" Y="1218.456" Z="5.147138" />
+				<CustomBehavior File="InteractWith" QuestId="26997" ObjectType="NPC" MobId="29152" NumOfTimes="4" WaitTime="1000" CollectionDistance="200" X="-8217.99" Y="1210.316" Z="6.080956" />
+			</If>
+		<TurnIn QuestName="The Usual Suspects" TurnInName="Anduin Wrynn" QuestId="26997" TurnInId="44293" />
+		<TurnIn QuestName="Missing Parts" TurnInName="Fargo Flintlocke" QuestId="27038" TurnInId="44806" X="-8438.55" Y="1118.48" Z="19.053" />
+		<PickUp QuestName="He's Holding Out on Us" QuestId="27064" GiverName="Anduin Wrynn" GiverId="44293" />
+			<If Condition="((HasQuest(27044)) &amp;&amp; (!IsQuestCompleted(27044)))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-8064.849" Y="816.5337" Z="67.15341" />
+			</If>
+		<TurnIn QuestName="Peasant Problems" TurnInName="Farmer Wollerton" QuestId="27044" TurnInId="44807" />
+		<PickUp QuestName="Unholy Cow" GiverName="Farmer Wollerton" QuestId="27060" GiverId="44807" />
+			<If Condition="((HasQuest(27060)) &amp;&amp; (!IsQuestCompleted(27060)))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-8048.314" Y="962.8036" Z="79.94617" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura" NumOfTimes="1" WaitTime="2000" />
+				<CustomBehavior File="WaitTimer" WaitTime="15000"/>
+					<SetGrindArea>
+						<GrindArea>
+							<Factions>2296</Factions>
+							<Hotspots>
+								<Hotspot X="-8047.762" Y="962.8854" Z="80.03011" />
+								<Hotspot X="-8054.047" Y="970.8396" Z="79.48178" />
+								<Hotspot X="-8045.082" Y="976.3722" Z="80.07957" />
+								<Hotspot X="-8043.962" Y="969.3359" Z="80.80181" />
+								<Hotspot X="-8047.214" Y="965.995" Z="80.17368" />
+							</Hotspots>
+						</GrindArea>
+					</SetGrindArea>
+				<GrindTo Condition="(IsQuestCompleted(27060))" />
+			</If>
+		<TurnIn QuestName="Unholy Cow" TurnInName="Anduin Wrynn" QuestId="27060" TurnInId="44293" />
+			<If Condition="((HasQuest(27064)) &amp;&amp; (!IsQuestCompleted(27064)))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-8726.797" Y="338.2309" Z="100.2719" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+				<RunTo QuestId="27064" X="-8713.93" Y="326.2124" Z="101.0944" />
+				<RunTo QuestId="27064" X="-8714.172" Y="322.9737" Z="108.3343" />
+				<CustomBehavior File="MyCTM" X="-8716.541" Y="327.6721" Z="110.0929" />
+				<CustomBehavior File="MyCTM" X="-8711.02" Y="328.0804" Z="112.2072" />
+				<CustomBehavior File="MyCTM" X="-8711.34" Y="323.8146" Z="113.909" />
+				<CustomBehavior File="MyCTM" X="-8715.369" Y="323.9926" Z="115.8454" />
+				<CustomBehavior File="MyCTM" X="-8715.383" Y="328.0202" Z="117.5587" />
+				<CustomBehavior File="MyCTM" X="-8710.888" Y="327.3878" Z="119.4751" />
+				<CustomBehavior File="MyCTM" X="-8711.445" Y="323.644" Z="121.1531" />
+				<CustomBehavior File="MyCTM" X="-8715.48" Y="323.7153" Z="122.1216" />
+				<CustomBehavior File="MyCTM" X="-8715.092" Y="327.973" Z="122.1066" />
+				<CustomBehavior File="WaitTimer" WaitTime="20000"/>
+			</If>
+		<TurnIn QuestName="He's Holding Out on Us" TurnInName="Anduin Wrynn" QuestId="27064" TurnInId="44293" />
+		<PickUp QuestName="Expert Opinion" QuestId="28807" GiverName="Anduin Wrynn" GiverId="44293" />
+			<If Condition="(HasQuest(28807))" >
+				<CustomBehavior File="MyCTM" X="-8710.338" Y="328.4464" Z="119.3082" />
+				<CustomBehavior File="MyCTM" X="-8715.26" Y="323.105" Z="115.5403" />
+				<CustomBehavior File="MyCTM" X="-8711.859" Y="328.7534" Z="111.8196" />
+				<CustomBehavior File="MyCTM" X="-8713.558" Y="322.92" Z="108.3747" />
+			</If>
+		<TurnIn QuestName="Expert Opinion" TurnInName="Master Mathias Shaw" QuestId="28807" TurnInId="332" />
+		<PickUp QuestName="The Old Barracks" GiverName="Master Mathias Shaw" QuestId="27072" GiverId="332" />
+			<If Condition="((HasQuest(27072)) &amp;&amp; (!IsQuestCompleted(27072)))" >
+				<RunTo X="-8726.662" Y="336.3237" Z="100.1682" />
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-8668.381" Y="1068.269" Z="114.6001" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+			<!-- this place has MAJOR nav issues -->
+			<Objective QuestName="The Old Barracks" QuestId="27072" Type="KillMob" KillCount="6" MobId="44814" />
+		<TurnIn QuestName="The Old Barracks" TurnInName="Jack Bauden" QuestId="27072" TurnInId="50049" X="-8647.146" Y="1076.708" Z="105.6031" />
+		<PickUp QuestName="Cataclysm in the Catacombs" QuestId="27092" GiverName="Jack Bauden" GiverId="50049" />
+			<If Condition="((HasQuest(27092)) &amp;&amp; (!IsQuestCompleted(27092)))" >
+				<RunTo X="-8668.643" Y="1067.231" Z="114.584" />
+				<CustomBehavior File="MyCTM" X="-8676.284" Y="1059.706" Z="99.6574" />
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-8603.621" Y="790.2954" Z="101.9315" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+			<Objective QuestName="Cataclysm in the Catacombs" QuestId="27092" Type="KillMob" MobId="44816" KillCount="1" />
+		<TurnIn QuestName="Cataclysm in the Catacombs" QuestId="27092" TurnInName="Pile of Explosives" TurnInId="205198" X="-8484.703" Y="845.5828" Z="72.70779" />
+		<PickUp QuestName="A Villian Unmasked" QuestId="27106" GiverName="Pile of Explosives" GiverId="205198" X="-8484.703" Y="845.5828" Z="72.70779" />
+			<If Condition="((HasQuest(27106)) &amp;&amp; (!IsQuestCompleted(27106)))" >
+				<RunTo X="-8603.621" Y="790.2954" Z="101.9315" />
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-8442.632" Y="332.6037" Z="142.268" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+				<CustomBehavior File="TalkandInteractWith" QuestId="27106" ObjectType="NPC" MobId="2439" NumOfTimes="1" GossipOption="1" WaitTime="25000" CollectionDistance="50" X="-8355.21" Y="243.974" Z="155.3491" />
+				<RunTo X="-8370.99" Y="245.901" Z="155.3476" />
+			</If>
+			<Objective QuestName="A Villian Unmasked" QuestId="27106" Type="KillMob" MobId="2439" KillCount="1" />
+		<TurnIn QuestName="A Villian Unmasked" QuestId="27106" TurnInName="King Varian Wrynn" TurnInId="29611" />
+		<PickUp QuestName="Twilight Shores" GiverName="King Varian Wrynn" QuestId="28238" GiverId="29611" />
+			<If Condition="(HasQuest(28238))" >
+				<RunTo X="-8439.267" Y="328.155" Z="145.0836" />
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-8542.495" Y="1266.729" Z="4.544686" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+		<TurnIn QuestName="Twilight Shores" TurnInName="Fargo Flintlocke" QuestId="28238" TurnInId="44806" X="-8542.495" Y="1266.729" Z="4.544686" />
+		<PickUp QuestName="Twilight Shores" GiverName="Fargo Flintlocke" QuestId="28832" GiverId="44806" X="-8542.495" Y="1266.729" Z="4.544686" />
+			<If Condition="(HasQuest(28832))" >
+				<CustomBehavior File="MountVehOnly" NpcMountId="50262" X="-8547.236" Y="1273.755" Z="-1.629577" />
+				<CustomBehavior File="WaitTimer" WaitTime="110000"/>
+			</If>
+		<TurnIn QuestName="Twilight Shores" TurnInName="Lieutenant Fawkes" QuestId="28832" TurnInId="49022" />
+		<PickUp QuestName="Welcome to Highbank!" QuestId="28596" GiverName="Lieutenant Fawkes" GiverId="49022" />
+			<If Condition="((HasQuest(28596)) &amp;&amp; (!IsQuestCompleted(28596)))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4882.167" Y="-6714.072" Z="4.711594" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+			<Objective QuestName="Welcome to Highbank!" QuestId="28596" Type="KillMob" MobId="49008" KillCount="10" />
+			<If Condition="((HasQuest(28596)) &amp;&amp; (IsQuestCompleted(28596)))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4940.275" Y="-6705.094" Z="54.86388" />
+				<CustomBehavior File="FlyTo" X="-4946.438" Y="-6708.415" Z="14.42956" /> 
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+				<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+			</If>
+		<TurnIn QuestName="Welcome to Highbank!" QuestId="28596" TurnInName="Lieutenant Fawkes" TurnInId="49022" X="-4946.821" Y="-6704.628" Z="15.0402" />
+		<PickUp QuestName="Burnin' at Both Ends" QuestId="28597" GiverName="Fargo Flintlocke" GiverId="49252" X="-4944.655" Y="-6709.207" Z="14.20296" />
+			<If Condition="((HasQuest(28597)) &amp;&amp; (!IsQuestCompleted(28597)))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4882.167" Y="-6714.072" Z="4.711594" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+				<CustomBehavior File="InteractWith" QuestId="28597" ObjectType="NPC" MobId="49143" NumOfTimes="20" WaitTime="500" CollectionDistance="50" X="-4808.765" Y="-6674.563" Z="5.057522" />
+			</If>
+			<If Condition="((HasQuest(28597)) &amp;&amp; (IsQuestCompleted(28597)))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4855.523" Y="-6592.179" Z="9.41787" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+		<TurnIn QuestName="Burnin' at Both Ends" TurnInName="Fargo Flintlocke" QuestId="28597" TurnInId="49020" />
+		<PickUp QuestName="Aiming High" GiverName="Fargo Flintlocke" QuestId="28598" GiverId="49020" />
+			<If Condition="((HasQuest(28598)) &amp;&amp; (!IsQuestCompleted(28598)))" >
+				<RunTo X="-4846.136" Y="-6585.333" Z="9.418306" />
+				<CustomBehavior File="WaitTimer" WaitTime="55000"/>
+				<CustomBehavior File="UseItem" QuestId="28598" ItemId="64660" NumOfTimes="1" Waittime="1000" />
+			</If>
+		<TurnIn QuestName="Aiming High" TurnInName="Fargo Flintlocke" QuestId="28598" TurnInId="49020" />
+		<PickUp QuestName="Kurdran's Waitin'" GiverName="Fargo Flintlocke" QuestId="28599" GiverId="49020" />
+		<TurnIn QuestName="Kurdran's Waitin'" TurnInName="Kurdran Wildhammer" QuestId="28599" TurnInId="45167" />
+		<PickUp QuestName="Our Boys on the Shore" GiverName="Kurdran Wildhammer" QuestId="27338" GiverId="45167" />
+		<!-- not picking up the "defend the boat quest" -->
+		<!-- Water Nav Issues
+		<PickUp QuestName="Naga Reinforcements" QuestId="27178" GiverName="Simon Chandler" GiverId="45170" />
+		<PickUp QuestName="Salvage Operation" GiverName="Simon Chandler" QuestId="27177" GiverId="45170" />
+			<Objective QuestName="Salvage Operation" QuestId="27177" Type="Collect" CollectCount="8" ItemId="60857" />
+			<Objective QuestName="Naga Reinforcements" QuestId="27178" Type="KillMob" MobId="45192" KillCount="10" />
+		<TurnIn QuestName="Naga Reinforcements" TurnInName="Simon Chandler" QuestId="27178" TurnInId="45170" />
+		<TurnIn QuestName="Salvage Operation" TurnInName="Simon Chandler" QuestId="27177" TurnInId="45170" />
+		 -->
+		<TurnIn QuestName="Our Boys on the Shore" TurnInName="Lieutenant Emry" QuestId="27338" TurnInId="45169" />
+		<PickUp QuestName="Scouting the Shore" GiverName="Lieutenant Emry" QuestId="27341" GiverId="45169" />
+		<PickUp QuestName="Landgrab" GiverName="Lieutenant Emry" QuestId="27366" GiverId="45169" />
+		<PickUp QuestName="Shredderectomy" GiverName="Fargo Flintlocke" QuestId="27433" GiverId="45168" />
+			<If Condition="(HasQuest(27341))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4444.142" Y="-6522.118" Z="4.52096" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+			<Objective QuestName="Shredderectomy" QuestId="27433" Type="CollectItem" CollectCount="5" ItemId="61048" />
+			<Objective QuestName="Landgrab" QuestId="27366" Type="KillMob" KillCount="12" MobId="45175" />
+		<TurnIn QuestName="Shredderectomy" TurnInName="Fargo Flintlocke" QuestId="27433" TurnInId="45168" />
+		<!--
+		<PickUp QuestName="Siege Tank Rescue" GiverName="Fargo Flintlocke" QuestId="27468" GiverId="45168" />
+		-->
+		<TurnIn QuestName="Scouting the Shore" TurnInName="Lieutenant Emry" QuestId="27341" TurnInId="45169" />
+		<TurnIn QuestName="Landgrab" TurnInName="Lieutenant Emry" QuestId="27366" TurnInId="45169" />
+		<!-- Siege Tank Commander Spoken To -->
+		<!-- Siege Tank Defended
+		<TurnIn QuestName="Siege Tank Rescue" TurnInName="Fargo Flintlocke" QuestId="27468" TurnInId="45168" />
+		 -->
+		<PickUp QuestName="Bird Down! Bird Down!" GiverName="Lieutenant Emry" QuestId="27514" GiverId="45169" />
+		<TurnIn QuestName="Bird Down! Bird Down!" TurnInName="Thordun Hammerblow" QuestId="27514" TurnInId="45172" />
+		<PickUp QuestName="Roots'll Do 'Er" GiverName="Thordun Hammerblow" QuestId="27515" GiverId="45172" />
+			<Objective QuestName="Roots'll Do 'Er" QuestId="27515" Type="Collect" CollectCount="8" ItemId="61319" />
+		<TurnIn QuestName="Roots'll Do 'Er" TurnInName="Thordun Hammerblow" QuestId="27515" TurnInId="45172" />
+		<PickUp QuestName="Wings Over Highbank" GiverName="Thordun Hammerblow" QuestId="27516" GiverId="45172" />
+			<If Condition="(HasQuest(27516))" >
+				<CustomBehavior File="TalkandInteractWith" QuestId="27516" ObjectType="NPC" MobId="45172" NumOfTimes="1" GossipOption="1" WaitTime="1000" CollectionDistance="50" X="-4474.31" Y="-6004" Z="28.29118" />
+			</If>
+		<TurnIn QuestName="Wings Over Highbank" TurnInName="Kurdran Wildhammer" QuestId="27516" TurnInId="45167" />
+		<PickUp QuestName="Any Portal in a Storm" GiverName="Kurdran Wildhammer" QuestId="27537" GiverId="45167" />
+		<PickUp QuestName="The Perfect Poultice" GiverName="Thordun Hammerblow" QuestId="27538" GiverId="45172" />
+			<If Condition="((HasQuest(27537)) &amp;&amp; (!IsQuestCompleted(27537)))" >
+				<RunTo X="-4886.074" Y="-6632.635" Z="9.817734" />
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-3820.529" Y="-5991.138" Z="8.896129" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+			<Objective QuestName="The Perfect Poultice" QuestId="27538" Type="Collect" CollectCount="10" ItemId="60337" />
+			<Objective QuestName="Any Portal in a Storm" QuestId="27537" Type="Collect" CollectCount="5" ItemId="60333" />
+			<If Condition="((HasQuest(27537)) &amp;&amp; (IsQuestCompleted(27537)))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4886.074" Y="-6632.635" Z="9.817734" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+		<TurnIn QuestName="Any Portal in a Storm" TurnInName="Talaa" QuestId="27537" TurnInId="45173" />
+		<TurnIn QuestName="The Perfect Poultice" TurnInName="Talaa" QuestId="27538" TurnInId="45173" />
+		<PickUp QuestName="The Way is Open" GiverName="Talaa" QuestId="27545" GiverId="45173" />
+		<TurnIn QuestName="The Way is Open" TurnInName="Kurdran Wildhammer" QuestId="27545" TurnInId="45167" />
+		<PickUp QuestName="Firebeard's Patrol" GiverName="Thordun Hammerblow" QuestId="27621" GiverId="45172" />
+			<If Condition="(HasQuest(27621))" >
+				<RunTo X="-4886.074" Y="-6632.635" Z="9.817734" />
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4191.807" Y="-5605.671" Z="24.7782" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+		<TurnIn QuestName="Firebeard's Patrol" TurnInName="Keegan Firebeard" QuestId="27621" TurnInId="46804" X="-4194.79" Y="-5608.74" Z="24.22149" />
+		<PickUp QuestName="Welcome Relief" GiverName="Keegan Firebeard" QuestId="27803" GiverId="46804" />
+		<PickUp QuestName="The Only Homes We Have" GiverName="Keegan Firebeard" QuestId="27804" GiverId="46804" />
+		<PickUp QuestName="Small Comforts" GiverName="Cailin Longfellow" QuestId="27805" GiverId="46814" />
+			<If Condition="((HasQuest(27804)) &amp;&amp; (!IsQuestCompleted(27804)))" >
+				<!-- <CustomBehavior File="UseItemOn" QuestId="27804" ObjectType="Npc" MobId="46849" ItemId="62508" NumOfTimes="500" WaitTime="1000" CollectionDistance="200" X="-4154.287" Y="-5583.773" Z="31.49261" /> -->
+				<!-- <CustomBehavior File="UseItemTargetLocation" QuestId="27804" NpcID="46849" ItemId="62508" UseNPCLocation="True" NumOfTimes="500" WaitTime="1000" CollectionDistance="200" X="-4154.287" Y="-5583.773" Z="31.49261" /> -->
+				<CustomBehavior File="UserDialog" QuestId="27804" Title="title" AllowBotStop="True" SoundCue="Asterisk" SoundCueInterval="1" Text="Put out the fires then press continue (I'm working on a click action for this quest)" />
+			</If>
+			<If Condition="((HasQuest(27805)) &amp;&amp; (!IsQuestCompleted(27805)))" >
+				<CustomBehavior File="SetPullDistance" Distance="0" />
+				<RunTo X="-4138.648" Y="-5588.704" Z="35.08278" />
+				<CustomBehavior File="MyCTM" X="-4133.443" Y="-5592.425" Z="35.83219" />
+				<CustomBehavior File="BasicUseObject" ObjectId="206408" />
+				<CustomBehavior File="MyCTM" X="-4138.724" Y="-5587.329" Z="34.8489" />
+				<CustomBehavior File="SetPullDistance" Distance="30" />
+			</If>
+			<Objective QuestName="Small Comforts" QuestId="27805" Type="Collect" CollectCount="1" ItemId="62545" />
+			<Objective QuestName="Small Comforts" QuestId="27805" Type="Collect" CollectCount="1" ItemId="62546" />
+			<Objective QuestName="Small Comforts" QuestId="27805" Type="Collect" CollectCount="1" ItemId="62543" />
+			<Objective QuestName="Welcome Relief" QuestId="27803" Type="KillMob" KillCount="8" MobId="46838" />
+		<TurnIn QuestName="Small Comforts" TurnInName="Cailin Longfellow" QuestId="27805" TurnInId="46814" />
+		<TurnIn QuestName="Welcome Relief" TurnInName="Keegan Firebeard" QuestId="27803" TurnInId="46804" />
+		<TurnIn QuestName="The Only Homes We Have" TurnInName="Keegan Firebeard" QuestId="27804" TurnInId="46804" />
+		<PickUp QuestName="Honorable Bearing" GiverName="Keegan Firebeard" QuestId="27806" GiverId="46804" />
+		<TurnIn QuestName="Honorable Bearing" TurnInName="Iain Firebeard" QuestId="27806" TurnInId="46805" X="-4200.346" Y="-5465.765" Z="20.3647" />
+		<PickUp QuestName="Clan Mullan" GiverName="Iain Firebeard" QuestId="27807" GiverId="46805" />
+		<PickUp QuestName="Stubborn as a Doyle" GiverName="Iain Firebeard" QuestId="27808" GiverId="46805" />
+		<PickUp QuestName="Firebeard Bellows" GiverName="Iain Firebeard" QuestId="27809" GiverId="46805" />
+			<If Condition="(HasQuest(27807))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4272.818" Y="-5115.096" Z="26.41771" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+		<TurnIn QuestName="Clan Mullan" TurnInName="Duglas Mullan" QuestId="27807" TurnInId="46811" />
+		<PickUp QuestName="The Fighting Spirit" GiverName="Duglas Mullan" QuestId="27810" GiverId="46811" />
+		<PickUp QuestName="The Scent of Battle" GiverName="Edana Mullan" QuestId="27811" GiverId="46812" />
+			<If Condition="((HasQuest(27810)) &amp;&amp; (!IsQuestCompleted(27810)))" >
+				<CustomBehavior File="TalkandInteractWith" QuestId="27810" ObjectType="NPC" MobId="46813" NumOfTimes="2" GossipOption="1" WaitTime="1000" CollectionDistance="10" X="-4291.56" Y="-5124.47" Z="32.97202" />
+				<CustomBehavior File="WaitTimer" WaitTime="11000"/>
+			</If>
+		<TurnIn QuestName="The Fighting Spirit" TurnInName="Duglas Mullan" QuestId="27810" TurnInId="46811" />
+			<If Condition="((HasQuest(27811)) &amp;&amp; (!IsQuestCompleted(27811)))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4570.547" Y="-5394.241" Z="132.5735" />
+				<CustomBehavior File="UserDialog" QuestId="27811" Title="title" AllowBotStop="True" SoundCue="Asterisk" SoundCueInterval="1" Text="Save 8 gryphons, then press continue and bot will turn in" />
+			</If>
+			<If Condition="((HasQuest(27811)) &amp;&amp; (IsQuestCompleted(27811)))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4272.818" Y="-5115.096" Z="26.41771" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+		<TurnIn QuestName="The Scent of Battle" TurnInName="Edana Mullan" QuestId="27811" TurnInId="46812" />
+		<PickUp QuestName="The Loyalty of Clan Mullan" GiverName="Duglas Mullan" QuestId="27812" GiverId="46811" />
+			<If Condition="(HasQuest(27812))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4200.346" Y="-5465.765" Z="20.3647" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+		<TurnIn QuestName="The Loyalty of Clan Mullan" TurnInName="Iain Firebeard" QuestId="27812" TurnInId="46805" />
+			<If Condition="(HasQuest(27808))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4525.82" Y="-5677.98" Z="64.20136" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+		<TurnIn QuestName="Stubborn as a Doyle" TurnInName="Keeland Doyle" QuestId="27808" TurnInId="47317" />
+		<PickUp QuestName="The Fate of the Doyles" GiverName="Keeland Doyle" QuestId="27999" GiverId="47317" />
+			<If Condition="(HasQuest(27999))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4200.346" Y="-5465.765" Z="20.3647" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+		<TurnIn QuestName="The Fate of the Doyles" TurnInName="Iain Firebeard" QuestId="27999" TurnInId="46805" />
+			<If Condition="(HasQuest(27808))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-3850.524" Y="-5730.708" Z="33.02024" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+		<TurnIn QuestName="Firebeard Bellows" TurnInName="Mackay Firebeard" QuestId="27809" TurnInId="46850" />
+		<PickUp QuestName="Death Worthy of a Dragonmaw" QuestId="27813" GiverName="Mackay Firebeard" GiverId="46850" />
+		<PickUp QuestName="Anything We Can Get" GiverName="Brom Forgehammer" QuestId="27814" GiverId="46806" />
+		<PickUp QuestName="The Lost Brother" GiverName="Ella Forgehammer" QuestId="28233" GiverId="48046" />
+		<TurnIn QuestName="The Lost Brother" TurnInName="Bahrum Forgehammer" QuestId="28233" TurnInId="48053" />
+		<PickUp QuestName="They Took Me Pants!" GiverName="Bahrum Forgehammer" QuestId="28234" GiverId="48053" />
+			<Objective QuestName="They Took Me Pants!" QuestId="28234" Type="Collect" CollectCount="1" ItemId="63374" />
+			<Objective QuestName="Anything We Can Get" QuestId="27814" Type="Collect" CollectCount="8" ItemId="62511" />
+			<Objective QuestName="Death Worthy of a Dragonmaw" QuestId="27813" Type="KillMob" MobId="46851" KillCount="6" />
+		<TurnIn QuestName="They Took Me Pants!" TurnInName="Bahrum Forgehammer" QuestId="28234" TurnInId="48053" />
+		<TurnIn QuestName="Anything We Can Get" TurnInName="Brom Forgehammer" QuestId="27814" TurnInId="46806" />
+		<TurnIn QuestName="Death Worthy of a Dragonmaw" TurnInName="Mackay Firebeard" QuestId="27813" TurnInId="46850" />
+		<PickUp QuestName="Somethin' for the Boys" GiverName="Mackay Firebeard" QuestId="27815" GiverId="46850" />
+			<If Condition="(HasQuest(27815))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-3856.425" Y="-5727.781" Z="111.6221" />
+				<CustomBehavior File="FlyTo" X="-4200.346" Y="-5465.765" Z="20.3647" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+		<TurnIn QuestName="Somethin' for the Boys" TurnInName="Iain Firebeard" QuestId="27815" TurnInId="46805" />
+		<PickUp QuestName="Personal Request" GiverName="Iain Firebeard" QuestId="27816" GiverId="46805" />
+		<TurnIn QuestName="Personal Request" TurnInName="Keegan Firebeard" QuestId="27816" TurnInId="46804" />
+		<PickUp QuestName="Dropping the Hammer" GiverName="Keegan Firebeard" QuestId="27817" GiverId="46804" />
+			<If Condition="((HasQuest(27817)) &amp;&amp; (!IsQuestCompleted(27817)))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4016.673" Y="-5552.995" Z="261.8139" />
+				<CustomBehavior File="UserDialog" QuestId="27817" Title="title" AllowBotStop="True" SoundCue="Asterisk" SoundCueInterval="1" Text="Jump on a Gryphon and kill the noobs" />
+			</If>
+			<!--
+			<Objective QuestName="Dropping the Hammer" QuestId="27817" Type="KillMob" KillCount="1" MobId="46839" />
+			<Objective QuestName="Dropping the Hammer" QuestId="27817" Type="KillMob" KillCount="12" MobId="47199" />
+			-->
+			<If Condition="((HasQuest(27817)) &amp;&amp; (IsQuestCompleted(27817)))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4200.346" Y="-5465.765" Z="20.3647" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+		<TurnIn QuestName="Dropping the Hammer" TurnInName="Keegan Firebeard" QuestId="27817" TurnInId="46804" />
+		<PickUp QuestName="A Coward's Due" GiverName="Keegan Firebeard" QuestId="28001" GiverId="46804" />
+		<PickUp QuestName="Dunwalds Don't Die" GiverName="Keegan Firebeard" QuestId="27640" GiverId="46804" />
+			<If Condition="(HasQuest(27640))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4452.747" Y="-4907.015" Z="133.7099" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+				<RunTo X="-4476.132" Y="-4900.953" Z="133.8262" />
+				<CustomBehavior File="MyCTM" X="-4458.466" Y="-4859.241" Z="123.1832" />
+			</If>
+		<TurnIn QuestName="Dunwalds Don't Die" TurnInName="Keely Dunwald" QuestId="27640" TurnInId="46177" />
+		<PickUp QuestName="Donnelly Dunwald" GiverName="Keely Dunwald" QuestId="27643" GiverId="46177" />
+		<PickUp QuestName="Eoin Dunwald" GiverName="Keely Dunwald" QuestId="27644" GiverId="46177" />
+		<PickUp QuestName="Cayden Dunwald" GiverName="Keely Dunwald" QuestId="27645" GiverId="46177" />
+		<PickUp QuestName="While Meeting The Family" QuestId="27641" GiverName="Flynn Dunwald" GiverId="46143" />
+		<PickUp QuestName="Sifting Through The Wreckage" QuestId="27642" GiverName="Flynn Dunwald" GiverId="46143" />
+			<If Condition="(HasQuest(27643))" >
+				<CustomBehavior File="MyCTM" X="-4476.537" Y="-4900.886" Z="133.8556" />
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4236.555" Y="-4879.582" Z="112.1759" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+		<TurnIn QuestName="Donnelly Dunwald" TurnInName="Donnelly Dunwald" QuestId="27643" TurnInId="46176" />
+		<PickUp QuestName="Finding Beak" QuestId="27646" GiverName="Donnelly Dunwald" GiverId="46176" />
+			<If Condition="((HasQuest(27646)) &amp;&amp; (!IsQuestCompleted(27646)))" >
+				<CustomBehavior File="InteractWith" QuestId="27642" ObjectType="NPC" MobId="46609" NumOfTimes="4" WaitTime="1000" CollectionDistance="30" X="-4102.068" Y="-4841.769" Z="103.4136" />
+				<RunTo X="-4080.144" Y="-4860.708" Z="98.64057" />
+				<RunTo X="-4080.144" Y="-4860.708" Z="98.64057" />
+				<CustomBehavior File="MyCTM" X="-4045.85" Y="-4881.597" Z="86.74425" />
+				<CustomBehavior File="InteractWith" QuestId="27642" ObjectType="NPC" MobId="46609" NumOfTimes="8" WaitTime="1000" CollectionDistance="20" X="-4046.158" Y="-4881.409" Z="86.74339" />
+				<CustomBehavior File="MyCTM" X="-4045.85" Y="-4881.597" Z="86.74425" />
+				<CustomBehavior File="MyCTM" X="-4079.217" Y="-4860.898" Z="98.48361" />
+				<RunTo QuestId="27646" X="-4005.751" Y="-4992.198" Z="79.1278" />
+				<RunTo QuestId="27646" X="-4267.796" Y="-4831.331" Z="104.6606" />
+			</If>
+		<TurnIn QuestName="Finding Beak" TurnInName="Donnelly Dunwald" QuestId="27646" TurnInId="46176" />
+			<If Condition="(HasQuest(27644))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4767.978" Y="-5225.009" Z="117.0998" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+		<TurnIn QuestName="Eoin Dunwald" TurnInName="Eoin Dunwald" QuestId="27644" TurnInId="46175" />
+		<PickUp QuestName="Anything But Water" GiverName="Eoin Dunwald" QuestId="27647" GiverId="46175" />
+			<If Condition="((HasQuest(27647)) &amp;&amp; (!IsQuestCompleted(27647)))" >
+				<CustomBehavior File="InteractWith" QuestId="27642" ObjectType="NPC" MobId="46609" NumOfTimes="2" WaitTime="1000" CollectionDistance="70" X="-4766.05" Y="-5226.954" Z="117.1007" />
+				<Objective QuestName="Anything But Water" QuestId="27647" Type="Collect" CollectCount="1" ItemId="62317" />
+				<CustomBehavior File="TalkandInteractWith" QuestId="27642" ObjectType="NPC" MobId="46609" NumOfTimes="2" GossipOption="1" WaitTime="1000" CollectionDistance="50" X="-4628.08" Y="-5200.03" Z="108.4845" />
+			</If>
+		<TurnIn QuestName="Anything But Water" TurnInName="Eoin Dunwald" QuestId="27647" TurnInId="46583" X="-4628.08" Y="-5200.03" Z="108.4845" />
+		<PickUp QuestName="A Steady Supply" GiverName="Eoin Dunwald" QuestId="27649" GiverId="46583" />
+			<If Condition="((HasQuest(27649)) &amp;&amp; (!IsQuestCompleted(27649)))" >
+				<CustomBehavior File="InteractWith" QuestId="27642" ObjectType="NPC" MobId="46609" NumOfTimes="4" WaitTime="1000" CollectionDistance="50" X="-4628.08" Y="-5200.03" Z="108.4845" />
+				<Objective QuestName="A Steady Supply" QuestId="27649" Type="Collect" CollectCount="6" ItemId="62327" />
+				<RunTo X="-4645.403" Y="-5182.477" Z="108.2458" />
+			</If>
+			<Objective QuestName="While Meeting The Family" QuestId="27641" Type="KillMob" MobId="46144" KillCount="20" />
+			<If Condition="(HasQuest(27645))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4775.818" Y="-4960.511" Z="160.2296" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+		<TurnIn QuestName="Cayden Dunwald" TurnInName="Cayden Dunwald" QuestId="27645" TurnInId="46174" />
+		<!-- Accompany Cayden through Dunwald Market Row-->
+		<PickUp QuestName="Once More Into The Fire" GiverName="Cayden Dunwald" QuestId="27648" GiverId="46174" />
+			<If Condition="((HasQuest(27648)) &amp;&amp; (!IsQuestCompleted(27648)))" >
+				<!-- gossip x 4 Insert Escort CB here -->
+				<CustomBehavior File="UserDialog" QuestId="27648" Title="Escort" AllowBotStop="True" SoundCue="Asterisk" SoundCueInterval="1" Text="Escort teh dorf" />
+			</If>
+		<TurnIn QuestName="Once More Into The Fire" TurnInName="Cayden Dunwald" QuestId="27648" TurnInId="46174" X="-4776.371" Y="-4961.041" Z="160.2896" />
+		<PickUp QuestName="Home Again" GiverName="Eoin Dunwald" QuestId="27650" GiverId="46583" X="-4776.371" Y="-4961.041" Z="160.2896" />
+			<If Condition="((HasQuest(27642)) &amp;&amp; (!IsQuestCompleted(27642)))" >
+				<CustomBehavior File="InteractWith" QuestId="27642" ObjectType="NPC" MobId="46609" NumOfTimes="20" WaitTime="1000" CollectionDistance="500" X="-4114.793" Y="-4875.728" Z="103.0593" />
+			</If>
+			<If Condition="((HasQuest(27650)) &amp;&amp; (IsQuestCompleted(27650)))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4477.313" Y="-4903.278" Z="133.7372" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+				<RunTo X="-4476.238" Y="-4900.324" Z="133.908" />
+				<CustomBehavior File="MyCTM" X="-4459.114" Y="-4859.716" Z="123.183" />
+			</If>
+		<TurnIn QuestName="Home Again" TurnInName="Keely Dunwald" QuestId="27650" TurnInId="46177" />
+		<PickUp QuestName="Doing It Like a Dunwald" GiverName="Keely Dunwald" QuestId="27651" GiverId="46177" />
+			<If Condition="((HasQuest(27651)) &amp;&amp; (!IsQuestCompleted(27651)))" >
+				<CustomBehavior File="MyCTM" X="-4476.238" Y="-4900.324" Z="133.908" />
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-4642.406" Y="-5098.382" Z="124.6067" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+				<CustomBehavior File="TalkandInteractWith" QuestId="27651" ObjectType="NPC" MobId="46628" NumOfTimes="1" GossipOption="1" WaitTime="1000" CollectionDistance="50" X="-4638.59" Y="-5099.32" Z="124" />
+			</If>
+				<Objective QuestName="Doing It Like a Dunwald" QuestId="27651" Type="KillMob" KillCount="1" MobId="46624" />
+		<TurnIn QuestName="A Steady Supply" TurnInName="Eoin Dunwald" QuestId="27649" TurnInId="46627" X="-4644.93" Y="-5101.93" Z="126.5488" />
+		<TurnIn QuestName="While Meeting The Family" TurnInName="Flynn Dunwald" QuestId="27641" TurnInId="46628" X="-4638.59" Y="-5099.32" Z="124" />
+		<TurnIn QuestName="Sifting Through The Wreckage" TurnInName="Flynn Dunwald" QuestId="27642" TurnInId="46628" X="-4638.59" Y="-5099.32" Z="124" />
+		<TurnIn QuestName="Doing It Like a Dunwald" TurnInName="Flynn Dunwald" QuestId="27651" TurnInId="46628" X="-4638.59" Y="-5099.32" Z="124" />
+			<If Condition="(HasQuest(28001))" >
+				<CustomBehavior File="ForcedMount" QuestId="0" MountType="Flying" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				<CustomBehavior File="FlyTo" X="-3202.55" Y="-5020.97" Z="119.8065" />
+				<CustomBehavior File="RunMacro" Macro="/dismount\n/cancelaura Swift Flight Form\n/cancelaura Flight Form" NumOfTimes="1" WaitTime="2000" />
+			</If>
+		<TurnIn QuestName="A Coward's Due" TurnInName="Colin Thundermar" QuestId="28001" TurnInId="46591" />
+		<PickUp QuestName="Dragonmaw Takedown" GiverName="Colin Thundermar" QuestId="27754" GiverId="46591" />
+		<PickUp QuestName="My Sister, Fanny" GiverName="Colin Thundermar" QuestId="28369" GiverId="46591" />
+		<TurnIn QuestName="My Sister, Fanny" TurnInName="Fanny Thundermar" QuestId="28369" TurnInId="48013" />
+		<PickUp QuestName="Never Leave a Dinner Behind" GiverName="Fanny Thundermar" QuestId="27753" GiverId="48013" />
+		<PickUp QuestName="Fight Like a Wildhammer" GiverName="Low Shaman Blundy" QuestId="27752" GiverId="48010" />
+			<If Condition="((HasQuest(27752)) &amp;&amp; (!IsQuestCompleted(27752)))" >
+				<CustomBehavior File="InteractWith" QuestId="27752" ObjectType="Gameobject" MobId="206195" NumOfTimes="2" CollectionDistance="50" X="-3661.885" Y="-4816.119" Z="80.95448" />
+				<CustomBehavior File="InteractWith" QuestId="27752" ObjectType="Gameobject" MobId="206195" NumOfTimes="2" CollectionDistance="50" X="-3576.861" Y="-4850.49" Z="86.63108" />
+				<CustomBehavior File="InteractWith" QuestId="27752" ObjectType="Gameobject" MobId="206195" NumOfTimes="2" CollectionDistance="30" X="-3466.461" Y="-4880.776" Z="87.55698" />
+				<CustomBehavior File="InteractWith" QuestId="27752" ObjectType="Gameobject" MobId="206195" NumOfTimes="4" CollectionDistance="500" X="-3324.356" Y="-4861.195" Z="110.6211" />
+				<CustomBehavior File="InteractWith" QuestId="27752" ObjectType="Gameobject" MobId="206195" NumOfTimes="2" CollectionDistance="50" X="-3661.885" Y="-4816.119" Z="80.95448" />
+				<CustomBehavior File="InteractWith" QuestId="27752" ObjectType="Gameobject" MobId="206195" NumOfTimes="2" CollectionDistance="50" X="-3576.861" Y="-4850.49" Z="86.63108" />
+				<CustomBehavior File="InteractWith" QuestId="27752" ObjectType="Gameobject" MobId="206195" NumOfTimes="2" CollectionDistance="30" X="-3466.461" Y="-4880.776" Z="87.55698" />
+				<CustomBehavior File="InteractWith" QuestId="27752" ObjectType="Gameobject" MobId="206195" NumOfTimes="4" CollectionDistance="500" X="-3324.356" Y="-4861.195" Z="110.6211" />
+			</If>
+			<Objective QuestName="Never Leave a Dinner Behind" QuestId="27753" Type="Collect" CollectCount="10" ItemId="62324" />
+			<Objective QuestName="Dragonmaw Takedown" QuestId="27754" Type="Collect" CollectCount="8" ItemId="62332" />
+		<TurnIn QuestName="Fight Like a Wildhammer" TurnInName="Low Shaman Blundy" QuestId="27752" TurnInId="48010" />
+		<TurnIn QuestName="Never Leave a Dinner Behind" TurnInName="Fanny Thundermar" QuestId="27753" TurnInId="48013" />
+		<TurnIn QuestName="Dragonmaw Takedown" TurnInName="Colin Thundermar" QuestId="27754" TurnInId="46591" />
+		<PickUp QuestName="Magmalord Falthazar" GiverName="Colin Thundermar" QuestId="28216" GiverId="46591" />
+		<PickUp QuestName="A Vision of Twilight" QuestId="28241" GiverName="Low Shaman Blundy" GiverId="48010" />
+		<PickUp QuestName="Tempered in Elemental Flame" GiverName="Nivvet Channelock" QuestId="28211" GiverId="48014" />
+		<PickUp QuestName="Hot Stuff" GiverName="Nivvet Channelock" QuestId="28212" GiverId="48014" />
+		<PickUp QuestName="Potential Energy" GiverName="Nivvet Channelock" QuestId="28215" GiverId="48014" />
+			<Objective QuestName="Tempered in Elemental Flame" QuestId="28211" Type="Collect" CollectCount="8" ItemId="63282" />
+			<Objective QuestName="Magmalord Falthazar" QuestId="28216" Type="Collect" CollectCount="1" ItemId="63286" />
+			<Objective QuestName="Hot Stuff" QuestId="28212" Type="Collect" CollectCount="5" ItemId="63283" />
+		<TurnIn QuestName="Magmalord Falthazar" TurnInName="Colin Thundermar" QuestId="28216" TurnInId="46591" />
+		<TurnIn QuestName="Tempered in Elemental Flame" TurnInName="Nivvet Channelock" QuestId="28211" TurnInId="48014" />
+		<TurnIn QuestName="Hot Stuff" TurnInName="Nivvet Channelock" QuestId="28212" TurnInId="48014" />
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!-- A vision of twilight -->
+			<!-- Twisted Elementium Loop
+			<Objective QuestName="Potential Energy" QuestId="28215" Type="Collect" CollectCount="10" ItemId="63285" />
+		<TurnIn QuestName="Potential Energy" TurnInName="Nivvet Channelock" QuestId="28215" TurnInId="48014" />
+		 -->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+	</QuestOrder>
+</HBProfile>

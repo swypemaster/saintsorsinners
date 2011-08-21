@@ -1,0 +1,52 @@
+<HBProfile>
+	<Name>Twilight Highlands 450-500</Name>
+	<MinDurability>0.4</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>True</SellGreen>
+	<MailWhite>False</MailWhite>
+	<MailGreen>False</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<ProtectedItems>
+		<Item name="Fishing Pole" entry="6256" />
+	</ProtectedItems>
+	<SubProfile>
+		<Name>Mount H 450-500</Name>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>86</MaxLevel>
+		<TargetMinLevel>86</TargetMinLevel>
+		<Hotspots>
+<Hotspot X="-8570.905" Y="327.7563" Z="149.3225" />
+<Hotspot X="-8384.632" Y="811.496" Z="148.4607" />
+<Hotspot X="-8617.091" Y="653.1597" Z="148.7318" />
+<Hotspot X="-8672.127" Y="582.8914" Z="148.943" />
+<Hotspot X="-9177.885" Y="-309.2972" Z="129.7708" />
+<Hotspot X="-9233.962" Y="-426.6867" Z="126.7028" />
+<Hotspot X="-9284.539" Y="-536.8484" Z="120.1909" />
+<Hotspot X="-9390.597" Y="-690.7737" Z="101.2556" />
+<Hotspot X="-9423.029" Y="-733.6652" Z="100.3287" />
+<Hotspot X="-9502.374" Y="-844.5621" Z="100.2125" />
+<Hotspot X="-9554.733" Y="-987.7415" Z="100.3477" />
+<Hotspot X="-9483.161" Y="-1069.984" Z="102.7386" />
+
+		</Hotspots>
+<AvoidMobs>
+
+</AvoidMobs>
+
+                <Blackspots>
+
+		
+
+                </Blackspots>        
+                 
+		<Vendors>
+
+			
+		</Vendors>
+		<Mailboxes>                        
+		</Mailboxes>
+	</SubProfile>
+</HBProfile>
