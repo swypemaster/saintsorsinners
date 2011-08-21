@@ -1,0 +1,53 @@
+<HBProfile>
+  <Name>Kurenai Rep Grind by Gigglebyte</Name> 
+  <!-- With two bag slots left, it will mount towards Kurenai to vendor/repair and mail -->
+  <MinDurability>0</MinDurability> 
+  <MinFreeBagSlots>2</MinFreeBagSlots>
+  
+  <SellGrey>True</SellGrey> 
+  <SellWhite>False</SellWhite> 
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+  
+  <MinLevel>58</MinLevel> 
+  <MaxLevel>86</MaxLevel>
+
+ <Vendors>
+	<!-- Nagrand -->
+	<Vendor Name="Sparik" Entry="19012" Type="Repair" X="-2545.108" Y="7364.574" Z="7.263208" />
+ </Vendors> 
+ <Mailboxes>
+	<!-- Nagrand -->
+	<Mailbox X="-2671.244" Y="7287.45" Z="36.30576" />
+ </Mailboxes>
+ 
+- <SubProfile>
+  <Name>Alliance Kurenai Rep Farm v0.2</Name> 
+  <MinLevel>58</MinLevel> 
+  <MaxLevel>86</MaxLevel> 
+  <Factions>45</Factions>
+  
+- <Hotspots>
+  <Hotspot X="-2008.662" Y="7586.627" Z="-91.19784" />
+  <Hotspot X="-2007.26" Y="7546.119" Z="-86.33121" />
+  <Hotspot X="-2050.333" Y="7535" Z="-90.82959" />
+  <Hotspot X="-2004.804" Y="7466.412" Z="-97.3213" />
+  <Hotspot X="-2015.049" Y="7419.978" Z="-95.2355" />
+  <Hotspot X="-2055.35" Y="7446.162" Z="-102.1374" />
+  <Hotspot X="-2079.739" Y="7372.407" Z="-104.3466" />
+  </Hotspots>
+
+  <Blackspots>
+  <Blackspot X="-2040.283" Y="7530.734" Z="-91.01703" Radius="3.277934" />
+  <Blackspot X="-2050.665" Y="7549.257" Z="-90.60147" Radius="2.530703" />
+  <Blackspot X="-2045.466" Y="7564.166" Z="-88.93307" Radius="16.65314" />
+  <Blackspot X="-2041.159" Y="7485.244" Z="-97.18956" Radius="3.706916" />
+  </Blackspots>
+
+  
+  </SubProfile>
+  
+  
+  
+</HBProfile>

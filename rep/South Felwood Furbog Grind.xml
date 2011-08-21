@@ -1,0 +1,69 @@
+<HBProfile>
+		<Name>Hodgie's Furbog Grind</Name>
+		
+		<!-- General Configuration -->
+		<MinDurability>0.4</MinDurability> 
+		<MinFreeBagSlots>4</MinFreeBagSlots>
+		<MinLevel>44</MinLevel>
+		<MaxLevel>86</MaxLevel>
+		
+		<!-- Vendor Configuration -->
+		<SellGrey>True</SellGrey>
+		<SellWhite>True</SellWhite>
+		<SellGreen>False</SellGreen>
+		<SellBlue>False</SellBlue>
+		<SellPurple>False</SellPurple>
+		
+		 <!-- Mail Configuration -->
+		<MailWhite>True</MailWhite>
+		<MailGreen>True</MailGreen>
+		<MailBlue>True</MailBlue>
+		<MailPurple>True</MailPurple>
+				
+		<!-- Protected Items Configuration -->
+		<ProtectedItems>    
+			<!-- Deadwood Headdress Feather -->
+			<Item>21377</Item>
+			<!-- Gnomish Army Knife -->
+			<Item>40772</Item>
+			<!-- Mageweave Cloth -->
+			<Item>4338</Item>
+			<!-- Silk Cloth -->
+			<Item>4306</Item>
+			<!-- Moon Harvest Pumpkin -->
+			<Item>4602</Item>
+		</ProtectedItems>
+		
+		<!-- EliteMob Configuration -->
+		<TargetElites>False</TargetElites>
+		
+		<!-- Vendor Configuration -->
+		<Vendors>
+			<!-- Type: Repair -->
+			<Vendor Name="Kamar" Entry="48608" Type="Repair" X="4003.65" Y="-1319.84" Z="246.2257" />
+		</Vendors>
+
+		<!-- Grind Configuration -->
+	   <GrindArea>
+		   <TargetMinLevel>40</TargetMinLevel>
+		   <TargetMaxLevel>86</TargetMaxLevel>
+		   <Factions>82</Factions>
+		   <MaxDistance>80</MaxDistance>
+		   <RandomizeHotspots>True</RandomizeHotspots>
+			   <Hotspots>
+				<Hotspot X="3722.822" Y="-1145.115" Z="208.7959" />
+				<Hotspot X="3640.622" Y="-1142.729" Z="210.0343" />
+				<Hotspot X="3615.354" Y="-1177.808" Z="213.0505" />
+				<Hotspot X="3571.895" Y="-1155.134" Z="219.5466" />
+				<Hotspot X="3530.94" Y="-1128.272" Z="224.5878" />
+				<Hotspot X="3645.718" Y="-1038.164" Z="221.1538" />
+				<Hotspot X="3697.842" Y="-1028.255" Z="223.3036" />
+				<Hotspot X="3743.308" Y="-1007.44" Z="238.4975" />
+				<Hotspot X="3787.916" Y="-1125.477" Z="235.6908" />
+				<Hotspot X="3719.652" Y="-1143.779" Z="208.7994" />
+				<Hotspot X="3988.841" Y="-1313.554" Z="246.2" />
+				<Hotspot X="3815.875" Y="-1156.947" Z="236.7085" />
+			   </Hotspots>
+		</GrindArea>	
+		
+</HBProfile>

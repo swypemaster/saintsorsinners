@@ -1,0 +1,25 @@
+<HBProfile>
+  <Name>Mag'Har/Kurenai Grind</Name> 
+  <MinDurability>0</MinDurability> 
+  <MinFreeBagSlots>-1</MinFreeBagSlots> 
+  <SellGrey>True</SellGrey> 
+  <SellWhite>False</SellWhite> 
+  <SellGreen>False</SellGreen> 
+  <MinLevel>1</MinLevel> 
+  <MaxLevel>86</MaxLevel> 
+  <ProtectedItems /> 
+- <SubProfile>
+  <Name>Test</Name> 
+  <MinLevel>58</MinLevel> 
+  <MaxLevel>85</MaxLevel> 
+  <Factions>45</Factions> 
+- <Hotspots>
+  <Hotspot X="-2258.671" Y="6222.257" Z="43.84316" /> 
+  <Hotspot X="-2303.906" Y="6135.475" Z="61.56202" /> 
+  <Hotspot X="-2258.38" Y="6104.091" Z="76.45993" /> 
+  <Hotspot X="-2346.973" Y="6191.712" Z="49.5622" /> 
+  <Hotspot X="-2347.83" Y="6119.293" Z="61.13378" /> 
+  </Hotspots>
+  <Vendors /> 
+  </SubProfile>
+  </HBProfile>

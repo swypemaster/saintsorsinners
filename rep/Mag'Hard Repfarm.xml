@@ -1,0 +1,64 @@
+<HBProfile>
+   <Name>Pooks [65+] Mag'Hard Rep Farm </Name>
+   <MinLevel>65</MinLevel>
+   <MaxLevel>86</MaxLevel>
+   
+   <MinDurability>0.3</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+   
+   <MailGrey>False</MailGrey>
+   <MailWhite>False</MailWhite>
+   <MailGreen>True</MailGreen>
+   <MailBlue>True</MailBlue>
+   <MailPurple>True</MailPurple>
+   
+   <SellGrey>True</SellGrey>
+   <SellWhite>False</SellWhite>
+   <SellGreen>False</SellGreen>
+   <SellBlue>False</SellBlue>
+   <SellPurple>False</SellPurple>
+   
+   <TargetElites>False</TargetElites>	
+   
+ 
+            <ProtectedItems> 
+<Item>25433</Item>
+<Item>2901</Item> 
+<Item>2901</Item>
+<Item>10918</Item>
+<Item>6950</Item>
+<Item>26042</Item>
+<Item>21877</Item>
+</ProtectedItems>   
+
+   <Blackspots>
+   </Blackspots>
+   
+   <Vendors>
+   <Vendor Name="Osrok the Immovable" Entry="19011" Type="Repair" X="-1332.88" Y="7197.08" Z="34.19086" />
+   </Vendors>
+   
+   <Mailboxes>
+	<Mailbox x="-1269" y="7185" z="57" />
+   </Mailboxes>
+   
+   
+
+   <GrindArea>
+       <Factions>1693</Factions>
+       <TargetMinLevel>62</TargetMinLevel>
+       <TargetMaxLevel>68</TargetMaxLevel>
+       <Factions>38 45</Factions>
+       <MaximumHotspotTime>40000</MaximumHotspotTime>
+
+       <Hotspots>
+<Hotspot X="-780.6729" Y="7929.098" Z="60.7052" />
+<Hotspot X="-778.0734" Y="7833.669" Z="41.23849" />
+<Hotspot X="-750.4587" Y="7867.719" Z="54.06279" />
+<Hotspot X="-770.6437" Y="7818.262" Z="41.11964" />
+<Hotspot X="-829.3595" Y="7755.266" Z="34.83581" />
+<Hotspot X="-791.4834" Y="7711.824" Z="48.31091" />
+	</Hotspots>
+   </GrindArea>
+   
+</HBProfile>

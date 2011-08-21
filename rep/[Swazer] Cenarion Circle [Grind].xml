@@ -1,0 +1,65 @@
+ <HBProfile>
+   <Name>[Swazer] Cenarion Circle [Grind]</Name>
+   <MinLevel>60</MinLevel>
+   <MaxLevel>86</MaxLevel>
+   
+   <MinDurability>0.3</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+   
+   <MailGrey>False</MailGrey>
+   <MailWhite>False</MailWhite>
+   <MailGreen>False</MailGreen>
+   <MailBlue>False</MailBlue>
+   <MailPurple>False</MailPurple>
+   
+   <SellGrey>True</SellGrey>
+   <SellWhite>False</SellWhite>
+   <SellGreen>True</SellGreen>
+   <SellBlue>False</SellBlue>
+   <SellPurple>False</SellPurple>
+   
+   <TargetElites>True</TargetElites>	
+   
+   <AvoidMobs>
+	<AvoidMob Name="Sand Skitterer" Entry="11738" />
+	<AvoidMob Name="Dredge Striker" Entry="11740" />
+	<AvoidMob Name="Stonelash Scorpid" Entry="11735" />	
+	<AvoidMob Name="Dust Stormer" Entry="11744" />
+   </AvoidMobs>
+   
+   <Blackspots>
+   </Blackspots>
+   
+   <Mailboxes>
+   </Mailboxes>
+   
+   <Vendors>
+	<Vendor Name="Vargus" Entry="15176" Type="Repair" X="-6860.931" Y="753.0439" Z="42.47255" />
+   </Vendors>
+   
+   <GrindArea>
+       <TargetMinLevel>54</TargetMinLevel>
+       <TargetMaxLevel>81</TargetMaxLevel>
+       <Factions>16</Factions>
+       <Hotspots>
+	<Hotspot X="-6921.486" Y="1110.142" Z="3.248357" />
+	<Hotspot X="-6961.986" Y="1099.221" Z="0.8938577" />
+	<Hotspot X="-7029.583" Y="1098.737" Z="5.210537" />
+	<Hotspot X="-7062.262" Y="1138.916" Z="1.158729" />
+	<Hotspot X="-7053.19" Y="1196.53" Z="0.5969826" />
+	<Hotspot X="-7039.419" Y="1227.617" Z="0.3493248" />
+	<Hotspot X="-7006.085" Y="1247.968" Z="3.466142" />
+	<Hotspot X="-6960.208" Y="1244.25" Z="0.1919886" />
+	<Hotspot X="-6953.553" Y="1233.775" Z="5.093708" />
+	<Hotspot X="-6964.625" Y="1222.578" Z="6.503654" />
+	<Hotspot X="-6970.57" Y="1203.511" Z="8.730579" />
+	<Hotspot X="-6994.874" Y="1210.204" Z="8.854387" />
+	<Hotspot X="-7008.673" Y="1203.847" Z="7.637623" />
+	<Hotspot X="-7026.802" Y="1179.175" Z="6.758516" />
+	<Hotspot X="-7017.939" Y="1136.52" Z="3.433955" />
+	<Hotspot X="-6998.003" Y="1131.246" Z="8.871573" />
+	<Hotspot X="-6981.021" Y="1117.551" Z="7.065557" />
+	<Hotspot X="-6966.586" Y="1139.608" Z="4.305821" />
+       </Hotspots>
+   </GrindArea>
+</HBProfile>

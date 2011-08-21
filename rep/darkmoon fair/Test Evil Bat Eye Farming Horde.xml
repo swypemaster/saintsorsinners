@@ -1,0 +1,84 @@
+<HBProfile>
+   <Name>Evil Bat Eye Farming - Horde</Name>
+   <MinLevel>60</MinLevel>
+   <MaxLevel>86</MaxLevel>
+   
+   <MinDurability>0.3</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+   
+   <MailGrey>False</MailGrey>
+   <MailWhite>False</MailWhite>
+   <MailGreen>False</MailGreen>
+   <MailBlue>False</MailBlue>
+   <MailPurple>False</MailPurple>
+   
+   <SellGrey>True</SellGrey>
+   <SellWhite>True</SellWhite>
+   <SellGreen>True</SellGreen>
+   <SellBlue>False</SellBlue>
+   <SellPurple>False</SellPurple>
+   
+   <TargetElites>True</TargetElites>	
+   
+   <AvoidMobs>
+   </AvoidMobs>
+   
+   <Blackspots>
+   </Blackspots>
+   
+   <ForceMail>
+   <Item>25744</Item>
+   </ForceMail>
+  
+   <ProtectedItems>
+   <Item>25744</Item>
+   </ProtectedItems>
+   <!-- Mailbox and vendor in Stonebreaker Hold -->
+   <Mailboxes>
+   <Mailbox Z="88.73787" Y="-5317.607" X="2289.057"/>
+   </Mailboxes>
+   
+   <Vendors>
+   <Vendor Name="Vincent Randolph" Entry="47286" Type="Repair" X="2258.43" Y="-5292.59" Z="82.30548" />
+   </Vendors>
+   
+   <GrindArea>
+       <TargetMinLevel>38</TargetMinLevel>
+       <TargetMaxLevel>60</TargetMaxLevel>
+       <Factions>41</Factions>
+       <RandomizeHotspots>False</RandomizeHotspots>
+       <BlackSpots>
+	    <!-- Blackspot to avoid Allerian Stronghold bridge -->
+		<Blackspot X="-2866.79" Y="3981.371" Z="-2.738081" Radius="32" />
+		<!-- Blackspots to avoid getting stuck in the water near 61.4, 29.3 -->
+		<Blackspot X="-2051.411" Y="3770.458" Z="-21.30426" Radius="14" />
+		<Blackspot X="-2058.258" Y="3763.421" Z="-25.59057" Radius="6.636621" />
+		<!-- Blackspot to avoid running into a tree around 62.2, 44.5 -->
+		<Blackspot X="-2622.312" Y="3679.899" Z="-0.9680218" Radius="14" />
+	   </BlackSpots>
+	   <Hotspots>
+		<Hotspot X="-2499.978" Y="4187.343" Z="-0.2354579" />
+		<Hotspot X="-2651.027" Y="4073.21" Z="1.956837" />
+		<Hotspot X="-2803.906" Y="4052.159" Z="0.65576" />
+		<Hotspot X="-2855.454" Y="3910.67" Z="3.373929" />
+		<Hotspot X="-2858.519" Y="3800.028" Z="1.467557" />
+		<Hotspot X="-2735.212" Y="3661.281" Z="-1.165443" />
+		<Hotspot X="-2661.49" Y="3573.994" Z="1.293963" />
+		<Hotspot X="-2586.87" Y="3372.555" Z="1.64588" />
+		<Hotspot X="-2579.39" Y="3216.59" Z="2.300737" />
+		<Hotspot X="-2497.969" Y="3262.853" Z="1.216689" />
+		<Hotspot X="-2614.933" Y="3462.782" Z="0.5520191" />
+		<Hotspot X="-2572.919" Y="3659.103" Z="-0.7443798" />
+		<Hotspot X="-2367.141" Y="3813.218" Z="1.075812" />
+		<Hotspot X="-2126.201" Y="3874.474" Z="3.858352" />
+		<Hotspot X="-2088.156" Y="3769.018" Z="-14.18611" />
+		<Hotspot X="-2042.431" Y="3665.482" Z="-62.71485" />
+		<Hotspot X="-2020.233" Y="3819.745" Z="1.570686" />
+		<Hotspot X="-2081.694" Y="3990.202" Z="2.894353" />
+		<Hotspot X="-2145.284" Y="3929.845" Z="1.360309" />
+		<Hotspot X="-2381.949" Y="3868.685" Z="1.60416" />
+		<Hotspot X="-2604.045" Y="3710.381" Z="-1.536517" />
+		<Hotspot X="-2786.102" Y="3758.156" Z="1.204014" />
+       </Hotspots>
+   </GrindArea>
+</HBProfile>
