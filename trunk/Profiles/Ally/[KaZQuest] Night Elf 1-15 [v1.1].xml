@@ -1,0 +1,471 @@
+<!-- 
+Please Supply Feedback
+If you enjoy this profile make sure to +Rep
+Please Read Comments Throughout Document to see if you need to alter any settings due to limitations we currently have with QuestOrder Tags.
+ -->
+<HBProfile Author="KillaKaZ" Version="1.1">
+  <Name>[KaZQuest] Alliance 1-60 Night Elf v1.1 [QuestOrder]</Name>
+  <MinLevel>1</MinLevel>
+  <MaxLevel>61</MaxLevel>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>2</MinFreeBagSlots>
+  <MailGrey>False</MailGrey>
+  <MailWhite>False</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+  <TargetElites>False</TargetElites>
+  <!--  <ContinentID>0</ContinentID>-->
+  <AvoidMobs>
+    <!-- Shadowglen -->
+    <Mob Name="Training Dummy" Entry="44614" />
+    <!-- Darnassus -->
+    <Mob Name="Training Dummy" Entry="31144" />
+  </AvoidMobs>
+  <Blackspots>
+    <!-- Shadowglen Mailbox -->
+    <Blackspot X="10391.23" Y="746.5612" Z="1320.462" Radius="1.460651" />
+    <!--<Blackspot X="10397.72" Y="930.5514" Z="1325.41" Radius="50" />-->
+	<Blackspot X="10770.1" Y="2185.813" Z="1329.456" Radius="35.94508" />
+  </Blackspots>
+  <Mailboxes>
+    <!-- Shadowglen Mailbox -->
+    <Mailbox X="10391.03" Y="748.014" Z="1320.292" />
+    <!-- Dolanar Mailbox -->
+    <Mailbox X="9849.358" Y="957.6946" Z="1306.807" />
+    <!-- Darnassus Mailbox -->
+    <Mailbox X="9918.3" Y="2346.915" Z="1330.781" />
+  </Mailboxes>
+  <Vendors>
+    <!-- Shadowglen Vendors -->
+    <Vendor Name="Andiss" Entry="3592" Type="Repair" X="10429.96" Y="765.7778" Z="1322.667" />
+    <Vendor Name="Dellylah" Entry="6091" Type="Food" X="10440.97" Y="773.0278" Z="1322.666" />
+    <!-- Dolanar Vendors -->
+    <Vendor Name="Shalomon" Entry="3609" Type="Repair" X="9812.371" Y="947.5777" Z="1308.771" />
+    <Vendor Name="Innkeeper Keldamyr" Entry="6736" Type="Food" X="9802.209" Y="982.6077" Z="1313.896" />
+    <!-- Darnassus Vendors -->
+    <Vendor Name="Cylania" Entry="4164" Type="Repair" X="9911.15" Y="2311.39" Z="1330.786" />
+    <Vendor Name="Fyrenna" Entry="4181" Type="Food" X="9920.628" Y="2204.391" Z="1328.139" />
+    <!-- Shadowglen Trainers -->
+    <Vendor Name="Shanda" Entry="3595" Type="Train" TrainClass="Priest" X="10458.76" Y="801.6235" Z="1346.755" />
+    <Vendor Name="Alyissia" Entry="3593" Type="Train" TrainClass="Warrior" X="10526.61" Y="778.0858" Z="1329.6" />
+    <Vendor Name="Frahun Shadewhisper" Entry="3594" Type="Train" TrainClass="Rogue" X="10519.15" Y="778.0143" Z="1329.6" />
+    <Vendor Name="Ayanna Everstride" Entry="3596" Type="Train" TrainClass="Hunter" X="10448.12" Y="777.9965" Z="1322.666" />
+    <Vendor Name="Mardant Strongoak" Entry="3597" Type="Train" TrainClass="Druid" X="10485.95" Y="816.0121" Z="1322.745" />
+    <Vendor Name="Rhyanda" Entry="43006" Type="Train" TrainClass="Mage" X="10456.29" Y="804.882" Z="1346.755" />
+    <!-- Dolanar Trainers -->
+    <Vendor Name="Laurna Morninglight" Entry="3600" Type="Train" TrainClass="Priest" X="9905.444" Y="985.4329" Z="1313.833" />
+    <Vendor Name="Kyra Windblade" Entry="3598" Type="Train" TrainClass="Warrior" X="9822.23" Y="952.0068" Z="1308.775" />
+    <Vendor Name="Jannok Breezesong" Entry="3599" Type="Train" TrainClass="Rogue" X="9790.311" Y="943.8697" Z="1308.781" />
+    <Vendor Name="Dazalar" Entry="3601" Type="Train" TrainClass="Hunter" X="9812.325" Y="928.806" Z="1308.109" />
+    <Vendor Name="Kal" Entry="3602" Type="Train" TrainClass="Druid" X="9741.909" Y="965.9996" Z="1293.694" />
+    <Vendor Name="Irriende" Entry="43005" Type="Train" TrainClass="Mage" X="9835.29" Y="956.217" Z="1308.775" />
+  </Vendors>
+  <!-- Quest Overrides -->
+  <Quest Id="28713" Name="The Balance of Nature">
+    <Objective Type="KillMob" Name="Young Nightsaber" MobId="2031" KillCount="6">
+      <Hotspots>
+        <Hotspot X="10416.43" Y="909.5345" Z="1319.048" />
+        <Hotspot X="10429.46" Y="949.4171" Z="1320.006" />
+        <Hotspot X="10400.78" Y="989.8533" Z="1327.539" />
+        <Hotspot X="10336.15" Y="970.6346" Z="1331.869" />
+        <Hotspot X="10295.4" Y="885.6855" Z="1329.364" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="28726" Name="Webwood Corruption">
+    <Objective QuestName="Webwood Corruption" QuestId="28726" Type="KillMob" Name="Webwood Spider" MobId="1986" KillCount="12">
+      <CollectFrom />
+      <Hotspots>
+        <Hotspot X="10831.73" Y="900.8888" Z="1335.141" />
+        <Hotspot X="10794.27" Y="936.1412" Z="1336.23" />
+        <Hotspot X="10851.44" Y="968.0315" Z="1335.634" />
+        <Hotspot X="10911.3" Y="965.6492" Z="1338.85" />
+        <Hotspot X="10933.21" Y="949.1938" Z="1321.963" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="28727" Name="Vile Touch">
+    <Objective QuestName="Vile Touch" QuestId="28727" Type="KillMob" Name="Githyiss the Vile" MobId="1994" KillCount="1">
+      <CollectFrom />
+      <Hotspots>
+        <Hotspot X="10941.58" Y="923.1849" Z="1340.638" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="488" Name="Zenn's Bidding">
+    <Objective QuestName="Zenn's Bidding" QuestId="488" Type="CollectItem" Name="Nightsaber Fang" ItemId="3409" CollectCount="2">
+      <CollectFrom />
+      <Hotspots>
+        <Hotspot X="9786.556" Y="673.4957" Z="1296.901" />
+        <Hotspot X="9845.144" Y="695.9861" Z="1305.357" />
+        <Hotspot X="9754.954" Y="791.536" Z="1297.27" />
+        <Hotspot X="9853.813" Y="833.0185" Z="1306.895" />
+        <Hotspot X="9969.988" Y="873.2745" Z="1323.473" />
+      </Hotspots>
+    </Objective>
+    <Objective QuestName="Zenn's Bidding" QuestId="488" Type="CollectItem" Name="Strigid Owl Feather" ItemId="3411" CollectCount="2">
+      <CollectFrom />
+      <Hotspots>
+        <Hotspot X="9773.157" Y="841.3387" Z="1297.71" />
+        <Hotspot X="9789.132" Y="810.5225" Z="1302.279" />
+        <Hotspot X="9921.223" Y="832.3353" Z="1317.969" />
+        <Hotspot X="9924.39" Y="891.0925" Z="1316.716" />
+      </Hotspots>
+    </Objective>
+    <Objective QuestName="Zenn's Bidding" QuestId="488" Type="CollectItem" Name="Webwood Spider Silk" ItemId="3412" CollectCount="2">
+      <CollectFrom />
+      <Hotspots>
+        <Hotspot X="9969.988" Y="873.2745" Z="1323.473" />
+        <Hotspot X="9851.482" Y="747.6723" Z="1304.223" />
+        <Hotspot X="9791.444" Y="785.9016" Z="1299.801" />
+        <Hotspot X="9755.977" Y="742.8307" Z="1300.505" />
+        <Hotspot X="9707.025" Y="782.7817" Z="1290.284" />
+        <Hotspot X="9822.906" Y="803.8576" Z="1304.213" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="2438" Name="The Emerald Dreamcatcher">
+    <Objective QuestName="The Emerald Dreamcatcher" QuestId="2438" Type="CollectItem" Name="Emerald Dreamcatcher" ItemId="8048" CollectCount="1">
+      <CollectFrom />
+      <Hotspots>
+        <Hotspot X="9807.431" Y="352.0983" Z="1308.46" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="2459" Name="Ferocitas the Dream Eater">
+    <Objective QuestName="Ferocitas the Dream Eater" QuestId="2459" Type="CollectItem" Name="Tallonkai's Jewel" ItemId="8050" CollectCount="1">
+      <CollectFrom />
+      <Hotspots>
+        <Hotspot X="10017.07" Y="287.4155" Z="1322.746" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <!-- Updated Thanks Hawkers -->
+ <Quest Id="932" Name="Twisted Hatred">
+    <Objective QuestName="Twisted Hatred" QuestId="932" Type="CollectItem" Name="Melenas' Head" ItemId="5221" CollectCount="1">
+      <Hotspots>
+        <Hotspot X="10131.35" Y="1190.76" Z="1323.597" />
+        <Hotspot X="10112.05" Y="1198.142" Z="1311.882" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <!-- End of Quest Overrides -->
+  <QuestOrder>
+    <Checkpoint Level="1" />
+    <PickUp QuestName="The Balance of Nature" QuestId="28713" GiverId="2079" GiverName="Ilthalaine" X="10311.32" Y="830.7387" Z="1326.561" />
+    <Objective QuestName="The Balance of Nature" QuestId="28713" Type="KillMob" Name="Young Nightsaber" MobId="2031" KillCount="6" />
+    <TurnIn QuestName="The Balance of Nature" QuestId="28713" TurnInId="2079" TurnInName="Ilthalaine" X="10311.32" Y="830.7387" Z="1326.561" />
+    <PickUp QuestName="Fel Moss Corruption" QuestId="28714" GiverId="2079" GiverName="Ilthalaine" X="10311.32" Y="830.7387" Z="1326.561" />
+    <PickUp QuestName="Demonic Thieves" QuestId="28715" GiverId="2077" GiverName="Melithar Staghelm" X="10327.62" Y="826.2115" Z="1326.375" />
+    <Objective QuestName="Fel Moss Corruption" QuestId="28714" Type="CollectItem" Name="Fel Moss" ItemId="3297" CollectCount="6" />
+    <Objective QuestName="Demonic Thieves" QuestId="28715" Type="CollectItem" Name="Melithar's Stolen Bags" ItemId="46700" CollectCount="5" />
+    <TurnIn QuestName="Fel Moss Corruption" QuestId="28714" TurnInId="2079" TurnInName="Ilthalaine" X="10311.32" Y="830.7387" Z="1326.561" />
+    <TurnIn QuestName="Demonic Thieves" QuestId="28715" TurnInId="2077" TurnInName="Melithar Staghelm" X="10327.62" Y="826.2115" Z="1326.375" />
+    <SetGrindArea>
+      <GrindArea>
+        <Factions>7 189</Factions>
+        <TargetMinLevel>9</TargetMinLevel>
+        <TargetMaxLevel>12</TargetMaxLevel>
+        <RandomizeHotspots>true</RandomizeHotspots>
+        <Hotspots>
+          <Hotspot X="10285.98" Y="964.0552" Z="1336.373" />
+          <Hotspot X="10336.53" Y="1026.83" Z="1338.38" />
+          <Hotspot X="10400.11" Y="981.7253" Z="1326.495" />
+          <Hotspot X="10422.39" Y="926.2531" Z="1318.525" />
+        </Hotspots>
+      </GrindArea>
+    </SetGrindArea>
+    <GrindTo Level="3" />
+    <!-- Class Quests -->
+    <If Condition="Me.Class == WoWClass.Warrior">
+      <PickUp QuestName="Simple Sigil" QuestId="3116" GiverId="2077" GiverName="Melithar Staghelm" X="10327.62" Y="826.2115" Z="1326.375" />
+      <TurnIn QuestName="Simple Sigil" QuestId="3116" TurnInId="3593" TurnInName="Alyissia" X="10526.61" Y="778.0858" Z="1329.6" />
+      <PickUp QuestName="Learning New Techniques" QuestId="26945" GiverId="3593" GiverName="Alyissia" X="10526.61" Y="778.0858" Z="1329.6" />
+	  <If Condition="!Styx.Logic.Combat.SpellManager.HasSpell(100)">
+	  <CustomBehavior File="ForceTrain" QuestId="26945" ForceTrain="1"/>
+	  </If>
+	  <If Condition="!IsQuestCompleted(26945)">
+      <CustomBehavior File="CastSpellOn" QuestId="26945" SpellId="100" NpcId="44614" NumOfTimes="1" HpLeftAmount="100" MinRange="14" X="10407.3" Y="740.832" Z="1319.778" />
+	  </If>
+      <TurnIn QuestName="Learning New Techniques" QuestId="26945" TurnInId="3593" TurnInName="Alyissia" X="10526.61" Y="778.0858" Z="1329.6" />
+      <PickUp QuestName="Priestess of the Moon" QuestId="28723" GiverId="3593" GiverName="Alyissia" X="10526.61" Y="778.0858" Z="1329.6" />
+    </If>
+	
+    <If Condition="Me.Class == WoWClass.Hunter">
+      <PickUp QuestName="Etched Sigil" QuestId="3117" GiverId="2077" GiverName="Melithar Staghelm" X="10327.62" Y="826.2115" Z="1326.375" />
+      <TurnIn QuestName="Etched Sigil" QuestId="3117" TurnInId="3596" TurnInName="Ayanna Everstride" X="10448.12" Y="777.9965" Z="1322.666" />
+      <PickUp QuestName="A Woodsman's Training" QuestId="26947" GiverId="3596" GiverName="Ayanna Everstride" X="10448.12" Y="777.9965" Z="1322.666" />
+	  <If Condition="!Styx.Logic.Combat.SpellManager.HasSpell(56641)">
+	  <CustomBehavior File="ForceTrain" QuestId="26947" ForceTrain="1"/>
+	  </If>
+	  <If Condition="!IsQuestCompleted(26947)">
+      <CustomBehavior File="CastSpellOn" QuestId="26947" SpellId="56641" NpcId="44614" NumOfTimes="5" HpLeftAmount="100" MinRange="14" X="10407.3" Y="740.832" Z="1319.778" />
+	  </If>
+      <TurnIn QuestName="A Woodsman's Training" QuestId="26947" TurnInId="3596" TurnInName="Ayanna Everstride" X="10448.12" Y="777.9965" Z="1322.666" />
+      <PickUp QuestName="Priestess of the Moon" QuestId="28723" GiverId="3596" GiverName="Ayanna Everstride" X="10448.12" Y="777.9965" Z="1322.666" />
+    </If>
+    <If Condition="Me.Class == WoWClass.Rogue">
+      <PickUp QuestName="Encrypted Sigil" QuestId="3118" GiverId="2077" GiverName="Melithar Staghelm" X="10327.62" Y="826.2115" Z="1326.375" />
+      <TurnIn QuestName="Encrypted Sigil" QuestId="3118" TurnInId="3594" TurnInName="Frahun Shadewhisper" X="10519.15" Y="778.0143" Z="1329.6" />
+      <PickUp QuestName="A Rogue's Advantage" QuestId="26946" GiverId="3594" GiverName="Frahun Shadewhisper" X="10519.15" Y="778.0143" Z="1329.6" />
+	  <If Condition="!Styx.Logic.Combat.SpellManager.HasSpell(2098)">
+	  <CustomBehavior File="ForceTrain" QuestId="26946" ForceTrain="1"/>
+	  </If>
+	  <If Condition="!IsQuestCompleted(26946)">
+      <CustomBehavior File="CastSpellOn" QuestId="26946" SpellId="1752" NpcId="44614" NumOfTimes="3" HpLeftAmount="100" MinRange="3" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26946" SpellId="2098" NpcId="44614" NumOfTimes="1" HpLeftAmount="100" MinRange="3" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26946" SpellId="1752" NpcId="44614" NumOfTimes="3" HpLeftAmount="100" MinRange="3" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26946" SpellId="2098" NpcId="44614" NumOfTimes="1" HpLeftAmount="100" MinRange="3" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26946" SpellId="1752" NpcId="44614" NumOfTimes="3" HpLeftAmount="100" MinRange="3" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26946" SpellId="2098" NpcId="44614" NumOfTimes="1" HpLeftAmount="100" MinRange="3" X="10407.3" Y="740.832" Z="1319.778" />
+	  <CustomBehavior File="CastSpellOn" QuestId="26946" SpellId="1752" NpcId="44614" NumOfTimes="3" HpLeftAmount="100" MinRange="3" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26946" SpellId="2098" NpcId="44614" NumOfTimes="1" HpLeftAmount="100" MinRange="3" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26946" SpellId="1752" NpcId="44614" NumOfTimes="3" HpLeftAmount="100" MinRange="3" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26946" SpellId="2098" NpcId="44614" NumOfTimes="1" HpLeftAmount="100" MinRange="3" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26946" SpellId="1752" NpcId="44614" NumOfTimes="3" HpLeftAmount="100" MinRange="3" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26946" SpellId="2098" NpcId="44614" NumOfTimes="1" HpLeftAmount="100" MinRange="3" X="10407.3" Y="740.832" Z="1319.778" />
+	  </If>
+      <TurnIn QuestName="A Rogue's Advantage" QuestId="26946" TurnInId="3594" TurnInName="Frahun Shadewhisper" X="10519.15" Y="778.0143" Z="1329.6" />
+      <PickUp QuestName="Priestess of the Moon" QuestId="28723" GiverId="3594" GiverName="Frahun Shadewhisper" X="10519.15" Y="778.0143" Z="1329.6" />
+    </If>
+    <If Condition="Me.Class == WoWClass.Priest">
+      <PickUp QuestName="Hallowed Sigil" QuestId="3119" GiverId="2077" GiverName="Melithar Staghelm" X="10327.62" Y="826.2115" Z="1326.375" />
+      <TurnIn QuestName="Hallowed Sigil" QuestId="3119" TurnInId="3595" TurnInName="Shanda" X="10458.76" Y="801.6235" Z="1346.755" />
+      <PickUp QuestName="Healing for the Wounded" QuestId="26949" GiverId="3595" GiverName="Shanda" X="10458.76" Y="801.6235" Z="1346.755" />
+	  <If Condition="!Styx.Logic.Combat.SpellManager.HasSpell(2061)">
+	  <CustomBehavior File="ForceTrain" QuestId="26949" ForceTrain="1"/>
+	  </If>
+	  <If Condition="!IsQuestCompleted(26949)">
+      <CustomBehavior File="CastSpellOn" QuestId="26949" SpellId="2061" NpcId="44617" NumOfTimes="5" HpLeftAmount="100" MinRange="3" X="10404.43" Y="780.3768" Z="1322.713" />
+	  </If>
+      <TurnIn QuestName="Healing for the Wounded" QuestId="26949" TurnInId="3595" TurnInName="Shanda" X="10458.76" Y="801.6235" Z="1346.755" />
+      <PickUp QuestName="Priestess of the Moon" QuestId="28723" GiverId="3595" GiverName="Shanda" X="10458.76" Y="801.6235" Z="1346.755" />
+    </If>
+    <If Condition="Me.Class == WoWClass.Druid">
+      <PickUp QuestName="Verdant Sigil" QuestId="3120" GiverId="2077" GiverName="Melithar Staghelm" X="10327.62" Y="826.2115" Z="1326.375" />
+      <TurnIn QuestName="Verdant Sigil" QuestId="3120" TurnInId="3597" TurnInName="Mardant Strongoak" X="10485.95" Y="816.0121" Z="1322.745" />
+      <PickUp QuestName="A Healer's Touch" QuestId="26948" GiverId="3597" GiverName="Mardant Strongoak" X="10485.95" Y="816.0121" Z="1322.745" />
+	  <If Condition="!Styx.Logic.Combat.SpellManager.HasSpell(5185)">
+        <CustomBehavior File="ForceTrain" QuestId="26948" ForceTrain="1"/>
+	  </If>
+	  <If Condition="!IsQuestCompleted(26948)">
+        <CustomBehavior File="CastSpellOn" QuestId="26948" SpellId="5185" NpcId="44617" NumOfTimes="5" HpLeftAmount="100" MinRange="3" X="10404.43" Y="780.3768" Z="1322.713" />
+      </If>
+      <TurnIn QuestName="A Healer's Touch" QuestId="26948" TurnInId="3597" TurnInName="Mardant Strongoak" X="10485.95" Y="816.0121" Z="1322.745" />
+      <PickUp QuestName="Priestess of the Moon" QuestId="28723" GiverId="3597" GiverName="Mardant Strongoak" X="10485.95" Y="816.0121" Z="1322.745" />
+    </If>
+    <If Condition="Me.Class == WoWClass.Mage">
+      <PickUp QuestName="Forbidden Sigil" QuestId="26841" GiverId="2077" GiverName="Melithar Staghelm" X="10327.62" Y="826.2115" Z="1326.375" />
+      <TurnIn QuestName="Forbidden Sigil" QuestId="26841" TurnInId="43006" TurnInName="Rhyanda" X="10456.29" Y="804.882" Z="1346.755" />
+      <PickUp QuestName="Arcane Missiles" QuestId="26940" GiverId="43006" GiverName="Rhyanda" X="10456.29" Y="804.882" Z="1346.755" />
+	  <If Condition="!Styx.Logic.Combat.SpellManager.HasSpell(5143)">
+	  <CustomBehavior File="ForceTrain" QuestId="26940" ForceTrain="1"/>
+	  </If>
+	  <If Condition="!IsQuestCompleted(26940)">
+      <CustomBehavior File="CastSpellOn" QuestId="26940" SpellId="133" NpcId="44614" NumOfTimes="2" HpLeftAmount="100" MinRange="14" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26940" SpellId="5143" NpcId="44614" NumOfTimes="1" HpLeftAmount="100" MinRange="14" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26940" SpellId="133" NpcId="44614" NumOfTimes="2" HpLeftAmount="100" MinRange="14" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26940" SpellId="5143" NpcId="44614" NumOfTimes="1" HpLeftAmount="100" MinRange="14" X="10407.3" Y="740.832" Z="1319.778" />
+	  <CustomBehavior File="CastSpellOn" QuestId="26940" SpellId="133" NpcId="44614" NumOfTimes="2" HpLeftAmount="100" MinRange="14" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26940" SpellId="5143" NpcId="44614" NumOfTimes="1" HpLeftAmount="100" MinRange="14" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26940" SpellId="133" NpcId="44614" NumOfTimes="2" HpLeftAmount="100" MinRange="14" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26940" SpellId="5143" NpcId="44614" NumOfTimes="1" HpLeftAmount="100" MinRange="14" X="10407.3" Y="740.832" Z="1319.778" />
+	  <CustomBehavior File="CastSpellOn" QuestId="26940" SpellId="133" NpcId="44614" NumOfTimes="2" HpLeftAmount="100" MinRange="14" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26940" SpellId="5143" NpcId="44614" NumOfTimes="1" HpLeftAmount="100" MinRange="14" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26940" SpellId="133" NpcId="44614" NumOfTimes="2" HpLeftAmount="100" MinRange="14" X="10407.3" Y="740.832" Z="1319.778" />
+      <CustomBehavior File="CastSpellOn" QuestId="26940" SpellId="5143" NpcId="44614" NumOfTimes="1" HpLeftAmount="100" MinRange="14" X="10407.3" Y="740.832" Z="1319.778" />
+	  </If>
+      <TurnIn QuestName="Arcane Missiles" QuestId="26940" TurnInId="43006" TurnInName="Rhyanda" X="10456.29" Y="804.882" Z="1346.755" />
+      <PickUp QuestName="Priestess of the Moon" QuestId="28723" GiverId="43006" GiverName="Rhyanda" X="10456.29" Y="804.882" Z="1346.755" />
+    </If>
+    <!-- Class Quests End-->
+    <TurnIn QuestName="Priestess of the Moon" QuestId="28723" TurnInId="49479" TurnInName="Dentaria Silverglade" X="10544.19" Y="874.4158" Z="1309.316" />
+    <PickUp QuestName="Iverron's Antidote" QuestId="28724" GiverId="49479" GiverName="Dentaria Silverglade" X="10544.19" Y="874.4158" Z="1309.316" />
+    <Objective QuestName="Iverron's Antidote" QuestId="28724" Type="CollectItem" Name="Moonpetal Lily" ItemId="10641" CollectCount="7" />
+    <TurnIn QuestName="Iverron's Antidote" QuestId="28724" TurnInId="49479" TurnInName="Dentaria Silverglade" X="10544.19" Y="874.4158" Z="1309.316" />
+    <PickUp QuestName="The Woodland Protector" QuestId="28725" GiverId="49479" GiverName="Dentaria Silverglade" X="10544.19" Y="874.4158" Z="1309.316" />
+    <TurnIn QuestName="The Woodland Protector" QuestId="28725" TurnInId="49480" TurnInName="Tarindrella" X="10777.99" Y="929.5256" Z="1338.522" />
+    <PickUp QuestName="Webwood Corruption" QuestId="28726" GiverId="49480" GiverName="Tarindrella" X="10777.99" Y="929.5256" Z="1338.522" />
+    <Objective QuestName="Webwood Corruption" QuestId="28726" Type="KillMob" Name="Webwood Spider" MobId="1986" KillCount="12" />
+    <TurnIn QuestName="Webwood Corruption" QuestId="28726" TurnInId="49480" TurnInName="Tarindrella" X="10777.99" Y="929.5256" Z="1338.522" />
+    <PickUp QuestName="Vile Touch" QuestId="28727" GiverId="49480" GiverName="Tarindrella" X="10777.99" Y="929.5256" Z="1338.522" />
+    <Objective QuestName="Vile Touch" QuestId="28727" Type="KillMob" Name="Githyiss the Vile" MobId="1994" KillCount="1" X="10941.58" Y="923.1849" Z="1340.638" />
+    <TurnIn QuestName="Vile Touch" QuestId="28727" TurnInId="49480" TurnInName="Tarindrella" X="10777.99" Y="929.5256" Z="1338.522" />
+    <PickUp QuestName="Signs of Things to Come" QuestId="28728" GiverId="49480" GiverName="Tarindrella" X="10777.99" Y="929.5256" Z="1338.522" />
+    <TurnIn QuestName="Signs of Things to Come" QuestId="28728" TurnInId="49479" TurnInName="Dentaria Silverglade" X="10544.19" Y="874.4158" Z="1309.316" />
+    <PickUp QuestName="Teldrassil: Crown of Azeroth" QuestId="28729" GiverId="49479" GiverName="Dentaria Silverglade" X="10544.19" Y="874.4158" Z="1309.316" />
+    <If Condition="HasItem(5185)">
+      <UseItem Name="Crystal Phial" ItemId="5185" QuestName="Teldrassil: Crown of Azeroth" QuestId="28729" X="10708.71" Y="763.3292" Z="1321.28" />
+    </If>
+    <TurnIn QuestName="Teldrassil: Crown of Azeroth" QuestId="28729" TurnInId="49479" TurnInName="Dentaria Silverglade" X="10544.19" Y="874.4158" Z="1309.316" />
+    <PickUp QuestName="Precious Waters" QuestId="28730" GiverId="49479" GiverName="Dentaria Silverglade" X="10544.19" Y="874.4158" Z="1309.316" />
+    <TurnIn QuestName="Precious Waters" QuestId="28730" TurnInId="3514" TurnInName="Tenaron Stormgrip" />
+    <SetGrindArea>
+      <GrindArea>
+        <Factions>7 189</Factions>
+        <TargetMinLevel>9</TargetMinLevel>
+        <TargetMaxLevel>12</TargetMaxLevel>
+        <RandomizeHotspots>true</RandomizeHotspots>
+        <Hotspots>
+          <Hotspot X="10285.98" Y="964.0552" Z="1336.373" />
+          <Hotspot X="10336.53" Y="1026.83" Z="1338.38" />
+          <Hotspot X="10400.11" Y="981.7253" Z="1326.495" />
+          <Hotspot X="10422.39" Y="926.2531" Z="1318.525" />
+        </Hotspots>
+      </GrindArea>
+    </SetGrindArea>
+    <GrindTo Level="5" />
+    <Checkpoint Level="5" />
+    <PickUp QuestName="Teldrassil: Passing Awareness" QuestId="28731" GiverId="3514" GiverName="Tenaron Stormgrip" X="10492.52" Y="807.2798" Z="1397.268" />
+    <PickUp QuestName="Dolanaar Delivery" QuestId="2159" GiverId="6780" GiverName="Porthannius" X="10215.53" Y="700.1387" Z="1360.227" />
+    <PickUp QuestName="Zenn's Bidding" QuestId="488" GiverId="2150" GiverName="Zenn Foulhoof" X="9920.363" Y="739.1987" Z="1314.266" />
+    <Objective QuestName="Zenn's Bidding" QuestId="488" Type="CollectItem" Name="Nightsaber Fang" ItemId="3409" CollectCount="2" />
+    <Objective QuestName="Zenn's Bidding" QuestId="488" Type="CollectItem" Name="Strigid Owl Feather" ItemId="3411" CollectCount="2" />
+    <Objective QuestName="Zenn's Bidding" QuestId="488" Type="CollectItem" Name="Webwood Spider Silk" ItemId="3412" CollectCount="2" />
+    <TurnIn QuestName="Zenn's Bidding" QuestId="488" TurnInId="2150" TurnInName="Zenn Foulhoof" X="9920.363" Y="739.1987" Z="1314.266" />
+    <PickUp QuestName="Seek Redemption!" QuestId="489" GiverId="2083" GiverName="Syral Bladeleaf" X="9872.522" Y="956.5984" Z="1307.879" />
+    <PickUp QuestName="The Emerald Dreamcatcher" QuestId="2438" GiverId="3567" GiverName="Tallonkai Swiftroot" X="9890.172" Y="971.8316" Z="1313.855" />
+    <PickUp QuestName="A Troubling Breeze" QuestId="475" GiverId="2078" GiverName="Athridas Bearmantle" X="9812.268" Y="963.9614" Z="1308.783" />
+    <TurnIn QuestName="Dolanaar Delivery" QuestId="2159" TurnInId="6736" TurnInName="Innkeeper Keldamyr" X="9802.209" Y="982.6077" Z="1313.896" />
+    <TurnIn QuestName="Teldrassil: Passing Awareness" QuestId="28731" TurnInId="3515" TurnInName="Corithras Moonrage" X="9736.91" Y="956.0632" Z="1294.111" />
+    <PickUp QuestName="Teldrassil: The Refusal of the Aspects" QuestId="929" GiverId="3515" GiverName="Corithras Moonrage" X="9736.91" Y="956.0632" Z="1294.111" />
+    <Objective QuestName="Seek Redemption!" QuestId="489" Type="CollectItem" Name="Fel Cone" ItemId="3418" CollectCount="3" />
+    <TurnIn QuestName="Seek Redemption!" QuestId="489" TurnInId="2150" TurnInName="Zenn Foulhoof" X="9920.363" Y="739.1987" Z="1314.266" />
+    <If Condition="HasItem(5619)">
+      <UseItem Name="Jade Phial" ItemId="5619" QuestName="Teldrassil: The Refusal of the Aspects" QuestId="929" X="9860.008" Y="589.3829" Z="1300.609" />
+    </If>
+    <TurnIn QuestName="A Troubling Breeze" QuestId="475" TurnInId="2107" TurnInName="Gaerolas Talvethren" X="9843.384" Y="440.7527" Z="1317.182" />
+    <PickUp QuestName="Gnarlpine Corruption" QuestId="476" GiverId="2107" GiverName="Gaerolas Talvethren" X="9843.384" Y="440.7527" Z="1317.182" />
+    <Objective QuestName="The Emerald Dreamcatcher" QuestId="2438" Type="CollectItem" Name="Emerald Dreamcatcher" ItemId="8048" CollectCount="1" />
+    <TurnIn QuestName="Gnarlpine Corruption" QuestId="476" TurnInId="2078" TurnInName="Athridas Bearmantle" X="9812.268" Y="963.9614" Z="1308.783" />
+    <PickUp QuestName="The Relics of Wakening" QuestId="483" GiverId="2078" GiverName="Athridas Bearmantle" X="9812.268" Y="963.9614" Z="1308.783" />
+    <PickUp QuestName="Resident Danger" QuestId="13945" GiverId="2081" GiverName="Sentinel Kyra Starsong" X="9813.59" Y="964.8942" Z="1308.781" />
+    <TurnIn QuestName="Teldrassil: The Refusal of the Aspects" QuestId="929" TurnInId="3515" TurnInName="Corithras Moonrage" X="9736.91" Y="956.0632" Z="1294.111" />
+    <TurnIn QuestName="The Emerald Dreamcatcher" QuestId="2438" TurnInId="3567" TurnInName="Tallonkai Swiftroot" X="9890.172" Y="971.8316" Z="1313.855" />
+    <PickUp QuestName="Ferocitas the Dream Eater" QuestId="2459" GiverId="3567" GiverName="Tallonkai Swiftroot" X="9890.172" Y="971.8316" Z="1313.855" />
+    <Objective QuestName="Ferocitas the Dream Eater" QuestId="2459" Type="CollectItem" Name="Tallonkai's Jewel" ItemId="8050" CollectCount="1" />
+    <Objective QuestName="Ferocitas the Dream Eater" QuestId="2459" Type="KillMob" Name="Gnarlpine Mystic" MobId="7235" KillCount="7" />
+    <TurnIn QuestName="Ferocitas the Dream Eater" QuestId="2459" TurnInId="3567" TurnInName="Tallonkai Swiftroot" X="9890.172" Y="971.8316" Z="1313.855" />
+    <PickUp QuestName="The Sleeping Druid" QuestId="2541" GiverId="7317" GiverName="Oben Rageclaw" X="9753.26" Y="1590.161" Z="1300.385"  />
+    <Objective QuestName="The Relics of Wakening" QuestId="483" Type="CollectItem" Name="Rune of Nesting" ItemId="3408" CollectCount="1" />
+    <Objective QuestName="The Relics of Wakening" QuestId="483" Type="CollectItem" Name="Black Feather Quill" ItemId="3406" CollectCount="1" />
+    <Objective QuestName="The Relics of Wakening" QuestId="483" Type="CollectItem" Name="Raven Claw Talisman" ItemId="3405" CollectCount="1" />
+    <Objective QuestName="The Relics of Wakening" QuestId="483" Type="CollectItem" Name="Sapphire of Sky" ItemId="3407" CollectCount="1" />
+    <Objective QuestName="The Sleeping Druid" QuestId="2541" Type="CollectItem" Name="Shaman Voodoo Charm" ItemId="8363" CollectCount="1" />
+    <TurnIn QuestName="The Sleeping Druid" QuestId="2541" TurnInId="7317" TurnInName="Oben Rageclaw" X="9753.26" Y="1590.161" Z="1300.385"  />
+    <Objective QuestName="Resident Danger" QuestId="13945" Type="KillMob" Name="Gnarlpine Defender" MobId="2010" KillCount="20" />
+    <TurnIn QuestName="The Relics of Wakening" QuestId="483" TurnInId="2078" TurnInName="Athridas Bearmantle" X="9812.268" Y="963.9614" Z="1308.783" />
+    <PickUp QuestName="Ursal the Mauler" QuestId="486" GiverId="2078" GiverName="Athridas Bearmantle" X="9812.268" Y="963.9614" Z="1308.783" />
+    <TurnIn QuestName="Resident Danger" QuestId="13945" TurnInId="2081" TurnInName="Sentinel Kyra Starsong" X="9813.59" Y="964.8942" Z="1308.781" />
+    <PickUp QuestName="The Road to Darnassus" QuestId="487" GiverId="2151" GiverName="Moon Priestess Amara" X="10095.64" Y="1335.546" Z="1313.641" />
+    <Objective QuestName="Ursal the Mauler" QuestId="486" Type="KillMob" Name="Ursal the Mauler" MobId="2039" KillCount="1" />
+    <Objective QuestName="The Road to Darnassus" QuestId="487" Type="KillMob" Name="Gnarlpine Ambusher" MobId="2152" KillCount="8" />
+    <TurnIn QuestName="The Road to Darnassus" QuestId="487" TurnInId="2151" TurnInName="Moon Priestess Amara" X="10095.64" Y="1335.546" Z="1313.641" />
+    <TurnIn QuestName="Ursal the Mauler" QuestId="486" TurnInId="2078" TurnInName="Athridas Bearmantle" X="9812.268" Y="963.9614" Z="1308.783" />
+    <PickUp QuestName="Denalan's Earth" QuestId="997" GiverId="2083" GiverName="Syral Bladeleaf" X="9872.522" Y="956.5984" Z="1307.879" />
+    <SetGrindArea>
+      <GrindArea>
+        <TargetMinLevel>6</TargetMinLevel>
+        <TargetMaxLevel>11</TargetMaxLevel>
+        <Factions>14</Factions>
+        <Hotspots>
+          <RandomizeHotspots>True</RandomizeHotspots>
+          <Hotspot X="9648.296" Y="781.2218" Z="1271.468" />
+          <Hotspot X="9549.838" Y="698.7358" Z="1261.339" />
+          <Hotspot X="9438.08" Y="721.1708" Z="1260.677" />
+          <Hotspot X="9393.734" Y="768.6688" Z="1260.281" />
+          <Hotspot X="9372.141" Y="816.0329" Z="1260.536" />
+          <Hotspot X="9438.711" Y="863.6554" Z="1253.222" />
+        </Hotspots>
+      </GrindArea>
+    </SetGrindArea>
+    <Grindto Level="10"/>
+	<PickUp QuestName="Twisted Hatred" QuestId="932" GiverId="3567" GiverName="Tallonkai Swiftroot" X="9890.172" Y="971.8316" Z="1313.855" />
+	<Objective QuestName="Twisted Hatred" QuestId="932" Type="CollectItem" Name="Melenas' Head" ItemId="5221" CollectCount="1" />
+	<TurnIn QuestName="Twisted Hatred" QuestId="932" TurnInId="3567" TurnInName="Tallonkai Swiftroot" X="9890.172" Y="971.8316" Z="1313.855" />
+    <TurnIn QuestName="Denalan's Earth" QuestId="997" TurnInId="2080" TurnInName="Denalan" X="9507.291" Y="714.583" Z="1255.887" />
+    <PickUp QuestName="Timberling Seeds" QuestId="918" GiverId="2080" GiverName="Denalan" X="9507.291" Y="714.583" Z="1255.887" />
+    <PickUp QuestName="Timberling Sprouts" QuestId="919" GiverId="2080" GiverName="Denalan" X="9507.291" Y="714.583" Z="1255.887" />
+    <PickUp QuestName="The Glowing Fruit" QuestId="930" GiverType="Object" GiverId="6751" GiverName="Strange Fruited Plant" X="9386.958" Y="844.341" Z="1258.953" />
+    <Objective QuestName="Timberling Seeds" QuestId="918" Type="CollectItem" Name="Timberling Seed" ItemId="5168" CollectCount="6" />
+    <Objective QuestName="Timberling Sprouts" QuestId="919" Type="CollectItem" Name="Timberling Sprout" ItemId="5169" CollectCount="10" />
+    <TurnIn QuestName="Timberling Seeds" QuestId="918" TurnInId="2080" TurnInName="Denalan" X="9507.291" Y="714.583" Z="1255.887" />
+    <PickUp QuestName="Rellian Greenspyre" QuestId="922" GiverId="2080" GiverName="Denalan" X="9507.291" Y="714.583" Z="1255.887" />
+    <TurnIn QuestName="Timberling Sprouts" QuestId="919" TurnInId="2080" TurnInName="Denalan" X="9507.291" Y="714.583" Z="1255.887" />
+    <TurnIn QuestName="The Glowing Fruit" QuestId="930" TurnInId="2080" TurnInName="Denalan" X="9507.291" Y="714.583" Z="1255.887" />
+    <PickUp QuestName="Teldrassil: The Burden of the Kaldorei" QuestId="7383" GiverId="3515" GiverName="Corithras Moonrage" X="9736.91" Y="956.0632" Z="1294.111" />
+    <TurnIn QuestName="Rellian Greenspyre" QuestId="922" TurnInId="3517" TurnInName="Rellian Greenspyre" X="10118.34" Y="1652.748" Z="1324.387" />
+    <PickUp QuestName="Mossy Tumors" QuestId="923" GiverId="3517" GiverName="Rellian Greenspyre" X="10118.34" Y="1652.748" Z="1324.387" />
+    <Objective QuestName="Mossy Tumors" QuestId="923" Type="CollectItem" Name="Mossy Tumor" ItemId="5170" CollectCount="5" />
+    <If Condition="HasItem(18152)">
+      <UseItem Name="Amethyst Phial" ItemId="18152" QuestName="Teldrassil: The Burden of the Kaldorei" QuestId="7383" X="10677.06" Y="1857.92" Z="1324.227" />
+    </If>
+    <PickUp QuestName="The Enchanted Glade" QuestId="937" GiverId="3519" GiverName="Sentinel Arynia Cloudsbreak" X="10678.44" Y="1914.682" Z="1339.154" />
+    <PickUp QuestName="Tears of the Moon" QuestId="2518" GiverId="7313" GiverName="Priestess A'moora" X="10678.51" Y="1932.429" Z="1336.111" />
+    <PickUp QuestName="The Shimmering Frond" QuestId="931" GiverType="Object" GiverId="6752" GiverName="Strange Fronded Plant" X="10848.77" Y="2046.036" Z="1327.257" />
+    <Objective QuestName="Tears of the Moon" QuestId="2518" Type="CollectItem" Name="Silvery Spinnerets" ItemId="8344" CollectCount="1" />
+    <Objective QuestName="The Enchanted Glade" QuestId="937" Type="CollectItem" Name="Bloodfeather Belt" ItemId="5204" CollectCount="6" />
+    <SetGrindArea>
+      <GrindArea>
+        <TargetMinLevel>7</TargetMinLevel>
+        <TargetMaxLevel>14</TargetMaxLevel>
+        <Factions>514 22</Factions>
+        <Hotspots>
+          <RandomizeHotspots>True</RandomizeHotspots>
+          <Hotspot X="10731.45" Y="2046.761" Z="1318.559" />
+          <Hotspot X="10654.29" Y="2058.613" Z="1330.116" />
+          <Hotspot X="10690.29" Y="2054.313" Z="1325.806" />
+          <Hotspot X="10747.06" Y="2105.786" Z="1316.097" />
+          <Hotspot X="10838.74" Y="2139.99" Z="1326.988" />
+          <Hotspot X="10608.01" Y="2122.736" Z="1337.296" />
+          <Hotspot X="10602.84" Y="2009.205" Z="1328.078" />
+          <Hotspot X="10530.8" Y="1992.33" Z="1327.439" />
+          <Hotspot X="10510.06" Y="1948.929" Z="1321.889" />
+          <Hotspot X="10450.13" Y="1922.032" Z="1318.864" />
+        </Hotspots>
+      </GrindArea>
+    </SetGrindArea>
+    <Grindto Level="13"/>
+    <TurnIn QuestName="Tears of the Moon" QuestId="2518" TurnInId="7313" TurnInName="Priestess A'moora" X="10678.51" Y="1932.429" Z="1336.111" />
+    <TurnIn QuestName="The Enchanted Glade" QuestId="937" TurnInId="3519" TurnInName="Sentinel Arynia Cloudsbreak" X="10678.44" Y="1914.682" Z="1339.154" />
+    <TurnIn QuestName="Teldrassil: The Burden of the Kaldorei" QuestId="7383" TurnInId="3515" TurnInName="Corithras Moonrage" X="9736.91" Y="956.0632" Z="1294.111" />
+    <PickUp QuestName="Teldrassil: The Coming Dawn" QuestId="933" GiverId="3515" GiverName="Coridthras Moonrage" X="9736.91" Y="956.0632" Z="1294.111" />
+    <TurnIn QuestName="The Shimmering Frond" QuestId="931" TurnInId="2080" TurnInName="Denalan" X="9507.291" Y="714.583" Z="1255.887" />
+    <TurnIn QuestName="Mossy Tumors" QuestId="923" TurnInId="3517" TurnInName="Rellian Greenspyre" X="10118.34" Y="1652.748" Z="1324.387" />
+	<PickUp QuestName="Oakenscowl" GiverName="Denalan" QuestId="2499" GiverId="2080" X="9507.291" Y="714.583" Z="1255.887" />
+    <Objective QuestName="Oakenscowl" QuestId="2499" Type="Collect" CollectCount="1" Name="Gargantuan Tumor" ItemId="8136" />
+    <TurnIn QuestName="Oakenscowl" TurnInName="Denalan" QuestId="2499" TurnInId="2080" X="9507.291" Y="714.583" Z="1255.887" />
+    <If Condition="HasItem(5621)">
+      <UseItem Name="Tourmaline Phial" ItemId="5621" QuestName="Teldrassil: The Coming Dawn" QuestId="933" X="9556.291" Y="1654.464" Z="1299.446" />
+    </If>
+    <TurnIn QuestName="Teldrassil: The Coming Dawn" QuestId="933" TurnInId="1992" TurnInName="Tarindrella" X="9569.259" Y="1737.335" Z="1292.746" />
+    <SetGrindArea>
+      <GrindArea>
+        <TargetMinLevel>7</TargetMinLevel>
+        <TargetMaxLevel>14</TargetMaxLevel>
+        <Factions>514 22 16 66</Factions>
+        <Hotspots>
+          <Hotspot X="10731.45" Y="2046.761" Z="1318.559" />
+          <Hotspot X="10654.29" Y="2058.613" Z="1330.116" />
+          <Hotspot X="10690.29" Y="2054.313" Z="1325.806" />
+          <Hotspot X="10747.06" Y="2105.786" Z="1316.097" />
+          <Hotspot X="10838.74" Y="2139.99" Z="1326.988" />
+          <Hotspot X="10608.01" Y="2122.736" Z="1337.296" />
+          <Hotspot X="10602.84" Y="2009.205" Z="1328.078" />
+          <Hotspot X="10530.8" Y="1992.33" Z="1327.439" />
+          <Hotspot X="10510.06" Y="1948.929" Z="1321.889" />
+          <Hotspot X="10450.13" Y="1922.032" Z="1318.864" />
+        </Hotspots>
+      </GrindArea>
+    </SetGrindArea>
+    <Grindto Level="15"/>
+	<PickUp QuestName="Hero's Call: Darkshore!" QuestId="28490" GiverType="Object" GiverId="207321" GiverName="Hero's Call Board" X="9952.082" Y="2494.221" Z="1317.126" />
+    <Checkpoint Level="15" />
+  </QuestOrder>
+</HBProfile>
