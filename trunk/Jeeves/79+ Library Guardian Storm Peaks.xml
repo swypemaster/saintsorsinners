@@ -1,0 +1,65 @@
+<!-- Profile created by eProfile reskinned and updated version of eProfilemaker by ereneion -->
+<HBProfile>
+
+   <Name>Jeeves</Name>
+   <MinDurability>.2</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+   <SellGrey>True</SellGrey>
+   <SellWhite>False</SellWhite>
+   <SellGreen>False</SellGreen>
+   <SellBlue>False</SellBlue>
+   <SellPurple>False</SellPurple>
+   <MailWhite>False</MailWhite>
+   <MailGreen>False</MailGreen>
+   <MailBlue>False</MailBlue>
+   <MailPurple>False</MailPurple>
+   <MinLevel>1</MinLevel>
+   <MaxLevel>81</MaxLevel>
+
+   <ProtectedItems>
+      
+
+   </ProtectedItems>
+
+   <ForceMail>
+      
+
+   </ForceMail>
+
+   <SubProfile>
+      
+
+      <MinLevel>1</MinLevel>
+      <MaxLevel>81</MaxLevel>
+      <Factions>14 </Factions>
+      <TargetMinLevel>1</TargetMinLevel>
+      <TargetMaxLevel>81</TargetMaxLevel>
+      <TargetElites>False</TargetElites>
+      <Vendors>
+      </Vendors>
+      <Mailboxes>
+      </Mailboxes>
+      <AvoidMobs>
+      </AvoidMobs>
+
+      <GrindArea>
+         <RandomizeHotspots>True</RandomizeHotspots>
+         <MaxiumHotspotTime>5</MaxiumHotspotTime>
+         <LootRadius>5</LootRadius>
+         <Blackspots>
+         </Blackspots>
+         <Hotspots>
+            <Hotspot X="8297.005" Y="-922.6151" Z="923.8729" />
+            <Hotspot X="8288.528" Y="-1015.118" Z="923.8737" />
+            <Hotspot X="8208.981" Y="-1026.574" Z="923.8739" />
+            <Hotspot X="8199.388" Y="-1112.235" Z="924.8469" />
+            <Hotspot X="8215.708" Y="-943.3336" Z="924.6711" />
+            <Hotspot X="8270.185" Y="-882.0507" Z="923.8743" />
+            <Hotspot X="8253.247" Y="-777.7634" Z="923.8763" />
+            <Hotspot X="8272.481" Y="-734.6422" Z="924.0136" />
+            <Hotspot X="8199.362" Y="-710.246" Z="926.4716" />
+         </Hotspots>
+      </GrindArea>
+   </SubProfile>
+
+</HBProfile>
