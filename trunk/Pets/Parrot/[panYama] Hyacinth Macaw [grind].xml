@@ -1,0 +1,114 @@
+   <!--
+      PROFILE README:
+         * When using this profile, be certain to set the HonorBuddy bot to (select only one):
+                [*] Grinding
+                [ ] Questing
+                [ ] PvP
+   
+         * This profile is appropriate for:
+                [*] Leveling
+                [ ] PvP
+				[ ] Questing
+				[ ] Reputation
+		
+		
+		PROFILE FEATURES:
+         * A profile to farm parrot Cage hyacint maccaw.
+		 
+		 * A rare/epic pet that can sell up to 25k gold.
+		 
+			
+		PROFILE WARNINGS:
+         * DO NOT run this profile any other then Grinding bot. Using something else will result in errors.
+  
+         * DO NOT post bugs that are NOT related to this profile by any means, they will get ignored. Bugs that are ment for this profile will be listed and fixed, so the profile
+		 can be updated to run smoothly.
+		 
+		 
+		 PROFILE CHANGELOG:
+		 * v2.0 Profile Overhaul
+			Date: Aug 11.
+			* Overhaul Profiles.
+			
+    -->
+<HBProfile>
+		<Name>Hyacinth Macaw - panYama</Name>
+		
+		<!-- General Configuration -->
+		<MinDurability>0.2</MinDurability> 
+		<MinFreeBagSlots>4</MinFreeBagSlots>
+		<MinLevel>75</MinLevel>
+		<MaxLevel>86</MaxLevel>
+		
+		<!-- Vendor Configuration -->
+		<SellGrey>True</SellGrey>
+		<SellWhite>True</SellWhite>
+		<SellGreen>True</SellGreen>
+		<SellBlue>False</SellBlue>
+		<SellPurple>False</SellPurple>
+		
+		 <!-- Mail Configuration -->
+		<MailWhite>True</MailWhite>
+		<MailGreen>True</MailGreen>
+		<MailBlue>True</MailBlue>
+		<MailPurple>True</MailPurple>
+ 
+		<!-- Mailbox Configuration -->
+		<Mailboxes>
+			 <Mailbox X="-14421.22" Y="516.4387" Z="4.984276" />
+		</Mailboxes>
+ 
+		<!-- Vendor Configuration -->
+        <Vendors>
+			<Vendor Name="Hurklor" Entry="2844" Type="Repair" X="-14361.88" Y="372.2274" Z="24.08742" />
+			<Vendor Name="Fargon Mortalak" Entry="2845" Type="Repair" X="-14359.1" Y="367.469" Z="24.10245" />
+        </Vendors>
+ 
+		<!-- EliteMob Configuration -->
+		<TargetElites>True</TargetElites>
+		
+		<!-- AvoidMob Configuration -->
+		<AvoidMobs>
+
+		</AvoidMobs>
+		
+		<!-- ProtectedItems Configuration -->
+		<ProtectedItems>
+		<!-- Hyacinth Macaw -->
+		<Item>8494</Item>
+		</ProtectedItems>
+		
+		<!-- Hotspots Configuration -->
+		<GrindArea>
+		   <TargetMinLevel>75</TargetMinLevel>
+		   <TargetMaxLevel>86</TargetMaxLevel>
+		   <Factions>119</Factions>
+		   <MaxDistance>70</MaxDistance>
+		   <RandomizeHotspots>False</RandomizeHotspots>
+		   <Hotspots>
+				<Hotspot X="-14179.47" Y="391.9729" Z="17.06529" />
+				<Hotspot X="-14148.3" Y="433.6072" Z="7.642838" />
+				<Hotspot X="-14114.94" Y="454.9102" Z="3.745759" />
+				<Hotspot X="-14035.23" Y="538.9724" Z="6.984634" />
+				<Hotspot X="-13960.55" Y="598.6797" Z="4.554946" />
+				<Hotspot X="-14222.45" Y="346.4376" Z="26.45197" />
+				<Hotspot X="-14247.19" Y="159.4907" Z="7.846144" />
+				<Hotspot X="-14295.59" Y="125.5358" Z="7.929839" />
+				<Hotspot X="-14387.04" Y="111.1445" Z="3.479078" />
+				<Hotspot X="-14444.92" Y="137.9481" Z="1.949987" />
+				<Hotspot X="-14526.03" Y="191.6699" Z="4.595212" />
+				<Hotspot X="-14602.86" Y="232.186" Z="0.6891125" />
+				<Hotspot X="-14613.42" Y="292.6232" Z="2.138486" />
+				<Hotspot X="-14640.89" Y="326.5694" Z="3.393269" />
+				<Hotspot X="-14655.47" Y="397.0783" Z="3.296362" />
+				<Hotspot X="-14679.7" Y="452.6557" Z="3.208857" />
+				<Hotspot X="-14694.72" Y="482.6474" Z="3.049848" />
+				<Hotspot X="-14713.73" Y="524.1307" Z="2.421138" />
+				<Hotspot X="-14734.17" Y="493.3744" Z="3.496126" />
+		   </Hotspots>
+		</GrindArea>			
+		
+        <Blackspots>
+          
+        </Blackspots>
+</HBProfile>
