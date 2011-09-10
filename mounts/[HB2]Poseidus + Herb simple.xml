@@ -1,0 +1,72 @@
+<HBProfile>
+    <Name>Hefron Poseidus farm</Name>
+    <MinDurability>40</MinDurability>
+    <MinFreeBagSlots>3</MinFreeBagSlots>
+
+    <MinLevel>1</MinLevel>
+    <MaxLevel>86</MaxLevel>
+    <Factions>99999</Factions>
+
+    <MailGrey>False</MailGrey>
+    <MailWhite>True</MailWhite>
+    <MailGreen>True</MailGreen>
+    <MailBlue>True</MailBlue>
+    <MailPurple>True</MailPurple>
+
+    <SellGrey>True</SellGrey>
+    <SellWhite>False</SellWhite>
+    <SellGreen>False</SellGreen>
+    <SellBlue>False</SellBlue>
+    <SellPurple>False</SellPurple>
+    
+    <Vendors>
+    </Vendors>
+
+    <Mailboxes>
+    </Mailboxes>
+    <Hotspots>
+        <Hotspot X="-6199.7"
+                 Y="3483.61"
+                 Z="-365.5281"/>
+        <Hotspot X="-6131.715"
+                 Y="3912.789"
+                 Z="-301.187"/>
+        <Hotspot X="-5917.347"
+                 Y="4301.19"
+                 Z="-380.378"/>
+        <Hotspot X="-5839.964"
+                 Y="4648.785"
+                 Z="-433.0811"/>
+        <Hotspot X="-6033.067"
+                 Y="4660.997"
+                 Z="-442.6742"/>
+        <Hotspot X="-6391.468"
+                 Y="4499.247"
+                 Z="-531.3342"/>
+        <Hotspot X="-6745.89"
+                 Y="4749.851"
+                 Z="-524.6488"/>
+        <Hotspot X="-6923.577"
+                 Y="4794.554"
+                 Z="-525.5809"/>
+        <Hotspot X="-7030.583"
+                 Y="4684.137"
+                 Z="-488.602"/>
+        <Hotspot X="-7233.875"
+                 Y="4497.505"
+                 Z="-256.728"/>
+        <Hotspot X="-7328.516"
+                 Y="4373.294"
+                 Z="-211.3689"/>
+        <Hotspot X="-7439.689"
+                 Y="3904.963"
+                 Z="-166.4987"/>
+        <Hotspot X="-6642.477"
+                 Y="3524.93"
+                 Z="-200.9058"/>
+        <Hotspot X="-6393.152"
+                 Y="3514.361"
+                 Z="-253.5296"/>
+    </Hotspots>
+
+</HBProfile>
