@@ -1,0 +1,78 @@
+﻿<HBProfile>
+  <MinDurability>0.10</MinDurability>
+  <MinFreeBagSlots>1</MinFreeBagSlots>
+  <MinLevel>75</MinLevel>
+  <MaxLevel>86</MaxLevel>
+  <SellGrey>true</SellGrey>
+  <MailWhite>true</MailWhite>
+  <MailGreen>true</MailGreen>
+  <MailBlue>true</MailBlue>
+  <MailPurple>true</MailPurple>
+
+    <Blackspots>
+    </Blackspots>
+<AvoidMobs>
+</AvoidMobs>
+
+     <Mailboxes>
+	  <Mailbox X="5136.127" Y="-1723.358" Z="1336.012" />
+     </Mailboxes>
+	 <!--Nordrassil-->
+     <Vendors>
+      <Vendor Name="Jalin Lakedeep" Entry="43380" Type="Repair" X="5181.182" Y="-1717.436" Z="1339.964" />
+     </Vendors>
+  <SubProfile>
+    <Name>The inferno [HOGGER]</Name>
+    <MinLevel>75</MinLevel>
+    <MaxLevel>86</MaxLevel>
+    <GrindArea>
+      <Factions>2234 2146</Factions>
+<RandomizeHotspots>True</RandomizeHotspots>
+      <Hotspots>
+<Hotspot X="5163.243" Y="-1415.575" Z="1355.367" />
+<Hotspot X="5162.291" Y="-1298.463" Z="1366.605" />
+<Hotspot X="5090.495" Y="-1366.586" Z="1348.062" />
+<Hotspot X="5087.523" Y="-1475.321" Z="1344.396" />
+<Hotspot X="4980.84" Y="-1479.285" Z="1328.557" />
+<Hotspot X="4915.238" Y="-1593.253" Z="1325.76" />
+<Hotspot X="4881.527" Y="-1529.55" Z="1340.015" />
+<Hotspot X="4675.498" Y="-1653.929" Z="1285.034" />
+<Hotspot X="4783.68" Y="-1597.88" Z="1305.07" />
+      </Hotspots>
+    </GrindArea>
+<ForceMail>
+        <Item Name="Embersilk Cloth" Entry="53010" />
+        <Item Name="Dreamcloth" Entry="54440" />
+        <Item Name="Volatile Air" Entry="52328" />
+        <Item Name="Volatile Earth" Entry="52327" />
+        <Item Name="Volatile Fire" Entry="52325" />
+        <Item Name="Volatile Life" Entry="52329" />
+        <Item Name="Volatile Water" Entry="52326" />
+        <Item Name="Alicite" Entry="52179" />
+        <Item Name="Carnelian" Entry="52177" />
+        <Item Name="Hessonite" Entry="52181" />
+        <Item Name="Jasper" Entry="52182" />
+        <Item Name="Nightstone" Entry="52180" />
+        <Item Name="Zephyrite" Entry="52178" />
+        <Item Name="Amberjewel" Entry="52195" />
+        <Item Name="Demonseye" Entry="52194" />
+        <Item Name="Dream Emerald" Entry="52192" />
+        <Item Name="Ember Topaz" Entry="52193" />
+        <Item Name="Inferno Ruby" Entry="52190" />
+        <Item Name="Ocean Sapphire" Entry="52191" />
+        <Item Name="Chimera's Eye" Entry="52196" />
+        <Item Name="Stormvine" Entry="202748" />
+        <Item Name="Lichbloom" Entry="36905" />
+        <Item Name="Cinderbloom" Entry="202747" />
+        <Item Name="Azshara's Veil" Entry="202749" />
+        <Item Name="Icethorn" Entry="36906" />
+        <Item Name="Frost Lotus" Entry="36908" />
+        <Item Name="Heartblossom" Entry="202750" />
+        <Item Name="Whiptail" Entry="202752" />
+        <Item Name="Twilight Jasmine" Entry="202751" />
+        <Item Name="Obsidium Ore" Entry="53038" />
+        <Item Name="Elementium Ore" Entry="52185" />
+        <Item Name="Pyrite Ore" Entry="52183" />
+</ForceMail>
+  </SubProfile>
+</HBProfile>
