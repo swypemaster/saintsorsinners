@@ -1,0 +1,38 @@
+<HBProfile>
+	<Name>Higher Learning</Name>
+	<MinDurability>0.4</MinDurability>
+	<MinFreeBagSlots>1</MinFreeBagSlots>
+
+	<MinLevel>1</MinLevel>
+	<MaxLevel>86</MaxLevel>
+	<Factions>99999</Factions>
+
+	<MailGrey>False</MailGrey>
+	<MailWhite>False</MailWhite>
+	<MailGreen>False</MailGreen>
+	<MailBlue>False</MailBlue>
+	<MailPurple>False</MailPurple>
+
+	<SellGrey>False</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+	<SellBlue>False</SellBlue>
+	<SellPurple>False</SellPurple>
+
+	<Vendors></Vendors>
+    
+    <Mailboxes></Mailboxes>
+	<Blackspots>
+		<Blackspot X="5807.345" Y="641.2098" Z="647.6747" Radius="15" />	
+	</Blackspots>
+	<Hotspots>
+		<Hotspot X="5846.754" Y="661.9258" Z="647.5135" />
+		<Hotspot X="5848.534" Y="661.4178" Z="658.4285" />
+		<Hotspot X="5808.358" Y="692.5472" Z="657.9495" />
+		<Hotspot X="5779.311" Y="833.16" Z="680.2515" />
+		<Hotspot X="5773.331" Y="516.8676" Z="652.6708" />
+		<Hotspot X="5761.464" Y="619.9835" Z="650.0902" />
+		<Hotspot X="5812.575" Y="584.413" Z="652.4651" />		
+	</Hotspots>
+
+</HBProfile>
