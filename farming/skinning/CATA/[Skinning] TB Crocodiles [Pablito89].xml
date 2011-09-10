@@ -1,0 +1,75 @@
+<HBProfile creator="Pablito89" version="1.0">
+	
+	
+	<Name>Skinning TB Crocodiles</Name>
+	<MinDurability>0.2</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+
+	<MinLevel>1</MinLevel>
+	<MaxLevel>86</MaxLevel>
+   
+	<MailGrey>False</MailGrey>
+	<MailWhite>True</MailWhite>
+	<MailGreen>True</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+   
+	<SellGrey>True</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+	<SellBlue>False</SellBlue>
+	<SellPurple>False</SellPurple>
+   
+   <AvoidMobs>
+
+<AvoidMob Name="Problim" Entry="47593" />
+
+</AvoidMobs>
+	<Blackspots>
+<Blackspot X="-1091.89" Y="1175.252" Z="120.8843" Radius="60" />
+<Blackspot X="-1109.688" Y="1143.961" Z="118.7948" Radius="60" />
+<Blackspot X="-1108.869" Y="1118.249" Z="120.1032" Radius="60" />
+</Blackspots>
+		
+	<SubProfile> 
+		<Name>TB Skinning Kroko</Name>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>86</MaxLevel>
+				
+		
+		<Vendors>
+			
+		</Vendors>
+		
+		<Mailboxes>
+			
+		</Mailboxes>
+		
+		<QuestOrder>
+		
+				
+
+				<SetGrindArea>
+					<GrindArea>
+						<TargetMinLevel>80</TargetMinLevel>
+						<TargetMaxLevel>86</TargetMaxLevel>
+						<Factions>14</Factions> 
+						<Hotspots> 
+							<Hotspot X="-1264.004" Y="1079.879" Z="120.4827"/>
+							<Hotspot X="-1301.465" Y="1171.164" Z="120.1755" />
+							<Hotspot X="-1268.043" Y="1242.456" Z="121.7069" />
+							<Hotspot X="-1217.716" Y="1260.354" Z="120.0589" />
+							<Hotspot X="-1154.281" Y="1284.55" Z="118.8492" />
+							<Hotspot X="-1161.256" Y="1203.135" Z="120.2385" />
+							<Hotspot X="-1172.422" Y="1129.823" Z="120.7637" />
+							<Hotspot X="-1240.12" Y="1143.571" Z="120.3278" />
+													</Hotspots>
+					</GrindArea>
+				</SetGrindArea>
+			<GrindTo Condition="Me.GetSkill(Styx.SkillLine.Skinning).CurrentValue >= 600" />
+			
+		</QuestOrder>
+	</SubProfile>
+
+
+</HBProfile>
