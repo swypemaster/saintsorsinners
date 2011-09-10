@@ -1,0 +1,92 @@
+<HBProfile>
+	<Name>Mount Hyjal - Mountain Trout by Unknown</Name>
+	<MinDurability>0.4</MinDurability>
+	<MinFreeBagSlots>1</MinFreeBagSlots>
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>True</SellGreen>
+	<MailWhite>False</MailWhite>
+	<MailGreen>False</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<ProtectedItems>
+		<Item name="Fishing Pole" entry="6256" />
+	</ProtectedItems>
+	<SubProfile>
+		<Name>Mount Hyjal - Mountain Trout</Name>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>87</MaxLevel>
+		<TargetMinLevel>87</TargetMinLevel>
+		<Factions> 16 </Factions>
+
+		<Hotspots>
+
+
+
+<Hotspot X="5442.744" Y="-3604.126" Z="1561.156" />
+<Hotspot X="5503.624" Y="-3518.677" Z="1569.024" />
+
+<Hotspot X="5516.227" Y="-3171.317" Z="1628.366" />
+<Hotspot X="5527.857" Y="-2804.277" Z="1520.932" />
+<Hotspot X="5419.384" Y="-2600.901" Z="1487.473" />
+<Hotspot X="5280.234" Y="-2619.201" Z="1485.529" />
+<Hotspot X="5270.395" Y="-2492.399" Z="1633.058" />
+<Hotspot X="5247.192" Y="-2181.709" Z="1272.441" />
+<Hotspot X="4812.872" Y="-1804.332" Z="1255.519" />
+<Hotspot X="4595.744" Y="-1813.796" Z="1264.661" />
+<Hotspot X="4617.027" Y="-2022.025" Z="1192.283" />
+<Hotspot X="4557.852" Y="-2088.858" Z="1219.376" />
+<Hotspot X="4544.871" Y="-1967.918" Z="1205.116" />
+<Hotspot X="4577.435" Y="-1758.84" Z="1253.435" />
+<Hotspot X="4823.575" Y="-1690.005" Z="1259.505" />
+
+
+
+<Hotspot X="3947.43" Y="-3120.498" Z="979.1791" />
+<Hotspot X="4087.583" Y="-3103.212" Z="977.5761" />
+
+
+<Hotspot X="4145.311" Y="-3886.703" Z="982.7388" />
+<Hotspot X="4199.8" Y="-3993.608" Z="977.5103" />
+<Hotspot X="3977.73" Y="-4075.958" Z="973.087" />
+<Hotspot X="3978.936" Y="-3936.616" Z="972.6063" />
+<Hotspot X="4161.149" Y="-3903.491" Z="971.7172" />
+<Hotspot X="4141.437" Y="-4022.299" Z="969.2142" />
+
+<Hotspot X="4733.696" Y="-4993.646" Z="904.0773" />
+<Hotspot X="4788.439" Y="-5019.66" Z="904.0773" />
+<Hotspot X="4780.917" Y="-4375.285" Z="982.9685" />
+<Hotspot X="4759.338" Y="-3577.737" Z="1278.719" />
+<Hotspot X="5032.876" Y="-3529.384" Z="1624.781" />
+<Hotspot X="5377.268" Y="-3506.796" Z="1570.49" />
+
+
+
+		</Hotspots>
+
+		<Vendors>
+
+<Vendor Name="Dugsley Deepdelver" Entry="45294" Type="Repair" X="1052.99" Y="636.936" Z="-45.87081" />
+
+
+		</Vendors>
+
+		<Blackspots>
+
+<Blackspot X="3885.247" Y="-3066.559" Z="974.4323"  />
+
+		</Blackspots>
+
+		<AvoidMobs>
+
+		</AvoidMobs>
+
+		<Mailboxes>
+
+<Mailbox X="1052.553" Y="633.4973" Z="-45.56794" />
+
+		</Mailboxes>
+
+</SubProfile>
+
+</HBProfile>
