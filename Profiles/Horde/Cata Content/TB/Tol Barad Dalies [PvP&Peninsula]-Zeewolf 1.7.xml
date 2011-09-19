@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HBProfile>
+  <Name>Tol Barad Dalies [PvP Zone]</Name>
+  <MinLevel>1</MinLevel>
+  <MaxLevel>90</MaxLevel>
+  <MinDurability>0.4</MinDurability>
+  <MinFreeBagSlots>2</MinFreeBagSlots>
+  <MailGrey>False</MailGrey>
+  <MailWhite>False</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+  <SellGrey>True</SellGrey>
+  <SellWhite>False</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+  <TargetElites>False</TargetElites>
+
+  <Vendors>
+  <!-- Tol Barad Peninsula -->
+	<Vendor Name="Karosh" Entry="48356" Type="Repair" X="-607.5608" Y="1380.215" Z="22.00996" />
+  </Vendors>
+
+  <!-- Quest Overrides -->
+
+   <Quest Id="28659" Name="The Leftovers" >
+    <Objective Type="KillMob" MobId="47600" CollectCount="12">
+      <Hotspots>
+           <Hotspot X="-913.7354" Y="1019.207" Z="121.4419" />
+	   <Hotspot X="-835.1072" Y="1015.067" Z="121.4409" />
+      </Hotspots>
+     </Objective>
+   </Quest>
+   <Quest Id="28657" Name="A Huge Problem">
+	<Objective Type="KillMob" MobId="47593" KillCount="1">
+		<Hotspots>
+		</Hotspots>
+	</Objective>
+    </Quest>
+    <Quest Id="28658" Name="Swamp Bait">
+	<Objective Type="CollectItem" ItemId="63103" CollectCount="8">
+		<CollectFrom>
+		</CollectFrom>
+		<Hotspots>
+			<Hotspot X="-1291.447" Y="1096.319" Z="119.5965" />
+			<Hotspot X="-1281.931" Y="1166.367" Z="120.4804" />
+			<Hotspot X="-1261.254" Y="1223.452" Z="120.9249" />
+			<Hotspot X="-1206.156" Y="1286.924" Z="119.9647" />
+			<Hotspot X="-1146.07" Y="1230.28" Z="119.0034" />
+			<Hotspot X="-1199.478" Y="1134.894" Z="119.1794" />
+		</Hotspots>
+	</Objective>
+     </Quest>
+
+      <Quest Id="28665" Name="Cursed Shackles">
+	<Objective Type="CollectItem" ItemId="63149" CollectCount="8">
+		<CollectFrom>
+		</CollectFrom>
+		<Hotspots>
+			<Hotspot X="-1003.369" Y="1127.242" Z="84.53648" />
+			<Hotspot X="-971.5964" Y="1070.537" Z="84.53667" />
+		</Hotspots>
+	</Objective>
+      </Quest>
+      <Quest Id="28664" Name="Svarnos">
+    	<Objective Type="CollectItem" ItemId="63143" CollectCount="1">
+      	<CollectFrom>
+	</CollectFrom>
+      <Hotspots>
+        <Hotspot X="-965.6923" Y="1053.807" Z="84.58082" />
+      </Hotspots>
+    </Objective>
+      </Quest>
+
+
+   <Quest Id="28661" Name="The Imprisoned Archmage">
+    <Objective Type="CollectItem" ItemId="63033" CollectCount="1">
+      <CollectFrom></CollectFrom>
+      <Hotspots>
+           <Hotspot X="-1299.202" Y="856.7417" Z="89.52472" />
+      </Hotspots>
+    </Objective>
+   </Quest>
+      <Quest Id="28662" Name="Learning From The Past">
+	<Objective Type="CollectItem" ItemId="63034" CollectCount="4">
+		<CollectFrom>
+		</CollectFrom>
+		<Hotspots>
+			<Hotspot X="-1276.401" Y="839.0299" Z="89.48954" />
+			<Hotspot X="-1276.401" Y="839.0299" Z="89.48954" />
+		</Hotspots>
+	</Objective>
+      </Quest>
+  <Quest Id="28660" Name="Clearing the Depths">
+    <Objective Type="KillMob" MobId="47616" KillCount="9">
+      <Hotspots>
+        <Hotspot X="-1230.647" Y="829.8564" Z="120.0247" />
+	<Hotspot X="-1252.556" Y="761.8458" Z="96.30753" />
+	<Hotspot X="-1250.696" Y="785.2606" Z="89.52908" />
+      </Hotspots>
+    </Objective>
+   </Quest>
+
+    <Quest Id="28669" Name="The Warden">
+	<Objective Type="CollectItem" ItemId="63309" CollectCount="1">
+		<CollectFrom>
+			<Mob Name="Warden Silva" Id="48036" />
+		</CollectFrom>
+		<Hotspots>
+			<Hotspot X="-1513.718" Y="1257.581" Z="102.8731" />
+		</Hotspots>
+	</Objective>
+      </Quest>
+  <Quest Id="28670" Name="Food From Below">
+    <Objective Type="CollectItem" ItemId="63315" CollectCount="12">
+      <CollectFrom>
+        <Mob Name="Imprisoned Worker" Id="47550" />
+      </CollectFrom>
+      <Hotspots>
+      	<Hotspot X="-1513.718" Y="1257.581" Z="102.8731" />
+	<Hotspot X="-1609.996" Y="1204.691" Z="95.01488" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="28668" Name="Prison Revolt">
+	<Objective Type="KillMob" MobId="47550" KillCount="10">
+		<Hotspots>
+      	<Hotspot X="-1513.718" Y="1257.581" Z="102.8731" />
+	<Hotspot X="-1609.996" Y="1204.691" Z="95.01488" />	
+		</Hotspots>
+	</Objective>
+      </Quest>
+
+  <Quest Id="28694" Name="Watch Out For Splinters!">
+    <Objective Type="CollectItem" ItemId="62811" CollectCount="15">
+      <CollectFrom>
+        <Mob Name="Accursed Longshoreman" Id="46630" />
+        <Mob Name="Accursed Shipbuilder" Id="46643" />
+        <Mob Name="Ghastly Dockhand" Id="46641" />
+      </CollectFrom>
+      <Hotspots>
+        <Hotspot X="-167.3765" Y="1849.325" Z="2.382729" />
+        <Hotspot X="-198.5779" Y="1883.063" Z="2.382843" />
+        <Hotspot X="-198.5602" Y="1908.246" Z="2.752382" />
+        <Hotspot X="-169.7275" Y="1858.202" Z="2.383965" />
+        <Hotspot X="-146.1035" Y="1869.178" Z="2.417267" />
+        <Hotspot X="-124.0322" Y="1922.913" Z="2.382826" />
+        <Hotspot X="-122.1458" Y="1943.29" Z="2.379083" />
+        <Hotspot X="-92.40714" Y="1944.395" Z="13.47554" />
+        <Hotspot X="-79.28756" Y="1915.401" Z="13.24181" />
+        <Hotspot X="-102.238" Y="1886.431" Z="13.54396" />
+        <Hotspot X="-126.3708" Y="1883.362" Z="7.47734" />
+        <Hotspot X="-142.1002" Y="1883.223" Z="2.609627" />
+        <Hotspot X="-151.5295" Y="1863.142" Z="2.384385" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="28691" Name="First Lieutenant Connor">
+    <Objective Type="KillMob" MobId="46571" KillCount="1">
+      <Hotspots>
+        <Hotspot X="-596.5239" Y="1715.017" Z="63.88278" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="28693" Name="Finish The Job">
+    <Objective Type="KillMob" MobId="46825" KillCount="5">
+      <Hotspots>
+        <Hotspot X="-321.7532" Y="1664.4" Z="21.55573" />
+        <Hotspot X="-347.3129" Y="1620.103" Z="23.02514" />
+        <Hotspot X="-346.225" Y="1562.062" Z="22.03988" />
+        <Hotspot X="-384.1885" Y="1547.369" Z="22.04987" />
+        <Hotspot X="-410.0397" Y="1589.154" Z="23.8181" />
+        <Hotspot X="-394.0942" Y="1673.138" Z="17.65079" />
+        <Hotspot X="-356.4706" Y="1719.833" Z="22.8211" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="28686" Name="Not The Friendliest Town">
+    <Objective Type="KillMob" MobId="47664" KillCount="14">
+      <Hotspots>
+        <Hotspot X="-76.54547" Y="1346.212" Z="22.04963" />
+        <Hotspot X="-25.19899" Y="1341.452" Z="22.05027" />
+        <Hotspot X="14.76371" Y="1296.069" Z="20.42659" />
+        <Hotspot X="16.10763" Y="1258.006" Z="15.05701" />
+        <Hotspot X="-27.51064" Y="1216.344" Z="15.07817" />
+        <Hotspot X="-13.07056" Y="1164.045" Z="15.08945" />
+        <Hotspot X="-40.21508" Y="1144.721" Z="15.06185" />
+        <Hotspot X="-72.26093" Y="1171.12" Z="15.13031" />
+        <Hotspot X="-139.3597" Y="1188.298" Z="22.04813" />
+        <Hotspot X="-116.9286" Y="1229.621" Z="22.04814" />
+        <Hotspot X="-98.99667" Y="1286.69" Z="22.04827" />
+        <Hotspot X="-106.7051" Y="1307.235" Z="22.24372" />
+        <Hotspot X="-101.667" Y="1313.881" Z="22.04965" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="28678" Name="Captain P. Harris">
+    <Objective Type="KillMob" MobId="47287" KillCount="1">
+      <Hotspots></Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="28684" Name="A Sticky Task">
+    <Objective Type="CollectItem" ItemId="62803" CollectCount="4">
+      <CollectFrom>
+        <Mob Name="Darkwood Broodmother" Id="46507" />
+      </CollectFrom>
+      <Hotspots>
+        <Hotspot X="-207.6771" Y="1456.905" Z="21.38833" />
+        <Hotspot X="-247.3902" Y="1440.89" Z="21.37364" />
+        <Hotspot X="-269.814" Y="1412.113" Z="17.7846" />
+        <Hotspot X="-218.7301" Y="1397.237" Z="19.50704" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+   <Quest Id="28690" Name="Salvaging the Remains" >
+    <Objective Type="CollectItem" ItemId="62808" CollectCount="9">
+      <CollectFrom>
+	<Mob Name="Forgotten Ghoul" Id="46569" />
+      </CollectFrom>
+      <Hotspots>
+           <Hotspot X="-472.3245" Y="1888.093" Z="46.92218" />
+      </Hotspots>
+     </Objective>
+   </Quest>
+      <Quest Id="28680" Name="Boosting Morale">
+	<Objective Type="CollectItem" ItemId="62810" CollectCount="6">
+		<CollectFrom>
+		</CollectFrom>
+		<Hotspots>
+			<Hotspot X="111.2332" Y="1497.821" Z="-5.699194" />
+		</Hotspots>
+	</Objective>
+      </Quest>
+      <Quest Id="28687" Name="Teach A Man To Fish.... Or Steal">
+	<Objective Type="CollectItem" ItemId="63047" CollectCount="22">
+		<CollectFrom>
+		</CollectFrom>
+		<Hotspots>
+		</Hotspots>
+	</Objective>
+      </Quest>
+      <Quest Id="28695" Name="WANTED: Foreman Wellson">
+	<Objective Type="KillMob" MobId="46648" KillCount="1">
+		<Hotspots>
+			<Hotspot X="-208.5763" Y="1912.925" Z="2.382754" />
+		</Hotspots>
+	</Objective>
+      </Quest>
+   <Quest Id="28697" Name="Ghostbuster">
+	<Objective Type="KillMob" MobId="47303" KillCount="14">
+		<Hotspots>
+			<Hotspot X="-174.3984" Y="933.1025" Z="73.1739" />
+			<Hotspot X="-194.2916" Y="909.4731" Z="69.68581" />.
+			<Hotspot X="-244.8554" Y="911.4941" Z="57.44787" />
+			<Hotspot X="-273.0594" Y="963.0284" Z="48.89529" />
+
+		</Hotspots>
+	</Objective>
+      </Quest>
+
+
+  <!-- End of Quest Overrides -->
+ 
+  <QuestOrder>
+                   
+<!-- Tol Barad PVP Zone Quests Collection -->
+	
+	<!-- Private Garnoth (Cursed Depths) -->
+	<While Condition="HasQuestAvailable(48071)" >
+		<CustomBehavior File="InteractWith"  MobId="48071" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton1" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="InteractWith"  MobId="48071" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton2" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="InteractWith"  MobId="48071" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton3" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+	</While>
+
+	<!-- Staff Sergeant Lazgar (The Prison) -->
+	<While Condition="HasQuestAvailable(48062)" >
+		<CustomBehavior File="InteractWith"  MobId="48062" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton1" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="InteractWith"  MobId="48062" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton2" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="InteractWith"  MobId="48062" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton3" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+	</While>
+
+	<!-- Drillmaster Razgoth (D-Block) -->
+	<While Condition="HasQuestAvailable(48070)" >
+		<CustomBehavior File="InteractWith"  MobId="48070" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton1" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="InteractWith"  MobId="48070" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton2" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="InteractWith"  MobId="48070" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton3" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+	</While>
+
+	<!-- Commander Zanoth (Zone Quests) -->
+	<While Condition="HasQuestAvailable(48069)" >
+		<CustomBehavior File="InteractWith"  MobId="48069" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton1" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="InteractWith"  MobId="48069" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton2" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="InteractWith"  MobId="48069" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton3" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+	</While>
+
+<!-- Tol Barad PVP Zone Cursed Depths Quests -->
+
+    <If Condition="HasQuest(28661)">
+    <Objective QuestName="The Imprisoned Archmage" QuestId="28661" Type="CollectItem" ItemId="63033" CollectCount="1" />
+    </If>
+
+    <If Condition="HasQuest(28662)">
+    <Objective QuestName="Learning From The Past" QuestId="28662" Type="CollectItem" ItemId="63034" CollectCount="4" />
+    </If> 
+    
+    <If Condition="HasQuest(28660)">
+    <Objective QuestName="Clearing the Depths" QuestId="28660" Type="KillMob" MobId="47616" KillCount="9" />
+    </If>
+
+<!-- Tol Barad PVP Zone The Hole Quests -->
+
+    <If Condition="HasQuest(28669)">
+    <Objective QuestName="The Warden" QuestId="28669" Type="CollectItem" ItemId="63309" CollectCount="1" />
+    </If>
+
+    <If	Condition="HasQuest(28670)">
+    <Objective QuestName="Food From Below" QuestId="28670" Type="CollectItem" ItemId="63315" CollectCount="12" />
+    </If>      
+       
+    <If Condition="(HasQuest(28668)) &amp;&amp; (!IsQuestCompleted(28668))">              
+    <Objective QuestName="Prison Revolt" QuestId="28668" Type="KillMob" MobId="47550" KillCount="10" />           
+    </If>
+
+<!-- Tol Barad PVP Zone D-Block Quests -->
+
+    <If Condition="HasQuest(28664)">
+    <Objective QuestName="Svarnos" QuestId="28664" Type="CollectItem" ItemId="63143" CollectCount="1" />
+    </If>
+
+    <If Condition="HasQuest(28665)">
+    <Objective QuestName="Cursed Shackles" QuestId="28665" Type="CollectItem" ItemId="63149" CollectCount="8" />
+    </If>
+
+    <If Condition="HasQuest(28663)">
+    <Objective QuestName="D-Block" QuestId="28663" Type="KillMob" MobId="47785" KillCount="10" />
+    </If>
+
+<!-- Tol Barad PVP Zone General Quests -->
+
+    <If Condition="HasQuest(28658)">
+    <Objective QuestName="Swamp Bait" QuestId="28658" Type="CollectItem" ItemId="63103" CollectCount="8" />
+    </If>
+
+    <If Condition="HasQuest(28659)">
+    <Objective QuestName="The Leftovers" QuestId="28659" Type="KillMob" MobId="48144" KillCount="12" />
+    </If>     
+
+    <If	Condition="(HasQuest(28657)) &amp;&amp; (!IsQuestCompleted(28657))">
+      <CustomBehavior File="UserDialog" QuestId="28657" Title="Problim!" AllowBotStop="True" SoundCue="Asterisk" SoundCueInterval="1" Text="If the bot can solo problim click continue, otherwise kill him manually!" />
+      <Objective QuestName="A Huge Problem" QuestId="28657" Type="KillMob" MobId="47593" KillCount="1" />
+    </If> 
+
+<!-- Tol Barad PVP Zone Quest Turn Ins -->
+
+    <If Condition="HasQuest(28661)">
+    <TurnIn QuestName="The Imprisoned Archmage" QuestId="28661" TurnInId="52016" TurnInName="Petty Officer Chulok" X="-621.9375" Y="1405.682" Z="22.13299" />
+    </If>
+    <If Condition="HasQuest(28662)">
+    <TurnIn QuestName="Learning From The Past" QuestId="28662" TurnInId="52016" TurnInName="Petty Officer Chulok" X="-621.9375" Y="1405.682" Z="22.13299" />
+    </If> 
+    <If Condition="HasQuest(28660)">
+    <TurnIn QuestName="Clearing the Depths" QuestId="28660" TurnInId="52016" TurnInName="Petty Officer Chulok" X="-621.9375" Y="1405.682" Z="22.13299" />
+    </If>
+    <If Condition="HasQuest(28669)">
+    <TurnIn QuestName="The Warden" QuestId="28669" TurnInId="52016" TurnInName="Petty Officer Chulok" X="-621.9375" Y="1405.682" Z="22.13299" />
+    </If>
+    <If	Condition="HasQuest(28670)">
+    <TurnIn QuestName="Food From Below" QuestId="28670" TurnInId="52016" TurnInName="Petty Officer Chulok" X="-621.9375" Y="1405.682" Z="22.13299" />
+    </If>      
+    <If Condition="HasQuest(28668)">              
+    <TurnIn QuestName="Prison Revolt" QuestId="28668" TurnInId="52016" TurnInName="Petty Officer Chulok" X="-621.9375" Y="1405.682" Z="22.13299" />
+    </If>
+    <If Condition="HasQuest(28664)">
+    <TurnIn QuestName="Svarnos" QuestId="28664" TurnInId="52016" TurnInName="Petty Officer Chulok" X="-621.9375" Y="1405.682" Z="22.13299" />
+    </If>
+    <If Condition="HasQuest(28665)">
+    <TurnIn QuestName="Cursed Shackles" QuestId="28665" TurnInId="52016" TurnInName="Petty Officer Chulok" X="-621.9375" Y="1405.682" Z="22.13299" />
+    </If>
+    <If Condition="HasQuest(28663)">
+    <TurnIn QuestName="D-Block" QuestId="28663" TurnInId="52016" TurnInName="Petty Officer Chulok" X="-621.9375" Y="1405.682" Z="22.13299" />
+    </If>
+    <If Condition="HasQuest(28658)">
+    <TurnIn QuestName="Swamp Bait" QuestId="28658" TurnInId="52016" TurnInName="Petty Officer Chulok" X="-621.9375" Y="1405.682" Z="22.13299" />
+    </If>
+    <If Condition="HasQuest(28659)">
+    <TurnIn QuestName="The Leftovers" QuestId="28659" TurnInId="52016" TurnInName="Petty Officer Chulok" X="-621.9375" Y="1405.682" Z="22.13299" />
+    </If>     
+    <If Condition="HasQuest(28657)">
+    <TurnIn QuestName="A Huge Problem" QuestId="28657" TurnInId="52016" TurnInName="Petty Officer Chulok" X="-621.9375" Y="1405.682" Z="22.13299" />
+    </If> 
+
+<!-- Tol Barad Peninsula Quests Collection -->
+
+	<!-- Private Sarlosk (Wellson Shipyard/Largo's Overlook Quests)-->
+	<While Condition="HasQuestAvailable(48361)" >
+		<CustomBehavior File="InteractWith"  MobId="48361" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton1" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="InteractWith"  MobId="48361" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton2" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="InteractWith"  MobId="48361" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton3" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+	</While>
+
+	<!-- 3rd Officer Kronkar (Darkwood/Cape of Lost Hope Quests)-->
+	<While Condition="HasQuestAvailable(48360)" >
+		<CustomBehavior File="InteractWith"  MobId="48360" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton1" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="InteractWith"  MobId="48360" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton2" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="InteractWith"  MobId="48360" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton3" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+	</While>
+	
+	<!-- Commander Larmash (Farson Hold/Rustberg Village Quests)-->
+	<While Condition="HasQuestAvailable(48358)" >
+		<CustomBehavior File="InteractWith"  MobId="48358" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton1" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="InteractWith"  MobId="48358" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton2" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="InteractWith"  MobId="48358" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton3" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+	</While>
+
+	<!-- Captain Prug (Restless Front/Forgotten Hill Quests)-->
+	<While Condition="HasQuestAvailable(48363)" >
+		<CustomBehavior File="InteractWith"  MobId="48363" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton1" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="InteractWith"  MobId="48363" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton2" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="InteractWith"  MobId="48363" NumOfTimes="1" CollectionDistance="200" WaitTime="1000" X="-1226.825" Y="982.4016" Z="119.5738" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestTitleButton3" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/click QuestFrameAcceptButton" NumOfTimes="1" WaitTime="1000" />
+	</While>
+
+<!-- Tol Barad Peninsula Restless Front Quests -->
+
+    <If	Condition="HasQuest(28693)">
+    <Objective QuestName="Finish The Job" QuestId="28693" Type="KillMob" MobId="46825" KillCount="5" />
+    </If>
+
+    <If Condition="(HasQuest(28692)) &amp;&amp; (!IsQuestCompleted(28692))">
+	<RunTo QuestId="28692" X="-479.493" Y="1496.731" Z="22.04999" />
+	<SetGrindArea>
+		<GrindArea>	   
+			<TargetMinLevel>69</TargetMinLevel>
+			<TargetMaxLevel>72</TargetMaxLevel>	   
+			<Factions>99999</Factions>
+			<MaxDistance>5</MaxDistance>			
+			<Hotspots>
+				<Hotspot X="-416.3247" Y="1627.922" Z="18.6334" />
+				<Hotspot X="-389.4782" Y="1704.183" Z="22.93213" />
+				<Hotspot X="-343.3387" Y="1667.502" Z="18.67511" />
+				<Hotspot X="-383.1958" Y="1571.85" Z="17.67239" />
+				<Hotspot X="-435.726" Y="1564.318" Z="22.55359" />
+				<Hotspot X="-472.5818" Y="1551.988" Z="19.72695" />
+				<Hotspot X="-495.6822" Y="1519.871" Z="18.91129" />
+			</Hotspots>
+		</GrindArea>
+	</SetGrindArea>
+	<GrindTo Condition="IsQuestCompleted(28692)"/>
+    </If> 
+
+<!-- Tol Barad Peninsula Forgotten Hill Quests -->
+
+    <If	Condition="HasQuest(28691)">
+    <Objective QuestName="First Lieutenant Connor" QuestId="28691" Type="KillMob" MobId="46571" KillCount="1" />
+    </If>
+
+    <If Condition="HasQuest(28689)">
+    <Objective QuestName="The Forgotten" QuestId="28689" Type="UseObject" ObjectId="206570" UseCount="6" />	  
+    </If>  
+
+    <If Condition="HasQuest(28690)">
+    <Objective QuestName="Salvaging the Remains" QuestId="28690" Type="CollectItem" ItemId="62808" CollectCount="9" />
+    </If>
+
+<!-- Tol Barad Peninsula Wellson Shipyard Quests -->
+
+    <If Condition="HasQuest(28695)">
+    <Objective QuestName="WANTED: Foreman Wellson" QuestId="28695" Type="KillMob" MobId="46648" KillCount="1" />
+    </If>
+
+    <If	Condition="(HasQuest(28696)) &amp;&amp; (!IsQuestCompleted(28696))">
+	<RunTo QuestId="28696" X="-71.36874" Y="2016.021" Z="7.228687" />
+        <CustomBehavior File="NoControlVehicle" NpcMountId="48283" QuestId="28696" TargetId="48286" NumOfTimes="10" AttackIndex="1" HomeIndex="1" MaxRange="200" WaitTime="2000" />
+    </If>
+
+    <If	Condition="HasQuest(28694)">
+    <Objective QuestName="Watch Out For Splinters!" QuestId="28694" Type="CollectItem" ItemId="62811" CollectCount="15" />
+    </If>
+
+
+<!-- Tol Barad Peninsula Farson Keep Quests -->
+
+    <If Condition="HasQuest(28682)">              
+    <Objective QuestName="Claiming The Keep" QuestId="28682" Type="KillMob" MobId="47447" KillCount="1" />
+    </If>    
+
+    <If	Condition="(HasQuest(28721)) &amp;&amp; (!IsQuestCompleted(28721))">
+    <RunTo QuestId="28721" X="24.51268" Y="1728.881" Z="28.21425"  />
+    <CustomBehavior File="InteractWith" QuestId="28721" MobId="48309" NumOfTimes="1" CollectionDistance="50" ObjectType="Npc"  X="19.70313" Y="1733.854" Z="28.21435" /> 
+    <CustomBehavior File="FollowNpcUntil" NpcId="49443" Location="21.19097 1728.368 36.44616" EndNpcId="48325" />               
+    </If>
+
+    <If Condition="HasQuest(28685)">
+    <Objective QuestName="Leave No Weapon Behind" QuestId="28685" Type="CollectItem" ItemId="62921" CollectCount="12" />  
+    </If>
+
+<!-- Tol Barad Peninsula Cape of Lost Hope Quests -->
+
+    <If Condition="HasQuest(28678)">              
+    <Objective QuestName="Captain P. Harris" QuestId="28678" Type="KillMob" MobId="47287" KillCount="1" />           
+    </If>            
+
+    <If Condition="HasQuest(28680)">
+    <Objective QuestName="Boosting Morale" QuestId="28680" Type="CollectItem" ItemId="62810" CollectCount="6" />
+    </If>
+
+    <If Condition="HasQuest(28679)">
+    <Objective QuestName="Rattling Their Cages" QuestId="28679" Type="KillMob" MobId="46605" KillCount="8" />
+    </If> 
+
+    <If	Condition="(HasQuest(28681) &amp;&amp; (!IsQuestCompleted(28681))">
+    <RunTo QuestId="28681" X="88.00489" Y="1511.841" Z="-1.689145" />
+    <CustomBehavior File="UserDialog" QuestId="28681" Title="Shark Tank!" AllowBotStop="True" SoundCue="Asterisk" SoundCueInterval="1" Text="Kill the big shark manually, or if you think your OP enough to let the bot try click continue!" />
+    <Objective QuestName="Shark Tank" QuestId="28681" Type="KillMob" MobId="46608" KillCount="1" />
+    </If>
+
+<!-- Tol Barad Peninsula Rustberg Village Quests -->
+
+    <If	Condition="HasQuest(28686)">
+    <Objective QuestName="Not The Friendliest Town" QuestId="28686" Type="KillMob" MobId="47664" KillCount="14" />
+    </If>
+
+    <If Condition="HasQuest(28687)">
+    <Objective QuestName="Teach A Man To Fish.... Or Steal" QuestId="28687" Type="CollectItem" ItemId="63047" CollectCount="22" />
+    </If>
+
+<!-- Tol Barad Peninsula Largo's Overlook Quests -->
+
+    <If	Condition="HasQuest(28697)">
+    <Objective QuestName="Ghostbuster" QuestId="28697" Type="KillMob" MobId="47303" KillCount="14" />
+    </If>
+
+    <If Condition="HasQuest(28698)">
+    <Objective QuestName="Cannonball!" QuestId="28698" Type="CollectItem" ItemId="62818" CollectCount="4" />
+    </If>
+
+    <If Condition="HasQuest(28700)">
+    <RunTo QuestId="28700" X="-138.4662" Y="979.1539" Z="87.69501"   />
+    <RunTo QuestId="28700" X="-145.4489" Y="966.5018" Z="94.18975"   />
+    <RunTo QuestId="28700" X="-138.581" Y="979.7453" Z="104.5119"    />
+    <RunTo QuestId="28700" X="-151.3855" Y="972.588" Z="114.507"   />
+    <RunTo QuestId="28700" X="-140.6374" Y="977.4236" Z="119.1457"    />
+    <Objective QuestName="Taking the Overlook Back" QuestId="28700" Type="KillMob" MobId="47304" KillCount="1" />
+    </If>
+
+<!-- Tol Barad Peninsula Darkwood Quests -->
+
+    <If	Condition="HasQuest(28684)">
+    <Objective QuestName="A Sticky Task" QuestId="28684" Type="CollectItem" ItemId="62803" CollectCount="4" />
+    </If>
+
+    <If	Condition="HasQuest(28683)">
+    <Objective QuestName="Thinning the Brood" QuestId="28683" Type="KillMob" MobId="46508" KillCount="12" />
+    </If>
+
+<!-- Tol Barad Peninsula Quest Turn Ins -->
+	
+    <RunTo X="-594.509" Y="1403.89" Z="21.39922" />
+
+    <If	Condition="HasQuest(28689)">
+    <TurnIn QuestName="The Forgotten" QuestId="28689" TurnInId="48363" TurnInName="Captain Prug" X="-594.509" Y="1403.89" Z="21.39922" />
+    </If>
+    <If	Condition="HasQuest(28690)">
+    <TurnIn QuestName="Salvaging the Remains" QuestId="28690" TurnInId="48363" TurnInName="Captain Prug" X="-594.509" Y="1403.89" Z="21.39922" />
+    </If>
+    <If	Condition="HasQuest(28691)">
+    <TurnIn QuestName="First Lieutenant Connor" QuestId="28691" TurnInId="48363" TurnInName="Captain Prug" X="-594.509" Y="1403.89" Z="21.39922" />
+    </If>
+    <If Condition="((HasQuest(28692)) &amp;&amp; (IsQuestCompleted(28692)))">
+    <TurnIn QuestName="Magnets, How Do They Work?" QuestId="28692" TurnInId="48363" TurnInName="Captain Prug" X="-594.509" Y="1403.89" Z="21.39922" />
+    </If> 
+    <If	Condition="HasQuest(28693)">
+    <TurnIn QuestName="Finish The Job" QuestId="28693" TurnInId="48363" TurnInName="Captain Prug" X="-594.509" Y="1403.89" Z="21.39922" />
+    </If>
+    <If	Condition="HasQuest(28694)">
+    <TurnIn QuestName="Watch Out For Splinters!" QuestId="28694" TurnInId="48361" TurnInName="Private Sarlosk"  X="-584.285" Y="1387.62" Z="22.81599" />
+    </If>
+    <If	Condition="HasQuest(28695)">
+    <TurnIn QuestName="WANTED: Foreman Wellson" QuestId="28695" TurnInId="48361" TurnInName="Private Sarlosk"  X="-584.285" Y="1387.62" Z="22.81599" />
+    </If>
+    <If	Condition="HasQuest(28696)">
+    <TurnIn QuestName="Bomb's Away!" QuestId="28696" TurnInId="48361" TurnInName="Private Sarlosk"  X="-584.285" Y="1387.62" Z="22.81599" />
+    </If>
+    <If	Condition="HasQuest(28697)">
+    <TurnIn QuestName="Ghostbuster" QuestId="28697" TurnInId="48361" TurnInName="Private Sarlosk"  X="-584.285" Y="1387.62" Z="22.81599" />
+    </If>
+    <If	Condition="HasQuest(28698)">
+    <TurnIn QuestName="Cannonball!" QuestId="28698" TurnInId="48361" TurnInName="Private Sarlosk"  X="-584.285" Y="1387.62" Z="22.81599" />
+    </If>
+    <If Condition="HasQuest(28700)">
+    <TurnIn QuestName="Taking the Overlook Back" QuestId="28700" TurnInId="48361" TurnInName="Private Sarlosk"  X="-584.285" Y="1387.62" Z="22.81599" />
+    </If>
+    <If Condition="HasQuest(28678)">
+    <TurnIn QuestName="Captain P. Harris" QuestId="28678" TurnInId="48360" TurnInName="3rd Officer Kronkar" X="-619.2344" Y="1397.754" Z="22.04972" />
+    </If> 
+    <If Condition="HasQuest(28679)">
+    <TurnIn QuestName="Rattling Their Cages" QuestId="28679" TurnInId="48360" TurnInName="3rd Officer Kronkar" X="-619.2344" Y="1397.754" Z="22.04972" />
+    </If> 
+    <If Condition="HasQuest(28680)">
+    <TurnIn QuestName="Boosting Morale" QuestId="28680" TurnInId="48360" TurnInName="3rd Officer Kronkar" X="-619.2344" Y="1397.754" Z="22.04972" />
+    </If> 
+    <If Condition="HasQuest(28681) &amp;&amp; IsQuestCompleted(28681)">
+    <TurnIn QuestName="Shark Tank" QuestId="28691" TurnInId="48360" TurnInName="3rd Officer Kronkar" X="-619.2344" Y="1397.754" Z="22.04972" />
+    </If> 
+    <If Condition="HasQuest(28683)">
+    <TurnIn QuestName="Thinning the Brood" QuestId="28683" TurnInId="48360" TurnInName="3rd Officer Kronkar" X="-619.2344" Y="1397.754" Z="22.04972" />
+    </If> 
+    <If Condition="HasQuest(28684)">
+    <TurnIn QuestName="A Sticky Task" QuestId="28684" TurnInId="48360" TurnInName="3rd Officer Kronkar" X="-619.2344" Y="1397.754" Z="22.04972" />
+    </If> 
+    <If Condition="HasQuest(28682)">              
+    <TurnIn QuestName="Claiming The Keep" QuestId="28682" TurnInId="48358" TurnInName="Commander Larmash" X="-609.971" Y="1428.8" Z="22.04976" />
+    </If>   
+    <If Condition="HasQuest(28685)">
+    <TurnIn QuestName="Leave No Weapon Behind" QuestId="28685" TurnInId="48358" TurnInName="Commander Larmash" X="-609.971" Y="1428.8" Z="22.04976" />
+    </If> 
+    <If Condition="HasQuest(28686)">
+    <TurnIn QuestName="Not The Friendliest Town" QuestId="28686" TurnInId="48358" TurnInName="Commander Larmash" X="-609.971" Y="1428.8" Z="22.04976" />
+    </If>
+    <If Condition="HasQuest(28687)">
+    <TurnIn QuestName="Teach A Man To Fish.... Or Steal" QuestId="28687" TurnInId="48358" TurnInName="Commander Larmash" X="-609.971" Y="1428.8" Z="22.04976" />
+    </If> 
+    <If Condition="HasQuest(28721)">
+    <TurnIn QuestName="Walk A Mile In Their Shoes" QuestId="28721" TurnInId="48358" TurnInName="Commander Larmash" X="-609.971" Y="1428.8" Z="22.04976" />
+    </If> 
+
+ </QuestOrder> 
+</HBProfile>
