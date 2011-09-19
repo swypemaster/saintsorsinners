@@ -1,0 +1,260 @@
+<HBProfile>
+	<Name>[H] Eastern Kingdoms Midsummer Festival - Flame Keeper and Extinguishing [JWLionKing]</Name>
+	<MinLevel>1</MinLevel>
+	<MaxLevel>86</MaxLevel>
+	
+	<MinDurability>0.1</MinDurability>
+	<MinFreeBagSlots>1</MinFreeBagSlots>
+		
+	<QuestOrder>
+				<!-- 1  Stranglethorn Vale Booty Bay at 33,74 (neutral) //  Northern Stranglethorn vale NOT LISTED IDFKY -->
+
+				<CustomBehavior File="FlyTo" DestName="Stranglethorn Vale Flame Keeper" X="-14360.99" Y="114.5278" Z="0.9033905" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="25920" X="-14368.78" Y="119.6215" Z="1.087585" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<CustomBehavior File="FlyTo" DestName="Stranglethorn Vale Alliance Bonfire" X="-14287.74" Y="68.18498" Z="1.823983" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="187944" ObjectType="Gameobject" WaitTime="3000" X="-14287.74" Y="68.18498" Z="1.823983" />
+				<CustomBehavior File="InteractWith" MobId="187944" ObjectType="Gameobject" WaitTime="3000" X="-14287.74" Y="68.18498" Z="1.823983" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 2  Northern Stranglethorn vale NOT LISTED IDFKY -->
+
+ 				<CustomBehavior File="FlyTo" DestName="Northern Stranglethorn Vale Flame Keeper" X="-12402.84" Y="79.91936" Z="4.696585" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="51582" X="-12409.23" Y="79.92014" Z="4.92805" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<CustomBehavior File="FlyTo" DestName="Northern Stranglethorn Vale Alliance Bonfire" X="-12741.85" Y="-372.3109" Z="13.137" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="207982" ObjectType="Gameobject" WaitTime="3000" X="-12741.85" Y="-372.3109" Z="13.137" />
+				<CustomBehavior File="InteractWith" MobId="207982" ObjectType="Gameobject" WaitTime="3000" X="-12741.85" Y="-372.3109" Z="13.137" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 3  Swamp of Sorrows Bogpaddle at 70,14 (Alliance) and Bogpaddle at 76,14 (Horde) -->
+
+				<CustomBehavior File="FlyTo" DestName="Swamp of Sorrows Flame Keeper" X="-9764.445" Y="-4000.043" Z="23.47428" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="25941" X="-9765.788" Y="-3995.552" Z="23.45237" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<CustomBehavior File="FlyTo" DestName="Swamp of Sorrows Alliance Bonfire" X="-9785.081" Y="-3841.143" Z="22.33525" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="207988" ObjectType="Gameobject" WaitTime="3000" X="-9785.081" Y="-3841.143" Z="22.33525" />
+				<CustomBehavior File="InteractWith" MobId="207988" ObjectType="Gameobject" WaitTime="3000" X="-9785.081" Y="-3841.143" Z="22.33525" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 4  Blasted Lands Nethergarde Keep at 58,17 (Alliance) -->
+
+				<CustomBehavior File="FlyTo" DestName="Blasted Lands Flame Keeper" X="-10922.54" Y="-2891.05" Z="11.68553" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="51603" X="-10919.63" Y="-2886.637" Z="12.0986" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<CustomBehavior File="FlyTo" DestName="Blasted Lands Alliance Bonfire" X="-10959.63" Y="-3213.38" Z="41.34706" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="187920" ObjectType="Gameobject" WaitTime="3000" X="-10959.63" Y="-3213.38" Z="41.34706" />
+				<CustomBehavior File="InteractWith" MobId="187920" ObjectType="Gameobject" WaitTime="3000" X="-10959.63" Y="-3213.38" Z="41.34706" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 5   Duskwood Darkshire at 73,54 (Alliance) -->
+
+				<CustomBehavior File="FlyTo" DestName="Duskwood Alliance Bonfire" X="-10703.05" Y="-1139.451" Z="25.59439" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="187926" ObjectType="Gameobject" WaitTime="3000" X="-10703.05" Y="-1139.451" Z="25.59439" />
+				<CustomBehavior File="InteractWith" MobId="187926" ObjectType="Gameobject" WaitTime="3000" X="-10703.05" Y="-1139.451" Z="25.59439" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 6  Westfall Moonbrook (Alliance) -->
+ 
+				<CustomBehavior File="FlyTo" DestName="Westfall Alliance Bonfire" X="-10853.46" Y="1430.448" Z="43.67023" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="187564" ObjectType="Gameobject" WaitTime="3000" X="-10853.46" Y="1430.448" Z="43.67023" />
+				<CustomBehavior File="InteractWith" MobId="187564" ObjectType="Gameobject" WaitTime="3000" X="-10853.46" Y="1430.448" Z="43.67023" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 7   Elwynn Forest Goldshire at 43,63 (Alliance) -->
+
+				<CustomBehavior File="FlyTo" DestName="Elwynn Forest Alliance Bonfire" X="-9385.927" Y="43.71721" Z="60.04051" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="187928" ObjectType="Gameobject" WaitTime="3000" X="-9385.927" Y="43.71721" Z="60.04051" />
+				<CustomBehavior File="InteractWith" MobId="187928" ObjectType="Gameobject" WaitTime="3000" X="-9385.927" Y="43.71721" Z="60.04051" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 8 "Now might be a good time to do stormwind" -->
+
+				<!-- <CustomBehavior File="FlyTo" DestName="Very high locatin above Stormwind" X="-8836.034" Y="849.2586" Z="385.1377" /> -->
+ 				<!-- <CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="Desecrate the Stormwind Bonfire...  Hit Continue Profile when complete.\n\nEnd of Line" /> -->
+
+				<!-- 9 Redridge Mountains Lakeshire at 26,60 (Alliance) -->
+
+				<CustomBehavior File="FlyTo" DestName="Redridge Mountains Alliance Bonfire" X="-9444.439" Y="-2110.018" Z="67.74387" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="187934" ObjectType="Gameobject" WaitTime="3000" X="-9444.439" Y="-2110.018" Z="67.74387" />
+				<CustomBehavior File="InteractWith" MobId="187934" ObjectType="Gameobject" WaitTime="3000" X="-9444.439" Y="-2110.018" Z="67.74387" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 10 Burning Steppes Morgan's Vigil at 81,63 (Alliance) and Flaming Crest at 61,30 (Horde)s -->
+
+				<CustomBehavior File="FlyTo" DestName="Burning Steppes Flame Keeper" X="-7606.324" Y="-2077.865" Z="127.0102" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="25927" X="-7598.53" Y="-2075.668" Z="127.0015" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<CustomBehavior File="FlyTo" DestName="Burning Steppes Alliance Bonfire" X="-8245.924" Y="-2633.022" Z="133.1549" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="187922" ObjectType="Gameobject" WaitTime="3000" X="-8245.924" Y="-2633.022" Z="133.1549" />
+				<CustomBehavior File="InteractWith" MobId="187922" ObjectType="Gameobject" WaitTime="3000" X="-8245.924" Y="-2633.022" Z="133.1549" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 11 Badlands Kargath at 4,50 (Horde) -->
+
+				<CustomBehavior File="FlyTo" DestName="Badlands Flame Keeper" X="-6624.367" Y="-2611.276" Z="263.9836" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="25925" X="-6619.821" Y="-2611.186" Z="265.2599" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<CustomBehavior File="FlyTo" DestName="Badlands Alliance Bonfire" X="-7001.897" Y="-2465.89" Z="241.7353" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="207984" ObjectType="Gameobject" WaitTime="3000" X="-7001.897" Y="-2465.89" Z="241.7353" />
+				<CustomBehavior File="InteractWith" MobId="207984" ObjectType="Gameobject" WaitTime="3000" X="-7001.897" Y="-2465.89" Z="241.7353" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 12  Loch Modan Thelsamar at 32,40 (Alliance) -->
+ 
+				<CustomBehavior File="FlyTo" DestName="Loch Modan Alliance Bonfire" X="-5223.937" Y="-2890.189" Z="338.0413" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="187932" ObjectType="Gameobject" WaitTime="3000" X="-5223.937" Y="-2890.189" Z="338.0413" />
+				<CustomBehavior File="InteractWith" MobId="187932" ObjectType="Gameobject" WaitTime="3000" X="-5223.937" Y="-2890.189" Z="338.0413" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 13 Dun Morogh Kharanos at 46,47 (Alliance) -->
+
+				<CustomBehavior File="FlyTo" DestName="Dun Morogh Alliance Bonfire" X="-5408.938" Y="-500.9997" Z="395.3862" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="187925" ObjectType="Gameobject" WaitTime="3000" X="-5408.938" Y="-500.9997" Z="395.3862" />
+				<CustomBehavior File="InteractWith" MobId="187925" ObjectType="Gameobject" WaitTime="3000" X="-5408.938" Y="-500.9997" Z="395.3862" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 14 "Now is a good time to do Ironforge." -->
+	
+				<!-- <CustomBehavior File="FlyTo" DestName="Location by Ironforge" X="-5050.833" Y="-803.1859" Z="526.9542" /> -->
+
+
+				<!-- <CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="Desecrate the Ironforge Bonfire...  Hit Continue Profile when complete\n\nEnd of Line" /> -->
+
+				<!-- 15 Wetlands Menethil Harbor at 13,47 (Alliance) -->
+
+				<CustomBehavior File="FlyTo" DestName="Wetlands Alliance Bonfire" X="-3452.087" Y="-943.5763" Z="10.19303" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="187940" ObjectType="Gameobject" WaitTime="3000" X="-3452.087" Y="-943.5763" Z="10.19303" />
+				<CustomBehavior File="InteractWith" MobId="187940" ObjectType="Gameobject" WaitTime="3000" X="-3452.087" Y="-943.5763" Z="10.19303" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 16  Arathi Highlands Refuge Point at 50,44 (Alliance) and Hammerfall at 73,41 (Horde) -->
+
+				<CustomBehavior File="FlyTo" DestName="Arathi Highlands Flame Keeper" X="-1133.373" Y="-3545.682" Z="50.76237" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="25923" X="-1128.568" Y="-3538.506" Z="50.93125" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<CustomBehavior File="FlyTo" DestName="Arathi Highlands Alliance Bonfire" X="-1204.648" Y="-2681.033" Z="45.03701" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="187914" ObjectType="Gameobject" WaitTime="3000" X="-1204.648" Y="-2681.033" Z="45.03701" />
+				<CustomBehavior File="InteractWith" MobId="187914" ObjectType="Gameobject" WaitTime="3000" X="-1204.648" Y="-2681.033" Z="45.03701" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 17 The Hinterlands Aerie Peak at 14,50 (Alliance) and Revantusk Village at 76,74 (Horde) -->
+
+				<CustomBehavior File="FlyTo" DestName="The Hinterlands Flame Keeper" X="-460.0365" Y="-4519.641" Z="10.52444"  />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="25944" X="-457.3177" Y="-4525.641" Z="9.744373" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<CustomBehavior File="FlyTo" DestName="The Hinterlands Alliance Bonfire" X="191.0187" Y="-2140.386" Z="103.0211" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="187938" ObjectType="Gameobject" WaitTime="3000" X="191.0187" Y="-2140.386" Z="103.0211" />
+				<CustomBehavior File="InteractWith" MobId="187938" ObjectType="Gameobject" WaitTime="3000" X="191.0187" Y="-2140.386" Z="103.0211" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 18 Hillsbrad Foothills Tarren Mill at 58,25 (Horde). -->
+
+				<CustomBehavior File="FlyTo" DestName="Hillsbrad Flame Keeper" X="-149.0607" Y="-801.366" Z="55.60014" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="25935" X="-142.5086" Y="-807.7792" Z="55.3937" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 19 Silverpine Forest The Sepulcher at 50,39 (Horde) -->
+ 
+				<CustomBehavior File="FlyTo" DestName="Borean Tundra Flame Keeper" X="601.285" Y="1369.828" Z="88.59108" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="25939" X="596.5018" Y="1365.424" Z="88.99671" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 20 Tirisfal Glades Brill at 57,52 (Horde) -->
+  
+				<CustomBehavior File="FlyTo" DestName="Tirisfal Glades Flame Keeper" X="2271.473" Y="440.4063" Z="34.05342" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="25946" X="2278.419" Y="447.4809" Z="34.03791" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 21 Western Plaguelands Chillwind Camp at 43,82 (Alliance) -->
+
+				<CustomBehavior File="FlyTo" DestName="Western Plaguelands Alliance Bonfire" X="1003.203" Y="-1464.7" Z="61.11638" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="187939" ObjectType="Gameobject" WaitTime="3000" X="1003.203" Y="-1464.7" Z="61.11638" />
+				<CustomBehavior File="InteractWith" MobId="187939" ObjectType="Gameobject" WaitTime="3000" X="1003.203" Y="-1464.7" Z="61.11638" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 22 Eversong Woods Falconwing Square at 46,50 (Horde) -->
+
+				<CustomBehavior File="FlyTo" DestName="Orb of Translocation to get to Silvermoon" X="1805.847" Y="339.9796" Z="70.66013" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="184503" ObjectType="Gameobject" WaitTime="3000" X="1805.848" Y="348.8648" Z="70.87273" />
+
+				<CustomBehavior File="UserSettings" UseMount="True" />
+
+				<RunTo DestName="Eversong Woods Flame Keeper" X="9379.889" Y="-6777.999" Z="13.75747" />
+				<CustomBehavior File="InteractWith" MobId="25931" X="9380.33" Y="-6772.758" Z="14.02327" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<!-- 23 Ghostlands Tranquillien at 47,26 (Horde) -->
+
+				<RunTo DestName="Ghostlands Flame Keeper" X="7686.156" Y="-6825.024" Z="76.75597" />
+				<CustomBehavior File="InteractWith" MobId="25933" X="7687.182" Y="-6831.155" Z="78.4779" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="All Quests Complete!" />
+	</QuestOrder>
+</HBProfile>

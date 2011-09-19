@@ -1,0 +1,142 @@
+<HBProfile>
+	<Name>[H] Northrend Midsummer Festival - Flame Keeper and Extinguishing [JWLionKing]</Name>
+	<MinLevel>1</MinLevel>
+	<MaxLevel>86</MaxLevel>
+	
+	<MinDurability>0.1</MinDurability>
+	<MinFreeBagSlots>1</MinFreeBagSlots>
+		
+	<QuestOrder>
+				<!-- Stop and start support by Megser -->
+				<!-- 1 Borean tundra Fizzcrank -->
+
+		<If Condition="Me.ZoneId == 3537">
+				<CustomBehavior File="FlyTo" DestName="Borean Tundra Flame Keeper" X="4451.295" Y="5618.23" Z="56.24431" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="32809" X="4454.667" Y="5623.537" Z="56.83318" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<CustomBehavior File="FlyTo" DestName="Borean Tundra Alliance Bonfire" X="4118.861" Y="5394.097" Z="28.70269" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="194032" ObjectType="Gameobject" WaitTime="3000" X="4118.861" Y="5394.097" Z="28.70269" />
+				<CustomBehavior File="InteractWith" MobId="194032" ObjectType="Gameobject" WaitTime="3000" X="4118.861" Y="5394.097" Z="28.70269" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+			</If>
+				<!-- 2 Scholozar -->
+
+		<If Condition="Me.ZoneId == 3537">
+				<CustomBehavior File="FlyTo" DestName="Scholozar Flame Keeper" X="5494.83" Y="4877.566" Z="-198.7554" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="32810" X="5499.812" Y="4878.976" Z="-197.9481" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<CustomBehavior File="FlyTo" DestName="Scholozar Alliance Bonfire" X="5372.201" Y="4840.562" Z="-197.7454" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="194035" ObjectType="Gameobject" WaitTime="3000" X="5372.201" Y="4840.562" Z="-197.7454" />
+				<CustomBehavior File="InteractWith" MobId="194035" ObjectType="Gameobject" WaitTime="3000" X="5372.201" Y="4840.562" Z="-197.7454" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+			</If>
+				<!-- 3 Dragonblight -->
+
+		<If Condition="Me.ZoneId == 3711">
+				<CustomBehavior File="FlyTo" DestName="Dragonblight Flame Keeper" X="3757.379" Y="1479.598" Z="92.88179" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="32811" X="3762.387" Y="1481.287" Z="92.80493" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<CustomBehavior File="FlyTo" DestName="Dragonblight Alliance Bonfire" X="3942.364" Y="-589.2618" Z="240.8562" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="194036" ObjectType="Gameobject" WaitTime="3000" X="3942.364" Y="-589.2618" Z="240.8562" />
+				<CustomBehavior File="InteractWith" MobId="194036" ObjectType="Gameobject" WaitTime="3000" X="3942.364" Y="-589.2618" Z="240.8562" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+			</If>
+				<!-- 4 CrystalSong -->
+
+		<If Condition="Me.ZoneId == 65">
+				<CustomBehavior File="FlyTo" DestName="CrystalSong Flame Keeper" X="5529.39" Y="-734.8026" Z="149.2914" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="32815" X="5536.516" Y="-733.7185" Z="149.539" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<CustomBehavior File="FlyTo" DestName="CrystalSong Alliance Bonfire" X="5147.754" Y="-673.2339" Z="169.2083" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="194045" ObjectType="Gameobject" WaitTime="3000" X="5147.754" Y="-673.2339" Z="169.2083" />
+				<CustomBehavior File="InteractWith" MobId="194045" ObjectType="Gameobject" WaitTime="3000" X="5147.754" Y="-673.2339" Z="169.2083" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+			</If>
+				<!-- 5 Storm Peaks -->
+
+		<If Condition="Me.ZoneId == 2817">
+				<CustomBehavior File="FlyTo" DestName="Storm Peaks Flame Keeper" X="6150.634" Y="-1016.056" Z="407.3844" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="32814" X="6150.945" Y="-1023.05" Z="408.2813" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<CustomBehavior File="FlyTo" DestName="Storm Peaks Alliance Bonfire" X="6076.708" Y="-1097.97" Z="417.9569" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="194044" ObjectType="Gameobject" WaitTime="3000" X="6076.708" Y="-1097.97" Z="417.9569" />
+				<CustomBehavior File="InteractWith" MobId="194044" ObjectType="Gameobject" WaitTime="3000" X="6076.708" Y="-1097.97" Z="417.9569" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+			</If>
+				<!-- 6 Zul Drak -->
+
+		<If Condition="Me.ZoneId == 67">
+				<CustomBehavior File="FlyTo" DestName="Zul Drak Flame Keeper" X="5276.872" Y="-2762.277" Z="292.4186" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="32816" X="5280.307" Y="-2766.146" Z="292.4189" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<CustomBehavior File="FlyTo" DestName="Zul Drak Alliance Bonfire" X="5634.197" Y="-2615.107" Z="292.4192" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="194049" ObjectType="Gameobject" WaitTime="3000" X="5634.197" Y="-2615.107" Z="292.4192" />
+				<CustomBehavior File="InteractWith" MobId="194049" ObjectType="Gameobject" WaitTime="3000" X="5634.197" Y="-2615.107" Z="292.4192" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+			</If>
+				<!-- 7 Grizzly Hills -->
+
+		<If Condition="Me.ZoneId == 66">
+				<CustomBehavior File="FlyTo" DestName="Grizzly Hills Flame Keeper" X="3381.781" Y="-2124.804" Z="123.9029" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="32813" X="3376.009" Y="-2124.778" Z="124.5812" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<CustomBehavior File="FlyTo" DestName="Grizzly Hills Alliance Bonfire" X="3388.24" Y="-2895.543" Z="201.5116" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="194040" ObjectType="Gameobject" WaitTime="3000" X="3388.24" Y="-2895.543" Z="201.5116" />
+				<CustomBehavior File="InteractWith" MobId="194040" ObjectType="Gameobject" WaitTime="3000" X="3388.24" Y="-2895.543" Z="201.5116" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+			</If>
+				<!-- 8 Howling Fjord -->
+
+		<If Condition="Me.ZoneId == 394">
+				<CustomBehavior File="FlyTo" DestName="Howling Fjord Flame Keeper" X="2588.207" Y="-4343.252" Z="275.6232" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="32812" X="2586.682" Y="-4337.068" Z="275.9876" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<CustomBehavior File="FlyTo" DestName="Howling Fjord Alliance Bonfire" X="2484.14" Y="-4882.736" Z="265.1578" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="InteractWith" MobId="194038" ObjectType="Gameobject" WaitTime="3000" X="2484.14" Y="-4882.736" Z="265.1578" />
+				<CustomBehavior File="InteractWith" MobId="194038" ObjectType="Gameobject" WaitTime="3000" X="2484.14" Y="-4882.736" Z="265.1578" />
+				<CustomBehavior File="RunMacro" Macro="/click GossipTitleButton1" />
+				<CustomBehavior File="RunMacro" Macro="/click QuestFrameCompleteQuestButton" />
+
+				<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="All Quests Complete! Unfortunately there are no achievements for Northrend..\n\nEnd of Line" />
+			</If>
+	</QuestOrder>
+</HBProfile>
