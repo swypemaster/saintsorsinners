@@ -1,0 +1,65 @@
+<HBProfile> 
+	<Name>Sevenshoot TH skinning</Name> 
+  
+	<MinLevel>80</MinLevel> 
+	<MaxLevel>86</MaxLevel> 
+	
+    <TargetElites>False</TargetElites> 
+
+	<MinDurability>0.2</MinDurability> 
+	<MinFreeBagSlots>2</MinFreeBagSlots> 
+	
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>False</SellGreen>
+	<MailWhite>True</MailWhite>
+	<MailGreen>True</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+
+   <SubProfile>
+    <Name>Twilight Highlands</Name>
+	
+    <MinLevel>70</MinLevel> 
+    <MaxLevel>86</MaxLevel> 
+	
+	<Mailboxes>
+		<Mailbox X="-3666.49" Y="-5280.973" Z="41.76272" /> <!-- Bloodgulch Mailbox -->
+	</Mailboxes>
+	
+	<Vendors> 
+		<Vendor Name="Naka Scaleblade" Entry="49768" Type="Repair" X="-3675.151" Y="-5381.104" Z="35.76864" />	
+	</Vendors> 
+
+	<GrindArea>
+	<Factions>2350 103</Factions> 
+	<TargetMinLevel>80</TargetMinLevel> 
+	<TargetMaxLevel>87</TargetMaxLevel> 
+		   
+   	<Hotspots> 
+		<Hotspot X="-4556.354" Y="-5842.724" Z="42.51097" />
+<Hotspot X="-4547.477" Y="-5780.961" Z="53.11686" />
+<Hotspot X="-4578.166" Y="-5723.539" Z="59.02464" />
+<Hotspot X="-4644.067" Y="-5723.428" Z="52.33279" />
+<Hotspot X="-4700.385" Y="-5696.871" Z="57.85846" />
+<Hotspot X="-4749.192" Y="-5652.635" Z="60.625" />
+<Hotspot X="-4797.711" Y="-5661.87" Z="52.12781" />
+<Hotspot X="-4790.714" Y="-5594.203" Z="59.32475" />
+<Hotspot X="-4731.851" Y="-5852.466" Z="33.32885" />
+<Hotspot X="-4785.302" Y="-5896.2" Z="31.74213" />
+<Hotspot X="-4766.152" Y="-5965.3" Z="23.38283" />
+<Hotspot X="-4705.489" Y="-5973.861" Z="23.6091" />
+
+	</Hotspots>
+	
+	</GrindArea> 
+	
+	<AvoidMobs> 
+	</AvoidMobs>
+  <Blackspots>
+  </Blackspots>
+
+	</SubProfile> 
+	
+  
+</HBProfile>
