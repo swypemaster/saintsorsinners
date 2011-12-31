@@ -1,0 +1,85 @@
+ <HBProfile>
+   <Name>Wool Cloth - Alliance</Name>
+   <MinLevel>0</MinLevel>
+   <MaxLevel>86</MaxLevel>
+  
+   <ProtectedItems>
+		<Item Name="Linen Cloth" Entry="2589" />
+        <Item Name="Wool Cloth" Entry="2592" />
+        <Item Name="Spider's Silk" Entry="3182" />
+        <Item Name="Silk Cloth" Entry="4306" />
+        <Item Name="Thick Spider's Silk" Entry="4337" />
+        <Item Name="Mageweave Cloth" Entry="4338" />
+        <Item Name="Shadow Silk" Entry="10285" />
+        <Item Name="Felcloth" Entry="14256" />
+        <Item Name="Ironweb Spider Silk" Entry="14227" />
+        <Item Name="Runecloth" Entry="14047" />
+        <Item Name="Mooncloth" Entry="14342" />
+        <Item Name="Netherweave Cloth" Entry="21877" />
+        <Item Name="Netherweb Spider Silk" Entry="21881" />
+        <Item Name="Primal Mooncloth" Entry="21845" />
+        <Item Name="Frostweave Cloth" Entry="33470" />
+        <Item Name="Shadowcloth" Entry="24272" />
+        <Item Name="Spellcloth" Entry="24271" />
+        <Item Name="Iceweb Spider Silk" Entry="42253" />
+        <Item Name="Ebonweave" Entry="41593" />
+        <Item Name="Moonshroud" Entry="41594" />
+        <Item Name="Spellweave" Entry="41595" />
+        <Item Name="Embersilk Cloth" Entry="53010" />
+        <Item Name="Dreamcloth" Entry="54440" />
+		<Item Name="Dampscale Basilisk Eye" Entry="25744" />
+	</ProtectedItems>
+   
+   <MinDurability>0.3</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+   
+   <MailGrey>False</MailGrey>
+   <MailWhite>True</MailWhite>
+   <MailGreen>True</MailGreen>
+   <MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+   
+   <SellGrey>True</SellGrey>
+   <SellWhite>True</SellWhite>
+   <SellGreen>False</SellGreen>
+   <SellBlue>False</SellBlue>
+   <SellPurple>False</SellPurple>
+   
+   <TargetElites>False</TargetElites>	
+   
+   <BlackSpots>
+	</BlackSpots>
+   
+   <AvoidMobs>
+   </AvoidMobs>
+   
+   <Mailboxes>
+		<Mailbox X="-10547.33" Y="-1157.428" Z="27.89493" />
+   </Mailboxes>
+   
+   <Vendors>  
+		<Vendor Name="Morg Gnarltree" Entry="226" Type="Repair" X="-10590.52" Y="-1155.929" Z="30.05962" />
+   </Vendors>
+   
+   <GrindArea>
+       <TargetMinLevel>20</TargetMinLevel>
+       <TargetMaxLevel>25</TargetMaxLevel>
+       <Factions>24</Factions>
+       <MaxDistance>30</MaxDistance>
+       <RandomizeHotspots>True</RandomizeHotspots> 
+       <Hotspots>
+			<Hotspot X="-11072.49" Y="-941.379" Z="63.92591" />
+			<Hotspot X="-11055.88" Y="-902.5278" Z="62.57468" />
+			<Hotspot X="-11029.8" Y="-933.5555" Z="65.75851" />
+			<Hotspot X="-10997.71" Y="-890.2939" Z="64.83192" />
+			<Hotspot X="-11051.65" Y="-851.4778" Z="60.24922" />
+			<Hotspot X="-11068.25" Y="-817.3142" Z="58.30075" />
+			<Hotspot X="-11022.69" Y="-819.9917" Z="60.07637" />
+			<Hotspot X="-10983.71" Y="-843.8138" Z="61.58747" />
+			<Hotspot X="-10948.59" Y="-877.3827" Z="68.02584" />
+			<Hotspot X="-10921.65" Y="-912.1909" Z="70.8829" />
+			<Hotspot X="-10952.65" Y="-964.4741" Z="71.33325" />
+       </Hotspots>
+   </GrindArea>
+   
+</HBProfile>
