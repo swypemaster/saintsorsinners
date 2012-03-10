@@ -1,0 +1,110 @@
+<HBProfile>
+<Name>Cenarion Expedition Rep by TubaJedi v0.0.2</Name>
+
+<MinFreeBagSlots>2</MinFreeBagSlots>
+ <MinDurability>0.4</MinDurability>
+ <MinFreeBagSlots>2</MinFreeBagSlots>
+ 
+ <MailGrey>False</MailGrey>
+ <MailWhite>True</MailWhite>
+ <MailGreen>True</MailGreen>
+ <MailBlue>True</MailBlue>
+ 
+ <SellGrey>True</SellGrey>
+ <SellWhite>True</SellWhite>
+ <SellGreen>True</SellGreen>
+ <SellBlue>False</SellBlue>
+ <TargetElites>False</TargetElites>
+<Vendors>
+<!--Taunka'le Village-->
+<Vendor Name="Tewah Chillmane" Entry="26697" Type="Repair" X="3468.827" Y="4154.3" Z="17.19392" />
+<Vendor Name="Trader Alorn" Entry="26718" Type="Food" X="3430.155" Y="4137.813" Z="16.86708" />
+</Vendors>
+
+
+<Mailboxes>
+<!--Taunka'le Village-->
+<Mailbox X="3459.129" Y="4131.758" Z="15.21782" />
+</Mailboxes>
+
+
+<QuestOrder>
+
+<If Condition="Me.ZoneId == 1637">
+	<CustomBehavior File="FlyTo" X="1764.169" Y="-4284.407" Z="133.1068" />
+					<!-- Orgrimmar Zep to Borean Tundra -->
+					<CustomBehavior File="UseTransport"
+									Entry="1764.169, -4284.407, 133.1068" 
+									Exit="2835.894, 6184.637, 121.9142"
+									Start="1775.066,-4299.745,151.0326" 
+									End="2837.908,6187.443,140.1648" 
+									StandOnX="1770.362" StandOnY="-4293.727" StandOnZ="133.14"
+									Transport="186238" />
+									
+									
+				<RunTo X="2741.094" Y="6099.368" Z="77.0211" Name="prep for flight to begin farming." /><!-- position to run to on boat-->					
+				<CustomBehavior File="FlyTo" X="2762.963" Y="5225.604" Z="30.61721" /><!--position to fly to-->
+</If>
+
+<!--Prerequisites-->
+<If Condition="!IsQuestCompleted(11864)">
+	<PickUp Name="A Mission Statement" GiverName="Arch Druid Lathorius" QuestId="11864" GiverId="25809" />
+	<PickUp QuestName="Ears of Our Enemies" QuestId="11866" GiverName="Arch Druid Lathorius" GiverId="25809" />
+	<Objective QuestName="Ears of Our Enemies" QuestId="11866" Type="CollectItem" ItemId="35188" CollectCount="15" />
+	<TurnIn QuestName="Ears of Our Enemies" QuestId="11866" TurnInName="Arch Druid Lathorius" TurnInId="25809" />
+</If>
+<!--End Prerequisites-->
+
+	<While Condition="GetFactionReputation(942) &lt; 42999">
+		<SetGrindArea>
+		<GrindArea>
+            <Name>Nesingwary Lackey Ears</Name> <!-- optional -->
+   
+            <TargetMinLevel>1</TargetMinLevel>
+            <TargetMaxLevel>87</TargetMaxLevel>
+   
+            <Factions>1989</Factions>
+            <RandomizeHotspots>False</RandomizeHotspots> <!-- optional -->
+   
+            <Hotspots>
+				<Hotspot X="2738.478" Y="5185.056" Z="28.41245" />
+				<Hotspot X="2751.698" Y="5156.602" Z="28.78487" />
+				<Hotspot X="2688.126" Y="5217.418" Z="28.1056" />
+				<Hotspot X="2667.041" Y="5105.814" Z="20.9453" />
+				<Hotspot X="2601.808" Y="5115.99" Z="9.832199" />
+				<Hotspot X="2525.505" Y="5076.79" Z="6.570586" />
+				<Hotspot X="2505.071" Y="5125.123" Z="7.495459" />
+				<Hotspot X="2513.902" Y="5024.687" Z="1.677738" />
+				<Hotspot X="2440.576" Y="5037.448" Z="0.3652276" />
+				<Hotspot X="2411.592" Y="5086.111" Z="0.5939568" />
+				<Hotspot X="2473.693" Y="5079.583" Z="4.174129" />
+            </Hotspots>
+        </GrindArea>
+    </SetGrindArea>
+	<GrindTo Condition="GetItemCount(35188) &gt; 299" GoalText="collect Nesingwary Lackey Ears" />
+	<While Condition="GetItemCount(35188) &gt; 14">  
+	   <CustomBehavior File="FlyTo" X="3196.368" Y="5279.44" Z="47.67633" />	
+		
+	   <CustomBehavior File="InteractWith"
+								NpcId="25809"
+								NumOfTimes="1"
+								CollectionDistance="50"
+								WaitTime="750"
+								X="3194.392" Y="5282.065" Z="47.90903" />
+				<CustomBehavior File="RunMacro"
+								Macro="/click GossipTitleButton1"
+								NumOfTimes="1"
+								WaitTime="650" />
+				<CustomBehavior File="RunMacro"
+								Macro="/click QuestFrameCompleteButton"
+								NumOfTimes="1"
+								WaitTime="400" />
+				<CustomBehavior File="RunMacro"
+								Macro="/click QuestFrameCompleteQuestButton"
+								NumOfTimes="1"
+								WaitTime="450" />
+	</While>
+</While>
+
+</QuestOrder>
+</HBProfile>

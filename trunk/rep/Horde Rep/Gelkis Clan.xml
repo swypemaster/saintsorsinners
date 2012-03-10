@@ -1,0 +1,36 @@
+ <HBProfile>
+   <Name>Gelkis Clan Grind</Name>
+   <MinLevel>30</MinLevel>
+   <MaxLevel>81</MaxLevel>
+   
+   <MinDurability>0.3</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+   
+   <SellGrey>False</SellGrey>
+   <SellWhite>False</SellWhite>
+   <SellGreen>False</SellGreen>
+   <SellBlue>False</SellBlue>
+   <SellPurple>False</SellPurple>
+   
+   <SubProfile>
+       <Name>Gelkis Clan</Name>
+   
+       <GrindArea>
+           <MinLevel>30</MinLevel>
+           <MaxLevel>81</MaxLevel>
+           <TargetMinLevel>30</TargetMinLevel>
+           <TargetMaxLevel>41</TargetMaxLevel>
+           <Factions> 133 </Factions>
+           <Hotspots>
+		<Hotspot X="-1732.14" Y="941.9004" Z="91.1162" />
+		<Hotspot X="-1795.607" Y="1051.651" Z="92.87257" />
+		<Hotspot X="-1874.041" Y="1103.796" Z="92.01004" />
+		<Hotspot X="-1942.746" Y="1232.794" Z="91.09955" />
+		<Hotspot X="-1853.784" Y="1300.57" Z="88.89092" />
+		<Hotspot X="-1753.032" Y="1236.185" Z="91.97028" />
+		<Hotspot X="-1677.487" Y="1175.899" Z="90.8773" />
+		<Hotspot X="-1592.491" Y="1063.08" Z="92.71014" />
+           </Hotspots>
+       </GrindArea>
+   </SubProfile>
+</HBProfile>
