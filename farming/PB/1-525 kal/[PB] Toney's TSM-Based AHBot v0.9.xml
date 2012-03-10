@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Professionbuddy>
+  <CustomAction Code="var1 = DateTime.Now;" />
+  <CustomAction Code="var2 = new Random().Next(600, 900);" />
+  <CustomAction Code="Log (&quot;Starting the next Cancelling and Mail Retrieving Cycle in {0} seconds&quot;,var2);" />
+  <While Condition="Me.IsAlive" IgnoreCanRun="True">
+    <CustomAction Code="Log (&quot;Starting Posting Cycle&quot;);" />
+    <MoveToAction MoveType="NearestAH" Pathing="Navigator" Entry="0" X="-2017.036" Y="5393.972" Z="-7.574478" />
+    <InteractionAction Entry="0" InteractDelay="0" InteractType="NPC" GameObjectType="Mailbox" SpellFocus="Anvil" />
+    <WaitAction Condition="false" Timeout="2000" />
+    <CustomAction Code="Lua.DoString(string.Format(&quot;RunMacroText(\&quot;{0}\&quot;)&quot;, &quot;/click bpost&quot;), 0);" />
+    <WaitAction Condition="Lua.GetReturnVal&lt;int&gt;(&quot;if isScanning then return 1 else return 0 end&quot;, 0) == 0" Timeout="1000000000" />
+    <WaitAction Condition="false" Timeout="1000" />
+    <While Condition="Lua.GetReturnVal&lt;int&gt;(&quot;current,last = LibStub(\&quot;AceAddon-3.0\&quot;):GetAddon(\&quot;TradeSkillMaster_Auctioning\&quot;):GetModule(\&quot;Post\&quot;):PostCount() if current ~= 0 and last ~= 0 and current &lt;= last then return 1 else return 0 end&quot;, 0) == 1" IgnoreCanRun="True">
+      <CustomAction Code="KeyboardManager.KeyUpDown((char)Keys.F1);" />
+      <WaitAction Condition="false" Timeout="200" />
+    </While>
+    <CustomAction Code="Log (&quot;Posting Cycle Ended&quot;);" />
+    <If Condition="Me.IsAlive &amp;&amp; DateTime.Now.Subtract((DateTime)var1).TotalSeconds &gt;= (int)var2" IgnoreCanRun="True">
+      <CustomAction Code="Log (&quot;Starting Cancelling and Mail Retrieving Cycle&quot;);" />
+      <MoveToAction MoveType="NearestAH" Pathing="Navigator" Entry="0" X="-2017.036" Y="5393.972" Z="-7.574478" />
+      <InteractionAction Entry="0" InteractDelay="0" InteractType="NPC" GameObjectType="Mailbox" SpellFocus="Anvil" />
+      <WaitAction Condition="false" Timeout="2000" />
+      <CustomAction Code="Lua.DoString(string.Format(&quot;RunMacroText(\&quot;{0}\&quot;)&quot;, &quot;/click bcancel&quot;), 0);" />
+      <WaitAction Condition="Lua.GetReturnVal&lt;int&gt;(&quot;if LibStub(\&quot;AceAddon-3.0\&quot;):GetAddon(\&quot;TradeSkillMaster_Auctioning\&quot;):GetModule(\&quot;Cancel\&quot;):isScanning() then return 1 else return 0 end&quot;, 0) == 0" Timeout="1000000000" />
+      <WaitAction Condition="false" Timeout="1000" />
+      <While Condition="Lua.GetReturnVal&lt;int&gt;(&quot;current,last = LibStub(\&quot;AceAddon-3.0\&quot;):GetAddon(\&quot;TradeSkillMaster_Auctioning\&quot;):GetModule(\&quot;Cancel\&quot;):CancelCount() if current ~= 0 and last ~= 0 and current &lt;= last then return 1 else return 0 end&quot;, 0) == 1" IgnoreCanRun="True">
+        <CustomAction Code="KeyboardManager.KeyUpDown((char)Keys.F2);" />
+        <WaitAction Condition="false" Timeout="200" />
+      </While>
+      <If Condition="HasNewMail" IgnoreCanRun="True">
+        <GetMailAction ItemID="0" CheckNewMail="True" GetMailType="AllItems" AutoFindMailBox="True" X="-8860.81" Y="637.1594" Z="96.19888" MinFreeBagSlots="2" />
+      </If>
+      <CustomAction Code="Log (&quot;Cancelling and Mail Retrieving Cycle Ended&quot;);" />
+      <CustomAction Code="var1 = DateTime.Now;" />
+      <CustomAction Code="var2 = new Random().Next(600, 900);" />
+      <CustomAction Code="Log (&quot;Starting the next Cancelling and Mail Retrieving Cycle in {0} seconds&quot;,var2);" />
+    </If>
+  </While>
+</Professionbuddy>
