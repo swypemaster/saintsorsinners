@@ -1,0 +1,9 @@
+C:\Users\Russin\Desktop\Honorbuddy\Plugins\ZapGB2Recorder\ZapGB2Recorder\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Russin\Desktop\Honorbuddy\Plugins\ZapGB2Recorder\ZapGB2Recorder\obj\x86\Debug\ZapGB2Recorder.Form1.resources
+C:\Users\Russin\Desktop\Honorbuddy\Plugins\ZapGB2Recorder\ZapGB2Recorder\obj\x86\Debug\ZapGB2Recorder.Properties.Resources.resources
+C:\Users\Russin\Desktop\Honorbuddy\Plugins\ZapGB2Recorder\ZapGB2Recorder\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Russin\Desktop\Honorbuddy\Plugins\ZapGB2Recorder\ZapGB2Recorder\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Russin\Desktop\megabackup\Plugins\ZapGB2Recorder\ZapGB2Recorder\bin\Debug\ZapGB2Recorder.exe.config
+C:\Users\Russin\Desktop\Honorbuddy\Plugins\ZapGB2Recorder\ZapGB2Recorder\bin\Debug\ZapGB2Recorder.exe.config
+C:\Users\Russin\Desktop\Honorbuddy\Plugins\ZapGB2Recorder\bin\Debug\ZapGB2Recorder.exe.config
+C:\Program Files (x86)\Honorbuddy\Plugins\ZapGB2Recorder\bin\Debug\ZapGB2Recorder.exe.config
