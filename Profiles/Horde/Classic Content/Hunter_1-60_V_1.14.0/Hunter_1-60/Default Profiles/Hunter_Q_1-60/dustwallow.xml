@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+
+<HBProfile>
+	<Name>dustwallow marsh</Name>
+	<MinLevel>1</MinLevel>
+	<MaxLevel>85</MaxLevel>
+	<MinDurability>0.4</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<MailGrey>False</MailGrey>
+	<MailWhite>False</MailWhite>
+	<MailGreen>False</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>True</SellGreen>
+	<SellBlue>False</SellBlue>
+	<SellPurple>False</SellPurple>
+	<TargetElites>False</TargetElites>
+	<AvoidMobs>
+		
+	</AvoidMobs>
+	<Blackspots>
+		<Blackspot X="-3725.88" Y="-4449.991" Z="7.293952" Radius="212.1668" />
+	</Blackspots>
+   
+	<Mailboxes>
+		<Mailbox X="-3156.806" Y="-2894.756" Z="33.74679"  />
+		<Mailbox X="-4597.917" Y="-3179.289" Z="34.8894" />
+	</Mailboxes>
+	<Vendors>
+		<Vendor Name="Krak" Entry="4883" Type="Repair" X="-3112.938" Y="-2885.783" Z="35.26622" />
+		<Vendor Name="Guldor" Entry="47788" Type="Train" TrainClass="Hunter" X="2102.71" Y="-4613.35" Z="49.2532" />
+		<Vendor Name="Urek Thunderhorn" Entry="3040" Type="Train" TrainClass="Hunter" X="-1454.478" Y="-100.4677" Z="159.0185" />
+		<Vendor Name="Razbo Rustgear" Entry="23571" Type="Repair" X="-4603.661" Y="-3210.939" Z="34.92594" />
+    </Vendors>
+	<Quest Id="27424" Name="Overlord Mok'Morokk's Concern">
+		<Objective Type="CollectItem" ItemId="5836" CollectCount="1">
+			<Hotspots>
+				<Hotspot X="-4463.36" Y="-2897.43" Z="21.39119" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+	<Quest Id="27408" Name="Banner of the Stonemaul">
+		<Objective Type="CollectItem" ItemId="33086" CollectCount="1">
+			<Hotspots>
+				<Hotspot X="-4458.433" Y="-2977.203" Z="30.76469" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+	<QuestOrder>
+		<If Condition="(HerbalismSkill.MaxValue &lt; 225) || (MiningSkill.MaxValue &lt; 225)" >
+			<CustomBehavior File="LoadProfile" Profile="stonetalon.xml" />
+		</If>
+		<PickUp QuestName="Theramore Spies" QuestId="1201" GiverName="Nazeer Bloodpike" GiverId="4791" />
+		<PickUp QuestName="Check Up on Tabetha" QuestId="11213" GiverName="Nazeer Bloodpike" GiverId="4791" />
+		<PickUp QuestName="Twilight of the Dawn Runner" QuestId="9437" GiverName="Balandar Brightstar" GiverId="17095" />
+		<PickUp QuestName="Overlord Mok'Morokk's Concern" QuestId="27424" GiverName="Overlord Mok'Morokk" GiverId="4500" />
+		<PickUp QuestName="A Shambling Threat" QuestId="26682" GiverName="Krog" GiverId="4926" />
+		<PickUp QuestName="Darkmist Extermination" QuestId="25051" GiverName="Krog" GiverId="4926" />
+		<PickUp QuestName="Inspecting the Ruins" QuestId="27253" GiverName="Krog" GiverId="4926" />
+		<PickUp QuestName="Talk to Ogron" QuestId="27306" GiverName="Krog" GiverId="4926" />
+		<While Condition="HasQuestAvailable(4926) ">
+			<CustomBehavior File="InteractWith"  MobId="4926" X="-3148.038" Y="-2886.573" Z="34.08368" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+			<CustomBehavior File="RunLua" Lua="SelectGossipAvailableQuest(1)" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+			<CustomBehavior File="RunLua" Lua="AcceptQuest()" />
+		</While>
+		<PickUp QuestName="The Hermit of Witch Hill" QuestId="27182" GiverName="Draz'Zilb" GiverId="4501" />
+		<PickUp QuestName="Identifying the Brood" QuestId="27414" GiverName="Draz'Zilb" GiverId="4501" />
+		<PickUp QuestName="Army of the Black Dragon" QuestId="1168" GiverName="Tharg" GiverId="4502" />
+		<PickUp QuestName="SMASH BROODQUEEN" QuestId="27229" GiverType="Object" GiverName="Wanted Poster" GiverId="205332" X="-3137.372" Y="-2940.881" Z="34.28415" />
+		<If Condition="HasQuest(27255)">
+			<If Condition="HasItem(2772) &amp;&amp; MiningSkill.CurrentValue &lt; 160">
+				<CustomBehavior File="MoveTo"  X="-3147.356" Y="-2859.309" Z="34.15309" />
+				<CustomBehavior File="WaitTimer" WaitTime="300"/> 
+				<CustomBehavior File="RunLua" Lua="CastSpellByID(2656)" />
+				<While Condition="HasItem(2772) &amp;&amp; MiningSkill.CurrentValue &lt; 160">
+					<CustomBehavior File="RunLua" Lua="for i=1,GetNumTradeSkills() do a,b,c,d,e,f=GetTradeSkillInfo(i) if strmatch(a,'Smelt Iron') then DoTradeSkill(i,1) end end" />
+				</While>
+				<CustomBehavior File="RunLua" Lua="CloseTradeSkill()" />
+			</If>
+			<CustomBehavior File="ForceSetVendor" VendorType="Repair" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+			<CustomBehavior File="InteractWith" MobId="4879" NumOfTimes="1"  ObjectType="Npc" BuySlot="4" BuyItemCount="40" WaitTime="1" X="-3117.45" Y="-2902.003" Z="33.99067" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+		</If>
+		<TurnIn QuestName="The Black Shield" QuestId="27255" TurnInName="Do'gol" TurnInId="5087" />
+		<PickUp QuestName="The Black Shield" QuestId="27256" GiverName="Do'gol" GiverId="5087" />
+		<TurnIn QuestName="Talk to Ogron" QuestId="27306" TurnInName="Ogron" TurnInId="4983" />
+		<PickUp QuestName="Questioning Reethe" QuestId="27261" GiverName="Ogron" GiverId="4983" />
+		<While Condition="HasQuest(27261) &amp;&amp; !IsQuestCompleted(27261)">
+			<CustomBehavior File="EscortExists" QuestId="27261" MobId="4983" X="-3317.643" Y="-3125.356" Z="32.94553" />
+			<If Condition="!IsQuestCompleted(27261)">
+				<CustomBehavior File="RunLua" Lua="i=GetQuestLogIndexByID(27261) a,b,c,d,e,f,g,h,j=GetQuestLogTitle(i) if g==-1 then SelectQuestLogEntry(i) SetAbandonQuest(i) AbandonQuest(i) end" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000" />
+				<PickUp QuestName="Questioning Reethe" QuestId="27261" GiverName="Ogron" GiverId="4983" />
+			</If>
+		</While>
+		<Objective QuestName="Theramore Spies" QuestId="1201" Type="KillMob" MobId="4834" KillCount="9" />
+		<Objective QuestName="A Shambling Threat" QuestId="26682" Type="KillMob" MobId="4382" KillCount="7" />
+		<Objective QuestName="SMASH BROODQUEEN" QuestId="27229" Type="CollectItem" ItemId="60883" CollectCount="1" />
+		<Objective QuestName="The Black Shield" QuestId="27256" Type="CollectItem" ItemId="5959" CollectCount="5" />
+		<While Condition="HasQuest(25051) &amp;&amp; !IsQuestCompleted(25051)">
+			<CustomBehavior File="UseGameObject" ObjectId="205267" X="-2759.312" Y="-2585.601" Z="31.03001" />\
+		</While>
+		<TurnIn QuestName="The Black Shield" QuestId="27256" TurnInName="Do'gol" TurnInId="5087" />
+		<PickUp QuestName="The Black Shield" QuestId="27257" GiverName="Do'gol" GiverId="5087" />
+		<TurnIn QuestName="The Black Shield" QuestId="27257" TurnInName="Krog" TurnInId="4926" />
+		<TurnIn QuestName="A Shambling Threat" QuestId="26682" TurnInName="Krog" TurnInId="4926" />
+		<TurnIn QuestName="Darkmist Extermination" QuestId="25051" TurnInName="Krog" TurnInId="4926" />
+		<TurnIn QuestName="Questioning Reethe" QuestId="27261" TurnInName="Krog" TurnInId="4926" />
+		<TurnIn QuestName="SMASH BROODQUEEN" QuestId="27229" TurnInName="Krog" TurnInId="4926" />
+		<PickUp QuestName="The Black Shield" QuestId="27258" GiverName="Krog" GiverId="4926" />
+		<TurnIn QuestName="Theramore Spies" QuestId="1201" TurnInName="Nazeer Bloodpike" TurnInId="4791" />
+		<PickUp QuestName="The Theramore Docks" QuestId="1202" GiverName="Nazeer Bloodpike" GiverId="4791" />
+		<If Condition="Me.Level &gt;= 39">
+			<PickUp QuestName="Help Mudsprocket" QuestId="11215" GiverName="Nazeer Bloodpike" GiverId="4791" />
+		</If>
+		<If Condition="HasQuest(27258)">
+			<If Condition="Me.ZoneId != 1638">
+				<CustomBehavior File="UseTaxi"  MobId="11899" DestName="Thunder Bluff" X="-3149.139" Y="-2842.133" Z="34.58198" />
+			</If>
+			<CustomBehavior File="ForceSetVendor" VendorType="Train" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000" />
+		</If>
+		<TurnIn QuestName="The Black Shield" QuestId="27258" TurnInName="Mosarn" TurnInId="4943" />
+		<PickUp QuestName="Return to Krog" QuestId="27292" GiverName="Mosarn" GiverId="4943" />
+		<PickUp QuestName="Deadmire" QuestId="1205" GiverName="Melor Stonehoof" GiverId="3441" />
+		<If Condition="HasQuest(27292) &amp;&amp; Me.ZoneId == 1638">
+			<CustomBehavior File="UseTaxi"  MobId="2995" DestName="Brackenwall" X="-1195.095" Y="25.68229" Z="176.9489"  />
+		</If>
+		<TurnIn QuestName="Return to Krog" QuestId="27292" TurnInName="Krog" TurnInId="4926" />
+		<PickUp QuestName="More than Coincidence" QuestId="27294" GiverName="Krog" GiverId="4926" />
+		<PickUp QuestName="The Grimtotem Plot" QuestId="27293" GiverName="Krog" GiverId="4926" />
+		<If Condition="HasQuest(9437) &amp;&amp; !IsQuestCompleted(9437)">
+			<Objective QuestName="Twilight of the Dawn Runner" QuestId="9437" Type="CollectItem" ItemId="23657" CollectCount="1" />
+			<CustomBehavior File="InteractWith" MobId="17119" NumOfTimes="1" GossipOptions="1" ObjectType="Npc" WaitTime="1" X="-2889.806" Y="-3423.234" Z="40.05724" />
+			<CustomBehavior File="WaitTimer" WaitTime="5000" />
+		</If>
+		<TurnIn QuestName="The Hermit of Witch Hill" QuestId="27182" TurnInName="Jarl" TurnInId="4792" />
+		<PickUp QuestName="Marsh Frog Legs" QuestId="27183" GiverName="Jarl" GiverId="4792" />
+		<PickUp QuestName="The Lost Report" QuestId="27244" GiverName="Loose Dirt" GiverType="Object" GiverId="20985" X="-2941.626" Y="-3885.53" Z="34.78308" />
+		<PickUp QuestName="What's Haunting Witch Hill?" QuestId="27188" GiverName="Mordant Grimsby" GiverId="23843" />
+		<If Condition="HasQuest(27183) &amp;&amp; !IsQuestCompleted(27183)">
+			<CustomBehavior File="RunMacro" Macro="/dismount" NumOfTimes="1" WaitTime="1" />
+			<CustomBehavior File="WaitTimer" WaitTime="2000" />
+			<CustomBehavior File="RunMacro" Macro="/petpassive" NumOfTimes="1" WaitTime="1000" />
+			<While Condition="HasQuest(27183) &amp;&amp; !IsQuestCompleted(27183)">
+				<CustomBehavior File="InteractWithAlive" MobId="23979" NumOfTimes="1" ObjectType="Npc" WaitTime="1" X="-2929.616" Y="-3938.74" Z="40.72942" />
+			</While>
+			<CustomBehavior File="RunMacro" Macro="/petdefensive" NumOfTimes="1" WaitTime="1000" />
+		</If>
+		<If Condition="HasQuest(27188) &amp;&amp; !IsQuestCompleted(27188)">
+			<CustomBehavior File="KillUntilComplete" QuestId="27188" MobId="23554" MobId2="23555" MobId3="23555" X="-2882.126" Y="-3918.285" Z="37.84642" />
+		</If>
+		<TurnIn QuestName="Marsh Frog Legs" QuestId="27183" TurnInName="Jarl" TurnInId="4792" />
+		<PickUp QuestName="Jarl Needs Eyes" QuestId="27184" GiverName="Jarl" GiverId="4792" />
+		<TurnIn QuestName="What's Haunting Witch Hill?" QuestId="27188" TurnInName="Mordant Grimsby" TurnInId="23843" />
+		<PickUp QuestName="The Witch's Bane" QuestId="27189" GiverName="Mordant Grimsby" GiverId="23843" />
+		<Objective QuestName="The Witch's Bane" QuestId="27189" Type="CollectItem" ItemId="33112" CollectCount="9" />
+		<TurnIn QuestName="The Witch's Bane" QuestId="27189" TurnInName="Mordant Grimsby" TurnInId="23843" />
+		<PickUp QuestName="Cleansing Witch Hill" QuestId="27190" GiverName="Mordant Grimsby" GiverId="23843" />
+		<While Condition="HasQuest(27190) &amp;&amp; !IsQuestCompleted(27190)">
+			<UseItem ItemId="33113" QuestName="Cleansing Witch Hill" QuestId="27190" X="-2966.609" Y="-3872.92" Z="31.18029" />
+			<CustomBehavior File="WaitTimer" WaitTime="30000" />
+		</While>
+		<TurnIn QuestName="Cleansing Witch Hill" QuestId="27190" TurnInName="Mordant Grimsby" TurnInId="23843" />
+		<If Condition="HasQuest(1202) &amp;&amp; !IsQuestCompleted(1202)">
+			<CustomBehavior File="MoveTo" X="-3524.471" Y="-4367.844" Z="1.723924" />
+			<CustomBehavior File="MoveTo" X="-3649.422" Y="-4672.242" Z="-2.084705" />
+		</If>
+		<While Condition="HasQuest(1202) &amp;&amp; !IsQuestCompleted(1202)">
+			<CustomBehavior File="MoveTo"  X="-3822.698" Y="-4730.863" Z="-2.147252" />
+			<CustomBehavior File="UseGameObjectWater" QuestId="1202" ObjectId="20925" WaitTime="5000" NumOfTimes="1" X="-3822.698" Y="-4730.863" Z="-2.147252"   />
+			<CustomBehavior File="MyCTM" X="-3822.746" Y="-4730.85" Z="-1.647841" />
+		</While>
+		<If Condition="HasQuest(1202) &amp;&amp; IsQuestCompleted(1202)">
+			<CustomBehavior File="MoveTo" X="-3649.422" Y="-4672.242" Z="-2.084705" />
+			<CustomBehavior File="MoveTo" X="-3524.471" Y="-4367.844" Z="1.723924" />
+		</If>
+		<PickUp QuestName="Stinky's Escape" QuestId="1270" GiverName="Ignatz" GiverId="4880" />
+		<While Condition="HasQuest(1270) &amp;&amp; !IsQuestCompleted(1270)">
+			<CustomBehavior File="EscortExists" QuestId="1270" MobId="4880" X="-3317.643" Y="-3125.356" Z="32.94553" />
+			<If Condition="!IsQuestCompleted(1270)">
+				<CustomBehavior File="RunLua" Lua="i=GetQuestLogIndexByID(1270) a,b,c,d,e,f,g,h,j=GetQuestLogTitle(i) if g==-1 then SelectQuestLogEntry(i) SetAbandonQuest(i) AbandonQuest(i) end" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000" />
+				<PickUp QuestName="Stinky's Escape" QuestId="1270" GiverName="Ignatz" GiverId="4880" />
+			</If>
+		</While>
+		<Objective QuestName="More than Coincidence" QuestId="27294" Type="CollectItem" ItemId="33071" CollectCount="7" />
+		<If Condition="HasQuest(27293) &amp;&amp; !IsQuestCompleted(27293)" >
+			<Objective QuestName="The Grimtotem Plot" QuestId="27293" Type="CollectItem" ItemId="33050" CollectCount="4" />
+			<CustomBehavior File="BasicUseItem" QuestId="27293"  ItemId="33050" WaitTime="5000" />
+		</If>
+		<Objective QuestName="Jarl Needs Eyes" QuestId="27184" Type="CollectItem" ItemId="5884" CollectCount="20" />
+		<If Condition="HasQuest(1202) &amp;&amp; IsQuestCompleted(1202)">
+			<If Condition="HasItem(2772) &amp;&amp; MiningSkill.CurrentValue &lt; 160">
+				<CustomBehavior File="MoveTo"  X="-3147.356" Y="-2859.309" Z="34.15309" />
+				<CustomBehavior File="WaitTimer" WaitTime="300"/> 
+				<CustomBehavior File="RunLua" Lua="CastSpellByID(2656)" />
+				<While Condition="HasItem(2772) &amp;&amp; MiningSkill.CurrentValue &lt; 160">
+					<CustomBehavior File="RunLua" Lua="for i=1,GetNumTradeSkills() do a,b,c,d,e,f=GetTradeSkillInfo(i) if strmatch(a,'Smelt Iron') then DoTradeSkill(i,1) end end" />
+				</While>
+				<CustomBehavior File="RunLua" Lua="CloseTradeSkill()" />
+			</If>
+			<CustomBehavior File="ForceSetVendor" VendorType="Repair" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+		</If>
+		<TurnIn QuestName="The Lost Report" QuestId="27244" TurnInName="Nazeer Bloodpike" TurnInId="4791" />
+		<TurnIn QuestName="The Theramore Docks" QuestId="1202" TurnInName="Nazeer Bloodpike" TurnInId="4791" />
+		<TurnIn QuestName="Twilight of the Dawn Runner" QuestId="9437" TurnInName="Balandar Brightstar" TurnInId="17095" />
+		<TurnIn QuestName="More than Coincidence" QuestId="27294" TurnInName="Krog" TurnInId="4926" />
+		<TurnIn QuestName="The Grimtotem Plot" QuestId="27293" TurnInName="Krog" TurnInId="4926" />
+		<PickUp QuestName="Seek Out Tabetha" QuestId="27295" GiverName="Krog" GiverId="4926" />
+		<TurnIn QuestName="Jarl Needs Eyes" QuestId="27184" TurnInName="Jarl" TurnInId="4792" />
+		<PickUp QuestName="Jarl Needs a Blade" QuestId="27186" GiverName="Jarl" GiverId="4792" />
+		<PickUp QuestName="Hungry as an Ogre!" QuestId="27191" GiverName="Jarl" GiverId="4792" />
+		<Objective QuestName="Jarl Needs a Blade" QuestId="27186" Type="CollectItem" ItemId="33110" CollectCount="1" />
+		<Objective QuestName="Hungry as an Ogre!" QuestId="27191" Type="CollectItem" ItemId="5847" CollectCount="8" />
+		<TurnIn QuestName="Hungry as an Ogre!" QuestId="27191" TurnInName="Jarl" TurnInId="4792" />
+		<TurnIn QuestName="Jarl Needs a Blade" QuestId="27186" TurnInName="Jarl" TurnInId="4792" />
+		<TurnIn QuestName="Inspecting the Ruins" QuestId="27253" TurnInName="Inspector Tarem" TurnInId="23567" />
+		<TurnIn QuestName="Seek Out Tabetha" QuestId="27295" TurnInName="Tabetha" TurnInId="6546" />
+		<TurnIn QuestName="Check Up on Tabetha" QuestId="11213" TurnInName="Tabetha" TurnInId="6546" />
+		<PickUp QuestName="Raze Direhorn Post!" QuestId="27296" GiverName="Tabetha" GiverId="6546" />
+		<PickUp QuestName="The Reagent Thief" QuestId="27339" GiverName="Apprentice Garion" GiverId="23601" />
+		<PickUp QuestName="The Grimtotem Weapon" QuestId="27336" GiverName="Apprentice Garion" GiverId="23601" />
+		<PickUp QuestName="The Zeppelin Crash" QuestId="27346" GiverName="Apprentice Morlann" GiverId="23600" />
+		<PickUp QuestName="Direhorn Raiders" QuestId="27340" GiverName="Apprentice Morlann" GiverId="23600" />
+		<TurnIn QuestName="The Zeppelin Crash" QuestId="27346" TurnInName="Moxie Steelgrille" TurnInId="23797" />
+		<PickUp QuestName="Corrosion Prevention" QuestId="27347" GiverName="Moxie Steelgrille" GiverId="23797" />
+		<PickUp QuestName="Secure the Cargo!" QuestId="27348" GiverName="Moxie Steelgrille" GiverId="23797" />
+		<If Condition="HasQuest(27347) &amp;&amp; !IsQuestCompleted(27347)">
+			<CustomBehavior File="UserSettings" PullDistance="1" />
+			<While Condition="HasQuest(27347) &amp;&amp; !IsQuestCompleted(27347)">
+				<CustomBehavior File="MoveTo"  X="-4021.831" Y="-3776.686" Z="41.87094" />
+				<CustomBehavior File="UseItemOn" QuestId="27347" ItemId="33108" MobId="4393" NumOfTimes="1" NpcState="Alive" MobType="Npc" Range="30" WaitTime="6000" X="-4021.831" Y="-3776.686" Z="41.87094" />
+			</While>
+			<CustomBehavior File="UserSettings" PullDistance="30" />
+		</If>
+		<Objective QuestName="Secure the Cargo!" QuestId="27348" Type="CollectItem" ItemId="33163" CollectCount="8" />
+		<TurnIn QuestName="Secure the Cargo!" QuestId="27348" TurnInName="Moxie Steelgrille" TurnInId="23797" />
+		<TurnIn QuestName="Corrosion Prevention" QuestId="27347" TurnInName="Moxie Steelgrille" TurnInId="23797" />
+		<PickUp QuestName="Delivery for Drazzit" QuestId="11208" GiverName="Moxie Steelgrille" GiverId="23797" />
+		<Objective QuestName="Deadmire" QuestId="1205" Type="CollectItem" ItemId="5945" CollectCount="1" />
+		<While Condition="HasQuest(27296) &amp;&amp; !IsQuestCompleted(27296)">
+			<CustomBehavior File="UseItemOn" QuestId="27296" ItemId="33072" MobId="23751" NumOfTimes="1" MobType="Npc" Range="5" WaitTime="3000" X="-3683.098" Y="-3429.313" Z="36.15372" />
+			<CustomBehavior File="UseItemOn" QuestId="27296" ItemId="33072" MobId="23752" NumOfTimes="1" MobType="Npc" Range="5" WaitTime="3000" X="-3683.098" Y="-3429.313" Z="36.15372" />
+			<CustomBehavior File="UseItemOn" QuestId="27296" ItemId="33072" MobId="23753" NumOfTimes="1" MobType="Npc" Range="5" WaitTime="3000" X="-3683.098" Y="-3429.313" Z="36.15372" />
+		</While>
+		<Objective QuestName="Direhorn Raiders" QuestId="27340" Type="KillMob" MobId="23594" KillCount="12" />
+		<Objective QuestName="The Reagent Thief" QuestId="27339" Type="CollectItem" ItemId="33103" CollectCount="6" />
+		<If Condition="HasQuest(27336) &amp;&amp; !IsQuestCompleted(27336)">
+			<CustomBehavior File="RunMacro" Macro="/dismount" NumOfTimes="1" WaitTime="1" />
+			<CustomBehavior File="WaitTimer" WaitTime="2000" />
+			<CustomBehavior File="RunMacro" Macro="/petpassive" NumOfTimes="1" WaitTime="1000" />
+			<CustomBehavior File="KillUntilComplete" QuestId="27336" MobId="4344" MobId2="4345" MobId3="4345" X="-3747.875" Y="-3246.52" Z="35.33025" />
+			<CustomBehavior File="RunMacro" Macro="/petdefensive" NumOfTimes="1" WaitTime="1000" />
+		</If>
+		<TurnIn QuestName="The Grimtotem Weapon" QuestId="27336" TurnInName="Apprentice Garion" TurnInId="23601" />
+		<TurnIn QuestName="The Reagent Thief" QuestId="27339" TurnInName="Apprentice Garion" TurnInId="23601" />
+		<TurnIn QuestName="Raze Direhorn Post!" QuestId="27296" TurnInName="Tabetha" TurnInId="6546" />
+		<PickUp QuestName="Justice Dispensed" QuestId="27297" GiverName="Tabetha" GiverId="6546" />
+		<TurnIn QuestName="Direhorn Raiders" QuestId="27340" TurnInName="Apprentice Morlann" TurnInId="23600" />
+		<TurnIn QuestName="Justice Dispensed" QuestId="27297" TurnInName="Krog" TurnInId="4926" />
+		<If Condition="Me.Level &gt;= 39 &amp;&amp; !HasQuest(11215)">
+			<PickUp QuestName="Help Mudsprocket" QuestId="11215" GiverName="Nazeer Bloodpike" GiverId="4791" />
+		</If>
+		<If Condition="HasQuest(1270) &amp;&amp; IsQuestCompleted(1270)">
+			<If Condition="HasItem(2772) &amp;&amp; MiningSkill.CurrentValue &lt; 160">
+				<CustomBehavior File="MoveTo"  X="-3147.356" Y="-2859.309" Z="34.15309" />
+				<CustomBehavior File="WaitTimer" WaitTime="300"/> 
+				<CustomBehavior File="RunLua" Lua="CastSpellByID(2656)" />
+				<While Condition="HasItem(2772) &amp;&amp; MiningSkill.CurrentValue &lt; 160">
+					<CustomBehavior File="RunLua" Lua="for i=1,GetNumTradeSkills() do a,b,c,d,e,f=GetTradeSkillInfo(i) if strmatch(a,'Smelt Iron') then DoTradeSkill(i,1) end end" />
+				</While>
+				<CustomBehavior File="RunLua" Lua="CloseTradeSkill()" />
+			</If>
+			<CustomBehavior File="ForceSetVendor" VendorType="Repair" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+			<CustomBehavior File="UseTaxi"  MobId="11899" DestName="Ratchet" X="-3149.139" Y="-2842.133" Z="34.58184" />
+		</If>
+		<TurnIn QuestName="Stinky's Escape" QuestId="1270" TurnInName="Mebok Mizzyrix" TurnInId="3446" />
+		<If Condition="HasQuest(1205) &amp;&amp; IsQuestCompleted(1205)">
+			<CustomBehavior File="UseTaxi"  MobId="16227" DestName="Thunder Bluff" X="-898.2459" Y="-3769.652" Z="11.71056" />
+		</If>
+		<TurnIn QuestName="Deadmire" QuestId="1205" TurnInName="Melor Stonehoof" TurnInId="3441" />
+		<If Condition="Me.Level &gt;= 40 &amp;&amp; Me.GetSkill(Styx.SkillLine.Riding).CurrentValue == 75 &amp;&amp; Me.Gold &gt; 45" >
+			<If Condition="Me.ZoneId == 1638">
+				<CustomBehavior File="ForceSetVendor" VendorType="Train" />
+				<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+				<CustomBehavior File="UseTaxi"  MobId="2995" DestName="Bloodhoof" X="-1195.095" Y="25.68229" Z="176.9489"  />
+			</If>
+			<While Condition="Me.GetSkill(Styx.SkillLine.Riding).CurrentValue == 75" >
+				<CustomBehavior File="ForceTrainRiding" MobId="3690" X="-2275.653" Y="-399.9414" Z="-9.404086" />
+			</While>
+			<CustomBehavior File="UseTaxi"  MobId="40809" DestName="Brackenwall" X="-2299.118" Y="-381.5382" Z="-9.052094" />
+		</If>
+		<TurnIn QuestName="Delivery for Drazzit" QuestId="11208" TurnInName="Drazzit Dripvalve" TurnInId="23572" />
+		<TurnIn QuestName="Help Mudsprocket" QuestId="11215" TurnInName="Drazzit Dripvalve" TurnInId="23572" />
+		<PickUp QuestName="Catch a Dragon by the Tail" QuestId="27413" GiverName="Gizzix Grimegurgle" GiverId="23570" />
+		<PickUp QuestName="WANTED: Goreclaw the Ravenous" QuestId="27412" GiverType="Object" GiverName="Wanted Poster" GiverId="186426" X="-4591.1" Y="-3167.174" Z="34.16499" />
+		<PickUp QuestName="Bloodfen Feathers" QuestId="27407" GiverName="Brogg" GiverId="23579" />
+		<Objective QuestName="WANTED: Goreclaw the Ravenous" QuestId="27412" Type="KillMob" MobId="23873" KillCount="1" />
+		<Objective QuestName="Bloodfen Feathers" QuestId="27407" Type="CollectItem" ItemId="33085" CollectCount="5" />
+		<Objective QuestName="Army of the Black Dragon" QuestId="1168" Type="KillMob" MobId="4328" KillCount="5" />
+		<Objective QuestName="Army of the Black Dragon" QuestId="1168" Type="KillMob" MobId="4331" KillCount="10" />
+		<Objective QuestName="Army of the Black Dragon" QuestId="1168" Type="KillMob" MobId="4329" KillCount="10" />
+		<Objective QuestName="Overlord Mok'Morokk's Concern" QuestId="27424" Type="CollectItem" ItemId="5836" CollectCount="1" />
+		<Objective QuestName="Overlord Mok'Morokk's Concern" QuestId="27424" Type="CollectItem" ItemId="5835" CollectCount="1" />
+		<Objective QuestName="Overlord Mok'Morokk's Concern" QuestId="27424" Type="CollectItem" ItemId="5834" CollectCount="1" />
+		<Objective QuestName="Identifying the Brood" QuestId="27414" Type="CollectItem" ItemId="5840" CollectCount="7" />
+		<Objective QuestName="Identifying the Brood" QuestId="27414" Type="CollectItem" ItemId="5841" CollectCount="7" />
+		<Objective QuestName="Catch a Dragon by the Tail" QuestId="27413" Type="CollectItem" ItemId="33175" CollectCount="8" />
+		<TurnIn QuestName="WANTED: Goreclaw the Ravenous" QuestId="27412" TurnInName="Drazzit Dripvalve" TurnInId="23572" />
+		<TurnIn QuestName="Catch a Dragon by the Tail" QuestId="27413" TurnInName="Gizzix Grimegurgle" TurnInId="23570" />
+		<TurnIn QuestName="Bloodfen Feathers" QuestId="27407" TurnInName="Brogg" TurnInId="23579" />
+		<PickUp QuestName="Banner of the Stonemaul" QuestId="27408" GiverName="Brogg" GiverId="23579" />
+		<PickUp QuestName="The Essence of Enmity" QuestId="27409" GiverName="Brogg" GiverId="23579" />
+		<Objective QuestName="Banner of the Stonemaul" QuestId="27408" Type="CollectItem" ItemId="33086" CollectCount="1" />
+		<While Condition="HasQuest(27409) &amp;&amp; !IsQuestCompleted(27409)">
+			<CustomBehavior File="UseItemOn3" QuestId="27409" ItemId="33088" MobId="4328" MobId2="4329" MobId3="4331" NumOfTimes="10"  MobType="Npc" Range="5" WaitTime="6000" X="-4329.41" Y="-3034.689" Z="28.5104" />
+		</While>
+		<TurnIn QuestName="The Essence of Enmity" QuestId="27409" TurnInName="Brogg" TurnInId="23579" />
+		<TurnIn QuestName="Banner of the Stonemaul" QuestId="27408" TurnInName="Brogg" TurnInId="23579" />
+		<PickUp QuestName="Spirits of Stonemaul Hold" QuestId="27410" GiverName="Brogg" GiverId="23579" />
+		<While Condition="HasQuest(27410) &amp;&amp; !IsQuestCompleted(27410)">
+			<CustomBehavior File="UseGameObject" ObjectId="186332" X="-4385.182" Y="-3285.935" Z="42.06575" />
+		</While>
+		<TurnIn QuestName="Spirits of Stonemaul Hold" QuestId="27410" TurnInName="Brogg" TurnInId="23579" />
+		<PickUp QuestName="Challenge to the Black Flight" QuestId="27411" GiverName="Brogg" GiverId="23579" />
+		<While Condition="HasQuest(27411) &amp;&amp; !IsQuestCompleted(27411)">
+			<UseItem ItemId="33095" QuestName="Challenge to the Black Flight" QuestId="27411" X="-4684.988" Y="-3711.446" Z="46.91622" />
+			<CustomBehavior File="WaitTimer" WaitTime="20000" />
+		</While>
+		<TurnIn QuestName="Challenge to the Black Flight" QuestId="27411" TurnInName="Brogg" TurnInId="23579" />
+		<TurnIn QuestName="Identifying the Brood" QuestId="27414" TurnInName="Draz'Zilb" TurnInId="4501" />
+		<PickUp QuestName="The Brood of Onyxia" QuestId="27416" GiverName="Draz'Zilb" GiverId="4501" />
+		<TurnIn QuestName="Army of the Black Dragon" QuestId="1168" TurnInName="Tharg" TurnInId="4502" />
+		<If Condition="HasQuest(27416)">
+			<If Condition="HasItem(2772) &amp;&amp; MiningSkill.CurrentValue &lt; 160">
+				<CustomBehavior File="MoveTo"  X="-3147.356" Y="-2859.309" Z="34.15309" />
+				<CustomBehavior File="WaitTimer" WaitTime="300"/> 
+				<CustomBehavior File="RunLua" Lua="CastSpellByID(2656)" />
+				<While Condition="HasItem(2772) &amp;&amp; MiningSkill.CurrentValue &lt; 160">
+					<CustomBehavior File="RunLua" Lua="for i=1,GetNumTradeSkills() do a,b,c,d,e,f=GetTradeSkillInfo(i) if strmatch(a,'Smelt Iron') then DoTradeSkill(i,1) end end" />
+				</While>
+				<CustomBehavior File="RunLua" Lua="CloseTradeSkill()" />
+			</If>
+			<CustomBehavior File="ForceSetVendor" VendorType="Repair" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+		</If>
+		<TurnIn QuestName="Overlord Mok'Morokk's Concern" QuestId="27424" TurnInName="Overlord Mok'Morokk" TurnInId="4500" />
+		<TurnIn QuestName="The Brood of Onyxia" QuestId="27416" TurnInName="Overlord Mok'Morokk" TurnInId="4500" />
+		<PickUp QuestName="The Brood of Onyxia" QuestId="27417" GiverName="Overlord Mok'Morokk" GiverId="4500" />
+		<TurnIn QuestName="The Brood of Onyxia" QuestId="27417" TurnInName="Draz'Zilb" TurnInId="4501" />
+		<PickUp QuestName="The Brood of Onyxia" QuestId="27415" GiverName="Draz'Zilb" GiverId="4501" />
+		<Objective QuestName="The Brood of Onyxia" QuestId="27415" Type="UseObject" ObjectId="20359" UseCount="5" />
+		<TurnIn QuestName="The Brood of Onyxia" QuestId="27415" TurnInName="Draz'Zilb" TurnInId="4501" />
+		<PickUp QuestName="Challenge Overlord Mok'Morokk" QuestId="27418" GiverName="Overlord Mok'Morokk" GiverId="4500" />
+		<TurnIn QuestName="Challenge Overlord Mok'Morokk" QuestId="27418" TurnInName="Draz'Zilb" TurnInId="4501" />
+		<PickUp QuestName="To the Summit" QuestId="25478" GiverName="Nyse" GiverId="40344" />
+		<While Condition="HasQuest(25478) &amp;&amp; !IsQuestCompleted(25478)">
+			<CustomBehavior File="InteractWith" QuestId="25478" MobId="40358" NumOfTimes="1" GossipOptions="2" ObjectType="Npc" WaitTime="1" X="-4568.401" Y="-3223.187" Z="34.90643" />
+		</While>
+		<TurnIn QuestName="To the Summit" QuestId="25478" TurnInName="Kanati Greycloud" TurnInId="39895" />
+		<CustomBehavior File="LoadProfile" Profile="tneedles.xml" Remember="True" />
+	</QuestOrder>
+</HBProfile>

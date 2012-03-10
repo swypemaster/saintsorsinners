@@ -1,0 +1,101 @@
+<HBProfile>
+   <Name>hm grind to 75</Name>
+   <MinLevel>1</MinLevel>
+   <MaxLevel>85</MaxLevel>
+   <MinDurability>0.4</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+   <MailGrey>False</MailGrey>
+   <MailWhite>False</MailWhite>
+   <MailGreen>False</MailGreen>
+   <MailBlue>True</MailBlue>
+   <MailPurple>True</MailPurple>
+   <SellGrey>True</SellGrey>
+   <SellWhite>True</SellWhite>
+   <SellGreen>True</SellGreen>
+   <SellBlue>False</SellBlue>
+   <SellPurple>False</SellPurple>
+   <TargetElites>False</TargetElites>
+   <Mailboxes>
+		<Mailbox X="-816.5651" Y="-4926.866" Z="19.88713" />
+		<Mailbox X="321.0783" Y="-4708.963" Z="14.15302" />
+		<Mailbox X="1604.487" Y="-4382.999" Z="20.57906" /> 
+   </Mailboxes>
+   <Vendors> 
+	 <!-- Valley of Trials  -->
+		<Vendor Name="Huklah" Entry="3160" Type="Repair" X="-590.3455" Y="-4227.319" Z="38.38471" />
+		<Vendor Name="Karranisha" Entry="39214" Type="Train" TrainClass="Hunter" X="-635.4618" Y="-4227.521" Z="38.13444" />
+	<!-- Sen'jin Village -->	
+		<Vendor Name="Trayexir" Entry="10369" Type="Repair" X="-769.1502" Y="-4948.526" Z="22.84958" />
+		<Vendor Name="Jamai" Entry="50004" Type="Train" TrainClass="Hunter" X="-790.0643" Y="-4908.497" Z="19.60702" />
+		<Vendor Name="Jamai" Entry="50004" Type="Train" TrainClass="Hunter" X="-776.6528" Y="-4909.561" Z="19.46393" />
+	<!-- Razor Hill -->
+		<Vendor Name="Thotar" Entry="3171" Type="Train" TrainClass="Hunter" X="275.3385" Y="-4703.997" Z="11.90288" />
+		<Vendor Name="Uhgar" Entry="3163" Type="Repair" X="381.653" Y="-4712.06" Z="16.03347" />
+		<Vendor Name="Ghrawt" Entry="3165" Type="Repair" X="362.1046" Y="-4763.842" Z="12.46935" />
+	<!-- ogri -->
+		<Vendor Name="Ormak Grimshot" Entry="3352" Type="Train" TrainClass="Hunter" X="2106.94" Y="-4616.56" Z="49.25355" />
+		<Vendor Name="Urtharo" Entry="3314" Type="Repair" X="1639.75" Y="-4316.71" Z="21.1204" />
+   </Vendors>
+	<QuestOrder>
+		<CustomBehavior File="UserSettings" LootMobs="false" KillBetweenHotspots="false" HarvestHerbs="true" HarvestMinerals="true" PullDistance="1"/>
+		<SetGrindArea>
+			<GrindArea>
+			<TargetMinLevel>7</TargetMinLevel>
+            <TargetMaxLevel>14</TargetMaxLevel>
+			<Factions>9999</Factions>
+			<LootRadius>50</LootRadius>
+			<Hotspots>
+				<Hotspot X="1449.342" Y="-4711.61" Z="34.24605" />
+				<Hotspot X="1468.497" Y="-4741.211" Z="40.37968" />
+				<Hotspot X="1268.161" Y="-4873.229" Z="14.77494" />
+				<Hotspot X="1221.47" Y="-4930.311" Z="12.69808" />
+				<Hotspot X="1201.326" Y="-5014.503" Z="9.037103" />
+				<Hotspot X="1028.387" Y="-4982.54" Z="16.79176" />
+				<Hotspot X="969.0612" Y="-4958.483" Z="13.06888" />
+				<Hotspot X="931.4286" Y="-4939.12" Z="10.90142" />
+				<Hotspot X="872.7088" Y="-4940.131" Z="10.93809" />
+				<Hotspot X="751.6381" Y="-4969.756" Z="16.15641" />
+				<Hotspot X="738.8566" Y="-4916.823" Z="25.64009" />
+				<Hotspot X="589.4645" Y="-4879.155" Z="24.76732" />
+				<Hotspot X="595.6992" Y="-4797.863" Z="26.51686" />
+				<Hotspot X="539.8175" Y="-4905.403" Z="26.17708" />
+				<Hotspot X="468.241" Y="-4922.989" Z="25.70955" />
+				<Hotspot X="382.6093" Y="-4896.852" Z="20.21989" />
+				<Hotspot X="320.0466" Y="-4970.773" Z="19.34952" />
+				<Hotspot X="372.2771" Y="-5082.686" Z="17.29628" />
+				<Hotspot X="263.7948" Y="-5014.241" Z="11.47038" />
+				<Hotspot X="217.7361" Y="-5047.327" Z="4.444317" />
+				<Hotspot X="161.1541" Y="-4964.973" Z="12.50623" />
+				<Hotspot X="80.31535" Y="-4912.85" Z="16.73708" />
+				<Hotspot X="-73.98008" Y="-4975.839" Z="19.00139" />
+				<Hotspot X="-124.4147" Y="-5157.246" Z="13.16772" />
+				<Hotspot X="-354.917" Y="-5172.968" Z="7.724636" />
+				<Hotspot X="-320.349" Y="-5057.654" Z="22.29358" />
+				<Hotspot X="-237.5037" Y="-4950.595" Z="21.62916" />
+				<Hotspot X="-208.1021" Y="-4737.067" Z="30.40086" />
+				<Hotspot X="-225.6584" Y="-4689.799" Z="34.95873" />
+				<Hotspot X="-136.1938" Y="-4654.953" Z="34.85301" />
+				<Hotspot X="-55.63149" Y="-4640.997" Z="38.34415" />
+				<Hotspot X="32.76783" Y="-4628.58" Z="42.26892" />
+				<Hotspot X="129.8327" Y="-4664.033" Z="23.73604" />
+				<Hotspot X="174.7155" Y="-4634.863" Z="25.78743" />
+				<Hotspot X="419.0961" Y="-4552.858" Z="49.84294" />
+				<Hotspot X="533.2093" Y="-4467.279" Z="39.45778" />
+				<Hotspot X="620.7486" Y="-4154.571" Z="18.30065" />
+				<Hotspot X="797.0099" Y="-4144.261" Z="28.45846" />
+				<Hotspot X="862.1201" Y="-4094.465" Z="28.48636" />
+				<Hotspot X="807.0523" Y="-4375.111" Z="14.20504" />
+				<Hotspot X="942.0663" Y="-4384.74" Z="14.44639" />
+				<Hotspot X="959.1609" Y="-4332.265" Z="23.9643" />
+				<Hotspot X="1088.134" Y="-4293.767" Z="19.21007" />
+				<Hotspot X="1106.27" Y="-4207.402" Z="23.18616" />
+			</Hotspots>
+			</GrindArea>
+		</SetGrindArea>
+		<GrindTo Condition="Me.GetSkill(Styx.SkillLine.Herbalism).CurrentValue &gt;= 70 &amp;&amp; Me.GetSkill(Styx.SkillLine.Mining).CurrentValue &gt;= 75" GoalText="Skilling up Herbalism and Mining"/>
+		<CustomBehavior File="UserSettings" LootMobs="true" KillBetweenHotspots="true" PullDistance="30"/>
+		<CustomBehavior File="RunMacro" Macro="/use Hearthstone" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="WaitTimer" WaitTime="11000" />
+		<CustomBehavior File="LoadProfile" Profile="start.xml" />
+	</QuestOrder>
+</HBProfile>
