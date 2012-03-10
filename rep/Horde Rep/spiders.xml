@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HBProfile>
+  <Name>Web Farm</Name>
+	  
+	<MinDurability>.2</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>False</SellGreen>
+	<MailWhite>True</MailWhite>
+	<MailGreen>True</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<MinLevel>60</MinLevel>
+	<MaxLevel>81</MaxLevel>
+	
+	<ProtectedItems>
+	- <!-- Hearthstone  --> 
+	  <Item>2901</Item> 
+	- <!-- Netherweb Spider Silk  --> 
+	  <Item>21881</Item>
+	- <!-- Dreadfang Venom Sac -->
+	  <Item>25802</Item>
+	- <!-- Zapthrottle Mote Extractor -->
+	  <Item>23821</Item>
+	- <!-- Mining Pick --> 
+	  <Item>2901</Item> 
+	- <!-- Mead Basted Caribou --> 
+	  <Item>35953</Item> 
+	- <!-- Deadly Poison -->
+	  <Item>43233</Item>
+	- <!-- Instant Poison -->
+	  <Item>43231</Item>
+	- <!-- Mind Numbing Poison -->
+	  <Item>9186</Item>
+	  <!-- Icy Dragonscale -->
+	  <Item>38557</Item>
+	  <!-- Arctic Fur -->
+	  <Item>44128</Item>
+	  <!-- Iceweb Spider Silk -->
+	  <Item>42253</Item> 
+	</ProtectedItems>
+
+  <Vendors>
+    <Vendor Name="Bar Talet" Entry="18962" Type="Repair" X="-2639.384" Y="4425.386" Z="36.68309" />
+  </Vendors>
+  <Mailboxes>
+	<Mailbox X="-2615.304" Y="4417.111" Z="36.15039" />
+  </Mailboxes>
+  <GrindArea>
+    <Factions>22</Factions>
+    <TargetMaxLevel>80</TargetMaxLevel>
+    <TargetMinLevel>60</TargetMinLevel>
+    <RandomizeHotspots>false</RandomizeHotspots>
+    <MaximumHotspotTime>60000</MaximumHotspotTime>
+    <LootRadius>45</LootRadius>
+    <MaxDistance>100</MaxDistance>
+    <Blackspots>
+    </Blackspots>
+    <Hotspots>
+	<Hotspot X="-3043.211" Y="4097.921" Z="0.5166122" />
+	<Hotspot X="-3081.757" Y="4179.848" Z="-3.908297" />
+	<Hotspot X="-3137.853" Y="4156.415" Z="-1.041167" />
+	<Hotspot X="-3112.812" Y="4100.478" Z="6.501168" />
+	<Hotspot X="-3134.431" Y="4022.897" Z="0.09959047" />
+	<Hotspot X="-3203.827" Y="4023.421" Z="0.7138385" />
+	<Hotspot X="-3230.247" Y="4134.963" Z="-1.319641" />
+	<Hotspot X="-3514.238" Y="4193.11" Z="-2.720064" />
+	<Hotspot X="-3703.732" Y="4219.137" Z="4.801435" />
+	<Hotspot X="-3869.96" Y="4288.469" Z="3.027513" />
+    </Hotspots>
+  </GrindArea>
+</HBProfile>

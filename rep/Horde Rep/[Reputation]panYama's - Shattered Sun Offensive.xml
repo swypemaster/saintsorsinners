@@ -1,0 +1,474 @@
+<!--Readme-->
+<!--Chapter 2: The Burning Legion -->
+<!--Enable Lootfilter to drop trash you don't like, or keep it to be sold to vendors -->
+<!--Credits: panYama/LiquidAtor/Protopally -->
+<!--Faction: Alliance/Horde -->
+<!--Level Range: 80 -->
+<!--Class Requirements: All Supported! -->
+<!--Exalted time: Unknown. -->
+<HBProfile>
+		<!--**Profile Settings**-->
+		<!--   Set the durability of your gear before it goes to repair -->
+		<MinDurability>0.2</MinDurability>
+		<!--   Set the amount of free bagslots before it goes to Mail/Sell --> 
+		<MinFreeBagSlots>4</MinFreeBagSlots>
+		<!--   The Minimum and Maximum level your toon can be for this profile to work -->
+		<MinLevel>60</MinLevel>
+		<MaxLevel>81</MaxLevel>
+		<!--**Sales Settings**-->
+		<!--**Which quality items to sell and which not**--> 
+		<SellGrey>True</SellGrey>
+		<SellWhite>True</SellWhite>
+		<SellGreen>False</SellGreen>
+		<SellBlue>False</SellBlue>
+		<SellPurple>False</SellPurple>
+		<!--**Mail Settings**-->
+		<!--**Which quality items to mail and which not**--> 
+		<MailWhite>True</MailWhite>
+		<MailGreen>True</MailGreen>
+		<MailBlue>True</MailBlue>
+		<MailPurple>True</MailPurple>
+		
+		<!--**All protected Items**-->
+	    <ProtectedItems>
+			<!--**Important Items**-->
+			<!--**Hearthstone**-->
+			<Item>6948</Item> 
+			<!--**Mining Pick**-->
+			<Item>2901</Item>
+			<!--**Skinning Knife**-->			
+			<Item>7005</Item>
+			
+			<!--**Potions for Healing**-->
+			<!--**Life Savers**-->
+			<Item>118</Item>
+			<Item>858</Item>
+			<Item>929</Item>
+			<Item>1710</Item>
+			<Item>3928</Item>
+			<Item>13446</Item>
+			<Item>17556</Item>
+			<Item>28551</Item>
+			<Item>33447</Item>
+			
+			<!--**Required for leveling**-->
+		    <!--**All poisons the Rogues need to use**-->
+			<Item>6497</Item>
+			<Item>6949</Item>
+			<Item>6950</Item>
+			<Item>8926</Item>
+			<Item>8927</Item>
+			<Item>8928</Item>
+			<Item>21927</Item>
+			<Item>43230</Item>
+			<Item>43231</Item>
+			
+			<!--**Hunter Ammunition**-->
+			<!--**All Ammunition the Hunter need to use**-->
+			<Item>30319</Item>
+			<Item>34581</Item>
+			<Item>34582</Item>
+			<Item>32760</Item>
+			<Item>32761</Item>
+			<Item>31737</Item>
+			<Item>31735</Item>
+			<Item>23773</Item>
+			<Item>33803</Item>
+			<Item>12654</Item>
+			<Item>10579</Item>
+			<Item>32883</Item>
+			<Item>30612</Item>
+			<Item>30611</Item>
+			<Item>32882</Item>
+			<Item>41164</Item>
+			<Item>13377</Item>
+			<Item>11630</Item>
+			<Item>41165</Item>
+			<Item>31949</Item>
+			<Item>3465</Item>
+			<Item>3464</Item>
+			<Item>23772</Item>
+			<Item>10512</Item>
+			<Item>19316</Item>
+			<Item>19317</Item>
+			<Item>10513</Item>
+			<Item>9399</Item>
+			<Item>24417</Item>
+			<Item>18042</Item>
+			<Item>15997</Item>
+			<Item>11284</Item>
+			<Item>28056</Item>
+			<Item>8068</Item>
+			<Item>8067</Item>
+			<Item>8069</Item>
+			<Item>4960</Item>
+			<Item>41584</Item>
+			<Item>2519</Item>
+			<Item>28060</Item>
+			<Item>28061</Item>
+			<Item>11285</Item>
+			<Item>2516</Item>
+			<Item>3030</Item>
+			<Item>2512</Item>
+			<Item>2515</Item>
+			<Item>5568</Item>
+			<Item>3033</Item>
+			<Item>41586</Item>
+			<Item>28053</Item>
+		
+		</ProtectedItems>
+	
+		<!-- ***************************************************************** -->
+		<!--                     Questing Configurations					   -->
+		<!--         Questing settings for Vendors,Mailbox,Avoidmobs 		   -->
+		<!-- ***************************************************************** -->
+		
+		<!-- Subprofile Configuration: Shattered Sun Offensive Reputation -->
+		<SubProfile>
+			<!--**Beginning Shattered Sun Offensive Reputation**-->
+			<Name>Shattered Sun Offensive - Reputation</Name>
+			
+			<!-- Bot will detect if this profile is suitable for your character -->
+			<MinLevel>65</MinLevel>
+			<MaxLevel>81</MaxLevel>
+			
+			<!--**TargetElites: Set to True/False*-->
+			<TargetElites>True</TargetElites>
+			
+			<!-- AvoidMobs Support Setup -->
+			<!--**A list of all the mobs that should be avoided at all cost.**-->
+			
+			<!-- No avoided mobs to add so far -->
+			
+			<!-- Vendor Support Setup -->
+			<!--**A list of the nearest vendors to use while leveling.**-->
+			<Vendors>
+				<!--**VendorType: Food**-->
+				<Vendor Name="Caregiver Inaara" Entry="25036" Type="Food" X="12816.97" Y="-7004.863" Z="18.59373" />
+				<!--**VendorType: Repair**-->
+				<Vendor Name="Smith Hauthaa" Entry="25046" Type="Repair" X="12664.15" Y="-6984.873" Z="14.54717" />
+			</Vendors>
+			
+			<!-- Mailbox Support Setup -->
+			<!--**A list of the nearest Mailboxes to use while leveling.**-->
+			<Mailboxes>
+				<Mailbox X="12790.77" Y="-6965.093" Z="15.2883" />
+			</Mailboxes>
+			
+			<!--**Quest Information**-->
+			
+			<!--**ForceQuests: Get quests to force to do**-->
+			<ForcedQuestList>
+			<Quest Id="11525" Name="Further Conversions" />
+			</ForcedQuestList>
+			<!--**QuestOrder: Force to do Quests in below Order**-->
+			<QuestOrder>
+				<!--**Checkpoint: HB will start when you are level 65+**-->
+				<Checkpoint Level="65"/>
+				
+				<!--**PickUp: picks all quests available to do objectives**-->
+				<PickUp QuestName="Arm the Wards!" GiverName="Captain Theris Dawnhearth" QuestId="11523" GiverId="24967" />
+				<PickUp QuestName="Further Conversions" GiverName="Vindicator Xayann" QuestId="11525" GiverId="24965" />
+				<Objective QuestName="Arm the Wards!" QuestId="11523" Type="CollectItem" ItemId="34338" CollectCount="4" />
+				<Objective QuestName="Further Conversions" QuestId="11525" Type="KillMob" MobId="24991" KillCount="5" />
+				<Objective QuestName="Arm the Wards!" QuestId="11523" Type="UseObject" ObjectId="24980" UseCount="1" />
+				<TurnIn QuestName="Arm the Wards!" QuestId="11523" TurnInName="Captain Theris Dawnhearth" TurnInId="24967" />
+				<TurnIn QuestName="Further Conversions" QuestId="11525" TurnInName="Vindicator Xayann" TurnInId="24965" />
+				<PickUp QuestName="Your Continued Support" QuestId="11548" GiverName="Anchorite Ayuri" GiverId="25112" />
+				<TurnIn QuestName="Your Continued Support" QuestId="11548" TurnInName="Anchorite Ayuri" TurnInId="25112" />
+				<PickUp QuestName="Know Your Ley Lines" GiverName="Astromancer Darnarian" QuestId="11547" GiverId="25133" />
+				<PickUp QuestName="The Battle Must Go On" GiverName="Harbinger Inuuro" QuestId="11537" GiverId="25061" />
+				<PickUp QuestName="Crush the Dawnblade" GiverName="Magister Ilastar" QuestId="11540" GiverId="25069" />
+				<PickUp QuestName="Don't Stop Now...." GiverName="Smith Hauthaa" QuestId="11536" GiverId="25046" />
+				<PickUp QuestName="Open for Business" GiverName="Mar'nah" QuestId="11546" GiverId="24975" />
+				<PickUp QuestName="Disrupt the Greengill Coast" GiverName="Captain Valindria" QuestId="11541" GiverId="25088" />
+				
+				<!--**Objective: Do Objectives**-->
+				
+				<Objective QuestName="Know Your Ley Lines" QuestId="11547" Type="KillMob" MobId="25156" KillCount="1" />
+				<Objective QuestName="The Battle Must Go On" QuestId="11537" Type="KillMob" MobId="25068" KillCount="6" />
+				<Objective QuestName="Open for Business" QuestId="11546" Type="CollectItem" ItemId="34502" CollectCount="5" />
+				<Objective QuestName="Know Your Ley Lines" QuestId="11547" Type="KillMob" MobId="25157" KillCount="1" />
+				<Objective QuestName="Crush the Dawnblade" QuestId="11540" Type="KillMob" MobId="24978" KillCount="6" />
+				<Objective QuestName="Crush the Dawnblade" QuestId="11540" Type="KillMob" MobId="24976" KillCount="6" />
+				<Objective QuestName="Crush the Dawnblade" QuestId="11540" Type="KillMob" MobId="24979" KillCount="3" />
+				<Objective QuestName="Know Your Ley Lines" QuestId="11547" Type="KillMob" MobId="25154" KillCount="1" />
+				<!-- <Objective QuestName="Don't Stop Now...." QuestId="11536" Type="CollectItem" ItemId="34477" CollectCount="3" /> -->
+				<Objective QuestName="Don't Stop Now...." QuestId="11536" Type="CollectItem" ItemId="34479" CollectCount="3" />
+				<Objective QuestName="Disrupt the Greengill Coast" QuestId="11541" Type="KillMob" MobId="25086" KillCount="10" />
+				
+				<!--**TurnIn: Deliver the quests**-->
+				
+				<TurnIn QuestName="Know Your Ley Lines" QuestId="11547" TurnInName="Astromancer Darnarian" TurnInId="25133" />
+				<TurnIn QuestName="The Battle Must Go On" QuestId="11537" TurnInName="Harbinger Inuuro" TurnInId="25061" />
+				<TurnIn QuestName="Disrupt the Greengill Coast" QuestId="11541" TurnInName="Captain Valindria" TurnInId="25088" />
+				<TurnIn QuestName="Don't Stop Now...." QuestId="11536" TurnInName="Smith Hauthaa" TurnInId="25046" />
+				<TurnIn QuestName="Open for Business" QuestId="11546" TurnInName="Mar'nah" TurnInId="24975" />
+				<TurnIn QuestName="Crush the Dawnblade" QuestId="11540" TurnInName="Magister Ilastar" TurnInId="25069" />
+
+			</QuestOrder>
+
+			
+			
+			<!-- ***************************************************************** -->
+			<!--                     Override Configurations					   -->
+			<!--        Quests,that need override to give a push in the back.	   -->
+			<!-- ***************************************************************** -->
+
+			<!-- QuestOverride: Arm the Wards! -->
+			<Quest Id="11523" Name="Arm the Wards!">
+				<Objective Type="CollectItem" ItemId="34338" CollectCount="4">
+					<CollectFrom>
+						<Mob Id="24966" Name="Wretched Fiend" />
+						<Mob Id="24960" Name="Wretched Devourer" />
+					</CollectFrom>
+					<Hotspots>
+						<Hotspot X="12923.59" Y="-6798.435" Z="7.255508" />
+						<Hotspot X="12910.55" Y="-6738.035" Z="12.1349" />
+						<Hotspot X="12930.49" Y="-6707.683" Z="11.05609" />
+						<Hotspot X="12965.96" Y="-6734.676" Z="10.65143" />
+						<Hotspot X="13010.94" Y="-6772.882" Z="8.301944" />
+						<Hotspot X="13038.18" Y="-6822.029" Z="1.754005" />
+					</Hotspots>
+				</Objective>
+			</Quest>
+			
+			<!-- QuestOverride: Further Conversions -->
+			<Quest Id="11525" Name="Further Conversions">
+				<Objective Type="KillMob" MobId="24991" KillCount="5">
+					<CollectFrom>
+						<Mob Id="24972" Name="Erratic Sentry" />
+					</CollectFrom>
+					<Hotspots>
+						<Hotspot X="13024.4" Y="-6840.303" Z="4.747391" />
+						<Hotspot X="13080.22" Y="-6832.304" Z="0.4752536" />
+						<Hotspot X="13007.13" Y="-6742.528" Z="3.08919" />
+						<Hotspot X="12985.49" Y="-6677.473" Z="10.51694" />
+						<Hotspot X="12994.64" Y="-6645.505" Z="8.87886" />
+						<Hotspot X="13013.99" Y="-6569.862" Z="1.340345" />
+						<Hotspot X="12942.02" Y="-6560.91" Z="6.628133" />
+						<Hotspot X="12835.22" Y="-6577.752" Z="8.049684" />
+						<Hotspot X="12877.26" Y="-6652.767" Z="10.46856" />
+						<Hotspot X="12900.8" Y="-6733.449" Z="12.61007" />
+					</Hotspots>
+				</Objective>
+				<Objective Type="CollectItem" ItemId="34368" CollectCount="1">
+					<CollectFrom>
+					</CollectFrom>
+					<Hotspots>
+						<Hotspot X="12913.02" Y="-6932.11" Z="3.866938" />
+						<Hotspot X="12827.37" Y="-6965.802" Z="9.296689" />
+						<Hotspot X="12821.8" Y="-6886.423" Z="12.6878" />
+					</Hotspots>
+				</Objective>
+			</Quest>
+			
+			<!-- QuestOverride: Know Your Ley Lines -->
+			<Quest Id="11547" Name="Know Your Ley Lines">
+				<Objective Type="KillMob" MobId="25156" KillCount="1">
+					<Hotspots>
+						<!-- Location: Portal Shrine -->
+						<Hotspot X="12575.12" Y="-6915.364" Z="4.602395" />
+					</Hotspots>
+				</Objective>
+				<Objective Type="KillMob" MobId="25157" KillCount="1">
+					<Hotspots>
+						<!-- Location: BloodCrystal -->
+						<Hotspot X="12776.32" Y="-6702.279" Z="1.37799" />
+					</Hotspots>
+				</Objective>
+				<Objective Type="KillMob" MobId="25154" KillCount="1">
+					<Hotspots>
+						<!-- Location: Naga shrine -->
+						<Hotspot X="12181.79" Y="-7338.694" Z="3.697053" />
+					</Hotspots>
+				</Objective>
+			</Quest>
+
+			<!-- QuestOverride: The Battle Must Go On-->
+			<Quest Id="11537" Name="The Battle Must Go On">
+				<Objective Type="KillMob" MobId="25065" KillCount="1">
+					<CollectFrom>
+						<Mob Id="25003" Name="Emissary of Hate" />
+					</CollectFrom>
+					<Hotspots>
+						<Hotspot X="12599.34" Y="-6945.015" Z="4.602708" />
+						<Hotspot X="12562.43" Y="-6935.652" Z="5.250088" />
+						<Hotspot X="12560.7" Y="-6905.272" Z="5.165466" />
+						<Hotspot X="12595.5" Y="-6879.455" Z="5.110127" />
+						<Hotspot X="12627.51" Y="-6861.248" Z="4.758944" />
+						<Hotspot X="12665.43" Y="-6878.065" Z="4.601057" />
+						<Hotspot X="12658.74" Y="-6931.22" Z="5.580156" />
+					</Hotspots>
+				</Objective>
+				<Objective Type="KillMob" MobId="25068" KillCount="6">
+					<CollectFrom>
+						<Mob Id="24999" Name="Irespeaker" />
+						<Mob Id="25002" Name="Unleashed Hellion" />
+						<Mob Id="25001" Name="Abyssal Flamewalker" />
+					</CollectFrom>
+					<Hotspots>
+						<Hotspot X="12599.34" Y="-6945.015" Z="4.602708" />
+						<Hotspot X="12562.43" Y="-6935.652" Z="5.250088" />
+						<Hotspot X="12560.7" Y="-6905.272" Z="5.165466" />
+						<Hotspot X="12595.5" Y="-6879.455" Z="5.110127" />
+						<Hotspot X="12627.51" Y="-6861.248" Z="4.758944" />
+						<Hotspot X="12665.43" Y="-6878.065" Z="4.601057" />
+						<Hotspot X="12658.74" Y="-6931.22" Z="5.580156" />
+					</Hotspots>
+				</Objective>
+			</Quest>
+			
+			<!-- QuestOverride: Crush the Dawnblade -->
+			<Quest Id="11540" Name="Crush the Dawnblade">
+				<Objective Type="KillMob" MobId="24978" KillCount="6">
+					<CollectFrom>
+						<Mob Id="24978" Name="Dawnblade Summoner" />
+					</CollectFrom>
+					<Hotspots>
+						<Hotspot X="12713.28" Y="-6823.381" Z="4.820097" />
+						<Hotspot X="12746.81" Y="-6805.603" Z="5.526841" />
+						<Hotspot X="12783.68" Y="-6773.777" Z="2.494911" />
+						<Hotspot X="12829.91" Y="-6747.007" Z="0.6488519" />
+						<Hotspot X="12813.89" Y="-6685.076" Z="5.002254" />
+						<Hotspot X="12757.2" Y="-6652.03" Z="-0.7894639" />
+						<Hotspot X="12768.12" Y="-6682.684" Z="2.23476" />
+						<Hotspot X="12787.2" Y="-6720.308" Z="2.232145" />
+						<Hotspot X="12733.91" Y="-6724.9" Z="0.06156929" />
+						<Hotspot X="12697.76" Y="-6754.702" Z="4.603181" />
+						<Hotspot X="12710.54" Y="-6794.635" Z="7.075933" />
+						<Hotspot X="12683.68" Y="-6802.055" Z="4.600924" />
+						<Hotspot X="12656.22" Y="-6748.436" Z="4.861679" />
+						<Hotspot X="12647.96" Y="-6698.074" Z="4.561035" />
+						<Hotspot X="12685.59" Y="-6664.358" Z="4.05661" />
+					</Hotspots>
+				</Objective>
+				<Objective Type="KillMob" MobId="24976" KillCount="6">
+					<CollectFrom>
+						<Mob Id="24976" Name="Dawnblade Blood Knight" />
+					</CollectFrom>
+					<Hotspots>
+						<Hotspot X="12713.28" Y="-6823.381" Z="4.820097" />
+						<Hotspot X="12746.81" Y="-6805.603" Z="5.526841" />
+						<Hotspot X="12783.68" Y="-6773.777" Z="2.494911" />
+						<Hotspot X="12829.91" Y="-6747.007" Z="0.6488519" />
+						<Hotspot X="12813.89" Y="-6685.076" Z="5.002254" />
+						<Hotspot X="12757.2" Y="-6652.03" Z="-0.7894639" />
+						<Hotspot X="12768.12" Y="-6682.684" Z="2.23476" />
+						<Hotspot X="12787.2" Y="-6720.308" Z="2.232145" />
+						<Hotspot X="12733.91" Y="-6724.9" Z="0.06156929" />
+						<Hotspot X="12697.76" Y="-6754.702" Z="4.603181" />
+						<Hotspot X="12710.54" Y="-6794.635" Z="7.075933" />
+						<Hotspot X="12683.68" Y="-6802.055" Z="4.600924" />
+						<Hotspot X="12656.22" Y="-6748.436" Z="4.861679" />
+						<Hotspot X="12647.96" Y="-6698.074" Z="4.561035" />
+						<Hotspot X="12685.59" Y="-6664.358" Z="4.05661" />
+					</Hotspots>
+				</Objective>
+				<Objective Type="KillMob" MobId="24979" KillCount="3">
+					<CollectFrom>
+						<Mob Id="24979" Name="Dawnblade Marksman" />
+					</CollectFrom>
+					<Hotspots>
+						<Hotspot X="12706.53" Y="-6748.4" Z="4.163291" />
+						<Hotspot X="12675.67" Y="-6602.331" Z="4.818317" />
+					</Hotspots>
+				</Objective>
+			</Quest>
+			
+			<!-- QuestOverride: Don't Stop Now.... -->
+			<Quest Id="11536" Name="Don't Stop Now....">
+				<Objective Type="CollectItem" ItemId="34479" CollectCount="3">
+					<Hotspots>	
+						<Hotspot X="12306.74" Y="-7286.338" Z="15.33514" />
+						<Hotspot X="12283.78" Y="-7348.94" Z="0.7137492" />
+						<Hotspot X="12365.29" Y="-7401.672" Z="0.2789602" />
+						<Hotspot X="12426.32" Y="-7321.598" Z="0.1485673" />
+						<Hotspot X="12418.72" Y="-7385.981" Z="-0.4567166" />
+						<Hotspot X="12521.61" Y="-7458.148" Z="-0.7551797" />
+					</Hotspots>
+				</Objective>
+				<Objective Type="CollectItem" ItemId="34477" CollectCount="3">
+					<CollectFrom>
+						<Mob Id="25060" Name="Darkspine Myrmidon" />
+					</CollectFrom>
+					<Hotspots>
+						<Hotspot X="12626.12" Y="-7308.34" Z="1.819229" />
+						<Hotspot X="12630.02" Y="-7348.54" Z="2.324391" />
+						<Hotspot X="12639.31" Y="-7424.083" Z="0.57491" />
+						<Hotspot X="12590.14" Y="-7435.376" Z="0.02963295" />
+						<Hotspot X="12510.51" Y="-7439.786" Z="0.550355" />
+						<Hotspot X="12463.33" Y="-7441.422" Z="0.4752362" />
+						<Hotspot X="12462.89" Y="-7367.821" Z="1.253072" />
+						<Hotspot X="12458.03" Y="-7327.937" Z="0.5412729" />
+						<Hotspot X="12452.64" Y="-7275.423" Z="1.463083" />
+						<Hotspot X="12396.26" Y="-7298.798" Z="0.8435037" />
+						<Hotspot X="12369.71" Y="-7383.357" Z="0.5773186" />
+						<Hotspot X="12320.83" Y="-7372.518" Z="0.5724295" />
+						<Hotspot X="12300.88" Y="-7332.622" Z="2.950341" />
+					</Hotspots>
+				</Objective>
+			</Quest>
+			
+			<!-- QuestOverride: Open for Business -->
+		<Quest Id="11546" Name="Open for Business">
+				<Objective Type="CollectItem" ItemId="34502" CollectCount="5">
+					<Hotspots>
+						<Hotspot X="12467.15" Y="-7277.294" Z="3.666061" />
+						<Hotspot X="12508.66" Y="-7414.797" Z="2.635675" />
+						<Hotspot X="12437.55" Y="-7420.534" Z="1.664795" />
+						<Hotspot X="12359.48" Y="-7378.969" Z="1.76708" />
+						<Hotspot X="12323.15" Y="-7349.623" Z="2.22282" />
+						<Hotspot X="12470.5" Y="-7276.087" Z="4.018803" />
+					</Hotspots>
+				</Objective>
+			</Quest>
+			
+			<!-- QuestOverride: Disrupt the Greengill Coast -->
+			<Quest Id="11541" Name="Disrupt the Greengill Coast">
+				<Objective Type="KillMob" MobId="25086" KillCount="10">
+					<Hotspots>
+						<Hotspot X="12546.69" Y="-7349.15" Z="-0.4057212" />
+						<Hotspot X="12537.96" Y="-7406.737" Z="0.5790426" />
+						<Hotspot X="12527.77" Y="-7441.016" Z="0.5148344" />
+						<Hotspot X="12486.53" Y="-7458.944" Z="0.6000397" />
+						<Hotspot X="12444.05" Y="-7460.705" Z="0.3899877" />
+					</Hotspots>
+				</Objective>
+				<Objective Type="CollectItem" ItemId="34483" CollectCount="10">
+					<CollectFrom>
+						<Mob Id="25073" Name="Darkspine Siren" />
+					</CollectFrom>
+					<Hotspots>
+						<Hotspot X="12626.12" Y="-7308.34" Z="1.819229" />
+						<Hotspot X="12630.02" Y="-7348.54" Z="2.324391" />
+						<Hotspot X="12639.31" Y="-7424.083" Z="0.57491" />
+						<Hotspot X="12590.14" Y="-7435.376" Z="0.02963295" />
+						<Hotspot X="12510.51" Y="-7439.786" Z="0.550355" />
+						<Hotspot X="12463.33" Y="-7441.422" Z="0.4752362" />
+						<Hotspot X="12462.89" Y="-7367.821" Z="1.253072" />
+						<Hotspot X="12458.03" Y="-7327.937" Z="0.5412729" />
+						<Hotspot X="12452.64" Y="-7275.423" Z="1.463083" />
+						<Hotspot X="12396.26" Y="-7298.798" Z="0.8435037" />
+						<Hotspot X="12369.71" Y="-7383.357" Z="0.5773186" />
+						<Hotspot X="12320.83" Y="-7372.518" Z="0.5724295" />
+						<Hotspot X="12300.88" Y="-7332.622" Z="2.950341" />
+					</Hotspots>
+				</Objective>
+			</Quest>
+
+		<Blackspots>
+			<Blackspot X="12781.73" Y="-6978.155" Z="15.47286" Radius="3.455261" />
+			<Blackspot X="12754.09" Y="-6976.082" Z="15.55072" Radius="4.329049" />
+			<Blackspot X="12815.71" Y="-6964.372" Z="11.19583" Radius="7.244239" />
+			<Blackspot X="12795.13" Y="-6966.792" Z="15.90593" Radius="1" />
+			<Blackspot X="12780.04" Y="-7089.401" Z="6.279839" Radius="2" />
+			<Blackspot X="12779.07" Y="-7078.578" Z="6.3671" Radius="2" />
+		</Blackspots>
+		</SubProfile>
+</HBProfile>
+<!--Readme-->
+<!-- Congratulations with your new Title: <name> Of the Shattered sun -->
+<!-- URL: http://www.wowhead.com/achievement=897 -->
+<!-- Courtesy of LiquidAtoR and PanYama/Protopally (http://www.panyama.info) -->
+<!-- Copyright panYama's Shattered Sun Offensive - 2010 -->
