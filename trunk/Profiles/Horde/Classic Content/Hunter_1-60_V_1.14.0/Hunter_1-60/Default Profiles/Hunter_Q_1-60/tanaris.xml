@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+
+<HBProfile>
+	<Name>tanaris</Name>
+	<MinLevel>1</MinLevel>
+	<MaxLevel>85</MaxLevel>
+	<MinDurability>0.4</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<MailGrey>False</MailGrey>
+	<MailWhite>False</MailWhite>
+	<MailGreen>False</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>True</SellGreen>
+	<SellBlue>False</SellBlue>
+	<SellPurple>False</SellPurple>
+	<TargetElites>False</TargetElites>
+	<AvoidMobs>
+		<Mob Name="Covert Ops Hardsuit" Entry="38646" />
+		<Mob Name="pirate" Entry="7858" />
+		<Mob Name="pirate" Entry="7855" />
+	</AvoidMobs>
+	<Blackspots>
+		<Blackspot X="-8664.26" Y="-4044.759" Z="43.65407" Radius="3.474599" />
+		<Blackspot X="-8306.299" Y="-3279.907" Z="24.46695" Radius="4.177927" />
+	</Blackspots>
+	<Mailboxes>
+		<Mailbox X="-4407.655" Y="237.7217" Z="27.37629" />
+		<Mailbox X="-7083.659" Y="-3851.411" Z="9.779596" />
+	</Mailboxes>
+	<Vendors>
+		<Vendor Name="Cawind Trueaim" Entry="9548" Type="Repair" X="-4484.554" Y="233.5269" Z="48.3929" />
+		<Vendor Name="Wrinkle Goodsteel" Entry="8129" Type="Repair" X="-7150.63" Y="-3725.36" Z="8.498738" />
+		<Vendor Name="Chase Everseek" Entry="43980" Type="Repair" X="-9478.8" Y="-2473.88" Z="17.00119" />
+    </Vendors>
+	
+	<QuestOrder>
+		<If Condition="(HerbalismSkill.CurrentValue &lt; 225) || (MiningSkill.CurrentValue &lt; 200)" >
+			<If Condition="Me.ZoneId == 440 &amp;&amp; HerbalismSkill.MaxValue &lt; 300">
+				<CustomBehavior File="ForceSetVendor" VendorType="Repair" />
+				<CustomBehavior File="WaitTimer" WaitTime="1000" />
+				<CustomBehavior File="UseTaxi"  MobId="7824" DestName="Summit" X="-7098.417" Y="-3816.016" Z="9.490174" />
+			</If>
+			<If Condition="Me.ZoneId != 357 &amp;&amp; HerbalismSkill.MaxValue &lt; 300">
+				<CustomBehavior File="MoveTo" X="-4299.244" Y="-889.3282" Z="79.3755" />
+				<CustomBehavior File="MyCTM" X="-4295.3" Y="-864.8855" Z="-1.647841" />
+				<CustomBehavior File="MoveTo" X="-4396.483" Y="233.6834" Z="25.42963" />
+			</If>
+			<CustomBehavior File="UserSettings" LootMobs="false" KillBetweenHotspots="false" PullDistance="1"/>
+			<SetGrindArea>
+				<GrindArea>
+					<TargetMinLevel>40</TargetMinLevel>
+					<TargetMaxLevel>50</TargetMaxLevel>
+					<Factions>9999</Factions>
+					<LootRadius>100</LootRadius>
+					<Hotspots>
+						<Hotspot X="-4396.483" Y="233.6834" Z="25.42963" />
+						<Hotspot X="-4377.067" Y="451.3139" Z="51.85198" />
+						<Hotspot X="-4243.439" Y="393.6965" Z="55.19649" />
+						<Hotspot X="-4225.187" Y="279.0872" Z="52.81908" />
+						<Hotspot X="-4055.892" Y="155.3138" Z="62.12642" />
+						<Hotspot X="-4014.739" Y="223.9868" Z="61.12614" />
+						<Hotspot X="-4015.531" Y="390.2556" Z="59.64518" />
+						<Hotspot X="-4017.964" Y="496.6719" Z="78.69259" />
+						<Hotspot X="-4132.986" Y="579.6778" Z="72.55543" />
+						<Hotspot X="-4203.229" Y="658.254" Z="70.58891" />
+						<Hotspot X="-4236.882" Y="586.2255" Z="63.14416" />
+						<Hotspot X="-4299.006" Y="614.4903" Z="60.884" />
+						<Hotspot X="-4383.756" Y="619.5634" Z="58.52362" />
+						<Hotspot X="-4485.125" Y="635.3554" Z="56.34774" />
+						<Hotspot X="-4562.946" Y="610.5013" Z="45.21006" />
+						<Hotspot X="-4654.06" Y="580.6981" Z="42.94274" />
+						<Hotspot X="-4729.227" Y="637.9672" Z="44.23795" />
+						<Hotspot X="-4819.28" Y="679.225" Z="45.42082" />
+						<Hotspot X="-4895.078" Y="692.5551" Z="47.59784" />
+						<Hotspot X="-5010.726" Y="680.8682" Z="44.00687" />
+						<Hotspot X="-5119.768" Y="673.9585" Z="55.5984" />
+						<Hotspot X="-5189.98" Y="676.5463" Z="61.63797" />
+						<Hotspot X="-5192.175" Y="590.6738" Z="49.85623" />
+						<Hotspot X="-5316.985" Y="566.2012" Z="63.82065" />
+						<Hotspot X="-5307.625" Y="446.7781" Z="53.98533" />
+						<Hotspot X="-5188.447" Y="319.0211" Z="56.92916" />
+						<Hotspot X="-5105.963" Y="173.1454" Z="51.08959" />
+						<Hotspot X="-4940.518" Y="189.4259" Z="60.07712" />
+						<Hotspot X="-4950.666" Y="404.1888" Z="10.31147" />
+						<Hotspot X="-4842.78" Y="414.0833" Z="12.7158" />
+						<Hotspot X="-4680.217" Y="288.3026" Z="0.916638" />
+					</Hotspots>
+				</GrindArea>
+			</SetGrindArea>
+			<GrindTo Condition="Me.GetSkill(Styx.SkillLine.Herbalism).CurrentValue &gt;= 225" GoalText="Skilling up Herbalism" />
+		<While Condition="HerbalismSkill.MaxValue &lt; 300">
+			<CustomBehavior File="MoveTo" X="-4378.103" Y="158.2072" Z="25.48584" />
+			<CustomBehavior File="InteractWith"  MobId="8146" X="-4378.103" Y="158.2072" Z="25.48584" />
+			<CustomBehavior File="WaitTimer" WaitTime="4000" />
+			<CustomBehavior File="RunLua" Lua="BuyTrainerService(0)" />
+			<CustomBehavior File="WaitTimer" WaitTime="5000" />
+			<CustomBehavior File="ForceSetVendor" VendorType="Repair" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000" />
+		</While>
+		<SetGrindArea>
+				<GrindArea>
+					<TargetMinLevel>40</TargetMinLevel>
+					<TargetMaxLevel>50</TargetMaxLevel>
+					<Factions>9999</Factions>
+					<LootRadius>100</LootRadius>
+					<Hotspots>
+						<Hotspot X="-4655.43" Y="1208.393" Z="98.84193" />
+						<Hotspot X="-4749.865" Y="1198.781" Z="104.132" />
+						<Hotspot X="-4928.56" Y="1151.259" Z="78.09263" />
+						<Hotspot X="-5072.301" Y="1213.171" Z="50.76698" />
+						<Hotspot X="-5223.453" Y="1175.337" Z="72.32392" />
+						<Hotspot X="-5298.079" Y="1157.584" Z="69.04948" />
+						<Hotspot X="-5414.017" Y="1156.95" Z="56.14239" />
+						<Hotspot X="-5495.642" Y="1213.812" Z="20.256" />
+						<Hotspot X="-5568.449" Y="1185.539" Z="26.57454" />
+						<Hotspot X="-5639.66" Y="1246.411" Z="38.55017" />
+						<Hotspot X="-5787.447" Y="1683.386" Z="89.36318" />
+						<Hotspot X="-5632.755" Y="1727.308" Z="86.90792" />
+						<Hotspot X="-5444.403" Y="1731.439" Z="63.1721" />
+						<Hotspot X="-5312.572" Y="1603.051" Z="52.01548" />
+						<Hotspot X="-5205.622" Y="1599.417" Z="59.53837" />
+						<Hotspot X="-5070.982" Y="1623.819" Z="66.21794" />
+						<Hotspot X="-4968.382" Y="1590.578" Z="63.99501" />
+						<Hotspot X="-4719.13" Y="1609.203" Z="95.73225" />
+						<Hotspot X="-4670.193" Y="1508.875" Z="110.6017" />
+					</Hotspots>
+				</GrindArea>
+			</SetGrindArea>
+			<GrindTo Condition="Me.GetSkill(Styx.SkillLine.Mining).CurrentValue &gt;= 185" GoalText="Skilling up Mining" />
+			<If Condition="Me.ZoneId != 440">
+				<CustomBehavior File="MoveTo" X="-4421.943" Y="198.1458" Z="25.06311" />
+				<CustomBehavior File="UseTaxi"  MobId="39898" DestName="Gadgetzan" X="-4421.943" Y="198.1458" Z="25.06311" />
+			</If>
+			<SetGrindArea>
+				<GrindArea>
+					<TargetMinLevel>40</TargetMinLevel>
+					<TargetMaxLevel>50</TargetMaxLevel>
+					<Factions>9999</Factions>
+					<LootRadius>100</LootRadius>
+					<Hotspots>
+						<Hotspot X="-7590.6" Y="-4071.212" Z="-0.5261576" />
+						<Hotspot X="-7724.947" Y="-4150.594" Z="-1.140933" />
+						<Hotspot X="-8053.072" Y="-4275.866" Z="6.248423" />
+						<Hotspot X="-8480.848" Y="-4587.43" Z="9.062651" />
+						<Hotspot X="-8467.85" Y="-4788.326" Z="3.596772" />
+						<Hotspot X="-8774.108" Y="-4619.361" Z="5.20236" />
+						<Hotspot X="-8682" Y="-4469.21" Z="16.76006" />
+						<Hotspot X="-8858.639" Y="-4369.176" Z="45.21112" />
+						<Hotspot X="-9131.51" Y="-4218.951" Z="12.58809" />
+						<Hotspot X="-9464.421" Y="-3851.068" Z="15.05601" />
+						<Hotspot X="-9446.934" Y="-3470.681" Z="11.03841" />
+						<Hotspot X="-9378.699" Y="-3311.969" Z="10.70219" />
+						<Hotspot X="-9041.1" Y="-3722.445" Z="9.888563" />
+					</Hotspots>
+				</GrindArea>
+			</SetGrindArea>
+			<GrindTo Condition="Me.GetSkill(Styx.SkillLine.Mining).CurrentValue &gt;= 200" GoalText="Skilling up Mining" />
+			<CustomBehavior File="UserSettings" LootMobs="true" PullDistance="30"/>
+		</If>
+		<While Condition="MiningSkill.MaxValue &lt; 300">
+			<CustomBehavior File="MoveTo" X="-7167.724" Y="-3743.08" Z="8.751647" />
+			<CustomBehavior File="InteractWith"  MobId="8128" X="-7167.724" Y="-3743.08" Z="8.751647" />
+			<CustomBehavior File="WaitTimer" WaitTime="4000" />
+			<CustomBehavior File="RunLua" Lua="BuyTrainerService(0)" />
+			<CustomBehavior File="WaitTimer" WaitTime="5000" />
+			<If Condition="HasItem(3858) &amp;&amp; MiningSkill.CurrentValue &lt; 230">
+				<CustomBehavior File="MoveTo"  X="-7229.116" Y="-3753.353" Z="9.356586" />
+				<CustomBehavior File="WaitTimer" WaitTime="300"/> 
+				<CustomBehavior File="RunLua" Lua="CastSpellByID(2656)" />
+				<While Condition="HasItem(3858) &amp;&amp; MiningSkill.CurrentValue &lt; 230">
+					<CustomBehavior File="RunLua" Lua="for i=1,GetNumTradeSkills() do a,b,c,d,e,f=GetTradeSkillInfo(i) if strmatch(a,'Smelt Mithril') then DoTradeSkill(i,1) end end" />
+				</While>
+				<CustomBehavior File="RunLua" Lua="CloseTradeSkill()" />
+			</If>
+			<CustomBehavior File="ForceSetVendor" VendorType="Repair" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000" />
+		</While>
+		<If Condition="MiningSkill.CurrentValue &lt; 230" >
+			<CustomBehavior File="UserSettings" LootMobs="false" PullDistance="1"/>
+			<SetGrindArea>
+				<GrindArea>
+					<TargetMinLevel>40</TargetMinLevel>
+					<TargetMaxLevel>50</TargetMaxLevel>
+					<Factions>9999</Factions>
+					<LootRadius>100</LootRadius>
+					<Hotspots>
+						<Hotspot X="-7590.6" Y="-4071.212" Z="-0.5261576" />
+						<Hotspot X="-7724.947" Y="-4150.594" Z="-1.140933" />
+						<Hotspot X="-8053.072" Y="-4275.866" Z="6.248423" />
+						<Hotspot X="-8480.848" Y="-4587.43" Z="9.062651" />
+						<Hotspot X="-8467.85" Y="-4788.326" Z="3.596772" />
+						<Hotspot X="-8774.108" Y="-4619.361" Z="5.20236" />
+						<Hotspot X="-8682" Y="-4469.21" Z="16.76006" />
+						<Hotspot X="-8858.639" Y="-4369.176" Z="45.21112" />
+						<Hotspot X="-9131.51" Y="-4218.951" Z="12.58809" />
+						<Hotspot X="-9464.421" Y="-3851.068" Z="15.05601" />
+						<Hotspot X="-9446.934" Y="-3470.681" Z="11.03841" />
+						<Hotspot X="-9378.699" Y="-3311.969" Z="10.70219" />
+						<Hotspot X="-9041.1" Y="-3722.445" Z="9.888563" />
+					</Hotspots>
+				</GrindArea>
+			</SetGrindArea>
+			<GrindTo Condition="Me.GetSkill(Styx.SkillLine.Mining).CurrentValue &gt;= 230" GoalText="Skilling up Mining" />
+			<CustomBehavior File="UserSettings" LootMobs="true" PullDistance="30"/>
+			<CustomBehavior File="MoveTo" X="-7167.724" Y="-3743.08" Z="8.751647" />
+			<CustomBehavior File="InteractWith"  MobId="8128" X="-7167.724" Y="-3743.08" Z="8.751647" />
+			<CustomBehavior File="WaitTimer" WaitTime="4000" />
+			<CustomBehavior File="RunLua" Lua="BuyTrainerService(0)" />
+			<CustomBehavior File="WaitTimer" WaitTime="5000" />
+		</If>
+		<PickUp QuestName="Butcherbot" QuestId="25112" GiverName="Driz Plunkbow" GiverId="39178" />
+		
+		<PickUp QuestName="Seaside Salvage" QuestId="24906" GiverName="Megs Dreadshredder" GiverId="38534" />
+		<PickUp QuestName="Puddle Stomping" QuestId="24907" GiverName="Megs Dreadshredder" GiverId="38534" />
+		<While Condition="HasQuest(25112) &amp;&amp; !IsQuestCompleted(25112)">
+			<CustomBehavior File="InteractTask" QuestId="25112" MobId="5419" NumOfTimes="10">
+				<Hotspot X="-7504.303" Y="-3743.854" Z="10.23725" />
+				<Hotspot X="-7642.051" Y="-3745.807" Z="22.25755" />
+				<Hotspot X="-7803.489" Y="-3847.544" Z="23.37771" />
+			</CustomBehavior>
+		</While>
+		<While Condition="HasQuest(24906) &amp;&amp; !IsQuestCompleted(24906)">
+			<CustomBehavior File="InteractTask" QuestId="24906" MobId="202198" ObjectType="Gameobject" NumOfTimes="7">
+				<Hotspot X="-7587.388" Y="-3819.985" Z="0.009935532" />
+				<Hotspot X="-7706.837" Y="-3919.356" Z="0.5796747" />
+			</CustomBehavior>
+		</While>
+		<If Condition="HasQuest(24907) &amp;&amp; !IsQuestCompleted(24907)">
+			<CustomBehavior File="KillTask" QuestId="24907" MobId="39022" >
+				<Hotspot X="-7587.388" Y="-3819.985" Z="0.009935532" />
+				<Hotspot X="-7706.837" Y="-3919.356" Z="0.5796747" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="Seaside Salvage" QuestId="24906" TurnInName="Megs Dreadshredder" TurnInId="38534" />
+		<TurnIn QuestName="Puddle Stomping" QuestId="24907" TurnInName="Megs Dreadshredder" TurnInId="38534" />
+		<PickUp QuestName="Rocket Rescue" QuestId="24910" GiverName="Megs Dreadshredder" GiverId="38534" />
+		<TurnIn QuestName="Butcherbot" QuestId="25112" TurnInName="Driz Plunkbow" TurnInId="39178" />
+		<PickUp QuestName="Scavengers Scavenged" QuestId="25111" GiverName="Driz Plunkbow" GiverId="39178" />
+		<If Condition="HasQuest(24910) &amp;&amp; !IsQuestCompleted(24910)">
+			<CustomBehavior File="24910"/>
+		</If>
+		<TurnIn QuestName="Rocket Rescue" QuestId="24910" TurnInName="Megs Dreadshredder" TurnInId="38534" />
+		<PickUp QuestName="Momentum" QuestId="24947" GiverName="Megs Dreadshredder" GiverId="38534" />
+		<While Condition="HasQuest(25111) &amp;&amp; !IsQuestCompleted(25111)">
+			<CustomBehavior File="InteractTask" QuestId="25111" MobId="5429" NumOfTimes="12">
+				<Hotspot X="-7534.564" Y="-3657.169" Z="9.796795" />
+				<Hotspot X="-7873.095" Y="-3621.617" Z="53.53128" />
+				<Hotspot X="-7751.292" Y="-3302.631" Z="65.91697" />
+			</CustomBehavior>
+		</While>
+		<TurnIn QuestName="Scavengers Scavenged" QuestId="25111" TurnInName="Driz Plunkbow" TurnInId="39178" />
+		<PickUp QuestName="Blisterpaw Butchery" QuestId="25115" GiverName="Driz Plunkbow" GiverId="39178" />
+		<While Condition="HasQuest(25115) &amp;&amp; !IsQuestCompleted(25115)">
+			<CustomBehavior File="InteractTask" QuestId="25115" MobId="5426" NumOfTimes="10">
+				<Hotspot X="-7073.815" Y="-3559.227" Z="9.313697" />
+				<Hotspot X="-7019.375" Y="-3410.399" Z="10.07665" />
+			</CustomBehavior>
+		</While>
+		<TurnIn QuestName="Blisterpaw Butchery" QuestId="25115" TurnInName="Driz Plunkbow" TurnInId="39178" />
+		<PickUp QuestName="Sandsorrow Watch" QuestId="25091" GiverName="Driz Plunkbow" GiverId="39178" />
+		<TurnIn QuestName="Sandsorrow Watch" QuestId="25091" TurnInName="Trenton Lighthammer" TurnInId="7804" />
+		<PickUp QuestName="Blood to Thrive" QuestId="25021" GiverName="Mazoga" GiverId="38927" />
+		<PickUp QuestName="I'm With Scorpid" QuestId="25521" GiverName="Gus Rustflutter" GiverId="40580" />
+		<If Condition="HasQuest(25521) &amp;&amp; !IsQuestCompleted(25521)">
+			<CustomBehavior File="KillTask" QuestId="25521" MobId="39022" MobId2="40656" MobId3="40717">
+				<Hotspot X="-7587.388" Y="-3819.985" Z="0.009935532" />
+				<Hotspot X="-7706.837" Y="-3919.356" Z="0.5796747" />
+			</CustomBehavior>
+		</If>
+		<If Condition="HasQuest(25021) &amp;&amp; !IsQuestCompleted(25021)">
+			<CustomBehavior File="KillTask" QuestId="25021" MobId="5645" MobId2="5646" MobId3="5647">
+				<Hotspot X="-7155.974" Y="-3040.608" Z="8.923519" />
+				<Hotspot X="-6870.813" Y="-2909.936" Z="9.779665" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="Blood to Thrive" QuestId="25021" TurnInName="Mazoga" TurnInId="38927" />
+		<PickUp QuestName="Sang'thraze the Deflector" QuestId="25025" GiverName="Mazoga" GiverId="38927" />
+		<TurnIn QuestName="I'm With Scorpid" QuestId="25521" TurnInName="Gus Rustflutter" TurnInId="40580" />
+		<PickUp QuestName="Gargantapid" QuestId="25522" GiverName="Gus Rustflutter" GiverId="40580" />
+		<Objective QuestName="Gargantapid" QuestId="25522" Type="CollectItem" ItemId="54855" CollectCount="1" />
+		<TurnIn QuestName="Gargantapid" QuestId="25522" TurnInName="Gus Rustflutter" TurnInId="40580" />
+		<If Condition="HasQuest(25025) &amp;&amp; !IsQuestCompleted(25025)">
+			<CustomBehavior File="KillTask" QuestId="25025" MobId="40648">
+				<Hotspot X="-7866.855" Y="-3325.669" Z="60.28232" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="Sang'thraze the Deflector" QuestId="25025" TurnInName="Mazoga" TurnInId="38927" />
+		<PickUp QuestName="Darkest Mojo" QuestId="25026" GiverName="Mazoga" GiverId="38927" />
+		<If Condition="HasQuest(25026) &amp;&amp; !IsQuestCompleted(25026)">
+			<CustomBehavior File="KillTask" QuestId="25026" MobId="38909">
+				<Hotspot X="-6889.008" Y="-2851.968" Z="12.48744" />
+				<Hotspot X="-6931.143" Y="-2692.345" Z="11.94302" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="Darkest Mojo" QuestId="25026" TurnInName="Mazoga" TurnInId="38927" />
+		<PickUp QuestName="Secrets in the Oasis" QuestId="25032" GiverName="Mazoga" GiverId="38927" />
+		<While Condition="HasQuest(25032) &amp;&amp; !IsQuestCompleted(25032)">
+			<CustomBehavior File="InteractTask" QuestId="25032" ObjectType="Gameobject" MobId="202441" NumOfTimes="1">
+				<Hotspot X="-7444.689" Y="-2884.459" Z="6.930871" />
+			</CustomBehavior>
+			<CustomBehavior File="WaitTimer" WaitTime="20000"/>
+		</While>
+		<TurnIn QuestName="Secrets in the Oasis" QuestId="25032" TurnInName="Trenton Lighthammer" TurnInId="7804" />
+		<TurnIn QuestName="Momentum" QuestId="24947" TurnInName="Megs Dreadshredder" TurnInId="38703" />
+		<PickUp QuestName="Dead Man's Chest" QuestId="24927" GiverName="Megs Dreadshredder" GiverId="38703" />
+		<PickUp QuestName="To The Ground!" QuestId="24928" GiverName="Megs Dreadshredder" GiverId="38703" />
+		<PickUp QuestName="Booty Duty" QuestId="24949" GiverName="Megs Dreadshredder" GiverId="38703" />
+		<While Condition="HasQuest(24928) &amp;&amp; !IsQuestCompleted(24928)">
+			<CustomBehavior File="MoveTo" Precision="4" X="-7999.432" Y="-5297.412" Z="0.5801433" />
+			<UseItem ItemId="51547" QuestName="To The Ground!" QuestId="24928" X="-7990.102" Y="-5306.708" Z="0.5810754" />
+			<CustomBehavior File="MoveTo" Precision="4" X="-8022.146" Y="-5245.946" Z="0.5870371" />
+			<UseItem ItemId="51547" QuestName="To The Ground!" QuestId="24928" X="-8025.28" Y="-5237.216" Z="0.5819257" />
+			<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+			<CustomBehavior File="MoveTo" Precision="4" X="-8036.886" Y="-5241.548" Z="0.5768301" />
+			<UseItem ItemId="51547" QuestName="To The Ground!" QuestId="24928" X="-8050.696" Y="-5240.51" Z="0.6984754" />
+			<CustomBehavior File="WaitTimer" WaitTime="5000"/>
+		</While>
+		<While Condition="HasQuest(24949) &amp;&amp; !IsQuestCompleted(24949)">
+			<CustomBehavior File="InteractTask" QuestId="24949" ObjectType="Gameobject" MobId="203019" MobId2="203021" MobId3="203022" NumOfTimes="8" WaitTime="1000">
+				<Hotspot X="-8021.856" Y="-5294.188" Z="1.284835" />
+			</CustomBehavior>
+		</While>
+		<Objective QuestName="Booty Duty" QuestId="24949" Type="CollectItem" ItemId="51549" CollectCount="10" />
+		<If Condition="HasQuest(24927) &amp;&amp; !IsQuestCompleted(24927)">
+			<CustomBehavior File="KillTask" QuestId="24927" MobId="7855" MobId2="7858">
+				<Hotspot X="-8025.624" Y="-5235.968" Z="0.5781508" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="Dead Man's Chest" QuestId="24927" TurnInName="Megs Dreadshredder" TurnInId="38703" />
+		<TurnIn QuestName="To The Ground!" QuestId="24928" TurnInName="Megs Dreadshredder" TurnInId="38703" />
+		<TurnIn QuestName="Booty Duty" QuestId="24949" TurnInName="Megs Dreadshredder" TurnInId="38703" />
+		<PickUp QuestName="Going Off-Task" QuestId="25534" GiverName="Megs Dreadshredder" GiverId="38703" />
+		<PickUp QuestName="Filling Our Pockets" QuestId="25541" GiverName="Megs Dreadshredder" GiverId="38703" />
+		<Objective QuestName="Going Off-Task" QuestId="25534" Type="KillMob" MobId="40593" KillCount="1" />
+		<If Condition="HasQuest(25541) &amp;&amp; !IsQuestCompleted(25541)">
+			<CustomBehavior File="KillTask" QuestId="25541" MobId="40635" MobId2="40632">
+				<Hotspot X="-8172.152" Y="-5244.997" Z="0.8394979" />
+				<Hotspot X="-8268.933" Y="-5081.948" Z="4.738442" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="Filling Our Pockets" QuestId="25541" TurnInName="Megs Dreadshredder" TurnInId="38703" />
+		<TurnIn QuestName="Going Off-Task" QuestId="25534" TurnInName="Megs Dreadshredder" TurnInId="38703" />
+		<PickUp QuestName="Captain Dreadbeard" QuestId="24950" GiverName="Megs Dreadshredder" GiverId="38703" />
+		<Objective QuestName="Captain Dreadbeard" QuestId="24950" Type="KillMob" MobId="38749" KillCount="1" />
+		<TurnIn QuestName="Captain Dreadbeard" QuestId="24950" TurnInName="Megs Dreadshredder" TurnInId="38703" />
+		<PickUp QuestName="Bootlegger Outpost" QuestId="25103" GiverName="Megs Dreadshredder" GiverId="38703" />
+		<If Condition="HasItem(8623)" >
+			<PickUp QuestName="Find OOX-17/TN!" QuestId="351" GiverType="Item" GiverName="OOX-17/TN Distress Beacon" GiverId="8623" />
+			<TurnIn QuestName="Find OOX-17/TN!" QuestId="351" TurnInName="Homing Robot OOX-17/TN" TurnInId="7784" />
+		</If>
+		<!--<If Condition="IsQuestCompleted(351)">
+			<PickUp QuestName="Rescue OOX-17/TN!" QuestId="648" GiverName="Homing Robot OOX-17/TN" GiverId="7784" />
+			<While Condition="HasQuest(648) &amp;&amp; !IsQuestCompleted(648)">
+				<CustomBehavior File="EscortExists" QuestId="648" MobId="7784" X="-8849.275" Y="-4374.572" Z="43.87563" />
+				<If Condition="!IsQuestCompleted(648)">
+					<CustomBehavior File="RunLua" Lua="i=GetQuestLogIndexByID(648) a,b,c,d,e,f,g,h,j=GetQuestLogTitle(i) if g==-1 then SelectQuestLogEntry(i) SetAbandonQuest(i) AbandonQuest(i) end" />
+					<CustomBehavior File="WaitTimer" WaitTime="2000" />
+					<PickUp QuestName="Rescue OOX-17/TN!" QuestId="648" GiverName="Homing Robot OOX-17/TN" GiverId="7784" />
+				</If>
+			</While>
+			<TurnIn QuestName="Rescue OOX-17/TN!" QuestId="648" TurnInName="Oglethorpe Obnoticus" TurnInId="7406" />
+		</If>-->
+		<TurnIn QuestName="Bootlegger Outpost" QuestId="25103" TurnInName="Zeke Bootscuff" TurnInId="38706" />
+		<PickUp QuestName="Cutting Losses" QuestId="24932" GiverName="Zeke Bootscuff" GiverId="38706" />
+		<PickUp QuestName="A Few Good Goblins" QuestId="25072" GiverName="Zeke Bootscuff" GiverId="38706" />
+		<If Condition="HasQuest(25072) &amp;&amp; !IsQuestCompleted(25072)">
+			<CustomBehavior File="KillTask" QuestId="25072" MobId="39081" >
+				<Hotspot X="-8811.877" Y="-4134.905" Z="9.934125" />
+				<Hotspot X="-8985.811" Y="-4012.917" Z="10.36563" />
+				<Hotspot X="-8933.653" Y="-3785.844" Z="10.10445" />
+			</CustomBehavior>
+		</If>
+		<If Condition="HasQuest(24932) &amp;&amp; !IsQuestCompleted(24932)">
+			<CustomBehavior File="KillTask" QuestId="24932" MobId="5450" MobId2="5451" MobId3="5452" >
+				<Hotspot X="-8811.877" Y="-4134.905" Z="9.934125" />
+				<Hotspot X="-8985.811" Y="-4012.917" Z="10.36563" />
+				<Hotspot X="-8933.653" Y="-3785.844" Z="10.10445" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="Cutting Losses" QuestId="24932" TurnInName="Zeke Bootscuff" TurnInId="38706" />
+		<TurnIn QuestName="A Few Good Goblins" QuestId="25072" TurnInName="Zeke Bootscuff" TurnInId="38706" />
+		<PickUp QuestName="Chicken of the Desert" QuestId="24933" GiverName="Zeke Bootscuff" GiverId="38706" />
+		<PickUp QuestName="Gazer Tag" QuestId="24931" GiverName="Narain Soothfancy" GiverId="11811" />
+		<If Condition="HasQuest(24931) &amp;&amp; !IsQuestCompleted(24931)">
+			<CustomBehavior File="KillTask" QuestId="24931" MobId="5427" MobId2="5420" >
+				<Hotspot X="-8577.498" Y="-4325.141" Z="11.73596" />
+				<Hotspot X="-8318.575" Y="-4062.128" Z="9.31545" />
+				<Hotspot X="-8501.368" Y="-3685.851" Z="17.87816" />
+			</CustomBehavior>
+		</If>
+		<If Condition="HasQuest(24933) &amp;&amp; !IsQuestCompleted(24933)">
+			<CustomBehavior File="KillTask" QuestId="24933" MobId="5427" >
+				<Hotspot X="-8577.498" Y="-4325.141" Z="11.73596" />
+				<Hotspot X="-8318.575" Y="-4062.128" Z="9.31545" />
+				<Hotspot X="-8501.368" Y="-3685.851" Z="17.87816" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="Gazer Tag" QuestId="24931" TurnInName="Narain Soothfancy" TurnInId="11811" />
+		<TurnIn QuestName="Chicken of the Desert" QuestId="24933" TurnInName="Zeke Bootscuff" TurnInId="38706" />
+		<PickUp QuestName="A Great Idea" QuestId="24951" GiverName="Zeke Bootscuff" GiverId="38706" />
+		<While Condition="HasQuest(24951) &amp;&amp; !IsQuestCompleted(24951)">
+			<While Condition="!Me.HasAura(&quot;Wrangling a Silithid&quot;)" >
+				<CustomBehavior File="UseItemOn" QuestId="24951" ItemId="52031" MobId="5451" NumOfTimes="1" NpcState="Alive" MobType="Npc" Range="40" WaitTime="5000" X="-8949.448" Y="-4091.515" Z="12.18913" />
+			</While>
+			<CustomBehavior File="MoveTo" UseMount="false" X="-8694.54" Y="-4075.674" Z="40.30819" />
+			<CustomBehavior File="WaitTimer" WaitTime="3000" /> 
+		</While>
+		<TurnIn QuestName="A Great Idea" QuestId="24951" TurnInName="Zeke Bootscuff" TurnInId="38706" />
+		<PickUp QuestName="Just Trying to Kill Some Bugs" QuestId="24953" GiverName="Zeke Bootscuff" GiverId="38706" />
+		<While Condition="HasQuest(24953) &amp;&amp; !IsQuestCompleted(24953)">
+			<While Condition="!Me.HasAura(&quot;Mind-Controlled Swarmer&quot;)" >
+				<CustomBehavior File="InteractWith" QuestId="24953" MobId="11811" NumOfTimes="1" GossipOptions="1" ObjectType="Npc" WaitTime="1" X="-8668.322" Y="-4046.221" Z="43.67627" />
+			</While>
+			<CustomBehavior File="MoveTo" UseMount="false" X="-9239.51" Y="-4004.788" Z="-34.20378" />
+			<CustomBehavior File="RunLua" Lua="CastPetAction(2)" /> 
+			<CustomBehavior File="WaitTimer" WaitTime="3000" />
+		</While>
+		<TurnIn QuestName="Just Trying to Kill Some Bugs" QuestId="24953" TurnInName="Zeke Bootscuff" TurnInId="38706" />
+		<PickUp QuestName="Returning a Favor" QuestId="24905" GiverName="Zeke Bootscuff" GiverId="38706" />
+		<TurnIn QuestName="Returning a Favor" QuestId="24905" TurnInName="Megs Dreadshredder" TurnInId="38849" />
+		<PickUp QuestName="Un-Chartered" QuestId="24955" GiverName="Megs Dreadshredder" GiverId="38849" />
+		<While Condition="HasQuest(24955) &amp;&amp; !IsQuestCompleted(24955)">
+			<While Condition="!Me.HasAura(&quot;Refurbished Ogre Suit&quot;)" >
+				<CustomBehavior File="MoveTo" UseMount="false" X="-8334.232" Y="-3213.292" Z="16.21404" />
+				<CustomBehavior File="RunLua" Lua="UseItemByName(52038)" /> 
+			</While>
+			<CustomBehavior File="InteractTask" QuestId="24955" MobId="5472" MobId2="5474" GossipOptions="1" NumOfTimes="10">
+				<Hotspot X="-8317.069" Y="-3076.824" Z="9.175441" />
+				<Hotspot X="-8552.993" Y="-2878.572" Z="9.67895" />
+			</CustomBehavior>
+			<CustomBehavior File="MoveTo" UseMount="false" X="-8301.011" Y="-3277.663" Z="24.47816" />
+		</While>
+		<TurnIn QuestName="Un-Chartered" QuestId="24955" TurnInName="Megs Dreadshredder" TurnInId="38849" />
+		<PickUp QuestName="Get The Centipaarty Started" QuestId="24957" GiverName="Megs Dreadshredder" GiverId="38849" />
+		<If Condition="HasQuest(24957) &amp;&amp; !IsQuestCompleted(24957)">
+			<CustomBehavior File="KillTask" QuestId="24957" MobId="5460" MobId2="5455" MobId3="5458">
+				<Hotspot X="-8063.103" Y="-2627.451" Z="9.642985" />
+				<Hotspot X="-7980.652" Y="-2448.101" Z="9.480617" />
+				<Hotspot X="-8167.242" Y="-2390.172" Z="10.55297" />
+				<Hotspot X="-8138.139" Y="-2566.268" Z="9.488064" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="Get The Centipaarty Started" QuestId="24957" TurnInName="Megs Dreadshredder" TurnInId="38849" />
+		<PickUp QuestName="Maul 'Em With Kindness" QuestId="24963" GiverName="Megs Dreadshredder" GiverId="38849" />
+		<If Condition="HasQuest(24963) &amp;&amp; !IsQuestCompleted(24963)">
+			<CustomBehavior File="KillTask" QuestId="24963" MobId="5472" MobId2="5474" >
+				<Hotspot X="-8317.069" Y="-3076.824" Z="9.175441" />
+				<Hotspot X="-8552.993" Y="-2878.572" Z="9.67895" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="Maul 'Em With Kindness" QuestId="24963" TurnInName="Megs Dreadshredder" TurnInId="38849" />
+		<PickUp QuestName="Sandscraper" QuestId="25001" GiverName="Megs Dreadshredder" GiverId="38849" />
+		<Objective QuestName="Sandscraper" QuestId="25001" Type="KillMob" MobId="38880" KillCount="1" />
+		<PickUp QuestName="Sandscraper's Treasure" QuestId="25014" GiverType="Object" GiverName="Sandscraper's Chest" GiverId="202407" X="-8533.834" Y="-3079.996" Z="8.21475" />
+		<TurnIn QuestName="Sandscraper" QuestId="25001" TurnInName="Megs Dreadshredder" TurnInId="38849" />
+		<TurnIn QuestName="Sandscraper's Treasure" QuestId="25014" TurnInName="Megs Dreadshredder" TurnInId="38849" />
+		<PickUp QuestName="Andoren Will Know" QuestId="25018" GiverName="Megs Dreadshredder" GiverId="38849" />
+		<TurnIn QuestName="Andoren Will Know" QuestId="25018" TurnInName="Examiner Andoren Dawnrise" TurnInId="38922" />
+		<PickUp QuestName="Fragments of Language" QuestId="25020" GiverName="Examiner Andoren Dawnrise" GiverId="38922" />
+		<PickUp QuestName="Laying Claim" QuestId="25019" GiverName="Examiner Andoren Dawnrise" GiverId="38922" />
+		<PickUp QuestName="Tropical Paradise Beckons" QuestId="24911" GiverName="Sherm" GiverId="44374" />
+		<While Condition="HasQuest(25020) &amp;&amp; !IsQuestCompleted(25020)">
+			<CustomBehavior File="InteractTask" QuestId="25020" ObjectType="Gameobject" MobId="202420"  NumOfTimes="5">
+				<Hotspot X="-9174.604" Y="-2941.235" Z="25.10674" />
+				<Hotspot X="-9232.487" Y="-3072.269" Z="20.4153" />
+			</CustomBehavior>
+		</While>
+		<If Condition="HasQuest(25019) &amp;&amp; !IsQuestCompleted(25019)">
+			<CustomBehavior File="KillTask" QuestId="25019" MobId="38998" >
+				<Hotspot X="-9174.604" Y="-2941.235" Z="25.10674" />
+				<Hotspot X="-9232.487" Y="-3072.269" Z="20.4153" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="Laying Claim" QuestId="25019" TurnInName="Examiner Andoren Dawnrise" TurnInId="38922" />
+		<TurnIn QuestName="Fragments of Language" QuestId="25020" TurnInName="Examiner Andoren Dawnrise" TurnInId="38922" />
+		<PickUp QuestName="Ancient Obstacles" QuestId="25017" GiverName="Examiner Andoren Dawnrise" GiverId="38922" />
+		<If Condition="HasQuest(25017) &amp;&amp; !IsQuestCompleted(25017)">
+			<CustomBehavior File="KillTask" QuestId="25017" MobId="38914" >
+				<Hotspot X="-9425.019" Y="-2661.348" Z="16.96512" />
+				<Hotspot X="-9430.019" Y="-2815.226" Z="11.93508" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="Ancient Obstacles" QuestId="25017" TurnInName="Examiner Andoren Dawnrise" TurnInId="38922" />
+		<PickUp QuestName="The Crumbling Past" QuestId="25068" GiverName="Examiner Andoren Dawnrise" GiverId="38922" />
+		<PickUp QuestName="The Secrets of Uldum" QuestId="25069" GiverName="Examiner Andoren Dawnrise" GiverId="38922" />
+		<If Condition="HasQuest(25068) &amp;&amp; !IsQuestCompleted(25068)">
+			<CustomBehavior File="KillTask" QuestId="25068" MobId="38916" >
+				<Hotspot X="-9809.749" Y="-2790.699" Z="10.39097" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="The Secrets of Uldum" QuestId="25069" TurnInType="Object" TurnInName="Antediluvean Chest" TurnInId="202474" X="-9809.749" Y="-2790.699" Z="10.39097" />
+		<PickUp QuestName="What Lies Within" QuestId="25070" GiverType="Object" GiverName="Antediluvean Chest" GiverId="202474" X="-9809.749" Y="-2790.699" Z="10.39097" />
+		<TurnIn QuestName="What Lies Within" QuestId="25070" TurnInName="Antediluvean Chest" TurnInId="202474" />
+		<PickUp QuestName="The Grand Tablet" QuestId="25107" GiverType="Object" GiverName="Antediluvean Chest" GiverId="202474" X="-9809.749" Y="-2790.699" Z="10.39097" />
+		<TurnIn QuestName="The Grand Tablet" QuestId="25107" TurnInName="Examiner Andoren Dawnrise" TurnInId="38922" />
+		<TurnIn QuestName="The Crumbling Past" QuestId="25068" TurnInName="Examiner Andoren Dawnrise" TurnInId="38922" />
+		<PickUp QuestName="The Thunderdrome!" QuestId="26896" GiverName="Sherm" GiverId="44374" />
+		<TurnIn QuestName="The Thunderdrome!" QuestId="26896" TurnInName="Dr. Dealwell" TurnInId="39034" />
+		<If Condition="!IsQuestCompleted(25591)">
+			<If Condition="Me.X &lt; -9400">
+				<CustomBehavior File="UseTaxi"  MobId="41215" DestName="Gadgetzan" X="-9490.44" Y="-2464.22" Z="17.00116" />
+			</If>
+			<If Condition="HasQuestAvailable(39034)" >
+				<While Condition="!HasQuest(25067) &amp;&amp; !IsQuestCompleted(25067)">
+					<CustomBehavior File="InteractWith"  MobId="39034" X="-7119.906" Y="-3797.747" Z="8.700489" />
+					<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+					<CustomBehavior File="RunLua" Lua="SelectGossipAvailableQuest(1)" />
+					<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+					<CustomBehavior File="RunLua" Lua="AcceptQuest()" />
+					<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				</While>
+			</If>
+			<While Condition="HasQuest(25067) &amp;&amp; !IsQuestCompleted(25067)" >
+				<CustomBehavior File="RunMacro" Macro="/dismount" NumOfTimes="1" WaitTime="1" />
+				<CustomBehavior File="MoveTo"  X="-7135.614" Y="-3786.579" Z="8.783763" />
+				<CustomBehavior File="WaitTimer" WaitTime="20000" />
+				<CustomBehavior File="RunLua" Lua="i=GetQuestLogIndexByID(25067) a,b,c,d,e,f,g,h,j=GetQuestLogTitle(i) if g==-1 then SelectQuestLogEntry(i) SetAbandonQuest(i) AbandonQuest(i) end" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000" />
+				<If Condition="HasQuestAvailable(39034)" >
+					<CustomBehavior File="InteractWith"  MobId="39034" X="-7119.906" Y="-3797.747" Z="8.700489" />
+					<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+					<CustomBehavior File="RunLua" Lua="SelectGossipAvailableQuest(1)" />
+					<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+					<CustomBehavior File="RunLua" Lua="AcceptQuest()" />
+				</If>
+			</While>
+			<TurnIn QuestName="Thunderdrome: The Ginormus!" QuestId="25067" TurnInName="Katrina Turner" TurnInId="19860" />
+			<If Condition="HasQuestAvailable(39034)" >
+				<While Condition="!HasQuest(25094) &amp;&amp; !IsQuestCompleted(25094)">
+					<CustomBehavior File="InteractWith"  MobId="39034" X="-7119.906" Y="-3797.747" Z="8.700489" />
+					<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+					<CustomBehavior File="RunLua" Lua="SelectGossipAvailableQuest(1)" />
+					<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+					<CustomBehavior File="RunLua" Lua="AcceptQuest()" />
+					<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				</While>
+			</If>
+			<While Condition="HasQuest(25094) &amp;&amp; !IsQuestCompleted(25094)" >
+				<CustomBehavior File="RunMacro" Macro="/dismount" NumOfTimes="1" WaitTime="1" />
+				<CustomBehavior File="MoveTo"  X="-7135.614" Y="-3786.579" Z="8.783763" />
+				<CustomBehavior File="WaitTimer" WaitTime="20000" />
+				<CustomBehavior File="RunLua" Lua="i=GetQuestLogIndexByID(25094) a,b,c,d,e,f,g,h,j=GetQuestLogTitle(i) if g==-1 then SelectQuestLogEntry(i) SetAbandonQuest(i) AbandonQuest(i) end" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000" />
+				<If Condition="HasQuestAvailable(39034)" >
+					<CustomBehavior File="InteractWith"  MobId="39034" X="-7119.906" Y="-3797.747" Z="8.700489" />
+					<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+					<CustomBehavior File="RunLua" Lua="SelectGossipAvailableQuest(1)" />
+					<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+					<CustomBehavior File="RunLua" Lua="AcceptQuest()" />
+					<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				</If>
+			</While>
+			<TurnIn QuestName="Thunderdrome: Zumonga!" QuestId="25094" TurnInName="Katrina Turner" TurnInId="19860" />
+			<If Condition="HasQuestAvailable(39034)" >
+				<While Condition="!HasQuest(25095) &amp;&amp; !IsQuestCompleted(25095)">
+					<CustomBehavior File="InteractWith"  MobId="39034" X="-7119.906" Y="-3797.747" Z="8.700489" />
+					<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+					<CustomBehavior File="RunLua" Lua="SelectGossipAvailableQuest(1)" />
+					<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+					<CustomBehavior File="RunLua" Lua="AcceptQuest()" />
+					<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				</While>
+			</If>
+			<While Condition="HasQuest(25095) &amp;&amp; !IsQuestCompleted(25095)" >
+				<CustomBehavior File="RunMacro" Macro="/dismount" NumOfTimes="1" WaitTime="1" />
+				<CustomBehavior File="MoveTo"  X="-7135.614" Y="-3786.579" Z="8.783763" />
+				<CustomBehavior File="WaitTimer" WaitTime="20000" />
+				<CustomBehavior File="RunLua" Lua="i=GetQuestLogIndexByID(25095) a,b,c,d,e,f,g,h,j=GetQuestLogTitle(i) if g==-1 then SelectQuestLogEntry(i) SetAbandonQuest(i) AbandonQuest(i) end" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000" />
+				<If Condition="HasQuestAvailable(39034)" >
+					<CustomBehavior File="InteractWith"  MobId="39034" X="-7119.906" Y="-3797.747" Z="8.700489" />
+					<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+					<CustomBehavior File="RunLua" Lua="SelectGossipAvailableQuest(1)" />
+					<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+					<CustomBehavior File="RunLua" Lua="AcceptQuest()" />
+					<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				</If>
+			</While>
+			<TurnIn QuestName="Thunderdrome: Sarinexx!" QuestId="25095" TurnInName="Katrina Turner" TurnInId="19860" />
+			<If Condition="HasQuestAvailable(39034)" >
+				<While Condition="!HasQuest(25591) &amp;&amp; !IsQuestCompleted(25591)">
+					<CustomBehavior File="InteractWith"  MobId="39034" X="-7119.906" Y="-3797.747" Z="8.700489" />
+					<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+					<CustomBehavior File="RunLua" Lua="SelectGossipAvailableQuest(1)" />
+					<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+					<CustomBehavior File="RunLua" Lua="AcceptQuest()" />
+					<CustomBehavior File="WaitTimer" WaitTime="2000" />
+				</While>
+			</If>
+			<While Condition="HasQuest(25591) &amp;&amp; !IsQuestCompleted(25591)" >
+				<CustomBehavior File="RunMacro" Macro="/dismount" NumOfTimes="1" WaitTime="1" />
+				<CustomBehavior File="MoveTo"  X="-7135.614" Y="-3786.579" Z="8.783763" />
+				<CustomBehavior File="WaitTimer" WaitTime="20000" />
+				<CustomBehavior File="RunLua" Lua="i=GetQuestLogIndexByID(25591) a,b,c,d,e,f,g,h,j=GetQuestLogTitle(i) if g==-1 then SelectQuestLogEntry(i) SetAbandonQuest(i) AbandonQuest(i) end" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000" />
+				<If Condition="HasQuestAvailable(39034)" >
+					<CustomBehavior File="InteractWith"  MobId="39034" X="-7119.906" Y="-3797.747" Z="8.700489" />
+					<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+					<CustomBehavior File="RunLua" Lua="SelectGossipAvailableQuest(1)" />
+					<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+					<CustomBehavior File="RunLua" Lua="AcceptQuest()" />
+					<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+				</If>
+			</While>
+			<TurnIn QuestName="Thunderdrome: Grudge Match!" QuestId="25591" TurnInName="Katrina Turner" TurnInId="19860" />
+		</If>
+		<If Condition="HasQuest(24911)">
+			<If Condition="HasItem(3858) &amp;&amp; MiningSkill.CurrentValue &lt; 230">
+				<CustomBehavior File="MoveTo"  X="-7229.116" Y="-3753.353" Z="9.356586" />
+				<CustomBehavior File="WaitTimer" WaitTime="300"/> 
+				<CustomBehavior File="RunLua" Lua="CastSpellByID(2656)" />
+				<While Condition="HasItem(3858) &amp;&amp; MiningSkill.CurrentValue &lt; 230">
+					<CustomBehavior File="RunLua" Lua="for i=1,GetNumTradeSkills() do a,b,c,d,e,f=GetTradeSkillInfo(i) if strmatch(a,'Smelt Mithril') then DoTradeSkill(i,1) end end" />
+				</While>
+				<CustomBehavior File="RunLua" Lua="CloseTradeSkill()" />
+			</If>
+			<CustomBehavior File="ForceSetVendor" VendorType="Repair" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000" />
+		</If>
+		<TurnIn QuestName="Tropical Paradise Beckons" QuestId="24911" TurnInName="Williden Marshal" TurnInId="9270" />
+		<CustomBehavior File="LoadProfile" Profile="ungoro.xml" Remember="True" />
+		
+		
+	</QuestOrder>
+</HBProfile>

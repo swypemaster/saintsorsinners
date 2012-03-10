@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+
+<HBProfile>
+   <Name>881</Name>
+   <MinLevel>1</MinLevel>
+   <MaxLevel>85</MaxLevel>
+	<AvoidMobs>
+		<Mob Name="Savannah Huntress" Entry="3415" />
+		<Mob Name="Echeyakee" Entry="3475" />
+	</AvoidMobs>
+	<QuestOrder>
+		<RunTo X="-38.26532" Y="-2370.465" Z="91.66692" />
+		<RunTo X="-22.75822" Y="-2395.158" Z="91.66674" />
+		<CustomBehavior File="WaitTimer" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/use Horn of Echeyakee" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="RunMacro" Macro="/script PetAbandon()" NumOfTimes="1" WaitTime="1000" />
+		<CustomBehavior File="WaitTimer" WaitTime="30000" />
+		<If Condition="Me.GotAlivePet" >
+			<CustomBehavior File="RunMacro" Macro="/petautocasttoggle Prowl" NumOfTimes="1" WaitTime="1000" />
+			<CustomBehavior File="LoadProfile" Profile="barrens.xml" />
+		</If>
+		<CustomBehavior File="LoadProfile" Profile="881.xml" />
+	</QuestOrder>
+</HBProfile>

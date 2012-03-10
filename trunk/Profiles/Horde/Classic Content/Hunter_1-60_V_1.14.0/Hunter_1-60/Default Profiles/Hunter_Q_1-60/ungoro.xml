@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+
+<HBProfile>
+	<Name>ungoro</Name>
+	<MinLevel>1</MinLevel>
+	<MaxLevel>85</MaxLevel>
+	<MinDurability>0.4</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<MailGrey>False</MailGrey>
+	<MailWhite>False</MailWhite>
+	<MailGreen>False</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>True</SellGreen>
+	<SellBlue>False</SellBlue>
+	<SellPurple>False</SellPurple>
+	<TargetElites>False</TargetElites>
+	<AvoidMobs>
+	</AvoidMobs>
+	<Blackspots>
+	</Blackspots>
+	<Mailboxes>
+	</Mailboxes>
+	<Vendors>
+		<Vendor Name="Gibbert" Entry="3000" Type="Repair" X="-7491.394" Y="-1501.245" Z="-266.0465" />
+		<Vendor Name="Dramm Riverhorn" Entry="38561" Type="Repair" X="-6992.45" Y="-1074.266" Z="-270.2552" />
+    </Vendors>
+	
+	<QuestOrder>
+		<PickUp QuestName="Volcanic Activity" QuestId="24740" GiverName="Williden Marshal" GiverId="9270" />
+		<PickUp QuestName="Finding the Source" QuestId="24742" GiverName="Krakle" GiverId="10302" />
+		<PickUp QuestName="Crystals of Power" QuestId="24720" GiverName="J.D. Collie" GiverId="9117" />
+		<PickUp QuestName="How to Make Meat Fresh Again" QuestId="24697" GiverName="Nolen Tacker" GiverId="38270" />
+		<PickUp QuestName="Finding Stormclaw" QuestId="24854" GiverName="Zen'Aliri" GiverId="38269" />
+		<TurnIn QuestName="Finding Stormclaw" QuestId="24854" TurnInName="Garl Stormclaw" TurnInId="38274" />
+		<PickUp QuestName="Claws of White" QuestId="24719" GiverName="Garl Stormclaw" GiverId="38274" />
+		<PickUp QuestName="The Fare of Lar'korwi" QuestId="24731" GiverName="Torwa Pathfinder" GiverId="9619" />
+		<PickUp QuestName="Toxic Tolerance" QuestId="13850" GiverName="Mor'vek" GiverId="11701" />
+		<While Condition="HasQuest(24731) &amp;&amp; !IsQuestCompleted(24731)">
+			<CustomBehavior File="InteractTask" QuestId="24731" ObjectType="Gameobject" MobId="166863"  NumOfTimes="1">
+				<Hotspot X="-7824.928" Y="-1869.005" Z="-272.0877" />
+			</CustomBehavior>
+		</While>
+		<TurnIn QuestName="The Fare of Lar'korwi" QuestId="24731" TurnInName="Torwa Pathfinder" TurnInId="9619" />
+		<PickUp QuestName="The Scent of Lar'korwi" QuestId="24732" GiverName="Torwa Pathfinder" GiverId="9619" />
+		<While Condition="HasQuest(24732) &amp;&amp; !IsQuestCompleted(24732)">
+			<CustomBehavior File="InteractTask" QuestId="24732" ObjectType="Gameobject" MobId="195022"  NumOfTimes="2" WaitTime="10000">
+				<Hotspot X="-7841.483" Y="-1853.323" Z="-271.5953" />
+				<Hotspot X="-7747.038" Y="-1681.583" Z="-272.2224" />
+				<Hotspot X="-7774.229" Y="-1921.151" Z="-272.7134" />
+				<Hotspot X="-7307.26" Y="-2056.625" Z="-271.5566" />
+			</CustomBehavior>
+		</While>
+		<If Condition="HasQuest(24719) &amp;&amp; !IsQuestCompleted(24719)">
+			<CustomBehavior File="KillTask" QuestId="24719" MobId="6505" MobId2="6506" >
+				<Hotspot X="-7841.483" Y="-1853.323" Z="-271.5953" />
+				<Hotspot X="-7747.038" Y="-1681.583" Z="-272.2224" />
+				<Hotspot X="-7774.229" Y="-1921.151" Z="-272.7134" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="Claws of White" QuestId="24719" TurnInName="Garl Stormclaw" TurnInId="38274" />
+		<TurnIn QuestName="The Scent of Lar'korwi" QuestId="24732" TurnInName="Torwa Pathfinder" TurnInId="9619" />
+		<PickUp QuestName="The Bait for Lar'korwi" QuestId="24733" GiverName="Torwa Pathfinder" GiverId="9619" />
+		<PickUp QuestName="Carried on the Waves" QuestId="24686" GiverName="Garl Stormclaw" GiverId="38274" />
+		<If Condition="HasItem(11568)" >
+			<CustomBehavior File="RunLua" Lua="UseItemByName(11568)" />
+		</If>
+		<While Condition="!IsQuestCompleted(24720) &amp;&amp; GetItemCount(11184) &lt; 7">
+			<CustomBehavior File="InteractTask" QuestId="24720" ObjectType="Gameobject" MobId="164658" MobId2="164778" NumOfTimes="1" WaitTime="1000">
+				<Hotspot X="-7701.159" Y="-2079.714" Z="-272.5741" />
+				<Hotspot X="-7521.011" Y="-2146.917" Z="-273.0789" />
+				<Hotspot X="-7304.713" Y="-2145.432" Z="-273.1924" />
+				<Hotspot X="-7124.878" Y="-1989.531" Z="-271.3368" />
+			</CustomBehavior>
+		</While>
+		<While Condition="HasQuest(24686) &amp;&amp; !IsQuestCompleted(24686)">
+			<CustomBehavior File="UseItemOn" QuestId="24686" ItemId="50441" MobId="38202" NumOfTimes="1" Range="2" WaitTime="4000" X="-7285.328" Y="-2271.546" Z="-266.4903" />
+		</While>
+		<If Condition="HasQuest(13850) &amp;&amp; !IsQuestCompleted(13850)">
+			<CustomBehavior File="RunMacro" Macro="/petpassive" NumOfTimes="1" WaitTime="1000" />
+			<CustomBehavior File="KillTask" QuestId="13850" MobId="6508" >
+				<Hotspot X="-7329.215" Y="-2107.134" Z="-270.1868" />
+				<Hotspot X="-7219.617" Y="-1949.775" Z="-273.2817" />
+				<Hotspot X="-7117.162" Y="-1906.264" Z="-272.2205" />
+			</CustomBehavior>
+			<CustomBehavior File="RunMacro" Macro="/petdefensive" NumOfTimes="1" WaitTime="1000" />
+		</If>
+		<While Condition="HasQuest(24733) &amp;&amp; !IsQuestCompleted(24733)">
+			<CustomBehavior File="UseItemOn" QuestId="24733" ItemId="11569" MobId="169217" MobType="Gameobject" NumOfTimes="1" Range="6" WaitTime="2000" X="-6979.486" Y="-2059.447" Z="-272.2159" />
+			<CustomBehavior File="UseItemOn" QuestId="24733" ItemId="11570" MobId="169217" MobType="Gameobject" NumOfTimes="1" Range="6" WaitTime="2000" X="-6979.486" Y="-2059.447" Z="-272.2159" />
+			<CustomBehavior File="WaitTimer" WaitTime="40000" />
+		</While>
+		<TurnIn QuestName="Toxic Tolerance" QuestId="13850" TurnInName="Mor'vek" TurnInId="11701" />
+		<PickUp QuestName="Venomhide Eggs" QuestId="13887" GiverName="Mor'vek" GiverId="11701" />
+		<TurnIn QuestName="Carried on the Waves" QuestId="24686" TurnInName="Garl Stormclaw" TurnInId="38274" />
+		<PickUp QuestName="Flowing to the North" QuestId="24689" GiverName="Garl Stormclaw" GiverId="38274" />
+		<TurnIn QuestName="The Bait for Lar'korwi" QuestId="24733" TurnInName="Torwa Pathfinder" TurnInId="9619" />
+		<While Condition="HasQuest(13887) &amp;&amp; !IsQuestCompleted(13887)">
+			<CustomBehavior File="InteractTask" QuestId="13887" ObjectType="Gameobject" MobId="195022"  NumOfTimes="4" WaitTime="1000">
+				<Hotspot X="-7774.625" Y="-1913.898" Z="-272.8951" />
+				<Hotspot X="-7605.245" Y="-1927.443" Z="-271.3573" />
+				<Hotspot X="-7249.272" Y="-2038.958" Z="-272.3196" />
+			</CustomBehavior>
+		</While>
+		<TurnIn QuestName="Venomhide Eggs" QuestId="13887" TurnInName="Mor'vek" TurnInId="11701" />	
+		<!-- Oh shit... 20 days of questing. Up to You to do this one if needed, I pass.
+		<PickUp QuestName="They Grow Up So Fast" QuestId="13906" GiverName="Mor'vek" GiverId="11701" />-->
+		<TurnIn QuestName="Flowing to the North" QuestId="24689" TurnInName="Ithis Moonwarden" TurnInId="38263" />
+		<PickUp QuestName="Bouquets of Death" QuestId="24687" GiverName="Ithis Moonwarden" GiverId="38263" />
+		<If Condition="HasQuest(24687) &amp;&amp; !IsQuestCompleted(24687)">
+			<CustomBehavior File="KillTask" QuestId="24687" MobId="38213" >
+				<Hotspot X="-6952.611" Y="-2207.361" Z="-271.456" />
+			</CustomBehavior>
+		</If>
+		<While Condition="!IsQuestCompleted(24720) &amp;&amp; GetItemCount(11185) &lt; 7">
+			<CustomBehavior File="InteractTask" QuestId="24720" ObjectType="Gameobject" MobId="164779" MobId2="164659" NumOfTimes="1" WaitTime="1000">
+				<Hotspot X="-6952.611" Y="-2207.361" Z="-271.456" />
+				<Hotspot X="-6722.354" Y="-2138" Z="-271.3539" />
+				<Hotspot X="-6944.401" Y="-1924.85" Z="-270.4038" />
+			</CustomBehavior>
+		</While>
+		<PickUp QuestName="Is This Stuff Still Good?" QuestId="24865" GiverType="Object" GiverName="Crate of Foodstuffs" GiverId="161526" X="-6866.773" Y="-2004.708" Z="-272.0156" />
+		<TurnIn QuestName="Bouquets of Death" QuestId="24687" TurnInName="Ithis Moonwarden" TurnInId="38263" />
+		<PickUp QuestName="Aberrant Flora" QuestId="24855" GiverName="Ithis Moonwarden" GiverId="38263" />
+		<If Condition="HasQuest(24855) &amp;&amp; !IsQuestCompleted(24855)">
+			<CustomBehavior File="KillTask" QuestId="24855" MobId="6509" MobId2="6510" MobId3="6511">
+				<Hotspot X="-6858.308" Y="-2174.819" Z="-269.4764" />
+				<Hotspot X="-6755.875" Y="-1908.18" Z="-270.2423" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="Aberrant Flora" QuestId="24855" TurnInName="Ithis Moonwarden" TurnInId="38263" />
+		<PickUp QuestName="The Eastern Pylon" QuestId="24721" GiverName="Ithis Moonwarden" GiverId="38263" />
+		<While Condition="HasQuest(24721) &amp;&amp; !IsQuestCompleted(24721)">
+			<CustomBehavior File="WaitTimer" WaitTime="3000" />
+			<CustomBehavior File="InteractTask" QuestId="24721" ObjectType="Gameobject" MobId="164957"  GossipOptions="1" NumOfTimes="1" WaitTime="1000">
+				<Hotspot X="-7179.2" Y="-2312.2" Z="-237.3205" />
+			</CustomBehavior>
+		</While>
+		<TurnIn QuestName="The Eastern Pylon" QuestId="24721" TurnInName="J.D. Collie" TurnInId="9117" />
+		<TurnIn QuestName="Is This Stuff Still Good?" QuestId="24865" TurnInName="Williden Marshal" TurnInId="9270" />
+		<While Condition="HasQuest(24697) &amp;&amp; !IsQuestCompleted(24697)">
+			<CustomBehavior File="UseItemOn3" QuestId="24697" ItemId="50430" MobId="9162" MobId2="9163" NpcState="Alive" NumOfTimes="1" Range="40" WaitTime="2000" X="-7555.538" Y="-1366.175" Z="-270.7029" />
+		</While>
+		<TurnIn QuestName="How to Make Meat Fresh Again" QuestId="24697" TurnInName="Nolen Tacker" TurnInId="38270" />
+		<While Condition="HasQuest(24742) &amp;&amp; !IsQuestCompleted(24742)">
+			<CustomBehavior File="MoveTo"  X="-7347.266" Y="-1225.765" Z="-265.487" />
+			<CustomBehavior File="UseItemOn" QuestId="24742" ItemId="12472" MobId="148503" MobType="Gameobject" NumOfTimes="1" Range="6" WaitTime="2000" X="-7347.266" Y="-1225.765" Z="-265.487" />
+			<If Condition="HasQuest(24742) &amp;&amp; !IsQuestCompleted(24742)">
+				<CustomBehavior File="MoveTo"  X="-7163.751" Y="-1145.682" Z="-266.1254" />
+				<CustomBehavior File="UseItemOn" QuestId="24742" ItemId="12472" MobId="148503" MobType="Gameobject" NumOfTimes="1" Range="6" WaitTime="2000" X="-7163.751" Y="-1145.682" Z="-266.1254" />
+			</If>
+			<If Condition="HasQuest(24742) &amp;&amp; !IsQuestCompleted(24742)">
+				<CustomBehavior File="MoveTo"  X="-7032.734" Y="-1253.281" Z="-270.6747" />
+				<CustomBehavior File="UseItemOn" QuestId="24742" ItemId="12472" MobId="148503" MobType="Gameobject" NumOfTimes="1" Range="6" WaitTime="2000" X="-7032.734" Y="-1253.281" Z="-270.6747" />
+			</If>
+			<If Condition="HasQuest(24742) &amp;&amp; !IsQuestCompleted(24742)">
+				<CustomBehavior File="MoveTo"  X="-7030.41" Y="-1504.341" Z="-263.9447" />
+				<CustomBehavior File="UseItemOn" QuestId="24742" ItemId="12472" MobId="148503" MobType="Gameobject" NumOfTimes="1" Range="6" WaitTime="2000" X="-7030.41" Y="-1504.341" Z="-263.9447" />
+			</If>
+			<If Condition="HasQuest(24742) &amp;&amp; !IsQuestCompleted(24742)">
+				<CustomBehavior File="MoveTo"  X="-7358.708" Y="-1548.142" Z="-271.8564" />
+				<CustomBehavior File="UseItemOn" QuestId="24742" ItemId="12472" MobId="148503" MobType="Gameobject" NumOfTimes="1" Range="6" WaitTime="2000" X="-7358.708" Y="-1548.142" Z="-271.8564" />
+			</If>
+		</While>
+		<If Condition="HasQuest(24740) &amp;&amp; !IsQuestCompleted(24740)">
+			<CustomBehavior File="KillTask" QuestId="24740" MobId="6520" MobId2="6521" >
+				<Hotspot X="-7245.057" Y="-1438.311" Z="-232.5458" />
+				<Hotspot X="-7259.514" Y="-1181.179" Z="-244.8865" />
+				<Hotspot X="-7038.684" Y="-1199.316" Z="-268.7164" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="Volcanic Activity" QuestId="24740" TurnInName="Williden Marshal" TurnInId="9270" />
+		<PickUp QuestName="Blazerunner" QuestId="24690" GiverName="Williden Marshal" GiverId="9270" />
+		<TurnIn QuestName="Finding the Source" QuestId="24742" TurnInName="Krakle" TurnInId="10302" />
+		<PickUp QuestName="Speak With Spraggle" QuestId="24794" GiverName="Krakle" GiverId="10302" />
+		<TurnIn QuestName="Speak With Spraggle" QuestId="24794" TurnInName="Spraggle Frock" TurnInId="9997" />
+		<PickUp QuestName="Lost!" QuestId="24734" GiverName="Spraggle Frock" GiverId="9997" />
+		<TurnIn QuestName="Lost!" QuestId="24734" TurnInName="Ringo's Sack" TurnInId="202264" />
+		<PickUp QuestName="A Little Help From My Friends" QuestId="24735" GiverName="Ringo" GiverId="9999" />
+		<While Condition="HasQuest(24735) &amp;&amp; !IsQuestCompleted(24735)">
+			<CustomBehavior File="WaitTimer" WaitTime="5000" />
+			<CustomBehavior File="MoveTo" UseMount="false" X="-7498.75" Y="-1498.213" Z="-266.0985" />
+			<CustomBehavior File="WaitTimer" WaitTime="10000" />
+			<If Condition="!IsQuestCompleted(13995)" >
+				<CustomBehavior File="RunLua" Lua="i=GetQuestLogIndexByID(24735) a,b,c,d,e,f,g,h,j=GetQuestLogTitle(i) if g==-1 then SelectQuestLogEntry(i) SetAbandonQuest(i) AbandonQuest(i) end" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000" />	
+				<PickUp QuestName="A Little Help From My Friends" QuestId="24735" GiverName="Ringo" GiverId="9999" />
+			</If>
+		</While>
+		<TurnIn QuestName="A Little Help From My Friends" QuestId="24735" TurnInName="Spraggle Frock" TurnInId="9997" />
+		<Objective QuestName="Blazerunner" QuestId="24690" Type="KillMob" MobId="9376" KillCount="1" />
+		<TurnIn QuestName="Blazerunner" QuestId="24690" TurnInName="Williden Marshal" TurnInId="9270" />
+		<PickUp QuestName="The Fledgling Colossus" QuestId="24692" GiverName="Hol'anyee Marshal" GiverId="9271" />
+		<PickUp QuestName="Peculiar Delicacies" QuestId="24691" GiverName="Quixxil" GiverId="10977" />
+		<If Condition="HasQuest(24692) &amp;&amp; !IsQuestCompleted(24692)">
+			<CustomBehavior File="KillTask" QuestId="24692" MobId="38305" >
+				<Hotspot X="-8060.108" Y="-1202.705" Z="-332.5738" />
+			</CustomBehavior>
+		</If>
+		<If Condition="HasQuest(24691) &amp;&amp; !IsQuestCompleted(24691)">
+			<CustomBehavior File="KillTask" QuestId="24691" MobId="6551" MobId2="6552" MobId3="6553" MobId4="6554" MobId5="6555">
+				<Hotspot X="-7750.781" Y="-1393.781" Z="-271.6604" />
+				<Hotspot X="-7892.027" Y="-1009.643" Z="-271.4382" />
+				<Hotspot X="-8029.938" Y="-1392.855" Z="-269.7278" />
+				<Hotspot X="-8005.781" Y="-1560.999" Z="-269.1366" />
+			</CustomBehavior>
+		</If>
+		<While Condition="!IsQuestCompleted(24720) &amp;&amp; GetItemCount(11186) &lt; 7">
+			<CustomBehavior File="InteractTask" QuestId="24720" ObjectType="Gameobject" MobId="164780" MobId2="164660" NumOfTimes="1" WaitTime="1000">
+				<Hotspot X="-7892.027" Y="-1009.643" Z="-271.4382" />
+				<Hotspot X="-7845.965" Y="-753.7955" Z="-270.5488" />
+				<Hotspot X="-7596.792" Y="-891.1104" Z="-271.8151" />
+			</CustomBehavior>
+		</While>
+		<PickUp QuestName="An Abandoned Research Camp" QuestId="24866" GiverType="Object" GiverName="Research Equipment" GiverId="161521" X="-7596.792" Y="-891.1104" Z="-271.8151" />
+		<TurnIn QuestName="An Abandoned Research Camp" QuestId="24866" TurnInName="Hol'anyee Marshal" TurnInId="9271" />
+		<TurnIn QuestName="The Fledgling Colossus" QuestId="24692" TurnInName="Hol'anyee Marshal" TurnInId="9271" />
+		<TurnIn QuestName="Peculiar Delicacies" QuestId="24691" TurnInName="Quixxil" TurnInId="10977" />
+		<PickUp QuestName="Mossy Pile" QuestId="24693" GiverName="Quixxil" GiverId="10977" />
+		<TurnIn QuestName="Mossy Pile" QuestId="24693" TurnInName="Gremix" TurnInId="38275" />
+		<PickUp QuestName="Shizzle's Flyer" QuestId="24736" GiverName="Shizzle" GiverId="9998" />
+		<PickUp QuestName="Super Sticky" QuestId="24737" GiverName="Tara" GiverId="38276" />
+		<PickUp QuestName="Hard to Harvest" QuestId="24700" GiverName="Tara" GiverId="38276" />
+		<PickUp QuestName="Marshal's Refuse" QuestId="24701" GiverName="Doreen" GiverId="38277" />
+		<If Condition="HasQuest(24736) &amp;&amp; !IsQuestCompleted(24736)">
+			<CustomBehavior File="KillTask" QuestId="24736" MobId="9167" >
+				<Hotspot X="-7046.93" Y="-888.5444" Z="-270.3805" />
+				<Hotspot X="-7075.244" Y="-562.9761" Z="-270.2733" />
+				<Hotspot X="-6735.556" Y="-684.9359" Z="-271.1442" />
+			</CustomBehavior>
+		</If>
+		<While Condition="!IsQuestCompleted(24720) &amp;&amp; GetItemCount(11188) &lt; 7">
+			<CustomBehavior File="InteractTask" QuestId="24720" ObjectType="Gameobject" MobId="164781" MobId2="164661" NumOfTimes="1" WaitTime="1000">
+				<Hotspot X="-7046.93" Y="-888.5444" Z="-270.3805" />
+				<Hotspot X="-7075.244" Y="-562.9761" Z="-270.2733" />
+				<Hotspot X="-6735.556" Y="-684.9359" Z="-271.1442" />
+			</CustomBehavior>
+		</While>
+		<While Condition="HasQuest(24700) &amp;&amp; !IsQuestCompleted(24700)">
+			<CustomBehavior File="InteractTask" QuestId="24700" ObjectType="Gameobject" MobId="201975" NumOfTimes="4" WaitTime="1000">
+				<Hotspot X="-6487.073" Y="-992.5347" Z="-269.2591" />
+				<Hotspot X="-6405.068" Y="-1261.809" Z="-271.1779" />
+				<Hotspot X="-6701.379" Y="-1329.775" Z="-271.8023" />
+			</CustomBehavior>
+		</While>
+		<If Condition="HasQuest(24737) &amp;&amp; !IsQuestCompleted(24737)">
+			<CustomBehavior File="KillTask" QuestId="24737" MobId="6517" MobId2="6518" MobId3="6519" MobId4="6527" >
+				<Hotspot X="-6487.073" Y="-992.5347" Z="-269.2591" />
+				<Hotspot X="-6405.068" Y="-1261.809" Z="-271.1779" />
+				<Hotspot X="-6701.379" Y="-1329.775" Z="-271.8023" />
+			</CustomBehavior>
+		</If>
+		<While Condition="HasQuest(24701) &amp;&amp; !IsQuestCompleted(24701)">
+			<CustomBehavior File="InteractTask" QuestId="24701" ObjectType="Gameobject" MobId="202158" MobId2="202159" MobId3="202160" NumOfTimes="10" WaitTime="1000">
+				<Hotspot X="-6204.234" Y="-1111.267" Z="-219.364" />
+				<Hotspot X="-6069.786" Y="-1041.745" Z="-198.0544" />
+			</CustomBehavior>
+		</While>
+		<TurnIn QuestName="Shizzle's Flyer" QuestId="24736" TurnInName="Shizzle" TurnInId="9998" />
+		<TurnIn QuestName="Marshal's Refuse" QuestId="24701" TurnInName="Doreen" TurnInId="38277" />
+		<PickUp QuestName="The Apes of Un'Goro" QuestId="24717" GiverName="Gremix" GiverId="38275" />
+		<TurnIn QuestName="Super Sticky" QuestId="24737" TurnInName="Tara" TurnInId="38276" />
+		<TurnIn QuestName="Hard to Harvest" QuestId="24700" TurnInName="Tara" TurnInId="38276" />
+		<PickUp QuestName="Gormashh the Glutinous" QuestId="24699" GiverName="Tara" GiverId="38276" />
+		<PickUp QuestName="Chasing A-Me 01" QuestId="24714" GiverName="Karna Remtravel" GiverId="9618" />
+		<If Condition="HasQuest(24699) &amp;&amp; !IsQuestCompleted(24699)">
+			<CustomBehavior File="KillTask" QuestId="24699" MobId="38307" >
+				<Hotspot X="-6756.129" Y="-1672.218" Z="-273.2518" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="Chasing A-Me 01" QuestId="24714" TurnInName="A-Me 01" TurnInId="9623" />
+		<PickUp QuestName="Repairing A-Me 01" QuestId="24715" GiverName="A-Me 01" GiverId="9623" />
+		<If Condition="!HasQuest(24718) &amp;&amp; !IsQuestCompleted(24718)">
+			<CustomBehavior File="MoveTo" X="-6379.233" Y="-1870.066" Z="-260.5508" />
+			<CustomBehavior File="WaitTimer" WaitTime="3000" />
+			<CustomBehavior File="RunMacro" Macro="/click WatchFrameAutoQuestPopUp1" NumOfTimes="1" WaitTime="1000"/>
+			<CustomBehavior File="WaitTimer" WaitTime="2000" />
+			<CustomBehavior File="RunLua" Lua="AcceptQuest()" />
+		</If>
+		<Objective QuestName="The Mighty U'cha" QuestId="24718" Type="CollectItem" ItemId="11476" CollectCount="1" />
+		<If Condition="HasQuest(24717) &amp;&amp; !IsQuestCompleted(24717)">
+			<CustomBehavior File="KillTask" QuestId="24717" MobId="6513" MobId2="6514" MobId3="6516">
+				<Hotspot X="-6455.571" Y="-1827.325" Z="-270.9429" />
+				<Hotspot X="-6352.215" Y="-1591.244" Z="-270.7831" />
+				<Hotspot X="-6379.233" Y="-1870.066" Z="-260.5508" />
+			</CustomBehavior>
+		</If>
+		<While Condition="HasQuest(24715) &amp;&amp; !IsQuestCompleted(24715)">
+			<While Condition="!HasItem(50237)">
+				<CustomBehavior File="InteractTask" QuestId="24715" ObjectType="Gameobject" MobId="201979" NumOfTimes="1" WaitTime="3000">
+					<Hotspot X="-6455.571" Y="-1827.325" Z="-270.9429" />
+					<Hotspot X="-6352.215" Y="-1591.244" Z="-270.7831" />
+				</CustomBehavior>
+			</While>
+			<If Condition="HasItem(50237)">
+				<CustomBehavior File="UseItemOn" QuestId="24715" ItemId="50237" MobId="201978" MobType="Gameobject" NumOfTimes="1" Range="4" WaitTime="2000" X="-6460.321" Y="-1836.296" Z="-271.2724" />
+			</If>
+		</While>
+		<TurnIn QuestName="Repairing A-Me 01" QuestId="24715" TurnInName="A-Me 01" TurnInId="9623" />
+		<PickUp QuestName="Serving A-Me 01" QuestId="24926" GiverName="A-Me 01" GiverId="9623" />
+		<TurnIn QuestName="Serving A-Me 01" QuestId="24926" TurnInName="Karna Remtravel" TurnInId="9618" />
+		<TurnIn QuestName="The Apes of Un'Goro" QuestId="24717" TurnInName="Gremix" TurnInId="38275" />
+		<TurnIn QuestName="The Mighty U'cha" QuestId="24718" TurnInName="Gremix" TurnInId="38275" />
+		<PickUp QuestName="The Northern Pylon" QuestId="24722" GiverName="Gremix" GiverId="38275" />
+		<TurnIn QuestName="Gormashh the Glutinous" QuestId="24699" TurnInName="Tara" TurnInId="38276" />
+		<While Condition="HasQuest(24722) &amp;&amp; !IsQuestCompleted(24722)">
+			<CustomBehavior File="InteractTask" QuestId="24722" ObjectType="Gameobject" GossipOptions="1" MobId="164955" NumOfTimes="1" WaitTime="3000">
+				<Hotspot X="-6270.238" Y="-1562.374" Z="-227.4828" />
+			</CustomBehavior>
+		</While>
+		<TurnIn QuestName="The Northern Pylon" QuestId="24722" TurnInName="J.D. Collie" TurnInId="9117" />
+		<TurnIn QuestName="Crystals of Power" QuestId="24720" TurnInName="J.D. Collie" TurnInId="9117" />
+		<PickUp QuestName="Adventures in Archaeology" QuestId="24698" GiverName="Nolen Tacker" GiverId="38270" />
+		<If Condition="HasQuest(24698)">
+			<CustomBehavior File="ForceSetVendor" VendorType="Repair" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000"/>
+		</If>
+		<TurnIn QuestName="Adventures in Archaeology" QuestId="24698" TurnInName="Spark Nilminer" TurnInId="9272" />
+		<PickUp QuestName="Roll the Bones" QuestId="24730" GiverName="Spark Nilminer" GiverId="9272" />
+		<PickUp QuestName="An Important Lesson" QuestId="24703" GiverName="Maximillian of Northshire" GiverId="38237" />
+		<While Condition="HasQuest(24703) &amp;&amp; !IsQuestCompleted(24703)">
+			<CustomBehavior File="InteractTask" GossipOptions="1,1,1,1,1,1" MobId="38237" NumOfTimes="1" WaitTime="1000">
+				<Hotspot X="-7228.146" Y="-599.6198" Z="-271.2462" />
+			</CustomBehavior>
+		</While>
+		<TurnIn QuestName="An Important Lesson" QuestId="24703" TurnInName="Maximillian of Northshire" TurnInId="38237" />
+		<PickUp QuestName="The Evil Dragons of Un'Goro Crater" QuestId="24704" GiverName="Maximillian of Northshire" GiverId="38237" />
+		<If Condition="!HasQuest(24705) &amp;&amp; !IsQuestCompleted(24705) &amp;&amp; Me.HasAura(&quot;Un'Goro Maximillian Guardian Aura&quot;)">
+			<PickUp QuestName="Damsels Were Made to be Saved" QuestId="24705" GiverName="Maximillian of Northshire" GiverId="38255" />
+		</If>
+		<If Condition="!HasQuest(24705) &amp;&amp; !IsQuestCompleted(24705) &amp;&amp; !Me.HasAura(&quot;Un'Goro Maximillian Guardian Aura&quot;)">
+			<PickUp QuestName="Damsels Were Made to be Saved" QuestId="24705" GiverName="Maximillian of Northshire" GiverId="38237" />
+		</If>
+		<PickUp QuestName="Damsels Were Made to be Saved" QuestId="24705" GiverName="Maximillian of Northshire" GiverId="38255" />
+		<If Condition="HasQuest(24730) &amp;&amp; !IsQuestCompleted(24730)">
+			<CustomBehavior File="KillTask" QuestId="24730" MobId="9164" MobId2="6501" MobId3="6502">
+				<Hotspot X="-7364.781" Y="-477.5406" Z="-273.6567" />
+				<Hotspot X="-7796.58" Y="-654.002" Z="-259.9026" />
+				<Hotspot X="-7584.678" Y="-917.366" Z="-271.286" />
+				<Hotspot X="-7104.684" Y="-859.7793" Z="-272.093" />
+			</CustomBehavior>
+		</If>
+		<If Condition="HasQuest(24704) &amp;&amp; !IsQuestCompleted(24704)">
+			<CustomBehavior File="KillTask" QuestId="24704" MobId="9164" MobId2="6501" MobId3="6502" MobId4="9167" MobId5="9166">
+				<Hotspot X="-7364.781" Y="-477.5406" Z="-273.6567" />
+				<Hotspot X="-7796.58" Y="-654.002" Z="-259.9026" />
+				<Hotspot X="-7584.678" Y="-917.366" Z="-271.286" />
+				<Hotspot X="-7104.684" Y="-859.7793" Z="-272.093" />
+			</CustomBehavior>
+		</If>
+		<If Condition="HasQuest(24704) &amp;&amp; IsQuestCompleted(24704)">
+			<CustomBehavior File="CompleteLogQuest" QuestId="24704" />
+			<CustomBehavior File="WaitTimer" WaitTime="5000" /> 
+		</If>
+		<While Condition="HasQuest(24705) &amp;&amp; !IsQuestCompleted(24705)">
+			<If Condition="!Me.HasAura(&quot;Un'Goro Maximillian Guardian Aura&quot;)" >
+				<CustomBehavior File="InteractTask" QuestId="24705" GossipOptions="1" MobId="38237" NumOfTimes="1" WaitTime="1000">
+					<Hotspot X="-7228.146" Y="-599.6198" Z="-271.2462" />
+				</CustomBehavior>
+			</If>
+			<CustomBehavior File="MoveTo" X="-7427.764" Y="-814.1671" Z="-276.3264" />
+			<CustomBehavior File="WaitForChatEvent" QuestId="24705" Objective="1" ChatMsg="My squire will retrieve your purse for you."/>
+			<CustomBehavior File="InteractTask" QuestId="24705" ObjectType="Gameobject" MobId="202065" NumOfTimes="1" WaitTime="3000">
+				<Hotspot X="-7426.619" Y="-822.5608" Z="-274.175" />
+			</CustomBehavior>
+			<CustomBehavior File="InteractTask" QuestId="24705" MobId="38238" NumOfTimes="1" WaitTime="3000">
+				<Hotspot X="-7426.619" Y="-822.5608" Z="-274.175" />
+			</CustomBehavior>
+			<CustomBehavior File="MoveTo" X="-7207.253" Y="-331.7869" Z="-233.0918" />
+			<CustomBehavior File="WaitForChatEvent" QuestId="24705" Objective="2" ChatMsg="Be flung!  To safety!"/>
+			<CustomBehavior File="MoveTo" X="-7242.779" Y="-377.555" Z="-268.3821" />
+			<CustomBehavior File="WaitForChatEvent" QuestId="24705" Objective="2" ChatMsg="Nevertheless, you are now freed from the mountains' grip and safe from harm.  Marshal's Stand lies to the east, I believe."/>
+			<CustomBehavior File="MoveTo" X="-6468.251" Y="-531.4393" Z="-231.0637" />
+			<CustomBehavior File="WaitForChatEvent" QuestId="24705" Objective="3" ChatMsg="Squawky..."/>
+			<CustomBehavior File="WaitTimer" WaitTime="5000" /> 
+		</While>
+		<If Condition="HasQuest(24705) &amp;&amp; IsQuestCompleted(24705)">
+			<CustomBehavior File="CompleteLogQuest" QuestId="24705" />
+			<CustomBehavior File="WaitTimer" WaitTime="5000" /> 
+		</If>
+		<If Condition="!HasQuest(24706) &amp;&amp; !IsQuestCompleted(24706) &amp;&amp; Me.HasAura(&quot;Un'Goro Maximillian Guardian Aura&quot;)">
+			<PickUp QuestName="The Spirits of Golakka Hot Springs" QuestId="24706" GiverName="Maximillian of Northshire" GiverId="38255" />
+		</If>
+		<If Condition="!HasQuest(24706) &amp;&amp; !IsQuestCompleted(24706) &amp;&amp; !Me.HasAura(&quot;Un'Goro Maximillian Guardian Aura&quot;)">
+			<PickUp QuestName="The Spirits of Golakka Hot Springs" QuestId="24706" GiverName="Maximillian of Northshire" GiverId="38237" />
+		</If>
+		<PickUp QuestName="The Spirits of Golakka Hot Springs" QuestId="24706" GiverName="Maximillian of Northshire" GiverId="38255" />
+		<TurnIn QuestName="Roll the Bones" QuestId="24730" TurnInName="Spark Nilminer" TurnInId="9272" />
+		<PickUp QuestName="The Fossil-Finder 3000" QuestId="24708" GiverName="Spark Nilminer" GiverId="9272" />
+		<If Condition="HasQuest(24706) &amp;&amp; !IsQuestCompleted(24706)">
+			<If Condition="!Me.HasAura(&quot;Un'Goro Maximillian Guardian Aura&quot;)" >
+				<CustomBehavior File="InteractTask" QuestId="24706" GossipOptions="1" MobId="38237" NumOfTimes="1" WaitTime="1000">
+					<Hotspot X="-7228.146" Y="-599.6198" Z="-271.2462" />
+				</CustomBehavior>
+			</If>
+			<CustomBehavior File="RunMacro" Macro="/dismount" NumOfTimes="1" WaitTime="3000" />
+			<CustomBehavior File="RunMacro" Macro="/petpassive" NumOfTimes="1" WaitTime="1000" />
+			<CustomBehavior File="KillTask" QuestId="24706" MobId="38254" MobId2="6501" MobId3="6502" MobId4="9167" MobId5="9166">
+				<Hotspot X="-7295.182" Y="-562.9588" Z="-272.8829" />
+				<Hotspot X="-7186.721" Y="-405.7797" Z="-269.4978" />
+				<Hotspot X="-7155.08" Y="-815.3151" Z="-270.938" />
+				<Hotspot X="-7446.205" Y="-826.9769" Z="-270.9694" />
+			</CustomBehavior>
+			<CustomBehavior File="RunMacro" Macro="/petdefensive" NumOfTimes="1" WaitTime="1000" />
+		</If>
+		<If Condition="HasQuest(24706) &amp;&amp; IsQuestCompleted(24706)">
+			<CustomBehavior File="CompleteLogQuest" QuestId="24706" />
+			<CustomBehavior File="WaitTimer" WaitTime="5000" /> 
+		</If>
+		<PickUp QuestName="The Ballad of Maximillian" QuestId="24707" GiverName="Maximillian of Northshire" GiverId="38237" />
+		<While Condition="HasQuest(24707) &amp;&amp; !IsQuestCompleted(24707)">
+			<CustomBehavior File="RunMacro" Macro="/tar Devilsaur Queen\n/click VehicleMenuBarActionButton1\n/click VehicleMenuBarActionButton3\n/click VehicleMenuBarActionButton2" NumOfTimes="210" WaitTime="1000" />
+		</While>
+		<If Condition="HasQuest(24707) &amp;&amp; IsQuestCompleted(24707)">
+			<CustomBehavior File="RunLua" Lua="Dismount()" />
+			<CustomBehavior File="CompleteLogQuest" QuestId="24707" />
+			<CustomBehavior File="WaitTimer" WaitTime="5000" />
+		</If>
+		<While Condition="HasQuest(24708) &amp;&amp; !IsQuestCompleted(24708)">
+			<CustomBehavior File="MoveTo" X="-7800.666" Y="-684.4837" Z="-258.4581" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000" />
+			<UseItem ItemId="50405" QuestName="The Fossil-Finder 3000" QuestId="24708" X="-7800.666" Y="-684.4837" Z="-258.4581" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000" />
+			<CustomBehavior File="InteractWithExisting" QuestId="24708" MobId="202165" NumOfTimes="1" ObjectType="Gameobject" WaitTime="4000" X="-7800.666" Y="-684.4837" Z="-258.4581" />
+		</While>
+		<TurnIn QuestName="The Fossil-Finder 3000" QuestId="24708" TurnInName="Spark Nilminer" TurnInId="9272" />
+		<PickUp QuestName="A Tale of Two Shovels" QuestId="24709" GiverName="Spark Nilminer" GiverId="9272" />
+		<Objective QuestName="A Tale of Two Shovels" QuestId="24709" Type="CollectItem" ItemId="50410" CollectCount="1" />
+		<TurnIn QuestName="A Tale of Two Shovels" QuestId="24709" TurnInName="Spark Nilminer" TurnInId="9272" />
+		<PickUp QuestName="The Western Pylon" QuestId="24723" GiverName="Spark Nilminer" GiverId="9272" />
+		<While Condition="HasQuest(24723) &amp;&amp; !IsQuestCompleted(24723)">
+			<CustomBehavior File="InteractTask" QuestId="24723" ObjectType="Gameobject" MobId="164956"  GossipOptions="1" NumOfTimes="1" WaitTime="1000">
+				<Hotspot X="-7200.116" Y="-332.7274" Z="-227.5502" />
+			</CustomBehavior>
+		</While>
+		<TurnIn QuestName="The Western Pylon" QuestId="24723" TurnInName="J.D. Collie" TurnInId="9117" />
+		<PickUp QuestName="The Shaper's Terrace" QuestId="24694" GiverName="Un'Goro Examinant" GiverId="38504" />
+		<If Condition="Me.Level &gt;= 54 &amp;&amp; HasQuest(24694)" >
+			<PickUp QuestName="The Dunes of Silithus" QuestId="28859" GiverName="Zen'Aliri" GiverId="38269" />
+		</If>
+		<If Condition="HasQuest(24694)">
+			<CustomBehavior File="InteractTask" MobId="38504"  GossipOptions="1" NumOfTimes="1" WaitTime="1000">
+				<Hotspot X="-7508.582" Y="-1458.365" Z="-267.2147" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="The Shaper's Terrace" QuestId="24694" TurnInName="Nablya" TurnInId="38502" />
+		<PickUp QuestName="Ever Watching From Above" QuestId="24695" GiverName="Nablya" GiverId="38502" />
+		<If Condition="HasQuest(24695) &amp;&amp; !IsQuestCompleted(24695)">
+			<CustomBehavior File="UserSettings" UseMount="false" HarvestHerbs="false" HarvestMinerals="false" LootMobs="false" PullDistance="1" />
+			<CustomBehavior File="RunMacro" Macro="/dismount" NumOfTimes="1" WaitTime="3000" />
+			<CustomBehavior File="RunMacro" Macro="/petpassive" NumOfTimes="1" WaitTime="1000" />
+			<CustomBehavior File="24695" />
+			<CustomBehavior File="UserSettings" UseMount="true" HarvestHerbs="true" HarvestMinerals="true" LootMobs="true" PullDistance="30" />
+			<CustomBehavior File="RunMacro" Macro="/petdefensive" NumOfTimes="1" WaitTime="1000" />
+		</If>
+		<TurnIn QuestName="Ever Watching From Above" QuestId="24695" TurnInName="Nablya" TurnInId="38502" />
+		<If Condition="IsQuestCompleted(24695) &amp;&amp; Me.Y &lt; -2400 &amp;&amp; Me.ZoneId == 490">
+			<CustomBehavior File="InteractTask" MobId="38502"  GossipOptions="1" NumOfTimes="1" WaitTime="1000">
+				<Hotspot X="-7101.253" Y="-2546.893" Z="-152.002" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="The Dunes of Silithus" QuestId="28859" TurnInName="Windcaller Proudhorn" TurnInId="15191" />
+		<CustomBehavior File="LoadProfile" Profile="silithus.xml" Remember="True" />
+	</QuestOrder>
+</HBProfile>
