@@ -1,0 +1,85 @@
+<HBProfile>
+	<Name>[H] Outlands Midsummer Festival - Flame Keeper and Extinguishing [JWLionKing]</Name>
+	<MinLevel>1</MinLevel>
+	<MaxLevel>86</MaxLevel>
+	
+	<MinDurability>0.1</MinDurability>
+	<MinFreeBagSlots>1</MinFreeBagSlots>
+		
+	<QuestOrder>
+
+				<!-- 1 Hellfire Peninsula Honor Hold at 62,58 (Alliance) and Thrallmar at 57,42 (Horde) -->
+
+				<CustomBehavior File="FlyTo" DestName="Honor Hold Alliance Bonfire" X="-533.9802" Y="2332.722" Z="39.44472" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Thrallmar Flame Keeper" X="26.14655" Y="2583.3" Z="68.54426" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<!-- 2 Netherstorm Area 52 at 31,62 (Alliance) and 32,68 (Horde) -->
+
+				<CustomBehavior File="FlyTo" DestName="Netherstorm Flame Keeper" X="2905.909" Y="3689.406" Z="144.2639" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Netherstorm Alliance Bonfire" X="3126.511" Y="3752.953" Z="141.6385" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<!-- 3 Blade's Edge Mountains Sylvanaar at 41,65 (Alliance) and Thunderlord Stronghold at 50,58 (Horde) --> -->
+
+				<CustomBehavior File="FlyTo" DestName="Blade's Edge Flame Keeper" X="2284.967" Y="6146.136" Z="135.5349" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Blade's Edge Alliance Bonfire" X="2025.198" Y="6577.835" Z="134.1939" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<!-- 4 Zangarmarsh Telredor at 69,52 (Alliance) and Zabra'jin at 36,52 (Horde) -->
+
+				<CustomBehavior File="FlyTo" DestName="Zangarmarsh Alliance Bonfire" X="185.1443" Y="6034.343" Z="22.51476" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Zangarmarsh Flame Keeper" X="201.8913" Y="7701.492" Z="22.82314" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<!-- 5 Nagrand Telaar at 50,70 (Alliance) and Garadar at 51,34 (Horde) -->
+
+				<CustomBehavior File="FlyTo" DestName="Nagrand Flame Keeper" X="-1226.759" Y="7484.53" Z="21.81299"  />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Nagrand Alliance Bonfire" X="-2520.884" Y="7545.33" Z="-1.511588" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<!-- 6 Terokkar Forest Allerian Stronghold at 54,56 (Alliance) and Stonebreaker Hold at 52,43 (Horde) -->
+
+				<CustomBehavior File="FlyTo" DestName="Terokkar Flame Keeper" X="-2544.946" Y="4274.578" Z="19.78986" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Terokkar Alliance Bonfire" X="-2989.23" Y="4157.634" Z="6.542774" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<!-- 7  Shadowmoon Valley Wildhammer Stronghold at 40,54 (Alliance) and Shadowmoon Village at 33,31 (Horde) -->
+
+				<CustomBehavior File="FlyTo" DestName="Shadowmoon Valley Flame Keeper" X="-3076.083" Y="2382.987" Z="61.84888" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Shadowmoon Valley Alliance Bonfire" X="-3974.19" Y="1992.778" Z="134.8385"  />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+				<CustomBehavior File="FlyTo" DestName="Flying to a relatively safe area" X="-3875.985" Y="1779.971" Z="95.43883"  />
+
+				<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="Congratulations on your Achievement!\n\nEnd of Line" />
+
+	</QuestOrder>
+</HBProfile>
