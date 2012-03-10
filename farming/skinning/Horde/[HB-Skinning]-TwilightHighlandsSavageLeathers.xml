@@ -1,0 +1,103 @@
+<HBProfile creator="Pasterke" version="1.0">
+	<!-- Grinding area starts at mapcoordinates 68.39 32.78 -->
+	<Name>Twilight Skinning Savage leathers</Name>
+	<MinLevel>83</MinLevel> 
+	<MaxLevel>86</MaxLevel> 
+
+	<TargetElites>False</TargetElites>
+	<MinDurability>0.3</MinDurability> 
+	<MinFreeBagSlots>2</MinFreeBagSlots> 
+	
+	
+	<SellGrey>True</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+	<MailWhite>True</MailWhite>
+	<MailGreen>True</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	
+	<SubProfile>
+		<Name>Twilight Skinning</Name>
+		<MinLevel>83</MinLevel>
+		<MaxLevel>90</MaxLevel>
+		<TargetElites>False</TargetElites>
+		<Mailboxes>
+			<Mailbox X="-4016.157" Y="-6426.62" Z="37.78253" />
+		</Mailboxes>
+		<Vendors>
+			<Vendor Name="Zim Bamzabble" Entry="50460" Type="Repair" X="-4010.719" Y="-6501.42" Z="15.74687" />
+			<Vendor Name="Jodan" Entry="49549" Type="Repair" X="-4016.918" Y="-6507.592" Z="15.74687" />
+			<Vendor Name="Frenk" Entry="49547" Type="Food" X="-3947.064" Y="-6311.024" Z="29.66623" />
+		</Vendors>
+			<GrindArea>
+				<Factions>2000 15 2358</Factions>
+				<TargetMinLevel>80</TargetMinLevel>
+				<TargetMaxLevel>86</TargetMaxLevel>
+				<Hotspots>
+					<Hotspot X="-3283.395" Y="-6102.144" Z="102.3712" />
+					<Hotspot X="-3308.088" Y="-6127.388" Z="100.1095" />
+					<Hotspot X="-3310.863" Y="-6156.048" Z="99.01484" />
+					<Hotspot X="-3286.025" Y="-6186.332" Z="96.52265" />
+					<Hotspot X="-3260.466" Y="-6215.862" Z="92.47002" />
+					<Hotspot X="-3217.562" Y="-6237.72" Z="90.68711" />
+					<Hotspot X="-3170.613" Y="-6232.884" Z="91.41589" />
+					<Hotspot X="-3132.634" Y="-6192.843" Z="91.8977" />
+					<Hotspot X="-3094.899" Y="-6167.23" Z="90.72089" />
+					<Hotspot X="-3054.246" Y="-6150.899" Z="92.01896" />
+					<Hotspot X="-3017.161" Y="-6129.911" Z="91.63448" />
+					<Hotspot X="-2987.526" Y="-6109.66" Z="91.86901" />
+					<Hotspot X="-2947.157" Y="-6095.317" Z="90.8142" />
+					<Hotspot X="-2899.624" Y="-6101.589" Z="91.68633" />
+					<Hotspot X="-2909.189" Y="-6048.908" Z="91.0652" />
+					<Hotspot X="-2929.809" Y="-6017.435" Z="91.10454" />
+					<Hotspot X="-2933.528" Y="-5984.451" Z="91.71136" />
+					<Hotspot X="-2919.568" Y="-5945.263" Z="98.48126" />
+					<Hotspot X="-2924.813" Y="-5913.287" Z="105.7233" />
+					<Hotspot X="-2935.982" Y="-5894.287" Z="115.1179" />
+					<Hotspot X="-2985.527" Y="-5884.524" Z="122.8447" />
+					<Hotspot X="-3027.355" Y="-5867.77" Z="117.0357" />
+					<Hotspot X="-3057.327" Y="-5839.729" Z="109.6693" />
+					<Hotspot X="-3081.736" Y="-5804.316" Z="107.43" />
+					<Hotspot X="-3108.041" Y="-5789.963" Z="106.9828" />
+					<Hotspot X="-3147.336" Y="-5789.052" Z="111.9971" />
+					<Hotspot X="-3186.387" Y="-5802.654" Z="112.9531" />
+					<Hotspot X="-3221.015" Y="-5823.504" Z="115.9955" />
+					<Hotspot X="-3235.835" Y="-5854.82" Z="114.5046" />
+					<Hotspot X="-3252.806" Y="-5879.015" Z="114.9328" />
+					<Hotspot X="-3280.418" Y="-5905.511" Z="115.0213" />
+					<Hotspot X="-3315.145" Y="-5918.165" Z="119.1582" />
+					<Hotspot X="-3298.576" Y="-5959.126" Z="112.0979" />
+				</Hotspots>
+			</GrindArea>
+		<ProtectedItems>
+			<Item Name="Brann's Trusty Pick" Entry="20723" />
+			<Item Name="Cold Iron Pick" Entry="1959" />
+			<Item Name="Digmaster 5000" Entry="9465" />
+			<Item Name="Gouging Pick" Entry="1819" />
+			<Item Name="Kobold Excavation Pick" Entry="778" />
+			<Item Name="Mining Pick" Entry="2901" />
+			<Item Name="Tunnel Pick" Entry="756" />
+			<Item Name="Bladed Pickaxe" Entry="40893" />
+			<Item Name="Hammer Pick" Entry="40892" />
+			/*Don't mail my food*/
+			<Item Name="Severed Sagefish Head" Entry="62671" />
+			<Item Name="Skewered Eel" Entry="62669" />
+			<Item Name="Blackened Surprise" Entry="62676" />
+			<Item Name="Beer-Basted Crocolisk" Entry="62670" />
+			/* Don't mail my Skinning Knife */
+			<Item Name="Skinning Knife" Entry="7005" />
+		</ProtectedItems>
+		<AvoidMobs>
+			
+		</AvoidMobs>
+		<Blackspots> 
+			
+		</Blackspots>
+	
+	</SubProfile>
+<AvoidMobs>
+		<!-- <AvoidMob Name="Fel Reaver" Entry="18733" /> -->
+		<!-- <AvoidMob Name="Tagar Spinebreaker" Entry="19443" /> -->      
+</AvoidMobs>		
+</HBProfile>
