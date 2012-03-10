@@ -1,0 +1,105 @@
+<HBProfile>
+	<Name>Deepholm Embersilk Cloth Farm by TubaJedi v.21</Name>
+	<MinDurability>0.4</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<MinLevel>1</MinLevel>
+	<MaxLevel>86</MaxLevel>
+	<MailGrey>False</MailGrey>
+	<MailWhite>False</MailWhite>
+	<MailGreen>True</MailGreen>
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>True</SellGreen>
+	<SellBlue>False</SellBlue>
+	<SellPurple>False</SellPurple>
+	<HarvestMinerals>False</HarvestMinerals>
+	<HarvestHerbs>False</HarvestHerbs>
+	<AvoidMobs>
+
+	</AvoidMobs>
+	
+	<Mailboxes>
+		<Mailbox X="1090.728" Y="437.0858" Z="-45.91599" />
+	</Mailboxes>
+	
+	<Blackspots>
+
+	</Blackspots>
+
+	<Vendors>
+		<Vendor Name="Rixi The Driller Bombdigger" Entry="45293" Type="Repair" X="1091.19" Y="436.332" Z="-45.96793" />
+	</Vendors>
+
+
+	<QuestOrder>
+	<CustomBehavior File="UserSettings" LootMobs="True" KillBetweenHotspots="True" PullDistance="25" HarvestHerbs="False" HarvestMinerals="False" /> 
+<!--HORDE PROFILE-->
+<If Condition="Me.IsHorde">	
+		<If Condition="Me.ZoneId == 1637" >
+		<!--FLYTO AND USE PORTAL TO DEEPHOLM-->
+			<CustomBehavior File="FlyTo" X="2038.747" Y="-4355.103" Z="98.66765" />
+			<CustomBehavior File="UseGameObject" QuestId="0" ObjectId="207689" NumOfTimes="1" X="2038.747" Y="-4355.103" Z="98.66765" />
+		</If>
+</If>
+
+		<If Condition="(Me.Y &lt; 820) &amp;&amp; (Me.X &lt; 792) &amp;&amp; (Me.X &gt; 1071) &amp;&amp; (Me.Y &gt; 366) &amp;&amp; (Me.FreeBagSlots &gt; 3)" >
+			<CustomBehavior File="FlyTo" X="929.5061" Y="509.2195" Z="-39.6726" />
+		</If>
+		<If Condition="Me.X &gt; 792 &amp;&amp; Me.FreeBagSlots &gt; 3" >
+			<CustomBehavior File="FlyTo" X="766.4879" Y="1660.615" Z="314.8009" />
+			<CustomBehavior File="ForcedDismount" />
+		</If>
+		<While Condition="Me.ZoneId == 5042" ><!--Allows infinite repeat-->
+				<While Condition="(Me.FreeBagSlots &lt;= 3)" >
+				<!--mail and repair-->
+					<CustomBehavior File="FlyTo" X="929.5061" Y="509.2195" Z="-39.6726" />
+					<CustomBehavior File="FlyTo" X="1039.399" Y="497.062" Z="-36.87145" />
+					<CustomBehavior File="FlyTo" X="1090.728" Y="437.0858" Z="-45.91599" />
+					<CustomBehavior File="ForcedDismount" />
+					<CustomBehavior File="ForceSetVendor" VendorType="Mail" />
+					<CustomBehavior File="ForceSetVendor" VendorType="Repair" />
+					<CustomBehavior File="FlyTo" X="1090.728" Y="437.0858" Z="-45.91599" />
+					<CustomBehavior File="FlyTo" X="1039.399" Y="497.062" Z="-36.87145" />					
+					<CustomBehavior File="FlyTo" X="929.5061" Y="509.2195" Z="-39.6726" />
+					<CustomBehavior File="FlyTo" X="766.4879" Y="1660.615" Z="314.8009" />
+				</While>
+				<While Condition="(Me.FreeBagSlots &gt; 3)" >
+				<If Condition="(Me.Y &lt; 820) &amp;&amp; (Me.X &lt; 792) &amp;&amp; (Me.X &gt; 1071) &amp;&amp; (Me.Y &gt; 366) &amp;&amp; (Me.FreeBagSlots &gt; 3)" >
+						<CustomBehavior File="FlyTo" X="929.5061" Y="509.2195" Z="-39.6726" />
+				</If>
+				<If Condition="(Me.X &gt; 792) &amp;&amp; (Me.FreeBagSlots &gt; 3)" >
+						<CustomBehavior File="FlyTo" X="766.4879" Y="1660.615" Z="314.8009" />
+						<CustomBehavior File="ForcedDismount" />
+				</If>
+				<SetGrindArea>
+					<GrindArea>
+					  <Factions>2102</Factions>
+					  <Name>Stone Troggs</Name>
+					<MinLevel>83</MinLevel>
+					<MaxLevel>86</MaxLevel>
+					  <MaximumHotspotTime>2000</MaximumHotspotTime>
+					  <RandomizeHotspots>True</RandomizeHotspots>
+					  <Hotspots>
+							<Hotspot X="772.4304" Y="1928.608" Z="327.4351" />
+							<Hotspot X="670.7137" Y="1947.519" Z="334.4088" />
+							<Hotspot X="472.8919" Y="1658.994" Z="347.0687" />
+							<Hotspot X="469.0722" Y="1720.252" Z="346.7719" />
+							<Hotspot X="763.9097" Y="1703.464" Z="316.4634" />
+							<Hotspot X="676.3272" Y="1685.963" Z="334.5828" />
+					</Hotspots>
+				</GrindArea>
+				</SetGrindArea>
+				<GrindTo Condition="Me.FreeBagSlots &lt;= 3" GoalText="Collect Embersilk Cloth"/>
+					</While>	
+				
+		</While>	
+
+<!--ALLIANCE PROFILE-->
+
+
+	</QuestOrder>
+	
+
+	
+	</HBProfile>
+	
