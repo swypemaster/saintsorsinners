@@ -1,0 +1,67 @@
+<!-- Profile created by hypo -->
+
+<HBProfile>
+<Name>Uldum Savage Leather Skinning</Name>
+<MinLevel>80</MinLevel>
+<MaxLevel>87</MaxLevel>
+<MinDurability>0.2</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+<SellGrey>True</SellGrey>
+<SellWhite>True</SellWhite>
+<SellGreen>False</SellGreen>
+<ProtectedItems>
+<Item>52976</Item>
+<Item>52977</Item>
+<Item>62778</Item>
+<Item>67495</Item>
+<Item>8984</Item>
+<Item>10920</Item>
+<Item>6950</Item>
+</ProtectedItems>
+
+  <ForceMail>
+  </ForceMail> 
+
+	<SubProfile>
+		<Name>Savage Leather</Name>
+		<MinLevel>80</MinLevel>
+		<MaxLevel>87</MaxLevel>
+		<Mailboxes>
+		 <!--
+		 <Mailbox X="4503.089" Y="5715.804" Z="81.49169" />
+		 -->
+		</Mailboxes>
+		<Vendors>
+		 <!--
+		 <Vendor Name="Drigoth" Entry="27067" Type="Repair" X="4510.52," Y="5703.353," Z="81.54049" />
+		 <Vendor Name="Matron Magah" Entry="27069" Type="Food" X="4506.357" Y="5707.318" Z="81.52134" />
+		 -->
+		</Vendors>
+
+<Factions>7 38</Factions>
+<Hotspots>
+<Hotspot X="-9080.593" Y="614.5826" Z="151.9135" />
+<Hotspot X="-9185.04" Y="687.2449" Z="189.0155" />
+<Hotspot X="-9415.135" Y="653.121" Z="175.8768" />
+<Hotspot X="-9435.023" Y="765.7332" Z="209.9067" />
+<Hotspot X="-9202.389" Y="752.2789" Z="216.3992" />
+<Hotspot X="-9704.581" Y="799.2254" Z="173.2204" />
+<Hotspot X="-9617.943" Y="626.6156" Z="116.7213" />
+<Hotspot X="-9487.932" Y="520.1184" Z="147.8251" />
+<Hotspot X="-9620.382" Y="343.7639" Z="111.592" />
+<Hotspot X="-9805.935" Y="412.3244" Z="65.58336" />
+<Hotspot X="-9806.769" Y="598.511" Z="63.00579" />
+<Hotspot X="-9822.01" Y="741.278" Z="99.78292" />
+<Hotspot X="-10020.35" Y="708.5082" Z="52.2664" />
+<Hotspot X="-10195.82" Y="893.123" Z="77.30833" />
+<Hotspot X="-10278.25" Y="753.4005" Z="70.49648" />
+<Hotspot X="-10220.95" Y="605.154" Z="56.533" />
+
+</Hotspots>
+
+<AvoidMobs>
+
+</AvoidMobs>
+
+</SubProfile>
+</HBProfile>
