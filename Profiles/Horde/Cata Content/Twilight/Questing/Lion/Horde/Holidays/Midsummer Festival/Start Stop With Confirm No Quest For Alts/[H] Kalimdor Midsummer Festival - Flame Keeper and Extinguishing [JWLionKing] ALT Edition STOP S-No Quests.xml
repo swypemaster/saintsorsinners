@@ -1,0 +1,124 @@
+<HBProfile>
+	<Name>[H] Kalimdor Midsummer Festival - Flame Keeper and Extinguishing [JWLionKing]</Name>
+	<MinLevel>1</MinLevel>
+	<MaxLevel>86</MaxLevel>
+	
+	<MinDurability>0.1</MinDurability>
+	<MinFreeBagSlots>1</MinFreeBagSlots>
+		
+	<QuestOrder>
+
+				<CustomBehavior File="FlyTo" DestName="Durotar Flame Keeper" X="140.2665" Y="-4721.442" Z="17.66885" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="The Northern Barrens Flame Keeper" X="-282.3038" Y="-2668.305" Z="92.87271" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Southern Barrens Flame Keeper" X="-3145.821" Y="-1671.859" Z="91.71788" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Southern Barrens Alliance Bonfire" X="-3374.049" Y="-2218.695" Z="95.18101" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Dustwallow Marsh Flame Keeper" X="-3115.072" Y="-2730.114" Z="33.71868" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Dustwallow Marsh Alliance Bonfire" X="-3443.212" Y="-4234.956" Z="10.47812" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Tanaris Flame Keeper" X="-7111.033" Y="-3655.637" Z="10.0355" />
+	
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Tanaris Alliance Bonfire" X="-7213.89" Y="-3864.191" Z="11.20533" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Un'Goro Flame Keeper"  X="-7603.203" Y="-1550.637" Z="-270.7672" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Un'Goro Alliance Bonfire" X="-7512.138" Y="-1681.888" Z="-280.6839" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Uldum Flame Keeper" X="-9455.567" Y="-850.3611" Z="107.3456" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Uldum Alliance Bonfire" X="-9349.772" Y="-869.9032" Z="121.256" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Silithus Flame Keeper" X="-6987.226" Y="926.5236" Z="8.950293" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Silithus Alliance Bonfire" X="-6767.197" Y="524.0335" Z="-0.7809313" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Feralas Flame Keeper" X="-4580.945" Y="411.7279" Z="41.94276" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Feralas Alliance Bonfire" X="-4394.76" Y="2202.281" Z="11.2954" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Mulgore Flame Keeper" X="-2314.905" Y="-625.512" Z="-9.367841" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Desolace Flame Keeper" X="-1863.198" Y="3066.087" Z="0.7242162" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Desolace Alliance Bonfire" X="-57.45224" Y="1270.39" Z="92.76804" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Stonetalon Flame Keeper" X="941.8869" Y="773.859" Z="104.4763" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Stonetalon Alliance Bonfire" X="1390.391" Y="982.9265" Z="152.7325" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Ashenvale Flame Keeper" X="2130.363" Y="-1261.368" Z="96.99621" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Ashenville Alliance Bonfire" X="3080.15" Y="-3297.044" Z="152.2335" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Darkshore Alliance Bonfire" X="7250.275" Y="-142.7805" Z="17.10818" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Winterspring Flame Keeper" X="6845.819" Y="-4579.915" Z="707.6594" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Winterspring Alliance Bonfire" X="6862.23" Y="-4765.344" Z="697.9692" />
+
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Hyjal Flame Guardian" X="5552.904" Y="-3596.684" Z="1567.824" />
+				
+<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="A Brief Pause, Press continue to move to next point" />
+
+				<CustomBehavior File="FlyTo" DestName="Azshara Flame Keeper" X="3414.949" Y="-6725.637" Z="52.69778" />
+			
+				<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="1" Text="Congratulations on your Achievement!\n\nEnd of Line" />
+
+	</QuestOrder>
+</HBProfile>
