@@ -1,0 +1,894 @@
+﻿<!-- OmikronProjekt-->
+<!-- Questing-Profiles made by Laria  for www.thebuddyforum.com-->
+<!-- You are not allowed to copy this profile or parts of it, or stealing my hours of work for your own reputation in any way. -->
+<HBProfile>
+<Name>Tirisfal 1->11</Name>
+  <MinDurability>0.2</MinDurability>
+  <MinFreeBagSlots>2</MinFreeBagSlots>
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>True</SellGreen>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+  
+
+   <AvoidMobs>
+       <Mob Name="Bauer Solliden" Entry="1936" />
+   </AvoidMobs>
+
+  <BlacklistedQuestgivers>  
+  </BlacklistedQuestgivers>
+
+  <Blackspots>
+
+  </Blackspots>
+  
+<!-- Quest Overrides start -->
+<Quest Id="26802" Name="Die Verdammten">
+	<Objective Type="CollectItem" ItemId="3265" CollectCount="4">
+		<CollectFrom>
+			<Mob Name="Struppiger Aasfresser" Id="1509" />
+		</CollectFrom>
+		<Hotspots>
+			<Hotspot X="2103.11" Y="1494.622" Z="66.24983" />
+			<Hotspot X="2125.167" Y="1613.722" Z="74.51728" />
+			<Hotspot X="2019.849" Y="1612.447" Z="71.46387" />
+			<Hotspot X="2129.026" Y="1375.558" Z="66.81026" />
+		</Hotspots>
+	</Objective>
+	<Objective Type="CollectItem" ItemId="3264" CollectCount="4">
+		<CollectFrom>
+			<Mob Name="Nachtsauger" Id="1512" />
+			<Mob Name="Räudiger Nachtsauger" Id="1513" />
+		</CollectFrom>
+		<Hotspots>
+			<Hotspot X="2103.11" Y="1494.622" Z="66.24983" />
+			<Hotspot X="2125.167" Y="1613.722" Z="74.51728" />
+			<Hotspot X="2019.849" Y="1612.447" Z="71.46387" />
+			<Hotspot X="2129.026" Y="1375.558" Z="66.81026" />
+		</Hotspots>
+	</Objective>
+</Quest>
+
+<Quest Id="24997" Name="Grabräuber">
+	<Objective Type="KillMob" MobId="1941" KillCount="8">
+			<Hotspots>
+				<Hotspot X="2606.351" Y="468.6586" Z="22.76266" />
+				<Hotspot X="2561.816" Y="528.7991" Z="15.19079" />
+			</Hotspots>
+	</Objective>
+
+	<Objective Type="KillMob" MobId="1675" KillCount="5">
+			<Hotspots>
+				<Hotspot X="2816.732" Y="353.3618" Z="22.91257" />
+				<Hotspot X="2891.264" Y="404.0455" Z="26.54923" />
+			</Hotspots>
+	</Objective>
+	
+	<Objective Type="CollectItem" ItemId="2834" CollectCount="6">
+		<CollectFrom>
+			<Mob Name="Grabräuber der Moderfelle" Id="1941" />
+			<Mob Name="Grabräuber der Moderfelle" Id="1675" />
+			<Mob Name="Grabräuber der Moderfelle" Id="1674" />
+		</CollectFrom>
+		<Hotspots>
+			<Hotspot X="2606.351" Y="468.6586" Z="22.76266" />
+			<Hotspot X="2561.816" Y="528.7991" Z="15.19079" />
+			<Hotspot X="2816.732" Y="353.3618" Z="22.91257" />
+			<Hotspot X="2891.264" Y="404.0455" Z="26.54923" />
+		</Hotspots>
+	</Objective>
+</Quest>
+
+<!-- Quest Overrides end -->
+
+  <Vendors>
+<!-- Tirisfal -  Todesend -->
+	<!-- Essen&Getränke -->
+	<Vendor Name="Joshua Kien" Entry="2115" Type="Food" X="1866.022" Y="1574.447" Z="94.31421" />
+
+	<!-- Reparieren -->
+	<Vendor Name="Archibald Kava" Entry="2113" Type="Repair" X="1860.7" Y="1568.518" Z="94.31361" />
+	<Vendor Name="Schmied Rand" Entry="2116" Type="Repair" X="1842.443" Y="1570.188" Z="96.58159" />
+	<Vendor Name="Harold Raims" Entry="2117" Type="Repair" X="1836.039" Y="1568.632" Z="96.58152" />
+
+	<!-- Klassenlehrer -->
+	<Vendor Name="Xavier der Jäger" Entry="38911" Type="Train" TrainClass="Hunter" X="1861.363" Y="1612.109" Z="95.6078" />
+	<Vendor Name="Dunkler Kleriker Duesten" Entry="2123" Type="Train" TrainClass="Priest" X="1848.324" Y="1627.631" Z="96.93351" />
+	<Vendor Name="Isabella" Entry="2124" Type="Train" TrainClass="Mage" X="1847.386" Y="1635.52" Z="96.93379" />
+	<Vendor Name="Maximillion" Entry="2126" Type="Train" TrainClass="Warlock" X="1839.03" Y="1636.539" Z="96.93369" />
+	<Vendor Name="David Trias" Entry="2122" Type="Train" TrainClass="Rogue" X="1859.652" Y="1563.301" Z="94.30682" />
+	<Vendor Name="Dannal Stern" Entry="2119" Type="Train" TrainClass="Warrior" X="1860.85" Y="1557.41" Z="94.78465" />
+
+<!-- Tirisfal - Calstonanwesen -->
+	<!-- Essen&Getränke -->
+	<Vendor Name="Franklin Brinklestein" Entry="44034" Type="Food" X="2234.77" Y="1021.9" Z="36.44942" />
+
+	<!-- Reparieren -->
+	<Vendor Name="Gordo" Entry="10666" Type="Repair" X="2236.313" Y="1027.751" Z="36.42719" />
+	
+	<!-- Klassenlehrer -->
+	<Vendor Name="Dunkle Klerikerin Claressa" Entry="48614" Type="Train" TrainClass="Priest" X="2236.35" Y="1009.74" Z="36.79132" />
+	<Vendor Name="Larah Feuerlied" Entry="48613" Type="Train" TrainClass="Mage" X="2233.2" Y="1009.78" Z="36.64388" />
+	<Vendor Name="Maressa Milner" Entry="48612" Type="Train" TrainClass="Warlock" X="2235.5" Y="1012.34" Z="36.8036" />
+	<Vendor Name="Darna Färber" Entry="48618" Type="Train" TrainClass="Hunter" X="2223.78" Y="1001.81" Z="36.47728" />
+	<Vendor Name="Shernon der Schleicher" Entry="48615" Type="Train" TrainClass="Rogue" X="2221.5" Y="999.688" Z="36.48018" />
+	<Vendor Name="Karla Fain" Entry="48616" Type="Train" TrainClass="Warrior" X="2224.72" Y="998.88" Z="36.53588" />
+
+<!-- Tirisfal - Brill -->
+	<!-- Essen&Getränke -->
+	<Vendor Name="William Saldean" Entry="33996" Type="Food" X="2271.92" Y="268.179" Z="33.69064" />
+	<Vendor Name="Gastwirtin Renee" Entry="5688" Type="Food" X="2285.95" Y="282.613" Z="33.24677" />
+	<Vendor Name="Frau Winters" Entry="2134" Type="Food" X="2305.916" Y="288.5944" Z="33.35689" />
+
+	<!-- Reparieren -->
+	<Vendor Name="Abe Winters" Entry="2135" Type="Repair" X="2291.25" Y="213.134" Z="33.725" />
+	<Vendor Name="Oliver Dwor" Entry="2136" Type="Repair" X="2286.759" Y="210.7122" Z="33.72485" />
+	<Vendor Name="Eliza Kallen" Entry="2137" Type="Repair" X="2302.86" Y="288.523" Z="33.35695" />
+
+	<!-- Klassenlehrer -->
+	<Vendor Name="Dunkler Kleriker Beryll" Entry="2129" Type="Train" TrainClass="Priest" X="2247.62" Y="230.661" Z="34.50972" />
+	<Vendor Name="Dedlow Wermut" Entry="39100" Type="Train" TrainClass="Hunter" X="2231.24" Y="241.385" Z="33.57376" />
+	<Vendor Name="Austil de Mon" Entry="2131" Type="Train" TrainClass="Warrior" X="2283.69" Y="307.608" Z="33.92268" />
+	<Vendor Name="Rupert Boch" Entry="2127" Type="Train" TrainClass="Warlock" X="2320.06" Y="276.998" Z="22.73638" />
+	<Vendor Name="Marion Kall" Entry="2130" Type="Train" TrainClass="Rogue" X="2293.15" Y="266.543" Z="33.35697" />
+	<Vendor Name="Cain Feuerlied" Entry="2128" Type="Train" TrainClass="Mage" X="2238.42" Y="314.6788" Z="34.40245" />
+
+<!-- Tirisfal - Wegstation Todeswacht -->
+	<Vendor Name="Martine Tramblei" Entry="3550" Type="Food" X="2040.915" Y="57.46181" Z="33.86946" /> <!-- Angelbedarf, kein Essen ;) -->
+
+<!-- Tirisfal - Garrens Schlupfwinkel -->
+	<Vendor Name="Lehrling Crispin" Entry="38978" Type="Food" X="2801.549" Y="249.5" Z="31.77237" /> <!-- Phiole&Kräuterbeutel, nix essbares -->
+
+<!-- Tirisfal - Das Bollwerk -->
+	<!-- Essen&Getränke -->
+	<Vendor Name="Versorgerin Elda" Entry="46271" Type="Food" X="1668.34" Y="-720.995" Z="58.91555" />
+	<!--<Vendor Name="Werg Breitklinge" Entry="12943" Type="Food" X="1745.63" Y="-731.786" Z="60.06618" /> --> <!-- Nur Lederverarbeitung, kein Essen -->
+
+	<!-- Reparieren -->
+	<Vendor Name="Kramlod Scharfsicht" Entry="44040" Type="Repair" X="1740.21" Y="-731.88" Z="60.06548" />
+
+<!-- Tirisfal - Unterstadt -->
+	<!-- Essen&Getränke -->
+	<Vendor Name="Tawny Grisette" Entry="4554" Type="Food" X="1559.302" Y="249.6636" Z="-43.10272" />
+	<Vendor Name="Gastwirt Norman" Entry="6741" Type="Food" X="1635.401" Y="223.3312" Z="-43.10286" />
+	
+	<Vendor Name="Morley Bates" Entry="4571" Type="Food" X="1702.38" Y="160.5079" Z="-60.77352" />
+
+	
+	<!-- Reparieren -->
+	<Vendor Name="Lauren Neukamm" Entry="4558" Type="Repair" X="1634.874" Y="260.8276" Z="-43.1027" />
+	<Vendor Name="Walter Ellingson" Entry="4560" Type="Repair" X="1630.405" Y="275.1308" Z="-43.10231" /> 	
+	<Vendor Name="Timothy Weldon" Entry="4559" Type="Repair" X="1623.77" Y="272.4482" Z="-43.10239" />
+	<Vendor Name="Louis Warren" Entry="4557" Type="Repair" X="1616.242" Y="286.5374" Z="-43.10233" />
+	<Vendor Name="Gordon Wendheim" Entry="4556" Type="Repair" X="1610.446" Y="283.261" Z="-43.10204" />
+
+	<Vendor Name="Zane Bradford" Entry="5754" Type="Repair" X="1705.504" Y="205.8569" Z="-62.15887" />
+	<Vendor Name="Sydney Upton" Entry="4570" Type="Repair" X="1702.307" Y="206.8123" Z="-62.15714" />
+	<Vendor Name="Scheldon von Grau" Entry="5821" Type="Repair" X="1692.84" Y="198.1432" Z="-62.17389" />
+	<Vendor Name="Lucille Burgner" Entry="4580" Type="Repair" X="1688.55" Y="190.278" Z="-62.17346" />
+
+	<Vendor Name="Nathaniel Steendocht" Entry="4592" Type="Repair" X="1560.27" Y="129.819" Z="-62.15454" />
+	<Vendor Name="Charles Seaton" Entry="4569" Type="Repair" X="1561.75" Y="133.745" Z="-62.1502" />
+	<Vendor Name="Gillian Moor" Entry="5820" Type="Repair" X="1505.254" Y="198.3939" Z="-62.14251" />
+
+	<Vendor Name="Abigail Sägner" Entry="4604" Type="Repair" X="1629.87" Y="348.382" Z="-62.15196" />
+	<Vendor Name="Geoffrey Hirschbrunn" Entry="4600" Type="Repair" X="1666.31" Y="310.363" Z="-62.15267" />
+	<Vendor Name="Benijah Fenner" Entry="4602" Type="Repair" X="1667.85" Y="308.892" Z="-62.15076" />
+	<Vendor Name="Francis Eliot" Entry="4601" Type="Repair" X="1669.39" Y="307.177" Z="-62.1473" />
+	<Vendor Name="Samuel Van Brunt" Entry="4597" Type="Repair" X="1685.39" Y="284.042" Z="-62.14279" />
+	<Vendor Name="Mirelle Tremayne" Entry="5819" Type="Repair" X="1692.65" Y="281.799" Z="-62.14076" />
+	<Vendor Name="Nicholas Imwald" Entry="4603" Type="Repair" X="1706.634" Y="271.4756" Z="-62.15964" />
+
+	<!-- Klassenlehrer -->
+	<!--<Vendor Name="Lexington Mortaim" Entry="2492" Type="Repair" X="1778.19" Y="65.4829" Z="-46.31992" /> --> <!--Portallehrer-->
+	<Vendor Name="Anastasia Hirschbrunn" Entry="4568" Type="Train" TrainClass="Mage" X="1813.74" Y="56.4138" Z="-47.38713" />
+	<Vendor Name="Pierce Knechtler" Entry="4567" Type="Train" TrainClass="Mage" X="1791.48" Y="53.4081" Z="-61.49237" />
+	<Vendor Name="Kaelystia Hassbringer" Entry="4566" Type="Train" TrainClass="Mage" X="1788.19" Y="57.5156" Z="-61.4897" />
+
+	<Vendor Name="Luther Pickmann" Entry="4564" Type="Train" TrainClass="Warlock" X="1780.31" Y="44.0374" Z="-61.49234" />
+	<Vendor Name="Kaal Seelentod" Entry="4563" Type="Train" TrainClass="Warlock" X="1775.98" Y="46.1265" Z="-61.4896" />
+	<Vendor Name="Martha Sünd" Entry="5753" Type="Train" TrainClass="Warlock" X="1775" Y="50.9962" Z="-61.4898" />
+
+	<Vendor Name="Carolyn Ward" Entry="4582" Type="Train" TrainClass="Rogue" X="1416.642" Y="68.69271" Z="-62.27881" />
+	<Vendor Name="Miles Dexter" Entry="4583" Type="Train" TrainClass="Rogue" X="1419.795" Y="55.70215" Z="-62.27857" />
+	<Vendor Name="Gregory Charles" Entry="4584" Type="Train" TrainClass="Rogue" X="1407.301" Y="58.85395" Z="-62.27881" />
+
+	<Vendor Name="Champion Cyssa Dämmerrose" Entry="20406" Type="Train" TrainClass="Paladin" X="1298.995" Y="316.802" Z="-58.53249" />
+
+	<Vendor Name="Apolos" Entry="39116" Type="Train" TrainClass="Hunter" X="1688.031" Y="398.658" Z="-62.28125" />
+	<Vendor Name="Nathanos Pestrufer" Entry="50609" Type="Train" TrainClass="Hunter" X="1691.972" Y="400.474" Z="-62.29538" />
+
+	<Vendor Name="Baltus Faulner" Entry="4595" Type="Train" TrainClass="Warrior" X="1767.26" Y="418.445" Z="-57.19753" />
+	<Vendor Name="Angela Curthas" Entry="4594" Type="Train" TrainClass="Warrior" X="1775.77" Y="409.607" Z="-57.19766" />
+	<Vendor Name="Christoph Walker" Entry="4593" Type="Train" TrainClass="Warrior" X="1780.46" Y="422.932" Z="-57.19765" />
+
+	<Vendor Name="Vater Lankester" Entry="4607" Type="Train" TrainClass="Priest" X="1784.45" Y="401.799" Z="-57.2143" />
+	<Vendor Name="Aelthalyste" Entry="4606" Type="Train" TrainClass="Priest" X="1768.37" Y="400.57" Z="-57.2145" />
+
+	<Vendor Name="Derek der Unsterbliche" Entry="23103" Type="Train" TrainClass="Mage" X="1773.32" Y="333.295" Z="-62.2881" />
+
+  </Vendors>	
+<Mailboxes>
+	<Mailbox X="1843.52" Y="1585.147" Z="93.64861" /> <!-- Tirisfal/Todesend -->
+	<Mailbox X="2265.056" Y="292.6978" Z="33.69046" /> <!-- Tirisfal/Brill -->
+	<Mailbox X="1484.239" Y="186.5586" Z="-62.19429" /> <!-- Tirisfal/Unterstadt/Schurkenviertel -->
+</Mailboxes>
+
+
+<QuestOrder>
+  <If Condition="Me.Race == WoWRace.Undead">
+	<PickUp QuestName="Frisch aus dem Grab" QuestId="24959" GiverName="Agatha" GiverId="49044" X="1700.2" Y="1703.361" Z="137.1976" />
+	<TurnIn QuestName="Frisch aus dem Grab" QuestId="24959" TurnInName="Totengräber Mordo" TurnInId="1568" X="1689.712" Y="1674.793" Z="135.5913" />
+	<PickUp QuestName="Das Schattengrab" QuestId="28608" GiverName="Totengräber Mordo" GiverId="1568" X="1689.712" Y="1674.793" Z="135.5913" />
+
+	<Objective QuestName="Das Schattengrab" QuestId="28608" Type="CollectItem" ItemId="64582" CollectCount="1" />
+	<Objective QuestName="Das Schattengrab" QuestId="28608" Type="CollectItem" ItemId="64581" CollectCount="1" />
+
+	<TurnIn QuestName="Das Schattengrab" QuestId="28608" TurnInName="Totengräber Mordo" TurnInId="1568" X="1689.712" Y="1674.793" Z="135.5913" />
+	<PickUp QuestName="Die nicht gerettet werden konnten" QuestId="26799" GiverName="Totengräber Mordo" GiverId="1568" X="1689.712" Y="1674.793" Z="135.5913" />
+	<PickUp QuestName="Das Erwachen" QuestId="24960" GiverName="Verwalter Caice" GiverId="2307" X="1685.67" Y="1647.569" Z="137.2404" />
+
+	<If Condition="(HasQuest(24960)) &amp;&amp; (!IsQuestCompleted(24960))">
+
+		<CustomBehavior File="InteractWith" QuestId="24960" ObjectType="Npc" MobId="49231" NumOfTimes="1" GossipOption="1,1,1"  X="1740.36" Y="1704.34" Z="128.8232" /> <!-- Valdred Moray -->
+		<CustomBehavior File="InteractWith" QuestId="24960" ObjectType="Npc" MobId="38895" NumOfTimes="1" GossipOption="1,1" X="1757.48" Y="1666.03" Z="121.2913" /> <!-- Lilian Voss -->
+		<CustomBehavior File="InteractWith" QuestId="24960" ObjectType="Npc" MobId="49230" NumOfTimes="1" GossipOption="1,1" X="1753.89" Y="1640.63" Z="117.5783" /> <!-- Marschall Rotpfad -->
+	</If>
+
+	<Objective QuestName="Die nicht gerettet werden konnten" QuestId="26799" Type="KillMob" MobId="1501" KillCount="6" />
+
+	<TurnIn QuestName="Die nicht gerettet werden konnten" QuestId="26799" TurnInName="Totengräber Mordo" TurnInId="1568" X="1689.712" Y="1674.793" Z="135.5913" />
+
+	<TurnIn QuestName="Das Erwachen" QuestId="24960" TurnInName="Verwalter Caice" TurnInId="2307" X="1685.67" Y="1647.569" Z="137.2404" />
+	<PickUp QuestName="Nach den Gräbern" QuestId="25089" GiverName="Verwalter Caice" GiverId="2307" X="1685.67" Y="1647.569" Z="137.2404" />
+
+	<TurnIn QuestName="Nach den Gräbern" QuestId="25089" TurnInName="Todeswache Saltain" TurnInId="1740" X="1863.128" Y="1604.042" Z="94.67072" />
+	<PickUp QuestName="Rekrutierung" QuestId="26800" GiverName="Todeswache Saltain" GiverId="1740" X="1863.128" Y="1604.042" Z="94.67072" />
+	<PickUp QuestName="Geißel an unseren Grenzen" QuestId="26801" GiverName="Schattenpriester Sarvis" GiverId="1569" X="1843.317" Y="1639.905" Z="97.62814" />
+
+	<Objective QuestName="Geißel an unseren Grenzen" QuestId="26801" Type="KillMob" MobId="1890" KillCount="8" />
+	<CustomBehavior File="InteractWith" QuestId="26800" ObjectType="Npc" MobId="49340" NumOfTimes="6" X="1928.374" Y="1571.893" Z="84.0436" />
+
+	<TurnIn QuestName="Rekrutierung" QuestId="26800" TurnInName="Todeswache Saltain" TurnInId="1740" X="1863.128" Y="1604.042" Z="94.67072" />
+	<TurnIn QuestName="Geißel an unseren Grenzen" QuestId="26801" TurnInName="Schattenpriester Sarvis" TurnInId="1569" X="1843.317" Y="1639.905" Z="97.62814" />
+
+	<If Condition="Me.Class == WoWClass.Hunter">
+		<PickUp QuestName="Die mitgenommene Schriftrolle" QuestId="24962" GiverName="Schattenpriester Sarvis" GiverId="1569" X="1843.317" Y="1639.905" Z="97.62814" />
+	</If>
+
+	<If Condition="Me.Class == WoWClass.Warrior">
+		<PickUp QuestName="Einfache Rolle" QuestId="3095" GiverName="Schattenpriester Sarvis" GiverId="1569" X="1843.317" Y="1639.905" Z="97.62814" />
+	</If>
+
+	<If Condition="Me.Class == WoWClass.Rogue">
+		<PickUp QuestName="Verschlüsselte Rolle" QuestId="3096" GiverName="Schattenpriester Sarvis" GiverId="1569" X="1843.317" Y="1639.905" Z="97.62814" />
+	</If>
+
+	<If Condition="Me.Class == WoWClass.Priest">
+		<PickUp QuestName="Geheiligte Rolle" QuestId="3097" GiverName="Schattenpriester Sarvis" GiverId="1569" X="1843.317" Y="1639.905" Z="97.62814" />
+	</If>
+
+	<If Condition="Me.Class == WoWClass.Mage">
+		<PickUp QuestName="Glyphenrolle" QuestId="3098" GiverName="Schattenpriester Sarvis" GiverId="1569" X="1843.317" Y="1639.905" Z="97.62814" />
+	</If>
+
+	<If Condition="Me.Class == WoWClass.Warlock">
+		<PickUp QuestName="Besudelte Rolle" QuestId="3099" GiverName="Schattenpriester Sarvis" GiverId="1569" X="1843.317" Y="1639.905" Z="97.62814" />
+	</If>
+	
+	<PickUp QuestName="Die Wahrheit des Grabes" QuestId="24961" GiverName="Novize Elreth" GiverId="1661" X="1847.73" Y="1638.654" Z="96.93375" />
+
+
+	<If Condition="Me.Class == WoWClass.Hunter">
+		<TurnIn QuestName="Die mitgenommene Schriftrolle" QuestId="24962" TurnInName="Xavier der Jäger" TurnInId="38911" X="1861.363" Y="1612.109" Z="95.60782" />
+		<PickUp QuestName="Das Jagdfieber" QuestId="24964" GiverName="Xavier der Jäger" GiverId="38911" X="1861.363" Y="1612.109" Z="95.60782" />
+
+		<If Condition="!HasSpell(56641)">
+			<CustomBehavior File="ForceSetVendor" QuestId="24964" VendorType="Train" />
+		</If>
+
+		<CustomBehavior File="CastSpellOn" QuestId="24964" SpellId="56641" NpcId="44794" NumOfTimes="5" HpLeftAmount="100" MinRange="7" X="1833.704" Y="1608.9" Z="95.67603" />
+		<TurnIn QuestName="Das Jagdfieber" QuestId="24964" TurnInName="Xavier der Jäger" TurnInId="38911" X="1861.363" Y="1612.109" Z="95.60782" />
+	</If>
+
+	<If Condition="Me.Class == WoWClass.Warrior">
+		<TurnIn QuestName="Einfache Rolle" QuestId="3095" TurnInName="Dannal Stern" TurnInId="2119" X="1860.85" Y="1557.41" Z="94.78465" />
+		<PickUp QuestName="In den Kampf stürmen" QuestId="24969" GiverName="Dannal Stern" GiverId="2119" X="1860.85" Y="1557.41" Z="94.78465" />
+
+		<If Condition="!HasSpell(100)">
+			<CustomBehavior File="ForceSetVendor" QuestId="24969" VendorType="Train" />
+		</If>
+
+		<CustomBehavior File="CastSpellOn" QuestId="24969" SpellId="100" NpcId="44794" NumOfTimes="1" HpLeftAmount="100" MinRange="7" X="1830.46" Y="1619.54" Z="95.6221" />
+		<TurnIn QuestName="In den Kampf stürmen" QuestId="24969" TurnInName="Dannal Stern" TurnInId="2119" X="1860.85" Y="1557.41" Z="94.78465" />
+	</If>
+
+	<If Condition="Me.Class == WoWClass.Rogue">
+		<TurnIn QuestName="Verschlüsselte Rolle" QuestId="3096" TurnInName="David Trias" TurnInId="2122" X="1859.652" Y="1563.301" Z="94.30682" />
+		<PickUp QuestName="Stich!" QuestId="24967" GiverName="David Trias" GiverId="2122" X="1859.652" Y="1563.301" Z="94.30682" />
+
+		<If Condition="!HasSpell(2098)">
+			<CustomBehavior File="ForceSetVendor" QuestId="24967" VendorType="Train" />
+		</If>
+		
+		<While Condition="((HasQuest(24967)) &amp;&amp; (!IsQuestCompleted(24967)))">
+			<CustomBehavior File="CastSpellOn" QuestId="0" SpellId="1752" NpcId="44794" NumOfTimes="1" HpLeftAmount="100" MinRange="2" Range="3" X="1830.46" Y="1619.54" Z="95.6221" />
+			<CustomBehavior File="CastSpellOn" QuestId="0" SpellId="2098" NpcId="44794" NumOfTimes="1" HpLeftAmount="100" MinRange="2" Range="3" X="1830.46" Y="1619.54" Z="95.6221" />
+		</While>
+
+		<TurnIn QuestName="Stich!" QuestId="24967" TurnInName="David Trias" TurnInId="2122" X="1859.652" Y="1563.301" Z="94.30682" />
+	</If>
+
+	<If Condition="Me.Class == WoWClass.Priest">
+		<TurnIn QuestName="Geheiligte Rolle" QuestId="3097" TurnInName="Dunkler Kleriker Duesten" TurnInId="2123" X="1848.324" Y="1627.631" Z="96.93344" />
+
+		<PickUp QuestName="Von Licht und Schatten" QuestId="24966" GiverName="Dunkler Kleriker Duesten" GiverId="2123" X="1848.324" Y="1627.631" Z="96.93344" />
+
+		<If Condition="!HasSpell(2061)">
+			<CustomBehavior File="ForceSetVendor" QuestId="24966" VendorType="Train" />
+		</If>
+
+		<CustomBehavior File="CastSpellOn" QuestId="24966" SpellId="2061" NpcId="44795" NumOfTimes="5" HpLeftAmount="100" MinRange="3" Range="35" X="1849.28" Y="1644.89" Z="97.62829" />
+
+		<TurnIn QuestName="Von Licht und Schatten" QuestId="24966" TurnInName="Dunkler Kleriker Duesten" TurnInId="2123" X="1848.324" Y="1627.631" Z="96.93344" />
+
+	</If>
+	
+	<If Condition="Me.Class == WoWClass.Mage">
+
+		<TurnIn QuestName="Glyphenrolle" QuestId="3098" TurnInName="Isabella" TurnInId="2124" X="1847.386" Y="1635.52" Z="96.93372" />
+
+
+		<PickUp QuestName="Magielehren" QuestId="24965" GiverName="Isabella" GiverId="2124" X="1847.386" Y="1635.52" Z="96.93372" />
+
+		<If Condition="!HasSpell(5143)">
+			<CustomBehavior File="ForceSetVendor" QuestId="24965" VendorType="Train" />
+		</If>
+
+		<While Condition="((HasQuest(24965)) &amp;&amp; (!IsQuestCompleted(24965)))">
+			<CustomBehavior File="CastSpellOn" QuestId="0" SpellId="133" NpcId="44794" NumOfTimes="1" HpLeftAmount="100" MinRange="5" Range="30" X="1830.46" Y="1619.54" Z="95.6221" />
+			<CustomBehavior File="CastSpellOn" QuestId="0" SpellId="5143" NpcId="44794" NumOfTimes="1" HpLeftAmount="100" MinRange="5" Range="30" X="1830.46" Y="1619.54" Z="95.6221" />
+		</While>
+
+		<TurnIn QuestName="Magielehren" QuestId="24965" TurnInName="Isabella" TurnInId="2124" X="1847.386" Y="1635.52" Z="96.93372" />
+	</If>
+
+	<If Condition="Me.Class == WoWClass.Warlock">
+		<TurnIn QuestName="Besudelte Rolle" QuestId="3099" TurnInName="Maximillion" TurnInId="2126" X="1839.03" Y="1636.539" Z="96.9335" />
+
+		<PickUp QuestName="Dunkle Taten" QuestId="24968" GiverName="Maximillion" GiverId="2126" X="1839.03" Y="1636.539" Z="96.9335" />
+
+		<If Condition="!HasSpell(348)">
+			<CustomBehavior File="ForceSetVendor" QuestId="24968" VendorType="Train" />
+		</If>
+
+	<CustomBehavior File="CastSpellOn" QuestId="24968" SpellId="348" NpcId="44794" NumOfTimes="5" HpLeftAmount="100" MinRange="10" Range="25" X="1820.57" Y="1611.01" Z="95.67164" />
+	
+	<TurnIn QuestName="Dunkle Taten" QuestId="24968" TurnInName="Maximillion" TurnInId="2126" X="1839.03" Y="1636.539" Z="96.9335" />
+	</If>
+	
+	<If Condition="(HasQuest(24961)) &amp;&amp; (!IsQuestCompleted(24961))">
+		<CustomBehavior File="InteractWith" QuestId="24961" ObjectType="Npc" MobId="38910" NumOfTimes="1" GossipOption="1" X="1858.931" Y="1557.054" Z="94.78793" />
+	</If>
+
+	<TurnIn QuestName="Die Wahrheit des Grabes" QuestId="24961" TurnInName="Novize Elreth" TurnInId="1661" X="1847.73" Y="1638.654" Z="96.93375" />
+	<PickUp QuestName="Der Exekutor im Feld" QuestId="28672" GiverName="Novize Elreth" GiverId="1661" X="1847.73" Y="1638.654" Z="96.93375" />
+
+	<TurnIn QuestName="Der Exekutor im Feld" QuestId="28672" TurnInName="Exekutor Arren" TurnInId="1570" X="1996.085" Y="1543.51" Z="77.9978" />
+	<PickUp QuestName="Die Verdammten" QuestId="26802" GiverName="Exekutor Arren" GiverId="1570" X="1996.085" Y="1543.51" Z="77.9978" />
+
+	<Objective QuestName="Die Verdammten" QuestId="26802" Type="CollectItem" ItemId="3265" CollectCount="4" />
+	<Objective QuestName="Die Verdammten" QuestId="26802" Type="CollectItem" ItemId="3264" CollectCount="4" />
+
+	<TurnIn QuestName="Die Verdammten" QuestId="26802" TurnInName="Exekutor Arren" TurnInId="1570" X="1996.085" Y="1543.51" Z="77.9978" />
+	<PickUp QuestName="Nachtweber" QuestId="24973" GiverName="Exekutor Arren" GiverId="1570" X="1996.085" Y="1543.51" Z="77.9978" />
+
+	<Objective QuestName="Nachtweber" QuestId="24973" Type="KillMob" MobId="1504" KillCount="8" />
+	<Objective QuestName="Nachtweber" QuestId="24973" Type="KillMob" MobId="1505" KillCount="5" />
+	
+	<TurnIn QuestName="Nachtweber" QuestId="24973" TurnInName="Exekutor Arren" TurnInId="1570" X="1996.085" Y="1543.51" Z="77.9978" />
+	<PickUp QuestName="Auch nicht besser als die Zombies" QuestId="24970" GiverName="Exekutor Arren" GiverId="1570" X="1996.085" Y="1543.51" Z="77.9978" />
+	<PickUp QuestName="Auch nicht besser als die Zombies" QuestId="24970" GiverName="Exekutor Arren" GiverId="1570" X="1996.085" Y="1543.51" Z="77.9978" />
+
+	<TurnIn QuestName="Auch nicht besser als die Zombies" QuestId="24970" TurnInName="Darnell" TurnInId="49425" X="1962.828" Y="1417.599" Z="67.3794" />
+	<PickUp QuestName="Angriff auf das Lager der Moderhirne" QuestId="24971" GiverName="Darnell" GiverId="49425" X="1962.828" Y="1417.599" Z="67.3794" />
+
+	<Objective QuestName="Angriff auf das Lager der Moderhirne" QuestId="24971" Type="KillMob" MobId="49424" KillCount="1" />
+	<Objective QuestName="Angriff auf das Lager der Moderhirne" QuestId="24971" Type="KillMob" MobId="49422" KillCount="8" />
+
+	<TurnIn QuestName="Angriff auf das Lager der Moderhirne" QuestId="24971" TurnInName="Schattenpriester Sarvis" TurnInId="1569" X="1843.317" Y="1639.905" Z="97.62814" />
+	<PickUp QuestName="Entscheidende Informationen" QuestId="24972" GiverName="Schattenpriester Sarvis" GiverId="1569" X="1843.317" Y="1639.905" Z="97.62814" />
+
+	<TurnIn QuestName="Entscheidende Informationen" QuestId="24972" TurnInName="Todeswache Simmer" TurnInId="1519" X="2220.611" Y="1011.286" Z="37.12392" />
+	<PickUp QuestName="Schnitter der Ernter" QuestId="24978" GiverName="Todeswache Simmer" GiverId="1519" X="2220.611" Y="1011.286" Z="37.12392" />
+	<PickUp QuestName="Felder des Kummers" QuestId="24975" GiverName="Apotheker Johaan" GiverId="1518" X="2217.135" Y="1017.366" Z="37.12366" />
+	<PickUp QuestName="So schrecklich allein" QuestId="24974" GiverName="Sedrick Calston" GiverId="38925" X="2221.394" Y="1011.333" Z="45.25892" /> <!-- Quest muss noch gemacht&abgegeben werden. bissele tricky ...--> 
+
+	<Objective QuestName="Felder des Kummers" QuestId="24975" Type="CollectItem" ItemId="2846" CollectCount="10" />
+	<Objective QuestName="Schnitter der Ernter" QuestId="24978" Type="KillMob" MobId="1934" KillCount="10" />
+
+	<!-- Murloc fangen! -->
+	<If Condition="HasQuest(24974) &amp;&amp; !IsQuestCompleted(24974)" >
+		<While Condition="!Me.HasAura(&quot;Vile Fin Guardian Aura&quot;)" >
+			<CustomBehavior File="CombatUseItemOn" QuestId="24974" ItemId="52059" NpcId="1544" NumOfTimes="1" NpcHPLeft="80" X="2517.438" Y="1419.509" Z="2.557186" />
+		</While>
+		<If Condition="Me.HasAura(&quot;Vile Fin Guardian Aura&quot;)" >
+			<RunTo X="2221.966" Y="1011.973" Z="45.27998" />
+			<CustomBehavior File="WaitTimer" WaitTime="2000"/>
+		</If>
+	</If>
+	<TurnIn QuestName="So schrecklich allein" QuestId="24974" TurnInName="Sedrick Calston" TurnInId="38925" />
+	<!-- Murloc ende ;) -->
+
+	<TurnIn QuestName="Schnitter der Ernter" QuestId="24978" TurnInName="Todeswache Simmer" TurnInId="1519" X="2220.611" Y="1011.286" Z="37.12392" />
+	<PickUp QuestName="Die Scharlachrote Palisade" QuestId="24980" GiverName="Todeswache Simmer" GiverId="1519" X="2220.611" Y="1011.286" Z="37.12392" />
+	<TurnIn QuestName="Felder des Kummers" QuestId="24975" TurnInName="Apotheker Johaan" TurnInId="1518" X="2217.135" Y="1017.366" Z="37.12366" />
+	<PickUp QuestName="Abwechslung ist die Würze des Todes" QuestId="24976" GiverName="Apotheker Johaan" GiverId="1518" X="2217.135" Y="1017.366" Z="37.12366" />
+
+	<Objective QuestName="Abwechslung ist die Würze des Todes" QuestId="24976" Type="CollectItem" ItemId="52067" CollectCount="4" />
+	<Objective QuestName="Abwechslung ist die Würze des Todes" QuestId="24976" Type="CollectItem" ItemId="52066" CollectCount="4" />
+	<CustomBehavior File="InteractWith" QuestId="24976" ObjectType="Npc" MobId="38933" NumOfTimes="8"  X="2590.683" Y="1489.623" Z="-1.446201" />
+	
+	<Objective QuestName="Die Scharlachrote Palisade" QuestId="24980" Type="KillMob" MobId="1535" KillCount="10" />
+
+	<If Condition="((!HasQuest(24979)) &amp;&amp; (!IsQuestCompleted(24979)))" >
+		<If Condition="(!HasItem(52079))" >
+			<SetGrindArea>
+				<GrindArea>
+					<Factions>67</Factions>
+					<Hotspots>
+						<Hotspot X="2429.694" Y="1623.943" Z="35.26504" />
+						<Hotspot X="2340.252" Y="1593.339" Z="35.43361" />
+						<Hotspot X="2354.877" Y="1500.752" Z="34.77124" />
+					</Hotspots>
+				</GrindArea>
+			</SetGrindArea>
+			<GrindTo Condition="(HasItem(52079))" />
+		</If>
+	</If>
+		<If Condition="(HasItem(52079))" >
+		<PickUp QuestName="Ein Scharlachroter Brief" QuestId="24979" GiverType="Item" GiverId="52079" />
+	</If>
+	<While Condition="((HasQuest(24979)) &amp;&amp; (!IsQuestCompleted(24979)))" >
+		<CustomBehavior File="InteractWith" QuestId="24979" ObjectType="Npc" MobId="38999" NumOfTimes="1" GossipOption="1,1,1" X="2447.538" Y="1601.242" Z="72.15613" />
+		<CustomBehavior File="WaitTimer" WaitTime="12000"/>
+	</While>
+
+	<TurnIn QuestName="Ein Scharlachroter Brief" QuestId="24979" TurnInName="Todeswache Simmer" TurnInId="1519" X="2220.611" Y="1011.286" Z="37.12392" />
+	<TurnIn QuestName="Die Scharlachrote Palisade" QuestId="24980" TurnInName="Todeswache Simmer" TurnInId="1519" X="2220.611" Y="1011.286" Z="37.12392" />
+	<TurnIn QuestName="Abwechslung ist die Würze des Todes" QuestId="24976" TurnInName="Apotheker Johaan" TurnInId="1518" X="2217.135" Y="1017.366" Z="37.12366" />
+	<PickUp QuestName="Johaans Experiment" QuestId="24977" GiverName="Apotheker Johaan" GiverId="1518" X="2217.135" Y="1017.366" Z="37.12366" />
+
+	<TurnIn QuestName="Johaans Experiment" QuestId="24977" TurnInName="Gefangener Scharlachroter Zelot" TurnInId="1931" X="2252.24" Y="1013.35" Z="36.47278" />
+
+	<PickUp QuestName="Gordos Aufgabe" QuestId="25038" GiverName="Gordo" GiverId="10666" />
+	<Objective QuestName="Gordos Aufgabe" QuestId="25038" Type="CollectItem" ItemId="12737" CollectCount="3" />
+
+	<PickUp QuestName="Eine eitrige Aufgabe" QuestId="25090" GiverName="Deathguard Dillinger" GiverId="1496" X="2186.042" Y="658.8768" Z="32.98425" />
+	<PickUp QuestName="Die neuen Verlassenen" QuestId="24982" GiverName="Todeswache Dillinger" GiverId="1496" X="2186.042" Y="658.8768" Z="32.98425" />
+
+	<Objective QuestName="Eine eitrige Aufgabe" QuestId="25090" Type="CollectItem" ItemId="2855" CollectCount="7" />
+
+	<TurnIn QuestName="Eine eitrige Aufgabe" QuestId="25090" TurnInName="Todeswache Dillinger" TurnInId="1496" X="2186.042" Y="658.8768" Z="32.98425" />
+
+	<TurnIn QuestName="Gordos Aufgabe" QuestId="25038" TurnInName="Jungapotheker Holland" TurnInId="10665" X="2250.269" Y="316.375" Z="34.81506" />
+	<PickUp QuestName="Herzschlag der Schattenhunde" QuestId="24990" GiverName="Jungapotheker Holland" GiverId="10665" X="2250.269" Y="316.375" Z="34.81506" />
+
+	<PickUp QuestName="Ein Dorn in unserem Auge" QuestId="24981" GiverName="Exekutor Zygand" GiverId="1515" X="2275.082" Y="297.6129" Z="33.6494" />
+
+	<TurnIn QuestName="Die neuen Verlassenen" QuestId="24982" TurnInName="Magistrat Sevren" TurnInId="1499" X="2315.641" Y="273.3351" Z="44.98138" />
+	<PickUp QuestName="Verlassenen-Pflichten" QuestId="24983" GiverName="Magistrate Sevren" GiverId="1499" X="2315.641" Y="273.3351" Z="44.98138" />
+
+	<Objective QuestName="Herzschlag der Schattenhunde" QuestId="24990" Type="CollectItem" ItemId="2858" CollectCount="5" />
+	<Objective QuestName="Ein Dorn in unserem Auge" QuestId="24981" Type="KillMob" MobId="1537" KillCount="3" />
+	<Objective QuestName="Ein Dorn in unserem Auge" QuestId="24981" Type="KillMob" MobId="1536" KillCount="3" />
+	<Objective QuestName="Ein Dorn in unserem Auge" QuestId="24981" Type="CollectItem" ItemId="52077" CollectCount="1" />
+
+	<TurnIn QuestName="Ein Dorn in unserem Auge" QuestId="24981" TurnInName="Exekutor Zygand" TurnInId="1515" X="2275.082" Y="297.6129" Z="33.6494" />
+
+	<If Condition="HasQuest(24992)">
+		<TurnIn QuestName="Aus Gilneas entflohen" QuestId="24992" TurnInName="Exekutor Zygand" TurnInId="1515" X="2275.082" Y="297.6129" Z="33.6494" />
+	</If>
+
+	<If Condition="!HasQuest(24993) &amp;&amp; IsQuestCompleted(24992)">
+		<PickUp QuestName="Vernichtet die Worgen" QuestId="24993" GiverName="Exekutor Zygand" GiverId="1515" X="2275.082" Y="297.6129" Z="33.6494" />
+	</If>
+
+	<TurnIn QuestName="Herzschlag der Schattenhunde" QuestId="24990" TurnInName="Jungapotheker Holland" TurnInId="10665" X="2250.269" Y="316.375" Z="34.81506" />
+	<PickUp QuestName="Hollands Experiment" QuestId="24996" GiverName="Jungapotheker Holland" GiverId="10665" X="2250.269" Y="316.375" Z="34.81506" />
+
+	<TurnIn QuestName="Hollands Experiment" QuestId="24996" TurnInName="Gefangener Gebirgsjäger" TurnInId="2211" X="2244.866" Y="320.3351" Z="40.6015" />
+
+	<PickUp QuestName="Garrens Schlupfwinkel" QuestId="24991" GiverName="Jungapotheker Holland" GiverId="10665" X="2250.269" Y="316.375" Z="34.81506" />
+
+	<PickUp QuestName="Nachschub für Brill" QuestId="6321" GiverName="Todeswache Morris" GiverId="1745" X="2259.19" Y="316.231" Z="33.62688" />
+
+	<TurnIn QuestName="Nachschub für Brill" QuestId="6321" TurnInName="Anette Williams" TurnInId="43124" X="2272.85" Y="374.516" Z="35.8423" />
+	<PickUp QuestName="Flug nach Unterstadt" QuestId="6323" GiverName="Anette Williams" GiverId="43124" X="2272.85" Y="374.516" Z="35.8423" />
+
+	<TurnIn QuestName="Flug nach Unterstadt" QuestId="6323" TurnInName="Gordon Wendheim" TurnInId="4556" X="1610.446" Y="283.261" Z="-43.10206" />
+	<PickUp QuestName="Michael Garrett" QuestId="6322" GiverName="Gordon Wendheim" GiverId="4556" X="1610.446" Y="283.261" Z="-43.10206" />
+
+	<TurnIn QuestName="Michael Garrett" QuestId="6322" TurnInName="Michael Garrett" TurnInId="4551" X="1567.12" Y="266.345" Z="-43.10271" />
+	<PickUp QuestName="Rückkehr zu Morris" QuestId="6324" GiverName="Michael Garrett" GiverId="4551" X="1567.12" Y="266.345" Z="-43.10271" />
+
+	<TurnIn QuestName="Rückkehr zu Morris" QuestId="6324" TurnInName="Todeswache Morris" TurnInId="1745" X="2259.19" Y="316.231" Z="33.62688" />
+
+	<If Condition="HasQuest(24993) &amp;&amp; !IsQuestCompleted(24993)">
+		<Objective QuestName="Vernichtet die Worgen" QuestId="24993" Type="KillMob" MobId="38967" KillCount="5" />
+	</If>
+	<If Condition="HasQuest(24993) &amp;&amp; IsQuestCompleted(24993)">
+		<TurnIn QuestName="Vernichtet die Worgen" QuestId="24993" TurnInName="Exekutor Zygand" TurnInId="1515" X="2275.082" Y="297.6129" Z="33.6494" />
+	</If>
+
+	<TurnIn QuestName="Verlassenen-Pflichten" QuestId="24983" TurnInName="Todeswache Linnea" TurnInId="1495" X="2022.326" Y="74.04601" Z="36.44637" />
+	<PickUp QuestName="Die Kälte des Todes" QuestId="24988" GiverName="Gretchen Dedmar" GiverId="1521" X="2017.219" Y="84.95139" Z="36.74087" />
+
+	<Objective QuestName="Die Kälte des Todes" QuestId="24988" Type="CollectItem" ItemId="2876" CollectCount="5" />
+
+	<TurnIn QuestName="Die Kälte des Todes" QuestId="24988" TurnInName="Gretchen Dedmar" TurnInId="1521" X="2017.219" Y="84.95139" Z="36.74087" />
+	<PickUp QuestName="Rückkehr zum Magistrat" QuestId="24989" GiverName="Todeswache Linnea" GiverId="1495" X="2022.326" Y="74.04601" Z="36.44637" />
+
+	<TurnIn QuestName="Rückkehr zum Magistrat" QuestId="24989" TurnInName="Magistrat Sevren" TurnInId="1499" X="2317.517" Y="279.2354" Z="44.99725" />
+
+	<TurnIn QuestName="Garrens Schlupfwinkel" QuestId="24991" TurnInName="Apotheker Jerrod" TurnInId="38977" X="2796.415" Y="247.5156" Z="32.23892" />
+	<PickUp QuestName="Verdammniskraut" QuestId="24994" GiverName="Apotheker Jerrod" GiverId="38977" X="2796.415" Y="247.5156" Z="32.23892" />
+	<PickUp QuestName="Grabräuber" QuestId="24997" GiverName="Lehrling Crispin" GiverId="38978" X="2801.549" Y="249.5" Z="31.77237" />
+
+	<Objective QuestName="Verdammniskraut" QuestId="24994" Type="CollectItem" ItemId="13702" CollectCount="10" />
+	<Objective QuestName="Grabräuber" QuestId="24997" Type="KillMob" MobId="1941" KillCount="8" />
+	<Objective QuestName="Grabräuber" QuestId="24997" Type="KillMob" MobId="1675" KillCount="5" />
+	<Objective QuestName="Grabräuber" QuestId="24997" Type="CollectItem" ItemId="2834" CollectCount="6" />
+	
+	<TurnIn QuestName="Verdammniskraut" QuestId="24994" TurnInName="Apotheker Jerrod" TurnInId="38977" X="2796.415" Y="247.5156" Z="32.23909" />
+	<PickUp QuestName="Wie Schuppen von den Augen" QuestId="24995" GiverName="Apotheker Jerrod" GiverId="38977" X="2796.415" Y="247.5156" Z="32.23909" />
+
+	<TurnIn QuestName="Grabräuber" QuestId="24997" TurnInName="Lehrling Crispin" TurnInId="38978" X="2801.549" Y="249.5" Z="31.77237" />
+	<PickUp QuestName="Madenauge" QuestId="24998" GiverName="Lehrling Crispin" GiverId="38978" X="2801.549" Y="249.5" Z="31.77237" />
+	<PickUp QuestName="Die Saat der Furcht pflanzen" QuestId="24999" GiverName="Lehrling Crispin" GiverId="38978" X="2801.549" Y="249.5" Z="31.77237" />
+
+	<Objective QuestName="Madenauge" QuestId="24998" Type="CollectItem" ItemId="3635" CollectCount="1" />
+	<Objective QuestName="Wie Schuppen von den Augen" QuestId="24995" Type="CollectItem" ItemId="2859" CollectCount="5" />
+
+	<While Condition="((HasQuest(24999)) &amp;&amp; (!IsQuestCompleted(24999)))">
+		<RunTo X="2975.533" Y="234.0305" Z="2.853957" />
+		<CustomBehavior File="WaitTimer" WaitTime="3000"/>
+		<RunTo X="3009.613" Y="329.5155" Z="1.835196" />
+		<CustomBehavior File="WaitTimer" WaitTime="3000"/>
+		<RunTo X="2995.809" Y="335.1946" Z="5.462598" />
+		<CustomBehavior File="WaitTimer" WaitTime="3000"/>
+	</While>
+
+	<TurnIn QuestName="Madenauge" QuestId="24998" TurnInName="Lehrling Crispin" TurnInId="38978" X="2801.549" Y="249.5" Z="31.77237" />
+	<TurnIn QuestName="Die Saat der Furcht pflanzen" QuestId="24999" TurnInName="Lehrling Crispin" TurnInId="38978" X="2801.549" Y="249.5" Z="31.77237" />
+
+	<TurnIn QuestName="Wie Schuppen von den Augen" QuestId="24995" TurnInName="Apotheker Jerrod" TurnInId="38977" X="2796.415" Y="247.5156" Z="32.23909" />
+	<PickUp QuestName="Auf zu den Mühlen" QuestId="25031" GiverName="Apotheker Jerrod" GiverId="38977" X="2796.415" Y="247.5156" Z="32.23909" />
+
+	<TurnIn QuestName="Auf zu den Mühlen" QuestId="25031" TurnInName="Coleman Heller" TurnInId="1500" X="2936.989" Y="566.5" Z="91.44167" />
+	<PickUp QuestName="Die Familiengruft" QuestId="25003" GiverName="Coleman Heller" GiverId="1500" X="2936.989" Y="566.5" Z="91.44167" />
+
+	<Objective QuestName="Die Familiengruft" QuestId="25003" Type="KillMob" MobId="1534" KillCount="5" />
+	<Objective QuestName="Die Familiengruft" QuestId="25003" Type="KillMob" MobId="1530" KillCount="5" />
+	
+	<TurnIn QuestName="Die Familiengruft" QuestId="25003" TurnInName="Coleman Heller" TurnInId="1500" X="2936.989" Y="566.5" Z="91.44167" />
+	<PickUp QuestName="Die überrannte Mühle" QuestId="25004" GiverName="Coleman Heller" GiverId="1500" X="2936.989" Y="566.5" Z="91.44167" />
+	<PickUp QuestName="Todesfälle in der Familie" QuestId="25029" GiverName="Coleman Heller" GiverId="1500" X="2936.989" Y="566.5" Z="91.44167" />
+
+	<Objective QuestName="Todesfälle in der Familie" QuestId="25029" Type="CollectItem" ItemId="2830" CollectCount="1" />
+	<Objective QuestName="Todesfälle in der Familie" QuestId="25029" Type="CollectItem" ItemId="2829" CollectCount="1" />
+	<Objective QuestName="Todesfälle in der Familie" QuestId="25029" Type="CollectItem" ItemId="2828" CollectCount="1" />
+	<Objective QuestName="Todesfälle in der Familie" QuestId="25029" Type="CollectItem" ItemId="2831" CollectCount="1" />
+
+	<Objective QuestName="Die überrannte Mühle" QuestId="25004" Type="CollectItem" ItemId="3162" CollectCount="5" />
+	<Objective QuestName="Die überrannte Mühle" QuestId="25004" Type="CollectItem" ItemId="3163" CollectCount="3" />
+
+	<TurnIn QuestName="Die überrannte Mühle" QuestId="25004" TurnInName="Coleman Heller" TurnInId="1500" X="2936.989" Y="566.5" Z="91.44167" />
+	<TurnIn QuestName="Todesfälle in der Familie" QuestId="25029" TurnInName="Coleman Heller" TurnInId="1500" X="2936.989" Y="566.5" Z="91.44167" />
+	<PickUp QuestName="Sprecht mit Sevren" QuestId="25005" GiverName="Coleman Heller" GiverId="1500" X="2936.989" Y="566.5" Z="91.44167" />
+
+	<TurnIn QuestName="Sprecht mit Sevren" QuestId="25005" TurnInName="Magistrat Sevren" TurnInId="1499" X="2315.641" Y="273.3351" Z="44.98138" />
+	<PickUp QuestName="Der Griff lockert sich" QuestId="25006" GiverName="Magistrat Sevren" GiverId="1499" X="2315.641" Y="273.3351" Z="44.98138" />
+
+	<PickUp QuestName="Auf Befehl des Kriegshäuptlings: Der Silberwald!" QuestId="26964" GiverName="Exekutor Zygand" GiverId="1515" X="2275.082" Y="297.6129" Z="33.64939" />
+
+	<If Condition="(HasQuest(25006)) &amp;&amp; (!IsQuestCompleted(25006))">
+		<CustomBehavior File="InteractWith" QuestId="25006" ObjectType="Npc" MobId="39117" NumOfTimes="1" GossipOption="1" X="2242.281" Y="230.375" Z="34.50977" />
+		<CustomBehavior File="Escort" QuestId="25006" NpcId="39117" X="2242.281" Y="230.375" Z="34.50977" />
+	</If>
+
+	<TurnIn QuestName="Der Griff lockert sich" QuestId="25006" TurnInName="Magistrat Sevren" TurnInId="1499" X="2315.641" Y="273.3351" Z="44.98138" />
+	<PickUp QuestName="Osten... Stets nach Osten" QuestId="25007" GiverName="Magistrat Sevren" GiverId="1499" X="2315.641" Y="273.3351" Z="44.98138" />
+	<!-- Tirifsfal - Das Bollwerk -->
+	
+	<PickUp QuestName="Grausige Grizzlys" QuestId="25056" GiverName="Apotheker Zitters" GiverId="11057" X="1751.823" Y="-729.9869" Z="60.06618" />
+
+	<TurnIn QuestName="Osten... Stets nach Osten" QuestId="25007" TurnInName="Hochexekutor Derrington" TurnInId="10837" X="1759.283" Y="-729.0208" Z="60.06602" />
+	<PickUp QuestName="Im Krieg mit dem Scharlachroten Kreuzzug" QuestId="25009" GiverName="Hochexekutor Derrington" GiverId="10837" X="1759.283" Y="-729.0208" Z="60.06602" />
+
+	<Objective QuestName="Grausige Grizzlys" QuestId="25056" Type="CollectItem" ItemId="52270" CollectCount="5" />
+
+	<Objective QuestName="Im Krieg mit dem Scharlachroten Kreuzzug" QuestId="25009" Type="KillMob" MobId="1537" KillCount="3" />
+	<Objective QuestName="Im Krieg mit dem Scharlachroten Kreuzzug" QuestId="25009" Type="KillMob" MobId="1538" KillCount="4" />
+
+	<TurnIn QuestName="Im Krieg mit dem Scharlachroten Kreuzzug" QuestId="25009" TurnInName="Hochexekutor Derrington" TurnInId="10837" X="1759.283" Y="-729.0208" Z="60.06602" />
+	<PickUp QuestName="Ein tödlicher neuer Verbündeter" QuestId="25010" GiverName="Hochexekutor Derrington" GiverId="10837" X="1759.283" Y="-729.0208" Z="60.06602" />
+
+	<TurnIn QuestName="Grausige Grizzlys" QuestId="25056" TurnInName="Apotheker Zitters" TurnInId="11057" X="1751.823" Y="-729.9869" Z="60.06618" />
+	<PickUp QuestName="Ein wenig Pep" QuestId="25013" GiverName="Apotheker Zitters" GiverId="11057" X="1751.823" Y="-729.9869" Z="60.06618" />
+
+	<Objective QuestName="Ein wenig Pep" QuestId="25013" Type="CollectItem" ItemId="2872" CollectCount="4" />
+
+	<TurnIn QuestName="Ein tödlicher neuer Verbündeter" QuestId="25010" TurnInName="Leutnant Sanders" TurnInId="13158" X="2533.339" Y="-920.6719" Z="60.98916" />
+	<PickUp QuestName="Die Umarmung einer Tochter" QuestId="25046" GiverName="Leutnant Sanders" GiverId="13158" X="2533.339" Y="-920.6719" Z="60.98916" />
+
+	<If Condition="(HasQuest(25046)) &amp;&amp; (!IsQuestCompleted(25046))">
+		<RunTo X="3066.598" Y="-559.3873" Z="126.7147" />
+		<CustomBehavior File="WaitTimer" WaitTime="4"/>
+	</If>
+
+	<TurnIn QuestName="Ein wenig Pep" QuestId="25013" TurnInName="Apotheker Zitters" TurnInId="11057" X="1751.823" Y="-729.9869" Z="60.06618" />
+
+	<TurnIn QuestName="Die Umarmung einer Tochter" QuestId="25046" TurnInName="Hochexekutor Derrington" TurnInId="10837" X="1759.283" Y="-729.0208" Z="60.06602" />
+	<PickUp QuestName="Auf zu besseren und größeren Taten" QuestId="25011" GiverName="Hochexekutor Derrington" GiverId="10837" X="1759.283" Y="-729.0208" Z="60.06602" />
+
+	<TurnIn QuestName="Auf zu besseren und größeren Taten" QuestId="25011" TurnInName="Timothy Cunningham" TurnInId="37915" X="1730.373" Y="-743.1945" Z="60.06481" />
+	<PickUp QuestName="Schwingt Euch in die Lüfte" QuestId="25012" GiverName="Timothy Cunningham" GiverId="37915" X="1730.373" Y="-743.1945" Z="60.06481" />
+	<CustomBehavior File="InteractWith" QuestId="25012" ObjectType="Npc" MobId="37915" NumOfTimes="1" GossipOption="2" X="1730.373" Y="-743.1945" Z="60.06481" />
+
+	<TurnIn QuestName="Schwingt Euch in die Lüfte" QuestId="25012" TurnInName="Exekutor Zygand" TurnInId="1515" X="2275.082" Y="297.6129" Z="33.6494" />
+
+	<TurnIn QuestName="Auf Befehl des Kriegshäuptlings: Der Silberwald!" QuestId="26964" TurnInName="Großexekutor Mortuus" TurnInId="44615" X="1383" Y="1038.63" Z="54.31712" /> <!-- Diese Quest prüft ob wir mit Guide 1-12 fertig sind ;) -->
+
+	<!-- Ende Untote 1-12, ab hier Blutelfen und Untote zusammen ;) -->
+ </If> <!--ende rassencheck -->
+
+	<If Condition="(Me.Race == WoWRace.Undead) || (Me.Race == WoWRace.BloodElf)" >
+		<PickUp QuestName="Der Kriegshäuptling kommt" QuestId="26965" GiverName="Grand Executor Mortuus" GiverId="44615" />
+	</If>
+</QuestOrder>
+
+  <ProtectedItems>
+    <!-- Instant Poison -->
+    <Item>6497</Item>
+    <Item>6949</Item>
+    <Item>6950</Item>
+    <Item>8926</Item>
+    <Item>8927</Item>
+    <Item>8928</Item>
+    <Item>21927</Item>
+    <Item>43230</Item>
+    <Item>43231</Item>
+	<Item>41599</Item>
+
+    <!--Rune of Teleportation-->
+    <Item>17031</Item>
+
+    <!--Potions-->
+    <!--Healing Potions-->
+    <Item>118</Item>
+    <Item>858</Item>
+    <Item>929</Item>
+    <Item>1710</Item>
+    <Item>3928</Item>
+    <Item>13446</Item>
+    <Item>17556</Item>
+    <Item>28551</Item>
+    <Item>33447</Item>
+
+    <!--Major Healing Potion-->
+    <!--Freshly Baked Bread-->
+    <Item>4541</Item>
+    <!--Mutton Chop-->
+    <Item>3770</Item>
+    <!--Moonberry Juice-->
+    <Item>1645</Item>
+    <!--Morning Glory Dew-->
+    <Item>8766</Item>
+    <!--Lowbie Bags-->
+    <Item>4496</Item>
+    <Item>5571</Item>
+    <Item>828</Item>
+    <Item>5572</Item>
+    <Item>805</Item>
+	<!--Bars, from copper to titansteel!!! Thanks to Cittidel for this and apologies for vendoring his bars. -->
+	<Item>17771</Item>
+	<Item>12360</Item>
+	<Item>23447</Item>
+	<Item>23448</Item>
+	<Item>3577</Item>
+	<Item>23449</Item>
+	<Item>2842</Item>
+	<Item>41163</Item>
+	<Item>37663</Item>
+	<Item>6037</Item>
+	<Item>23446</Item>
+	<Item>2841</Item>
+	<Item>36916</Item>
+	<Item>2840</Item>
+	<Item>11371</Item>
+	<Item>12655</Item>
+	<Item>23445</Item>
+	<Item>23573</Item>
+	<Item>3575</Item>
+	<Item>3860</Item>
+	<Item>36913</Item>
+	<Item>3859</Item>
+	<Item>12359</Item>
+	<Item>3576</Item>
+	
+  </ProtectedItems>
+  <ForceMail>
+    <Item>2589</Item>
+    <!--Linen Cloth-->
+    <Item>2934</Item>
+    <!--Ruined Leather Scraps-->
+    <Item>2592</Item>
+    <!--Wool Cloth-->
+    <Item>4306</Item>
+    <!--Silk cloth-->
+    <Item>4338</Item>
+    <!--Mageweave Cloth-->
+    <Item>14047</Item>
+    <!--Runecloth-->
+    <Item>21877</Item>
+    <!--Netherweave Cloth-->
+    <Item>22470</Item>
+    <!--Frostweave Cloth-->
+    <Item>2318</Item>
+    <!--Light Leather-->
+    <Item>2319</Item>
+    <!--Medium Leather-->
+    <Item>4304</Item>
+    <!--Heavy Leather-->
+    <Item>4234</Item>
+    <!--Thick Leather-->
+    <Item>8170</Item>
+    <!--Rugged Leather-->
+    <Item>21887</Item>
+    <!--Knothide Leathter-->
+    <Item>33568</Item>
+    <!--Borean Leather-->
+    <Item>181166</Item>
+    <!--Bloodthistle-->
+    <Item>2447</Item>
+    <!--Peacebloom-->
+    <Item>765</Item>
+    <!--Silverleaf-->
+    <Item>2449</Item>
+    <!--Earthroot-->
+    <Item>785</Item>
+    <!--Mageroyal-->
+    <Item>2450</Item>
+    <!--Briarthorn-->
+    <Item>2452</Item>
+    <!--Swiftthistle-->
+    <Item>2453</Item>
+    <!--Bruiseweed-->
+    <Item>3355</Item>
+    <!--Wild Steelbloom-->
+    <Item>3356</Item>
+    <!--Kingsblood-->
+    <Item>3357</Item>
+    <!--Liferoot-->
+    <Item>3821</Item>
+    <!--Goldthorn-->
+    <Item>3818</Item>
+    <!--Fadeleaf-->
+    <Item>3358</Item>
+    <!--Khadgar's Whisker-->
+    <Item>3819</Item>
+    <!--Wintersbite-->
+    <Item>8831</Item>
+    <!--Purple Lotus-->
+    <Item>8836</Item>
+    <!--Arthas' Tears-->
+    <Item>8839</Item>
+    <!--Blindweed-->
+    <Item>4625</Item>
+    <!--Firebloom-->
+    <Item>8846</Item>
+    <!--Gromsblood-->
+    <Item>8838</Item>
+    <!--Sungrass-->
+    <Item>13464</Item>
+    <!--Golden Sansam-->
+    <Item>13466</Item>
+    <!--Plaguebloom-->
+    <Item>13465</Item>
+    <!--Mountain Silversage-->
+    <Item>13467</Item>
+    <!--Icecap-->
+    <Item>13463</Item>
+    <!--Dreamfoil-->
+    <Item>13468</Item>
+    <!--Black Lotus-->
+    <Item>22793</Item>
+    <!--Mana Thistle-->
+    <Item>22792</Item>
+    <!--Nightmare Vine-->
+    <Item>22791</Item>
+    <!--Netherbloom-->
+    <Item>22786</Item>
+    <!--Dreaming Glory-->
+    <Item>22787</Item>
+    <!--Ragveil-->
+    <Item>22788</Item>
+    <!--Flame Cap-->
+    <Item>22785</Item>
+    <!--Felweed-->
+    <Item>22789</Item>
+    <!--Terocone-->
+    <Item>22794</Item>
+    <!--Fel Lotus-->
+    <Item>36901</Item>
+    <!--Goldclover-->
+    <Item>191303</Item>
+    <!--Firethorn-->
+    <Item>37921</Item>
+    <!--Deadnettle-->
+    <Item>36904</Item>
+    <!--Tiger Lily-->
+    <Item>36907</Item>
+    <!--Talandra's Rose-->
+    <Item>36903</Item>
+    <!--Adder's Tongue-->
+    <Item>36906</Item>
+    <!--Icethorn-->
+    <Item>36905</Item>
+    <!--Lichbloom-->
+    <Item>36908</Item>
+    <!--Frost Lotus-->
+    <Item>2770</Item>
+    <!--Copper Vein-->
+    <Item>2771</Item>
+    <!--Tin Vein-->
+    <Item>2775</Item>
+    <!--Silver Vein-->
+    <Item>2776</Item>
+    <!--Gold Vein-->
+    <Item>2772</Item>
+    <!--Iron Deposit-->
+    <Item>3858</Item>
+    <!--Mithril Deposit-->
+    <Item>7911</Item>
+    <!--Truesilver Deposit-->
+    <Item>10620</Item>
+    <!--Thorium Vein-->
+    <Item>23425</Item>
+    <!--Adamatite Deposit-->
+    <Item>23424</Item>
+    <!--Fel Iron Deposit-->
+    <Item>23426</Item>
+    <!--Khorium Vein-->
+    <Item>23447</Item>
+    <!--Eternium Vein-->
+    <Item>36909</Item>
+    <!--Cobalt Deposit-->
+    <Item>36912</Item>
+    <!--Saronite Deposit-->
+    <Item>36910</Item>
+    <!--Titanium Vein-->
+    <Item>37705</Item>
+    <!--Crystallized Water-->
+    <Item>17407</Item>
+    <!--Felmist <Mote of Shadow> -->
+    <Item>17378</Item>
+    <!--Swamp Gas <Mote of Water> -->
+    <Item>17408</Item>
+    <!--Arcane Vortex <Mote of Mana> -->
+    <Item>24222</Item>
+    <!--Windy Cloud <Mote of Air>  -->
+    <Item>32544</Item>
+    <!--Steam Cloud <Crystalized Fire> and <Crystalized Water> -->
+    <Item>32522</Item>
+    <!--Cinder Cloud <Crystalized Fire> -->
+    <Item>24879</Item>
+    <!--Arctic Cloud <Crystalized Air> and <Crystalized Water> -->
+    <Item>8499</Item>
+    <!--Tiny Crimson Whelpling-->
+  </ForceMail>
+</HBProfile>
